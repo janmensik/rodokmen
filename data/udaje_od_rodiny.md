@@ -7,9 +7,10 @@ Co víme z vyprávění a rodinných dokumentů – kdo to řekl / odkud to je a
 ### Nejbližší rodina
 - **1 – Mgr. Jan Menšík** (* 7. 1. 1980, Praha, ID 3000001) – výchozí osoba rodokmenu; od roku 2009 žije v Libčicích nad Vltavou.
   - Manželka: **Mgr. Julie Menšík Čákiová roz. Čákiová** (* 22. 5. 1979, Praha, ID 3000002; od roku 2009 žijí společně v Libčicích nad Vltavou; rodiče **Miloslav Čáki** ID 3000008 a **Eva Čákiová** ID 3000009; sestra **Lucie Černíková** ID 3000010 s manželem **Alešem Černíkem** ID 3000017 a dětmi **Davidem Černíkem** * 2004 a **Lenkou Černíkovou** * 2008).
-    - **6 – JUDr. Miloslav Čáki** (* 1. 6. 1947 Vlčice u Trutnova, dětství prožil v Červeněvsi)
+    - **6 – JUDr. Miloslav Čáki** (* 1. 6. 1947 Vlčice u Trutnova, dětství prožil v Červeněvsi čp. 88)
       - Rodiče Miloslava Čákiho:
-        - Otec: **12 – Juraj (Jiří) Čáki** (* asi 1921 Slovensko, Dúbrava nebo Šmigovec v okrese Snina na Zemplíně; varianty příjmení: Čáki, Čaky, Csáky)
+        - Otec: **12 – Juraj (Jiří) Čáki** (* asi 1921 Slovensko, Dúbrava nebo Šmigovec v okrese Snina na Zemplíně; žil v Červeněvsi čp. 88; varianty příjmení: Čáki, Čaky, Csáky)
+          - Bratr Juraje: **Miroslav Čáky**
         - Matka: **13 – Marie Čákiová roz. Bubancová** (narozena jako Bubancová, Dúbrava nebo Šmigovec v okrese Snina)
     - **7 – PhDr. Eva Čákiová roz. Krejzková** (* 1. 11. 1946 Rychnov nad Kněžnou, dětství prožila v Žamberku)
       - Rodiče Evy Čákiové:
