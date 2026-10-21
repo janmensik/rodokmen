@@ -1,19 +1,34 @@
 {
- "nazev": "",
- "popis": "",
- "zapati": "Dohledáno v digitalizovaných matrikách státních oblastních archivů",
- "kontakt": {"jmeno": "", "email": ""},
+ "nazev": "Rodokmen Menšíkových",
+ "popis": "Rodinný rodokmen a kronika rodu Menšíkových, Jarolímových, Holánkových a Henzlových.",
+ "zapati": "Dohledáno v rodinném archivu a digitalizovaných matrikách státních oblastních archivů",
+ "kontakt": {"jmeno": "Honzovi", "email": ""},
  "prihlaseni": {
   "uvod": "Tenhle web je jen pro rodinu a příbuzné.",
   "otazka": "",
   "odpoved": ""
  },
  "uvod": {
-  "nadpis": "",
-  "odstavce": [],
-  "foto": "",
-  "foto_popis": ""
+  "nadpis": "Odkud pochází naše rodina",
+  "odstavce": [
+   "Rodokmen spojuje pražskou větev Menšíkových s předky maminky Zdeňky roz. Jarolímové – obuvníky ze Žlebů, železáři, zámečníky a hamerníky ze Starého Ranska a truhláři a hostinskými z Hluboké na pomezí Vysočiny a Železných hor."
+  ],
+  "foto": "foto_julius_holanek_1889",
+  "foto_popis": "Pradědeček Julius Holánek (1889–1952), zámečník ze Starého Ranska čp. 55"
  },
- "pribeh": {"menu": "", "rod": 8, "tlacitko": ""},
- "zajimavosti_na_uvodu": []
+ "pribeh": {"menu": "Příběh Menšíkových", "rod": 8, "tlacitko": "Přečíst příběh rodu"},
+ "zajimavosti_na_uvodu": [
+  {
+   "nadpis": "Železáři ze Starého Ranska",
+   "text": "Hamernický mistr, uhlíř, kováři a zámečníci – předci z rodu Holánků, Benů a Hlaváčků tvořili páteř staroranských železáren."
+  },
+  {
+   "nadpis": "Tři generace v Hluboké čp. 15",
+   "text": "Kovář Jan Henzl, čtvrtláník Václav Henzl (* 1844) a truhlář a hostinský Franz Henzl (* 1872) se postupně vystřídali na stejném gruntě čp. 15."
+  },
+  {
+   "nadpis": "Jméno Jarolím po přeslici",
+   "text": "Příjmení Jarolím ze Žlebů přežilo dvakrát za sebou díky ženské linii – přes prapraprababičku Barboru a prababičku Emilii (* 1899)."
+  }
+ ]
 }

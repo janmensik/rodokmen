@@ -1,1 +1,86 @@
-{}
+{
+ "Staré Ransko": {
+  "re": "Ransk",
+  "dotaz": "Staré Ransko, Krucemburk, Česko",
+  "lat": 49.6697,
+  "lon": 15.8339
+ },
+ "Hluboká": {
+  "re": "Hlubok",
+  "dotaz": "Hluboká, Krucemburk, okres Havlíčkův Brod, Česko",
+  "lat": 49.6875,
+  "lon": 15.8394
+ },
+ "Žleby": {
+  "re": "Žleb",
+  "dotaz": "Žleby, okres Kutná Hora, Česko",
+  "lat": 49.8886,
+  "lon": 15.4839
+ },
+ "Dolní Krupá": {
+  "re": "Dolní Krup",
+  "dotaz": "Dolní Krupá, okres Havlíčkův Brod, Česko",
+  "lat": 49.6625,
+  "lon": 15.6056
+ },
+ "Chlum": {
+  "re": "\\bChlum\\b",
+  "dotaz": "Chlum, Hlinsko, Česko",
+  "lat": 49.7267,
+  "lon": 15.8758
+ },
+ "Čachotín": {
+  "re": "Čachot",
+  "dotaz": "Čachotín, okres Havlíčkův Brod, Česko",
+  "lat": 49.6758,
+  "lon": 15.5819
+ },
+ "Křižanov": {
+  "re": "Křižanov",
+  "dotaz": "Křižanov, okres Žďár nad Sázavou, Česko",
+  "lat": 49.3878,
+  "lon": 16.1086
+ },
+ "Chlumětín": {
+  "re": "Chlumětín",
+  "dotaz": "Chlumětín, okres Žďár nad Sázavou, Česko",
+  "lat": 49.7239,
+  "lon": 16.0175
+ },
+ "Františkodol": {
+  "re": "Františkodol|Fraunsthal",
+  "dotaz": "Františkodol, Světlá nad Sázavou, Česko",
+  "lat": 49.6478,
+  "lon": 15.3886
+ },
+ "Olešná": {
+  "re": "Olešn|Volešn",
+  "dotaz": "Olešná u Havlíčkova Brodu, Česko",
+  "lat": 49.6819,
+  "lon": 15.5414
+ },
+ "Havlíčkův Brod": {
+  "re": "Havlíčk",
+  "dotaz": "Havlíčkův Brod, Česko",
+  "lat": 49.6078,
+  "lon": 15.5806
+ },
+ "Hradec Králové": {
+  "re": "Hradec Králové",
+  "dotaz": "Hradec Králové, Česko",
+  "lat": 50.2092,
+  "lon": 15.8328
+ },
+ "Rumburk": {
+  "re": "Rumburk",
+  "dotaz": "Rumburk, Česko",
+  "lat": 50.9515,
+  "lon": 14.557
+ },
+ "Česká Kamenice": {
+  "re": "Česká Kamenice",
+  "dotaz": "Česká Kamenice, Česko",
+  "lat": 50.7991,
+  "lon": 14.4173
+ }
+}

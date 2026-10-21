@@ -4,8 +4,8 @@ Tento soubor je vstupní bod. Po každém restartu (nová konverzace, zkrácený
 pak konec `research_log.md` a sekci „Rozpracováno“.
 
 ## Pro koho
-- Výchozí osoba: (doplnit – jméno, rok a místo narození)
-- Kdo s Gemini pracuje a jak chce komunikovat: (doplnit)
+- Výchozí osoba: **Jan Menšík** (* 7. 1. 1980)
+- Kdo s Gemini pracuje a jak chce komunikovat: Jan Menšík (česky, stručně, srozumitelně)
 
 ## Kde co je
 | Soubor | Obsah |
@@ -34,4 +34,7 @@ pak konec `research_log.md` a sekci „Rozpracováno“.
 6. Po změně dat spustím `python3 -I tools/kontrola.py`.
 
 ## Rozpracováno (aktualizovat průběžně)
-- (zatím nic)
+- Vytěžen rodinný strom z `dokumenty/rodokmen.pdf`: 42 přímých předků (kompletní matčina větev až do 8. generace: rody Jarolím, Hůlek, Holánek, Henzl, Šíma, Havel, Hlaváček, Ben) a 12 portrétních fotografií předků.
+- Další krok:
+  1. Doplnit od uživatele rodiče a prarodiče otce **Radima Menšíka (* 1946, Praha)** (č. 4–5, 8–11).
+  2. Ověřit a doplnit matčinu větev v digitalizovaných matrikách (SOA Zámrsk – ARON: Staré Ransko / Krucemburk, Hluboká, Chlum, Chlumětín, Dolní Krupá, Čachotín; SOA Praha – eBadatelna: Žleby u Čáslavi).
