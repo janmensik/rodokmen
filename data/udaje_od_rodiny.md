@@ -9,8 +9,8 @@ Co víme z vyprávění a rodinných dokumentů – kdo to řekl / odkud to je a
   - Manželka: **Mgr. Julie Menšík Čákiová roz. Čákiová** (* 22. 5. 1979, Praha, ID 3000002; od roku 2009 žijí společně v Libčicích nad Vltavou; rodiče **Miloslav Čáki** ID 3000008 a **Eva Čákiová** ID 3000009; sestra **Lucie Černíková** ID 3000010 s manželem **Alešem Černíkem** ID 3000017 a dětmi **Davidem Černíkem** * 2004 a **Lenkou Černíkovou** * 2008).
     - **6 – JUDr. Miloslav Čáki** (* 1. 6. 1947 Vlčice u Trutnova, dětství prožil v Červeněvsi)
       - Rodiče Miloslava Čákiho:
-        - Otec: **12 – Juraj (Jiří) Čáki** (* asi 1921 Slovensko, celá rodina pochází ze Slovenska, varianty příjmení v matrikách: Čáki, Čaki, Čáky, Čaky)
-        - Matka: **13 – Marie Čákiová roz. Čákiová** (narozena jako Čákiová, v rodině uváděna též pod jménem Bubancová)
+        - Otec: **12 – Juraj (Jiří) Čáki** (* asi 1921 Slovensko, Dúbrava nebo Šmigovec v okrese Snina na Zemplíně; varianty příjmení: Čáki, Čaky, Csáky)
+        - Matka: **13 – Marie Čákiová roz. Bubancová** (narozena jako Bubancová, Dúbrava nebo Šmigovec v okrese Snina)
     - **7 – PhDr. Eva Čákiová roz. Krejzková** (* 1. 11. 1946 Rychnov nad Kněžnou, dětství prožila v Žamberku)
       - Rodiče Evy Čákiové:
       - Otec: **14 – Miroslav Krejzek** (1914–1978)

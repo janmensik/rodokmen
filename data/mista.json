@@ -172,5 +172,17 @@
   "dotaz": "Libčice nad Vltavou, okres Praha-západ, Česko",
   "lat": 50.1989,
   "lon": 14.3624
+ },
+ "Dúbrava": {
+  "re": "Dúbrav|Dubrav",
+  "dotaz": "Dúbrava, okres Snina, Slovensko",
+  "lat": 48.876,
+  "lon": 22.3575
+ },
+ "Šmigovec": {
+  "re": "Šmigov|Smigov",
+  "dotaz": "Šmigovec, okres Snina, Slovensko",
+  "lat": 48.892,
+  "lon": 22.3176
  }
 }
