@@ -27,7 +27,7 @@ Co víme z vyprávění a rodinných dokumentů – kdo to řekl / odkud to je a
 - **9 – Ludmila Menšíková** († Praha, ID 3000011) – babička Jana z otcovy strany (matka Radima a Ivana Menšíkových; jméno dědečka č. 8 zatím k doplnění).
 - **3 – Ing. Zdeňka Menšíková roz. Jarolímová** (* 6. 5. 1949 v rozhovoru / * 9. 5. 1949 v CSV, ID 3000006) – matka.
   - Sestra matky:
-    - **Lenka Jarolímová** (* 21. 4. 1962, Hradec Králové, ID 3000015), provdaná za **Martina Hájka** (* 19. 11. 1960, Smiřice, ID 3000024), syn **Václav Hájek** (* 17. 1. 1983, Hradec Králové, ID 3000025).
+    - **Lenka Jarolímová** (* 21. 4. 1962, Hradec Králové, ID 3000015), provdaná za **Ing. arch. Martina Hájka** (* 19. 11. 1960, Smiřice, ID 3000024, architekt), syn **Ing. arch. Václav Hájek** (* 17. 1. 1983, Hradec Králové, ID 3000025, architekt).
 
 ### Větev matky Zdeňky roz. Jarolímové (vytěženo z `dokumenty/rodokmen.pdf`, včetně 12 portrétních fotografií)
 - **6 – Richard Jarolím** (* 26. 3. 1927 Žleby čp. 17 – † 24. 3. 2012 Hradec Králové), ∞ 30. 10. 1948 Rumburk se Zdenkou Holánkovou.
