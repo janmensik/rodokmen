@@ -17,7 +17,7 @@ Co víme z vyprávění a rodinných dokumentů – kdo to řekl / odkud to je a
       - Matka: **15 – Věra Krejzková roz. Černá** (1917–2005)
         - Otec Věry Černé: **30 – Josef Černý** (doplněno 21. 10. 2026)
         - Sourozenec: 1 bratr Věry Černé (syn Josefa Černého)
-    - Sestra Evy Čákiové (teta Julie): **Iva Gajdošová roz. Krejzková** († 2013, Hradec Králové, ID 3000016), manžel MUDr. Gajdoš (lékař). Děti:
+    - Sestra Evy Čákiové (teta Julie): **MUDr. Iva Gajdošová roz. Krejzková** (lékařka, † 2013, Hradec Králové, ID 3000016), manžel pan Gajdoš. Děti:
       - **Barbora Gajdošová** (ID 3000026), partner **René Štefec** (kominík, Praha), dcera **Evelína Štefcová** (* 2013, Praha).
       - **Marek Gajdoš** (ID 3000027, Hradec Králové).
   - Děti Jana a Julie: **Kryštof Adam Menšík** (* 20. 3. 2010, Praha, ID 3000003), **Tea Apolena Menšíková** (* 14. 2. 2013, Praha, ID 3000004), **Hynek Albert Menšík** (* 10. 7. 2015, Praha) a **Jonáš Alex Menšík** (* 5. 12. 2017, Praha).
