@@ -196,5 +196,12 @@
   "dotaz": "Brno, Česko",
   "lat": 49.1922,
   "lon": 16.6113
+ },
+ "Hamry": {
+  "re": "Hamr",
+  "dotaz": "Hamry, okres Chrudim, Česko",
+  "lat": 49.7377,
+  "lon": 15.9273,
+  "osm": "Hamry, okres Chrudim, Pardubický kraj, Česko"
  }
 }

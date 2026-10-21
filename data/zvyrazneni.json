@@ -58,5 +58,17 @@
   ],
   "status": "ok",
   "note": "Zápis o narození a křtu Antonie Havlové"
+ },
+ "ransko_krest_frantisek_holanek_1854": {
+  "boxes": [
+   [
+    0.01,
+    0.03,
+    0.99,
+    0.97
+   ]
+  ],
+  "status": "ok",
+  "note": "Zápis o narození a křtu Františka Holánka"
  }
 }
