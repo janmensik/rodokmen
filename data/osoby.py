@@ -45,11 +45,11 @@ P = {
              f=["roz. Bubancová", "× Juraj (Jiří) Čáki"], r=[],
              note="Matka Miloslava Čákiho. Údaj od rodiny."),
     14: dict(n="Miroslav Krejzek", y="1914–1978", st="fam",
-             f=["* 1914", "× Věra Černá", "† 1978"], r=[],
-             note="Otec Evy Čákiové (dědeček Julie). Údaj od rodiny."),
+             f=["* 1914", "× Věra Černá", "† 10. 5. 1978 Žamberk"], r=[],
+             note="Otec Evy Čákiové (dědeček Julie). Údaj z Geni.com."),
     15: dict(n="Věra Krejzková", y="1917–2005", st="fam",
-             f=["* 1917", "roz. Černá", "× Miroslav Krejzek", "† 2005"], r=[],
-             note="Matka Evy Čákiové (babička Julie). Údaj od rodiny."),
+             f=["* 8. 2. 1917 Poděbrady", "roz. Černá", "× Miroslav Krejzek", "† 7. 11. 2005 Žamberk"], r=[],
+             note="Matka Evy Čákiové (babička Julie), dcera Josefa Černého. Údaj z Geni.com."),
 
     # 4. generace – pradědečci a prababičky Jana z matčiny strany (20–23)
     20: dict(n="Fridrich Hůlek", y="", st="fam",

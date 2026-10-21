@@ -130,5 +130,23 @@
   "dotaz": "Jiříkov, Kámen, okres Havlíčkův Brod, Česko",
   "lat": 49.7153,
   "lon": 15.5186
+ },
+ "Poděbrady": {
+  "re": "Poděbrad",
+  "dotaz": "Poděbrady, Česko",
+  "lat": 50.1425,
+  "lon": 15.1189
+ },
+ "Žamberk": {
+  "re": "Žamberk|Zamberk",
+  "dotaz": "Žamberk, Česko",
+  "lat": 50.0864,
+  "lon": 16.4656
+ },
+ "Smetanova Lhota": {
+  "re": "Smetanova Lhota|Vrabsko",
+  "dotaz": "Smetanova Lhota, okres Písek, Česko",
+  "lat": 49.4447,
+  "lon": 14.0847
  }
 }
