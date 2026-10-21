@@ -34,5 +34,29 @@
   ],
   "status": "ok",
   "note": "Zápis o narození a křtu Emilie Jarolímové"
+ },
+ "krupa_oddani_jan_jarolim_1888": {
+  "boxes": [
+   [
+    0.01,
+    0.1,
+    0.99,
+    0.935
+   ]
+  ],
+  "status": "ok",
+  "note": "Zápis o oddavkách Jana Jarolíma a Antonie Havlové"
+ },
+ "krupa_krest_antonie_havlova_1857": {
+  "boxes": [
+   [
+    0.015,
+    0.18,
+    0.985,
+    0.96
+   ]
+  ],
+  "status": "ok",
+  "note": "Zápis o narození a křtu Antonie Havlové"
  }
 }

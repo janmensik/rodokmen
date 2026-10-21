@@ -118,5 +118,17 @@
   "dotaz": "Dolní Bory, Bory, Česko",
   "lat": 49.4442,
   "lon": 16.0711
+ },
+ "Pohled": {
+  "re": "Pohled|Frauenthal",
+  "dotaz": "Pohled, okres Havlíčkův Brod, Česko",
+  "lat": 49.6053,
+  "lon": 15.6558
+ },
+ "Jiříkov": {
+  "re": "Jiříkov|Jirikow",
+  "dotaz": "Jiříkov, Kámen, okres Havlíčkův Brod, Česko",
+  "lat": 49.7153,
+  "lon": 15.5186
  }
 }

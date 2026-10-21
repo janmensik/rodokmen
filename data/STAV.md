@@ -50,10 +50,17 @@ pak konec `research_log.md` a sekci „Rozpracováno“.
   - Narození a křest Jana Jarolíma 1863 (Žleby 10, pag. 285, sn. 290, nemanželský syn Barbory Jarolímové; nově odhaleni její rodiče obuvník Josef Jarolím a Kateřina roz. Táborská, otec Kateřiny Josef Táborský).
   - Narození a křest Emilie Jarolímové 1899 (Žleby 32, pag. 25, sn. 29, Žleby čp. 37; nově odhalen pradědeček Ignác Jeřábek, učitel v Čachotíně čp. 15).
   - Do rodokmenu přidáni 4 noví předci (Josef Jarolím č. 170, Kateřina Táborská č. 171, Ignác Jeřábek č. 174 a Josef Táborský č. 342).
+- 21. 10. 2026: V matrikách Dolní Krupé (SOA Zámrsk – ARON) ověřeno a doloženo:
+  - Sňatek Jana Jarolíma a Antonie Havlové 29. 5. 1888 v čp. 42 (sign. 5946, pag. 176–177, sn. 102). Jan (24 let, tovaryš obuvnický) a Antonie (31 let, svobodná v čp. 42). Potvrdil zesnulé rodiče: Jana Havla, mistra krejčovského, a Annu roz. Jeřábkovou.
+  - Narození a křest Antonie Havlové 13. 1. 1857 v čp. 42 (sign. 2840, pag. 347–348, sn. 206, zápis č. 5). Dcera krejčího Jana Havla a Anny roz. Jeřábkové.
+  - Na snímku 245 nalezen též křest bratra Ignáce Havla (* 9. 7. 1864 Dolní Krupá čp. 42).
+  - Zápisy nově odhalily a plně doložily další 3 předky v 7. generaci:
+    - **Martin Havel** (č. 172, domkař v Dolní Krupé čp. 42, † před 1857).
+    - **Magdalena Dolanská** (č. 173, z Dolní Krupé čp. 22, † před 1857).
+    - **Josefa Hoffmannová** (č. 175, z Frauenthalu / Pohledu čp. 5, † před 1864), manželka učitele Ignáce Jeřábka (č. 174, který žil v Jiříkově a dožil v Dolní Krupé čp. 42).
+  - V rodokmenu evidováno celkem **103 osob** (z toho 5 doložených zápisů ze snímků matrik).
 - Další krok:
   1. Pokračovat v ověřování matčiny větve:
-     - Sňatek Jana Jarolíma a Antonie Havlové (29. 5. 1888 v Dolní Krupé – SOA Zámrsk / ARON).
-     - Narození Antonie Havlové (13. 1. 1857 v Dolní Krupé čp. 42 – SOA Zámrsk / ARON).
      - Větev Holánků a Šímů ve Starém Ransku (narození Julia Holánka 1889, Františka Holánka 1854, Julie Šímové 1854 – Krucemburk / ARON).
      - Větev Henzlů a Pospíchalů v Hluboké a Chlumu (Franz Henzl 1872, Aloisie Pospíchalová 1875 – Krucemburk / ARON).
   2. Doplnit od uživatele podrobnosti k otcovské větvi:
