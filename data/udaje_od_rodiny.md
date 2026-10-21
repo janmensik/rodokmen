@@ -50,3 +50,12 @@ Co víme z vyprávění a rodinných dokumentů – kdo to řekl / odkud to je a
 - **116 – Tomáš Šíma** (dráb, Staré Ransko čp. 2; otec **232 – Vojtěch Šíma**) & **117 – Marie Halíková** (Volešná = Olešná; rodiče **234 – Ondřej Halík** a **235 – Kateřina Dušková**).
 - **118 – František Ben** (hamernický mistr, Staré Ransko čp. 41) & **119 – Karolina Králíčková** (Česká Kamenice).
 - **120 – Jan Henzl** (kovář, zámečník, Hluboká čp. 15, † před 1872) & **121 – Anna Nowak (Nováková)** (Chlumětín).
+
+## 21. 10. 2026 – Export Google Contacts (`dokumenty/contacts.csv`)
+- **6 – JUDr. Miloslav Čáki** (* 1. 6. 1947), právník (JUDr.), adresa Praha 4 - Háje, Hviezdoslavova 507.
+- **7 – PhDr. Eva Čákiová roz. Krejzková** (* 1. 11. 1946), PhDr., adresa Praha 11 a Vrabsko 21 (Smetanova Lhota).
+- **Jakub Menšík** (* 8. 2. 1977), bratr Jana.
+- **Lenka Hájková roz. Jarolímová** (* 24. 4. 1962), teta Jana.
+- **Václav Hájek** (* 20. 2. 1983), bratranec Jana.
+- Potvrzena data narození dětí: Kryštof (* 20. 3. 2010), Tea (* 14. 2. 2013), Hynek (* 10. 7. 2015), Jonáš (* 5. 12. 2017).
+

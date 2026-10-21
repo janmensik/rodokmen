@@ -19,10 +19,10 @@ P = {
             f=["* 13. 9. 1946 Praha", "inženýr", "× Zdeňka Jarolímová", "† 15. 1. 2021 Praha"], r=[], note="Životní data z rodinného záznamu."),
     5: dict(n="Zdeňka Jarolímová", y="* 1949", st="fam",
             f=["* 1949", "× Radim Menšík"], r=[], note="Žijící – údaje jen základní."),
-    6: dict(n="Miloslav Čáki", y="", st="fam",
-            f=["× Eva Čákiová"], r=[], note="Údaje z exportu MyHeritage / Geni. Doplnit datum a místo narození."),
-    7: dict(n="Eva Čákiová", y="", st="fam",
-            f=["roz. Krejzková", "× Miloslav Čáki"], r=[], note="Rodné příjmení Krejzková (rodiče Miroslav Krejzek a Věra roz. Černá)."),
+    6: dict(n="JUDr. Miloslav Čáki", y="* 1947", st="fam",
+            f=["* 1. 6. 1947", "JUDr.", "× Eva Čákiová"], r=[], note="Právník (JUDr.), manžel Evy Čákiové. Údaj z kontaktů."),
+    7: dict(n="PhDr. Eva Čákiová", y="* 1946", st="fam",
+            f=["* 1. 11. 1946", "PhDr.", "roz. Krejzková", "× Miloslav Čáki"], r=[], note="PhDr., roz. Krejzková (rodiče Miroslav Krejzek a Věra roz. Černá). Údaj z kontaktů."),
 
     # 3. generace – praprarodiče dětí / prarodiče Jana a Julie (8–13)
     8: dict(n="doc. RNDr. Miroslav Menšík", y="1906–1968", st="fam",
@@ -324,7 +324,7 @@ LINES = {
 
 SIDE = [
     dict(k=2, n="Jakub Menšík (* 1977)", t="Bratr Jana.", r=[],
-         vetev=dict(n="Jakub Menšík", y="* 1977", sub="Praha · bratr Jana")),
+         vetev=dict(n="Jakub Menšík", y="* 8. 2. 1977", sub="Praha · bratr Jana")),
     dict(k=3, n="Lucie Černíková roz. Čákiová", t="Sestra Julie (manžel Aleš Černík, děti David Černík * 2004 a Lenka Černíková * 2008).", r=[],
          vetev=dict(n="Lucie Černíková", y="roz. Čákiová", sub="Praha · sestra Julie",
                     manzel=dict(n="Aleš Černík", y="", sub="Praha"),
@@ -333,9 +333,9 @@ SIDE = [
     dict(k=4, n="Ivan Menšík (cca 1942–2012)", t="Bratr Radima Menšíka (strýc Jana), * cca 1942 Praha, † 2012 Praha, pohřben v Čtyřkolech.", r=[],
          vetev=dict(n="Ivan Menšík", y="1942–2012", sub="Praha / Čtyřkoly · bratr Radima")),
     dict(k=5, n="Lenka Hájková roz. Jarolímová (* 1962)", t="Sestra Zdeňky (manžel Martin Hájek * 1960, syn Václav Hájek * 1983).", r=[],
-         vetev=dict(n="Lenka Hájková", y="* 1962", sub="Hradec Králové · roz. Jarolímová",
+         vetev=dict(n="Lenka Hájková", y="* 24. 4. 1962", sub="Hradec Králové · roz. Jarolímová",
                     manzel=dict(n="Martin Hájek", y="* 1960", sub="Smiřice"),
-                    deti=[dict(n="Václav Hájek", y="* 1983", sub="Hradec Králové")])),
+                    deti=[dict(n="Václav Hájek", y="* 20. 2. 1983", sub="Hradec Králové")])),
     dict(k=7, n="Iva Gajdošová († 2013)", t="Sestra Evy Čákiové (teta Julie), † 2013 Hradec Králové; dcera Barbora Gajdošová (partner René Štefec, dcera Evelína Štefcová * 2013) a syn Marek Gajdoš.", r=[],
          vetev=dict(n="Iva Gajdošová", y="† 2013", sub="Hradec Králové · sestra Evy",
                     manzel=dict(n="MUDr. Gajdoš", y="", sub="lékař"),
