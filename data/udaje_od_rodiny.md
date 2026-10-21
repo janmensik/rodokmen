@@ -32,7 +32,7 @@ Co víme z vyprávění a rodinných dokumentů – kdo to řekl / odkud to je a
 
 ### Větev matky Zdeňky roz. Jarolímové (vytěženo z `dokumenty/rodokmen.pdf`, včetně 12 portrétních fotografií)
 - **6 – Richard Jarolím** (* 26. 3. 1927 Žleby čp. 17 – † 24. 3. 2012 Hradec Králové), ∞ 30. 10. 1948 Rumburk se Zdenkou Holánkovou.
-- **7 – Zdenka Holánková** (* 20. 11. 1928 Hluboká čp. 36).
+- **11 – Zdenka Jarolímová roz. Holánková** (* 20. 11. 1928 Hluboká čp. 36) – babička Jana; s manželem Richardem Jarolímem žili v Hradci Králové.
 - **12 – Fridrich Hůlek**, lesní inženýr (otec Richarda Jarolíma; s portrétní fotkou, datum a místo v PDF "?").
 - **13 – Emilie Jarolímová** (* 15. 4. 1899 Žleby čp. 37), dělnice. Sourozenci: Josefa Jarolímová (∞ Rudolf Haňavec * 22. 10. 1896 Žleby čp. 190 → dcera Hana Haňavcová Žleby/Rumburk) a Rudolf Jarolím (* 1. 10. 1903 Žleby čp. 37 → syn Jaroslav Jarolím * 10. 6. 1927 Žleby – † 10. 5. 2012 New York).
 - **14 – Julius Holánek** (* 20. 7. 1889 Staré Ransko čp. 55 – † 1952), zámečník, ∞ 20. 5. 1926 se Sofií Henzl. Sestra: Helena Holánková (* 1896 Staré Ransko čp. 55 – † 1982, ∞ František Měřínský * 4. 6. 1890 Staré Ransko – † 1951 → syn Miloš Měřínský 1924–1998 ∞ Jitka * 1942 → vnučka Jitka Měřínská * 1979 Brno).

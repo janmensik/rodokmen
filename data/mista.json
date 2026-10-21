@@ -72,7 +72,7 @@
   "lon": 15.5806
  },
  "Hradec Králové": {
-  "re": "Hradec Králové",
+  "re": "Hradc?e?i? Králové|Hradec",
   "dotaz": "Hradec Králové, Česko",
   "lat": 50.2092,
   "lon": 15.8328
