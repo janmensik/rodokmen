@@ -59,6 +59,12 @@ pak konec `research_log.md` a sekci „Rozpracováno“.
     - **Magdalena Dolanská** (č. 173, z Dolní Krupé čp. 22, † před 1857).
     - **Josefa Hoffmannová** (č. 175, z Frauenthalu / Pohledu čp. 5, † před 1864), manželka učitele Ignáce Jeřábka (č. 174, který žil v Jiříkově a dožil v Dolní Krupé čp. 42).
   - V rodokmenu evidováno celkem **103 osob** (z toho 5 doložených zápisů ze snímků matrik).
+- 22. 10. 2026: Sjednocení datové struktury a zobrazení ve Stromu i profilech:
+  - Vytvořen modul `tools/fakta.py` pro jednotné formátování let (`years`), struktury údajů (`structure`), podtitulků karet (`card_subtitle`) a extrakci všech údajů pro vyhledávání a mapu (`all_facts`).
+  - Sjednocena data v `data/osoby.py`: životní události v jednotném pořadí (narození `*`, sňatek `×`, úmrtí `†`), povolání (`zam`), bydliště (`bydl`), dívčí příjmení (`roz`), původ (`puvod`) a pohřeb (`pohreb`).
+  - Ve stromu (`tree_chart.py` / `tree.svg`) je zobrazení 100% jednotné: na 2. řádku vždy souhrnné roky (bez míchání celých dat narození), na 3. řádku vždy stejné pořadí `Povolání · Místo`.
+  - V profilu osoby (`osoba/[slug].astro`) vytvořena přehledná strukturovaná karta životních údajů s jednotným pořadím položek a seznamem dětí.
+  - Všechna původní data, místa na mapě i texty zachovány beze ztráty (ověřeno kontrolami a testovacím skriptem).
 - Další krok:
   1. Pokračovat v ověřování matčiny větve:
      - Větev Holánků a Šímů ve Starém Ransku (narození Julia Holánka 1889, Františka Holánka 1854, Julie Šímové 1854 – Krucemburk / ARON).

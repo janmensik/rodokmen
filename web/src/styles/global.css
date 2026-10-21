@@ -54,6 +54,16 @@ main.wide { max-width: 1400px; }
 .card h3 { margin-top: 0; }
 .facts { margin: 0.3rem 0; padding-left: 1.2rem; }
 .facts li { margin: 0.2rem 0; }
+.person-data-card { margin: 1rem 0 1.2rem; background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; }
+.person-table { width: 100%; margin: 0; border-collapse: collapse; font-size: 0.95rem; }
+.person-table th { width: 170px; min-width: 140px; padding: 0.55rem 0.9rem; background: #f7f2ea; color: #65523f; font-weight: 600; border-bottom: 1px solid var(--line); vertical-align: top; text-align: left; }
+.person-table td { padding: 0.55rem 0.9rem; border-bottom: 1px solid var(--line); vertical-align: top; color: var(--ink); }
+.person-table tr:last-child th, .person-table tr:last-child td { border-bottom: none; }
+@media (max-width: 600px) {
+  .person-table th, .person-table td { display: block; width: 100%; }
+  .person-table th { padding-bottom: 0.15rem; background: transparent; border-bottom: none; color: var(--muted); }
+  .person-table td { padding-top: 0.1rem; }
+}
 .note { background: #fff8ea; border-left: 3px solid #efb45f; padding: 0.6rem 0.9rem; border-radius: 4px; }
 
 .person-link { text-decoration: none; }

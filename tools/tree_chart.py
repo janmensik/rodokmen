@@ -4,6 +4,11 @@ Použití: tree_chart.py <out_dir>                         (plakát: SVG + HTML 
          tree_chart.py <out_file.svg> --web <hrefs.json> (klikací SVG pro web – volá ho export_web.py)"""
 import base64, html, json, os, re, shutil, subprocess, sys, tempfile
 
+TOOLS = os.path.dirname(os.path.abspath(__file__))
+if TOOLS not in sys.path:
+    sys.path.insert(0, TOOLS)
+import fakta
+
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.abspath(sys.argv[1]) if len(sys.argv) > 1 else os.path.join(ROOT, "vystupy")
 WEB = "--web" in sys.argv
@@ -66,6 +71,25 @@ def short_subtitle(facts):
     return " · ".join(parts[:2])
 
 
+def card_subtitle(p, is_side=False):
+    """Uniform card subtitle: Povolání · Místo (Job always first, Place always second)."""
+    if isinstance(p, list):
+        return short_subtitle(p)
+    job = p.get("zam", "")
+    place = p.get("bydl", "") or fakta.birth_place(p) or p.get("puvod", "")
+    vztah = p.get("vztah", "")
+    parts = []
+    if job:
+        parts.append(job)
+    if is_side and vztah and not job:
+        parts.append(vztah)
+    if place:
+        parts.append(place)
+    if not parts:
+        return short_subtitle(p.get("f", []))
+    return " · ".join(parts[:2])
+
+
 def color_for_k(k, is_side=False):
     if k == 1:
         return "#5B4A3A"
@@ -119,7 +143,7 @@ if len(child_matches) >= 2 and all(child_matches):
         nid = add_node(f"ch_{idx}", cname, cyr, "dítě Jana a Julie", 0, 1, "#5B4A3A")
         uid = add_unit(f"u_ch_{idx}", 0, [nid], 0.5 + (idx - (n_ch - 1) / 2) * 0.001)
 else:
-    nid = add_node("p_1", p1["n"], p1.get("y", ""), short_subtitle(p1.get("f", [])), 0, 1, "#5B4A3A")
+    nid = add_node("p_1", p1["n"], fakta.years(p1.get("y")), card_subtitle(p1), 0, 1, "#5B4A3A")
     uid = add_unit("u_p_1", 0, [nid], 0.5)
     p_node_id[1] = nid
     p_unit_id[1] = uid
@@ -138,7 +162,7 @@ for k in sorted(k for k in P if k >= 2):
         if kk in P:
             pk = P[kk]
             unk = pk.get("st") == "unk" or pk["n"].startswith("otec neuveden")
-            nid = add_node(f"p_{kk}", pk["n"], pk.get("y", ""), short_subtitle(pk.get("f", [])),
+            nid = add_node(f"p_{kk}", pk["n"], fakta.years(pk.get("y") or fakta.birth_years(pk)), card_subtitle(pk),
                            g, kk if not unk else None, color_for_k(kk), is_unk=unk, photo=PORTRAIT.get(kk))
             p_node_id[kk] = nid
             nids.append(nid)
@@ -162,14 +186,16 @@ for m in visited_couples:
 # 3. Side branches (SIDE)
 def build_side_branch(v, g, k_anchor, skey, parent_uid=None, sibling_k=None, is_top_sibling=False, sib_dir=None, idx_tag="0"):
     name = v["n"]
-    yrs = v.get("y", "")
-    sub = v.get("sub", "")
+    yrs = fakta.years(v.get("y") or fakta.birth_years(v))
+    sub = card_subtitle(v, is_side=True)
     col = color_for_k(k_anchor, is_side=True)
     nid = add_node(f"side_{idx_tag}", name, yrs, sub, g, k_anchor, col, is_side=True)
     nids = [nid]
     if v.get("manzel"):
         sp = v["manzel"]
-        sp_id = add_node(f"side_{idx_tag}_sp", sp["n"], sp.get("y", ""), sp.get("sub", ""), g, k_anchor, col, is_side=True)
+        sp_yrs = fakta.years(sp.get("y") or fakta.birth_years(sp))
+        sp_sub = card_subtitle(sp, is_side=True)
+        sp_id = add_node(f"side_{idx_tag}_sp", sp["n"], sp_yrs, sp_sub, g, k_anchor, col, is_side=True)
         nids.append(sp_id)
     uid = add_unit(f"u_side_{idx_tag}", g, nids, skey,
                    sibling_anchor_k=k_anchor if is_top_sibling else None,
