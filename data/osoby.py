@@ -20,9 +20,11 @@ P = {
     5: dict(n="Zdeňka Jarolímová", y="* 1949", st="fam",
             f=["* 1949", "× Radim Menšík"], r=[], note="Žijící – údaje jen základní."),
     6: dict(n="JUDr. Miloslav Čáki", y="* 1947", st="fam",
-            f=["* 1. 6. 1947", "JUDr.", "× Eva Čákiová"], r=[], note="Právník (JUDr.), manžel Evy Čákiové. Údaj z kontaktů."),
+            f=["* 1. 6. 1947 Vlčice (u Trutnova)", "dětství prožil v Červeněvsi", "JUDr.", "× Eva Čákiová"], r=[],
+            note="Právník (JUDr.), manžel PhDr. Evy Čákiové. Narozen ve Vlčicích u Trutnova, dětství prožil v Červeněvsi. Údaj od rodiny a z kontaktů."),
     7: dict(n="PhDr. Eva Čákiová", y="* 1946", st="fam",
-            f=["* 1. 11. 1946", "PhDr.", "roz. Krejzková", "× Miloslav Čáki"], r=[], note="PhDr., roz. Krejzková (rodiče Miroslav Krejzek a Věra roz. Černá). Údaj z kontaktů."),
+            f=["* 1. 11. 1946 Rychnov nad Kněžnou", "dětství prožila v Žamberku", "PhDr.", "roz. Krejzková", "× Miloslav Čáki"], r=[],
+            note="PhDr., roz. Krejzková (dcera Miroslava Krejzka a Věry roz. Černé). Narozena v Rychnově nad Kněžnou, dětství prožila v Žamberku. Údaj od rodiny a z kontaktů."),
 
     # 3. generace – praprarodiče dětí / prarodiče Jana a Julie (8–13)
     8: dict(n="doc. RNDr. Miroslav Menšík", y="1906–1968", st="fam",

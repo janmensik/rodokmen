@@ -7,10 +7,12 @@ Co víme z vyprávění a rodinných dokumentů – kdo to řekl / odkud to je a
 ### Nejbližší rodina
 - **1 – Jan Menšík** (* 7. 1. 1980, Praha, ID 3000001) – výchozí osoba rodokmenu.
   - Manželka: **Julie Menšík Čákiová** (* 22. 5. 1979, Praha, ID 3000002; rodiče **Miloslav Čáki** ID 3000008 a **Eva Čákiová** ID 3000009; sestra **Lucie Černíková** ID 3000010 s manželem **Alešem Černíkem** ID 3000017 a dětmi **Davidem Černíkem** * 2004 a **Lenkou Černíkovou** * 2008).
-    - Rodiče Miloslava Čákiho (doplněno 21. 10. 2026):
-      - Otec: **12 – Juraj (Jiří) Čáki** (* asi 1921 Slovensko, celá rodina pochází ze Slovenska, varianty příjmení v matrikách: Čáki, Čaki, Čáky, Čaky)
-      - Matka: **13 – Marie Čákiová roz. Čákiová** (narozena jako Čákiová, v rodině uváděna též pod jménem Bubancová)
-    - Rodiče Evy Čákiové (doplněno 21. 10. 2026):
+    - **6 – JUDr. Miloslav Čáki** (* 1. 6. 1947 Vlčice u Trutnova, dětství prožil v Červeněvsi)
+      - Rodiče Miloslava Čákiho:
+        - Otec: **12 – Juraj (Jiří) Čáki** (* asi 1921 Slovensko, celá rodina pochází ze Slovenska, varianty příjmení v matrikách: Čáki, Čaki, Čáky, Čaky)
+        - Matka: **13 – Marie Čákiová roz. Čákiová** (narozena jako Čákiová, v rodině uváděna též pod jménem Bubancová)
+    - **7 – PhDr. Eva Čákiová roz. Krejzková** (* 1. 11. 1946 Rychnov nad Kněžnou, dětství prožila v Žamberku)
+      - Rodiče Evy Čákiové:
       - Otec: **14 – Miroslav Krejzek** (1914–1978)
       - Matka: **15 – Věra Krejzková roz. Černá** (1917–2005)
         - Otec Věry Černé: **30 – Josef Černý** (doplněno 21. 10. 2026)

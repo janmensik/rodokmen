@@ -148,5 +148,23 @@
   "dotaz": "Smetanova Lhota, okres Písek, Česko",
   "lat": 49.4447,
   "lon": 14.0847
+ },
+ "Rychnov nad Kněžnou": {
+  "re": "Rychnov",
+  "dotaz": "Rychnov nad Kněžnou, Česko",
+  "lat": 50.1633,
+  "lon": 16.2748
+ },
+ "Vlčice": {
+  "re": "Vlčic|Wildschütz",
+  "dotaz": "Vlčice, okres Trutnov, Česko",
+  "lat": 50.5686,
+  "lon": 15.8181
+ },
+ "Červeněves": {
+  "re": "Červeněv|Cervenew",
+  "dotaz": "Červeněves, Smidary, okres Hradec Králové, Česko",
+  "lat": 50.2803,
+  "lon": 15.493
  }
 }
