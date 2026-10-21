@@ -35,6 +35,10 @@ pak konec `research_log.md` a sekci „Rozpracováno“.
 7. **Git a živý web (GitHub Pages):** Repozitář je na GitHubu (`https://github.com/janmensik/rodokmen.git`) a web na `https://janmensik.github.io/rodokmen/`. Po každé úpravě (noví předci, matriky, texty, úpravy kódu) proveď Git commit a push do větve `main` (`git push origin main`). GitHub Actions workflow automaticky zaktualizuje web.
 
 ## Rozpracováno (aktualizovat průběžně)
+- 21. 10. 2026: Import předků z GEDCOM (`dokumenty/export-Forest.ged` z Geni.com):
+  - Načteno 43 nových předků v 8. až 11. generaci (roky 1630–1780) v liniích Holánek, Sláma, Dymáček, Žundálek, Škoda, Dobrovolný, Chlebeček (stav `mh`).
+  - Odhalena nejstarší známá řemesla: mlynář Řehoř Škoda (* 1643), slévač a správce hutě Tomáš Dymáček (* 1664), šafář Jan Žundálek (* 1677), kováři a slévači.
+  - V rodokmenu evidováno celkem **100 osob** (z toho 3 doložené zápisy v matrikách).
 - 21. 10. 2026: Doplněno od uživatele pro větev Julie Menšík Čákiové:
   - Otec Miloslava Čákiho: **Juraj (Jiří) Čáki** (* asi 1921, č. 12).
   - Matka Miloslava Čákiho: **Marie Čákiová roz. Bubancová** (č. 13).

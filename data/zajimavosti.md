@@ -11,3 +11,12 @@ Příjmení dědečka [Richarda Jarolíma](/osoba/richard-jarolim-1927/) (1927�
 
 ## Kantor Ignác Jeřábek z Čachotína
 Při čtení křestního zápisu [Emilie Jarolímové](/osoba/emilie-jarolimova-1899/) ze Žlebů se podařilo odkrýt zapomenutou profesi předků z Vysočiny: její pradědeček [Ignác Jeřábek](/osoba/ignac-jerabek/) působil v 19. století jako **učitel v Čachotíně** (čp. 15).
+
+## Správce hutě Tomáš Dymáček (17. století)
+Nejstarší dosud známý předek v železářské linii, [Tomáš Dymáček](/osoba/tomas-dymacek/) (* asi 1664 – † asi 1710), působil v 17. století jako **slévač a správce v huti v Sobíňově**. V roce 1684 se oženil s Dorotou Jeigerovou a založil rodovou tradici hutníků a hamerníků, která pokračovala přes Karla Dymáčka (* 1718, slévač v Ransku) až k 19. století.
+
+## Mlynář Řehoř Škoda z Dolních Borů (* 1643)
+V 11. generaci předků babičky Zdenky Holánkové nacházíme mlynáře [Řehoře Škodu](/osoba/rehor-skoda/) (* asi 1643 – † 1. 7. 1726 v Dolních Borech). V únoru 1678 se oženil se Salomenou Šebkovou ve Skleném.
+
+## Rodové zúžení u křižanovských Holánků
+Václav Holánek (1726–1787, č. 704) a jeho manželka Judita Holánková (1734–1809, č. 705) měli společného předka – oba byli pravnoučaty [Jiřího Holánka](/osoba/jiri-holanek/) (* asi 1630) z Křižanova. Jejich otcové Vít (č. 1408) a Šebestian (č. 2820) byli bratři. Jde o klasické rodové zúžení (implex), velmi typické pro staré venkovské a kovářské rody.

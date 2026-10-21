@@ -88,5 +88,35 @@
   "dotaz": "Česká Kamenice, Česko",
   "lat": 50.7991,
   "lon": 14.4173
+ },
+ "Sobíňov": {
+  "re": "Sobíňov|Sobiňov",
+  "dotaz": "Sobíňov, Česko",
+  "lat": 49.6897,
+  "lon": 15.7533
+ },
+ "Sopoty": {
+  "re": "Sopot",
+  "dotaz": "Sopoty, Sobíňov, Česko",
+  "lat": 49.6975,
+  "lon": 15.7508
+ },
+ "Jívoví": {
+  "re": "Jívov|Jivov",
+  "dotaz": "Jívoví, Česko",
+  "lat": 49.4183,
+  "lon": 16.0825
+ },
+ "Kundratice": {
+  "re": "Kundratic",
+  "dotaz": "Kundratice, Křižanov, Česko",
+  "lat": 49.3781,
+  "lon": 16.1417
+ },
+ "Dolní Bory": {
+  "re": "Dolní Bor|\\bBory\\b",
+  "dotaz": "Dolní Bory, Bory, Česko",
+  "lat": 49.4442,
+  "lon": 16.0711
  }
 }
