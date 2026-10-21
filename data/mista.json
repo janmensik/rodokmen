@@ -166,5 +166,11 @@
   "dotaz": "Červeněves, Smidary, okres Hradec Králové, Česko",
   "lat": 50.2803,
   "lon": 15.493
+ },
+ "Libčice nad Vltavou": {
+  "re": "Libčic",
+  "dotaz": "Libčice nad Vltavou, okres Praha-západ, Česko",
+  "lat": 50.1989,
+  "lon": 14.3624
  }
 }

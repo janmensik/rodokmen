@@ -5,14 +5,18 @@
 P = {
     # 0. generace – děti Jana a Julie
     1: dict(n="Kryštof, Tea, Hynek a Jonáš Menšíkovi", y="* 2010, * 2013, * 2015, * 2017", st="fam", sex="M",
-            f=["Kryštof Adam Menšík (* 2010)", "Tea Apolena Menšíková (* 2013)", "Hynek Albert Menšík (* 2015)", "Jonáš Alex Menšík (* 2017)"],
-            r=[], note="Žijící – údaje jen základní."),
+            f=["Kryštof Adam Menšík (* 20. 3. 2010 Praha)", "Tea Apolena Menšíková (* 14. 2. 2013 Praha)",
+               "Hynek Albert Menšík (* 10. 7. 2015 Praha)", "Jonáš Alex Menšík (* 5. 12. 2017 Praha)",
+               "domov v Libčicích nad Vltavou"],
+            r=[], note="Čtyři děti Jana a Julie, narozené v Praze, žijící v Libčicích nad Vltavou."),
 
     # 1. generace – rodiče (Jan a manželka Julie)
     2: dict(n="Mgr. Jan Menšík", y="* 1980", st="fam",
-            f=["* 1980", "Mgr.", "× Mgr. Julie Menšík Čákiová"], r=[], note="Žijící – údaje jen základní."),
+            f=["* 7. 1. 1980 Praha", "od roku 2009 Libčice nad Vltavou", "Mgr.", "× Mgr. Julie Menšík Čákiová"], r=[],
+            note="Výchozí generace rodokmenu, manžel Mgr. Julie Menšík Čákiové. Narozen v Praze, od roku 2009 žije v Libčicích nad Vltavou."),
     3: dict(n="Mgr. Julie Menšík Čákiová", y="* 1979", st="fam",
-            f=["* 1979", "Mgr.", "roz. Čákiová", "× Mgr. Jan Menšík"], r=[], note="Mgr., roz. Čákiová, manželka Mgr. Jana Menšíka. Žijící – údaje jen základní."),
+            f=["* 22. 5. 1979 Praha", "od roku 2009 Libčice nad Vltavou", "Mgr.", "roz. Čákiová", "× Mgr. Jan Menšík"], r=[],
+            note="Mgr., roz. Čákiová, manželka Mgr. Jana Menšíka. Narozena v Praze, od roku 2009 žije v Libčicích nad Vltavou."),
 
     # 2. generace – prarodiče dětí (rodiče Jana a rodiče Julie)
     4: dict(n="Ing. Radim Jaroslav Menšík", y="1946–2021", st="fam",
