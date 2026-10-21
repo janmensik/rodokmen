@@ -31,7 +31,8 @@ pak konec `research_log.md` a sekci „Rozpracováno“.
 3. Každé hledání (i neúspěšné) zapíšu do `research_log.md`.
 4. Nejistá čtení označím (?) – nic nedomýšlím.
 5. Ke každému novému zápisu: výřez (`tools/vyrez.py`), rámeček (`tools/ramecek.py`) a přepis s překladem.
-6. Po změně dat spustím `python3 -I tools/kontrola.py`.
+6. Po změně dat spustím `python -I -X utf8 tools/kontrola.py` a otestuji `python -I -X utf8 tools/export_web.py`.
+7. **Git a živý web (GitHub Pages):** Repozitář je na GitHubu (`https://github.com/janmensik/rodokmen.git`) a web na `https://janmensik.github.io/rodokmen/`. Po každé úpravě (noví předci, matriky, texty, úpravy kódu) proveď Git commit a push do větve `main` (`git push origin main`). GitHub Actions workflow automaticky zaktualizuje web.
 
 ## Rozpracováno (aktualizovat průběžně)
 - 21. 10. 2026: Doplněno od uživatele pro větev Julie Menšík Čákiové:
