@@ -184,5 +184,17 @@
   "dotaz": "Šmigovec, okres Snina, Slovensko",
   "lat": 48.892,
   "lon": 22.3176
+ },
+ "Bystřice nad Pernštejnem": {
+  "re": "Bystřic.*Pernštejn",
+  "dotaz": "Bystřice nad Pernštejnem, Česko",
+  "lat": 49.523,
+  "lon": 16.2611
+ },
+ "Brno": {
+  "re": "\\bBrn[oěe]\\b",
+  "dotaz": "Brno, Česko",
+  "lat": 49.1922,
+  "lon": 16.6113
  }
 }

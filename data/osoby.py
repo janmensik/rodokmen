@@ -56,9 +56,9 @@ P = {
                 "původem ze Zemplína (Šmigovec / Dúbrava, okres Snina)",
                 "× Juraj (Jiří) Čáki"], r=[],
              note="Matka JUDr. Miloslava Čákiho. Rozená Bubancová, původem z východního Slovenska (Šmigovec nebo Dúbrava, okres Snina, Zemplín)."),
-    14: dict(n="Miroslav Krejzek", y="1914–1978", st="fam",
-             f=["* 1914", "× Věra Černá", "† 10. 5. 1978 Žamberk"], r=[],
-             note="Otec Evy Čákiové (dědeček Julie). Údaj z Geni.com."),
+    14: dict(n="MUDr. Miroslav Krejzek", y="1914–1978", st="fam",
+             f=["* 3. 9. 1914 Bystřice nad Pernštejnem", "lékař (MUDr.), vystudoval v Brně", "měl 5 bratrů", "× Věra Černá", "† 27. 5. 1978 Žamberk"], r=[],
+             note="Lékař (MUDr.), manžel Věry roz. Černé, otec PhDr. Evy Čákiové a MUDr. Ivy Gajdošové (dědeček Julie). Narozen v Bystřici nad Pernštejnem, vystudoval medicínu v Brně, měl 5 bratrů, zemřel v Žamberku."),
     15: dict(n="Věra Krejzková", y="1917–2005", st="fam",
              f=["* 8. 2. 1917 Poděbrady", "roz. Černá", "× Miroslav Krejzek", "† 7. 11. 2005 Žamberk"], r=[],
              note="Matka Evy Čákiové (babička Julie), dcera Josefa Černého. Údaj z Geni.com."),
@@ -343,7 +343,7 @@ LINES = {
     10: ("Jarolímovi a Hůlkovi", "Obuvníci ze Žlebů, krejčí z Dolní Krupé a lesníci; dědeček Richard Jarolím (1927–2012)."),
     11: ("Holánkovi a Henzlovi", "Zámečníci a hamerníci ze Starého Ranska a truhláři z Hluboké; babička Zdenka Holánková (* 1928)."),
     12: ("Čákiovi", "Slovenská větev rodiny Julie Menšík Čákiové – pradědeček Juraj (Jiří) Čáki (* asi 1921) a prababička Marie rozená Bubancová z východního Slovenska (obce Dúbrava a Šmigovec, okres Snina)."),
-    14: ("Krejzkovi a Černí", "Větev pradědečka Miroslava Krejzka (1914–1978) a prababičky Věry roz. Černé (1917–2005)."),
+    14: ("Krejzkovi a Černí", "Větev pradědečka MUDr. Miroslava Krejzka (1914–1978, Bystřice nad Pernštejnem / Žamberk) a prababičky Věry roz. Černé (1917–2005, Poděbrady / Žamberk)."),
 }
 
 SIDE = [
@@ -369,6 +369,8 @@ SIDE = [
                           dict(n="Marek Gajdoš", y="", sub="Hradec Králové")])),
     dict(k=12, n="Miroslav Čáky", t="Bratr Juraje Čákiho, původem ze Slovenska (Zemplín / Snina).", r=[],
          vetev=dict(n="Miroslav Čáky", y="", sub="bratr Juraje · Čáky")),
+    dict(k=14, n="5 bratrů Krejzkových", t="Pět bratrů MUDr. Miroslava Krejzka z Bystřice nad Pernštejnem.", r=[],
+         vetev=dict(n="bratři Krejzkovi", y="", sub="5 bratrů Miroslava · Bystřice nad Pernštejnem")),
     dict(k=15, n="bratr Věry Černé", t="Bratr Věry Krejzkové roz. Černé, syn Josefa Černého.", r=[],
          vetev=dict(n="bratr Černý", y="", sub="bratr Věry · syn Josefa")),
     dict(k=21, n="Josefa Haňavcová roz. Jarolímová", t="Sestra Emilie, Žleby čp. 37. Manžel Rudolf Haňavec (* 22. 10. 1896 Žleby čp. 190), dcera Hana Hrachová roz. Haňavcová (Žleby / Rumburk, manžel Jan Hrach).", r=[],

@@ -14,7 +14,7 @@ Co víme z vyprávění a rodinných dokumentů – kdo to řekl / odkud to je a
         - Matka: **13 – Marie Čákiová roz. Bubancová** (narozena jako Bubancová, Dúbrava nebo Šmigovec v okrese Snina)
     - **7 – PhDr. Eva Čákiová roz. Krejzková** (* 1. 11. 1946 Rychnov nad Kněžnou, dětství prožila v Žamberku)
       - Rodiče Evy Čákiové:
-      - Otec: **14 – Miroslav Krejzek** (1914–1978)
+      - Otec: **14 – MUDr. Miroslav Krejzek** (* 3. 9. 1914 Bystřice nad Pernštejnem, lékař, studium v Brně, 5 bratrů, † 27. 5. 1978 Žamberk)
       - Matka: **15 – Věra Krejzková roz. Černá** (1917–2005)
         - Otec Věry Černé: **30 – Josef Černý** (doplněno 21. 10. 2026)
         - Sourozenec: 1 bratr Věry Černé (syn Josefa Černého)
