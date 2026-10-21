@@ -5,8 +5,8 @@ Co víme z vyprávění a rodinných dokumentů – kdo to řekl / odkud to je a
 ## 21. 10. 2026 – Jan Menšík (rozhovor + `dokumenty/rodokmen.pdf` + `dokumenty/myheritage_seznam_lidi.csv`)
 
 ### Nejbližší rodina
-- **1 – Jan Menšík** (* 7. 1. 1980, Praha, ID 3000001) – výchozí osoba rodokmenu.
-  - Manželka: **Julie Menšík Čákiová** (* 22. 5. 1979, Praha, ID 3000002; rodiče **Miloslav Čáki** ID 3000008 a **Eva Čákiová** ID 3000009; sestra **Lucie Černíková** ID 3000010 s manželem **Alešem Černíkem** ID 3000017 a dětmi **Davidem Černíkem** * 2004 a **Lenkou Černíkovou** * 2008).
+- **1 – Mgr. Jan Menšík** (* 7. 1. 1980, Praha, ID 3000001) – výchozí osoba rodokmenu.
+  - Manželka: **Mgr. Julie Menšík Čákiová roz. Čákiová** (* 22. 5. 1979, Praha, ID 3000002; rodiče **Miloslav Čáki** ID 3000008 a **Eva Čákiová** ID 3000009; sestra **Lucie Černíková** ID 3000010 s manželem **Alešem Černíkem** ID 3000017 a dětmi **Davidem Černíkem** * 2004 a **Lenkou Černíkovou** * 2008).
     - **6 – JUDr. Miloslav Čáki** (* 1. 6. 1947 Vlčice u Trutnova, dětství prožil v Červeněvsi)
       - Rodiče Miloslava Čákiho:
         - Otec: **12 – Juraj (Jiří) Čáki** (* asi 1921 Slovensko, celá rodina pochází ze Slovenska, varianty příjmení v matrikách: Čáki, Čaki, Čáky, Čaky)
@@ -25,7 +25,7 @@ Co víme z vyprávění a rodinných dokumentů – kdo to řekl / odkud to je a
 - **4 – Radim Menšík** (* 9. 9. 1946 v rozhovoru / * 13. 9. 1946 v CSV, Praha, ID 3000005) – otec Jana.
   - Bratr otce (strýc Jana): **Ivan Menšík** († 2012, Praha, ID 3000012).
 - **9 – Ludmila Menšíková** († Praha, ID 3000011) – babička Jana z otcovy strany (matka Radima a Ivana Menšíkových; jméno dědečka č. 8 zatím k doplnění).
-- **3 – Zdeňka Menšíková roz. Jarolímová** (* 6. 5. 1949 v rozhovoru / * 9. 5. 1949 v CSV, ID 3000006) – matka.
+- **3 – Ing. Zdeňka Menšíková roz. Jarolímová** (* 6. 5. 1949 v rozhovoru / * 9. 5. 1949 v CSV, ID 3000006) – matka.
   - Sestra matky:
     - **Lenka Jarolímová** (* 21. 4. 1962, Hradec Králové, ID 3000015), provdaná za **Martina Hájka** (* 19. 11. 1960, Smiřice, ID 3000024), syn **Václav Hájek** (* 17. 1. 1983, Hradec Králové, ID 3000025).
 

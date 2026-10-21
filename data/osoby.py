@@ -9,16 +9,16 @@ P = {
             r=[], note="Žijící – údaje jen základní."),
 
     # 1. generace – rodiče (Jan a manželka Julie)
-    2: dict(n="Jan Menšík", y="* 1980", st="fam",
-            f=["* 1980", "× Julie Menšík Čákiová"], r=[], note="Žijící – údaje jen základní."),
-    3: dict(n="Julie Menšík Čákiová", y="* 1979", st="fam",
-            f=["* 1979", "× Jan Menšík"], r=[], note="Žijící – údaje jen základní."),
+    2: dict(n="Mgr. Jan Menšík", y="* 1980", st="fam",
+            f=["* 1980", "Mgr.", "× Mgr. Julie Menšík Čákiová"], r=[], note="Žijící – údaje jen základní."),
+    3: dict(n="Mgr. Julie Menšík Čákiová", y="* 1979", st="fam",
+            f=["* 1979", "Mgr.", "roz. Čákiová", "× Mgr. Jan Menšík"], r=[], note="Mgr., roz. Čákiová, manželka Mgr. Jana Menšíka. Žijící – údaje jen základní."),
 
     # 2. generace – prarodiče dětí (rodiče Jana a rodiče Julie)
     4: dict(n="Ing. Radim Jaroslav Menšík", y="1946–2021", st="fam",
-            f=["* 13. 9. 1946 Praha", "inženýr", "× Zdeňka Jarolímová", "† 15. 1. 2021 Praha"], r=[], note="Životní data z rodinného záznamu."),
-    5: dict(n="Zdeňka Jarolímová", y="* 1949", st="fam",
-            f=["* 1949", "× Radim Menšík"], r=[], note="Žijící – údaje jen základní."),
+            f=["* 13. 9. 1946 Praha", "inženýr", "× Ing. Zdeňka Menšíková", "† 15. 1. 2021 Praha"], r=[], note="Životní data z rodinného záznamu."),
+    5: dict(n="Ing. Zdeňka Menšíková", y="* 1949", st="fam",
+            f=["* 1949", "Ing.", "roz. Jarolímová", "× Ing. Radim Jaroslav Menšík"], r=[], note="Ing., roz. Jarolímová, matka Jana Menšíka. Žijící – údaje jen základní."),
     6: dict(n="JUDr. Miloslav Čáki", y="* 1947", st="fam",
             f=["* 1. 6. 1947 Vlčice (u Trutnova)", "dětství prožil v Červeněvsi čp. 84", "JUDr.", "× Eva Čákiová"], r=[],
             note="Právník (JUDr.), manžel PhDr. Evy Čákiové. Narozen ve Vlčicích u Trutnova, dětství prožil v Červeněvsi čp. 84 (uváděn též s pravopisem Čaky). Údaj od rodiny a z veřejných rejstříků."),
