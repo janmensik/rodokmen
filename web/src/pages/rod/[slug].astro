@@ -13,7 +13,7 @@ const gens = [...new Set(members.map((p) => p.gen))].sort((a, b) => a - b);
 const partnerLine = lineByK[l.k ^ 1];
 ---
 <Base title={`Rod ${l.name}`}>
-  <p class="crumbs"><a href="/rody/">Rody</a></p>
+  <p class="crumbs"><a href={href.to('/rody/')}>Rody</a></p>
   <h1><span style={`display:inline-block;width:.8em;height:.8em;border-radius:50%;background:${l.color};margin-right:.3em`}></span>{l.name}</h1>
   <p class="lead">{l.desc}</p>
   <p>Rod začíná u <PersonLink slug={l.root} /> ({people[l.root].rel}).

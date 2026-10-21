@@ -83,7 +83,7 @@ def years(y):
     if y.startswith(("?", "†")):   # neznámé narození: ukázat jen úmrtí („? – před 1743“ → „† před 1743“)
         return "† " + ("před " if "před" in y else "") + ys[-1]
     if y.startswith("*"):
-        return "* " + ys[0]
+        return ", ".join("* " + x for x in ys) if "–" not in y else "* " + ys[0]
     if len(ys) == 1:
         return approx + ys[0]
     tail = y.split("–")[-1]
@@ -332,9 +332,14 @@ def main():
     write(os.path.join(gen_dir, "pribeh.md"), strip_comments(open(story, encoding="utf-8").read()) if has_story else "---\ntitle: Příběh\nlead: ''\n---\n")
 
     hrefs = os.path.join(gen_dir, "fan_hrefs.json")
-    json.dump({k: f"/osoba/{s}/" for k, s in slugs.items()}, open(hrefs, "w"))
+    base = os.environ.get("BASE_URL", cfg.get("base", "/rodokmen")).rstrip("/")
+    href_prefix = f"{base}/" if base else "/"
+    json.dump({k: f"{href_prefix}osoba/{s}/" for k, s in slugs.items()}, open(hrefs, "w"))
     subprocess.run([sys.executable, "-I", "-X", "utf8", os.path.join(TOOLS, "fan_chart.py"),
                     os.path.join(gen_dir, "fan.svg"), "--web", hrefs], check=True, capture_output=True)
+    if os.path.exists(os.path.join(TOOLS, "tree_chart.py")):
+        subprocess.run([sys.executable, "-I", "-X", "utf8", os.path.join(TOOLS, "tree_chart.py"),
+                        os.path.join(gen_dir, "tree.svg"), "--web", hrefs], check=True, capture_output=True)
 
     gated = login_files(cfg)
 

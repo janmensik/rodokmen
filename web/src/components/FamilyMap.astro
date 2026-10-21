@@ -5,8 +5,8 @@ import site from '../data/site.json';
 import { lineByK, people, href } from '../lib/data.js';
 const { height = '70vh', compact = false } = Astro.props;
 const ROOT_COLOR = '#8a6d52';
-const lines = Object.fromEntries(Object.values(lineByK).map((l) => [l.k, { name: l.name, color: l.color, slug: l.slug }]));
-lines[0] = { name: 'rodiče a prarodiče', color: ROOT_COLOR, slug: null };
+const lines = Object.fromEntries(Object.values(lineByK).map((l) => [l.k, { name: l.name, color: l.color, slug: l.slug, href: href.line(l.slug) }]));
+lines[0] = { name: 'rodiče a prarodiče', color: ROOT_COLOR, slug: null, href: null };
 const names = {};
 for (const pl of site.places) for (const l of pl.lines) for (const s of l.people) names[s] = [people[s].name, people[s].years, href.person(s)];
 const payload = JSON.stringify({ places: site.places, lines, names, compact });
@@ -73,7 +73,7 @@ const payload = JSON.stringify({ places: site.places, lines, names, compact });
         const who = ln.people
           .map((s) => `<a href="${esc(names[s][2])}">${esc(names[s][0])}</a>${names[s][1] ? ` <span class="y">${esc(names[s][1])}</span>` : ''}`)
           .join('<br>');
-        const head = line.slug ? `<a href="/rod/${esc(line.slug)}/">${esc(line.name)}</a>` : esc(line.name);
+        const head = line.href ? `<a href="${esc(line.href)}">${esc(line.name)}</a>` : esc(line.name);
         marker.bindPopup(
           `<strong>${esc(pl.name)}</strong>${pl.years ? ` <span class="y">${pl.years[0]}–${pl.years[1]}</span>` : ''}<br>` +
             `<span class="pl" style="--c:${esc(line.color)}">${head}</span><br>` +

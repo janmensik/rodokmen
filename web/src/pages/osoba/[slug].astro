@@ -71,7 +71,7 @@ const path = [...p.path].reverse().filter(Boolean);
   {p.docs.length > 0 && (
     <>
       <h2>Rodinné dokumenty</h2>
-      <div class="docs">{p.docs.map((d) => <figure><a href={`/img/${d.img}.jpg`} target="_blank" rel="noopener"><img src={`/img/${d.img}.jpg`} alt={d.caption} loading="lazy" /></a><figcaption>{d.caption}</figcaption></figure>)}</div>
+      <div class="docs">{p.docs.map((d) => <figure><a href={href.to(`/img/${d.img}.jpg`)} target="_blank" rel="noopener"><img src={href.to(`/img/${d.img}.jpg`)} alt={d.caption} loading="lazy" /></a><figcaption>{d.caption}</figcaption></figure>)}</div>
     </>
   )}
 

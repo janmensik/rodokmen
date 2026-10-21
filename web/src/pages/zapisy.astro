@@ -7,7 +7,7 @@ const kinds = [...new Set(list.map((r) => r.kindName))];
 ---
 <Base title="Zápisy z matrik">
   <h1>Zápisy z matrik</h1>
-  <p class="lead">Všech {list.length} zápisů, na kterých rodokmen stojí – chronologicky. U každého je výřez snímku s vyznačeným místem, plné rozlišení a odkaz do archivu. Co v matrikách zatím chybí nebo si odporuje, najdete v přehledu <a href="/hledame/">co ještě hledáme</a>.</p>
+  <p class="lead">Všech {list.length} zápisů, na kterých rodokmen stojí – chronologicky. U každého je výřez snímku s vyznačeným místem, plné rozlišení a odkaz do archivu. Co v matrikách zatím chybí nebo si odporuje, najdete v přehledu <a href={href.to('/hledame/')}>co ještě hledáme</a>.</p>
   <p class="chips">
     <button class="chip" data-k="" type="button">vše</button>
     {kinds.map((k) => <button class="chip" data-k={k} type="button">{k}</button>)}

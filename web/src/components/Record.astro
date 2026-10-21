@@ -15,9 +15,9 @@ const r = records[id];
       )}
     </div>
     {r.img && (
-      <a class="scan" href={r.full ? `/zdroje/${r.key}.jpg` : `/img/${r.key}.jpg`} target="_blank" rel="noopener">
+      <a class="scan" href={r.full ? href.to(`/zdroje/${r.key}.jpg`) : href.to(`/img/${r.key}.jpg`)} target="_blank" rel="noopener">
         <span class="hl-wrap">
-          <img src={`/img/${r.key}.jpg`} alt={`Výřez zápisu: ${r.title}`} loading="lazy" />
+          <img src={href.to(`/img/${r.key}.jpg`)} alt={`Výřez zápisu: ${r.title}`} loading="lazy" />
           {r.boxes.map(([x0, y0, x1, y1]) => <span class="hl" style={`left:${x0 * 100}%;top:${y0 * 100}%;width:${(x1 - x0) * 100}%;height:${(y1 - y0) * 100}%`}></span>)}
         </span>
       </a>
@@ -32,7 +32,7 @@ const r = records[id];
       </details>
     )}
     <div class="links">
-      {r.full && <a href={`/zdroje/${r.key}.jpg`} target="_blank" rel="noopener">Plné rozlišení</a>}
+      {r.full && <a href={href.to(`/zdroje/${r.key}.jpg`)} target="_blank" rel="noopener">Plné rozlišení</a>}
       {r.url && <a href={r.url} target="_blank" rel="noopener">Snímek na portálu {r.portal}</a>}
     </div>
   </article>

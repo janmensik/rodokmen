@@ -2,15 +2,30 @@
 
 Co víme z vyprávění a rodinných dokumentů – kdo to řekl / odkud to je a kdy. Tyto údaje se v matrikách ověřují.
 
-## 21. 10. 2026 – Jan Menšík (rozhovor + rodokmen v PDF `dokumenty/rodokmen.pdf`)
+## 21. 10. 2026 – Jan Menšík (rozhovor + `dokumenty/rodokmen.pdf` + `dokumenty/myheritage_seznam_lidi.csv`)
 
 ### Nejbližší rodina
-- **1 – Jan Menšík** (* 7. 1. 1980, Praha) – výchozí osoba rodokmenu.
-  - Manželka: **Julie Menšík Čákiová** (* 22. 5. 1979).
-  - Bratr: **Jakub Menšík** (* 1977, Praha).
-- **2 – Radim Menšík** (* 9. 9. 1946, Praha) – otec (jeho rodiče č. 4 a 5 v PDF nejsou uvedeni).
-- **3 – Zdeňka Menšíková roz. Jarolímová** (* 6. 5. 1949) – matka.
-  - Sestra matky: **Lenka Jarolímová** (* 21. 4. 1962, Hradec Králové), provdaná za **Martina Hájka** (* 19. 11. 1960, Smiřice), syn **Václav Hájek** (* 17. 1. 1983, Hradec Králové). Pravá polovina PDF obsahuje rodokmen Martina Hájka ze Smiřic, Trotiny, Holohlav a Býště (rody Hájek/Chlupatý, Sovák, Hloupý, Jošt, Picka, Fanta).
+- **1 – Jan Menšík** (* 7. 1. 1980, Praha, ID 3000001) – výchozí osoba rodokmenu.
+  - Manželka: **Julie Menšík Čákiová** (* 22. 5. 1979, Praha, ID 3000002; rodiče **Miloslav Čáki** ID 3000008 a **Eva Čákiová** ID 3000009; sestra **Lucie Černíková** ID 3000010 s manželem **Alešem Černíkem** ID 3000017 a dětmi **Davidem Černíkem** * 2004 a **Lenkou Černíkovou** * 2008).
+    - Rodiče Miloslava Čákiho (doplněno 21. 10. 2026):
+      - Otec: **12 – Juraj (Jiří) Čáki** (* asi 1921)
+      - Matka: **13 – Marie Čákiová roz. Bubancová**
+    - Rodiče Evy Čákiové (doplněno 21. 10. 2026):
+      - Otec: **14 – Miroslav Krejzek** (1914–1978)
+      - Matka: **15 – Věra Krejzková roz. Černá** (1917–2005)
+        - Otec Věry Černé: **30 – Josef Černý** (doplněno 21. 10. 2026)
+        - Sourozenec: 1 bratr Věry Černé (syn Josefa Černého)
+    - Sestra Evy Čákiové (teta Julie): **Iva Gajdošová roz. Krejzková** († 2013, Hradec Králové, ID 3000016), manžel MUDr. Gajdoš (lékař). Děti:
+      - **Barbora Gajdošová** (ID 3000026), partner **René Štefec** (kominík, Praha), dcera **Evelína Štefcová** (* 2013, Praha).
+      - **Marek Gajdoš** (ID 3000027, Hradec Králové).
+  - Děti Jana a Julie: **Kryštof Adam Menšík** (* 20. 3. 2010, Praha, ID 3000003), **Tea Apolena Menšíková** (* 14. 2. 2013, Praha, ID 3000004), **Hynek Albert Menšík** (* 10. 7. 2015, Praha) a **Jonáš Alex Menšík** (* 5. 12. 2017, Praha).
+  - Bratr: **Jakub Menšík** (* 10. 2. 1977, Praha, ID 3000007).
+- **4 – Radim Menšík** (* 9. 9. 1946 v rozhovoru / * 13. 9. 1946 v CSV, Praha, ID 3000005) – otec Jana.
+  - Bratr otce (strýc Jana): **Ivan Menšík** († 2012, Praha, ID 3000012).
+- **9 – Ludmila Menšíková** († Praha, ID 3000011) – babička Jana z otcovy strany (matka Radima a Ivana Menšíkových; jméno dědečka č. 8 zatím k doplnění).
+- **3 – Zdeňka Menšíková roz. Jarolímová** (* 6. 5. 1949 v rozhovoru / * 9. 5. 1949 v CSV, ID 3000006) – matka.
+  - Sestra matky:
+    - **Lenka Jarolímová** (* 21. 4. 1962, Hradec Králové, ID 3000015), provdaná za **Martina Hájka** (* 19. 11. 1960, Smiřice, ID 3000024), syn **Václav Hájek** (* 17. 1. 1983, Hradec Králové, ID 3000025).
 
 ### Větev matky Zdeňky roz. Jarolímové (vytěženo z `dokumenty/rodokmen.pdf`, včetně 12 portrétních fotografií)
 - **6 – Richard Jarolím** (* 26. 3. 1927 Žleby čp. 17 – † 24. 3. 2012 Hradec Králové), ∞ 30. 10. 1948 Rumburk se Zdenkou Holánkovou.

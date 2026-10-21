@@ -18,10 +18,10 @@ const cards = config.zajimavosti_na_uvodu ?? [];
       <div>
         {uvod.nadpis && <h2>{uvod.nadpis}</h2>}
         {(uvod.odstavce ?? []).map((t) => <p>{t}</p>)}
-        {config.maPribeh && <a class="btn" href="/pribehy/">{config.pribeh?.tlacitko || `Přečíst: ${pribeh.title}`} →</a>}
+        {config.maPribeh && <a class="btn" href={href.to('/pribehy/')}>{config.pribeh?.tlacitko || `Přečíst: ${pribeh.title}`} →</a>}
       </div>
       {uvod.foto && (
-        <a href={config.maPribeh ? '/pribehy/' : `/img/${uvod.foto}.jpg`}><img src={`/img/${uvod.foto}.jpg`} alt={uvod.foto_popis || ''} /></a>
+        <a href={config.maPribeh ? href.to('/pribehy/') : href.to(`/img/${uvod.foto}.jpg`)}><img src={href.to(`/img/${uvod.foto}.jpg`)} alt={uvod.foto_popis || ''} /></a>
       )}
     </section>
   )}
@@ -31,7 +31,7 @@ const cards = config.zajimavosti_na_uvodu ?? [];
       <div>
         <h2>{pribeh.title}</h2>
         {pribeh.lead && <p>{pribeh.lead}</p>}
-        <a class="btn" href="/pribehy/">{config.pribeh?.tlacitko || 'Přečíst příběh'} →</a>
+        <a class="btn" href={href.to('/pribehy/')}>{config.pribeh?.tlacitko || 'Přečíst příběh'} →</a>
       </div>
     </section>
   )}
@@ -48,10 +48,10 @@ const cards = config.zajimavosti_na_uvodu ?? [];
       <h2>Zajímavosti</h2>
       <div class="grid2">
         {cards.map((c) => (
-          <a class="card card-link" href="/zajimavosti/"><h3>{c.nadpis}</h3><p class="small muted">{c.text}</p></a>
+          <a class="card card-link" href={href.to('/zajimavosti/')}><h3>{c.nadpis}</h3><p class="small muted">{c.text}</p></a>
         ))}
       </div>
-      <p><a href="/zajimavosti/">Všechny zajímavosti →</a></p>
+      <p><a href={href.to('/zajimavosti/')}>Všechny zajímavosti →</a></p>
     </>
   )}
 
@@ -59,7 +59,7 @@ const cards = config.zajimavosti_na_uvodu ?? [];
     <>
       <h2>Kde žili naši předci</h2>
       <FamilyMap height="420px" compact />
-      <p><a href="/mapa/">Celá mapa se jmény a filtrem rodů →</a></p>
+      <p><a href={href.to('/mapa/')}>Celá mapa se jmény a filtrem rodů →</a></p>
     </>
   )}
 
@@ -81,6 +81,6 @@ const cards = config.zajimavosti_na_uvodu ?? [];
   <div class="only-mobile">
     <MobileTree k={1} />
   </div>
-  <div class="fan-preview only-desktop"><a class="cover" href="/vejir/" aria-label="Otevřít vějíř předků přes celou obrazovku"></a><Fragment set:html={fan} /></div>
-  <p><a class="btn" href="/vejir/">Otevřít vějíř předků přes celou obrazovku →</a> <a href="/predci/" style="margin-left:1rem">nebo seznam všech předků</a></p>
+  <div class="fan-preview only-desktop"><a class="cover" href={href.to('/vejir/')} aria-label="Otevřít vějíř předků přes celou obrazovku"></a><Fragment set:html={fan} /></div>
+  <p><a class="btn" href={href.to('/vejir/')}>Otevřít vějíř předků →</a> <a class="btn" href={href.to('/strom/')} style="margin-left:0.5rem">Kompletní strom rodiny →</a> <a href={href.to('/predci/')} style="margin-left:1rem">nebo seznam všech předků</a></p>
 </Base>

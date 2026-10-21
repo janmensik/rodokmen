@@ -1,4 +1,10 @@
 {
+ "Praha": {
+  "re": "Prah",
+  "dotaz": "Praha, Česko",
+  "lat": 50.0755,
+  "lon": 14.4378
+ },
  "Staré Ransko": {
   "re": "Ransk",
   "dotaz": "Staré Ransko, Krucemburk, Česko",

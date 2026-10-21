@@ -1,17 +1,19 @@
 {
  "nazev": "Rodokmen Menšíkových",
- "popis": "Rodinný rodokmen a kronika rodu Menšíkových, Jarolímových, Holánkových a Henzlových.",
+ "popis": "Rodinný rodokmen a kronika rodu Menšíkových, Čákiových, Jarolímových, Holánkových a Henzlových.",
  "zapati": "Dohledáno v rodinném archivu a digitalizovaných matrikách státních oblastních archivů",
  "kontakt": {"jmeno": "Honzovi", "email": ""},
+ "base": "/rodokmen",
  "prihlaseni": {
   "uvod": "Tenhle web je jen pro rodinu a příbuzné.",
   "otazka": "",
-  "odpoved": ""
+  "odpoved": "",
+  "otevreny": true
  },
  "uvod": {
   "nadpis": "Odkud pochází naše rodina",
   "odstavce": [
-   "Rodokmen spojuje pražskou větev Menšíkových s předky maminky Zdeňky roz. Jarolímové – obuvníky ze Žlebů, železáři, zámečníky a hamerníky ze Starého Ranska a truhláři a hostinskými z Hluboké na pomezí Vysočiny a Železných hor."
+   "Rodokmen vychází od dětí Kryštofa Adama (* 2010), Tey Apoleny (* 2013), Hynka Alberta (* 2015) a Jonáše Alexe (* 2017) a spojuje větev otce Jana Menšíka (* 1980) a matky Julie Menšík Čákiové (* 1979) – od pražských předků po obuvníky ze Žlebů, železáře, zámečníky a hamerníky ze Starého Ranska a truhláře a hostinské z Hluboké na pomezí Vysočiny a Železných hor."
   ],
   "foto": "foto_julius_holanek_1889",
   "foto_popis": "Pradědeček Julius Holánek (1889–1952), zámečník ze Starého Ranska čp. 55"

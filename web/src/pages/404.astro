@@ -1,7 +1,8 @@
 ---
 import Base from '../layouts/Base.astro';
+import { href } from '../lib/data.js';
 ---
 <Base title="Nenalezeno">
   <h1>Tahle stránka v rodokmenu není</h1>
-  <p><a href="/">Zpět na úvod</a> nebo <a href="/hledat/">hledat</a>.</p>
+  <p><a href={href.to('/')}>Zpět na úvod</a> nebo <a href={href.to('/hledat/')}>hledat</a>.</p>
 </Base>

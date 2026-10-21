@@ -1,1 +1,32 @@
-[]
+[
+  {
+    "klic": "zleby_umrti_jan_jarolim_1903",
+    "svazek": "ebad_10141",
+    "snimek": 337,
+    "druh": "Z",
+    "datum": "31. 7. 1903",
+    "nazev": "Úmrtí Jana Jarolíma",
+    "shrnuti": "Jan Jarolím, ženatý obuvník ve Žlebech č. 37, narozený 4. 6. 1863 ve Žlebech, oddaný 29. 5. 1888 v Dolní Krupé, zemřel na tuberkulózu ve věku 40 let, 1 měsíce a 27 dní.",
+    "odkaz": "https://ebadatelna.soapraha.cz/d/10141/337"
+  },
+  {
+    "klic": "zleby_krest_jan_jarolim_1863",
+    "svazek": "ebad_10116",
+    "snimek": 290,
+    "druh": "N",
+    "datum": "4. 6. 1863",
+    "nazev": "Křest Jana Jarolíma",
+    "shrnuti": "Jan, nemanželský syn Barbory Jarolímové, dcery obuvníka Josefa Jarolíma ze Žlebů a Kateřiny rodem Josefa Táborského ze Žlebů č. 126. Otec neuveden.",
+    "odkaz": "https://ebadatelna.soapraha.cz/d/10116/290"
+  },
+  {
+    "klic": "zleby_krest_emilie_jarolimova_1899",
+    "svazek": "ebad_10138",
+    "snimek": 29,
+    "druh": "N",
+    "datum": "15. 4. 1899",
+    "nazev": "Křest Emilie Jarolímové",
+    "shrnuti": "Emilie, dcera Jana Jarolíma, obuvníka ve Žlebech č. 37 (* 4. 6. 1863 Žleby), a Antonie roz. Havlové (* 13. 1. 1857 Dolní Krupá), dcery krejčího Jana Havla a Anny roz. Ignáce Jeřábka, učitele z Čachotína č. 15.",
+    "odkaz": "https://ebadatelna.soapraha.cz/d/10138/29"
+  }
+]

@@ -1,6 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
-import { issues, config } from '../lib/data.js';
+import { issues, config, href } from '../lib/data.js';
 import { Content as Dotazy } from '../generated/dotazy.md';
 ---
 <Base title="Co hledáme">
@@ -17,5 +17,5 @@ import { Content as Dotazy } from '../generated/dotazy.md';
   </div>
   <h2>Prameny mimo online matriky</h2>
   <div class="prose small"><Dotazy /></div>
-  <p><a href="/denik/">Výzkumný deník – všechna hledání včetně neúspěšných →</a></p>
+  <p><a href={href.to('/denik/')}>Výzkumný deník – všechna hledání včetně neúspěšných →</a></p>
 </Base>

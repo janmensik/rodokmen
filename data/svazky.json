@@ -1,1 +1,26 @@
-{}
+{
+ "ebad_10141": {
+  "archiv": "SOA Praha – Sbírka matrik",
+  "portal": "eBadatelna",
+  "svazek": "Žleby 35, Z 1837–1910",
+  "popis": "Bažantnice u sv. Anny, Buda, Ksiny, Markovice, Velký Dvůr, Žleby",
+  "snimku": 379,
+  "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/10141"
+ },
+ "ebad_10116": {
+  "archiv": "SOA Praha – Sbírka matrik",
+  "portal": "eBadatelna",
+  "svazek": "Žleby 10, N 1839–1867",
+  "popis": "Markovice, Žleby",
+  "snimku": 347,
+  "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/10116"
+ },
+ "ebad_10138": {
+  "archiv": "SOA Praha – Sbírka matrik",
+  "portal": "eBadatelna",
+  "svazek": "Žleby 32, N 1898–1914",
+  "popis": "Bažantnice u sv. Anny, Buda, Ksiny, Markovice, Žleby",
+  "snimku": 305,
+  "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/10138"
+ }
+}

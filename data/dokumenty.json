@@ -1,86 +1,115 @@
 [
  {
-  "img": "foto_richard_jarolim_1927",
-  "popis": "Richard Jarolím (1927–2012), dědeček z matčiny strany.",
+  "img": "foto_radim_mensik_1946",
+  "popis": "Ing. Radim Jaroslav Menšík (1946–2021), otec Jana.",
   "osoby": [
-   6
+   4
+  ]
+ },
+ {
+  "img": "foto_ludmila_mensikova",
+  "popis": "MUDr. Ludmila Menšíková († před 2010 Praha), lékařka, babička Jana z otcovy strany.",
+  "osoby": [
+   9
+  ]
+ },
+ {
+  "img": "foto_richard_jarolim_1927",
+  "popis": "Richard Jarolím (1927–2012), dědeček Jana z matčiny strany.",
+  "osoby": [
+   10
   ]
  },
  {
   "img": "foto_zdenka_holankova_1928",
-  "popis": "Zdenka Jarolímová roz. Holánková (* 1928), babička z matčiny strany.",
+  "popis": "Zdenka Jarolímová roz. Holánková (* 1928), babička Jana z matčiny strany.",
   "osoby": [
-   7
+   11
   ]
  },
  {
   "img": "foto_fridrich_hulek",
-  "popis": "Fridrich Hůlek, lesní inženýr, pradědeček.",
+  "popis": "Fridrich Hůlek, lesní inženýr, pradědeček Jana.",
   "osoby": [
-   12
+   20
   ]
  },
  {
   "img": "foto_emilie_jarolimova_1899",
-  "popis": "Emilie Jarolímová (* 1899, Žleby čp. 37), prababička.",
+  "popis": "Emilie Jarolímová (* 1899, Žleby čp. 37), prababička Jana.",
   "osoby": [
-   13
+   21
   ]
  },
  {
   "img": "foto_julius_holanek_1889",
-  "popis": "Julius Holánek (1889–1952, Staré Ransko čp. 55), zámečník, pradědeček.",
+  "popis": "Julius Holánek (1889–1952, Staré Ransko čp. 55), zámečník, pradědeček Jana.",
   "osoby": [
-   14
+   22
   ]
  },
  {
   "img": "foto_sofia_henzlova_1904",
-  "popis": "Sofia Holánková roz. Henzlová (1904–1985, Hluboká čp. 38), prababička.",
+  "popis": "Sofia Holánková roz. Henzlová (1904–1985, Hluboká čp. 38), prababička Jana.",
   "osoby": [
-   15
+   23
   ]
  },
  {
   "img": "foto_frantisek_holanek_1854",
   "popis": "František Holánek (* 1854, Ransko čp. 53), zámečník.",
   "osoby": [
-   28
+   44
   ]
  },
  {
   "img": "foto_julie_simova_1854",
   "popis": "Julie Holánková roz. Šímová (* 1854, Ransko čp. 46).",
   "osoby": [
-   29
+   45
   ]
  },
  {
   "img": "foto_franz_henzl_1872",
   "popis": "Franz Henzl (1872–1954, Hluboká čp. 15), truhlář a hostinský.",
   "osoby": [
-   30
+   46
   ]
  },
  {
   "img": "foto_aloisie_pospichalova_1875",
   "popis": "Aloisie Henzlová roz. Pospíchalová (1875–1957, Chlum čp. 35).",
   "osoby": [
-   31
+   47
   ]
  },
  {
   "img": "foto_jan_holanek_1820",
   "popis": "Jan Holánek (* 1820, Ransko čp. 45), domkař.",
   "osoby": [
-   56
+   88
   ]
  },
  {
   "img": "foto_frantiska_benova",
   "popis": "Františka Šímová roz. Benová (Ransko čp. 41).",
   "osoby": [
-   59
+   91
+  ]
+ },
+ {
+  "img": "rodokmen_pdf_strom",
+  "popis": "Rodinný strom předků s portréty z matčiny větve (PDF v archivu rodiny).",
+  "osoby": [
+   2,
+   4,
+   5,
+   10,
+   11,
+   20,
+   21,
+   22,
+   23
   ]
  }
 ]

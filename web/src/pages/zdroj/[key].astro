@@ -1,7 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import PersonLink from '../../components/PersonLink.astro';
-import { records, recordList } from '../../lib/data.js';
+import { records, recordList, href } from '../../lib/data.js';
 
 export function getStaticPaths() {
   return recordList.map((r) => ({ params: { key: r.key } }));
@@ -9,7 +9,7 @@ export function getStaticPaths() {
 const r = records[Astro.params.key];
 ---
 <Base title={r.title} wide>
-  <p class="crumbs"><a href="/zapisy/">Zápisy z matrik</a> · <span class="kind">{r.kindName}</span></p>
+  <p class="crumbs"><a href={href.to('/zapisy/')}>Zápisy z matrik</a> · <span class="kind">{r.kindName}</span></p>
   <h1>{r.title}</h1>
   <p class="lead">{r.summary}</p>
   <div class="table-box"><table>
@@ -23,7 +23,7 @@ const r = records[Astro.params.key];
   </table></div>
   {r.img && (
     <p style="margin-top:1rem">
-      <a href={r.full ? `/zdroje/${r.key}.jpg` : `/img/${r.key}.jpg`} target="_blank" rel="noopener"><span class="hl-wrap" style="border:1px solid var(--line);border-radius:8px"><img src={`/img/${r.key}.jpg`} alt={`Výřez zápisu: ${r.title}`} />{r.boxes.map(([x0, y0, x1, y1]) => <span class="hl" style={`left:${x0 * 100}%;top:${y0 * 100}%;width:${(x1 - x0) * 100}%;height:${(y1 - y0) * 100}%`}></span>)}</span></a>
+      <a href={r.full ? href.to(`/zdroje/${r.key}.jpg`) : href.to(`/img/${r.key}.jpg`)} target="_blank" rel="noopener"><span class="hl-wrap" style="border:1px solid var(--line);border-radius:8px"><img src={href.to(`/img/${r.key}.jpg`)} alt={`Výřez zápisu: ${r.title}`} />{r.boxes.map(([x0, y0, x1, y1]) => <span class="hl" style={`left:${x0 * 100}%;top:${y0 * 100}%;width:${(x1 - x0) * 100}%;height:${(y1 - y0) * 100}%`}></span>)}</span></a>
       <br /><span class="small muted">{r.boxes.length ? 'Červeně je označené místo, ze kterého čteme. ' : ''}{r.full ? 'Kliknutím otevřete výřez v plném rozlišení.' : ''}</span>
     </p>
   )}

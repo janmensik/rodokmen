@@ -13,11 +13,16 @@ export const byK = Object.fromEntries([
 ]);
 export const lineByK = Object.fromEntries(Object.values(lines).map((l) => [l.k, l]));
 
+const rawBase = import.meta.env?.BASE_URL || '/';
+const baseUrl = rawBase.endsWith('/') ? rawBase.slice(0, -1) : rawBase;
+export const url = (path) => `${baseUrl}${path.startsWith('/') ? path : '/' + path}`;
+
 export const href = {
-  person: (slug) => `/osoba/${slug}/`,
-  family: (id) => `/rodina/${id}/`,
-  line: (slug) => `/rod/${slug}/`,
-  record: (key) => `/zdroj/${key}/`,
+  to: url,
+  person: (slug) => url(`/osoba/${slug}/`),
+  family: (id) => url(`/rodina/${id}/`),
+  line: (slug) => url(`/rod/${slug}/`),
+  record: (key) => url(`/zdroj/${key}/`),
 };
 
 /** Sortable number from dates like "12. 5. 1811", "3/1867", "12/1790", "1797". */
