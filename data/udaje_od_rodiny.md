@@ -6,7 +6,7 @@ Co víme z vyprávění a rodinných dokumentů – kdo to řekl / odkud to je a
 
 ### Nejbližší rodina
 - **1 – Mgr. Jan Menšík** (* 7. 1. 1980, Praha, ID 3000001) – výchozí osoba rodokmenu; vzdělání: Gymnázium Buďánka, SŠ Nad Štolou, Univerzita Karlova – Právnická fakulta (Mgr., právník); sňatek 12. 9. 2009 Zvíkov s Mgr. Julií Čákiovou; od roku 2009 žijí v Libčicích nad Vltavou.
-  - Manželka: **Mgr. Julie Menšík Čákiová roz. Čákiová** (* 22. 5. 1979, Praha, ID 3000002; od roku 2009 žijí společně v Libčicích nad Vltavou; rodiče **Miloslav Čáki** ID 3000008 a **Eva Čákiová** ID 3000009; sestra **Lucie Černíková** ID 3000010 s manželem **Alešem Černíkem** ID 3000017 a dětmi **Davidem Černíkem** * 2004 a **Lenkou Černíkovou** * 2008).
+  - Manželka: **Mgr. Julie Menšík Čákiová roz. Čákiová** (* 22. 5. 1979, Praha, ID 3000002; od roku 2009 žijí společně v Libčicích nad Vltavou; rodiče **Miloslav Čáki** ID 3000008 a **Eva Čákiová** ID 3000009; sestra **Mgr. Lucie Černíková roz. Čákiová** ID 3000010 s manželem **Alešem Černíkem** ID 3000017, CIO v C.S.CARGO, bydliště Praha-Stodůlky, a dětmi **Davidem Černíkem** * asi 2004 a **Lenkou Černíkovou** * asi 2008).
     - **6 – JUDr. Miloslav Čáki** (* 1. 6. 1947 Vlčice u Trutnova, dětství prožil v Červeněvsi čp. 88)
       - Rodiče Miloslava Čákiho:
         - Otec: **12 – Juraj (Jiří) Čáki** (* asi 1921 Slovensko, Dúbrava nebo Šmigovec v okrese Snina na Zemplíně; žil v Červeněvsi čp. 88; varianty příjmení: Čáki, Čaky, Csáky)
