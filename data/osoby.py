@@ -533,8 +533,8 @@ LINES = {
 # Boční příbuzní: n = „Jméno (roky)“, t = text na stránce předka (plná data sem), vetev = karta ve stromu
 # se stejnými poli jako osoba v P (n, y, f, roz, zam, bydl, puvod, pohreb, vztah) + manzel a deti.
 SIDE = [
-    dict(k=2, n="Jakub Menšík (* 1977)", t="Bratr Jana, * 8. 2. 1977, Praha.", r=[],
-         vetev=dict(n="Jakub Menšík", y="* 1977", f=["* 8. 2. 1977"], bydl="Praha", vztah="bratr Jana")),
+    dict(k=2, n="Jakub Menšík (* 1977)", t="Bratr Jana, * 8. 2. / 10. 2. 1977 Praha, bytem Praha 6 - Dejvice.", r=[],
+         vetev=dict(n="Jakub Menšík", y="* 1977", f=["* 8. 2. 1977 Praha (v rodinném stromu též 10. 2. 1977)"], bydl="Praha 6 - Dejvice (Mozambická)", vztah="bratr Jana")),
     dict(k=3, n="Lucie Černíková roz. Čákiová", t="Sestra Julie (manžel Aleš Černík, děti David Černík * 2004 a Lenka Černíková * 2008).", r=[],
          vetev=dict(n="Lucie Černíková", y="", roz="Čákiová", bydl="Praha", vztah="sestra Julie",
                     manzel=dict(n="Aleš Černík", y="", bydl="Praha"),
