@@ -238,5 +238,29 @@
   "lat": 49.4856,
   "lon": 14.5277,
   "osm": "Jistebnice, okres Tábor, Jihočeský kraj, Jihozápad, Česko"
+ },
+ "Končice": {
+  "re": "Končic",
+  "dotaz": "Končice, Žiželice, okres Kolín, Česko",
+  "lat": 50.1383,
+  "lon": 15.3522
+ },
+ "Dobšice": {
+  "re": "Dobšic",
+  "dotaz": "Dobšice, okres Nymburk, Česko",
+  "lat": 50.1553,
+  "lon": 15.2631
+ },
+ "Chvalovice": {
+  "re": "Chvalovic",
+  "dotaz": "Chvalovice, okres Nymburk, Česko",
+  "lat": 50.1442,
+  "lon": 15.1156
+ },
+ "Malé Zboží": {
+  "re": "Zboží",
+  "dotaz": "Malé Zboží, Poděbrady, Česko",
+  "lat": 50.1611,
+  "lon": 15.1436
  }
 }

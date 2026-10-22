@@ -157,5 +157,37 @@
     "popis": "Kostel sv. Jiljí na Starém Městě, kniha oddaných",
     "snimku": 199,
     "url": "https://katalog.ahmp.cz/pragapublica/permalink?xid=D9E1B965559246EDBF48C1DB8FFA88C4"
+  },
+  "ebad_10163": {
+    "archiv": "SOA Praha – Sbírka matrik",
+    "portal": "eBadatelna",
+    "svazek": "Poděbrady 70, O 1901–1924",
+    "popis": "Poděbrady",
+    "snimku": 302,
+    "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/10163"
+  },
+  "ebad_10069": {
+    "archiv": "SOA Praha – Sbírka matrik",
+    "portal": "eBadatelna",
+    "svazek": "Žiželice 17, N 1881–1895",
+    "popis": "Bílé Vchynice, Freudenthal, Hlavečník, Hradišťko II, Končice, Korce, Kundratice, Loukonosy, Převýšov, Radovesnice II, Rasochy, Rozehnaly, Tetov, Zbraň, Žiželice",
+    "snimku": 467,
+    "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/10069"
+  },
+  "ebad_11894": {
+    "archiv": "SOA Praha – Sbírka matrik",
+    "portal": "eBadatelna",
+    "svazek": "Poděbrady 64, O 1849–1893",
+    "popis": "Kluk, Křečkov, Malé Zboží, Pátek, Polabec, Přední Lhota, Velké Zboží",
+    "snimku": 212,
+    "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/11894"
+  },
+  "cuni_doktori_x": {
+    "archiv": "Ústav dějin UK a archiv Univerzity Karlovy",
+    "portal": "is.cuni.cz - Studenti pražských univerzit 1882–1945",
+    "svazek": "Matrika doktorů Univerzity Karlovy X. (1937–1939), inv. č. 10",
+    "popis": "Matriky doktorů Univerzity Karlovy",
+    "snimku": 500,
+    "url": "https://is.cuni.cz/webapps/archiv/public/book/bo/1924165860347712/448/?lang=cs"
   }
 }

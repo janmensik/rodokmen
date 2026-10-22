@@ -1,254 +1,302 @@
 {
-  "zleby_umrti_jan_jarolim_1903": {
-    "boxes": [
-      [
-        0.06,
-        0.12,
-        0.98,
-        0.96
-      ]
-    ],
-    "status": "ok",
-    "note": "Zápis o úmrtí Jana Jarolíma"
-  },
-  "zleby_krest_jan_jarolim_1863": {
-    "boxes": [
-      [
-        0.005,
-        0.03,
-        0.96,
-        0.74
-      ]
-    ],
-    "status": "ok",
-    "note": "Zápis o narození a křtu Jana Jarolíma"
-  },
-  "zleby_krest_emilie_jarolimova_1899": {
-    "boxes": [
-      [
-        0.005,
-        0.23,
-        0.98,
-        0.98
-      ]
-    ],
-    "status": "ok",
-    "note": "Zápis o narození a křtu Emilie Jarolímové"
-  },
-  "krupa_oddani_jan_jarolim_1888": {
-    "boxes": [
-      [
-        0.01,
-        0.1,
-        0.99,
-        0.935
-      ]
-    ],
-    "status": "ok",
-    "note": "Zápis o oddavkách Jana Jarolíma a Antonie Havlové"
-  },
-  "krupa_krest_antonie_havlova_1857": {
-    "boxes": [
-      [
-        0.015,
-        0.18,
-        0.985,
-        0.96
-      ]
-    ],
-    "status": "ok",
-    "note": "Zápis o narození a křtu Antonie Havlové"
-  },
-  "ransko_krest_frantisek_holanek_1854": {
-    "boxes": [
-      [
-        0.01,
-        0.03,
-        0.99,
-        0.97
-      ]
-    ],
-    "status": "ok",
-    "note": "Zápis o narození a křtu Františka Holánka"
-  },
-  "tyn_oddani_frantisek_mensik_1902": {
-    "boxes": [
-      [
-        0.01,
-        0.01,
-        0.99,
-        0.99
-      ]
-    ],
-    "status": "ok",
-    "note": "Zápis o sňatku Františka Menšíka a Pavlíny Jirkovské"
-  },
-  "jistebnice_krest_frantisek_mensik_1873": {
-    "boxes": [
-      [
-        0.01,
-        0.01,
-        0.99,
-        0.99
-      ]
-    ],
-    "status": "ok",
-    "note": "Zápis o narození a křtu Františka Xavera Menšíka"
-  },
-  "jistebnice_oddani_josef_mensik_1865": {
-    "boxes": [
-      [
-        0.01,
-        0.01,
-        0.99,
-        0.99
-      ]
-    ],
-    "status": "ok",
-    "note": "Zápis o sňatku Josefa Menšíka a Marie Šmedlové"
-  },
-  "jistebnice_krest_josef_mensik_1832": {
-    "boxes": [
-      [
-        0.01,
-        0.01,
-        0.99,
-        0.99
-      ]
-    ],
-    "status": "ok",
-    "note": "Zápis o narození a křtu Josefa Menšíka (1832)"
-  },
-  "jistebnice_krest_marie_smedlova_1835": {
-    "boxes": [
-      [
-        0.01,
-        0.01,
-        0.99,
-        0.99
-      ]
-    ],
-    "status": "ok",
-    "note": "Zápis o narození a křtu Marie Šmedlové (1835)"
-  },
-  "tyn_krest_pavlina_jirkovska_1882": {
-    "boxes": [
-      [
-        0.01,
-        0.01,
-        0.99,
-        0.99
-      ]
-    ],
-    "status": "ok",
-    "note": "Zápis o narození a křtu Pavlíny Rosalie Jirkovské (1882)"
-  },
-  "tyn_oddani_alois_jirkovsky_1885": {
-    "boxes": [
-      [
-        0.01,
-        0.01,
-        0.99,
-        0.99
-      ]
-    ],
-    "status": "ok",
-    "note": "Zápis o sňatku Aloise Jirkovského a Aloisie Marie Tiché (1885)"
-  },
-  "podskali_krest_miroslav_mensik_1906": {
-    "boxes": [
-      [
-        0.125,
-        0.812,
-        0.88,
-        0.945
-      ]
-    ],
-    "status": "ok",
-    "note": "Zápis o narození a křtu Miroslava Vladimíra Menšíka"
-  },
-  "hastal_krest_alois_jirkovsky_1859": {
-    "boxes": [
-      [
-        0.16,
-        0.232,
-        0.862,
-        0.368
-      ]
-    ],
-    "status": "ok",
-    "note": "Zápis o narození a křtu Aloise Jirkovského"
-  },
-  "apolinar_krest_aloisie_ticha_1858": {
-    "boxes": [
-      [
-        0.01,
-        0.01,
-        0.99,
-        0.99
-      ]
-    ],
-    "status": "ok",
-    "note": "Zápis o narození a křtu Aloisie Marie Tiché"
-  },
-  "jistebnice_oddani_josef_mensik_1828": {
-    "boxes": [
-      [
-        0.01,
-        0.01,
-        0.99,
-        0.99
-      ]
-    ],
-    "status": "ok",
-    "note": "Zápis o sňatku Josefa Menšíka a Barbory Horychové"
-  },
-  "jindrich_oddani_jan_pivnicka_1908": {
-    "boxes": [
-      [
-        0.01,
-        0.05,
-        0.99,
-        0.95
-      ]
-    ],
-    "status": "ok",
-    "note": "Zápis o sňatku Jana Pivničky a Emmy Tomíčkové"
-  },
-  "stepan_krest_jan_pivnicka_1872": {
-    "boxes": [
-      [
-        0.01,
-        0.05,
-        0.99,
-        0.95
-      ]
-    ],
-    "status": "ok",
-    "note": "Zápis o narození a křtu Jana Emanuela Pivničky"
-  },
-  "jilji_oddani_josef_pivnicka_1869": {
-    "boxes": [
-      [
-        0.01,
-        0.05,
-        0.99,
-        0.95
-      ]
-    ],
-    "status": "ok",
-    "note": "Zápis o sňatku Josefa Pivničky a Antonie Grubnerové"
-  },
-  "tyn_oddani_jan_linhart_1883": {
-    "boxes": [
-      [
-        0.11,
-        0.505,
-        0.95,
-        0.85
-      ]
-    ],
-    "status": "ok",
-    "note": "Zápis o sňatku Jana Linharta a Pavlíny Berty Jirkovské"
-  }
+ "zleby_umrti_jan_jarolim_1903": {
+  "boxes": [
+   [
+    0.06,
+    0.12,
+    0.98,
+    0.96
+   ]
+  ],
+  "status": "ok",
+  "note": "Zápis o úmrtí Jana Jarolíma"
+ },
+ "zleby_krest_jan_jarolim_1863": {
+  "boxes": [
+   [
+    0.005,
+    0.03,
+    0.96,
+    0.74
+   ]
+  ],
+  "status": "ok",
+  "note": "Zápis o narození a křtu Jana Jarolíma"
+ },
+ "zleby_krest_emilie_jarolimova_1899": {
+  "boxes": [
+   [
+    0.005,
+    0.23,
+    0.98,
+    0.98
+   ]
+  ],
+  "status": "ok",
+  "note": "Zápis o narození a křtu Emilie Jarolímové"
+ },
+ "krupa_oddani_jan_jarolim_1888": {
+  "boxes": [
+   [
+    0.01,
+    0.1,
+    0.99,
+    0.935
+   ]
+  ],
+  "status": "ok",
+  "note": "Zápis o oddavkách Jana Jarolíma a Antonie Havlové"
+ },
+ "krupa_krest_antonie_havlova_1857": {
+  "boxes": [
+   [
+    0.015,
+    0.18,
+    0.985,
+    0.96
+   ]
+  ],
+  "status": "ok",
+  "note": "Zápis o narození a křtu Antonie Havlové"
+ },
+ "ransko_krest_frantisek_holanek_1854": {
+  "boxes": [
+   [
+    0.01,
+    0.03,
+    0.99,
+    0.97
+   ]
+  ],
+  "status": "ok",
+  "note": "Zápis o narození a křtu Františka Holánka"
+ },
+ "tyn_oddani_frantisek_mensik_1902": {
+  "boxes": [
+   [
+    0.01,
+    0.01,
+    0.99,
+    0.99
+   ]
+  ],
+  "status": "ok",
+  "note": "Zápis o sňatku Františka Menšíka a Pavlíny Jirkovské"
+ },
+ "jistebnice_krest_frantisek_mensik_1873": {
+  "boxes": [
+   [
+    0.01,
+    0.01,
+    0.99,
+    0.99
+   ]
+  ],
+  "status": "ok",
+  "note": "Zápis o narození a křtu Františka Xavera Menšíka"
+ },
+ "jistebnice_oddani_josef_mensik_1865": {
+  "boxes": [
+   [
+    0.01,
+    0.01,
+    0.99,
+    0.99
+   ]
+  ],
+  "status": "ok",
+  "note": "Zápis o sňatku Josefa Menšíka a Marie Šmedlové"
+ },
+ "jistebnice_krest_josef_mensik_1832": {
+  "boxes": [
+   [
+    0.01,
+    0.01,
+    0.99,
+    0.99
+   ]
+  ],
+  "status": "ok",
+  "note": "Zápis o narození a křtu Josefa Menšíka (1832)"
+ },
+ "jistebnice_krest_marie_smedlova_1835": {
+  "boxes": [
+   [
+    0.01,
+    0.01,
+    0.99,
+    0.99
+   ]
+  ],
+  "status": "ok",
+  "note": "Zápis o narození a křtu Marie Šmedlové (1835)"
+ },
+ "tyn_krest_pavlina_jirkovska_1882": {
+  "boxes": [
+   [
+    0.01,
+    0.01,
+    0.99,
+    0.99
+   ]
+  ],
+  "status": "ok",
+  "note": "Zápis o narození a křtu Pavlíny Rosalie Jirkovské (1882)"
+ },
+ "tyn_oddani_alois_jirkovsky_1885": {
+  "boxes": [
+   [
+    0.01,
+    0.01,
+    0.99,
+    0.99
+   ]
+  ],
+  "status": "ok",
+  "note": "Zápis o sňatku Aloise Jirkovského a Aloisie Marie Tiché (1885)"
+ },
+ "podskali_krest_miroslav_mensik_1906": {
+  "boxes": [
+   [
+    0.125,
+    0.812,
+    0.88,
+    0.945
+   ]
+  ],
+  "status": "ok",
+  "note": "Zápis o narození a křtu Miroslava Vladimíra Menšíka"
+ },
+ "hastal_krest_alois_jirkovsky_1859": {
+  "boxes": [
+   [
+    0.16,
+    0.232,
+    0.862,
+    0.368
+   ]
+  ],
+  "status": "ok",
+  "note": "Zápis o narození a křtu Aloise Jirkovského"
+ },
+ "apolinar_krest_aloisie_ticha_1858": {
+  "boxes": [
+   [
+    0.01,
+    0.01,
+    0.99,
+    0.99
+   ]
+  ],
+  "status": "ok",
+  "note": "Zápis o narození a křtu Aloisie Marie Tiché"
+ },
+ "jistebnice_oddani_josef_mensik_1828": {
+  "boxes": [
+   [
+    0.01,
+    0.01,
+    0.99,
+    0.99
+   ]
+  ],
+  "status": "ok",
+  "note": "Zápis o sňatku Josefa Menšíka a Barbory Horychové"
+ },
+ "jindrich_oddani_jan_pivnicka_1908": {
+  "boxes": [
+   [
+    0.01,
+    0.05,
+    0.99,
+    0.95
+   ]
+  ],
+  "status": "ok",
+  "note": "Zápis o sňatku Jana Pivničky a Emmy Tomíčkové"
+ },
+ "stepan_krest_jan_pivnicka_1872": {
+  "boxes": [
+   [
+    0.01,
+    0.05,
+    0.99,
+    0.95
+   ]
+  ],
+  "status": "ok",
+  "note": "Zápis o narození a křtu Jana Emanuela Pivničky"
+ },
+ "jilji_oddani_josef_pivnicka_1869": {
+  "boxes": [
+   [
+    0.01,
+    0.05,
+    0.99,
+    0.95
+   ]
+  ],
+  "status": "ok",
+  "note": "Zápis o sňatku Josefa Pivničky a Antonie Grubnerové"
+ },
+ "tyn_oddani_jan_linhart_1883": {
+  "boxes": [
+   [
+    0.11,
+    0.505,
+    0.95,
+    0.85
+   ]
+  ],
+  "status": "ok",
+  "note": "Zápis o sňatku Jana Linharta a Pavlíny Berty Jirkovské"
+ },
+ "cuni_doktori_miroslav_krejzek_1939": {
+  "boxes": [
+   [
+    0.01,
+    0.02,
+    0.99,
+    0.98
+   ]
+  ],
+  "status": "ok",
+  "note": "Doktorská promoce MUDr. Miroslava Krejzka"
+ },
+ "podebrady_oddani_josef_cerny_1911": {
+  "boxes": [
+   [
+    0.01,
+    0.02,
+    0.99,
+    0.98
+   ]
+  ],
+  "status": "ok",
+  "note": "Sňatek kováře Josefa Černého a Marie Měšťánkové"
+ },
+ "koncice_krest_marie_mestankova_1885": {
+  "boxes": [
+   [
+    0.01,
+    0.02,
+    0.99,
+    0.98
+   ]
+  ],
+  "status": "ok",
+  "note": "Křest Marie Měšťánkové v Končicích"
+ },
+ "podebrady_oddani_jan_cerny_1885": {
+  "boxes": [
+   [
+    0.01,
+    0.02,
+    0.99,
+    0.98
+   ]
+  ],
+  "status": "ok",
+  "note": "Sňatek kováře Jana Černého a Anny Hromadové"
+ }
 }

@@ -152,25 +152,26 @@ P = {
 
              note="Matka JUDr. Miloslava Čákiho. Rozená Bubancová, původem z východního Slovenska (Šmigovec nebo Dúbrava, okres Snina, Zemplín)."),
 
-    14: dict(n="MUDr. Miroslav Krejzek", y="1914–1978", st="fam",
+    14: dict(n="MUDr. Miroslav Krejzek", y="1914–1978", st="doc",
+             f=["* 3. 9. 1914 Bystřice nad Pernštejnem", "× MUDr. Věra Černá", "† 27. 5. 1978 Žamberk",
+                "maturita 7. 6. 1933 Tišnov (reálné gymnázium)",
+                "promoce 23. 6. 1939 Praha (Lékařská fakulta UK, MUDr.)",
+                "syn Otakara Krejzka a Františky Krejzkové z Bystřice n. P.",
+                "měl 5 bratrů"],
+             zam="lékař (MUDr.), primář plicního oddělení a hrudní chirurg v léčebně Albertinum v Žamberku",
+             bydl="Žamberk; dříve Bystřice nad Pernštejnem, Hradec Králové, Nymburk",
+             puvod="Bystřice nad Pernštejnem",
+             r=["cuni_doktori_miroslav_krejzek_1939"],
+             note="Lékař (MUDr.), významný český ftiseolog a hrudní chirurg, dlouholetý primář plicního oddělení v léčebně Albertinum v Žamberku. Narozen 3. 9. 1914 v Bystřici nad Pernštejnem jako syn soukromníka Otakara Krejzka a Františky Krejzkové. Po maturitě na reálném gymnáziu v Tišnově (1933) vystudoval Lékařskou fakultu Karlovy univerzity v Praze (promoce 23. 6. 1939). Za války pracoval na chirurgické klinice prof. Jana Bedrny v Hradci Králové a na chirurgii v nemocnici v Nymburce (kde poznal svou manželku MUDr. Věru Černou z Poděbrad). V dubnu 1945 se při noční službě v Nymburce nakazil těžkou formou tuberkulózy od vězňů z koncentračních táborů transportovaných vlaky. Po zotavení nastoupil v březnu 1946 do Albertina v Žamberku, kde vybudoval moderní hrudní chirurgii a provedl tisíce plicních operací. Zemřel 27. 5. 1978 v Žamberku."),
 
-             f=["* 3. 9. 1914 Bystřice nad Pernštejnem", "× Věra Černá", "† 27. 5. 1978 Žamberk",
-
-                "vystudoval medicínu v Brně", "měl 5 bratrů"],
-
-             zam="lékař (MUDr.)", bydl="Žamberk", r=[],
-
-             note="Lékař (MUDr.), manžel MUDr. Věry roz. Černé, otec PhDr. Evy Čákiové a MUDr. Ivy Gajdošové (dědeček Julie). Narozen v Bystřici nad Pernštejnem, vystudoval medicínu v Brně, měl 5 bratrů, působil a zemřel v Žamberku."),
-
-    15: dict(n="MUDr. Věra Krejzková", y="1917–2005", st="fam",
-
-             f=["* 8. 2. 1917 Poděbrady", "× Miroslav Krejzek", "† 7. 11. 2005 Žamberk"],
-
-             zam="lékařka (MUDr.)", bydl="Žamberk",
-
-             roz="Černá", r=[],
-
-             note="Lékařka (MUDr.) v Žamberku, manželka MUDr. Miroslava Krejzka, matka PhDr. Evy Čákiové a MUDr. Ivy Gajdošové (babička Julie), dcera Josefa Černého."),
+    15: dict(n="MUDr. Věra Krejzková", y="1917–2005", st="doc",
+             f=["* 8. 2. 1917 Poděbrady", "× MUDr. Miroslav Krejzek", "† 7. 11. 2005 Žamberk",
+                "dcera Josefa Černého a Marie roz. Měšťánkové z Poděbrad"],
+             zam="lékařka (MUDr.), primářka v léčebném ústavu Albertinum v Žamberku",
+             bydl="Žamberk; dříve Poděbrady",
+             roz="Černá", puvod="Poděbrady",
+             r=["podebrady_oddani_josef_cerny_1911", "koncice_krest_marie_mestankova_1885"],
+             note="Lékařka (MUDr.), ftiseoložka a primářka v odborném léčebném ústavu Albertinum v Žamberku, manželka MUDr. Miroslava Krejzka, matka PhDr. Evy Čákiové a MUDr. Ivy Gajdošové (babička Julie). Narozena 8. 2. 1917 v Poděbradech jako dcera mistra kovářského Josefa Černého a Marie roz. Měšťánkové. Po boku manžela MUDr. Miroslava Krejzka působila po desetiletí v Žamberku."),
 
 
 
@@ -251,11 +252,35 @@ P = {
 
              note="Údaje z rodinného stromu PDF a MyHeritage CSV (psána též Sofia Henzl)."),
 
-    30: dict(n="Josef Černý", y="", st="fam",
+    28: dict(n="Otakar Krejzek", y="* asi 1880–1885", st="doc",
+             f=["* asi 1880–1885", "× asi 1905–1913 Františka",
+                "otec primáře MUDr. Miroslava Krejzka a jeho 5 bratrů"],
+             zam="soukromník v Bystřici nad Pernštejnem",
+             bydl="Bystřice nad Pernštejnem", puvod="Bystřice nad Pernštejnem",
+             r=["cuni_doktori_miroslav_krejzek_1939"],
+             note="Soukromník v Bystřici nad Pernštejnem, otec MUDr. Miroslava Krejzka a jeho 5 bratrů (pradědeček Julie). Doložen v univerzitní matrice doktorů Karlovy univerzity v zápise o promoci syna Miroslava v červnu 1939."),
 
-             f=[], r=[],
+    29: dict(n="Františka Krejzková", y="* asi 1885–1890", st="doc",
+             f=["* asi 1885–1890", "× asi 1905–1913 Otakar Krejzek",
+                "matka primáře MUDr. Miroslava Krejzka a jeho 5 bratrů"],
+             bydl="Bystřice nad Pernštejnem",
+             r=["cuni_doktori_miroslav_krejzek_1939"],
+             note="Matka primáře MUDr. Miroslava Krejzka a jeho 5 bratrů, manželka Otakara Krejzka, soukromníka v Bystřici nad Pernštejnem (prababička Julie). Doložena v univerzitní matrice doktorů Karlovy univerzity v zápise o promoci syna Miroslava z roku 1939."),
 
-             note="Otec Věry Krejzkové roz. Černé (pradědeček Julie). Měl syna (bratra Věry). Údaj od rodiny."),
+    30: dict(n="Josef Černý", y="* 1886", st="doc",
+             f=["* 16. 2. 1886 Poděbrady č. 15/II", "× 14. 6. 1911 Poděbrady Marie Měšťánková"],
+             zam="mistr kovářský v Poděbradech na Zámostí čp. 15/II",
+             bydl="Poděbrady č. 15/II", puvod="Poděbrady",
+             r=["podebrady_oddani_josef_cerny_1911", "podebrady_oddani_jan_cerny_1885"],
+             note="Mistr kovářský v Poděbradech na Zámostí (čp. 15/II). Narozen 16. 2. 1886 v Poděbradech jako syn kováře Jana Černého a Anny roz. Hromadové z Chvalovic. Dne 14. 6. 1911 byl v Poděbradech oddán s Marií Měšťánkovou z Končic. Otec lékařky MUDr. Věry Krejzkové roz. Černé (pradědeček Julie)."),
+
+    31: dict(n="Marie Černá", y="1885–1972", st="doc",
+             f=["* 13. 12. 1885 Končice čp. 14", "× 14. 6. 1911 Poděbrady Josef Černý", "† 25. 10. 1972 Žamberk (léčebna Albertinum)"],
+             roz="Měšťánková", zam="v domácnosti, dříve obchodnice",
+             bydl="Poděbrady č. 13/II a 15/II, v závěru života Žamberk",
+             puvod="Končice čp. 14 (farnost Žiželice)",
+             r=["koncice_krest_marie_mestankova_1885", "podebrady_oddani_josef_cerny_1911"],
+             note="Narozena 13. 12. 1885 v Končicích čp. 14 (pokřtěna 20. 12. 1885 v kostele sv. Prokopa v Žiželicích) jako dcera rolníka Josefa Měšťánka a Kateřiny roz. Ouzké. Dne 14. 6. 1911 se v Poděbradech provdala za mistra kovářského Josefa Černého. Matka lékařky MUDr. Věry Krejzkové roz. Černé (prababička Julie). V říjnu 1921 vystoupila z římskokatolické církve a přestoupila k Církvi československé. V závěru života žila v Žamberku u rodiny své dcery a zetě primáře Miroslava Krejzka; zemřela 25. 10. 1972 v Albertinu v Žamberku ve věku nedožitých 87 let."),
 
 
 
@@ -373,6 +398,34 @@ P = {
              f=["* 6. 1. 1875 Chlum čp. 35", "× Franz Henzl", "† 1957"], r=[],
 
              note="Údaje z rodinného stromu PDF."),
+
+
+
+    60: dict(n="Jan Černý", y="* 1860", st="doc",
+             f=["* 13. 12. 1860 Dobšice čp. 27", "× 20. 7. 1885 Poděbrady Anna Hromadová"],
+             zam="mistr kovářský v Malém Zboží čp. 15 a Poděbradech čp. 15/II",
+             bydl="Poděbrady / Malé Zboží čp. 15", puvod="Dobšice čp. 27 (fara Žehuň)",
+             r=["podebrady_oddani_jan_cerny_1885", "podebrady_oddani_josef_cerny_1911"],
+             note="Mistr kovářský v Malém Zboží čp. 15 a v Poděbradech. Narozen 13. 12. 1860 v Dobšicích čp. 27 jako manželský syn kováře Františka Černého z Malého Zboží a Kateřiny roz. Michlové (dcery kováře Josefa Michla z Vlkova čp. 13). Dne 20. 7. 1885 byl v Poděbradech oddán s Annou Hromadovou z Chvalovic. Otec kováře Josefa Černého (* 1886)."),
+
+    61: dict(n="Anna Černá", y="* 1864", st="doc",
+             f=["* 29. 6. 1864 Chvalovice čp. 4", "× 20. 7. 1885 Poděbrady Jan Černý"],
+             roz="Hromadová", bydl="Poděbrady / Malé Zboží čp. 15", puvod="Chvalovice čp. 4",
+             r=["podebrady_oddani_jan_cerny_1885", "podebrady_oddani_josef_cerny_1911"],
+             note="Narozena 29. 6. 1864 v Chvalovicích čp. 4 jako manželská dcera rolníka Václava Hromady z Chvalovic čp. 4 a Anny roz. Kovaříkové z Chvalovic čp. 21. Dne 20. 7. 1885 se v Poděbradech provdala za mistra kovářského Jana Černého. Matka kováře Josefa Černého (* 1886)."),
+
+    62: dict(n="Josef Měšťánek", y="* 1859", st="doc",
+             f=["* 1859 Bojiště čp. 10 (okres Kolín) / Končice", "× Kateřina Ouzká"],
+             zam="rolník v Končicích čp. 14, později obchodník v Poděbradech čp. 13/II",
+             bydl="Poděbrady čp. 13/II, dříve Končice čp. 14", puvod="Bojiště čp. 10 (okres Kolín)",
+             r=["koncice_krest_marie_mestankova_1885", "podebrady_oddani_josef_cerny_1911"],
+             note="Rolník v Končicích čp. 14 a později obchodník v Poděbradech čp. 13/II. Narozen roku 1859 v Bojišti čp. 10 jako syn tkalce Václava Měšťánka a Barbory roz. Kosové z Bojiště čp. 10. Otec Marie Černé roz. Měšťánkové."),
+
+    63: dict(n="Kateřina Měšťánková", y="* 1857", st="doc",
+             f=["* 1857 Končice čp. 14", "× Josef Měšťánek"],
+             roz="Ouzká", bydl="Poděbrady čp. 13/II, dříve Končice čp. 14", puvod="Končice čp. 14",
+             r=["koncice_krest_marie_mestankova_1885", "podebrady_oddani_josef_cerny_1911"],
+             note="Narozena roku 1857 v Končicích čp. 14 jako nemanželská dcera Kateřiny Ouzké (dcery Jiřího Ouzkého, baráčníka z Končic čp. 14 a Barbory roz. Daníčkové z Končic čp. 12). Manželka Josefa Měšťánka a matka Marie Černé roz. Měšťánkové."),
 
 
 
