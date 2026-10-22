@@ -74,8 +74,12 @@ pak konec `research_log.md` a sekci „Rozpracováno“.
 - 22. 10. 2026: Matrika Jistebnice 12 (SOA Třeboň, kniha 4509 – 1830–1836):
   - **Křest Josefa Menšíka** (* 18. 3. 1832, pokřtěn 20. 3. 1832 v Jistebnici čp. 156; sn. 46, fol. 46, 4. zápis). V oddací matrice 1865 bylo číslo strany chybně opsáno jako 76 namísto fol. 46 (ověřeno v dobovém indexu matriky). Otec Josef Menšík, pekař, syn Faustina [Františka] Menšíka, řezníka v Jistebnici a Anny roz. Dvořákové; matka Barbora, dcera Františka Horycha, zedníka v Jistebnici a Barbory roz. Dědové.
   - **Křest Marie Šmedlové** (* 18. 6. 1835, pokřtěna 18. 6. 1835 v Jistebnici čp. 48; sn. 122, fol. 122, 3. zápis). Přesně odpovídá citaci v oddací matrice. Otec Antonín Šmedla, punčochář v Jistebnici, syn Antonína Šmedly, punčocháře v Jistebnici a Anny roz. Kostkové; matka Františka, dcera Václava Šebeleho, správčího ve Vlasenicích a Apolonie.
-  - V rodokmenu evidováno celkem **122 osob** (z toho **11 doložených primárních zápisů** ze snímků matrik v 11 svazcích).
+- 22. 10. 2026: Matrika Týnského chrámu (AHMP, TÝN N19 – 1878–1893):
+  - **Křest Pavlíny Rosalie Jirkovské** (* 2. 11. 1882, pokřtěna 12. 11. 1882 v Praze I čp. 12-I; sn. 77, fol. 67, 2. zápis). Otec Alois Jirkovský, kamnářský dělník v Praze (přiznal se k otcovství před farářem a svědky Janem Jirkovským a Karlem Jelínkem), syn Františka Jirkovského, hrnčíře z Kutné Hory, a Aloisie roz. Franzové z Prahy. Matka Aloisie Tichá, narozená v Praze (u sv. Apolináře), dcera již zemřelého krejčovského mistra v Praze Františka Tichého a zemřelé Anny roz. Svobodové z Prahy.
+  - V zápisu zjištěno přesné datum sňatku rodičů: **14. 1. 1883 v Týnském chrámu**.
+  - Do rodokmenu nově doplněni a doloženi další 3 předci v 6. generaci: **František Jirkovský** (č. 68), **Aloisie Franzová** (č. 69) a **Anna Svobodová** (č. 71).
+  - V rodokmenu evidováno celkem **125 osob** (z toho **12 doložených primárních zápisů** ze snímků matrik ve 12 svazcích).
 - Další bezprostřední krok (v malých krocích):
-  1. Dohledat křest Pavlíny Rosalie Jirkovské (* 2. 11. 1882 Praha I čp. 12) v matrice Týnského chrámu (TÝN N19).
+  1. Dohledat sňatek Aloise Jirkovského a Aloisie Tiché (14. 1. 1883) v matrice Týnského chrámu (TÝN O11).
   2. Dohledat sňatek pekaře Josefa Menšíka st. a Barbory Horychové v Jistebnici (kolem 1825–1831).
   3. Zjistit úmrtí Františka Menšíka a Pavlíny Menšíkové v Praze.

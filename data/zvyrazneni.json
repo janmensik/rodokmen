@@ -130,5 +130,17 @@
     ],
     "status": "ok",
     "note": "Zápis o narození a křtu Marie Šmedlové (1835)"
+  },
+  "tyn_krest_pavlina_jirkovska_1882": {
+    "boxes": [
+      [
+        0.01,
+        0.01,
+        0.99,
+        0.99
+      ]
+    ],
+    "status": "ok",
+    "note": "Zápis o narození a křtu Pavlíny Rosalie Jirkovské (1882)"
   }
 }
