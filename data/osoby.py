@@ -106,7 +106,7 @@ P = {
 
             zam="docent deskriptivní geometrie a fotogrammetrie na Stavební fakultě ČVUT; vedoucí redaktor Rozhledů matematicko-fyzikálních (1956–1968)",
 
-            r=["podskali_krest_miroslav_mensik_1906"], note="Matematik, vysokoškolský docent deskriptivní geometrie a fotogrammetrie na Stavební fakultě ČVUT, autor učebnic a vědeckých prací. Narozen 3. 8. 1906 v Praze na Novém Městě čp. 1717 (pokřtěn 9. 8. 1906 u Nejsv. Trojice v Podskalí jako Miroslav Vladimír). Syn Františka Menšíka (* 1873 Jistebnice) a Pavlíny roz. Jirkovské (* 1882 Praha)."),
+            r=["podskali_krest_miroslav_mensik_1906"], note="Matematik, vysokoškolský docent deskriptivní geometrie a fotogrammetrie na Stavební fakultě ČVUT, autor učebnic a vědeckých prací. Narozen 3. 8. 1906 v Praze na Novém Městě čp. 1717 (pokřtěn 9. 8. 1906 u Nejsv. Trojice v Podskalí jako Miroslav Vladimír). Syn Františka Menšíka (* 1873 Jistebnice) a Pavlíny roz. Jirkovské (* 1882 Praha). Z matčiny strany byli jeho bratranci z druhého kolena slavní bratři Linhartové – hrdinové protinacistického odboje v čele s Bedřichem Linhartem (popraveným 1944 na Pankráci) a radiotelegrafistou vysílačky Sparta I Otto Linhartem."),
 
     9: dict(n="MUDr. Ludmila Menšíková", y="1909–2007", st="doc",
             f=["* 22. 8. 1909 Praha (křest u sv. Apolináře)",
@@ -116,7 +116,7 @@ P = {
             roz="Pivničková", zam="dětská lékařka (pediatr)",
             bydl="Praha 6 - Hradčany (Pod baštami 277/4), dříve Dejvice (Vítězné nám. 1)",
             r=["jindrich_oddani_jan_pivnicka_1908"],
-            note="MUDr. Ludmila Menšíková, roz. Pivničková, poprvé provdaná Pechová. Dětská lékařka v Praze, manželka doc. RNDr. Miroslava Menšíka, matka Radima a Ivana Menšíkových. Narozena 22. 8. 1909 v Praze (dle křestního výtahu u sv. Apolináře), dcera učitele měšťanské školy na Hradčanech Jana Emanuela Pivničky a Emmy Marie roz. Tomíčkové. V roce 1928 maturovala na reálném gymnáziu v Bubenči, v roce 1934 promovala na Lékařské fakultě UK v Praze (MUDr.). Působila v Krči, Nemocnici Německý Brod, Plzni a v Dejvicích. Zemřela v roce 2007 a je pohřbena v rodinném hrobě na Olšanech spolu se svou matkou Emmou Pivničkovou."),
+            note="MUDr. Ludmila Menšíková, roz. Pivničková, poprvé provdaná Pechová. Dětská lékařka v Praze, manželka doc. RNDr. Miroslava Menšíka, matka Radima a Ivana Menšíkových. Narozena 22. 8. 1909 v Praze (dle křestního výtahu u sv. Apolináře), dcera učitele měšťanské školy na Hradčanech Jana Emanuela Pivničky a Emmy Marie roz. Tomíčkové. V roce 1928 maturovala na reálném gymnáziu v Bubenči, v roce 1934 promovala na Lékařské fakultě UK v Praze (MUDr.). Působila v Krči, Nemocnici Německý Brod, Plzni a v Dejvicích. Zemřela v roce 2007 a je pohřbena v rodinném hrobě na Olšanech spolu se svou matkou Emmou Pivničkovou. V rodinné paměti se uchoval tragický odkaz příbuzného jménem Linhart, popraveného za války v Praze – jednalo se o Bedřicha Linharta (* 1886, popraven 20. 10. 1944 na Pankráci), bratrance její tchyně Pavlíny Menšíkové roz. Jirkovské."),
 
     10: dict(n="Richard Jarolím", y="1927–2012", st="fam",
 
@@ -198,7 +198,7 @@ P = {
 
              r=["tyn_krest_pavlina_jirkovska_1882", "tyn_oddani_frantisek_mensik_1902"],
 
-             note="Narozena 2. 11. 1882 v Praze I čp. 12 (pokřtěna 12. 11. 1882 v Týnském chrámu). Dcera kamnáře Aloise Jirkovského a Aloisie roz. Tiché. Dne 8. 5. 1902 oddána u Týna s Františkem Menšíkem."),
+             note="Narozena 2. 11. 1882 v Praze I čp. 12 (pokřtěna 12. 11. 1882 v Týnském chrámu). Dcera kamnáře Aloise Jirkovského a Aloisie roz. Tiché. Dne 8. 5. 1902 oddána u Týna s Františkem Menšíkem. Její kmotrou při křtu byla teta Pavlína Berta Linhartová roz. Jirkovská (* 1854), jejíž synové (vlastní bratranci Pavlíny) Bedřich, Zdeněk, Václav a Otto Linhartovi vytvořili jednu z nejstatečnějších rodin protinacistického odboje (vysílačka Sparta I, Obrana národa, Tři králové); Bedřich Linhart byl v říjnu 1944 popraven v pražské sekyrárně na Pankráci."),
     18: dict(n="Jan Emanuel Pivnička", y="1872 – po 1921", st="doc",
              f=["* 14. 1. 1872 Praha Nové Město čp. 1356 (křest u sv. Štěpána)",
                 "× 27. 4. 1908 Praha (kostel sv. Jindřicha) Emma Marie Tomíčková",
@@ -215,7 +215,7 @@ P = {
              roz="Tomíčková", bydl="Praha IV - Hradčany čp. 277, dříve Kamenné Žehrovice čp. 164",
              puvod="Warta (Stráž nad Ohří u Hauenštejnu, okres Kadaň)",
              r=["jindrich_oddani_jan_pivnicka_1908"],
-             note="Manželka Jana Emanuela Pivničky a matka MUDr. Ludmily Menšíkové. Narozena 7. 4. 1886 ve Wartě čp. 59 (dnes Stráž nad Ohří u hradu Hauenštejn, okres Kadaň). Dcera c. k. železničního přednosty stanice Hauenstein-Warta Antonína Tomíčka a Anny roz. Halíkové z Lobče čp. 63. Pohřbena v rodinném hrobě na Olšanech spolu s dcerou Ludmilou."),
+             note="Manželka Jana Emanuela Pivničky a matka MUDr. Ludmily Menšíkové. Narozena 7. 4. 1886 ve Wartě čp. 59 (dnes Stráž nad Ohří u hradu Hauenštejn, okres Kadaň). Dcera c. k. železničního přednosty stanice Hauenstein-Warta Antonína Tomíčka a Anny roz. Halíkové z Lobče čp. 63. Pohřbena v rodinném hrobě na Olšanech spolu s dcerou Ludmilou. V rodině Jana Menšíka je pamatována jako „paní Pivničková“ (babička otce Ing. Radima Menšíka), u níž rodina na Hradčanech (Pod baštami 277/4) pobývala."),
 
 
 
@@ -289,7 +289,7 @@ P = {
 
              r=["hastal_krest_alois_jirkovsky_1859", "tyn_oddani_alois_jirkovsky_1885", "tyn_krest_pavlina_jirkovska_1882", "tyn_oddani_frantisek_mensik_1902"],
 
-             note="Kamnářský dělník a kamnář v Praze na Starém Městě čp. 12. Narozen 7. 4. 1859 v Praze (pokřtěn ve farnosti sv. Haštala). Syn Františka Jirkovského, hrnčířského tovaryše v Praze (rodilého z Kutné Hory) a Aloisie roz. Franzové z Prahy. Oddán 19. 1. 1885 u Týna s Aloisií Marií Tichou."),
+             note="Kamnářský dělník a kamnář v Praze na Starém Městě čp. 12. Narozen 7. 4. 1859 v Praze (pokřtěn ve farnosti sv. Haštala). Syn Františka Jirkovského, hrnčířského tovaryše v Praze (rodilého z Kutné Hory) a Aloisie roz. Franzové z Prahy. Oddán 19. 1. 1885 u Týna s Aloisií Marií Tichou. Jeho sestra Pavlína Berta Jirkovská (* 1854) se v roce 1883 provdala za mlynářského Jana Linharta a stala se matkou odbojářů bratří Linhartových."),
 
     35: dict(n="Aloisie Marie Jirkovská", y="* 1858", st="doc",
 
@@ -1253,6 +1253,18 @@ SIDE = [
     dict(k=8, n="Vlastimila Menšíková (* 1902)", t="Sestra doc. Miroslava Menšíka (prateta Jana), * 1902 Praha, dcera Františka a Pavlíny. Doložena v policejní konskripci karton 388, obraz 88.", r=[],
 
          vetev=dict(n="Vlastimila Menšíková", y="* 1902", f=["* 1902 Praha"], vztah="sestra Miroslava")),
+
+    dict(k=34, n="Pavlína Berta Linhartová roz. Jirkovská (1854–1927)", t="Sestra Aloise Jirkovského, teta Pavlíny Menšíkové roz. Jirkovské a kmotra při jejím křtu. Narozena 24. 8. 1854 v Praze u křižovníků, oddána 20. 5. 1883 u Týna s Janem Linhartem (* 16. 4. 1854 Velké Číčovice, mlynářský chasník a záložník vozatajského pluku). Zemřela 27. 2. 1927 na Král. Vinohradech. Matka slavné odbojové rodiny bratří Linhartových.", r=["tyn_oddani_jan_linhart_1883"],
+         vetev=dict(n="Pavlína Berta Linhartová", y="1854–1927", f=["* 24. 8. 1854 Praha (křest u sv. Františka)", "× 20. 5. 1883 Praha (Týnský chrám) Jan Linhart (* 1854 Číčovice)", "† 27. 2. 1927 Praha-Vinohrady"], roz="Jirkovská", vztah="sestra Aloise, teta Pavlíny")),
+
+    dict(k=17, n="Bedřich Linhart (1886–1944)", t="Vlastní bratranec Pavlíny Menšíkové roz. Jirkovské. Narozen 9. 4. 1886 v Michli čp. 14, vrchní kriminální inspektor pražské policie, ruský legionář a klíčový představitel protinacistického odboje (krycí jméno „Polda“; spolupráce s Obranou národa, skupinou Tří králů a sítí ÚVOD). V letech 1939–1941 jako tlumočník v Petschkově paláci varoval ohrožené osoby a vynášel zprávy gestapa; v garáži a autě ukrýval vysílačku Sparta Ic. Zatčen v červenci 1942 a dne 20. 10. 1944 v 16:00 popraven gilotinou v pankrácké sekyrárně.", r=["tyn_oddani_jan_linhart_1883"],
+         vetev=dict(n="Bedřich Linhart", y="1886–1944", f=["* 9. 4. 1886 Praha-Michle", "† 20. 10. 1944 Praha-Pankrác (popraven v sekyrárně)"], zam="vrchní kriminální inspektor policie, ruský legionář, protinacistický odbojář (Polda)", vztah="bratranec Pavlíny Menšíkové roz. Jirkovské")),
+
+    dict(k=17, n="Otto Linhart (1895–1980)", t="Vlastní bratranec Pavlíny Menšíkové roz. Jirkovské. Narozen 24. 9. 1895 v Praze u sv. Františka, ruský legionář, poštovní revident na Hlavní poště v Praze a legendární radiotelegrafista ilegální vysílačky Sparta I (ÚVOD). Jako jediný ze čtyř bratří přežil protektorátní pronásledování gestapem v hluboké ilegalitě.", r=[],
+         vetev=dict(n="Otto Linhart", y="1895–1980", f=["* 24. 9. 1895 Praha", "† 29. 3. 1980 Praha"], zam="poštovní úředník, ruský legionář, radiotelegrafista vysílačky Sparta I", vztah="bratranec Pavlíny Menšíkové roz. Jirkovské")),
+
+    dict(k=17, n="Václav a Zdeněk Linhartovi", t="Bratři Bedřicha a Otto Linharta, bratranci Pavlíny Menšíkové roz. Jirkovské. Zdeněk Linhart (* 12. 5. 1888 Praha, † 17. 1. 1943 KT Stutthof), řidič tramvaje, poskytoval byt pro vysílání Jindřicha Klečky. Václav Linhart (* 21. 7. 1892 Praha, † 4. 7. 1942 Praha), kamenotiskař a odbojář, při zatýkání gestapem požil cyankáli. Sestry Marie a Ludmila přežily věznění v KT Ravensbrück.", r=[],
+         vetev=dict(n="Václav a Zdeněk Linhartovi", y="† 1942, † 1943", f=["Václav: * 21. 7. 1892, † 4. 7. 1942 Praha (cyankáli při zatýkání)", "Zdeněk: * 12. 5. 1888, † 17. 1. 1943 KT Stutthof"], zam="odbojáři (Sparta I)", vztah="bratranci Pavlíny Menšíkové roz. Jirkovské")),
 
     dict(k=65, n="Václav Horych (* 1795)", t="Bratr Barbory Menšíkové roz. Horychové, měšťan v Jistebnici čp. 86. Narozen 4. 8. 1795 v čp. 136, oddán 18. 2. 1828 v Jistebnici s Marií Šmedlovou (čp. 197). V roce 1865 byl svědkem na svatbě svého synovce Josefa Menšíka ml. a Marie Šmedlové.", r=["jistebnice_oddani_josef_mensik_1828", "jistebnice_oddani_josef_mensik_1865"],
 

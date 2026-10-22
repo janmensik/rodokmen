@@ -238,5 +238,17 @@
     ],
     "status": "ok",
     "note": "Zápis o sňatku Josefa Pivničky a Antonie Grubnerové"
+  },
+  "tyn_oddani_jan_linhart_1883": {
+    "boxes": [
+      [
+        0.11,
+        0.505,
+        0.95,
+        0.85
+      ]
+    ],
+    "status": "ok",
+    "note": "Zápis o sňatku Jana Linharta a Pavlíny Berty Jirkovské"
   }
 }
