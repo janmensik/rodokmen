@@ -18,9 +18,9 @@ Co víme z vyprávění a rodinných dokumentů – kdo to řekl / odkud to je a
       - Matka: **15 – MUDr. Věra Krejzková roz. Černá** (1917–2005, lékařka MUDr. v Žamberku)
         - Otec Věry Černé: **30 – Josef Černý** (doplněno 21. 10. 2026)
         - Sourozenec: 1 bratr Věry Černé (syn Josefa Černého)
-    - Sestra Evy Čákiové (teta Julie): **MUDr. Iva Gajdošová roz. Krejzková** (lékařka, † 2013, Hradec Králové, ID 3000016), manžel pan Gajdoš. Děti:
+    - Sestra Evy Čákiové (teta Julie): **MUDr. Iva Gajdošová roz. Krejzková** (lékařka, † 2013 Hradec Králové, pohřbena v Hradci Králové, ID 3000016), manžel **MUDr. Gajdoš** (lékař, Hradec Králové). Děti:
       - **Barbora Gajdošová** (ID 3000026), partner **René Štefec** (kominík, Praha), dcera **Evelína Štefcová** (* 2013, Praha).
-      - **Marek Gajdoš** (ID 3000027, Hradec Králové).
+      - **Marek Gajdoš** (ID 3000027, Hradec Králové / Praha, partner z Mexika).
   - Děti Jana a Julie: **Kryštof Adam Menšík** (* 20. 3. 2010, Praha, ID 3000003), **Tea Apolena Menšíková** (* 14. 2. 2013, Praha, ID 3000004), **Hynek Albert Menšík** (* 10. 7. 2015, Praha) a **Jonáš Alex Menšík** (* 5. 12. 2017, Praha).
   - Bratr: **Jakub Menšík** (* 8. 2. 1977 v Google Contacts / * 10. 2. 1977 v GEDCOM/MyHeritage, Praha, ID 3000007), bytem Praha 6 - Dejvice (Mozambická).
 - **4 – Ing. Radim Jaroslav Menšík** (* 13. 9. 1946 Praha – † 15. 1. 2021 Praha, pohřben 27. 1. 2021 Praha, ID 3000005) – inženýr, otec Jana a Jakuba; sňatek asi 1972 Praha s Ing. Zdeňkou Jarolímovou.
