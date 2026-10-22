@@ -166,5 +166,17 @@
     ],
     "status": "ok",
     "note": "Zápis o narození a křtu Miroslava Vladimíra Menšíka"
+  },
+  "hastal_krest_alois_jirkovsky_1859": {
+    "boxes": [
+      [
+        0.16,
+        0.232,
+        0.862,
+        0.368
+      ]
+    ],
+    "status": "ok",
+    "note": "Zápis o narození a křtu Aloise Jirkovského"
   }
 }

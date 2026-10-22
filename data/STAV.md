@@ -86,8 +86,12 @@ pak konec `research_log.md` a sekci „Rozpracováno“.
   - **Křest doc. RNDr. Miroslava Menšíka** (* 3. 8. 1906, pokřtěn 9. 8. 1906 v Praze čp. 1717-II jako **Miroslav Vladimír**; sn. 56, pag. 49, zápis č. 89). Otec František Menšík (* 8. 7. 1873 Jistebnice čp. 56), c. k. civilní strážník, syn pekaře Josefa Menšíka a Marie roz. Šmedlové; matka Pavlína roz. Jirkovská (* 2. 11. 1882 Praha čp. 12-I), dcera kamnáře Aloise Jirkovského a Aloisie roz. Tiché. Kmotrem byl dědeček Alois Jirkovský (v zastoupení Františkem Bůžkem).
   - V policejní konskripci doloženi sourozenci doc. Miroslava Menšíka: bratr **František Pavel Menšík** (* 1901 Praha, † v dětství) a sestra **Vlastimila Menšíková** (* 1902 Praha).
   - V rodokmenu evidováno celkem **125 osob** (z toho **14 doložených primárních zápisů** ze snímků matrik ve 14 svazcích, 29 řádků deníku).
+- 22. 10. 2026: Matrika farnosti sv. Haštala v Praze (AHMP, HŠ N15 – 1853–1863):
+  - **Křest Aloise Jirkovského** (* 7. 4. 1859, pokřtěn 10. 4. 1859 v Praze I čp. 783; sn. 332, pag. 330, zápis č. 1). Otec František Jirkovský, tovaryš hrnčířský z Kutné Hory, manželský syn Václava Jirkovského, patentního invalidy (vysloužilého vojáka) v Čáslavi a Anny roz. Pilzové z Kutné Hory; matka Aloisie, manželská dcera Barbory Franzové, pradleny v Praze.
+  - V zápisu odhalen sňatek rodičů 15. 2. 1852 u sv. Františka v Praze.
+  - Do rodokmenu nově doloženi a zařazeni 3 předci v 7. generaci: **Václav Jirkovský** (č. 136), **Anna Jirkovská roz. Pilzová** (č. 137) a **Barbora Franzová** (č. 139).
+  - V rodokmenu evidováno celkem **128 osob** (z toho **15 doložených primárních zápisů** ze snímků matrik v 15 svazcích, 30 řádků deníku).
 - Další bezprostřední krok (v malých krocích):
-  1. Zjistit rodné příjmení a původ babičky MUDr. Ludmily Menšíkové († před 2010 Praha) – sňatek s doc. Miroslavem Menšíkem kolem 1935–1945.
-  2. Dohledat křest Aloise Jirkovského (* 7. 4. 1859) v matrice sv. Haštala.
-  3. Dohledat křest Aloisie Marie Tiché (* 12. 7. 1858) v matrice sv. Apolináře.
-  4. Dohledat sňatek pekaře Josefa Menšíka st. a Barbory Horychové v Jistebnici (kolem 1825–1831).
+  1. Dohledat křest Aloisie Marie Tiché (* 12. 7. 1858) v matrice sv. Apolináře (AHMP, AP N).
+  2. Dohledat sňatek pekaře Josefa Menšíka st. a Barbory Horychové v Jistebnici (kolem 1825–1831).
+  3. Zjistit rodné příjmení a původ babičky MUDr. Ludmily Menšíkové († před 2010 Praha) – sňatek s doc. Miroslavem Menšíkem kolem 1935–1945.
