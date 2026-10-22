@@ -65,10 +65,12 @@ pak konec `research_log.md` a sekci „Rozpracováno“.
   - Ve stromu (`tree_chart.py` / `tree.svg`) je zobrazení 100% jednotné: na 2. řádku vždy souhrnné roky (bez míchání celých dat narození), na 3. řádku vždy stejné pořadí `Povolání · Místo`.
   - V profilu osoby (`osoba/[slug].astro`) vytvořena přehledná strukturovaná karta životních údajů s jednotným pořadím položek a seznamem dětí.
   - Všechna původní data, místa na mapě i texty zachovány beze ztráty (ověřeno kontrolami a testovacím skriptem).
-- Další krok:
-  1. Pokračovat v ověřování matčiny větve:
-     - Větev Holánků a Šímů ve Starém Ransku (narození Julia Holánka 1889, Františka Holánka 1854, Julie Šímové 1854 – Krucemburk / ARON).
-     - Větev Henzlů a Pospíchalů v Hluboké a Chlumu (Franz Henzl 1872, Aloisie Pospíchalová 1875 – Krucemburk / ARON).
-  2. Doplnit od uživatele podrobnosti k otcovské větvi:
-     - Dívčí příjmení a rodiče babičky MUDr. Ludmily Menšíkové (č. 9).
-     - Farnost v Praze nebo křestní zápis doc. RNDr. Miroslava Menšíka (* 3. 8. 1906 Praha, č. 8).
+- 22. 10. 2026: Pátrání po původu rodiny Menšíků (Miroslav * 1906, Vojtěch * 1880, Anna * 1848):
+  - Policejní přihlášky Praha (NAČR, karton 388):
+    - Obraz 75: Vojtěch Menšík (* 1880 Jistebnice), kožešnický pomocník, a manželka Františka (* 1884), přihlášeni 26. 3. 1906 v Celetné 593 (Staré Město).
+    - Obraz 78–79, 148–149: vdova Anna Menšíková (* 1848 Jistebnice) s dětmi Josefem (* 1874), Vojtěchem (* 1880) a Bohumilem (* 1889), v Celetné 593 od 1900, od 1911 v Haštalské/Kozí čp. 630.
+  - V matrikách Jistebnice (SOA Třeboň) narození Vojtěcha ani Josefa nezapsáno (rodina měla v Jistebnici pouze domovské právo / Heimatrecht po otci).
+  - V matrikách AHMP pro srpen 1906 vyloučeny staroměstské a novoměstské farnosti: sv. Havel (HV N21), sv. Haštal (HŠ N22a), Týn (TÝN N20), sv. Petr (PE N32a), sv. Jindřich (JCH N31b). Sv. Jiljí (JIL N22) končí 3. 7. 1906 (další svazek není online).
+- Další bezprostřední krok (v malých krocích):
+  1. Zjistit sňatek Vojtěcha Menšíka a Františky (cca 1905 – březen 1906 v Praze), který odhalí rodné příjmení matky Františky a přesné farnosti narození obou rodičů.
+  2. Prověřit oddací matriku Týnského chrámu (TÝN O12 • 1899–1911) a sv. Haštala (HŠ O13 • 1894–1913) pro sňatek Vojtěcha a Františky.
