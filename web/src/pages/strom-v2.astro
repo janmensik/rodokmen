@@ -1,0 +1,566 @@
+---
+import Base from '../layouts/Base.astro';
+import { people, href, byK } from '../lib/data.js';
+
+// Build complete hierarchical tree data starting from root (Kekule 1)
+function buildSubtree(k: number, visited = new Set<number>()): any {
+  if (visited.has(k)) return null;
+  const p = byK[k];
+  if (!p) return null;
+  visited.add(k);
+
+  const node: any = {
+    k,
+    slug: p.slug,
+    name: p.name,
+    years: p.years || '',
+    gen: p.gen ?? (k.toString(2).length - 1),
+    sex: p.sex || (k % 2 === 0 ? 'M' : 'F'),
+    rel: p.rel || '',
+    status: p.status || '',
+    st: p.st || 'unk',
+    job: (p.details as any)?.job || '',
+    home: (p.details as any)?.home || (p.details as any)?.birth || '',
+    url: href.person(p.slug),
+    side: p.side ? p.side.map((s: any) => s.name) : []
+  };
+
+  const parents: any[] = [];
+  const father = buildSubtree(2 * k, new Set(visited));
+  const mother = buildSubtree(2 * k + 1, new Set(visited));
+  if (father) parents.push(father);
+  if (mother) parents.push(mother);
+
+  if (parents.length > 0) {
+    node.children = parents;
+  }
+  return node;
+}
+
+const rootTree = buildSubtree(1);
+const allNames = Object.values(people).map((p) => p.name).sort((a, b) => a.localeCompare(b, 'cs'));
+---
+
+<Base title="Interaktivní strom (D3.js)" full>
+  <div class="fan-bar">
+    <strong>Interaktivní strom (D3.js)</strong>
+    <span class="tree-badge">verze 2.0</span>
+    <form class="fan-search" autocomplete="off" id="d3-search-form">
+      <input id="d3-search-input" list="d3-names" placeholder="Najít člena rodiny…" aria-label="Najít člena rodiny" />
+      <datalist id="d3-names">{allNames.map((n) => <option value={n} />)}</datalist>
+      <button type="submit">Najít</button>
+    </form>
+    <span class="fan-btns">
+      <button type="button" id="btn-zoom-in" title="Přiblížit">+</button>
+      <button type="button" id="btn-zoom-out" title="Oddálit">−</button>
+      <button type="button" id="btn-fit" title="Vycentrovat">Vycentrovat</button>
+      <button type="button" id="btn-expand-all" title="Rozbalit vše">Rozbalit vše</button>
+      <button type="button" id="btn-collapse" title="Základní pohled">Základní pohled</button>
+    </span>
+    <span class="small muted fan-hint">
+      Klepnutím na <strong>+ / −</strong> rozbalíte linii předků. Kolečkem myši přibližujte, tažením posouvejte. Kliknutím na jméno otevřete profil osoby.
+    </span>
+  </div>
+
+  <div id="tree-d3-container" class="d3-stage">
+    <svg id="d3-tree-svg"></svg>
+    <div id="d3-tooltip" class="d3-tooltip hidden"></div>
+  </div>
+
+  <script define:vars={{ rootTree }}>
+    window.INITIAL_TREE_DATA = rootTree;
+  </script>
+
+  <script>
+    import * as d3 from 'd3';
+
+    interface PersonNode {
+      k: number;
+      slug: string;
+      name: string;
+      years: string;
+      gen: number;
+      sex: string;
+      rel: string;
+      status: string;
+      st: string;
+      job: string;
+      home: string;
+      url: string;
+      side?: string[];
+      children?: PersonNode[];
+      _children?: PersonNode[];
+      x?: number;
+      y?: number;
+      x0?: number;
+      y0?: number;
+    }
+
+    const container = document.getElementById('tree-d3-container')!;
+    const svgEl = d3.select<SVGSVGElement, unknown>('#d3-tree-svg');
+    const tooltip = document.getElementById('d3-tooltip')!;
+
+    const rawData: PersonNode = (window as any).INITIAL_TREE_DATA;
+    if (!rawData) {
+      console.error('Data stromu nenalezena');
+    }
+
+    const NODE_WIDTH = 190;
+    const NODE_HEIGHT = 58;
+    const HORIZONTAL_GAP = 260;
+
+    let width = container.clientWidth || window.innerWidth;
+    let height = container.clientHeight || (window.innerHeight - 110);
+
+    const svg = svgEl
+      .attr('width', '100%')
+      .attr('height', '100%')
+      .attr('viewBox', `0 0 ${width} ${height}`);
+
+    const g = svg.append('g').attr('class', 'tree-viewport');
+
+    const zoom = d3.zoom<SVGSVGElement, unknown>()
+      .scaleExtent([0.15, 3])
+      .on('zoom', (event) => {
+        g.attr('transform', event.transform);
+      });
+
+    svg.call(zoom).on('dblclick.zoom', null);
+
+    // Initial root setup
+    const root = d3.hierarchy<PersonNode>(rawData, (d) => d.children);
+    (root as any).x0 = height / 2;
+    (root as any).y0 = 60;
+
+    // Collapse beyond 2nd generation by default
+    function collapseBeyondGen(d: d3.HierarchyNode<PersonNode>, maxGen = 2) {
+      if (d.children) {
+        if (d.data.gen >= maxGen) {
+          (d as any)._children = d.children;
+          d.children = null;
+        } else {
+          d.children.forEach((c) => collapseBeyondGen(c, maxGen));
+        }
+      }
+    }
+    collapseBeyondGen(root, 2);
+
+    const treeLayout = d3.tree<PersonNode>()
+      .nodeSize([76, HORIZONTAL_GAP])
+      .separation((a, b) => (a.parent === b.parent ? 1.05 : 1.25));
+
+    let i = 0;
+
+    function update(source: any) {
+      const duration = 350;
+      const treeData = treeLayout(root);
+
+      const nodes = treeData.descendants();
+      const links = treeData.links();
+
+      // Normalize for fixed horizontal depth
+      nodes.forEach((d) => {
+        d.y = d.depth * HORIZONTAL_GAP + 60;
+      });
+
+      // --- NODES ---
+      const node = g.selectAll<SVGGElement, d3.HierarchyPointNode<PersonNode>>('g.d3-node')
+        .data(nodes, (d: any) => d.id || (d.id = ++i));
+
+      // Enter new nodes at the parent's previous position
+      const nodeEnter = node.enter()
+        .append('g')
+        .attr('class', (d) => `d3-node sex-${d.data.sex} st-${d.data.st}`)
+        .attr('transform', () => `translate(${source.y0 ?? 60}, ${source.x0 ?? height / 2})`)
+        .attr('cursor', 'pointer');
+
+      // Card Background
+      nodeEnter.append('rect')
+        .attr('class', 'node-box')
+        .attr('x', 0)
+        .attr('y', -NODE_HEIGHT / 2)
+        .attr('width', NODE_WIDTH)
+        .attr('height', NODE_HEIGHT)
+        .attr('rx', 8)
+        .attr('ry', 8)
+        .attr('fill', (d) => d.data.sex === 'F' ? '#FFFDFB' : '#FAFBFD')
+        .attr('stroke', (d) => d.data.sex === 'F' ? '#D6A785' : '#85A7D6')
+        .attr('stroke-width', 1.8)
+        .on('click', (_event, d) => {
+          if (d.data.url) {
+            window.location.href = d.data.url;
+          }
+        });
+
+      // Left gender accent strip
+      nodeEnter.append('rect')
+        .attr('x', 0)
+        .attr('y', -NODE_HEIGHT / 2)
+        .attr('width', 5.5)
+        .attr('height', NODE_HEIGHT)
+        .attr('rx', 2)
+        .attr('fill', (d) => d.data.sex === 'F' ? '#D9825B' : '#4E80B4');
+
+      // Name Text
+      nodeEnter.append('text')
+        .attr('class', 'node-name')
+        .attr('x', 14)
+        .attr('y', -NODE_HEIGHT / 2 + 18)
+        .attr('font-size', '12px')
+        .attr('font-weight', '700')
+        .attr('fill', '#2B2620')
+        .text((d) => {
+          const maxLen = 19;
+          return d.data.name.length > maxLen ? d.data.name.slice(0, maxLen - 1) + '…' : d.data.name;
+        })
+        .on('click', (_event, d) => {
+          if (d.data.url) window.location.href = d.data.url;
+        });
+
+      // Years & Job / Home text
+      nodeEnter.append('text')
+        .attr('class', 'node-sub')
+        .attr('x', 14)
+        .attr('y', -NODE_HEIGHT / 2 + 34)
+        .attr('font-size', '10.5px')
+        .attr('fill', '#7A6B5B')
+        .text((d) => d.data.years || d.data.rel || 'předek');
+
+      nodeEnter.append('text')
+        .attr('class', 'node-extra')
+        .attr('x', 14)
+        .attr('y', -NODE_HEIGHT / 2 + 48)
+        .attr('font-size', '9.5px')
+        .attr('fill', '#9A8B7B')
+        .text((d) => {
+          const info = d.data.job || d.data.home || '';
+          return info.length > 24 ? info.slice(0, 23) + '…' : info;
+        });
+
+      // Toggle Circle (+ / −) for nodes that have or had children
+      const toggleGroup = nodeEnter.append('g')
+        .attr('class', 'toggle-btn')
+        .attr('transform', `translate(${NODE_WIDTH}, 0)`)
+        .style('display', (d: any) => (d.children || d._children ? 'block' : 'none'))
+        .on('click', (event, d: any) => {
+          event.stopPropagation();
+          if (d.children) {
+            d._children = d.children;
+            d.children = null;
+          } else {
+            d.children = d._children;
+            d._children = null;
+          }
+          update(d);
+        });
+
+      toggleGroup.append('circle')
+        .attr('r', 8.5)
+        .attr('fill', (d: any) => (d._children ? '#8A5A2B' : '#E8DFD3'))
+        .attr('stroke', '#8A5A2B')
+        .attr('stroke-width', 1.6);
+
+      toggleGroup.append('text')
+        .attr('text-anchor', 'middle')
+        .attr('dy', '3.5px')
+        .attr('font-size', '11px')
+        .attr('font-weight', 'bold')
+        .attr('fill', (d: any) => (d._children ? '#FFFFFF' : '#4A3B2C'))
+        .text((d: any) => (d._children ? '+' : '−'));
+
+      // Tooltip handling
+      nodeEnter
+        .on('mouseenter', (event, d) => {
+          let html = `<strong>${d.data.name}</strong>`;
+          if (d.data.years) html += `<div class="tt-sub">${d.data.years}</div>`;
+          if (d.data.rel) html += `<div class="tt-rel">${d.data.rel}</div>`;
+          if (d.data.job) html += `<div class="tt-line">💼 ${d.data.job}</div>`;
+          if (d.data.home) html += `<div class="tt-line">📍 ${d.data.home}</div>`;
+          if (d.data.side && d.data.side.length > 0) {
+            html += `<div class="tt-side">Příbuzní: ${d.data.side.slice(0, 3).join(', ')}</div>`;
+          }
+          html += `<div class="tt-hint">Kliknutím otevřete stránku osoby →</div>`;
+
+          tooltip.innerHTML = html;
+          tooltip.classList.remove('hidden');
+          const rect = container.getBoundingClientRect();
+          tooltip.style.left = `${event.clientX - rect.left + 16}px`;
+          tooltip.style.top = `${event.clientY - rect.top + 16}px`;
+        })
+        .on('mousemove', (event) => {
+          const rect = container.getBoundingClientRect();
+          tooltip.style.left = `${event.clientX - rect.left + 16}px`;
+          tooltip.style.top = `${event.clientY - rect.top + 16}px`;
+        })
+        .on('mouseleave', () => {
+          tooltip.classList.add('hidden');
+        });
+
+      // UPDATE existing nodes
+      const nodeUpdate = nodeEnter.merge(node);
+
+      nodeUpdate.transition()
+        .duration(duration)
+        .attr('transform', (d) => `translate(${d.y}, ${d.x})`);
+
+      nodeUpdate.select('.toggle-btn')
+        .style('display', (d: any) => (d.children || d._children ? 'block' : 'none'));
+
+      nodeUpdate.select('.toggle-btn circle')
+        .attr('fill', (d: any) => (d._children ? '#8A5A2B' : '#E8DFD3'));
+
+      nodeUpdate.select('.toggle-btn text')
+        .attr('fill', (d: any) => (d._children ? '#FFFFFF' : '#4A3B2C'))
+        .text((d: any) => (d._children ? '+' : '−'));
+
+      // EXIT nodes
+      node.exit()
+        .transition()
+        .duration(duration)
+        .attr('transform', () => `translate(${source.y}, ${source.x})`)
+        .remove();
+
+      // --- LINKS ---
+      const link = g.selectAll<SVGPathElement, d3.HierarchyLink<PersonNode>>('path.d3-link')
+        .data(links, (d: any) => d.target.id);
+
+      const linkEnter = link.enter()
+        .insert('path', 'g')
+        .attr('class', 'd3-link')
+        .attr('d', () => {
+          const o = { x: source.x0 ?? height / 2, y: source.y0 ?? 60 };
+          return diagonal({ source: o, target: o });
+        });
+
+      linkEnter.merge(link)
+        .transition()
+        .duration(duration)
+        .attr('d', diagonal);
+
+      link.exit()
+        .transition()
+        .duration(duration)
+        .attr('d', () => {
+          const o = { x: source.x, y: source.y };
+          return diagonal({ source: o, target: o });
+        })
+        .remove();
+
+      // Store previous positions for transition
+      nodes.forEach((d: any) => {
+        d.x0 = d.x;
+        d.y0 = d.y;
+      });
+    }
+
+    // Smooth cubic bezier connection
+    function diagonal(d: any) {
+      const sx = d.source.y + NODE_WIDTH;
+      const sy = d.source.x;
+      const tx = d.target.y;
+      const ty = d.target.x;
+      const mx = (sx + tx) / 2;
+      return `M ${sx} ${sy} C ${mx} ${sy}, ${mx} ${ty}, ${tx} ${ty}`;
+    }
+
+    // Initial render
+    update(root);
+
+    // Initial positioning
+    function fitCenter() {
+      const transform = d3.zoomIdentity.translate(80, height / 2).scale(0.85);
+      svg.transition().duration(500).call(zoom.transform, transform);
+    }
+    fitCenter();
+
+    // Toolbar buttons
+    document.getElementById('btn-zoom-in')?.addEventListener('click', () => {
+      svg.transition().duration(300).call(zoom.scaleBy, 1.3);
+    });
+    document.getElementById('btn-zoom-out')?.addEventListener('click', () => {
+      svg.transition().duration(300).call(zoom.scaleBy, 0.77);
+    });
+    document.getElementById('btn-fit')?.addEventListener('click', () => {
+      fitCenter();
+    });
+
+    document.getElementById('btn-expand-all')?.addEventListener('click', () => {
+      function expandAll(d: any) {
+        if (d._children) {
+          d.children = d._children;
+          d._children = null;
+        }
+        if (d.children) {
+          d.children.forEach(expandAll);
+        }
+      }
+      expandAll(root);
+      update(root);
+      fitCenter();
+    });
+
+    document.getElementById('btn-collapse')?.addEventListener('click', () => {
+      collapseBeyondGen(root, 2);
+      update(root);
+      fitCenter();
+    });
+
+    // Search person in tree
+    const searchForm = document.getElementById('d3-search-form') as HTMLFormElement;
+    const searchInput = document.getElementById('d3-search-input') as HTMLInputElement;
+
+    searchForm?.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const val = searchInput.value.trim().toLowerCase();
+      if (!val) return;
+
+      // Uncollapse all ancestors of the found person
+      let matchNode: any = null;
+      function findAndExpand(d: any, parents: any[] = []): boolean {
+        const nameMatch = d.data.name.toLowerCase().includes(val);
+        let foundInChildren = false;
+        const allChildren = (d.children || []).concat(d._children || []);
+        for (const c of allChildren) {
+          if (findAndExpand(c, [...parents, d])) {
+            foundInChildren = true;
+          }
+        }
+        if (nameMatch || foundInChildren) {
+          if (d._children) {
+            d.children = d._children;
+            d._children = null;
+          }
+          if (nameMatch && !matchNode) {
+            matchNode = d;
+          }
+          return true;
+        }
+        return false;
+      }
+
+      findAndExpand(root);
+      update(root);
+
+      if (matchNode) {
+        setTimeout(() => {
+          const scale = 1.1;
+          const tx = width / 2 - matchNode.y * scale - NODE_WIDTH / 2;
+          const ty = height / 2 - matchNode.x * scale;
+          svg.transition().duration(600).call(zoom.transform, d3.zoomIdentity.translate(tx, ty).scale(scale));
+
+          // Highlight
+          d3.selectAll('.d3-node').classed('node-highlight', false);
+          d3.selectAll('.d3-node')
+            .filter((d: any) => d.data.name.toLowerCase().includes(val))
+            .classed('node-highlight', true);
+        }, 400);
+      }
+    });
+
+    // Responsive resize
+    window.addEventListener('resize', () => {
+      width = container.clientWidth || window.innerWidth;
+      height = container.clientHeight || (window.innerHeight - 110);
+      svg.attr('viewBox', `0 0 ${width} ${height}`);
+    });
+  </script>
+
+  <style is:global>
+    .tree-badge {
+      display: inline-block;
+      font-size: 0.72rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      padding: 0.15rem 0.5rem;
+      border-radius: 4px;
+      background: #EAE2D0;
+      color: #70583A;
+      margin-left: -0.4rem;
+    }
+
+    .d3-stage {
+      height: calc(100vh - 110px);
+      width: 100%;
+      background: var(--bg);
+      position: relative;
+      overflow: hidden;
+      touch-action: none;
+      cursor: grab;
+    }
+    .d3-stage:active {
+      cursor: grabbing;
+    }
+
+    .d3-node rect.node-box {
+      transition: stroke 0.18s ease, stroke-width 0.18s ease, filter 0.18s ease;
+      filter: drop-shadow(0 2px 5px rgba(43, 38, 32, 0.05));
+    }
+    .d3-node:hover rect.node-box {
+      stroke: #3B2E22 !important;
+      stroke-width: 2.2px !important;
+      filter: drop-shadow(0 4px 10px rgba(43, 38, 32, 0.12));
+    }
+
+    .d3-node.node-highlight rect.node-box {
+      stroke: #D7302A !important;
+      stroke-width: 3.5px !important;
+      fill: #FFF8E6 !important;
+      filter: drop-shadow(0 4px 12px rgba(215, 48, 42, 0.35));
+    }
+
+    .d3-link {
+      fill: none;
+      stroke: #C9BFB0;
+      stroke-width: 1.8px;
+    }
+
+    .toggle-btn {
+      transition: transform 0.15s ease;
+    }
+    .toggle-btn:hover {
+      transform: scale(1.25) translate(152px, 0);
+    }
+
+    .d3-tooltip {
+      position: absolute;
+      background: #2B2620;
+      color: #FFFFFF;
+      padding: 0.6rem 0.8rem;
+      border-radius: 8px;
+      font-size: 0.8rem;
+      line-height: 1.4;
+      pointer-events: none;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.25);
+      max-width: 260px;
+      z-index: 100;
+    }
+    .d3-tooltip .tt-sub {
+      color: #E5C8A8;
+      font-size: 0.78rem;
+      margin-bottom: 0.2rem;
+    }
+    .d3-tooltip .tt-rel {
+      color: #C0B4A4;
+      font-size: 0.75rem;
+    }
+    .d3-tooltip .tt-line {
+      font-size: 0.75rem;
+      color: #EAE3D9;
+      margin-top: 0.2rem;
+    }
+    .d3-tooltip .tt-side {
+      font-size: 0.72rem;
+      color: #B8AC9C;
+      margin-top: 0.3rem;
+      border-top: 1px solid rgba(255,255,255,0.15);
+      padding-top: 0.25rem;
+    }
+    .d3-tooltip .tt-hint {
+      font-size: 0.7rem;
+      color: #E2B080;
+      margin-top: 0.35rem;
+      font-weight: 600;
+    }
+  </style>
+</Base>

@@ -14,7 +14,9 @@
     "deploy-caprover": "npm run data -- --nasazeni && npm run pack && caprover deploy -t ../rodokmen-web.tar.gz"
   },
   "dependencies": {
+    "@types/d3": "^7.4.3",
     "astro": "^7.3.8",
+    "d3": "^7.9.0",
     "leaflet": "^1.9.4"
   },
   "devDependencies": {
