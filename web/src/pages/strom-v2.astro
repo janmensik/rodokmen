@@ -2,12 +2,24 @@
 import Base from '../layouts/Base.astro';
 import { people, href, byK } from '../lib/data.js';
 
+// Pre-map portrait photo keys for people from docs
+const fotoMap: Record<string, string> = {};
+for (const [slug, p] of Object.entries(people) as [string, any][]) {
+  const fotos = (p.docs || []).filter((d: any) => d.img && d.img.startsWith('foto_'));
+  if (fotos.length > 0) {
+    fotoMap[slug] = fotos[0].img;
+  }
+}
+
 // Build complete hierarchical tree data starting from root (Kekule 1)
 function buildSubtree(k: number, visited = new Set<number>()): any {
   if (visited.has(k)) return null;
   const p = byK[k];
   if (!p) return null;
   visited.add(k);
+
+  const photoKey = fotoMap[p.slug] || '';
+  const photoUrl = photoKey ? href.to(`/img/${photoKey}.jpg`) : '';
 
   const node: any = {
     k,
@@ -21,8 +33,12 @@ function buildSubtree(k: number, visited = new Set<number>()): any {
     st: p.st || 'unk',
     job: (p.details as any)?.job || '',
     home: (p.details as any)?.home || (p.details as any)?.birth || '',
+    photo: photoUrl,
     url: href.person(p.slug),
-    side: p.side ? p.side.map((s: any) => s.name) : []
+    side: (p.side || []).map((s: any) => ({
+      name: s.name,
+      text: s.text || ''
+    }))
   };
 
   const parents: any[] = [];
@@ -38,7 +54,7 @@ function buildSubtree(k: number, visited = new Set<number>()): any {
 }
 
 const rootTree = buildSubtree(1);
-const allNames = Object.values(people).map((p) => p.name).sort((a, b) => a.localeCompare(b, 'cs'));
+const allNames = Object.values(people).map((p: any) => p.name).sort((a: string, b: string) => a.localeCompare(b, 'cs'));
 ---
 
 <Base title="Interaktivní strom (D3.js)" full>
@@ -58,7 +74,7 @@ const allNames = Object.values(people).map((p) => p.name).sort((a, b) => a.local
       <button type="button" id="btn-collapse" title="Základní pohled">Základní pohled</button>
     </span>
     <span class="small muted fan-hint">
-      Klepnutím na <strong>+ / −</strong> rozbalíte linii předků. Kolečkem myši přibližujte, tažením posouvejte. Kliknutím na jméno otevřete profil osoby.
+      Klepnutím na <strong>+ / −</strong> rozbalíte linii. Kliknutím na <strong>👥</strong> zobrazíte boční příbuzné. Kliknutím na jméno/fotku otevřete profil osoby.
     </span>
   </div>
 
@@ -74,6 +90,11 @@ const allNames = Object.values(people).map((p) => p.name).sort((a, b) => a.local
   <script>
     import * as d3 from 'd3';
 
+    interface SidePerson {
+      name: string;
+      text: string;
+    }
+
     interface PersonNode {
       k: number;
       slug: string;
@@ -86,8 +107,10 @@ const allNames = Object.values(people).map((p) => p.name).sort((a, b) => a.local
       st: string;
       job: string;
       home: string;
+      photo: string;
       url: string;
-      side?: string[];
+      side: SidePerson[];
+      showSide?: boolean;
       children?: PersonNode[];
       _children?: PersonNode[];
       x?: number;
@@ -105,9 +128,9 @@ const allNames = Object.values(people).map((p) => p.name).sort((a, b) => a.local
       console.error('Data stromu nenalezena');
     }
 
-    const NODE_WIDTH = 190;
-    const NODE_HEIGHT = 58;
-    const HORIZONTAL_GAP = 260;
+    const NODE_WIDTH = 224;
+    const NODE_HEIGHT = 68;
+    const HORIZONTAL_GAP = 285;
 
     let width = container.clientWidth || window.innerWidth;
     let height = container.clientHeight || (window.innerHeight - 110);
@@ -146,7 +169,7 @@ const allNames = Object.values(people).map((p) => p.name).sort((a, b) => a.local
     collapseBeyondGen(root, 2);
 
     const treeLayout = d3.tree<PersonNode>()
-      .nodeSize([76, HORIZONTAL_GAP])
+      .nodeSize([92, HORIZONTAL_GAP])
       .separation((a, b) => (a.parent === b.parent ? 1.05 : 1.25));
 
     let i = 0;
@@ -171,8 +194,7 @@ const allNames = Object.values(people).map((p) => p.name).sort((a, b) => a.local
       const nodeEnter = node.enter()
         .append('g')
         .attr('class', (d) => `d3-node sex-${d.data.sex} st-${d.data.st}`)
-        .attr('transform', () => `translate(${source.y0 ?? 60}, ${source.x0 ?? height / 2})`)
-        .attr('cursor', 'pointer');
+        .attr('transform', () => `translate(${source.y0 ?? 60}, ${source.x0 ?? height / 2})`);
 
       // Card Background
       nodeEnter.append('rect')
@@ -181,67 +203,183 @@ const allNames = Object.values(people).map((p) => p.name).sort((a, b) => a.local
         .attr('y', -NODE_HEIGHT / 2)
         .attr('width', NODE_WIDTH)
         .attr('height', NODE_HEIGHT)
-        .attr('rx', 8)
-        .attr('ry', 8)
+        .attr('rx', 9)
+        .attr('ry', 9)
         .attr('fill', (d) => d.data.sex === 'F' ? '#FFFDFB' : '#FAFBFD')
         .attr('stroke', (d) => d.data.sex === 'F' ? '#D6A785' : '#85A7D6')
         .attr('stroke-width', 1.8)
+        .style('cursor', 'pointer')
         .on('click', (_event, d) => {
-          if (d.data.url) {
-            window.location.href = d.data.url;
-          }
+          if (d.data.url) window.location.href = d.data.url;
         });
 
       // Left gender accent strip
       nodeEnter.append('rect')
         .attr('x', 0)
         .attr('y', -NODE_HEIGHT / 2)
-        .attr('width', 5.5)
+        .attr('width', 6)
         .attr('height', NODE_HEIGHT)
-        .attr('rx', 2)
+        .attr('rx', 2.5)
         .attr('fill', (d) => d.data.sex === 'F' ? '#D9825B' : '#4E80B4');
 
+      // PORTRAIT (clipped image) OR Avatar placeholder if no portrait
+      const photoGroup = nodeEnter.append('g')
+        .attr('class', 'photo-avatar')
+        .attr('transform', `translate(12, ${-NODE_HEIGHT / 2 + 10})`)
+        .style('cursor', 'pointer')
+        .on('click', (_event, d) => {
+          if (d.data.url) window.location.href = d.data.url;
+        });
+
+      // Clip path for portrait
+      photoGroup.each(function(d: any) {
+        const pG = d3.select(this);
+        const clipId = `avatar-clip-${d.id}`;
+
+        pG.append('clipPath')
+          .attr('id', clipId)
+          .append('rect')
+          .attr('width', 40)
+          .attr('height', 48)
+          .attr('rx', 6);
+
+        if (d.data.photo) {
+          pG.append('image')
+            .attr('href', d.data.photo)
+            .attr('width', 40)
+            .attr('height', 48)
+            .attr('preserveAspectRatio', 'xMidYMid slice')
+            .attr('clip-path', `url(#${clipId})`);
+
+          pG.append('rect')
+            .attr('width', 40)
+            .attr('height', 48)
+            .attr('rx', 6)
+            .attr('fill', 'none')
+            .attr('stroke', '#D2C6B6')
+            .attr('stroke-width', 1);
+        } else {
+          // Subtle placeholder avatar
+          pG.append('rect')
+            .attr('width', 40)
+            .attr('height', 48)
+            .attr('rx', 6)
+            .attr('fill', d.data.sex === 'F' ? '#F7EEE7' : '#EBF0F7')
+            .attr('stroke', d.data.sex === 'F' ? '#E8D4C5' : '#D0DEEE')
+            .attr('stroke-width', 1);
+
+          pG.append('text')
+            .attr('x', 20)
+            .attr('y', 29)
+            .attr('text-anchor', 'middle')
+            .attr('font-size', '17px')
+            .attr('fill', d.data.sex === 'F' ? '#C2987A' : '#7D9FCE')
+            .text(d.data.sex === 'F' ? '♀' : '♂');
+        }
+      });
+
+      // Content text group (offset for portrait: x = 60)
+      const textGroup = nodeEnter.append('g')
+        .attr('transform', `translate(60, ${-NODE_HEIGHT / 2})`);
+
       // Name Text
-      nodeEnter.append('text')
+      textGroup.append('text')
         .attr('class', 'node-name')
-        .attr('x', 14)
-        .attr('y', -NODE_HEIGHT / 2 + 18)
+        .attr('x', 0)
+        .attr('y', 20)
         .attr('font-size', '12px')
         .attr('font-weight', '700')
         .attr('fill', '#2B2620')
+        .style('cursor', 'pointer')
         .text((d) => {
-          const maxLen = 19;
+          const maxLen = 18;
           return d.data.name.length > maxLen ? d.data.name.slice(0, maxLen - 1) + '…' : d.data.name;
         })
         .on('click', (_event, d) => {
           if (d.data.url) window.location.href = d.data.url;
         });
 
-      // Years & Job / Home text
-      nodeEnter.append('text')
+      // Years Text
+      textGroup.append('text')
         .attr('class', 'node-sub')
-        .attr('x', 14)
-        .attr('y', -NODE_HEIGHT / 2 + 34)
+        .attr('x', 0)
+        .attr('y', 36)
         .attr('font-size', '10.5px')
+        .attr('font-weight', '600')
         .attr('fill', '#7A6B5B')
         .text((d) => d.data.years || d.data.rel || 'předek');
 
-      nodeEnter.append('text')
+      // Job / Home subtitle
+      textGroup.append('text')
         .attr('class', 'node-extra')
-        .attr('x', 14)
-        .attr('y', -NODE_HEIGHT / 2 + 48)
+        .attr('x', 0)
+        .attr('y', 51)
         .attr('font-size', '9.5px')
-        .attr('fill', '#9A8B7B')
+        .attr('fill', '#8A7B6B')
         .text((d) => {
           const info = d.data.job || d.data.home || '';
-          return info.length > 24 ? info.slice(0, 23) + '…' : info;
+          return info.length > 21 ? info.slice(0, 20) + '…' : info;
         });
 
-      // Toggle Circle (+ / −) for nodes that have or had children
+      // SIDE BRANCHES BADGE (👥) - if person has siblings / side relatives
+      const sideGroup = nodeEnter.append('g')
+        .attr('class', 'side-btn')
+        .attr('transform', `translate(${NODE_WIDTH - 28}, ${-NODE_HEIGHT / 2 + 15})`)
+        .style('display', (d: any) => (d.data.side && d.data.side.length > 0 ? 'block' : 'none'))
+        .style('cursor', 'pointer')
+        .on('click', (event, d: any) => {
+          event.stopPropagation();
+          d.data.showSide = !d.data.showSide;
+          update(d);
+        });
+
+      sideGroup.append('circle')
+        .attr('r', 9)
+        .attr('fill', (d: any) => (d.data.showSide ? '#6E5D4B' : '#F5EEE4'))
+        .attr('stroke', '#8C7B68')
+        .attr('stroke-width', 1.4);
+
+      sideGroup.append('text')
+        .attr('text-anchor', 'middle')
+        .attr('dy', '3.5px')
+        .attr('font-size', '10px')
+        .attr('font-weight', 'bold')
+        .attr('fill', (d: any) => (d.data.showSide ? '#FFFFFF' : '#6E5D4B'))
+        .text('👥');
+
+      // SIDE PANEL (Expanded card showing siblings/relatives)
+      const sidePanel = nodeEnter.append('g')
+        .attr('class', 'side-panel')
+        .attr('transform', `translate(0, ${NODE_HEIGHT / 2 + 6})`)
+        .style('display', 'none');
+
+      sidePanel.append('rect')
+        .attr('class', 'side-panel-bg')
+        .attr('width', NODE_WIDTH)
+        .attr('rx', 7)
+        .attr('ry', 7)
+        .attr('fill', '#FCFAF7')
+        .attr('stroke', '#9A8B7A')
+        .attr('stroke-width', 1.4)
+        .attr('stroke-dasharray', '4,3');
+
+      sidePanel.append('text')
+        .attr('class', 'side-panel-title')
+        .attr('x', 10)
+        .attr('y', 15)
+        .attr('font-size', '10px')
+        .attr('font-weight', '700')
+        .attr('fill', '#6E5D4B')
+        .text('Boční linie (sourozenci / tety):');
+
+      sidePanel.append('g').attr('class', 'side-items-container');
+
+      // Toggle Circle (+ / −) for ANCESTORS EXPANSION
       const toggleGroup = nodeEnter.append('g')
         .attr('class', 'toggle-btn')
         .attr('transform', `translate(${NODE_WIDTH}, 0)`)
         .style('display', (d: any) => (d.children || d._children ? 'block' : 'none'))
+        .style('cursor', 'pointer')
         .on('click', (event, d: any) => {
           event.stopPropagation();
           if (d.children) {
@@ -255,7 +393,7 @@ const allNames = Object.values(people).map((p) => p.name).sort((a, b) => a.local
         });
 
       toggleGroup.append('circle')
-        .attr('r', 8.5)
+        .attr('r', 9)
         .attr('fill', (d: any) => (d._children ? '#8A5A2B' : '#E8DFD3'))
         .attr('stroke', '#8A5A2B')
         .attr('stroke-width', 1.6);
@@ -277,7 +415,7 @@ const allNames = Object.values(people).map((p) => p.name).sort((a, b) => a.local
           if (d.data.job) html += `<div class="tt-line">💼 ${d.data.job}</div>`;
           if (d.data.home) html += `<div class="tt-line">📍 ${d.data.home}</div>`;
           if (d.data.side && d.data.side.length > 0) {
-            html += `<div class="tt-side">Příbuzní: ${d.data.side.slice(0, 3).join(', ')}</div>`;
+            html += `<div class="tt-side">👥 Boční příbuzní (${d.data.side.length}):<br>${d.data.side.map((s: any) => `• ${s.name}`).join('<br>')}</div>`;
           }
           html += `<div class="tt-hint">Kliknutím otevřete stránku osoby →</div>`;
 
@@ -302,6 +440,40 @@ const allNames = Object.values(people).map((p) => p.name).sort((a, b) => a.local
       nodeUpdate.transition()
         .duration(duration)
         .attr('transform', (d) => `translate(${d.y}, ${d.x})`);
+
+      // Update side panel open/closed state
+      nodeUpdate.each(function(d: any) {
+        const nodeEl = d3.select(this);
+        const panel = nodeEl.select('.side-panel');
+        const sideBtn = nodeEl.select('.side-btn');
+
+        if (d.data.showSide && d.data.side && d.data.side.length > 0) {
+          panel.style('display', 'block');
+          sideBtn.select('circle').attr('fill', '#6E5D4B');
+          sideBtn.select('text').attr('fill', '#FFFFFF');
+
+          const itemsContainer = panel.select('.side-items-container');
+          itemsContainer.selectAll('*').remove();
+
+          const lineHeight = 15;
+          d.data.side.forEach((s: any, idx: number) => {
+            const itemG = itemsContainer.append('g')
+              .attr('transform', `translate(10, ${30 + idx * lineHeight})`);
+
+            itemG.append('text')
+              .attr('font-size', '9.5px')
+              .attr('fill', '#3B2E22')
+              .text(`• ${s.name.length > 27 ? s.name.slice(0, 26) + '…' : s.name}`);
+          });
+
+          const totalH = 36 + d.data.side.length * lineHeight;
+          panel.select('rect.side-panel-bg').attr('height', totalH);
+        } else {
+          panel.style('display', 'none');
+          sideBtn.select('circle').attr('fill', '#F5EEE4');
+          sideBtn.select('text').attr('fill', '#6E5D4B');
+        }
+      });
 
       nodeUpdate.select('.toggle-btn')
         .style('display', (d: any) => (d.children || d._children ? 'block' : 'none'));
@@ -494,45 +666,59 @@ const allNames = Object.values(people).map((p) => p.name).sort((a, b) => a.local
 
     .d3-node rect.node-box {
       transition: stroke 0.18s ease, stroke-width 0.18s ease, filter 0.18s ease;
-      filter: drop-shadow(0 2px 5px rgba(43, 38, 32, 0.05));
+      filter: drop-shadow(0 2px 6px rgba(43, 38, 32, 0.06));
     }
     .d3-node:hover rect.node-box {
       stroke: #3B2E22 !important;
       stroke-width: 2.2px !important;
-      filter: drop-shadow(0 4px 10px rgba(43, 38, 32, 0.12));
+      filter: drop-shadow(0 4px 12px rgba(43, 38, 32, 0.14));
     }
 
     .d3-node.node-highlight rect.node-box {
       stroke: #D7302A !important;
       stroke-width: 3.5px !important;
       fill: #FFF8E6 !important;
-      filter: drop-shadow(0 4px 12px rgba(215, 48, 42, 0.35));
+      filter: drop-shadow(0 4px 14px rgba(215, 48, 42, 0.35));
+    }
+
+    .photo-avatar {
+      transition: transform 0.15s ease;
+    }
+    .photo-avatar:hover {
+      transform: translate(12px, -24px) scale(1.08);
+    }
+
+    .side-btn {
+      transition: transform 0.15s ease;
+    }
+    .side-btn:hover {
+      transform: translate(196px, -19px) scale(1.22);
     }
 
     .d3-link {
       fill: none;
       stroke: #C9BFB0;
-      stroke-width: 1.8px;
+      stroke-width: 2px;
     }
 
     .toggle-btn {
       transition: transform 0.15s ease;
     }
     .toggle-btn:hover {
-      transform: scale(1.25) translate(152px, 0);
+      transform: scale(1.25) translate(224px, 0);
     }
 
     .d3-tooltip {
       position: absolute;
       background: #2B2620;
       color: #FFFFFF;
-      padding: 0.6rem 0.8rem;
+      padding: 0.65rem 0.85rem;
       border-radius: 8px;
       font-size: 0.8rem;
-      line-height: 1.4;
+      line-height: 1.45;
       pointer-events: none;
-      box-shadow: 0 4px 14px rgba(0,0,0,0.25);
-      max-width: 260px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.28);
+      max-width: 290px;
       z-index: 100;
     }
     .d3-tooltip .tt-sub {
@@ -550,11 +736,11 @@ const allNames = Object.values(people).map((p) => p.name).sort((a, b) => a.local
       margin-top: 0.2rem;
     }
     .d3-tooltip .tt-side {
-      font-size: 0.72rem;
-      color: #B8AC9C;
-      margin-top: 0.3rem;
-      border-top: 1px solid rgba(255,255,255,0.15);
-      padding-top: 0.25rem;
+      font-size: 0.73rem;
+      color: #D2C4B2;
+      margin-top: 0.35rem;
+      border-top: 1px solid rgba(255,255,255,0.18);
+      padding-top: 0.3rem;
     }
     .d3-tooltip .tt-hint {
       font-size: 0.7rem;
