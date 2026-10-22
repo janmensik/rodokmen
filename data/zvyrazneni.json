@@ -190,5 +190,17 @@
     ],
     "status": "ok",
     "note": "Zápis o narození a křtu Aloisie Marie Tiché"
+  },
+  "jistebnice_oddani_josef_mensik_1828": {
+    "boxes": [
+      [
+        0.01,
+        0.01,
+        0.99,
+        0.99
+      ]
+    ],
+    "status": "ok",
+    "note": "Zápis o sňatku Josefa Menšíka a Barbory Horychové"
   }
 }
