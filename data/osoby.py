@@ -23,13 +23,13 @@ P = {
 
     # 1. generace – rodiče (Jan a manželka Julie)
     2: dict(n="Mgr. Jan Menšík", y="* 1980", st="fam",
-            f=["* 7. 1. 1980 Praha", "× Mgr. Julie Menšík Čákiová"],
-            bydl="Libčice nad Vltavou (od roku 2009)", r=[],
-            note="Výchozí generace rodokmenu, manžel Mgr. Julie Menšík Čákiové. Narozen v Praze, od roku 2009 žije v Libčicích nad Vltavou."),
+            f=["* 7. 1. 1980 Praha", "× 12. 9. 2009 Zvíkov Mgr. Julie Menšík Čákiová"],
+            zam="právník", bydl="Libčice nad Vltavou (od roku 2009)", r=[],
+            note="Výchozí osoba rodokmenu, manžel Mgr. Julie Menšík Čákiové (sňatek 12. 9. 2009 Zvíkov). Vystudoval Právnickou fakultu Univerzity Karlovy v Praze (Mgr.), dříve Gymnázium Buďánka a SŠ Nad Štolou. Od roku 2009 žije v Libčicích nad Vltavou."),
     3: dict(n="Mgr. Julie Menšík Čákiová", y="* 1979", st="fam",
-            f=["* 22. 5. 1979 Praha", "× Mgr. Jan Menšík"],
+            f=["* 22. 5. 1979 Praha", "× 12. 9. 2009 Zvíkov Mgr. Jan Menšík"],
             roz="Čákiová", bydl="Libčice nad Vltavou (od roku 2009)", r=[],
-            note="Mgr., roz. Čákiová, manželka Mgr. Jana Menšíka. Narozena v Praze, od roku 2009 žije v Libčicích nad Vltavou."),
+            note="Mgr., roz. Čákiová, manželka Mgr. Jana Menšíka (sňatek 12. 9. 2009 Zvíkov). Narozena v Praze, od roku 2009 žije v Libčicích nad Vltavou."),
 
     # 2. generace – prarodiče dětí (rodiče Jana a rodiče Julie)
     4: dict(n="Ing. Radim Menšík", y="1946–2021", st="fam",
