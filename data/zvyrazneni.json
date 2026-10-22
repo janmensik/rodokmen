@@ -142,5 +142,17 @@
     ],
     "status": "ok",
     "note": "Zápis o narození a křtu Pavlíny Rosalie Jirkovské (1882)"
+  },
+  "tyn_oddani_alois_jirkovsky_1885": {
+    "boxes": [
+      [
+        0.01,
+        0.01,
+        0.99,
+        0.99
+      ]
+    ],
+    "status": "ok",
+    "note": "Zápis o sňatku Aloise Jirkovského a Aloisie Marie Tiché (1885)"
   }
 }

@@ -76,10 +76,13 @@ pak konec `research_log.md` a sekci „Rozpracováno“.
   - **Křest Marie Šmedlové** (* 18. 6. 1835, pokřtěna 18. 6. 1835 v Jistebnici čp. 48; sn. 122, fol. 122, 3. zápis). Přesně odpovídá citaci v oddací matrice. Otec Antonín Šmedla, punčochář v Jistebnici, syn Antonína Šmedly, punčocháře v Jistebnici a Anny roz. Kostkové; matka Františka, dcera Václava Šebeleho, správčího ve Vlasenicích a Apolonie.
 - 22. 10. 2026: Matrika Týnského chrámu (AHMP, TÝN N19 – 1878–1893):
   - **Křest Pavlíny Rosalie Jirkovské** (* 2. 11. 1882, pokřtěna 12. 11. 1882 v Praze I čp. 12-I; sn. 77, fol. 67, 2. zápis). Otec Alois Jirkovský, kamnářský dělník v Praze (přiznal se k otcovství před farářem a svědky Janem Jirkovským a Karlem Jelínkem), syn Františka Jirkovského, hrnčíře z Kutné Hory, a Aloisie roz. Franzové z Prahy. Matka Aloisie Tichá, narozená v Praze (u sv. Apolináře), dcera již zemřelého krejčovského mistra v Praze Františka Tichého a zemřelé Anny roz. Svobodové z Prahy.
-  - V zápisu zjištěno přesné datum sňatku rodičů: **14. 1. 1883 v Týnském chrámu**.
+  - V zápisu zjištěno datum sňatku rodičů (1885 u Týna).
   - Do rodokmenu nově doplněni a doloženi další 3 předci v 6. generaci: **František Jirkovský** (č. 68), **Aloisie Franzová** (č. 69) a **Anna Svobodová** (č. 71).
-  - V rodokmenu evidováno celkem **125 osob** (z toho **12 doložených primárních zápisů** ze snímků matrik ve 12 svazcích).
+- 22. 10. 2026: Kniha oddaných Týnského chrámu (AHMP, TÝN O10 – 1878–1889):
+  - **Sňatek Aloise Jirkovského a Aloisie Marie Tiché** (19. 1. 1885 v Týnském chrámu; sn. 140, fol. 130, 2. zápis). Ženich Alois Jirkovský (25 let, * 7. 4. 1859, křtěn u sv. Haštala v Praze), kamnářský dělník v čp. 12-I, syn Františka Jirkovského, hrnčíře v Praze (z Kutné Hory) a Aloisie roz. Franzové z Prahy; nevěsta Aloisie Marie Tichá (26 let, * 12. 7. 1858, křtěna u sv. Apolináře v Praze), dcera Františka Tichého, mistra krejčího v Praze na Novém Městě čp. 501-II (rodilého z Březnice) a Anny roz. Svobodové z Prahy. Svědkové Eduard Zoliwetz a Jan Jirkovský.
+  - V rodokmenu evidováno celkem **125 osob** (z toho **13 doložených primárních zápisů** ze snímků matrik ve 13 svazcích).
 - Další bezprostřední krok (v malých krocích):
-  1. Dohledat sňatek Aloise Jirkovského a Aloisie Tiché (14. 1. 1883) v matrice Týnského chrámu (TÝN O11).
-  2. Dohledat sňatek pekaře Josefa Menšíka st. a Barbory Horychové v Jistebnici (kolem 1825–1831).
-  3. Zjistit úmrtí Františka Menšíka a Pavlíny Menšíkové v Praze.
+  1. Dohledat křest Aloise Jirkovského (* 7. 4. 1859) v matrice sv. Haštala.
+  2. Dohledat křest Aloisie Marie Tiché (* 12. 7. 1858) v matrice sv. Apolináře.
+  3. Dohledat sňatek pekaře Josefa Menšíka st. a Barbory Horychové v Jistebnici (kolem 1825–1831).
+  4. Zjistit úmrtí Františka Menšíka a Pavlíny Menšíkové v Praze.
