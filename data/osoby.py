@@ -32,9 +32,9 @@ P = {
             note="Mgr., roz. Čákiová, manželka Mgr. Jana Menšíka (sňatek 12. 9. 2009 Zvíkov). Narozena v Praze, od roku 2009 žije v Libčicích nad Vltavou."),
 
     # 2. generace – prarodiče dětí (rodiče Jana a rodiče Julie)
-    4: dict(n="Ing. Radim Menšík", y="1946–2021", st="fam",
-            f=["* 13. 9. 1946 Praha", "× Ing. Zdeňka Menšíková", "† 15. 1. 2021 Praha"],
-            zam="inženýr", r=[], note="Životní data z rodinného záznamu."),
+    4: dict(n="Ing. Radim Jaroslav Menšík", y="1946–2021", st="fam",
+            f=["* 13. 9. 1946 Praha", "× asi 1972 Praha Ing. Zdeňka Jarolímová", "† 15. 1. 2021 Praha", "pohřben 27. 1. 2021 Praha"],
+            zam="inženýr", r=[], note="Ing. Radim Jaroslav Menšík, otec Jana a Jakuba Menšíkových. Syn doc. RNDr. Miroslava Menšíka a MUDr. Ludmily Menšíkové. Narozen v Praze, sňatek s Ing. Zdeňkou Jarolímovou kolem roku 1972 v Praze."),
     5: dict(n="Ing. Zdeňka Menšíková", y="* 1949", st="fam",
             f=["* 1949", "× Ing. Radim Menšík"],
             roz="Jarolímová", r=[], note="Ing., roz. Jarolímová, matka Jana Menšíka. Žijící – údaje jen základní."),

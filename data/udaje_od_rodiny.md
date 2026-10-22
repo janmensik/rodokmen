@@ -23,7 +23,7 @@ Co víme z vyprávění a rodinných dokumentů – kdo to řekl / odkud to je a
       - **Marek Gajdoš** (ID 3000027, Hradec Králové).
   - Děti Jana a Julie: **Kryštof Adam Menšík** (* 20. 3. 2010, Praha, ID 3000003), **Tea Apolena Menšíková** (* 14. 2. 2013, Praha, ID 3000004), **Hynek Albert Menšík** (* 10. 7. 2015, Praha) a **Jonáš Alex Menšík** (* 5. 12. 2017, Praha).
   - Bratr: **Jakub Menšík** (* 8. 2. 1977 v Google Contacts / * 10. 2. 1977 v GEDCOM/MyHeritage, Praha, ID 3000007), bytem Praha 6 - Dejvice (Mozambická).
-- **4 – Radim Menšík** (* 9. 9. 1946 v rozhovoru / * 13. 9. 1946 v CSV, Praha, ID 3000005) – otec Jana.
+- **4 – Ing. Radim Jaroslav Menšík** (* 13. 9. 1946 Praha – † 15. 1. 2021 Praha, pohřben 27. 1. 2021 Praha, ID 3000005) – inženýr, otec Jana a Jakuba; sňatek asi 1972 Praha s Ing. Zdeňkou Jarolímovou.
   - Bratr otce (strýc Jana): **Ivan Menšík** († 2012, Praha, ID 3000012).
 - **9 – Ludmila Menšíková** († Praha, ID 3000011) – babička Jana z otcovy strany (matka Radima a Ivana Menšíkových; jméno dědečka č. 8 zatím k doplnění).
 - **3 – Ing. Zdeňka Menšíková roz. Jarolímová** (* 6. 5. 1949 v rozhovoru / * 9. 5. 1949 v CSV, ID 3000006) – matka.
