@@ -65,12 +65,14 @@ pak konec `research_log.md` a sekci „Rozpracováno“.
   - Ve stromu (`tree_chart.py` / `tree.svg`) je zobrazení 100% jednotné: na 2. řádku vždy souhrnné roky (bez míchání celých dat narození), na 3. řádku vždy stejné pořadí `Povolání · Místo`.
   - V profilu osoby (`osoba/[slug].astro`) vytvořena přehledná strukturovaná karta životních údajů s jednotným pořadím položek a seznamem dětí.
   - Všechna původní data, místa na mapě i texty zachovány beze ztráty (ověřeno kontrolami a testovacím skriptem).
-- 22. 10. 2026: Pátrání po původu rodiny Menšíků (Miroslav * 1906, Vojtěch * 1880, Anna * 1848):
-  - Policejní přihlášky Praha (NAČR, karton 388):
-    - Obraz 75: Vojtěch Menšík (* 1880 Jistebnice), kožešnický pomocník, a manželka Františka (* 1884), přihlášeni 26. 3. 1906 v Celetné 593 (Staré Město).
-    - Obraz 78–79, 148–149: vdova Anna Menšíková (* 1848 Jistebnice) s dětmi Josefem (* 1874), Vojtěchem (* 1880) a Bohumilem (* 1889), v Celetné 593 od 1900, od 1911 v Haštalské/Kozí čp. 630.
-  - V matrikách Jistebnice (SOA Třeboň) narození Vojtěcha ani Josefa nezapsáno (rodina měla v Jistebnici pouze domovské právo / Heimatrecht po otci).
-  - V matrikách AHMP pro srpen 1906 vyloučeny staroměstské a novoměstské farnosti: sv. Havel (HV N21), sv. Haštal (HŠ N22a), Týn (TÝN N20), sv. Petr (PE N32a), sv. Jindřich (JCH N31b). Sv. Jiljí (JIL N22) končí 3. 7. 1906 (další svazek není online).
+- 22. 10. 2026: Rozluštěna a plně doložena otcovská linie Menšíků pro doc. RNDr. Miroslava Menšíka (* 3. 8. 1906 Praha):
+  - Policejní přihlášky Praha (NAČR, karton 388, sn. 88, Pag. 19n): nalezen originální záznam rodiny c. k. kancisty/poštovního úředníka **Franze Menschika** (* 1873 Jistebnice) a **Pauliny roz. Jirkovské** (* 1882 Praha), s dětmi Franz Paul (* 1901), Wlastimila (* 1902) a **Miroslav (* 1906)**. Uveden sňatek 8. 5. 1902 u Týna a stěhování 15. 8. 1906 do Podskalské (Nové Město čp. 355).
+  - V Týnském chrámu v Praze (AHMP, TÝN O12, sn. 60, pag. 56, zápis č. 37) nalezen a přepsán sňatek 8. 5. 1902: **František Menšík** (* 8. 7. 1873 Jistebnice č. 56), c. k. strážník v Praze čp. 12-I, syn Josefa Menšíka, pekaře z Jistebnice č. 56 a Marie roz. Šmedkové; nevěsta **Pavlína Rosalie Jirkovská** (* 2. 11. 1882 Praha I čp. 12), dcera kamnáře Aloise Jirkovského a Aloisie roz. Tiché (dcery mistra krejčího Františka Tichého).
+  - V matrice Jistebnice 16 (SOA Třeboň, kniha 4513, sn. 206, pag. 202, zápis č. 74) nalezen a přepsán křest Františka Xavera Menšíka (* 8. 7. 1873 Jistebnice č. 56): syn **Josefa Menšíka**, pekaře v Jistebnici č. 56 (syna Josefa Menšíka, pekaře v Jistebnici č. 156 a Barbory roz. Horychové) a **Marie** (dcery Antonína Šmedly, kostelníka v Jistebnici a Marie roz. Šobelové z Vlasenice).
+  - V matrice Jistebnice 22 (SOA Třeboň, kniha 4519, sn. 60, pag. 118–119, zápis č. II) nalezen a přepsán sňatek Josefa Menšíka a Marie Šmedlové (31. 1. 1865): ženich **Josef Menšík** (* 18. 3. 1832 Jistebnice č. 156, pekař), syn pekaře **Josefa Menšíka st.** z čp. 156 (syna řezníka **Františka Menšíka** a **Anny roz. Dvořákové**) a **Barbory roz. Horychové** (dcery zedníka **Františka Horycha** a **Barbory roz. Dědové**); nevěsta **Marie Šmedlová** (* 18. 6. 1835 Jistebnice č. 48), dcera kostelníka **Antonína Šmedly** z čp. 48 (syna punčocháře **Antonína Šmedly st.** a **Anny roz. Kostkové**) a **Františky roz. Šebelové** (dcery správčího **Václava Šebeleho** z Vlasenic a **Apolonie**).
+  - Tímto je linie Menšíků doložena o 6 generací zpět až k řezníku Františku Menšíkovi v Jistebnici (konec 18. století).
+  - V rodokmenu evidováno celkem **122 osob** (z toho 9 doložených primárních zápisů ze snímků matrik).
 - Další bezprostřední krok (v malých krocích):
-  1. Zjistit sňatek Vojtěcha Menšíka a Františky (cca 1905 – březen 1906 v Praze), který odhalí rodné příjmení matky Františky a přesné farnosti narození obou rodičů.
-  2. Prověřit oddací matriku Týnského chrámu (TÝN O12 • 1899–1911) a sv. Haštala (HŠ O13 • 1894–1913) pro sňatek Vojtěcha a Františky.
+  1. Ověřit a dohledat narození Josefa Menšíka (* 18. 3. 1832 Jistebnice č. 156) a Marie Šmedlové (* 18. 6. 1835 Jistebnice č. 48) v knize Jistebnice 12 (kniha 4509 / domácí matrika XXII).
+  2. Dohledat křest Pavlíny Rosalie Jirkovské (* 2. 11. 1882 Praha I čp. 12) v matrice Týnského chrámu (TÝN N19).
+  3. Zjistit úmrtí Františka Menšíka a Pavlíny Menšíkové v Praze.

@@ -70,5 +70,41 @@
   ],
   "status": "ok",
   "note": "Zápis o narození a křtu Františka Holánka"
+ },
+ "tyn_oddani_frantisek_mensik_1902": {
+  "boxes": [
+   [
+    0.01,
+    0.01,
+    0.99,
+    0.99
+   ]
+  ],
+  "status": "ok",
+  "note": "Zápis o sňatku Františka Menšíka a Pavlíny Jirkovské"
+ },
+ "jistebnice_krest_frantisek_mensik_1873": {
+  "boxes": [
+   [
+    0.01,
+    0.01,
+    0.99,
+    0.99
+   ]
+  ],
+  "status": "ok",
+  "note": "Zápis o narození a křtu Františka Xavera Menšíka"
+ },
+ "jistebnice_oddani_josef_mensik_1865": {
+  "boxes": [
+   [
+    0.01,
+    0.01,
+    0.99,
+    0.99
+   ]
+  ],
+  "status": "ok",
+  "note": "Zápis o sňatku Josefa Menšíka a Marie Šmedlové"
  }
 }
