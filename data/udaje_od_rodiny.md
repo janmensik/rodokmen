@@ -7,12 +7,12 @@ Co víme z vyprávění a rodinných dokumentů – kdo to řekl / odkud to je a
 ### Nejbližší rodina
 - **1 – Mgr. Jan Menšík** (* 7. 1. 1980, Praha, ID 3000001) – výchozí osoba rodokmenu; vzdělání: Gymnázium Buďánka, SŠ Nad Štolou, Univerzita Karlova – Právnická fakulta (Mgr., právník); sňatek 12. 9. 2009 Zvíkov s Mgr. Julií Čákiovou; od roku 2009 žijí v Libčicích nad Vltavou.
   - Manželka: **Mgr. Julie Menšík Čákiová roz. Čákiová** (* 22. 5. 1979, Praha, ID 3000002; od roku 2009 žijí společně v Libčicích nad Vltavou; rodiče **Miloslav Čáki** ID 3000008 a **Eva Čákiová** ID 3000009; sestra **Mgr. Lucie Černíková roz. Čákiová** ID 3000010 s manželem **Alešem Černíkem** ID 3000017, CIO v C.S.CARGO, bydliště Praha-Stodůlky, a dětmi **Davidem Černíkem** * asi 2004 a **Lenkou Černíkovou** * asi 2008).
-    - **6 – JUDr. Miloslav Čáki** (* 1. 6. 1947 Vlčice u Trutnova, dětství prožil v Červeněvsi čp. 88)
+    - **6 – JUDr. Miloslav Čáki** (* 1. 6. 1947 Vlčice u Trutnova, dětství v Červeněvsi čp. 88; právník na MFČR, bytem Praha 4 - Háje)
       - Rodiče Miloslava Čákiho:
         - Otec: **12 – Juraj (Jiří) Čáki** (* asi 1921 Slovensko, Dúbrava nebo Šmigovec v okrese Snina na Zemplíně; žil v Červeněvsi čp. 88; varianty příjmení: Čáki, Čaky, Csáky)
           - Bratr Juraje: **Miroslav Čáky**
         - Matka: **13 – Marie Čákiová roz. Bubancová** (narozena jako Bubancová, Dúbrava nebo Šmigovec v okrese Snina)
-    - **7 – PhDr. Eva Čákiová roz. Krejzková** (* 1. 11. 1946 Rychnov nad Kněžnou, dětství prožila v Žamberku)
+    - **7 – PhDr. Eva Čákiová roz. Krejzková** (* 1. 11. 1946 Rychnov nad Kněžnou, dětství v Žamberku; bytem Praha 4 - Háje a Vrabsko)
       - Rodiče Evy Čákiové:
       - Otec: **14 – MUDr. Miroslav Krejzek** (* 3. 9. 1914 Bystřice nad Pernštejnem, lékař, studium v Brně, 5 bratrů, † 27. 5. 1978 Žamberk)
       - Matka: **15 – MUDr. Věra Krejzková roz. Černá** (1917–2005, lékařka MUDr. v Žamberku)
