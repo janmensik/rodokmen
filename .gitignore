@@ -18,3 +18,4 @@ web/public/zdroje/
 web/public/prihlaseni.html
 web/nginx.conf
 web/netlify/edge-functions/
+scratch/

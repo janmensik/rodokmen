@@ -202,5 +202,41 @@
     ],
     "status": "ok",
     "note": "Zápis o sňatku Josefa Menšíka a Barbory Horychové"
+  },
+  "jindrich_oddani_jan_pivnicka_1908": {
+    "boxes": [
+      [
+        0.01,
+        0.05,
+        0.99,
+        0.95
+      ]
+    ],
+    "status": "ok",
+    "note": "Zápis o sňatku Jana Pivničky a Emmy Tomíčkové"
+  },
+  "stepan_krest_jan_pivnicka_1872": {
+    "boxes": [
+      [
+        0.01,
+        0.05,
+        0.99,
+        0.95
+      ]
+    ],
+    "status": "ok",
+    "note": "Zápis o narození a křtu Jana Emanuela Pivničky"
+  },
+  "jilji_oddani_josef_pivnicka_1869": {
+    "boxes": [
+      [
+        0.01,
+        0.05,
+        0.99,
+        0.95
+      ]
+    ],
+    "status": "ok",
+    "note": "Zápis o sňatku Josefa Pivničky a Antonie Grubnerové"
   }
 }

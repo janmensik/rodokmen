@@ -133,5 +133,29 @@
     "popis": "Kniha oddaných farnosti Jistebnice (vedena po obcích, městys Jistebnice sn. 2–23)",
     "snimku": 72,
     "url": "https://digi.ceskearchivy.cz/4517"
+  },
+  "ahmp_jch_o23": {
+    "archiv": "Archiv hlavního města Prahy",
+    "portal": "Katalog AHMP",
+    "svazek": "JCH O23 • 1907–1910",
+    "popis": "Kostel sv. Jindřicha na Novém Městě, kniha oddaných",
+    "snimku": 364,
+    "url": "https://katalog.ahmp.cz/pragapublica/permalink?xid=DD3AFDB273E7486D949422A77DA70908"
+  },
+  "ahmp_st_n30": {
+    "archiv": "Archiv hlavního města Prahy",
+    "portal": "Katalog AHMP",
+    "svazek": "ŠT N30 • 1871–1875",
+    "popis": "Kostel sv. Štěpána na Novém Městě, kniha narozených a pokřtěných",
+    "snimku": 373,
+    "url": "https://katalog.ahmp.cz/pragapublica/permalink?xid=D47409722AA24CA89DD506ED4B465E08"
+  },
+  "ahmp_jil_o10": {
+    "archiv": "Archiv hlavního města Prahy",
+    "portal": "Katalog AHMP",
+    "svazek": "JIL O10 • 1862–1870",
+    "popis": "Kostel sv. Jiljí na Starém Městě, kniha oddaných",
+    "snimku": 199,
+    "url": "https://katalog.ahmp.cz/pragapublica/permalink?xid=D9E1B965559246EDBF48C1DB8FFA88C4"
   }
 }
