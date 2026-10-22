@@ -82,8 +82,12 @@ pak konec `research_log.md` a sekci „Rozpracováno“.
   - **Sňatek Aloise Jirkovského a Aloisie Marie Tiché** (19. 1. 1885 v Týnském chrámu; sn. 140, fol. 130, 2. zápis). Ženich Alois Jirkovský (25 let, * 7. 4. 1859, křtěn u sv. Haštala v Praze), kamnářský dělník v čp. 12-I, syn Františka Jirkovského, hrnčíře v Praze (z Kutné Hory) a Aloisie roz. Franzové z Prahy; nevěsta Aloisie Marie Tichá (26 let, * 12. 7. 1858, křtěna u sv. Apolináře v Praze), dcera Františka Tichého, mistra krejčího v Praze na Novém Městě čp. 501-II (rodilého z Březnice) a Anny roz. Svobodové z Prahy. Svědkové Eduard Zoliwetz a Jan Jirkovský.
   - V rodokmenu evidováno celkem **125 osob** (z toho **13 doložených primárních zápisů** ze snímků matrik ve 13 svazcích).
 - 22. 10. 2026: Doplnění od uživatele pro rodinu Julie: babička **MUDr. Věra Krejzková roz. Černá** (č. 15, 1917–2005) byla lékařka (MUDr.) a žila v Žamberku. V Žamberku tak působili jako lékaři oba manželé MUDr. Miroslav Krejzek i MUDr. Věra Krejzková a později i jejich dcera MUDr. Iva Gajdošová.
+- 22. 10. 2026: Matrika farnosti Nejsv. Trojice v Podskalí (AHMP, TRP N15 – 1905–1914):
+  - **Křest doc. RNDr. Miroslava Menšíka** (* 3. 8. 1906, pokřtěn 9. 8. 1906 v Praze čp. 1717-II jako **Miroslav Vladimír**; sn. 56, pag. 49, zápis č. 89). Otec František Menšík (* 8. 7. 1873 Jistebnice čp. 56), c. k. civilní strážník, syn pekaře Josefa Menšíka a Marie roz. Šmedlové; matka Pavlína roz. Jirkovská (* 2. 11. 1882 Praha čp. 12-I), dcera kamnáře Aloise Jirkovského a Aloisie roz. Tiché. Kmotrem byl dědeček Alois Jirkovský (v zastoupení Františkem Bůžkem).
+  - V policejní konskripci doloženi sourozenci doc. Miroslava Menšíka: bratr **František Pavel Menšík** (* 1901 Praha, † v dětství) a sestra **Vlastimila Menšíková** (* 1902 Praha).
+  - V rodokmenu evidováno celkem **125 osob** (z toho **14 doložených primárních zápisů** ze snímků matrik ve 14 svazcích, 29 řádků deníku).
 - Další bezprostřední krok (v malých krocích):
-  1. Dohledat křest Aloise Jirkovského (* 7. 4. 1859) v matrice sv. Haštala.
-  2. Dohledat křest Aloisie Marie Tiché (* 12. 7. 1858) v matrice sv. Apolináře.
-  3. Dohledat sňatek pekaře Josefa Menšíka st. a Barbory Horychové v Jistebnici (kolem 1825–1831).
-  4. Zjistit úmrtí Františka Menšíka a Pavlíny Menšíkové v Praze.
+  1. Zjistit rodné příjmení a původ babičky MUDr. Ludmily Menšíkové († před 2010 Praha) – sňatek s doc. Miroslavem Menšíkem kolem 1935–1945.
+  2. Dohledat křest Aloise Jirkovského (* 7. 4. 1859) v matrice sv. Haštala.
+  3. Dohledat křest Aloisie Marie Tiché (* 12. 7. 1858) v matrice sv. Apolináře.
+  4. Dohledat sňatek pekaře Josefa Menšíka st. a Barbory Horychové v Jistebnici (kolem 1825–1831).

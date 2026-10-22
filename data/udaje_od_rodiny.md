@@ -25,7 +25,8 @@ Co víme z vyprávění a rodinných dokumentů – kdo to řekl / odkud to je a
   - Bratr: **Jakub Menšík** (* 8. 2. 1977 v Google Contacts / * 10. 2. 1977 v GEDCOM/MyHeritage, Praha, ID 3000007), bytem Praha 6 - Dejvice (Mozambická).
 - **4 – Ing. Radim Jaroslav Menšík** (* 13. 9. 1946 Praha – † 15. 1. 2021 Praha, pohřben 27. 1. 2021 Praha, ID 3000005) – inženýr, otec Jana a Jakuba; sňatek asi 1972 Praha s Ing. Zdeňkou Jarolímovou.
   - Bratr otce (strýc Jana): **Ivan Menšík** (* asi 1942 Praha – † 2012 Praha, pohřben v Čtyřkolech, ID 3000012), starší syn doc. Miroslava Menšíka a MUDr. Ludmily Menšíkové.
-- **9 – Ludmila Menšíková** († Praha, ID 3000011) – babička Jana z otcovy strany (matka Radima a Ivana Menšíkových; jméno dědečka č. 8 zatím k doplnění).
+- **8 – doc. RNDr. Miroslav Vladimír Menšík** (* 3. 8. 1906 Praha – † 12. 1. 1968 Praha) – dědeček Jana; docent ČVUT, vědec a matematik; narozen v Praze čp. 1717-II, křest u Nejsv. Trojice v Podskalí; syn Františka Menšíka (* 1873 Jistebnice) a Pavlíny roz. Jirkovské (* 1882 Praha). Sourozenci: bratr František Pavel Menšík (* 1901) a sestra Vlastimila Menšíková (* 1902).
+- **9 – MUDr. Ludmila Menšíková** († před 2010 Praha, ID 3000011) – babička Jana z otcovy strany, lékařka v Praze, manželka doc. Miroslava Menšíka, matka Radima a Ivana Menšíkových.
 - **5 – Ing. Zdeňka Menšíková roz. Jarolímová** (* 6. 5. 1949, ID 3000006) – matka Jana a Jakuba; inženýrka dopravy (GŘ ČD, MDČR), bytem Praha 6 (Pod Beránkou); sňatek asi 1972 Praha s Ing. Radimem Menšíkem.
   - Sestra matky:
     - **Lenka Hájková roz. Jarolímová** (* 21. / 24. 4. 1962 Hradec Králové, ID 3000015, bydliště Františka Žaloudka 422), provdaná za **Ing. arch. Martina Hájka** (* 19. 11. 1960, Smiřice, ID 3000024, architekt), syn **Ing. arch. Václav Hájek** (* 17. 1. / 20. 2. 1983, Hradec Králové, ID 3000025, architekt, Horova 1184).

@@ -49,10 +49,10 @@ P = {
             note="PhDr., roz. Krejzková, manželka JUDr. Miloslava Čákiho, dcera MUDr. Miroslava Krejzka a MUDr. Věry roz. Černé. Narozena v Rychnově nad Kněžnou, dětství prožila v Žamberku."),
 
     # 3. generace – praprarodiče dětí / prarodiče Jana a Julie (8–13)
-    8: dict(n="doc. RNDr. Miroslav Menšík", y="1906–1968", st="fam",
-            f=["* 3. 8. 1906 Praha", "× MUDr. Ludmila Menšíková", "† 12. 1. 1968 Praha"],
+    8: dict(n="doc. RNDr. Miroslav Vladimír Menšík", y="1906–1968", st="doc",
+            f=["* 3. 8. 1906 Praha (křest u Nejsv. Trojice v Podskalí)", "× MUDr. Ludmila Menšíková", "† 12. 1. 1968 Praha"],
             zam="docent deskriptivní geometrie a fotogrammetrie na Stavební fakultě ČVUT; vedoucí redaktor Rozhledů matematicko-fyzikálních (1956–1968)",
-            r=[], note="Matematik, vysokoškolský docent ČVUT, autor učebnic a vědeckých prací. Syn Františka Menšíka (* 1873 Jistebnice) a Pavlíny roz. Jirkovské (* 1882 Praha)."),
+            r=["podskali_krest_miroslav_mensik_1906"], note="Matematik, vysokoškolský docent deskriptivní geometrie a fotogrammetrie na Stavební fakultě ČVUT, autor učebnic a vědeckých prací. Narozen 3. 8. 1906 v Praze na Novém Městě čp. 1717 (pokřtěn 9. 8. 1906 u Nejsv. Trojice v Podskalí jako Miroslav Vladimír). Syn Františka Menšíka (* 1873 Jistebnice) a Pavlíny roz. Jirkovské (* 1882 Praha)."),
     9: dict(n="MUDr. Ludmila Menšíková", y="† před 2010", st="fam",
             f=["× doc. RNDr. Miroslav Menšík", "† před 2010 Praha"],
             zam="lékařka", bydl="Praha",
@@ -556,6 +556,10 @@ SIDE = [
                                manzel=dict(n="René Štefec", y="", zam="kominík", bydl="Praha"),
                                deti=[dict(n="Evelína Štefcová", y="* 2013", bydl="Praha", vztah="dcera")]),
                           dict(n="Marek Gajdoš", y="", bydl="Hradec Králové / Praha", manzel=dict(n="Valadez", y="", puvod="Mexiko", bydl="Praha"))])),
+    dict(k=8, n="František Pavel Menšík (* 1901)", t="Starší bratr doc. Miroslava Menšíka (prastrýc Jana), * 1901 Praha, † v dětství Praha. Doložen v policejní konskripci karton 388, obraz 88.", r=[],
+         vetev=dict(n="František Pavel Menšík", y="* 1901", f=["* 1901 Praha", "† v dětství Praha"], vztah="bratr Miroslava")),
+    dict(k=8, n="Vlastimila Menšíková (* 1902)", t="Sestra doc. Miroslava Menšíka (prateta Jana), * 1902 Praha, dcera Františka a Pavlíny. Doložena v policejní konskripci karton 388, obraz 88.", r=[],
+         vetev=dict(n="Vlastimila Menšíková", y="* 1902", f=["* 1902 Praha"], vztah="sestra Miroslava")),
     dict(k=12, n="Miroslav Čáky", t="Bratr Juraje Čákiho, původem ze Slovenska (Zemplín / Snina).", r=[],
          vetev=dict(n="Miroslav Čáky", y="", puvod="Slovensko (Zemplín / Snina)", vztah="bratr Juraje (psán Čáky)")),
     dict(k=14, n="5 bratrů Krejzkových", t="Pět bratrů MUDr. Miroslava Krejzka z Bystřice nad Pernštejnem.", r=[],
@@ -584,7 +588,7 @@ SIDE = [
 ]
 
 ISSUES = [
-    ("Otcovská větev Menšíků – rodiče doc. RNDr. Miroslava Menšíka (* 3. 8. 1906 Praha, č. 8)", "Vyřešeno z primárních matrik: rodiče doc. Miroslava Menšíka jsou František Xaver Menšík (* 8. 7. 1873 Jistebnice č. 56, c. k. strážník a poštovní úředník) a Pavlína Rosalie roz. Jirkovská (* 2. 11. 1882 Praha I čp. 12), oddáni 8. 5. 1902 u Týna. Rod Menšíků přímo navazuje na jistebnickou linii pekařů až k Františku Menšíkovi (řezníkovi v Jistebnici)."),
+    ("Otcovská větev Menšíků – narození a rodiče doc. RNDr. Miroslava Vladimíra Menšíka (* 3. 8. 1906 Praha, č. 8)", "Vyřešeno z primárních matrik: Miroslav Vladimír Menšík se narodil 3. 8. 1906 v Praze čp. 1717-II a byl pokřtěn 9. 8. 1906 v kostele Nejsv. Trojice v Podskalí (TRP N15, sn. 56). Rodiče František Xaver Menšík (* 8. 7. 1873 Jistebnice) a Pavlína Rosalie roz. Jirkovská (* 2. 11. 1882 Praha) oddáni 8. 5. 1902 u Týna."),
     ("Otcovská větev Menšíků – rodné příjmení a rodiče babičky MUDr. Ludmily Menšíkové (č. 9)", "Otevřené: zbývá zjistit dívčí příjmení a rodiče babičky Ludmily (č. 18 a 19), případně přesné datum narození a místo hrobu v Praze."),
     ("Větev manželky Julie Menšík Čákiové (prarodiče dětí č. 12–15)", "Vyřešeno z rodinných údajů: všichni 4 prarodiče Julie jsou identifikováni – Juraj (Jiří) Čáki (* asi 1921, č. 12) & Marie roz. Bubancová (č. 13) z otcovy strany, Miroslav Krejzek (1914–1978, č. 14) & Věra roz. Černá (1917–2005, č. 15) z matčiny strany."),
     ("Původ pradědečka Fridricha Hůlka (č. 20)", "Otevřené: v PDF je uveden jako lesní inženýr s fotografií, ale bez data a místa narození; jeho syn Richard (* 1927 Žleby čp. 17) nesl příjmení matky Jarolím."),

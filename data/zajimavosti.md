@@ -34,3 +34,6 @@ V 11. generaci předků babičky Zdenky Holánkové nacházíme mlynáře [Řeho
 
 ## Rodové zúžení u křižanovských Holánků
 Václav Holánek (1726–1787, č. 704) a jeho manželka Judita Holánková (1734–1809, č. 705) měli společného předka – oba byli pravnoučaty [Jiřího Holánka](/osoba/jiri-holanek/) (* asi 1630) z Křižanova. Jejich otcové Vít (č. 1408) a Šebestian (č. 2820) byli bratři. Jde o klasické rodové zúžení (implex), velmi typické pro staré venkovské a kovářské rody.
+
+## Matematik a docent ČVUT doc. RNDr. Miroslav Menšík
+Dědeček [doc. RNDr. Miroslav Vladimír Menšík](/osoba/miroslav-mensik-1906/) (1906–1968) se narodil 3. srpna 1906 v Praze na Novém Městě v čp. 1717 v rodině c. k. civilního strážníka a pozdějšího poštovního úředníka Františka Menšíka a Pavlíny rozené Jirkovské. Vystudoval matematiku a deskriptivní geometrii a stal se docentem na Stavební fakultě ČVUT v Praze. Byl autorem řady vysokoškolských učebnic deskriptivní geometrie a fotogrammetrie a v letech 1956–1968 působil jako vedoucí redaktor časopisu *Rozhledy matematicko-fyzikální*.

@@ -154,5 +154,17 @@
     ],
     "status": "ok",
     "note": "Zápis o sňatku Aloise Jirkovského a Aloisie Marie Tiché (1885)"
+  },
+  "podskali_krest_miroslav_mensik_1906": {
+    "boxes": [
+      [
+        0.125,
+        0.812,
+        0.88,
+        0.945
+      ]
+    ],
+    "status": "ok",
+    "note": "Zápis o narození a křtu Miroslava Vladimíra Menšíka"
   }
 }
