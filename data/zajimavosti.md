@@ -32,8 +32,8 @@ Nejstarší dosud známý předek v železářské linii, [Tomáš Dymáček](/o
 ## Mlynář Řehoř Škoda z Dolních Borů (* 1643)
 V 11. generaci předků babičky Zdenky Holánkové nacházíme mlynáře [Řehoře Škodu](/osoba/rehor-skoda/) (* asi 1643 – † 1. 7. 1726 v Dolních Borech). V únoru 1678 se oženil se Salomenou Šebkovou ve Skleném.
 
-## Rodové zúžení u křižanovských Holánků
-Václav Holánek (1726–1787, č. 704) a jeho manželka Judita Holánková (1734–1809, č. 705) měli společného předka – oba byli pravnoučaty [Jiřího Holánka](/osoba/jiri-holanek/) (* asi 1630) z Křižanova. Jejich otcové Vít (č. 1408) a Šebestian (č. 2820) byli bratři. Jde o klasické rodové zúžení (implex), velmi typické pro staré venkovské a kovářské rody.
+## Sňatek dvou větví Holánků (Křižanov a Jívoví)
+Při svatbě 10. listopadu 1754 v Křižanově se spojily dvě větve téhož příjmení: kovář [Václav Holánek](/osoba/vaclav-holanek-1726/) (1726–1787, č. 704) z Křižanova a [Judita Holánková](/osoba/judita-holankova-1734/) (1734–1809, č. 705) ze sousedního Jívoví. Václav byl synem křižanovského kováře [Víta Holánka](/osoba/vit-holanek-1680/) (č. 1408) a vnukem [Jiřího Holánka](/osoba/jiri-holanek-1630/) (* asi 1630). Judita byla dcerou sedláka [Josefa Holánka](/osoba/josef-holanek-1701/) (č. 1410) a vnučkou [Šebestiana Holánka](/osoba/sebestian-holanek-1666/) (* asi 1666) z Jívoví. Šebestianovi rodiče zatím nejsou v matrikách doloženi, takže Jiří Holánek je ve stromu předkem pouze na straně Václava; shoda příjmení v sousedních vsích však naznačuje hlubší společný kořen obou rodin.
 
 ## Matematik a docent ČVUT doc. RNDr. Miroslav Menšík
 Dědeček [doc. RNDr. Miroslav Vladimír Menšík](/osoba/miroslav-mensik-1906/) (1906–1968) se narodil 3. srpna 1906 v Praze na Novém Městě v čp. 1717 v rodině c. k. civilního strážníka a pozdějšího poštovního úředníka Františka Menšíka a Pavlíny rozené Jirkovské. Vystudoval matematiku a deskriptivní geometrii a stal se docentem na Stavební fakultě ČVUT v Praze. Byl autorem řady vysokoškolských učebnic deskriptivní geometrie a fotogrammetrie a v letech 1956–1968 působil jako vedoucí redaktor časopisu *Rozhledy matematicko-fyzikální*.
