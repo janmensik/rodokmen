@@ -1,81 +1,89 @@
 {
- "ebad_10141": {
-  "archiv": "SOA Praha – Sbírka matrik",
-  "portal": "eBadatelna",
-  "svazek": "Žleby 35, Z 1837–1910",
-  "popis": "Bažantnice u sv. Anny, Buda, Ksiny, Markovice, Velký Dvůr, Žleby",
-  "snimku": 379,
-  "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/10141"
- },
- "ebad_10116": {
-  "archiv": "SOA Praha – Sbírka matrik",
-  "portal": "eBadatelna",
-  "svazek": "Žleby 10, N 1839–1867",
-  "popis": "Markovice, Žleby",
-  "snimku": 347,
-  "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/10116"
- },
- "ebad_10138": {
-  "archiv": "SOA Praha – Sbírka matrik",
-  "portal": "eBadatelna",
-  "svazek": "Žleby 32, N 1898–1914",
-  "popis": "Bažantnice u sv. Anny, Buda, Ksiny, Markovice, Žleby",
-  "snimku": 305,
-  "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/10138"
- },
- "820f0eed": {
-  "archiv": "Státní oblastní archiv v Hradci Králové",
-  "portal": "ARON",
-  "svazek": "Sbírka matrik Východočeského kraje, sign.: 5946 (poř.č. 1985), 1778-1912",
-  "popis": "římskokatolická matrika ODDANÝCH, farnost (Břevnice, Český Dvůr, Dolní Krupá, Horní Krupá, Chrast, Knyk, Kráty, Kyjov, Lažany, Lysá, Rozsochatec, Údolí, Zálesí, Zbožice) do 5.1784, Dolní Krupá (6.1784-2.1912)",
-  "snimku": 129,
-  "url": "https://aron.vychodoceskearchivy.cz/apu/820f0eed-158c-40e0-8631-c556f70387c5"
- },
- "59f6bbe6": {
-  "archiv": "Státní oblastní archiv v Hradci Králové",
-  "portal": "ARON",
-  "svazek": "Sbírka matrik Východočeského kraje, sign.: 2840 (poř.č. 1975), 1778-1869",
-  "popis": "římskokatolická matrika NAROZENÝCH, farnost (Břevnice, Český Dvůr, Dolní Krupá, Horní Krupá, Chrast, Knyk, Kráty, Kyjov, Lažany, Lysá, Rozsochatec, Údolí, Zálesí, Zbožice) do 10.1784, Dolní Krupá (od 11.1784)",
-  "snimku": 282,
-  "url": "https://aron.vychodoceskearchivy.cz/apu/59f6bbe6-dc5c-4e7c-bd62-524eb8295f6d"
- },
- "52b916b6": {
-  "archiv": "Státní oblastní archiv v Hradci Králové",
-  "portal": "ARON",
-  "svazek": "Sbírka matrik Východočeského kraje, sign.: 711 (poř.č. 5457), 5.1837-10.1856",
-  "popis": "římskokatolická matrika NAROZENÝCH, Nové Ransko + Staré Ransko",
-  "snimku": 197,
-  "url": "https://aron.vychodoceskearchivy.cz/apu/52b916b6-2fc8-4fa8-8c8f-96527e8ccdc8"
- },
- "cc99859e": {
-  "archiv": "Státní oblastní archiv v Hradci Králové",
-  "portal": "ARON",
-  "svazek": "Sbírka matrik Východočeského kraje, sign.: 6032 (poř.č. 5444), 1881-5.1908",
-  "popis": "římskokatolická matrika NAROZENÝCH, Krucemburk",
-  "snimku": 198,
-  "url": "https://aron.vychodoceskearchivy.cz/apu/cc99859e-6f48-42b9-89de-6163c35efdf4"
- },
- "trebon_4513": {
-  "archiv": "SOA Třeboň – Sbírka matrik",
-  "portal": "digi.ceskearchivy.cz",
-  "svazek": "Jistebnice 16 1865-1884",
-  "popis": "",
-  "url": "https://digi.ceskearchivy.cz/4513"
- },
- "ahmp_tyn_o12": {
-  "archiv": "Archiv hlavního města Prahy",
-  "portal": "Katalog AHMP",
-  "svazek": "TÝN O12 • 1899–1911",
-  "popis": "Kostel Matky Boží před Týnem, kniha oddaných",
-  "snimku": 267,
-  "url": "https://katalog.ahmp.cz/pragapublica/permalink?xid=1DC453DF14FA413283B8C8B8939C6D3D"
- },
- "trebon_4519": {
-  "archiv": "SOA Třeboň – Sbírka matrik",
-  "portal": "digi.ceskearchivy.cz",
-  "svazek": "Jistebnice 22 • O 1861–1882",
-  "popis": "Kniha oddaných farnosti Jistebnice",
-  "snimku": 180,
-  "url": "https://digi.ceskearchivy.cz/4519"
- }
+  "ebad_10141": {
+    "archiv": "SOA Praha – Sbírka matrik",
+    "portal": "eBadatelna",
+    "svazek": "Žleby 35, Z 1837–1910",
+    "popis": "Bažantnice u sv. Anny, Buda, Ksiny, Markovice, Velký Dvůr, Žleby",
+    "snimku": 379,
+    "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/10141"
+  },
+  "ebad_10116": {
+    "archiv": "SOA Praha – Sbírka matrik",
+    "portal": "eBadatelna",
+    "svazek": "Žleby 10, N 1839–1867",
+    "popis": "Markovice, Žleby",
+    "snimku": 347,
+    "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/10116"
+  },
+  "ebad_10138": {
+    "archiv": "SOA Praha – Sbírka matrik",
+    "portal": "eBadatelna",
+    "svazek": "Žleby 32, N 1898–1914",
+    "popis": "Bažantnice u sv. Anny, Buda, Ksiny, Markovice, Žleby",
+    "snimku": 305,
+    "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/10138"
+  },
+  "820f0eed": {
+    "archiv": "Státní oblastní archiv v Hradci Králové",
+    "portal": "ARON",
+    "svazek": "Sbírka matrik Východočeského kraje, sign.: 5946 (poř.č. 1985), 1778-1912",
+    "popis": "římskokatolická matrika ODDANÝCH, farnost (Břevnice, Český Dvůr, Dolní Krupá, Horní Krupá, Chrast, Knyk, Kráty, Kyjov, Lažany, Lysá, Rozsochatec, Údolí, Zálesí, Zbožice) do 5.1784, Dolní Krupá (6.1784-2.1912)",
+    "snimku": 129,
+    "url": "https://aron.vychodoceskearchivy.cz/apu/820f0eed-158c-40e0-8631-c556f70387c5"
+  },
+  "59f6bbe6": {
+    "archiv": "Státní oblastní archiv v Hradci Králové",
+    "portal": "ARON",
+    "svazek": "Sbírka matrik Východočeského kraje, sign.: 2840 (poř.č. 1975), 1778-1869",
+    "popis": "římskokatolická matrika NAROZENÝCH, farnost (Břevnice, Český Dvůr, Dolní Krupá, Horní Krupá, Chrast, Knyk, Kráty, Kyjov, Lažany, Lysá, Rozsochatec, Údolí, Zálesí, Zbožice) do 10.1784, Dolní Krupá (od 11.1784)",
+    "snimku": 282,
+    "url": "https://aron.vychodoceskearchivy.cz/apu/59f6bbe6-dc5c-4e7c-bd62-524eb8295f6d"
+  },
+  "52b916b6": {
+    "archiv": "Státní oblastní archiv v Hradci Králové",
+    "portal": "ARON",
+    "svazek": "Sbírka matrik Východočeského kraje, sign.: 711 (poř.č. 5457), 5.1837-10.1856",
+    "popis": "římskokatolická matrika NAROZENÝCH, Nové Ransko + Staré Ransko",
+    "snimku": 197,
+    "url": "https://aron.vychodoceskearchivy.cz/apu/52b916b6-2fc8-4fa8-8c8f-96527e8ccdc8"
+  },
+  "cc99859e": {
+    "archiv": "Státní oblastní archiv v Hradci Králové",
+    "portal": "ARON",
+    "svazek": "Sbírka matrik Východočeského kraje, sign.: 6032 (poř.č. 5444), 1881-5.1908",
+    "popis": "římskokatolická matrika NAROZENÝCH, Krucemburk",
+    "snimku": 198,
+    "url": "https://aron.vychodoceskearchivy.cz/apu/cc99859e-6f48-42b9-89de-6163c35efdf4"
+  },
+  "trebon_4513": {
+    "archiv": "SOA Třeboň – Sbírka matrik",
+    "portal": "digi.ceskearchivy.cz",
+    "svazek": "Jistebnice 16 1865-1884",
+    "popis": "",
+    "url": "https://digi.ceskearchivy.cz/4513"
+  },
+  "ahmp_tyn_o12": {
+    "archiv": "Archiv hlavního města Prahy",
+    "portal": "Katalog AHMP",
+    "svazek": "TÝN O12 • 1899–1911",
+    "popis": "Kostel Matky Boží před Týnem, kniha oddaných",
+    "snimku": 267,
+    "url": "https://katalog.ahmp.cz/pragapublica/permalink?xid=1DC453DF14FA413283B8C8B8939C6D3D"
+  },
+  "trebon_4519": {
+    "archiv": "SOA Třeboň – Sbírka matrik",
+    "portal": "digi.ceskearchivy.cz",
+    "svazek": "Jistebnice 22 • O 1861–1882",
+    "popis": "Kniha oddaných farnosti Jistebnice",
+    "snimku": 180,
+    "url": "https://digi.ceskearchivy.cz/4519"
+  },
+  "trebon_4509": {
+    "archiv": "SOA Třeboň – Sbírka matrik",
+    "portal": "digi.ceskearchivy.cz",
+    "svazek": "Jistebnice 12 – N 1830–1836",
+    "popis": "Kniha narozených farnosti Jistebnice (s indexem)",
+    "snimku": 172,
+    "url": "https://digi.ceskearchivy.cz/4509"
+  }
 }

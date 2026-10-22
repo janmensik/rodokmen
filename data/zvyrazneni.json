@@ -1,110 +1,134 @@
 {
- "zleby_umrti_jan_jarolim_1903": {
-  "boxes": [
-   [
-    0.06,
-    0.12,
-    0.98,
-    0.96
-   ]
-  ],
-  "status": "ok",
-  "note": "Zápis o úmrtí Jana Jarolíma"
- },
- "zleby_krest_jan_jarolim_1863": {
-  "boxes": [
-   [
-    0.005,
-    0.03,
-    0.96,
-    0.74
-   ]
-  ],
-  "status": "ok",
-  "note": "Zápis o narození a křtu Jana Jarolíma"
- },
- "zleby_krest_emilie_jarolimova_1899": {
-  "boxes": [
-   [
-    0.005,
-    0.23,
-    0.98,
-    0.98
-   ]
-  ],
-  "status": "ok",
-  "note": "Zápis o narození a křtu Emilie Jarolímové"
- },
- "krupa_oddani_jan_jarolim_1888": {
-  "boxes": [
-   [
-    0.01,
-    0.1,
-    0.99,
-    0.935
-   ]
-  ],
-  "status": "ok",
-  "note": "Zápis o oddavkách Jana Jarolíma a Antonie Havlové"
- },
- "krupa_krest_antonie_havlova_1857": {
-  "boxes": [
-   [
-    0.015,
-    0.18,
-    0.985,
-    0.96
-   ]
-  ],
-  "status": "ok",
-  "note": "Zápis o narození a křtu Antonie Havlové"
- },
- "ransko_krest_frantisek_holanek_1854": {
-  "boxes": [
-   [
-    0.01,
-    0.03,
-    0.99,
-    0.97
-   ]
-  ],
-  "status": "ok",
-  "note": "Zápis o narození a křtu Františka Holánka"
- },
- "tyn_oddani_frantisek_mensik_1902": {
-  "boxes": [
-   [
-    0.01,
-    0.01,
-    0.99,
-    0.99
-   ]
-  ],
-  "status": "ok",
-  "note": "Zápis o sňatku Františka Menšíka a Pavlíny Jirkovské"
- },
- "jistebnice_krest_frantisek_mensik_1873": {
-  "boxes": [
-   [
-    0.01,
-    0.01,
-    0.99,
-    0.99
-   ]
-  ],
-  "status": "ok",
-  "note": "Zápis o narození a křtu Františka Xavera Menšíka"
- },
- "jistebnice_oddani_josef_mensik_1865": {
-  "boxes": [
-   [
-    0.01,
-    0.01,
-    0.99,
-    0.99
-   ]
-  ],
-  "status": "ok",
-  "note": "Zápis o sňatku Josefa Menšíka a Marie Šmedlové"
- }
+  "zleby_umrti_jan_jarolim_1903": {
+    "boxes": [
+      [
+        0.06,
+        0.12,
+        0.98,
+        0.96
+      ]
+    ],
+    "status": "ok",
+    "note": "Zápis o úmrtí Jana Jarolíma"
+  },
+  "zleby_krest_jan_jarolim_1863": {
+    "boxes": [
+      [
+        0.005,
+        0.03,
+        0.96,
+        0.74
+      ]
+    ],
+    "status": "ok",
+    "note": "Zápis o narození a křtu Jana Jarolíma"
+  },
+  "zleby_krest_emilie_jarolimova_1899": {
+    "boxes": [
+      [
+        0.005,
+        0.23,
+        0.98,
+        0.98
+      ]
+    ],
+    "status": "ok",
+    "note": "Zápis o narození a křtu Emilie Jarolímové"
+  },
+  "krupa_oddani_jan_jarolim_1888": {
+    "boxes": [
+      [
+        0.01,
+        0.1,
+        0.99,
+        0.935
+      ]
+    ],
+    "status": "ok",
+    "note": "Zápis o oddavkách Jana Jarolíma a Antonie Havlové"
+  },
+  "krupa_krest_antonie_havlova_1857": {
+    "boxes": [
+      [
+        0.015,
+        0.18,
+        0.985,
+        0.96
+      ]
+    ],
+    "status": "ok",
+    "note": "Zápis o narození a křtu Antonie Havlové"
+  },
+  "ransko_krest_frantisek_holanek_1854": {
+    "boxes": [
+      [
+        0.01,
+        0.03,
+        0.99,
+        0.97
+      ]
+    ],
+    "status": "ok",
+    "note": "Zápis o narození a křtu Františka Holánka"
+  },
+  "tyn_oddani_frantisek_mensik_1902": {
+    "boxes": [
+      [
+        0.01,
+        0.01,
+        0.99,
+        0.99
+      ]
+    ],
+    "status": "ok",
+    "note": "Zápis o sňatku Františka Menšíka a Pavlíny Jirkovské"
+  },
+  "jistebnice_krest_frantisek_mensik_1873": {
+    "boxes": [
+      [
+        0.01,
+        0.01,
+        0.99,
+        0.99
+      ]
+    ],
+    "status": "ok",
+    "note": "Zápis o narození a křtu Františka Xavera Menšíka"
+  },
+  "jistebnice_oddani_josef_mensik_1865": {
+    "boxes": [
+      [
+        0.01,
+        0.01,
+        0.99,
+        0.99
+      ]
+    ],
+    "status": "ok",
+    "note": "Zápis o sňatku Josefa Menšíka a Marie Šmedlové"
+  },
+  "jistebnice_krest_josef_mensik_1832": {
+    "boxes": [
+      [
+        0.01,
+        0.01,
+        0.99,
+        0.99
+      ]
+    ],
+    "status": "ok",
+    "note": "Zápis o narození a křtu Josefa Menšíka (1832)"
+  },
+  "jistebnice_krest_marie_smedlova_1835": {
+    "boxes": [
+      [
+        0.01,
+        0.01,
+        0.99,
+        0.99
+      ]
+    ],
+    "status": "ok",
+    "note": "Zápis o narození a křtu Marie Šmedlové (1835)"
+  }
 }
