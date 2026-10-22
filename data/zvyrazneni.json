@@ -298,5 +298,29 @@
   ],
   "status": "ok",
   "note": "Sňatek kováře Jana Černého a Anny Hromadové"
+ },
+ "koncice_oddani_josef_mestanek_1883": {
+  "boxes": [
+   [
+    0.01,
+    0.02,
+    0.99,
+    0.98
+   ]
+  ],
+  "status": "ok",
+  "note": "Sňatek Josefa Měšťánka a Kateřiny Ouzké"
+ },
+ "chvalovice_krest_anna_hromadova_1864": {
+  "boxes": [
+   [
+    0.01,
+    0.02,
+    0.99,
+    0.98
+   ]
+  ],
+  "status": "ok",
+  "note": "Křest Anny Hromadové v Chvalovicích"
  }
 }

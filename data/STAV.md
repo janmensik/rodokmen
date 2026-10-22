@@ -226,7 +226,14 @@ pak konec `research_log.md` a sekci „Rozpracováno“.
     - Zápis nese unikátní přípis potvrzující úmrtí **25. 10. 1972 v léčebně TBC v Žamberku (Albertinum)**, kde působila její dcera i zeť!
     - V matrice Poděbrady 64 (SOA Praha, sn. 133, fol. 149) nalezen sňatek prarodičů (20. 7. 1885): mistr kovářský **Jan Černý** (25 let, * 13. 12. 1860 Dobšice č. 27 / Malé Zboží čp. 15, syn kováře Františka Černého a Kateřiny roz. Michlové) a **Anna Hromadová** (21 let, * 29. 6. 1864 Chvalovice č. 4, dcera rolníka Václava Hromady a Anny roz. Kovaříkové).
     - Odhalena nepřetržitá kovářská tradice rodu Černých (Josef Černý * 1886, Jan Černý * 1860, František Černý i Josef Michl z Vlkova).
-  - V rodokmenu celkem evidováno **149 osob** (z toho **25 doložených primárních zápisů** ze snímků matrik ve 24 svazcích, 42 řádků deníku).
+  - **Prohloubení větví Měšťánek, Ouzký, Hromada a Kovářík (generace 6, 7 a 8):**
+    - V matrice Žiželice 19 (SOA Praha, sn. 131, fol. 144) nalezen a přepsán sňatek (3. 4. 1883 Končice čp. 71): **Josef Měšťánek** (* cca 1859, mistr tesařský z Končic čp. 14, syn tesaře a tkalce Václava Měšťánka a Barbory roz. Kosa z Bojiště čp. 10) a **Kateřina Ouzká** (* cca 1857, nemanželská dcera Kateřiny Ouzké, dcery domkaře Jiřího Ouzkého z Končic čp. 14 a Barbory roz. Daníčkové z Končic čp. 12).
+    - V matrice Kovanice 10 (SOA Praha, sn. 161, pag. 159) nalezen a přepsán křest **Anny Hromadové** (* 29. 6. 1864 Chvalovice čp. 21). Rodiče: rolník **Václav Hromada** (syn † Václava Hromady st., rolníka z Vyšehořovic čp. 22 na Českobrodsku a Alžběty roz. Jirkovské z čp. 25) a **Anna** (dcera Josefa Kováříka, výminkáře v Chvalovicích čp. 21 a Anny roz. Homolové z Chrástu na Českobrodsku).
+    - Do rodokmenu nově doloženo a doplněno 16 předků Julie v 6., 7. a 8. generaci:
+      - 6. generace: František Černý (č. 120), Kateřina Michlová (č. 121), Václav Hromada (č. 122), Anna Kováříková (č. 123), Václav Měšťánek (č. 124), Barbora Kosová (č. 125), Kateřina Ouzká st. (č. 127).
+      - 7. generace: kovář Josef Michl (č. 242), Václav Hromada st. (č. 244), Alžběta Jirkovská (č. 245), Josef Kovářík (č. 246), Anna Homolová (č. 247), Václav Kos (č. 250), Jiří Ouzký (č. 254), Barbora Daníčková (č. 255).
+      - 8. generace: Jiří Daníček (č. 510).
+  - V rodokmenu celkem evidováno **165 osob** (z toho **27 doložených primárních zápisů** ze snímků matrik ve 26 svazcích, 44 řádků deníku).
 
 - Další kroky k prozkoumání:
   1. Slovenská řeckokatolická větev Čáki a Bubanec (farnost Dúbrava, okres Snina na Zemplíně – matriky na FamilySearch).

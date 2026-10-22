@@ -409,23 +409,23 @@ P = {
              note="Mistr kovářský v Malém Zboží čp. 15 a v Poděbradech. Narozen 13. 12. 1860 v Dobšicích čp. 27 jako manželský syn kováře Františka Černého z Malého Zboží a Kateřiny roz. Michlové (dcery kováře Josefa Michla z Vlkova čp. 13). Dne 20. 7. 1885 byl v Poděbradech oddán s Annou Hromadovou z Chvalovic. Otec kováře Josefa Černého (* 1886)."),
 
     61: dict(n="Anna Černá", y="* 1864", st="doc",
-             f=["* 29. 6. 1864 Chvalovice čp. 4", "× 20. 7. 1885 Poděbrady Jan Černý"],
-             roz="Hromadová", bydl="Poděbrady / Malé Zboží čp. 15", puvod="Chvalovice čp. 4",
-             r=["podebrady_oddani_jan_cerny_1885", "podebrady_oddani_josef_cerny_1911"],
-             note="Narozena 29. 6. 1864 v Chvalovicích čp. 4 jako manželská dcera rolníka Václava Hromady z Chvalovic čp. 4 a Anny roz. Kovaříkové z Chvalovic čp. 21. Dne 20. 7. 1885 se v Poděbradech provdala za mistra kovářského Jana Černého. Matka kováře Josefa Černého (* 1886)."),
+             f=["* 29. 6. 1864 Chvalovice čp. 21", "× 20. 7. 1885 Poděbrady Jan Černý"],
+             roz="Hromadová", bydl="Poděbrady / Malé Zboží čp. 15", puvod="Chvalovice čp. 21",
+             r=["chvalovice_krest_anna_hromadova_1864", "podebrady_oddani_jan_cerny_1885", "podebrady_oddani_josef_cerny_1911"],
+             note="Narozena 29. 6. 1864 v Chvalovicích čp. 21 jako manželská dcera rolníka Václava Hromady a Anny roz. Kovaříkové z Chvalovic čp. 21. Dne 20. 7. 1885 se v Poděbradech provdala za mistra kovářského Jana Černého. Matka poděbradského mistra kovářského Josefa Černého (* 1886) a prababička Julie."),
 
     62: dict(n="Josef Měšťánek", y="* 1859", st="doc",
-             f=["* 1859 Bojiště čp. 10 (okres Kolín) / Končice", "× Kateřina Ouzká"],
-             zam="rolník v Končicích čp. 14, později obchodník v Poděbradech čp. 13/II",
+             f=["* 1859 Bojiště čp. 10 (okres Kolín)", "× 3. 4. 1883 Končice čp. 71 Kateřina Ouzká"],
+             zam="mistr tesařský, rolník v Končicích čp. 14, později obchodník v Poděbradech čp. 13/II",
              bydl="Poděbrady čp. 13/II, dříve Končice čp. 14", puvod="Bojiště čp. 10 (okres Kolín)",
-             r=["koncice_krest_marie_mestankova_1885", "podebrady_oddani_josef_cerny_1911"],
-             note="Rolník v Končicích čp. 14 a později obchodník v Poděbradech čp. 13/II. Narozen roku 1859 v Bojišti čp. 10 jako syn tkalce Václava Měšťánka a Barbory roz. Kosové z Bojiště čp. 10. Otec Marie Černé roz. Měšťánkové."),
+             r=["koncice_oddani_josef_mestanek_1883", "koncice_krest_marie_mestankova_1885", "podebrady_oddani_josef_cerny_1911"],
+             note="Mistr tesařský a rolník v Končicích čp. 14, později obchodník v Poděbradech čp. 13/II. Narozen roku 1859 v Bojišti čp. 10 jako syn tesaře a tkalce Václava Měšťánka a Barbory roz. Kosové z Bojiště čp. 10. Dne 3. 4. 1883 oddán v Končicích s Kateřinou Ouzkou. Otec Marie Černé roz. Měšťánkové (pradědeček Julie)."),
 
     63: dict(n="Kateřina Měšťánková", y="* 1857", st="doc",
-             f=["* 1857 Končice čp. 14", "× Josef Měšťánek"],
+             f=["* 1857 Končice čp. 14", "× 3. 4. 1883 Končice čp. 71 Josef Měšťánek"],
              roz="Ouzká", bydl="Poděbrady čp. 13/II, dříve Končice čp. 14", puvod="Končice čp. 14",
-             r=["koncice_krest_marie_mestankova_1885", "podebrady_oddani_josef_cerny_1911"],
-             note="Narozena roku 1857 v Končicích čp. 14 jako nemanželská dcera Kateřiny Ouzké (dcery Jiřího Ouzkého, baráčníka z Končic čp. 14 a Barbory roz. Daníčkové z Končic čp. 12). Manželka Josefa Měšťánka a matka Marie Černé roz. Měšťánkové."),
+             r=["koncice_oddani_josef_mestanek_1883", "koncice_krest_marie_mestankova_1885", "podebrady_oddani_josef_cerny_1911"],
+             note="Narozena roku 1857 v Končicích čp. 14 jako nemanželská dcera Kateřiny Ouzké (dcery Jiřího Ouzkého, domkaře z Končic čp. 14 a Barbory roz. Daníčkové z Končic čp. 12). Dne 3. 4. 1883 provdána v Končicích za mistra tesařského Josefa Měšťánka. Matka Marie Černé roz. Měšťánkové (prababička Julie)."),
 
 
 
@@ -613,7 +613,53 @@ P = {
 
 
 
-    # 7. generace (128–135, 170–185)
+    120: dict(n="František Černý", y="† před 1885", st="doc",
+              f=["† před 1885", "× Kateřina Michlová"],
+              zam="mistr kovářský v Dobšicích čp. 27 a Malém Zboží čp. 15",
+              bydl="Malé Zboží čp. 15, dříve Dobšice čp. 27", puvod="Dobšice",
+              r=["podebrady_oddani_jan_cerny_1885"],
+              note="Mistr kovářský v Dobšicích čp. 27 a v Malém Zboží čp. 15. Manžel Kateřiny roz. Michlové z kovářského rodu ve Vlkově. Otec kováře Jana Černého (* 1860) a Josefa Černého (* 1832)."),
+
+    121: dict(n="Kateřina Černá", y="", st="doc",
+              f=["× František Černý"],
+              roz="Michlová", bydl="Malé Zboží čp. 15, dříve Dobšice čp. 27", puvod="Vlkov čp. 13",
+              r=["podebrady_oddani_jan_cerny_1885"],
+              note="Manželka kováře Františka Černého, dcera kováře Josefa Michla z Vlkova čp. 13. Matka kováře Jana Černého (* 1860)."),
+
+    122: dict(n="Václav Hromada", y="† před 1885", st="doc",
+              f=["† před 1885", "× Anna Kováříková"],
+              zam="rolník v Chvalovicích čp. 4 a 21",
+              bydl="Chvalovice čp. 4 a 21", puvod="okres Český Brod čp. 22",
+              r=["chvalovice_krest_anna_hromadova_1864", "podebrady_oddani_jan_cerny_1885"],
+              note="Rolník v Chvalovicích čp. 4 a 21. Manželský syn Václava Hromady st., rolníka na Českobrodsku a Alžběty roz. Jirkovské. Otec Anny Černé roz. Hromadové (* 1864)."),
+
+    123: dict(n="Anna Hromadová", y="", st="doc",
+              f=["× Václav Hromada"],
+              roz="Kováříková", bydl="Chvalovice čp. 4 a 21", puvod="Chvalovice čp. 21",
+              r=["chvalovice_krest_anna_hromadova_1864", "podebrady_oddani_jan_cerny_1885"],
+              note="Manželka rolníka Václava Hromady, dcera Josefa Kováříka, výminkáře v Chvalovicích čp. 21 a Anny roz. Homolové z Chrástu na Českobrodsku. Matka Anny Černé roz. Hromadové (* 1864)."),
+
+    124: dict(n="Václav Měšťánek", y="", st="doc",
+              f=["× Barbora Kosová"],
+              zam="tesař a tkalec v Bojišti čp. 10",
+              bydl="Bojiště čp. 10 (okres Kolín)", puvod="Bojiště",
+              r=["koncice_oddani_josef_mestanek_1883", "koncice_krest_marie_mestankova_1885"],
+              note="Tesař a tkalec v Bojišti čp. 10 na Kolínsku, manžel Barbory roz. Kosové. Otec tesaře a obchodníka Josefa Měšťánka (* 1859)."),
+
+    125: dict(n="Barbora Měšťánková", y="", st="doc",
+              f=["× Václav Měšťánek"],
+              roz="Kosová", bydl="Bojiště čp. 10", puvod="Bojiště",
+              r=["koncice_oddani_josef_mestanek_1883", "koncice_krest_marie_mestankova_1885"],
+              note="Dcera Václava Kosa z Bojiště čp. 10, manželka Václava Měšťánka a matka Josefa Měšťánka (* 1859)."),
+
+    127: dict(n="Kateřina Ouzká", y="", st="doc",
+              f=[], bydl="Končice čp. 14", puvod="Končice",
+              r=["koncice_oddani_josef_mestanek_1883", "koncice_krest_marie_mestankova_1885"],
+              note="Svobodná matka v Končicích čp. 14, dcera domkaře Jiřího Ouzkého z Končic čp. 14 a Barbory roz. Daníčkové z Končic čp. 12. Matka Kateřiny provdané Měšťánkové (* 1857)."),
+
+
+
+    # 7. generace (128–143, 170–175, 242–255)
 
     128: dict(n="František Menšík", y="", st="doc",
 
@@ -889,7 +935,56 @@ P = {
 
 
 
-    # 8. generace (342–363)
+    242: dict(n="Josef Michl", y="† před 1885", st="doc",
+              f=["† před 1885"],
+              zam="mistr kovářský ve Vlkově čp. 13", bydl="Vlkov čp. 13", puvod="Vlkov",
+              r=["podebrady_oddani_jan_cerny_1885"],
+              note="Mistr kovářský ve Vlkově čp. 13, otec Kateřiny provdané Černé a dědeček kováře Jana Černého."),
+
+    244: dict(n="Václav Hromada st.", y="† před 1864", st="doc",
+              f=["† před 1864", "× Alžběta Jirkovská"],
+              zam="rolník", bydl="okres Český Brod čp. 22",
+              r=["chvalovice_krest_anna_hromadova_1864"],
+              note="Rolník na Českobrodsku čp. 22, manžel Alžběty roz. Jirkovské, otec rolníka Václava Hromady z Chvalovic."),
+
+    245: dict(n="Alžběta Hromadová", y="", st="doc",
+              f=["× Václav Hromada"],
+              roz="Jirkovská", bydl="okres Český Brod čp. 25",
+              r=["chvalovice_krest_anna_hromadova_1864"],
+              note="Pocházela z usedlosti Jirkovských na Českobrodsku (čp. 25), manželka Václava Hromady st."),
+
+    246: dict(n="Josef Kovářík", y="", st="doc",
+              f=["× Anna Homolová"],
+              zam="výminkář a rolník v Chvalovicích čp. 21", bydl="Chvalovice čp. 21", puvod="Chvalovice",
+              r=["chvalovice_krest_anna_hromadova_1864"],
+              note="Výminkář a dříve rolník v Chvalovicích čp. 21, manžel Anny roz. Homolové, otec Anny provdané Hromadové."),
+
+    247: dict(n="Anna Kováříková", y="", st="doc",
+              f=["× Josef Kovářík"],
+              roz="Homolová", bydl="Chvalovice čp. 21", puvod="Chrást (okres Český Brod)",
+              r=["chvalovice_krest_anna_hromadova_1864"],
+              note="Pocházela z Chrástu na Českobrodsku, manželka výminkáře Josefa Kováříka v Chvalovicích čp. 21."),
+
+    250: dict(n="Václav Kos", y="", st="doc",
+              f=[], bydl="Bojiště čp. 10", puvod="Bojiště",
+              r=["koncice_oddani_josef_mestanek_1883", "koncice_krest_marie_mestankova_1885"],
+              note="Otec Barbory provdané Měšťánkové z Bojiště čp. 10 na Kolínsku."),
+
+    254: dict(n="Jiří Ouzký", y="† před 1885", st="doc",
+              f=["† před 1885", "× Barbora Daníčková"],
+              zam="domkař a baráčník v Končicích čp. 14", bydl="Končice čp. 14", puvod="Končice",
+              r=["koncice_oddani_josef_mestanek_1883", "koncice_krest_marie_mestankova_1885"],
+              note="Domkař a baráčník v Končicích čp. 14, manžel Barbory roz. Daníčkové z Končic čp. 12."),
+
+    255: dict(n="Barbora Ouzká", y="", st="doc",
+              f=["× Jiří Ouzký"],
+              roz="Daníčková", bydl="Končice čp. 14", puvod="Končice čp. 12",
+              r=["koncice_oddani_josef_mestanek_1883", "koncice_krest_marie_mestankova_1885"],
+              note="Dcera Jiřího Daníčka z Končic čp. 12, manželka domkaře Jiřího Ouzkého z Končic čp. 14."),
+
+
+
+    # 8. generace (144–147, 342, 352–363, 510)
 
     342: dict(n="Josef Táborský", y="", st="doc",
 
@@ -934,6 +1029,14 @@ P = {
              f=['* 13. 8. 1764 Kundratice', '× 1. 2. 1791 Křižanov 37 František Holánek', '† 19. 10. 1802 Křižanov 37'], r=[],
 
              note='Údaj z exportu Geni / MyHeritage (export-Forest.ged).'),
+
+
+
+    510: dict(n="Jiří Daníček", y="† před 1885", st="doc",
+              f=["† před 1885"],
+              zam="domkař v Končicích čp. 12", bydl="Končice čp. 12", puvod="Končice",
+              r=["koncice_oddani_josef_mestanek_1883", "koncice_krest_marie_mestankova_1885"],
+              note="Domkař v Končicích čp. 12, otec Barbory provdané Ouzké a pradědeček Kateřiny provdané Měšťánkové."),
 
 
 
