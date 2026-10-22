@@ -178,5 +178,17 @@
     ],
     "status": "ok",
     "note": "Zápis o narození a křtu Aloise Jirkovského"
+  },
+  "apolinar_krest_aloisie_ticha_1858": {
+    "boxes": [
+      [
+        0.01,
+        0.01,
+        0.99,
+        0.99
+      ]
+    ],
+    "status": "ok",
+    "note": "Zápis o narození a křtu Aloisie Marie Tiché"
   }
 }

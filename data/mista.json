@@ -203,5 +203,40 @@
   "lat": 49.7377,
   "lon": 15.9273,
   "osm": "Hamry, okres Chrudim, Pardubický kraj, Česko"
+ },
+ "Březnice": {
+  "re": "Březnic",
+  "dotaz": "Březnice, okres Příbram, Česko",
+  "lat": 49.5574,
+  "lon": 13.9508,
+  "osm": "Březnice, okres Příbram, Středočeský kraj, 262 72, Česko"
+ },
+ "Koupě": {
+  "re": "Koup[iíě]",
+  "dotaz": "Koupě, okres Příbram, Česko",
+  "lat": 49.5147,
+  "lon": 13.9184,
+  "osm": "Koupě, okres Příbram, Středočeský kraj, Česko"
+ },
+ "Kutná Hora": {
+  "re": "Kutn[éá] Hor",
+  "dotaz": "Kutná Hora, Česko",
+  "lat": 49.9487,
+  "lon": 15.2681,
+  "osm": "Kutná Hora, okres Kutná Hora, Středočeský kraj, Česko"
+ },
+ "Čáslav": {
+  "re": "Čáslav",
+  "dotaz": "Čáslav, Česko",
+  "lat": 49.9109,
+  "lon": 15.3913,
+  "osm": "Čáslav, okres Kutná Hora, Středočeský kraj, 286 01, Česko"
+ },
+ "Jistebnice": {
+  "re": "Jistebnic",
+  "dotaz": "Jistebnice, Česko",
+  "lat": 49.4856,
+  "lon": 14.5277,
+  "osm": "Jistebnice, okres Tábor, Jihočeský kraj, Jihozápad, Česko"
  }
 }

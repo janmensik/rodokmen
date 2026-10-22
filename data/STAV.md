@@ -91,7 +91,10 @@ pak konec `research_log.md` a sekci „Rozpracováno“.
   - V zápisu odhalen sňatek rodičů 15. 2. 1852 u sv. Františka v Praze.
   - Do rodokmenu nově doloženi a zařazeni 3 předci v 7. generaci: **Václav Jirkovský** (č. 136), **Anna Jirkovská roz. Pilzová** (č. 137) a **Barbora Franzová** (č. 139).
   - V rodokmenu evidováno celkem **128 osob** (z toho **15 doložených primárních zápisů** ze snímků matrik v 15 svazcích, 30 řádků deníku).
+- 22. 10. 2026: Matrika farnosti sv. Apolináře v Praze (AHMP, AP N30 – 1858–1859):
+  - **Křest Aloisie Marie Tiché** (* 12. 7. 1858, pokřtěna 18. 7. 1858 v Praze II čp. 501; sn. 119, list 116, zápis č. 4, roční č. 1884, přijímací č. 2388). Otec František Tichý, mistr krejčovský v Praze čp. 501/2, rodilý z Březnice, manželský syn Josefa Tichého, vrchnostenského poddaného v Březnici a Anny roz. Satrové (Šatrové) z Koupě u Březnice; matka Anna, manželská dcera Václava Svobody, komisionáře od policie v Praze čp. 501/2 a Anny roz. Schneiderové z N. N.
+  - Do rodokmenu nově doloženi a zařazeni 4 předci v 7. generaci: **Josef Tichý** (č. 140), **Anna Tichá roz. Satrová** (č. 141), **Václav Svoboda** (č. 142) a **Anna Svobodová roz. Schneiderová** (č. 143).
+  - V rodokmenu evidováno celkem **132 osob** (z toho **16 doložených primárních zápisů** ze snímků matrik v 16 svazcích, 31 řádků deníku).
 - Další bezprostřední krok (v malých krocích):
-  1. Dohledat křest Aloisie Marie Tiché (* 12. 7. 1858) v matrice sv. Apolináře (AHMP, AP N).
-  2. Dohledat sňatek pekaře Josefa Menšíka st. a Barbory Horychové v Jistebnici (kolem 1825–1831).
-  3. Zjistit rodné příjmení a původ babičky MUDr. Ludmily Menšíkové († před 2010 Praha) – sňatek s doc. Miroslavem Menšíkem kolem 1935–1945.
+  1. Target 3: Dohledat sňatek pekaře Josefa Menšíka st. a Barbory Horychové v Jistebnici (cca 1825–1831).
+  2. Zjistit rodné příjmení a původ babičky MUDr. Ludmily Menšíkové († před 2010 Praha) – sňatek s doc. Miroslavem Menšíkem kolem 1935–1945.
