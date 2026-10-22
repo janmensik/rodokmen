@@ -540,7 +540,7 @@ SIDE = [
                     manzel=dict(n="Aleš Černík", y="", bydl="Praha"),
                     deti=[dict(n="David Černík", y="* 2004", bydl="Praha"),
                           dict(n="Lenka Černíková", y="* 2008", bydl="Praha")])),
-    dict(k=4, n="Ivan Menšík (asi 1942–2012)", t="Bratr Radima Menšíka (strýc Jana), * cca 1942 Praha, † 2012 Praha, pohřben v Čtyřkolech.", r=[],
+    dict(k=4, n="Ivan Menšík (asi 1942–2012)", t="Starší bratr Radima Menšíka (strýc Jana), syn Miroslava a Ludmily, * asi 1942 Praha, † 2012 Praha, pohřben v Čtyřkolech.", r=[],
          vetev=dict(n="Ivan Menšík", y="asi 1942–2012", f=["* asi 1942 Praha", "† 2012 Praha"], bydl="Praha",
                     pohreb="Čtyřkoly", vztah="bratr Radima")),
     dict(k=5, n="Lenka Hájková roz. Jarolímová (* 1962)", t="Sestra Zdeňky, * 24. 4. 1962 (manžel Ing. arch. Martin Hájek * 1960, syn Ing. arch. Václav Hájek * 20. 2. 1983 – oba architekti).", r=[],
