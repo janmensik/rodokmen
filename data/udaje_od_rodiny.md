@@ -15,7 +15,7 @@ Co víme z vyprávění a rodinných dokumentů – kdo to řekl / odkud to je a
     - **7 – PhDr. Eva Čákiová roz. Krejzková** (* 1. 11. 1946 Rychnov nad Kněžnou, dětství prožila v Žamberku)
       - Rodiče Evy Čákiové:
       - Otec: **14 – MUDr. Miroslav Krejzek** (* 3. 9. 1914 Bystřice nad Pernštejnem, lékař, studium v Brně, 5 bratrů, † 27. 5. 1978 Žamberk)
-      - Matka: **15 – Věra Krejzková roz. Černá** (1917–2005)
+      - Matka: **15 – MUDr. Věra Krejzková roz. Černá** (1917–2005, lékařka MUDr. v Žamberku)
         - Otec Věry Černé: **30 – Josef Černý** (doplněno 21. 10. 2026)
         - Sourozenec: 1 bratr Věry Černé (syn Josefa Černého)
     - Sestra Evy Čákiové (teta Julie): **MUDr. Iva Gajdošová roz. Krejzková** (lékařka, † 2013, Hradec Králové, ID 3000016), manžel pan Gajdoš. Děti:

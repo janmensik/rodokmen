@@ -76,12 +76,13 @@ P = {
     14: dict(n="MUDr. Miroslav Krejzek", y="1914–1978", st="fam",
              f=["* 3. 9. 1914 Bystřice nad Pernštejnem", "× Věra Černá", "† 27. 5. 1978 Žamberk",
                 "vystudoval medicínu v Brně", "měl 5 bratrů"],
-             zam="lékař (MUDr.)", r=[],
-             note="Lékař (MUDr.), manžel Věry roz. Černé, otec PhDr. Evy Čákiové a MUDr. Ivy Gajdošové (dědeček Julie). Narozen v Bystřici nad Pernštejnem, vystudoval medicínu v Brně, měl 5 bratrů, zemřel v Žamberku."),
-    15: dict(n="Věra Krejzková", y="1917–2005", st="fam",
+             zam="lékař (MUDr.)", bydl="Žamberk", r=[],
+             note="Lékař (MUDr.), manžel MUDr. Věry roz. Černé, otec PhDr. Evy Čákiové a MUDr. Ivy Gajdošové (dědeček Julie). Narozen v Bystřici nad Pernštejnem, vystudoval medicínu v Brně, měl 5 bratrů, působil a zemřel v Žamberku."),
+    15: dict(n="MUDr. Věra Krejzková", y="1917–2005", st="fam",
              f=["* 8. 2. 1917 Poděbrady", "× Miroslav Krejzek", "† 7. 11. 2005 Žamberk"],
+             zam="lékařka (MUDr.)", bydl="Žamberk",
              roz="Černá", r=[],
-             note="Matka Evy Čákiové (babička Julie), dcera Josefa Černého. Údaj z Geni.com."),
+             note="Lékařka (MUDr.) v Žamberku, manželka MUDr. Miroslava Krejzka, matka PhDr. Evy Čákiové a MUDr. Ivy Gajdošové (babička Julie), dcera Josefa Černého."),
 
     # 4. generace – pradědečci a prababičky (16–23, 30)
     16: dict(n="František Xaver Menšík", y="* 1873", st="doc",

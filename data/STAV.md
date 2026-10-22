@@ -81,6 +81,7 @@ pak konec `research_log.md` a sekci „Rozpracováno“.
 - 22. 10. 2026: Kniha oddaných Týnského chrámu (AHMP, TÝN O10 – 1878–1889):
   - **Sňatek Aloise Jirkovského a Aloisie Marie Tiché** (19. 1. 1885 v Týnském chrámu; sn. 140, fol. 130, 2. zápis). Ženich Alois Jirkovský (25 let, * 7. 4. 1859, křtěn u sv. Haštala v Praze), kamnářský dělník v čp. 12-I, syn Františka Jirkovského, hrnčíře v Praze (z Kutné Hory) a Aloisie roz. Franzové z Prahy; nevěsta Aloisie Marie Tichá (26 let, * 12. 7. 1858, křtěna u sv. Apolináře v Praze), dcera Františka Tichého, mistra krejčího v Praze na Novém Městě čp. 501-II (rodilého z Březnice) a Anny roz. Svobodové z Prahy. Svědkové Eduard Zoliwetz a Jan Jirkovský.
   - V rodokmenu evidováno celkem **125 osob** (z toho **13 doložených primárních zápisů** ze snímků matrik ve 13 svazcích).
+- 22. 10. 2026: Doplnění od uživatele pro rodinu Julie: babička **MUDr. Věra Krejzková roz. Černá** (č. 15, 1917–2005) byla lékařka (MUDr.) a žila v Žamberku. V Žamberku tak působili jako lékaři oba manželé MUDr. Miroslav Krejzek i MUDr. Věra Krejzková a později i jejich dcera MUDr. Iva Gajdošová.
 - Další bezprostřední krok (v malých krocích):
   1. Dohledat křest Aloise Jirkovského (* 7. 4. 1859) v matrice sv. Haštala.
   2. Dohledat křest Aloisie Marie Tiché (* 12. 7. 1858) v matrice sv. Apolináře.
