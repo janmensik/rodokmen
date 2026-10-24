@@ -65,3 +65,18 @@ V rodině se uchovala také vzpomínka na „paní Pivničkovou (možná babičk
 Otcem Jana Menšíka je [Ing. Radim Menšík](/osoba/radim-mensik-1946/) (* 1946). Jeho maminkou byla dětská lékařka [MUDr. Ludmila Menšíková](/osoba/ludmila-mensikova-1909/) (1909–2007), která se narodila jako **Ludmila Pivničková**.
 
 Její maminka – tedy babička Ing. Radima Menšíka z matčiny strany – byla **Emma Marie Pivničková rozená Tomíčková** (* 7. 4. 1886 ve Wartě čp. 59 – Stráži nad Ohří pod hradem Hauenštejn). Emma byla dcerou c. k. železničního přednosty stanice Antonína Tomíčka a v dubnu 1908 se u sv. Jindřicha provdala za hradčanského měšťanského učitele [Jana Emanuela Pivničku](/osoba/jan-emanuel-pivnicka-1872/) (* 1872 na Novém Městě). Rodina Pivničkova bydlela od roku 1913 na Hradčanech v domě **Pod baštami 277/4** (u stanice metra Hradčanská / U Písecké brány). Právě tam jako vdova paní Emma Pivničková dlouhá léta žila, rodina ji navštěvovala a v rodinné paměti vystupovala jako laskavá „paní Pivničková“. Dožila se vysokého věku a odpočívá v rodinném hrobě na Olšanských hřbitovech (část 006, odd. 7a, hrob 134) po boku své dcery Ludmily Menšíkové.
+
+## Svatba na poslední chvíli: Kovář Josef Černý (* 211 dní po svatbě)
+V rodině poděbradských kovářů Černých se odehrála situace, která byla v 19. století na venkově zcela běžná, ale pro dnešního badatele představuje zajímavý pohled do tehdejšího života. Mistr kovářský [Jan Černý](/osoba/jan-cerny-1860/) (* 1860) a [Anna rozená Hromadová](/osoba/anna-cerna-1864/) (* 1864) byli oddáni v Poděbradech 20. července 1885. Jejich prvorozený syn, budoucí mistr kovářský [Josef Černý](/osoba/josef-cerny-1886/), se narodil 16. února 1886 – tedy přesně **211 dní po svatbě**.
+
+Nevěsta tak kráčela k oltáři v pokročilém druhém až třetím měsíci těhotenství. Na venkově se tehdy svatby často chystaly a ohlašovaly až ve chvíli, kdy bylo jisté, že mladý pár počal potomka a kovárna či hospodářství budou mít svého dědice.
+
+## Záhada Pavlíny Jirkovské: Narození 809 dní před svatbou rodičů
+Prababička [Pavlína Rosalie Menšíková](/osoba/pavlina-rosalie-mensikova-1882/) rozená Jirkovská se narodila 2. listopadu 1882 na Starém Městě v čp. 12 svobodné matce Aloisii Tiché. Otec, kamnářský dělník [Alois Jirkovský](/osoba/alois-jirkovsky-1859/), se však zachoval mimořádně čestně: při křtu v Týnském chrámu předstoupil před faráře a svědky, dobrovolně se přiznal k otcovství a nechal se zapsat do matriky.
+
+Samotná svatba rodičů se však konala až **19. ledna 1885** – celých **809 dní (více než 2 roky a 2 měsíce)** po narození dcery! Teprve tímto církevním sňatkem byla malá Pavlína úředně legitimována jako manželské dítě. V květnu 1902 se pak u Týna provdala za [Františka Menšíka](/osoba/frantisek-xaver-mensik-1873/).
+
+## Dlouhověkost pod křídly rodinných lékařů v Albertinu
+Větve rodiny babičky MUDr. Věry Krejzkové roz. Černé se vyznačovaly pozoruhodnou dlouhověkostí. Její maminka [Marie Černá](/osoba/marie-cerna-1885/) rozená Měšťánková se narodila 13. prosince 1885 v Končicích a zemřela 25. října 1972 přímo v léčebně Albertinum v Žamberku ve věku **nedožitých 87 let**. Samotná [MUDr. Věra Krejzková](/osoba/vera-krejzkova-1917/) (1917–2005) se dožila dokonce **88 let**.
+
+V dobách, kdy průměrný věk dožití v Československu dosahoval kolem 65–70 let, představovalo dožití do téměř devadesáti let výjimečný věk, nepochybně podpořený i špičkovou rodinnou lékařskou péčí v čistém podorlickém klimatu.

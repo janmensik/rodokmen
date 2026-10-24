@@ -235,6 +235,17 @@ pak konec `research_log.md` a sekci „Rozpracováno“.
       - 8. generace: Jiří Daníček (č. 510).
   - V rodokmenu celkem evidováno **165 osob** (z toho **27 doložených primárních zápisů** ze snímků matrik ve 26 svazcích, 44 řádků deníku).
 
+- 24. 10. 2026: Zavedení lokálního modelu Ollama (qwen2.5:7b) a sepsání kroniky rodu:
+  - Zprovozněno lokální generování textů přes Ollama (qwen2.5:7b při rychlosti cca 24–27 tokenů/s).
+  - Vytvořen a na web zapracován soubor data/pribeh.md (5 rozsáhlých kapitol mapujících všechny hlavní rodové linie):
+    1. Pekaři Menšíkovi z Jistebnice a cesta do Prahy
+    2. Pražský odboj, vysílačka Sparta a hrdinové Linhartovi
+    3. Tři generace mistrů kovářských z Dobšic a Poděbrad
+    4. Lékařská sága v podorlickém Albertinu v Žamberku
+    5. Železářská huť ve Starém Ransku a mlynáři z Čáslavska
+  - Do data/zajimavosti.md přidány 3 nové kapitoly (kovářská svatba 211 dní před narozením syna, legitimace Pavlíny Jirkovské 809 dní po narození, dlouhověkost v Albertinu).
+  - Do data/archivni_dotazy.md vypracovány detailní badatelské plány pro slovenskou větev (farnost Dúbrava) a moravský původ Otakara Krejzka (sčítání lidu 1921).
+
 - Další kroky k prozkoumání:
   1. Slovenská řeckokatolická větev Čáki a Bubanec (farnost Dúbrava, okres Snina na Zemplíně – matriky na FamilySearch).
   2. Sňatek Otakara Krejzka a Františky (kolem 1905–1913 na Moravě mimo Bystřici n. P.).
