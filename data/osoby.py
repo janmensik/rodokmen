@@ -124,7 +124,7 @@ P = {
 
              bydl="Hradec Králové",
 
-             r=[], note="Dědeček Jana z matčiny strany. S manželkou Zdenkou žili v Hradci Králové. Narozen ve Žlebech čp. 17, zemřel v Hradci Králové."),
+             r=[], note="Narozen ve Žlebech čp. 17 jako syn Emilie Jarolímové (* 1899 Žleby čp. 37) a Fridricha Hůlka. Nesl rodné příjmení své matky Jarolím, navazující na obuvnické kořeny dědečka Jana Jarolíma (1863–1903) a pradědečka Josefa Jarolíma ve Žlebech. S manželkou Zdenkou roz. Holánkovou prožil život v Hradci Králové, kde zemřel 24. 3. 2012 ve věku 84 let; dědeček Jana z matčiny strany."),
 
     11: dict(n="Zdenka Jarolímová", y="* 1928", st="fam",
 
@@ -132,7 +132,7 @@ P = {
 
              roz="Holánková", bydl="Hradec Králové",
 
-             r=[], note="Babička Jana z matčiny strany, rozená Holánková. S manželem Richardem Jarolímem žili v Hradci Králové. Narozena v Hluboké čp. 36."),
+             r=[], note="Narozena v Hluboké čp. 36 u Krucemburku jako dcera zámečníka Julia Holánka (* 1889 Staré Ransko) a Sofie roz. Henzlové (* 1904 Hluboká). Propojila tradiční železářský a hamernický rod Holánků z Ranska se selským rodem Henzlů z Hluboké. S manželem Richardem Jarolímem žili v Hradci Králové. Dožila se požehnaného věku 92 let († 10. 1. 2021); babička Jana z matčiny strany."),
 
     12: dict(n="Juraj (Jiří) Čáki", y="* asi 1921", st="fam",
 
@@ -244,13 +244,13 @@ P = {
 
              zam="zámečník", r=[],
 
-             note="Údaje z rodinného stromu PDF a MyHeritage CSV."),
+             note="Narozen ve Starém Ransku čp. 55 jako syn hamerníka a kováře Františka Holánka a Julie roz. Šímové. V duchu rodové tradice raneckých hutníků se vyučil zámečníkem a kovářem. V květnu 1926 se oženil se Sofií Henzlovou (* 1904), dcerou truhláře a hostinského Franze Henzla z Hluboké (věkový rozdíl manželů byl 15 let). Žil v Hluboké čp. 36; pradědeček Jana Menšíka."),
 
     23: dict(n="Sofia Henzlová", y="1904–1985", st="fam",
 
              f=["* 8. 5. 1904 Hluboká čp. 38", "× 20. 5. 1926 Julius Holánek", "† 1985"], r=[],
 
-             note="Údaje z rodinného stromu PDF a MyHeritage CSV (psána též Sofia Henzl)."),
+             note="Narozena v Hluboké jako dcera truhláře a hostinského Franze Henzla z rodového gruntu čp. 15 v Hluboké a Aloisie roz. Pospíchalové z Radostína. V květnu 1926 se provdala za zámečníka Julia Holánka ze Starého Ranska a žili v Hluboké čp. 36. Maminka Zdenky Jarolímové roz. Holánkové (* 1928); prababička Jana Menšíka."),
 
     28: dict(n="Otakar Krejzek", y="* asi 1880–1885", st="doc",
              f=["* asi 1880–1885", "× asi 1905–1913 Františka",
@@ -391,7 +391,7 @@ P = {
 
              zam="truhlář a hostinský", r=[],
 
-             note="Údaje z rodinného stromu PDF."),
+             note="Narozen 12. 7. 1872 v Hluboké čp. 15. Truhlář a hostinský na rodové usedlosti čp. 15 v Hluboké u Krucemburku. Syn čtvrtláníka Václava Henzla (* 1844) a Marie roz. Procházkové z čp. 7; vnuk kováře a zámečníka Jana Henzla. S manželkou Aloisií roz. Pospíchalovou představovali třetí generaci rodu Henzlů na gruntě čp. 15; otec Sofie Holánkové roz. Henzlové."),
 
     47: dict(n="Aloisie Pospíchalová", y="1875–1957", st="fam",
 
