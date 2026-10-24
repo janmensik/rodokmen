@@ -80,3 +80,13 @@ Samotná svatba rodičů se však konala až **19. ledna 1885** – celých **80
 Větve rodiny babičky MUDr. Věry Krejzkové roz. Černé se vyznačovaly pozoruhodnou dlouhověkostí. Její maminka [Marie Černá](/osoba/marie-cerna-1885/) rozená Měšťánková se narodila 13. prosince 1885 v Končicích a zemřela 25. října 1972 přímo v léčebně Albertinum v Žamberku ve věku **nedožitých 87 let**. Samotná [MUDr. Věra Krejzková](/osoba/vera-krejzkova-1917/) (1917–2005) se dožila dokonce **88 let**.
 
 V dobách, kdy průměrný věk dožití v Československu dosahoval kolem 65–70 let, představovalo dožití do téměř devadesáti let výjimečný věk, nepochybně podpořený i špičkovou rodinnou lékařskou péčí v čistém podorlickém klimatu.
+
+## Jistebnice: Kolébka jihočeské linie Menšíků
+Městečko [Jistebnice](/misto/jistebnice/) v Jistebnické vrchovině bylo po celé 19. století domovem otcovské linie rodu Menšíků (od konce 18. století až do odchodu Františka Xavera do Prahy kolem roku 1900). V rodovém domě čp. 156 hospodařil nejprve řezník [František Menšík](/osoba/frantisek-mensik/) a po něm pekařský mistr [Josef Menšík st.](/osoba/josef-mensik-st-1801/).
+
+Jeho syn [Josef Menšík ml.](/osoba/josef-mensik-1832/) rozšířil rodinné podnikání a provozoval vyhlášené pekařství přímo na náměstí v **čp. 56**. S Jistebnicí byla rodina provázána i sňatky s dalšími váženými měšťanskými rody – staviteli a zedníky Horychovými (čp. 86 a 136) či kostelníky a punčocháři Šmedlovými (čp. 48).
+
+## Malé Zboží a Poděbrady: Kovářská bašta na břehu Labe
+Polabské obce Malé Zboží a [Poděbrady](/misto/podebrady/) představovaly po tři generace domov kovářské dynastie Černých. Mistr kovářský [František Černý](/osoba/frantisek-cerny/) koval v Malém Zboží čp. 15 pro zemědělce v úrodném Polabí a po něm řemeslo převzal syn [Jan Černý](/osoba/jan-cerny-1860/). 
+
+Vnuk [Josef Černý](/osoba/josef-cerny-1886/) v Poděbradech na Zámostí v čp. 15/II výheň proměnil nejen v dílnu pro podkovářství selských koní, ale s rozvojem lázní i v klíčovou dílnu pro kování lázeňských kočárů a fiakrů. Právě zde se narodila babička [MUDr. Věra Krejzková](/osoba/vera-krejzkova-1917/) rozená Černá (1917–2005).
