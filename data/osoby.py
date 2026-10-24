@@ -236,7 +236,7 @@ P = {
 
              r=["zleby_krest_emilie_jarolimova_1899"],
 
-             note="Křest doložen v matrice Žleby 32 (pag. 25, sn. 29). Na okraji poznámka o sňatku 20. 3. 1937 s Rudolfem Kaňourem (?)"),
+             note="Narozena 15. 4. 1899 ve Žlebech čp. 37 v podzámčí jako dcera obuvnického tovaryše Jana Jarolíma (1863–1903) a Antonie roz. Havlové (* 1857). Pravnučka učitele Ignáce Jeřábka z Čachotína. Matka Richarda Jarolíma (* 1927 Žleby čp. 17). Později provdána za Rudolfa Kačoura; prababička Jana Menšíka."),
 
     22: dict(n="Julius Holánek", y="1889–1952", st="fam",
 
@@ -383,7 +383,7 @@ P = {
 
              f=["* 16. 3. 1854 Staré Ransko čp. 46", "× František Holánek", "† po 1896"], r=[],
 
-             note="Údaje z rodinného stromu PDF a MyHeritage CSV."),
+             note="Narozena ve Starém Ransku čp. 46 jako dcera horníka Matěje Šímy a Františky roz. Benové (dcery hamernického mistra Františka Bena). Manželka kováře Františka Holánka v čp. 55 a maminka zámečníka Julia Holánka (* 1889)."),
 
     46: dict(n="Franz Henzl", y="1872–1954", st="fam",
 
@@ -397,7 +397,7 @@ P = {
 
              f=["* 6. 1. 1875 Chlum čp. 35", "× Franz Henzl", "† 1957"], r=[],
 
-             note="Údaje z rodinného stromu PDF."),
+             note="Narozena v Chlumu / Radostíně jako dcera Františka Pospíchala a Anny roz. Bencové. Manželka truhláře a hostinského Franze Henzla na rodovém gruntě čp. 15 v Hluboké a maminka Sofie Holánkové roz. Henzlové (* 1904)."),
 
 
 

@@ -90,3 +90,9 @@ Jeho syn [Josef Menšík ml.](/osoba/josef-mensik-1832/) rozšířil rodinné po
 Polabské obce Malé Zboží a [Poděbrady](/misto/podebrady/) představovaly po tři generace domov kovářské dynastie Černých. Mistr kovářský [František Černý](/osoba/frantisek-cerny/) koval v Malém Zboží čp. 15 pro zemědělce v úrodném Polabí a po něm řemeslo převzal syn [Jan Černý](/osoba/jan-cerny-1860/). 
 
 Vnuk [Josef Černý](/osoba/josef-cerny-1886/) v Poděbradech na Zámostí v čp. 15/II výheň proměnil nejen v dílnu pro podkovářství selských koní, ale s rozvojem lázní i v klíčovou dílnu pro kování lázeňských kočárů a fiakrů. Právě zde se narodila babička [MUDr. Věra Krejzková](/osoba/vera-krejzkova-1917/) rozená Černá (1917–2005).
+
+## Věkový rozdíl novomanželů: Láska přes generaci na Vysočině i v Praze
+V rodokmenu nacházíme dva výrazné manželské páry s velkým věkovým rozdílem, kde se zralý, profesně a materiálně zajištěný muž oženil s výrazně mladší dívkou – což v tehdejší společnosti představovalo běžný a funkční model zakládání zaopatřené rodiny:
+
+- **Julius Holánek a Sofia Henzlová (rozdíl 15 let):** Kovář a zámečník [Julius Holánek](/osoba/julius-holanek-1889/) (* 1889) vstupoval do manželství v květnu 1926 ve věku 37 let, zatímco nevěstě [Sofii Henzlové](/osoba/sofia-henzlova-1904/) (* 1904) bylo 22 let. Prožili dlouhé, harmonické manželství na Vysočině v Hluboké čp. 36 a vychovali dceru Zdenku.
+- **Jan Emanuel Pivnička a Emma Marie Tomíčková (rozdíl 14 let):** Měšťanský učitel na Hradčanech [Jan Emanuel Pivnička](/osoba/jan-emanuel-pivnicka-1872/) (* 1872) byl oddán v Týnském chrámu v dubnu 1908 ve věku téměř 36 let s [Emmou Tomíčkovou](/osoba/emma-marie-pivnickova-1886/) (* 1886), dcerou železničního přednosty, které bylo 22 let. V domě Pod baštami na Hradčanech vytvořili pevné rodinné zázemí a vychovali dětskou lékařku Ludmilu.
