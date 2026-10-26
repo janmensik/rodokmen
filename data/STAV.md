@@ -254,6 +254,14 @@ pak konec `research_log.md` a sekci „Rozpracováno“.
   - V rodokmenu celkem evidováno **168 osob** (z toho **30 doložených primárních zápisů** ze snímků matrik ve 29 svazcích, 47 řádků deníku).
   - Do `data/zajimavosti.md` přidány 2 nové příběhy vytvořené a zrevidované za pomoci lokálního modelu Ollama (dělostřelecký záložník a svatba 104 dní před porodem, dvacetiletý hospodář Hromada).
 
+- 26. 10. 2026: Nálezy a ověření kovářské dynastie Černých (Žehuň / ARON Lužec nad Cidlinou):
+  - **Křest mistra kovářského Jana Nepomuka Černého (12. 3. 1860):** Matrika Žehuň 04 (SOA Praha, sn. 257, pag. 288, 2. zápis r. 1860 pro Dobšice). Narozen i pokřtěn 12. 3. 1860 v Dobšicích čp. 27 jako syn kováře Františka Černého a Kateřiny roz. Michlové. Vyřešena záhada data narození: v poděbradské oddací matrice z roku 1885 bylo chybně uvedeno 13. 12. 1860, ale v žehuňské křestní matrice je autentický přípis *„List křestní k ženění 18 3/7 85“* dokazující vydání křestního listu 3. 7. 1885 pro svatbu v Poděbradech (písař zaměnil 3. a 12. měsíc).
+  - **Sňatek kováře Františka Černého a Kateřiny Michlové (21. 1. 1856):** Matrika Lužec nad Cidlinou sign. 95-10 (SOA Zámrsk / ARON, APU `334cfeb8-253f-4a93-9b98-77035ed3a3c6`, sn. 83, pag. 161–162, 1. zápis r. 1856 pro Vlkov). Oddáni 21. 1. 1856 ve Vlkově čp. 13; šestadvacetiletý kovář František Černý (* cca 1829 Dobšice čp. 27) a sedmnáctiletá Kateřina Michlová (* cca 1838 Vlkov čp. 13), dcera † mistra kovářského Josefa Michla z Vlkova čp. 13 a Anny roz. Fialové z Lužan čp. 19. Svatba doložena vrchnoporučenským povolením č. 25 ze 4. 1. 1856.
+  - **Odhalena pětigenerační kovářská dynastie po meči i po přeslici:** Kovářské řemeslo provozovali Václav Černý (Dobšice čp. 27), František Černý (Dobšice čp. 27 / Malé Zboží čp. 15), Jan Černý (Malé Zboží / Poděbrady) a Josef Černý (Poděbrady na Zámostí čp. 15/II, kování lázeňských fiakrů a kočárů), podpořené kovářskými předky z mateřských linií: Jan Šiška (kovář v Žiželicích čp. 119) a Josef Michl (kovář ve Vlkově čp. 13).
+  - Do rodokmenu nově doloženi 3 noví předci v 7. generaci: **Václav Černý** (č. 240), **Anna Šišková** (č. 241), **Anna Fialová** (č. 243).
+  - V rodokmenu celkem evidováno **171 osob** (z toho **32 doložených primárních zápisů** ze snímků matrik ve 31 svazcích, 49 řádků deníku).
+  - Do `data/zajimavosti.md` přidány 2 nové kapitoly (Kovářská dynastie pěti generací, Záhada březnového data narození kováře Jana Černého) vytvořené a zrevidované s využitím modelu Ollama qwen2.5:7b.
+
 - Další kroky k prozkoumání:
   1. Křest Kateřiny Ouzké ml. (* cca 1857, nemanželská dcera Kateřiny Ouzké st. z Končic čp. 14).
   2. Slovenská řeckokatolická větev Čáki a Bubanec (farnost Dúbrava, okres Snina na Zemplíně – matriky na FamilySearch).

@@ -358,5 +358,29 @@
   ],
   "status": "ok",
   "note": "Sňatek dělostřeleckého záložníka Václava Měšťánka a Barbory Kosové"
+ },
+ "dobsice_krest_jan_cerny_1860": {
+  "boxes": [
+   [
+    0.005,
+    0.02,
+    0.995,
+    0.98
+   ]
+  ],
+  "status": "ok",
+  "note": "Narození a křest Jana Nepomuka Černého"
+ },
+ "vlkov_oddani_frantisek_cerny_1856": {
+  "boxes": [
+   [
+    0.005,
+    0.02,
+    0.995,
+    0.98
+   ]
+  ],
+  "status": "ok",
+  "note": "Sňatek kováře Františka Černého a Kateřiny Michlové"
  }
 }

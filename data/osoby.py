@@ -402,11 +402,11 @@ P = {
 
 
     60: dict(n="Jan Černý", y="* 1860", st="doc",
-             f=["* 13. 12. 1860 Dobšice čp. 27", "× 20. 7. 1885 Poděbrady Anna Hromadová"],
+             f=["* 12. 3. 1860 Dobšice čp. 27", "× 20. 7. 1885 Poděbrady Anna Hromadová"],
              zam="mistr kovářský v Malém Zboží čp. 15 a Poděbradech čp. 15/II",
              bydl="Poděbrady / Malé Zboží čp. 15", puvod="Dobšice čp. 27 (fara Žehuň)",
-             r=["podebrady_oddani_jan_cerny_1885", "podebrady_oddani_josef_cerny_1911"],
-             note="Mistr kovářský v Malém Zboží čp. 15 a v Poděbradech. Narozen 13. 12. 1860 v Dobšicích čp. 27 jako manželský syn kováře Františka Černého z Malého Zboží a Kateřiny roz. Michlové (dcery kováře Josefa Michla z Vlkova čp. 13). Dne 20. 7. 1885 byl v Poděbradech oddán s Annou Hromadovou z Chvalovic. Otec kováře Josefa Černého (* 1886)."),
+             r=["dobsice_krest_jan_cerny_1860", "podebrady_oddani_jan_cerny_1885", "podebrady_oddani_josef_cerny_1911"],
+             note="Mistr kovářský v Malém Zboží čp. 15 a v Poděbradech čp. 15/II. Narozen 12. 3. 1860 v Dobšicích čp. 27 (v oddacím zápise z roku 1885 byl chybně zapsán měsíc prosinec místo března, což spolehlivě vyvrací křestní matrika s úředním přípisem o vydání křestního listu k sňatku z 3. 7. 1885) jako manželský syn kováře Františka Černého a Kateřiny roz. Michlové. Dne 20. 7. 1885 byl v Poděbradech oddán s Annou Hromadovou z Chvalovic. Otec poděbradského mistra kovářského Josefa Černého (* 1886)."),
 
     61: dict(n="Anna Černá", y="* 1864", st="doc",
              f=["* 29. 6. 1864 Chvalovice čp. 21", "× 20. 7. 1885 Poděbrady Jan Černý"],
@@ -613,18 +613,18 @@ P = {
 
 
 
-    120: dict(n="František Černý", y="† před 1885", st="doc",
-              f=["† před 1885", "× Kateřina Michlová"],
+    120: dict(n="František Černý", y="asi 1829 – před 1885", st="doc",
+              f=["* asi 1829", "× 21. 1. 1856 Vlkov čp. 13 Kateřina Michlová", "† před 1885"],
               zam="mistr kovářský v Dobšicích čp. 27 a Malém Zboží čp. 15",
-              bydl="Malé Zboží čp. 15, dříve Dobšice čp. 27", puvod="Dobšice",
-              r=["podebrady_oddani_jan_cerny_1885"],
-              note="Mistr kovářský v Dobšicích čp. 27 a v Malém Zboží čp. 15. Manžel Kateřiny roz. Michlové z kovářského rodu ve Vlkově. Otec kováře Jana Černého (* 1860) a Josefa Černého (* 1832)."),
+              bydl="Dobšice čp. 27, později Malé Zboží čp. 15", puvod="Dobšice čp. 27",
+              r=["vlkov_oddani_frantisek_cerny_1856", "dobsice_krest_jan_cerny_1860", "podebrady_oddani_jan_cerny_1885"],
+              note="Mistr kovářský v Dobšicích čp. 27 a v Malém Zboží čp. 15, manželský syn kováře Václava Černého z Dobšic čp. 27 a Anny roz. Šiškové z kovářské usedlosti v Žiželicích čp. 119. Dne 21. 1. 1856 se ve Vlkově čp. 13 oženil se sedmnáctiletou dcerou místního kováře Kateřinou Michlovou. Otec mistra kovářského Jana Černého (* 1860)."),
 
-    121: dict(n="Kateřina Černá", y="", st="doc",
-              f=["× František Černý"],
-              roz="Michlová", bydl="Malé Zboží čp. 15, dříve Dobšice čp. 27", puvod="Vlkov čp. 13",
-              r=["podebrady_oddani_jan_cerny_1885"],
-              note="Manželka kováře Františka Černého, dcera kováře Josefa Michla z Vlkova čp. 13. Matka kováře Jana Černého (* 1860)."),
+    121: dict(n="Kateřina Černá", y="* asi 1838", st="doc",
+              f=["* asi 1838 Vlkov čp. 13", "× 21. 1. 1856 Vlkov čp. 13 František Černý"],
+              roz="Michlová", bydl="Vlkov čp. 13, Dobšice čp. 27, Malé Zboží čp. 15", puvod="Vlkov čp. 13",
+              r=["vlkov_oddani_frantisek_cerny_1856", "dobsice_krest_jan_cerny_1860", "podebrady_oddani_jan_cerny_1885"],
+              note="Pocházela z kovářské chalupy ve Vlkově čp. 13 jako manželská dcera již zemřelého kováře Josefa Michla a Anny roz. Fialové z Lužan čp. 19. Dne 21. 1. 1856 se po vrchnoporučenském svolení provdala za kováře Františka Černého z Dobšic. Matka mistra kovářského Jana Černého (* 1860)."),
 
     122: dict(n="Václav Hromada", y="* 1832 · † před 1885", st="doc",
               f=["* 31. 8. 1832 Vyšehořovice čp. 22", "× 12. 4. 1853 Chvalovice čp. 21 Anna Kováříková", "† před 1885"],
@@ -935,11 +935,29 @@ P = {
 
 
 
-    242: dict(n="Josef Michl", y="† před 1885", st="doc",
-              f=["† před 1885"],
+    240: dict(n="Václav Černý", y="", st="doc",
+              f=["× Anna Šišková"],
+              zam="mistr kovářský v Dobšicích čp. 27", bydl="Dobšice čp. 27", puvod="Dobšice",
+              r=["vlkov_oddani_frantisek_cerny_1856", "dobsice_krest_jan_cerny_1860"],
+              note="Mistr kovářský v Dobšicích čp. 27 (fara Žehuň), manžel Anny roz. Šiškové z kovářského rodu v Žiželicích čp. 119. Otec kováře Františka Černého a dědeček kováře Jana Černého (* 1860)."),
+
+    241: dict(n="Anna Černá", y="", st="doc",
+              f=["× Václav Černý"],
+              roz="Šišková", bydl="Dobšice čp. 27", puvod="Žiželice čp. 119",
+              r=["vlkov_oddani_frantisek_cerny_1856", "dobsice_krest_jan_cerny_1860"],
+              note="Pocházela z kovářské usedlosti v Žiželicích čp. 119 jako dcera mistra kovářského Jana Šišky. Manželka kováře Václava Černého z Dobšic čp. 27 a matka Františka Černého."),
+
+    242: dict(n="Josef Michl", y="† před 1856", st="doc",
+              f=["† před 1856", "× Anna Fialová"],
               zam="mistr kovářský ve Vlkově čp. 13", bydl="Vlkov čp. 13", puvod="Vlkov",
-              r=["podebrady_oddani_jan_cerny_1885"],
-              note="Mistr kovářský ve Vlkově čp. 13, otec Kateřiny provdané Černé a dědeček kováře Jana Černého."),
+              r=["vlkov_oddani_frantisek_cerny_1856", "dobsice_krest_jan_cerny_1860", "podebrady_oddani_jan_cerny_1885"],
+              note="Mistr kovářský ve Vlkově čp. 13, zemřel před 21. lednem 1856. Manžel Anny roz. Fialové z Lužan čp. 19. Otec Kateřiny provdané Černé a dědeček kováře Jana Černého."),
+
+    243: dict(n="Anna Michlová", y="", st="doc",
+              f=["× Josef Michl"],
+              roz="Fialová", bydl="Vlkov čp. 13", puvod="Lužany čp. 19",
+              r=["vlkov_oddani_frantisek_cerny_1856", "dobsice_krest_jan_cerny_1860"],
+              note="Pocházela ze vsi Lužany čp. 19 jako dcera Jana Fialy. Manželka mistra kovářského Josefa Michla z kovářské chalupy ve Vlkově čp. 13, matka Kateřiny provdané Černé a babička kováře Jana Černého."),
 
     244: dict(n="Václav Hromada st.", y="† před 1853", st="doc",
               f=["† před 1853", "× Alžběta Jirkovská"],
