@@ -421,11 +421,11 @@ P = {
              r=["bojiste_krest_josef_mestanek_1859", "koncice_oddani_josef_mestanek_1883", "koncice_krest_marie_mestankova_1885", "podebrady_oddani_josef_cerny_1911"],
              note="Mistr tesařský a rolník v Končicích čp. 14, později obchodník v Poděbradech čp. 13/II. Narozen 16. 1. 1859 v Bojišti čp. 10 jako syn tesaře Václava Měšťánka a Barbory roz. Kosové. Pokřtěn 17. 1. 1859 kaplanem Ferdinandem Cvejnem. Dne 3. 4. 1883 oddán v Končicích s Kateřinou Ouzkou. Otec Marie Černé roz. Měšťánkové (pradědeček Julie)."),
 
-    63: dict(n="Kateřina Měšťánková", y="* 1857", st="doc",
-             f=["* 1857 Končice čp. 14", "× 3. 4. 1883 Končice čp. 71 Josef Měšťánek"],
+    63: dict(n="Kateřina Měšťánková", y="* 1862", st="doc",
+             f=["* 11. 4. 1862 Končice čp. 14", "× 3. 4. 1883 Končice čp. 71 Josef Měšťánek"],
              roz="Ouzká", bydl="Poděbrady čp. 13/II, dříve Končice čp. 14", puvod="Končice čp. 14",
-             r=["koncice_oddani_josef_mestanek_1883", "koncice_krest_marie_mestankova_1885", "podebrady_oddani_josef_cerny_1911"],
-             note="Narozena roku 1857 v Končicích čp. 14 jako nemanželská dcera Kateřiny Ouzké (dcery Jiřího Ouzkého, domkaře z Končic čp. 14 a Barbory roz. Daníčkové z Končic čp. 12). Dne 3. 4. 1883 provdána v Končicích za mistra tesařského Josefa Měšťánka. Matka Marie Černé roz. Měšťánkové (prababička Julie)."),
+             r=["koncice_krest_katerina_ouzka_1862", "koncice_oddani_josef_mestanek_1883", "koncice_krest_marie_mestankova_1885", "podebrady_oddani_josef_cerny_1911"],
+             note="Narozena 11. 4. 1862 v Končicích čp. 14 (pokřtěna 13. 4. 1862) jako nemanželská dcera svobodné matky Kateřiny Ouzké a vnučka baráčníka Jiřího Ouzkého z čp. 14 a Barbory roz. Daníčkové z čp. 12. V oddacím zápise z roku 1883 byl její věk chybně zapsán jako 26 let (tedy narození cca 1857), ve skutečnosti se však vdávala necelé dva týdny před svými 21. narozeninami a jako nezletilá musela mít vrchnoporučenské svolení soudu v Chlumci n. C. Na okraji křestního zápisu je autentický přípis: 'List křestní k oddavkám vydán dne 29. března 1883 čj. 2868'. Matka Marie Černé roz. Měšťánkové (prababička Julie)."),
 
 
 
@@ -654,8 +654,8 @@ P = {
 
     127: dict(n="Kateřina Ouzká", y="", st="doc",
               f=[], bydl="Končice čp. 14", puvod="Končice",
-              r=["koncice_oddani_josef_mestanek_1883", "koncice_krest_marie_mestankova_1885"],
-              note="Svobodná matka v Končicích čp. 14, dcera domkaře Jiřího Ouzkého z Končic čp. 14 a Barbory roz. Daníčkové z Končic čp. 12. Matka Kateřiny provdané Měšťánkové (* 1857)."),
+              r=["koncice_krest_katerina_ouzka_1862", "koncice_oddani_josef_mestanek_1883", "koncice_krest_marie_mestankova_1885"],
+              note="Svobodná matka v Končicích čp. 14, dcera domkaře a baráčníka Jiřího Ouzkého z Končic čp. 14 a Barbory roz. Daníčkové z Končic čp. 12. Matka Kateřiny provdané Měšťánkové (* 1862)."),
 
 
 
@@ -1007,11 +1007,11 @@ P = {
               r=["bojiste_oddani_vaclav_mestanek_1858", "bojiste_krest_josef_mestanek_1859"],
               note="Pocházela ze stavení čp. 55 v Pečkách na Kolínsku. Manželka domkáře a tesaře Václava Kosa z Bojiště čp. 10 a matka Barbory provdané Měšťánkové."),
 
-    254: dict(n="Jiří Ouzký", y="† před 1885", st="doc",
-              f=["† před 1885", "× Barbora Daníčková"],
+    254: dict(n="Jiří Ouzký", y="† před 1862", st="doc",
+              f=["† před 1862", "× Barbora Daníčková"],
               zam="domkař a baráčník v Končicích čp. 14", bydl="Končice čp. 14", puvod="Končice",
-              r=["koncice_oddani_josef_mestanek_1883", "koncice_krest_marie_mestankova_1885"],
-              note="Domkař a baráčník v Končicích čp. 14, manžel Barbory roz. Daníčkové z Končic čp. 12."),
+              r=["koncice_krest_katerina_ouzka_1862", "koncice_oddani_josef_mestanek_1883", "koncice_krest_marie_mestankova_1885"],
+              note="Domkař a baráčník v Končicích čp. 14, zemřel před dubnem 1862. Manžel Barbory roz. Daníčkové z Končic čp. 12. Dědeček Kateřiny provdané Měšťánkové."),
 
     255: dict(n="Barbora Ouzká", y="", st="doc",
               f=["× Jiří Ouzký"],

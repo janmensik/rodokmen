@@ -382,5 +382,17 @@
   ],
   "status": "ok",
   "note": "Sňatek kováře Františka Černého a Kateřiny Michlové"
+ },
+ "koncice_krest_katerina_ouzka_1862": {
+  "boxes": [
+   [
+    0.005,
+    0.02,
+    0.995,
+    0.98
+   ]
+  ],
+  "status": "ok",
+  "note": "Narození a křest Kateřiny Ouzké ml."
  }
 }
