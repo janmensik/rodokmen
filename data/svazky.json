@@ -205,5 +205,29 @@
   "popis": "Chvalovice, Hořátev, Kovanice, Neujahrsdorf",
   "snimku": 258,
   "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/7150"
+ },
+ "ebad_7148": {
+  "archiv": "SOA Praha – Sbírka matrik",
+  "portal": "eBadatelna",
+  "svazek": "Kovanice 08, O 1845–1904",
+  "popis": "Chvalovice, Hořátev, Kovanice, Neujahrsdorf",
+  "snimku": 133,
+  "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/7148"
+ },
+ "ebad_9444": {
+  "archiv": "SOA Praha – Sbírka matrik",
+  "portal": "eBadatelna",
+  "svazek": "Nebovidy 11, N 1843–1900",
+  "popis": "Bohouňovice I, Bojiště, Dobešovice, Hořany",
+  "snimku": 287,
+  "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/9444"
+ },
+ "ebad_9451": {
+  "archiv": "SOA Praha – Sbírka matrik",
+  "portal": "eBadatelna",
+  "svazek": "Nebovidy 18, O 1843–1933",
+  "popis": "Bohouňovice I, Bojiště, Dobešovice, Hluboký Důl, Opatovice, Polepy",
+  "snimku": 253,
+  "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/9451"
  }
 }

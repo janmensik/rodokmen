@@ -322,5 +322,41 @@
   ],
   "status": "ok",
   "note": "Křest Anny Hromadové v Chvalovicích"
+ },
+ "kovanice_oddani_vaclav_hromada_1853": {
+  "boxes": [
+   [
+    0.005,
+    0.02,
+    0.995,
+    0.98
+   ]
+  ],
+  "status": "ok",
+  "note": "Sňatek Václava Hromady a Anny Kováříkové"
+ },
+ "bojiste_krest_josef_mestanek_1859": {
+  "boxes": [
+   [
+    0.005,
+    0.02,
+    0.995,
+    0.98
+   ]
+  ],
+  "status": "ok",
+  "note": "Zápis o narození a křtu Josefa Měšťánka"
+ },
+ "bojiste_oddani_vaclav_mestanek_1858": {
+  "boxes": [
+   [
+    0.005,
+    0.02,
+    0.995,
+    0.98
+   ]
+  ],
+  "status": "ok",
+  "note": "Sňatek dělostřeleckého záložníka Václava Měšťánka a Barbory Kosové"
  }
 }

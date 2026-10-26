@@ -1,266 +1,287 @@
 {
- "Praha": {
-  "re": "Prah",
-  "dotaz": "Praha, Česko",
-  "lat": 50.0755,
-  "lon": 14.4378
- },
- "Staré Ransko": {
-  "re": "Ransk",
-  "dotaz": "Staré Ransko, Krucemburk, Česko",
-  "lat": 49.6697,
-  "lon": 15.8339
- },
- "Hluboká": {
-  "re": "Hlubok",
-  "dotaz": "Hluboká, Krucemburk, okres Havlíčkův Brod, Česko",
-  "lat": 49.6875,
-  "lon": 15.8394
- },
- "Žleby": {
-  "re": "Žleb",
-  "dotaz": "Žleby, okres Kutná Hora, Česko",
-  "lat": 49.8886,
-  "lon": 15.4839
- },
- "Dolní Krupá": {
-  "re": "Dolní Krup",
-  "dotaz": "Dolní Krupá, okres Havlíčkův Brod, Česko",
-  "lat": 49.6625,
-  "lon": 15.6056
- },
- "Chlum": {
-  "re": "\\bChlum\\b",
-  "dotaz": "Chlum, Hlinsko, Česko",
-  "lat": 49.7267,
-  "lon": 15.8758
- },
- "Čachotín": {
-  "re": "Čachot",
-  "dotaz": "Čachotín, okres Havlíčkův Brod, Česko",
-  "lat": 49.6758,
-  "lon": 15.5819
- },
- "Křižanov": {
-  "re": "Křižanov",
-  "dotaz": "Křižanov, okres Žďár nad Sázavou, Česko",
-  "lat": 49.3878,
-  "lon": 16.1086
- },
- "Chlumětín": {
-  "re": "Chlumětín",
-  "dotaz": "Chlumětín, okres Žďár nad Sázavou, Česko",
-  "lat": 49.7239,
-  "lon": 16.0175
- },
- "Františkodol": {
-  "re": "Františkodol|Fraunsthal",
-  "dotaz": "Františkodol, Světlá nad Sázavou, Česko",
-  "lat": 49.6478,
-  "lon": 15.3886
- },
- "Olešná": {
-  "re": "Olešn|Volešn",
-  "dotaz": "Olešná u Havlíčkova Brodu, Česko",
-  "lat": 49.6819,
-  "lon": 15.5414
- },
- "Havlíčkův Brod": {
-  "re": "Havlíčk",
-  "dotaz": "Havlíčkův Brod, Česko",
-  "lat": 49.6078,
-  "lon": 15.5806
- },
- "Hradec Králové": {
-  "re": "Hradc?e?i? Králové|Hradec",
-  "dotaz": "Hradec Králové, Česko",
-  "lat": 50.2092,
-  "lon": 15.8328
- },
- "Rumburk": {
-  "re": "Rumburk",
-  "dotaz": "Rumburk, Česko",
-  "lat": 50.9515,
-  "lon": 14.557
- },
- "Česká Kamenice": {
-  "re": "Česká Kamenice",
-  "dotaz": "Česká Kamenice, Česko",
-  "lat": 50.7991,
-  "lon": 14.4173
- },
- "Sobíňov": {
-  "re": "Sobíňov|Sobiňov",
-  "dotaz": "Sobíňov, Česko",
-  "lat": 49.6897,
-  "lon": 15.7533
- },
- "Sopoty": {
-  "re": "Sopot",
-  "dotaz": "Sopoty, Sobíňov, Česko",
-  "lat": 49.6975,
-  "lon": 15.7508
- },
- "Jívoví": {
-  "re": "Jívov|Jivov",
-  "dotaz": "Jívoví, Česko",
-  "lat": 49.4183,
-  "lon": 16.0825
- },
- "Kundratice": {
-  "re": "Kundratic",
-  "dotaz": "Kundratice, Křižanov, Česko",
-  "lat": 49.3781,
-  "lon": 16.1417
- },
- "Dolní Bory": {
-  "re": "Dolní Bor|\\bBory\\b",
-  "dotaz": "Dolní Bory, Bory, Česko",
-  "lat": 49.4442,
-  "lon": 16.0711
- },
- "Pohled": {
-  "re": "Pohled|Frauenthal",
-  "dotaz": "Pohled, okres Havlíčkův Brod, Česko",
-  "lat": 49.6053,
-  "lon": 15.6558
- },
- "Jiříkov": {
-  "re": "Jiříkov|Jirikow",
-  "dotaz": "Jiříkov, Kámen, okres Havlíčkův Brod, Česko",
-  "lat": 49.7153,
-  "lon": 15.5186
- },
- "Poděbrady": {
-  "re": "Poděbrad",
-  "dotaz": "Poděbrady, Česko",
-  "lat": 50.1425,
-  "lon": 15.1189
- },
- "Žamberk": {
-  "re": "Žamberk|Zamberk",
-  "dotaz": "Žamberk, Česko",
-  "lat": 50.0864,
-  "lon": 16.4656
- },
- "Smetanova Lhota": {
-  "re": "Smetanova Lhota|Vrabsko",
-  "dotaz": "Smetanova Lhota, okres Písek, Česko",
-  "lat": 49.4447,
-  "lon": 14.0847
- },
- "Rychnov nad Kněžnou": {
-  "re": "Rychnov",
-  "dotaz": "Rychnov nad Kněžnou, Česko",
-  "lat": 50.1633,
-  "lon": 16.2748
- },
- "Vlčice": {
-  "re": "Vlčic|Wildschütz",
-  "dotaz": "Vlčice, okres Trutnov, Česko",
-  "lat": 50.5686,
-  "lon": 15.8181
- },
- "Červeněves": {
-  "re": "Červeněv|Cervenew",
-  "dotaz": "Červeněves, Smidary, okres Hradec Králové, Česko",
-  "lat": 50.2803,
-  "lon": 15.493
- },
- "Libčice nad Vltavou": {
-  "re": "Libčic",
-  "dotaz": "Libčice nad Vltavou, okres Praha-západ, Česko",
-  "lat": 50.1989,
-  "lon": 14.3624
- },
- "Dúbrava": {
-  "re": "Dúbrav|Dubrav",
-  "dotaz": "Dúbrava, okres Snina, Slovensko",
-  "lat": 48.876,
-  "lon": 22.3575
- },
- "Šmigovec": {
-  "re": "Šmigov|Smigov",
-  "dotaz": "Šmigovec, okres Snina, Slovensko",
-  "lat": 48.892,
-  "lon": 22.3176
- },
- "Bystřice nad Pernštejnem": {
-  "re": "Bystřic.*Pernštejn",
-  "dotaz": "Bystřice nad Pernštejnem, Česko",
-  "lat": 49.523,
-  "lon": 16.2611
- },
- "Brno": {
-  "re": "\\bBrn[oěe]\\b",
-  "dotaz": "Brno, Česko",
-  "lat": 49.1922,
-  "lon": 16.6113
- },
- "Hamry": {
-  "re": "Hamr",
-  "dotaz": "Hamry, okres Chrudim, Česko",
-  "lat": 49.7377,
-  "lon": 15.9273,
-  "osm": "Hamry, okres Chrudim, Pardubický kraj, Česko"
- },
- "Březnice": {
-  "re": "Březnic",
-  "dotaz": "Březnice, okres Příbram, Česko",
-  "lat": 49.5574,
-  "lon": 13.9508,
-  "osm": "Březnice, okres Příbram, Středočeský kraj, 262 72, Česko"
- },
- "Koupě": {
-  "re": "Koup[iíě]",
-  "dotaz": "Koupě, okres Příbram, Česko",
-  "lat": 49.5147,
-  "lon": 13.9184,
-  "osm": "Koupě, okres Příbram, Středočeský kraj, Česko"
- },
- "Kutná Hora": {
-  "re": "Kutn[éá] Hor",
-  "dotaz": "Kutná Hora, Česko",
-  "lat": 49.9487,
-  "lon": 15.2681,
-  "osm": "Kutná Hora, okres Kutná Hora, Středočeský kraj, Česko"
- },
- "Čáslav": {
-  "re": "Čáslav",
-  "dotaz": "Čáslav, Česko",
-  "lat": 49.9109,
-  "lon": 15.3913,
-  "osm": "Čáslav, okres Kutná Hora, Středočeský kraj, 286 01, Česko"
- },
- "Jistebnice": {
-  "re": "Jistebnic",
-  "dotaz": "Jistebnice, Česko",
-  "lat": 49.4856,
-  "lon": 14.5277,
-  "osm": "Jistebnice, okres Tábor, Jihočeský kraj, Jihozápad, Česko"
- },
- "Končice": {
-  "re": "Končic",
-  "dotaz": "Končice, Žiželice, okres Kolín, Česko",
-  "lat": 50.1383,
-  "lon": 15.3522
- },
- "Dobšice": {
-  "re": "Dobšic",
-  "dotaz": "Dobšice, okres Nymburk, Česko",
-  "lat": 50.1553,
-  "lon": 15.2631
- },
- "Chvalovice": {
-  "re": "Chvalovic",
-  "dotaz": "Chvalovice, okres Nymburk, Česko",
-  "lat": 50.1442,
-  "lon": 15.1156
- },
- "Malé Zboží": {
-  "re": "Zboží",
-  "dotaz": "Malé Zboží, Poděbrady, Česko",
-  "lat": 50.1611,
-  "lon": 15.1436
- }
+  "Praha": {
+    "re": "Prah",
+    "dotaz": "Praha, Česko",
+    "lat": 50.0755,
+    "lon": 14.4378
+  },
+  "Staré Ransko": {
+    "re": "Ransk",
+    "dotaz": "Staré Ransko, Krucemburk, Česko",
+    "lat": 49.6697,
+    "lon": 15.8339
+  },
+  "Hluboká": {
+    "re": "Hlubok",
+    "dotaz": "Hluboká, Krucemburk, okres Havlíčkův Brod, Česko",
+    "lat": 49.6875,
+    "lon": 15.8394
+  },
+  "Žleby": {
+    "re": "Žleb",
+    "dotaz": "Žleby, okres Kutná Hora, Česko",
+    "lat": 49.8886,
+    "lon": 15.4839
+  },
+  "Dolní Krupá": {
+    "re": "Dolní Krup",
+    "dotaz": "Dolní Krupá, okres Havlíčkův Brod, Česko",
+    "lat": 49.6625,
+    "lon": 15.6056
+  },
+  "Chlum": {
+    "re": "\\bChlum\\b",
+    "dotaz": "Chlum, Hlinsko, Česko",
+    "lat": 49.7267,
+    "lon": 15.8758
+  },
+  "Čachotín": {
+    "re": "Čachot",
+    "dotaz": "Čachotín, okres Havlíčkův Brod, Česko",
+    "lat": 49.6758,
+    "lon": 15.5819
+  },
+  "Křižanov": {
+    "re": "Křižanov",
+    "dotaz": "Křižanov, okres Žďár nad Sázavou, Česko",
+    "lat": 49.3878,
+    "lon": 16.1086
+  },
+  "Chlumětín": {
+    "re": "Chlumětín",
+    "dotaz": "Chlumětín, okres Žďár nad Sázavou, Česko",
+    "lat": 49.7239,
+    "lon": 16.0175
+  },
+  "Františkodol": {
+    "re": "Františkodol|Fraunsthal",
+    "dotaz": "Františkodol, Světlá nad Sázavou, Česko",
+    "lat": 49.6478,
+    "lon": 15.3886
+  },
+  "Olešná": {
+    "re": "Olešn|Volešn",
+    "dotaz": "Olešná u Havlíčkova Brodu, Česko",
+    "lat": 49.6819,
+    "lon": 15.5414
+  },
+  "Havlíčkův Brod": {
+    "re": "Havlíčk",
+    "dotaz": "Havlíčkův Brod, Česko",
+    "lat": 49.6078,
+    "lon": 15.5806
+  },
+  "Hradec Králové": {
+    "re": "Hradc?e?i? Králové|Hradec",
+    "dotaz": "Hradec Králové, Česko",
+    "lat": 50.2092,
+    "lon": 15.8328
+  },
+  "Rumburk": {
+    "re": "Rumburk",
+    "dotaz": "Rumburk, Česko",
+    "lat": 50.9515,
+    "lon": 14.557
+  },
+  "Česká Kamenice": {
+    "re": "Česká Kamenice",
+    "dotaz": "Česká Kamenice, Česko",
+    "lat": 50.7991,
+    "lon": 14.4173
+  },
+  "Sobíňov": {
+    "re": "Sobíňov|Sobiňov",
+    "dotaz": "Sobíňov, Česko",
+    "lat": 49.6897,
+    "lon": 15.7533
+  },
+  "Sopoty": {
+    "re": "Sopot",
+    "dotaz": "Sopoty, Sobíňov, Česko",
+    "lat": 49.6975,
+    "lon": 15.7508
+  },
+  "Jívoví": {
+    "re": "Jívov|Jivov",
+    "dotaz": "Jívoví, Česko",
+    "lat": 49.4183,
+    "lon": 16.0825
+  },
+  "Kundratice": {
+    "re": "Kundratic",
+    "dotaz": "Kundratice, Křižanov, Česko",
+    "lat": 49.3781,
+    "lon": 16.1417
+  },
+  "Dolní Bory": {
+    "re": "Dolní Bor|\\bBory\\b",
+    "dotaz": "Dolní Bory, Bory, Česko",
+    "lat": 49.4442,
+    "lon": 16.0711
+  },
+  "Pohled": {
+    "re": "Pohled|Frauenthal",
+    "dotaz": "Pohled, okres Havlíčkův Brod, Česko",
+    "lat": 49.6053,
+    "lon": 15.6558
+  },
+  "Jiříkov": {
+    "re": "Jiříkov|Jirikow",
+    "dotaz": "Jiříkov, Kámen, okres Havlíčkův Brod, Česko",
+    "lat": 49.7153,
+    "lon": 15.5186
+  },
+  "Poděbrady": {
+    "re": "Poděbrad",
+    "dotaz": "Poděbrady, Česko",
+    "lat": 50.1425,
+    "lon": 15.1189
+  },
+  "Žamberk": {
+    "re": "Žamberk|Zamberk",
+    "dotaz": "Žamberk, Česko",
+    "lat": 50.0864,
+    "lon": 16.4656
+  },
+  "Smetanova Lhota": {
+    "re": "Smetanova Lhota|Vrabsko",
+    "dotaz": "Smetanova Lhota, okres Písek, Česko",
+    "lat": 49.4447,
+    "lon": 14.0847
+  },
+  "Rychnov nad Kněžnou": {
+    "re": "Rychnov",
+    "dotaz": "Rychnov nad Kněžnou, Česko",
+    "lat": 50.1633,
+    "lon": 16.2748
+  },
+  "Vlčice": {
+    "re": "Vlčic|Wildschütz",
+    "dotaz": "Vlčice, okres Trutnov, Česko",
+    "lat": 50.5686,
+    "lon": 15.8181
+  },
+  "Červeněves": {
+    "re": "Červeněv|Cervenew",
+    "dotaz": "Červeněves, Smidary, okres Hradec Králové, Česko",
+    "lat": 50.2803,
+    "lon": 15.493
+  },
+  "Libčice nad Vltavou": {
+    "re": "Libčic",
+    "dotaz": "Libčice nad Vltavou, okres Praha-západ, Česko",
+    "lat": 50.1989,
+    "lon": 14.3624
+  },
+  "Dúbrava": {
+    "re": "Dúbrav|Dubrav",
+    "dotaz": "Dúbrava, okres Snina, Slovensko",
+    "lat": 48.876,
+    "lon": 22.3575
+  },
+  "Šmigovec": {
+    "re": "Šmigov|Smigov",
+    "dotaz": "Šmigovec, okres Snina, Slovensko",
+    "lat": 48.892,
+    "lon": 22.3176
+  },
+  "Bystřice nad Pernštejnem": {
+    "re": "Bystřic.*Pernštejn",
+    "dotaz": "Bystřice nad Pernštejnem, Česko",
+    "lat": 49.523,
+    "lon": 16.2611
+  },
+  "Brno": {
+    "re": "\\bBrn[oěe]\\b",
+    "dotaz": "Brno, Česko",
+    "lat": 49.1922,
+    "lon": 16.6113
+  },
+  "Hamry": {
+    "re": "Hamr",
+    "dotaz": "Hamry, okres Chrudim, Česko",
+    "lat": 49.7377,
+    "lon": 15.9273,
+    "osm": "Hamry, okres Chrudim, Pardubický kraj, Česko"
+  },
+  "Březnice": {
+    "re": "Březnic",
+    "dotaz": "Březnice, okres Příbram, Česko",
+    "lat": 49.5574,
+    "lon": 13.9508,
+    "osm": "Březnice, okres Příbram, Středočeský kraj, 262 72, Česko"
+  },
+  "Koupě": {
+    "re": "Koup[iíě]",
+    "dotaz": "Koupě, okres Příbram, Česko",
+    "lat": 49.5147,
+    "lon": 13.9184,
+    "osm": "Koupě, okres Příbram, Středočeský kraj, Česko"
+  },
+  "Kutná Hora": {
+    "re": "Kutn[éá] Hor",
+    "dotaz": "Kutná Hora, Česko",
+    "lat": 49.9487,
+    "lon": 15.2681,
+    "osm": "Kutná Hora, okres Kutná Hora, Středočeský kraj, Česko"
+  },
+  "Čáslav": {
+    "re": "Čáslav",
+    "dotaz": "Čáslav, Česko",
+    "lat": 49.9109,
+    "lon": 15.3913,
+    "osm": "Čáslav, okres Kutná Hora, Středočeský kraj, 286 01, Česko"
+  },
+  "Jistebnice": {
+    "re": "Jistebnic",
+    "dotaz": "Jistebnice, Česko",
+    "lat": 49.4856,
+    "lon": 14.5277,
+    "osm": "Jistebnice, okres Tábor, Jihočeský kraj, Jihozápad, Česko"
+  },
+  "Končice": {
+    "re": "Končic",
+    "dotaz": "Končice, Žiželice, okres Kolín, Česko",
+    "lat": 50.1383,
+    "lon": 15.3522
+  },
+  "Dobšice": {
+    "re": "Dobšic",
+    "dotaz": "Dobšice, okres Nymburk, Česko",
+    "lat": 50.1553,
+    "lon": 15.2631
+  },
+  "Chvalovice": {
+    "re": "Chvalovic",
+    "dotaz": "Chvalovice, okres Nymburk, Česko",
+    "lat": 50.1442,
+    "lon": 15.1156
+  },
+  "Malé Zboží": {
+    "re": "Zboží",
+    "dotaz": "Malé Zboží, Poděbrady, Česko",
+    "lat": 50.1611,
+    "lon": 15.1436
+  },
+  "Vyšehořovice": {
+    "re": "Vyšeh",
+    "dotaz": "Vyšehořovice, Česko",
+    "lat": 50.1178,
+    "lon": 14.7737,
+    "osm": "Vyšehořovice, okres Praha-východ, Středočeský kraj, 250 87, Česko"
+  },
+  "Červené Pečky": {
+    "re": "Červené\\ Pečky",
+    "dotaz": "Červené Pečky, Česko",
+    "lat": 49.9782,
+    "lon": 15.2084,
+    "osm": "Červené Pečky, okres Kolín, Středočeský kraj, 281 21, Česko"
+  },
+  "Bojiště": {
+    "re": "Bojišt",
+    "dotaz": "Bojiště, Červené Pečky, Česko",
+    "lat": 49.9705,
+    "lon": 15.2013,
+    "osm": "Bojiště, Červené Pečky, okres Kolín, Středočeský kraj, 281 21, Česko"
+  }
 }

@@ -246,7 +246,16 @@ pak konec `research_log.md` a sekci „Rozpracováno“.
   - Do data/zajimavosti.md přidány 3 nové kapitoly (kovářská svatba 211 dní před narozením syna, legitimace Pavlíny Jirkovské 809 dní po narození, dlouhověkost v Albertinu).
   - Do data/archivni_dotazy.md vypracovány detailní badatelské plány pro slovenskou větev (farnost Dúbrava) a moravský původ Otakara Krejzka (sčítání lidu 1921).
 
+- 26. 10. 2026: Nálezy a ověření v matrikách SOA Praha (Kovanice a Nebovidy):
+  - **Sňatek Václava Hromady a Anny Kováříkové (12. 4. 1853):** Matrika Kovanice 08 (sn. 102, pag. 100, 2. zápis). Gruntovník Václav Hromada (20 1/2 let, * 31. 8. 1832) z Chvalovic čp. 21, syn † Václava Hromady z Vyšehořovic čp. 22 a Alžběty roz. Jirkovské z čp. 25; nevěsta Anna Kováříková (21 1/2 let, * 1831), dcera Josefa Kováříka, výminkáře v Chvalovicích čp. 21 a Anny roz. Homolové z Chrástu. Povolení c. k. okresního soudu v Českém Brodě z 30. 3. 1853 č. 1967.
+  - **Křest Josefa Měšťánka (16. 1. 1859):** Matrika Nebovidy 11 (sn. 32, pag. 59, 1. zápis). Narozen v Bojišti čp. 10 jako syn tovaryše tesařského Václava Měšťánka a Barbory roz. Kosové. Odhaleni noví předci v 7. generaci: † Antonín Měšťánek, nádeník ze Dvorů čp. 2, Barbora roz. Šafáříková z Peček, a Marie Kosová roz. Kollářová z Peček čp. 55.
+  - **Sňatek Václava Měšťánka a Barbory Kosové (4. 10. 1858):** Matrika Nebovidy 18 (sn. 10, pag. 15, 2. zápis). Ženich Václav Měšťánek (28 let, * cca 1830), záložník c. k. 6. pluku polního dělostřelectva, nevěsta Barbora Kosová (23 let, * cca 1835) z Bojiště čp. 10. Vojenské povolení z Pešti č. 3724 po ohláškách v Uhrách v Karos-Keresztúr. Syn Josef se narodil pouhých 104 dní po svatbě.
+  - Do rodokmenu nově doloženi 3 noví předci v 7. generaci: **Antonín Měšťánek** (č. 248), **Barbora Šafáříková** (č. 249), **Marie Kollářová** (č. 251).
+  - V rodokmenu celkem evidováno **168 osob** (z toho **30 doložených primárních zápisů** ze snímků matrik ve 29 svazcích, 47 řádků deníku).
+  - Do `data/zajimavosti.md` přidány 2 nové příběhy vytvořené a zrevidované za pomoci lokálního modelu Ollama (dělostřelecký záložník a svatba 104 dní před porodem, dvacetiletý hospodář Hromada).
+
 - Další kroky k prozkoumání:
-  1. Slovenská řeckokatolická větev Čáki a Bubanec (farnost Dúbrava, okres Snina na Zemplíně – matriky na FamilySearch).
-  2. Sňatek Otakara Krejzka a Františky (kolem 1905–1913 na Moravě mimo Bystřici n. P.).
-  3. Starší generace kovářů Černých v Dobšicích a Malém Zboží (farnost Žehuň).
+  1. Křest Kateřiny Ouzké ml. (* cca 1857, nemanželská dcera Kateřiny Ouzké st. z Končic čp. 14).
+  2. Slovenská řeckokatolická větev Čáki a Bubanec (farnost Dúbrava, okres Snina na Zemplíně – matriky na FamilySearch).
+  3. Sňatek Otakara Krejzka a Františky (kolem 1905–1913 na Moravě mimo Bystřici n. P.).
+  4. Starší generace kovářů Černých v Dobšicích a Malém Zboží (farnost Žehuň).
