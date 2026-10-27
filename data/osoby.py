@@ -1467,16 +1467,25 @@ SIDE = [
 
          vetev=dict(n="Miroslav Čáky", y="", puvod="Slovensko (Zemplín / Snina)", vztah="bratr Juraje (psán Čáky)")),
 
-    dict(k=14, n="5 bratrů Krejzkových", t="Pět bratrů primáře MUDr. Miroslava Krejzka z Bystřice nad Pernštejnem č. p. 147: Otakar ml. (* cca 1908–1910), Bedřich (* cca 1909–1911), MUDr. Emil (* cca 1911–1913), Václav (* cca 1919–1921) a šestý bratr.", r=[],
+    dict(k=14, n="Otakar Krejzek ml. (* cca 1908–1910)", t="Starší bratr primáře MUDr. Miroslava Krejzka z Bystřice nad Pernštejnem č. p. 147, syn mistra kolářského Otakara Krejzka a Františky. V letech 1928–1929 student učitelského ústavu v Brně.", r=[],
 
-         vetev=dict(n="bratři Krejzkovi", y="", puvod="Bystřice nad Pernštejnem č. p. 147", vztah="5 bratrů Miroslava",
-                    deti=[
-                        dict(n="Otakar Krejzek ml.", y="* cca 1908–1910", f=["* cca 1908–1910 Bystřice nad Pernštejnem"], zam="student učitelského ústavu v Brně (1928–1929)", bydl="Bystřice nad Pernštejnem"),
-                        dict(n="Bedřich Krejzek", y="* cca 1909–1911", f=["* cca 1909–1911 Bystřice nad Pernštejnem"], zam="student učitelského ústavu v Brně (1928–1930)", bydl="Bystřice nad Pernštejnem"),
-                        dict(n="MUDr. Emil Krejzek", y="* cca 1911–1913", f=["* cca 1911–1913 Bystřice nad Pernštejnem"], zam="lékař (MUDr.), reálné gymnázium Tišnov (1925–1929)", bydl="Bystřice nad Pernštejnem"),
-                        dict(n="Václav Krejzek", y="* cca 1919–1921", f=["* cca 1919–1921 Bystřice nad Pernštejnem"], zam="student reálného gymnázia v Tišnově (1933–1938)", bydl="Bystřice nad Pernštejnem"),
-                        dict(n="šestý bratr Krejzek", y="", f=[], bydl="Bystřice nad Pernštejnem")
-                    ])),
+         vetev=dict(n="Otakar Krejzek ml.", y="* cca 1908–1910", f=["* cca 1908–1910 Bystřice nad Pernštejnem č. p. 147"], zam="student učitelského ústavu v Brně (1928–1929)", bydl="Bystřice nad Pernštejnem", vztah="bratr Miroslava")),
+
+    dict(k=14, n="Bedřich Krejzek (* cca 1909–1911)", t="Starší bratr primáře MUDr. Miroslava Krejzka z Bystřice nad Pernštejnem č. p. 147, syn mistra kolářského Otakara Krejzka a Františky. V letech 1928–1930 student učitelského ústavu v Brně.", r=[],
+
+         vetev=dict(n="Bedřich Krejzek", y="* cca 1909–1911", f=["* cca 1909–1911 Bystřice nad Pernštejnem č. p. 147"], zam="student učitelského ústavu v Brně (1928–1930)", bydl="Bystřice nad Pernštejnem", vztah="bratr Miroslava")),
+
+    dict(k=14, n="MUDr. Emil Krejzek (* cca 1911–1913)", t="Starší bratr primáře MUDr. Miroslava Krejzka z Bystřice nad Pernštejnem č. p. 147, syn mistra kolářského Otakara Krejzka a Františky. Absolvent reálného gymnázia v Tišnově (1925–1929), lékař (MUDr.) působící v Bystřici nad Pernštejnem.", r=[],
+
+         vetev=dict(n="MUDr. Emil Krejzek", y="* cca 1911–1913", f=["* cca 1911–1913 Bystřice nad Pernštejnem č. p. 147"], zam="lékař (MUDr.) v Bystřici nad Pernštejnem", bydl="Bystřice nad Pernštejnem", vztah="bratr Miroslava")),
+
+    dict(k=14, n="Václav Krejzek (* cca 1919–1921)", t="Mladší bratr primáře MUDr. Miroslava Krejzka z Bystřice nad Pernštejnem č. p. 147, syn mistra kolářského Otakara Krejzka a Františky. V letech 1933–1938 student reálného gymnázia v Tišnově.", r=[],
+
+         vetev=dict(n="Václav Krejzek", y="* cca 1919–1921", f=["* cca 1919–1921 Bystřice nad Pernštejnem č. p. 147"], zam="student reálného gymnázia v Tišnově (1933–1938)", bydl="Bystřice nad Pernštejnem", vztah="bratr Miroslava")),
+
+    dict(k=14, n="šestý bratr Krejzek", t="Bratr primáře MUDr. Miroslava Krejzka z Bystřice nad Pernštejnem č. p. 147, syn mistra kolářského Otakara Krejzka a Františky.", r=[],
+
+         vetev=dict(n="šestý bratr Krejzek", y="", f=[], bydl="Bystřice nad Pernštejnem", vztah="bratr Miroslava")),
 
     dict(k=15, n="bratr Věry Černé", t="Bratr Věry Krejzkové roz. Černé, syn Josefa Černého.", r=[],
 
