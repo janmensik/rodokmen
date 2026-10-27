@@ -153,16 +153,16 @@ P = {
              note="Matka JUDr. Miloslava Čákiho. Rozená Bubancová, původem z východního Slovenska (Šmigovec nebo Dúbrava, okres Snina, Zemplín)."),
 
     14: dict(n="MUDr. Miroslav Krejzek", y="1914–1978", st="doc",
-             f=["* 3. 9. 1914 Bystřice nad Pernštejnem", "× MUDr. Věra Černá", "† 27. 5. 1978 Žamberk",
+             f=["* 3. 9. 1914 Bystřice nad Pernštejnem č. p. 147", "× MUDr. Věra Černá", "† 27. 5. 1978 Žamberk",
                 "maturita 7. 6. 1933 Tišnov (reálné gymnázium)",
                 "promoce 23. 6. 1939 Praha (Lékařská fakulta UK, MUDr.)",
-                "syn Otakara Krejzka a Františky Krejzkové z Bystřice n. P.",
-                "měl 5 bratrů"],
+                "syn mistra kolářského Otakara Krejzka a Františky z Bystřice n. P. č. p. 147",
+                "měl 5 bratrů (Otakar ml., Bedřich, MUDr. Emil, Václav a další)"],
              zam="lékař (MUDr.), primář plicního oddělení a hrudní chirurg v léčebně Albertinum v Žamberku",
-             bydl="Žamberk; dříve Bystřice nad Pernštejnem, Hradec Králové, Nymburk",
+             bydl="Žamberk; dříve Bystřice nad Pernštejnem č. p. 147, Hradec Králové, Nymburk",
              puvod="Bystřice nad Pernštejnem",
              r=["cuni_doktori_miroslav_krejzek_1939"],
-             note="Lékař (MUDr.), významný český ftiseolog a hrudní chirurg, dlouholetý primář plicního oddělení v léčebně Albertinum v Žamberku. Narozen 3. 9. 1914 v Bystřici nad Pernštejnem jako syn soukromníka Otakara Krejzka a Františky Krejzkové. Po maturitě na reálném gymnáziu v Tišnově (1933) vystudoval Lékařskou fakultu Karlovy univerzity v Praze (promoce 23. 6. 1939). Za války pracoval na chirurgické klinice prof. Jana Bedrny v Hradci Králové a na chirurgii v nemocnici v Nymburce (kde poznal svou manželku MUDr. Věru Černou z Poděbrad). V dubnu 1945 se při noční službě v Nymburce nakazil těžkou formou tuberkulózy od vězňů z koncentračních táborů transportovaných vlaky. Po zotavení nastoupil v březnu 1946 do Albertina v Žamberku, kde vybudoval moderní hrudní chirurgii a provedl tisíce plicních operací. Zemřel 27. 5. 1978 v Žamberku."),
+             note="Lékař (MUDr.), významný český ftiseolog a hrudní chirurg, dlouholetý primář plicního oddělení v léčebně Albertinum v Žamberku. Narozen 3. 9. 1914 v Bystřici nad Pernštejnem č. p. 147 jako syn mistra kolářského Otakara Krejzka a Františky Krejzkové. Po maturitě na reálném gymnáziu v Tišnově (1933) vystudoval Lékařskou fakultu Karlovy univerzity v Praze (promoce 23. 6. 1939). Za války pracoval na chirurgické klinice prof. Jana Bedrny v Hradci Králové a na chirurgii v nemocnici v Nymburce (kde poznal svou manželku MUDr. Věru Černou z Poděbrad). V dubnu 1945 se při noční službě v Nymburce nakazil těžkou formou tuberkulózy od vězňů z koncentračních táborů transportovaných vlaky. Po zotavení nastoupil v březnu 1946 do Albertina v Žamberku, kde vybudoval moderní hrudní chirurgii a provedl tisíce plicních operací. Zemřel 27. 5. 1978 v Žamberku."),
 
     15: dict(n="MUDr. Věra Krejzková", y="1917–2005", st="doc",
              f=["* 8. 2. 1917 Poděbrady", "× MUDr. Miroslav Krejzek", "† 7. 11. 2005 Žamberk",
@@ -253,19 +253,19 @@ P = {
              note="Narozena v Hluboké jako dcera truhláře a hostinského Franze Henzla z rodového gruntu čp. 15 v Hluboké a Aloisie roz. Pospíchalové z Radostína. V květnu 1926 se provdala za zámečníka Julia Holánka ze Starého Ranska a žili v Hluboké čp. 36. Maminka Zdenky Jarolímové roz. Holánkové (* 1928); prababička Jana Menšíka."),
 
     28: dict(n="Otakar Krejzek", y="* asi 1880–1885", st="doc",
-             f=["* asi 1880–1885", "× asi 1905–1913 Františka",
+             f=["* asi 1880–1885", "× asi 1905–1910 Františka",
                 "otec primáře MUDr. Miroslava Krejzka a jeho 5 bratrů"],
-             zam="soukromník v Bystřici nad Pernštejnem",
-             bydl="Bystřice nad Pernštejnem", puvod="Bystřice nad Pernštejnem",
+             zam="mistr kolářský v Bystřici nad Pernštejnem č. p. 147",
+             bydl="Bystřice nad Pernštejnem č. p. 147", puvod="Bystřice nad Pernštejnem",
              r=["cuni_doktori_miroslav_krejzek_1939"],
-             note="Soukromník v Bystřici nad Pernštejnem, otec MUDr. Miroslava Krejzka a jeho 5 bratrů (pradědeček Julie). Doložen v univerzitní matrice doktorů Karlovy univerzity v zápise o promoci syna Miroslava v červnu 1939."),
+             note="Mistr kolářský v Bystřici nad Pernštejnem č. p. 147 (doložen v Adresářích Republiky Československé 1931–1939 v rubrice Koláři). Otec primáře MUDr. Miroslava Krejzka a jeho pěti bratrů (pradědeček Julie). Otakar Krejzek st. měl s manželkou Františkou šest synů: Otakara ml. (* cca 1908–1910, učitelský ústav v Brně), Bedřicha (* cca 1909–1911, učitelský ústav v Brně), MUDr. Emila (* cca 1911–1913, reálné gymnázium Tišnov, lékař), MUDr. Miroslava (* 1914, primář Albertina v Žamberku), Václava (* cca 1919–1921, reálné gymnázium Tišnov) a dalšího syna."),
 
     29: dict(n="Františka Krejzková", y="* asi 1885–1890", st="doc",
-             f=["* asi 1885–1890", "× asi 1905–1913 Otakar Krejzek",
+             f=["* asi 1885–1890", "× asi 1905–1910 Otakar Krejzek",
                 "matka primáře MUDr. Miroslava Krejzka a jeho 5 bratrů"],
-             bydl="Bystřice nad Pernštejnem",
+             bydl="Bystřice nad Pernštejnem č. p. 147",
              r=["cuni_doktori_miroslav_krejzek_1939"],
-             note="Matka primáře MUDr. Miroslava Krejzka a jeho 5 bratrů, manželka Otakara Krejzka, soukromníka v Bystřici nad Pernštejnem (prababička Julie). Doložena v univerzitní matrice doktorů Karlovy univerzity v zápise o promoci syna Miroslava z roku 1939."),
+             note="Matka primáře MUDr. Miroslava Krejzka a jeho 5 bratrů, manželka mistra kolářského Otakara Krejzka v Bystřici nad Pernštejnem č. p. 147 (prababička Julie). Doložena v univerzitní matrice doktorů Karlovy univerzity v zápise o promoci syna Miroslava z roku 1939."),
 
     30: dict(n="Josef Černý", y="* 1886", st="doc",
              f=["* 16. 2. 1886 Poděbrady č. 15/II", "× 14. 6. 1911 Poděbrady Marie Měšťánková"],
@@ -1467,9 +1467,16 @@ SIDE = [
 
          vetev=dict(n="Miroslav Čáky", y="", puvod="Slovensko (Zemplín / Snina)", vztah="bratr Juraje (psán Čáky)")),
 
-    dict(k=14, n="5 bratrů Krejzkových", t="Pět bratrů MUDr. Miroslava Krejzka z Bystřice nad Pernštejnem.", r=[],
+    dict(k=14, n="5 bratrů Krejzkových", t="Pět bratrů primáře MUDr. Miroslava Krejzka z Bystřice nad Pernštejnem č. p. 147: Otakar ml. (* cca 1908–1910), Bedřich (* cca 1909–1911), MUDr. Emil (* cca 1911–1913), Václav (* cca 1919–1921) a šestý bratr.", r=[],
 
-         vetev=dict(n="bratři Krejzkovi", y="", puvod="Bystřice nad Pernštejnem", vztah="5 bratrů Miroslava")),
+         vetev=dict(n="bratři Krejzkovi", y="", puvod="Bystřice nad Pernštejnem č. p. 147", vztah="5 bratrů Miroslava",
+                    deti=[
+                        dict(n="Otakar Krejzek ml.", y="* cca 1908–1910", f=["* cca 1908–1910 Bystřice nad Pernštejnem"], zam="student učitelského ústavu v Brně (1928–1929)", bydl="Bystřice nad Pernštejnem"),
+                        dict(n="Bedřich Krejzek", y="* cca 1909–1911", f=["* cca 1909–1911 Bystřice nad Pernštejnem"], zam="student učitelského ústavu v Brně (1928–1930)", bydl="Bystřice nad Pernštejnem"),
+                        dict(n="MUDr. Emil Krejzek", y="* cca 1911–1913", f=["* cca 1911–1913 Bystřice nad Pernštejnem"], zam="lékař (MUDr.), reálné gymnázium Tišnov (1925–1929)", bydl="Bystřice nad Pernštejnem"),
+                        dict(n="Václav Krejzek", y="* cca 1919–1921", f=["* cca 1919–1921 Bystřice nad Pernštejnem"], zam="student reálného gymnázia v Tišnově (1933–1938)", bydl="Bystřice nad Pernštejnem"),
+                        dict(n="šestý bratr Krejzek", y="", f=[], bydl="Bystřice nad Pernštejnem")
+                    ])),
 
     dict(k=15, n="bratr Věry Černé", t="Bratr Věry Krejzkové roz. Černé, syn Josefa Černého.", r=[],
 
@@ -1529,6 +1536,7 @@ ISSUES = [
 
     ("Povolání Matěje Šímy (č. 90) ze Starého Ranska čp. 2", "Otevřené: v PDF je uvedeno 'horolezec' – v matrice Starého Ranska ověřit, zda nešlo o čtení slova 'horník' / 'havíř' u železáren."),
 
+    ("Původ a narození pradědečka Otakara Krejzka st. (* cca 1880–1885)", "Detailně prozkoumány matriky a indexy Bystřice nad Pernštejnem i Nového Města na Moravě. V indexu narozených Bystřice (1834–1883) ani Nového Města žádný Otakar Krejzek zapsán není. V Bystřici působil v té době nadučitel Augustin Korejzl, avšak archivní prověrka matrik Z a N prokázala, že všechny jeho děti zemřely v kojeneckém věku (Adolf †1867, August †1867, Marie †1869, Anna †1872, Václav †1872, Karel †1873) kromě Emila Vojtěcha (* 1874), který se stal katolickým knězem v Pasohlávkách. Hypotéza o otcovství Augustina Korejzla byla tedy archivně vyvrácena. Kolářská rodina Krejzků má své nejhlubší kořeny v sousední farnosti Strážek (čp. 21 a 23, Tomáš a František Krejzek), odkud Otakar Krejzek st. s největší pravděpodobností pocházel, popř. ze sousedních farností. Sňatek s Františkou proběhl mimo Bystřici (v oddacím indexu Bystřice 1895–1942 nefiguruje)."),
 ]
 
 

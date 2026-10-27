@@ -1,265 +1,395 @@
 {
- "ebad_10141": {
-  "archiv": "SOA Praha – Sbírka matrik",
-  "portal": "eBadatelna",
-  "svazek": "Žleby 35, Z 1837–1910",
-  "popis": "Bažantnice u sv. Anny, Buda, Ksiny, Markovice, Velký Dvůr, Žleby",
-  "snimku": 379,
-  "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/10141"
- },
- "ebad_10116": {
-  "archiv": "SOA Praha – Sbírka matrik",
-  "portal": "eBadatelna",
-  "svazek": "Žleby 10, N 1839–1867",
-  "popis": "Markovice, Žleby",
-  "snimku": 347,
-  "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/10116"
- },
- "ebad_10138": {
-  "archiv": "SOA Praha – Sbírka matrik",
-  "portal": "eBadatelna",
-  "svazek": "Žleby 32, N 1898–1914",
-  "popis": "Bažantnice u sv. Anny, Buda, Ksiny, Markovice, Žleby",
-  "snimku": 305,
-  "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/10138"
- },
- "820f0eed": {
-  "archiv": "Státní oblastní archiv v Hradci Králové",
-  "portal": "ARON",
-  "svazek": "Sbírka matrik Východočeského kraje, sign.: 5946 (poř.č. 1985), 1778-1912",
-  "popis": "římskokatolická matrika ODDANÝCH, farnost (Břevnice, Český Dvůr, Dolní Krupá, Horní Krupá, Chrast, Knyk, Kráty, Kyjov, Lažany, Lysá, Rozsochatec, Údolí, Zálesí, Zbožice) do 5.1784, Dolní Krupá (6.1784-2.1912)",
-  "snimku": 129,
-  "url": "https://aron.vychodoceskearchivy.cz/apu/820f0eed-158c-40e0-8631-c556f70387c5"
- },
- "59f6bbe6": {
-  "archiv": "Státní oblastní archiv v Hradci Králové",
-  "portal": "ARON",
-  "svazek": "Sbírka matrik Východočeského kraje, sign.: 2840 (poř.č. 1975), 1778-1869",
-  "popis": "římskokatolická matrika NAROZENÝCH, farnost (Břevnice, Český Dvůr, Dolní Krupá, Horní Krupá, Chrast, Knyk, Kráty, Kyjov, Lažany, Lysá, Rozsochatec, Údolí, Zálesí, Zbožice) do 10.1784, Dolní Krupá (od 11.1784)",
-  "snimku": 282,
-  "url": "https://aron.vychodoceskearchivy.cz/apu/59f6bbe6-dc5c-4e7c-bd62-524eb8295f6d"
- },
- "52b916b6": {
-  "archiv": "Státní oblastní archiv v Hradci Králové",
-  "portal": "ARON",
-  "svazek": "Sbírka matrik Východočeského kraje, sign.: 711 (poř.č. 5457), 5.1837-10.1856",
-  "popis": "římskokatolická matrika NAROZENÝCH, Nové Ransko + Staré Ransko",
-  "snimku": 197,
-  "url": "https://aron.vychodoceskearchivy.cz/apu/52b916b6-2fc8-4fa8-8c8f-96527e8ccdc8"
- },
- "cc99859e": {
-  "archiv": "Státní oblastní archiv v Hradci Králové",
-  "portal": "ARON",
-  "svazek": "Sbírka matrik Východočeského kraje, sign.: 6032 (poř.č. 5444), 1881-5.1908",
-  "popis": "římskokatolická matrika NAROZENÝCH, Krucemburk",
-  "snimku": 198,
-  "url": "https://aron.vychodoceskearchivy.cz/apu/cc99859e-6f48-42b9-89de-6163c35efdf4"
- },
- "trebon_4513": {
-  "archiv": "SOA Třeboň – Sbírka matrik",
-  "portal": "digi.ceskearchivy.cz",
-  "svazek": "Jistebnice 16 1865-1884",
-  "popis": "",
-  "url": "https://digi.ceskearchivy.cz/4513"
- },
- "ahmp_tyn_o12": {
-  "archiv": "Archiv hlavního města Prahy",
-  "portal": "Katalog AHMP",
-  "svazek": "TÝN O12 • 1899–1911",
-  "popis": "Kostel Matky Boží před Týnem, kniha oddaných",
-  "snimku": 267,
-  "url": "https://katalog.ahmp.cz/pragapublica/permalink?xid=1DC453DF14FA413283B8C8B8939C6D3D"
- },
- "trebon_4519": {
-  "archiv": "SOA Třeboň – Sbírka matrik",
-  "portal": "digi.ceskearchivy.cz",
-  "svazek": "Jistebnice 22 • O 1861–1882",
-  "popis": "Kniha oddaných farnosti Jistebnice",
-  "snimku": 180,
-  "url": "https://digi.ceskearchivy.cz/4519"
- },
- "trebon_4509": {
-  "archiv": "SOA Třeboň – Sbírka matrik",
-  "portal": "digi.ceskearchivy.cz",
-  "svazek": "Jistebnice 12 – N 1830–1836",
-  "popis": "Kniha narozených farnosti Jistebnice (s indexem)",
-  "snimku": 172,
-  "url": "https://digi.ceskearchivy.cz/4509"
- },
- "ahmp_tyn_n19": {
-  "archiv": "Archiv hlavního města Prahy",
-  "portal": "Katalog AHMP",
-  "svazek": "TÝN N19 – 1878–1893",
-  "popis": "Kostel Matky Boží před Týnem, kniha narozených",
-  "snimku": 315,
-  "url": "https://katalog.ahmp.cz/pragapublica/permalink?xid=40FC01E58DD34BCBA266B5F3117259FF"
- },
- "ahmp_tyn_o10": {
-  "archiv": "Archiv hlavního města Prahy",
-  "portal": "Katalog AHMP",
-  "svazek": "TÝN O10 – 1878–1889",
-  "popis": "Kostel Matky Boží před Týnem, kniha oddaných",
-  "snimku": 286,
-  "url": "https://katalog.ahmp.cz/pragapublica/permalink?xid=F1CA12E9904249D3B3E03E104BF542FA"
- },
- "ahmp_trp_n15": {
-  "archiv": "Archiv hlavního města Prahy",
-  "portal": "Katalog AHMP",
-  "svazek": "TRP N15 • 1905–1914",
-  "popis": "Kostel Nejsvětější Trojice v Podskalí, kniha narozených a pokřtěných",
-  "snimku": 354,
-  "url": "https://katalog.ahmp.cz/pragapublica/permalink?xid=8E4458FEE5154031951EE71F23FF9377"
- },
- "ahmp_hs_n15": {
-  "archiv": "Archiv hlavního města Prahy",
-  "portal": "Katalog AHMP",
-  "svazek": "HŠ N15 • 1853–1863",
-  "popis": "Kostel sv. Haštala, kniha narozených a pokřtěných",
-  "snimku": 600,
-  "url": "https://katalog.ahmp.cz/pragapublica/permalink?xid=02EC86BBC7144E5FA8856A3865A6ACE5"
- },
- "ahmp_ap_n30": {
-  "archiv": "Archiv hlavního města Prahy",
-  "portal": "Katalog AHMP",
-  "svazek": "AP N30 • 1858–1859",
-  "popis": "Kostel sv. Apolináře, kniha narozených a pokřtěných",
-  "snimku": 382,
-  "url": "https://katalog.ahmp.cz/pragapublica/permalink?xid=917418BEABDE4BEEA179DA5A5150DB11"
- },
- "trebon_4517": {
-  "archiv": "SOA Třeboň – Sbírka matrik",
-  "portal": "digi.ceskearchivy.cz",
-  "svazek": "Jistebnice 20 • O 1809–1831",
-  "popis": "Kniha oddaných farnosti Jistebnice (vedena po obcích, městys Jistebnice sn. 2–23)",
-  "snimku": 72,
-  "url": "https://digi.ceskearchivy.cz/4517"
- },
- "ahmp_jch_o23": {
-  "archiv": "Archiv hlavního města Prahy",
-  "portal": "Katalog AHMP",
-  "svazek": "JCH O23 • 1907–1910",
-  "popis": "Kostel sv. Jindřicha na Novém Městě, kniha oddaných",
-  "snimku": 364,
-  "url": "https://katalog.ahmp.cz/pragapublica/permalink?xid=DD3AFDB273E7486D949422A77DA70908"
- },
- "ahmp_st_n30": {
-  "archiv": "Archiv hlavního města Prahy",
-  "portal": "Katalog AHMP",
-  "svazek": "ŠT N30 • 1871–1875",
-  "popis": "Kostel sv. Štěpána na Novém Městě, kniha narozených a pokřtěných",
-  "snimku": 373,
-  "url": "https://katalog.ahmp.cz/pragapublica/permalink?xid=D47409722AA24CA89DD506ED4B465E08"
- },
- "ahmp_jil_o10": {
-  "archiv": "Archiv hlavního města Prahy",
-  "portal": "Katalog AHMP",
-  "svazek": "JIL O10 • 1862–1870",
-  "popis": "Kostel sv. Jiljí na Starém Městě, kniha oddaných",
-  "snimku": 199,
-  "url": "https://katalog.ahmp.cz/pragapublica/permalink?xid=D9E1B965559246EDBF48C1DB8FFA88C4"
- },
- "ebad_10163": {
-  "archiv": "SOA Praha – Sbírka matrik",
-  "portal": "eBadatelna",
-  "svazek": "Poděbrady 70, O 1901–1924",
-  "popis": "Poděbrady",
-  "snimku": 302,
-  "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/10163"
- },
- "ebad_10069": {
-  "archiv": "SOA Praha – Sbírka matrik",
-  "portal": "eBadatelna",
-  "svazek": "Žiželice 17, N 1881–1895",
-  "popis": "Bílé Vchynice, Freudenthal, Hlavečník, Hradišťko II, Končice, Korce, Kundratice, Loukonosy, Převýšov, Radovesnice II, Rasochy, Rozehnaly, Tetov, Zbraň, Žiželice",
-  "snimku": 467,
-  "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/10069"
- },
- "ebad_11894": {
-  "archiv": "SOA Praha – Sbírka matrik",
-  "portal": "eBadatelna",
-  "svazek": "Poděbrady 64, O 1849–1893",
-  "popis": "Kluk, Křečkov, Malé Zboží, Pátek, Polabec, Přední Lhota, Velké Zboží",
-  "snimku": 212,
-  "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/11894"
- },
- "cuni_doktori_x": {
-  "archiv": "Ústav dějin UK a archiv Univerzity Karlovy",
-  "portal": "is.cuni.cz - Studenti pražských univerzit 1882–1945",
-  "svazek": "Matrika doktorů Univerzity Karlovy X. (1937–1939), inv. č. 10",
-  "popis": "Matriky doktorů Univerzity Karlovy",
-  "snimku": 500,
-  "url": "https://is.cuni.cz/webapps/archiv/public/book/bo/1924165860347712/448/?lang=cs"
- },
- "ebad_10071": {
-  "archiv": "SOA Praha – Sbírka matrik",
-  "portal": "eBadatelna",
-  "svazek": "Žiželice 19, O 1871–1888, Oi 1871–1888",
-  "popis": "Bílé Vchynice, Freudenthal, Hlavečník, Hradišťko II, Končice, Korce, Kundratice, Loukonosy, Převýšov, Radovesnice II, Rasochy, Rozehnaly, Tetov, Zbraň, Žiželice",
-  "snimku": 266,
-  "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/10071"
- },
- "ebad_7150": {
-  "archiv": "SOA Praha – Sbírka matrik",
-  "portal": "eBadatelna",
-  "svazek": "Kovanice 10, N 1847–1879",
-  "popis": "Chvalovice, Hořátev, Kovanice, Neujahrsdorf",
-  "snimku": 258,
-  "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/7150"
- },
- "ebad_7148": {
-  "archiv": "SOA Praha – Sbírka matrik",
-  "portal": "eBadatelna",
-  "svazek": "Kovanice 08, O 1845–1904",
-  "popis": "Chvalovice, Hořátev, Kovanice, Neujahrsdorf",
-  "snimku": 133,
-  "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/7148"
- },
- "ebad_9444": {
-  "archiv": "SOA Praha – Sbírka matrik",
-  "portal": "eBadatelna",
-  "svazek": "Nebovidy 11, N 1843–1900",
-  "popis": "Bohouňovice I, Bojiště, Dobešovice, Hořany",
-  "snimku": 287,
-  "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/9444"
- },
- "ebad_9451": {
-  "archiv": "SOA Praha – Sbírka matrik",
-  "portal": "eBadatelna",
-  "svazek": "Nebovidy 18, O 1843–1933",
-  "popis": "Bohouňovice I, Bojiště, Dobešovice, Hluboký Důl, Opatovice, Polepy",
-  "snimku": 253,
-  "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/9451"
- },
- "ebad_9858": {
-  "archiv": "SOA Praha – Sbírka matrik",
-  "portal": "eBadatelna",
-  "svazek": "Žehuň 04, N 1845–1863",
-  "popis": "Choťovice, Dobšice, Dománovice, Libněves, Nová Báň, Obora, Žehuň",
-  "snimku": 290,
-  "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/9858"
- },
- "334cfeb8": {
-  "archiv": "Státní oblastní archiv v Hradci Králové",
-  "portal": "ARON",
-  "svazek": "Sbírka matrik Východočeského kraje, sign.: 95-10 (poř.č. 6779), 1836-1870",
-  "popis": "římskokatolická matrika ODDANÝCH, Dvůr Žabí Lhotka + Lužec nad Cidlinou (do 11.1870), Číhary + Hlínov + Vlkov nad Lesy (1837-10.1870), Skochovice (5.1836-11.1870), Žantov (10.1836-2.1870), Bludy + Lovčice (do 9.1870), Lišice + Lišičky (11.1836-7.1870), Slibovice (2.1838-7.1870)",
-  "snimku": 231,
-  "url": "https://aron.vychodoceskearchivy.cz/apu/334cfeb8-253f-4a93-9b98-77035ed3a3c6"
- },
- "ebad_10058": {
-  "archiv": "SOA Praha – Sbírka matrik",
-  "portal": "eBadatelna",
-  "svazek": "Žiželice 06, N 1853–1860, Ni 1853–1860",
-  "popis": "Bílé Vchynice, Freudenthal, Hlavečník, Hradišťko II, Končice, Korce, Kundratice, Loukonosy, Převýšov, Radovesnice II, Rasochy, Rozehnaly, Tetov, Zbraň, Žiželice",
-  "snimku": 425,
-  "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/10058"
- },
- "ebad_10059": {
-  "archiv": "SOA Praha – Sbírka matrik",
-  "portal": "eBadatelna",
-  "svazek": "Žiželice 07, N 1861–1865, Ni 1861–1865",
-  "popis": "Bílé Vchynice, Freudenthal, Hlavečník, Hradišťko II, Končice, Korce, Kundratice, Loukonosy, Převýšov, Radovesnice II, Rasochy, Rozehnaly, Tetov, Zbraň, Žiželice",
-  "snimku": 272,
-  "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/10059"
- }
+  "ebad_10141": {
+    "archiv": "SOA Praha – Sbírka matrik",
+    "portal": "eBadatelna",
+    "svazek": "Žleby 35, Z 1837–1910",
+    "popis": "Bažantnice u sv. Anny, Buda, Ksiny, Markovice, Velký Dvůr, Žleby",
+    "snimku": 379,
+    "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/10141"
+  },
+  "ebad_10116": {
+    "archiv": "SOA Praha – Sbírka matrik",
+    "portal": "eBadatelna",
+    "svazek": "Žleby 10, N 1839–1867",
+    "popis": "Markovice, Žleby",
+    "snimku": 347,
+    "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/10116"
+  },
+  "ebad_10138": {
+    "archiv": "SOA Praha – Sbírka matrik",
+    "portal": "eBadatelna",
+    "svazek": "Žleby 32, N 1898–1914",
+    "popis": "Bažantnice u sv. Anny, Buda, Ksiny, Markovice, Žleby",
+    "snimku": 305,
+    "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/10138"
+  },
+  "820f0eed": {
+    "archiv": "Státní oblastní archiv v Hradci Králové",
+    "portal": "ARON",
+    "svazek": "Sbírka matrik Východočeského kraje, sign.: 5946 (poř.č. 1985), 1778-1912",
+    "popis": "římskokatolická matrika ODDANÝCH, farnost (Břevnice, Český Dvůr, Dolní Krupá, Horní Krupá, Chrast, Knyk, Kráty, Kyjov, Lažany, Lysá, Rozsochatec, Údolí, Zálesí, Zbožice) do 5.1784, Dolní Krupá (6.1784-2.1912)",
+    "snimku": 129,
+    "url": "https://aron.vychodoceskearchivy.cz/apu/820f0eed-158c-40e0-8631-c556f70387c5"
+  },
+  "59f6bbe6": {
+    "archiv": "Státní oblastní archiv v Hradci Králové",
+    "portal": "ARON",
+    "svazek": "Sbírka matrik Východočeského kraje, sign.: 2840 (poř.č. 1975), 1778-1869",
+    "popis": "římskokatolická matrika NAROZENÝCH, farnost (Břevnice, Český Dvůr, Dolní Krupá, Horní Krupá, Chrast, Knyk, Kráty, Kyjov, Lažany, Lysá, Rozsochatec, Údolí, Zálesí, Zbožice) do 10.1784, Dolní Krupá (od 11.1784)",
+    "snimku": 282,
+    "url": "https://aron.vychodoceskearchivy.cz/apu/59f6bbe6-dc5c-4e7c-bd62-524eb8295f6d"
+  },
+  "52b916b6": {
+    "archiv": "Státní oblastní archiv v Hradci Králové",
+    "portal": "ARON",
+    "svazek": "Sbírka matrik Východočeského kraje, sign.: 711 (poř.č. 5457), 5.1837-10.1856",
+    "popis": "římskokatolická matrika NAROZENÝCH, Nové Ransko + Staré Ransko",
+    "snimku": 197,
+    "url": "https://aron.vychodoceskearchivy.cz/apu/52b916b6-2fc8-4fa8-8c8f-96527e8ccdc8"
+  },
+  "cc99859e": {
+    "archiv": "Státní oblastní archiv v Hradci Králové",
+    "portal": "ARON",
+    "svazek": "Sbírka matrik Východočeského kraje, sign.: 6032 (poř.č. 5444), 1881-5.1908",
+    "popis": "římskokatolická matrika NAROZENÝCH, Krucemburk",
+    "snimku": 198,
+    "url": "https://aron.vychodoceskearchivy.cz/apu/cc99859e-6f48-42b9-89de-6163c35efdf4"
+  },
+  "trebon_4513": {
+    "archiv": "SOA Třeboň – Sbírka matrik",
+    "portal": "digi.ceskearchivy.cz",
+    "svazek": "Jistebnice 16 1865-1884",
+    "popis": "",
+    "url": "https://digi.ceskearchivy.cz/4513"
+  },
+  "ahmp_tyn_o12": {
+    "archiv": "Archiv hlavního města Prahy",
+    "portal": "Katalog AHMP",
+    "svazek": "TÝN O12 • 1899–1911",
+    "popis": "Kostel Matky Boží před Týnem, kniha oddaných",
+    "snimku": 267,
+    "url": "https://katalog.ahmp.cz/pragapublica/permalink?xid=1DC453DF14FA413283B8C8B8939C6D3D"
+  },
+  "trebon_4519": {
+    "archiv": "SOA Třeboň – Sbírka matrik",
+    "portal": "digi.ceskearchivy.cz",
+    "svazek": "Jistebnice 22 • O 1861–1882",
+    "popis": "Kniha oddaných farnosti Jistebnice",
+    "snimku": 180,
+    "url": "https://digi.ceskearchivy.cz/4519"
+  },
+  "trebon_4509": {
+    "archiv": "SOA Třeboň – Sbírka matrik",
+    "portal": "digi.ceskearchivy.cz",
+    "svazek": "Jistebnice 12 – N 1830–1836",
+    "popis": "Kniha narozených farnosti Jistebnice (s indexem)",
+    "snimku": 172,
+    "url": "https://digi.ceskearchivy.cz/4509"
+  },
+  "ahmp_tyn_n19": {
+    "archiv": "Archiv hlavního města Prahy",
+    "portal": "Katalog AHMP",
+    "svazek": "TÝN N19 – 1878–1893",
+    "popis": "Kostel Matky Boží před Týnem, kniha narozených",
+    "snimku": 315,
+    "url": "https://katalog.ahmp.cz/pragapublica/permalink?xid=40FC01E58DD34BCBA266B5F3117259FF"
+  },
+  "ahmp_tyn_o10": {
+    "archiv": "Archiv hlavního města Prahy",
+    "portal": "Katalog AHMP",
+    "svazek": "TÝN O10 – 1878–1889",
+    "popis": "Kostel Matky Boží před Týnem, kniha oddaných",
+    "snimku": 286,
+    "url": "https://katalog.ahmp.cz/pragapublica/permalink?xid=F1CA12E9904249D3B3E03E104BF542FA"
+  },
+  "ahmp_trp_n15": {
+    "archiv": "Archiv hlavního města Prahy",
+    "portal": "Katalog AHMP",
+    "svazek": "TRP N15 • 1905–1914",
+    "popis": "Kostel Nejsvětější Trojice v Podskalí, kniha narozených a pokřtěných",
+    "snimku": 354,
+    "url": "https://katalog.ahmp.cz/pragapublica/permalink?xid=8E4458FEE5154031951EE71F23FF9377"
+  },
+  "ahmp_hs_n15": {
+    "archiv": "Archiv hlavního města Prahy",
+    "portal": "Katalog AHMP",
+    "svazek": "HŠ N15 • 1853–1863",
+    "popis": "Kostel sv. Haštala, kniha narozených a pokřtěných",
+    "snimku": 600,
+    "url": "https://katalog.ahmp.cz/pragapublica/permalink?xid=02EC86BBC7144E5FA8856A3865A6ACE5"
+  },
+  "ahmp_ap_n30": {
+    "archiv": "Archiv hlavního města Prahy",
+    "portal": "Katalog AHMP",
+    "svazek": "AP N30 • 1858–1859",
+    "popis": "Kostel sv. Apolináře, kniha narozených a pokřtěných",
+    "snimku": 382,
+    "url": "https://katalog.ahmp.cz/pragapublica/permalink?xid=917418BEABDE4BEEA179DA5A5150DB11"
+  },
+  "trebon_4517": {
+    "archiv": "SOA Třeboň – Sbírka matrik",
+    "portal": "digi.ceskearchivy.cz",
+    "svazek": "Jistebnice 20 • O 1809–1831",
+    "popis": "Kniha oddaných farnosti Jistebnice (vedena po obcích, městys Jistebnice sn. 2–23)",
+    "snimku": 72,
+    "url": "https://digi.ceskearchivy.cz/4517"
+  },
+  "ahmp_jch_o23": {
+    "archiv": "Archiv hlavního města Prahy",
+    "portal": "Katalog AHMP",
+    "svazek": "JCH O23 • 1907–1910",
+    "popis": "Kostel sv. Jindřicha na Novém Městě, kniha oddaných",
+    "snimku": 364,
+    "url": "https://katalog.ahmp.cz/pragapublica/permalink?xid=DD3AFDB273E7486D949422A77DA70908"
+  },
+  "ahmp_st_n30": {
+    "archiv": "Archiv hlavního města Prahy",
+    "portal": "Katalog AHMP",
+    "svazek": "ŠT N30 • 1871–1875",
+    "popis": "Kostel sv. Štěpána na Novém Městě, kniha narozených a pokřtěných",
+    "snimku": 373,
+    "url": "https://katalog.ahmp.cz/pragapublica/permalink?xid=D47409722AA24CA89DD506ED4B465E08"
+  },
+  "ahmp_jil_o10": {
+    "archiv": "Archiv hlavního města Prahy",
+    "portal": "Katalog AHMP",
+    "svazek": "JIL O10 • 1862–1870",
+    "popis": "Kostel sv. Jiljí na Starém Městě, kniha oddaných",
+    "snimku": 199,
+    "url": "https://katalog.ahmp.cz/pragapublica/permalink?xid=D9E1B965559246EDBF48C1DB8FFA88C4"
+  },
+  "ebad_10163": {
+    "archiv": "SOA Praha – Sbírka matrik",
+    "portal": "eBadatelna",
+    "svazek": "Poděbrady 70, O 1901–1924",
+    "popis": "Poděbrady",
+    "snimku": 302,
+    "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/10163"
+  },
+  "ebad_10069": {
+    "archiv": "SOA Praha – Sbírka matrik",
+    "portal": "eBadatelna",
+    "svazek": "Žiželice 17, N 1881–1895",
+    "popis": "Bílé Vchynice, Freudenthal, Hlavečník, Hradišťko II, Končice, Korce, Kundratice, Loukonosy, Převýšov, Radovesnice II, Rasochy, Rozehnaly, Tetov, Zbraň, Žiželice",
+    "snimku": 467,
+    "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/10069"
+  },
+  "ebad_11894": {
+    "archiv": "SOA Praha – Sbírka matrik",
+    "portal": "eBadatelna",
+    "svazek": "Poděbrady 64, O 1849–1893",
+    "popis": "Kluk, Křečkov, Malé Zboží, Pátek, Polabec, Přední Lhota, Velké Zboží",
+    "snimku": 212,
+    "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/11894"
+  },
+  "cuni_doktori_x": {
+    "archiv": "Ústav dějin UK a archiv Univerzity Karlovy",
+    "portal": "is.cuni.cz - Studenti pražských univerzit 1882–1945",
+    "svazek": "Matrika doktorů Univerzity Karlovy X. (1937–1939), inv. č. 10",
+    "popis": "Matriky doktorů Univerzity Karlovy",
+    "snimku": 500,
+    "url": "https://is.cuni.cz/webapps/archiv/public/book/bo/1924165860347712/448/?lang=cs"
+  },
+  "ebad_10071": {
+    "archiv": "SOA Praha – Sbírka matrik",
+    "portal": "eBadatelna",
+    "svazek": "Žiželice 19, O 1871–1888, Oi 1871–1888",
+    "popis": "Bílé Vchynice, Freudenthal, Hlavečník, Hradišťko II, Končice, Korce, Kundratice, Loukonosy, Převýšov, Radovesnice II, Rasochy, Rozehnaly, Tetov, Zbraň, Žiželice",
+    "snimku": 266,
+    "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/10071"
+  },
+  "ebad_7150": {
+    "archiv": "SOA Praha – Sbírka matrik",
+    "portal": "eBadatelna",
+    "svazek": "Kovanice 10, N 1847–1879",
+    "popis": "Chvalovice, Hořátev, Kovanice, Neujahrsdorf",
+    "snimku": 258,
+    "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/7150"
+  },
+  "ebad_7148": {
+    "archiv": "SOA Praha – Sbírka matrik",
+    "portal": "eBadatelna",
+    "svazek": "Kovanice 08, O 1845–1904",
+    "popis": "Chvalovice, Hořátev, Kovanice, Neujahrsdorf",
+    "snimku": 133,
+    "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/7148"
+  },
+  "ebad_9444": {
+    "archiv": "SOA Praha – Sbírka matrik",
+    "portal": "eBadatelna",
+    "svazek": "Nebovidy 11, N 1843–1900",
+    "popis": "Bohouňovice I, Bojiště, Dobešovice, Hořany",
+    "snimku": 287,
+    "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/9444"
+  },
+  "ebad_9451": {
+    "archiv": "SOA Praha – Sbírka matrik",
+    "portal": "eBadatelna",
+    "svazek": "Nebovidy 18, O 1843–1933",
+    "popis": "Bohouňovice I, Bojiště, Dobešovice, Hluboký Důl, Opatovice, Polepy",
+    "snimku": 253,
+    "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/9451"
+  },
+  "ebad_9858": {
+    "archiv": "SOA Praha – Sbírka matrik",
+    "portal": "eBadatelna",
+    "svazek": "Žehuň 04, N 1845–1863",
+    "popis": "Choťovice, Dobšice, Dománovice, Libněves, Nová Báň, Obora, Žehuň",
+    "snimku": 290,
+    "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/9858"
+  },
+  "334cfeb8": {
+    "archiv": "Státní oblastní archiv v Hradci Králové",
+    "portal": "ARON",
+    "svazek": "Sbírka matrik Východočeského kraje, sign.: 95-10 (poř.č. 6779), 1836-1870",
+    "popis": "římskokatolická matrika ODDANÝCH, Dvůr Žabí Lhotka + Lužec nad Cidlinou (do 11.1870), Číhary + Hlínov + Vlkov nad Lesy (1837-10.1870), Skochovice (5.1836-11.1870), Žantov (10.1836-2.1870), Bludy + Lovčice (do 9.1870), Lišice + Lišičky (11.1836-7.1870), Slibovice (2.1838-7.1870)",
+    "snimku": 231,
+    "url": "https://aron.vychodoceskearchivy.cz/apu/334cfeb8-253f-4a93-9b98-77035ed3a3c6"
+  },
+  "ebad_10058": {
+    "archiv": "SOA Praha – Sbírka matrik",
+    "portal": "eBadatelna",
+    "svazek": "Žiželice 06, N 1853–1860, Ni 1853–1860",
+    "popis": "Bílé Vchynice, Freudenthal, Hlavečník, Hradišťko II, Končice, Korce, Kundratice, Loukonosy, Převýšov, Radovesnice II, Rasochy, Rozehnaly, Tetov, Zbraň, Žiželice",
+    "snimku": 425,
+    "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/10058"
+  },
+  "ebad_10059": {
+    "archiv": "SOA Praha – Sbírka matrik",
+    "portal": "eBadatelna",
+    "svazek": "Žiželice 07, N 1861–1865, Ni 1861–1865",
+    "popis": "Bílé Vchynice, Freudenthal, Hlavečník, Hradišťko II, Končice, Korce, Kundratice, Loukonosy, Převýšov, Radovesnice II, Rasochy, Rozehnaly, Tetov, Zbraň, Žiželice",
+    "snimku": 272,
+    "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/10059"
+  },
+  "mza_13256": {
+    "archiv": "MZA Brno",
+    "portal": "Actapublica",
+    "fond": "Zvole římskokatolická církev",
+    "svazek": "sign. 16563 (N: 1844 - 1924 -, O: - -, Z: - -)",
+    "obce": "",
+    "roky": "N: 1844 - 1924 -, O: - -, Z: - -",
+    "snimku": 202,
+    "url": "https://www.mza.cz/actapublica/matrika/detail/13256"
+  },
+  "mza_5307": {
+    "archiv": "MZA Brno",
+    "portal": "Actapublica",
+    "fond": "Bystřice nad Pernštejnem římskokatolická církev",
+    "svazek": "sign. 15492 (N: - 1834 - 1883, O: - -, Z: - -)",
+    "obce": "",
+    "roky": "N: - 1834 - 1883, O: - -, Z: - -",
+    "snimku": 101,
+    "url": "https://www.mza.cz/actapublica/matrika/detail/5307"
+  },
+  "mza_4821": {
+    "archiv": "MZA Brno",
+    "portal": "Actapublica",
+    "fond": "Bystřice nad Pernštejnem římskokatolická církev",
+    "svazek": "sign. 15420 (N: 1865 - 1887 -, O: - -, Z: - -)",
+    "obce": "",
+    "roky": "N: 1865 - 1887 -, O: - -, Z: - -",
+    "snimku": 296,
+    "url": "https://www.mza.cz/actapublica/matrika/detail/4821"
+  },
+  "mza_4822": {
+    "archiv": "MZA Brno",
+    "portal": "Actapublica",
+    "fond": "Bystřice nad Pernštejnem římskokatolická církev",
+    "svazek": "sign. 15421 (N: 1888 - 1904 -, O: - -, Z: - -)",
+    "obce": "",
+    "roky": "N: 1888 - 1904 -, O: - -, Z: - -",
+    "snimku": 180,
+    "url": "https://www.mza.cz/actapublica/matrika/detail/4822"
+  },
+  "mza_11307": {
+    "archiv": "MZA Brno",
+    "portal": "Actapublica",
+    "fond": "Bystřice nad Pernštejnem římskokatolická církev",
+    "svazek": "sign. 15496 (N: - -, O: - 1895 - 1942, Z: - -)",
+    "obce": "",
+    "roky": "N: - -, O: - 1895 - 1942, Z: - -",
+    "snimku": 40,
+    "url": "https://www.mza.cz/actapublica/matrika/detail/11307"
+  },
+  "mza_11311": {
+    "archiv": "MZA Brno",
+    "portal": "Actapublica",
+    "fond": "Bystřice nad Pernštejnem římskokatolická církev",
+    "svazek": "sign. 15461 (N: - -, O: 1895 - 1942 -, Z: - -)",
+    "obce": "",
+    "roky": "N: - -, O: 1895 - 1942 -, Z: - -",
+    "snimku": 191,
+    "url": "https://www.mza.cz/actapublica/matrika/detail/11311"
+  },
+  "mza_973": {
+    "archiv": "MZA Brno",
+    "portal": "Actapublica",
+    "fond": "Bystřice nad Pernštejnem římskokatolická církev",
+    "svazek": "sign. 15499 (N: - -, O: - -, Z: - 1836 - 1902)",
+    "obce": "",
+    "roky": "N: - -, O: - -, Z: - 1836 - 1902",
+    "snimku": 89,
+    "url": "https://www.mza.cz/actapublica/matrika/detail/973"
+  },
+  "mza_5287": {
+    "archiv": "MZA Brno",
+    "portal": "Actapublica",
+    "fond": "Bystřice nad Pernštejnem římskokatolická církev",
+    "svazek": "sign. 15471 (N: - -, O: - -, Z: 1844 - 1884 -)",
+    "obce": "",
+    "roky": "N: - -, O: - -, Z: 1844 - 1884 -",
+    "snimku": 180,
+    "url": "https://www.mza.cz/actapublica/matrika/detail/5287"
+  },
+  "mza_12962": {
+    "archiv": "MZA Brno",
+    "portal": "Actapublica",
+    "fond": "Bystřice nad Pernštejnem římskokatolická církev",
+    "svazek": "sign. 15472 (N: - -, O: - -, Z: 1885 - 1949 -)",
+    "obce": "",
+    "roky": "N: - -, O: - -, Z: 1885 - 1949 -",
+    "snimku": 217,
+    "url": "https://www.mza.cz/actapublica/matrika/detail/12962"
+  },
+  "mza_6793": {
+    "archiv": "MZA Brno",
+    "portal": "Actapublica",
+    "fond": "Nové Město na Moravě římskokatolická církev",
+    "svazek": "sign. 15925 (N: 1878 - 1899 1878 - 1899, O: - -, Z: - -)",
+    "obce": "",
+    "roky": "N: 1878 - 1899 1878 - 1899, O: - -, Z: - -",
+    "snimku": 389,
+    "url": "https://www.mza.cz/actapublica/matrika/detail/6793"
+  },
+  "mza_6817": {
+    "archiv": "MZA Brno",
+    "portal": "Actapublica",
+    "fond": "Nové Město na Moravě římskokatolická církev",
+    "svazek": "sign. 15946 (N: - 1857 - 1877, O: - -, Z: - -)",
+    "obce": "",
+    "roky": "N: - 1857 - 1877, O: - -, Z: - -",
+    "snimku": 45,
+    "url": "https://www.mza.cz/actapublica/matrika/detail/6817"
+  },
+  "mza_1014": {
+    "archiv": "MZA Brno",
+    "portal": "Actapublica",
+    "fond": "Svratka římskokatolická církev",
+    "svazek": "sign. 16293 (N: - -, O: 1894 - 1923 1894 - 1923, Z: - -)",
+    "obce": "",
+    "roky": "N: - -, O: 1894 - 1923 1894 - 1923, Z: - -",
+    "snimku": 281,
+    "url": "https://www.mza.cz/actapublica/matrika/detail/1014"
+  },
+  "mza_1011": {
+    "archiv": "MZA Brno",
+    "portal": "Actapublica",
+    "fond": "Strážek římskokatolická církev",
+    "svazek": "sign. 16251 (N: - -, O: 1865 - 1913 -, Z: - -)",
+    "obce": "",
+    "roky": "N: - -, O: 1865 - 1913 -, Z: - -",
+    "snimku": 150,
+    "url": "https://www.mza.cz/actapublica/matrika/detail/1011"
+  }
 }

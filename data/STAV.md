@@ -263,8 +263,31 @@ pak konec `research_log.md` a sekci „Rozpracováno“.
   - V rodokmenu celkem evidováno **171 osob** (z toho **33 doložených primárních zápisů** ze snímků matrik ve 32 svazcích, 50 řádků deníku).
   - Do `data/zajimavosti.md` přidány 2 nové kapitoly (Kovářská dynastie pěti generací, Záhada březnového data narození kováře Jana Černého) vytvořené a zrevidované s využitím modelu Ollama qwen2.5:7b.
 
+- 27. 10. 2026: Prověření a rekonstrukce rodiny Krejzků z Bystřice nad Pernštejnem (předci Julie Menšík Čákiové):
+  - **MUDr. Miroslav Krejzek (* 3. 9. 1914 Bystřice n. P. čp. 147 – † 27. 5. 1978 Žamberk, č. 14):**
+    - Potvrzeno narození v domě čp. 147 v Bystřici nad Pernštejnem. Maturita 7. 6. 1933 na reálném gymnáziu v Tišnově, promoce 23. 6. 1939 na Karlově univerzitě v Praze (MUDr., matrika doktorů UK pag. 4844).
+    - Legendární primář plicního oddělení a hrudní chirurg v léčebně Albertinum v Žamberku (od března 1946 do své smrti 1978).
+  - **Otakar Krejzek st. (* asi 1880–1885, č. 28) a Františka Krejzková (* asi 1885–1890, č. 29):**
+    - Otakar Krejzek st. přesně identifikován jako **mistr kolářský v Bystřici nad Pernštejnem č. p. 147**, doložený v *Adresářích Republiky Československé pro průmysl, živnosti, obchod a zemědělství* (1931–1939) v rubrice „Koláři – Krejzek, Otakar“.
+    - S manželkou Františkou vychovali v domě čp. 147 šest synů:
+      1. **Otakar Krejzek ml.** (* cca 1908–1910), student učitelského ústavu v Brně (1928–1929).
+      2. **Bedřich Krejzek** (* cca 1909–1911), student učitelského ústavu v Brně (1928–1930).
+      3. **MUDr. Emil Krejzek** (* cca 1911–1913), absolvent gymnázia v Tišnově (1925–1929), praktický lékař (MUDr.) v Bystřici nad Pernštejnem (doložen ve Zdravotnické ročence 1939–1940 a Adresáři lékařů 1942).
+      4. **MUDr. Miroslav Krejzek** (* 3. 9. 1914 Bystřice čp. 147, † 27. 5. 1978 Žamberk).
+      5. **Václav Krejzek** (* cca 1919–1921), student gymnázia v Tišnově (1933–1938).
+      6. **Šestý bratr Krejzek**.
+  - **Vyvrácení falešné hypotézy o Augustinu Korejzlovi:**
+    - Původní pracovní hypotéza předpokládala možnou vazbu na bystřického nadučitele a c. k. okresního školního inspektora Augustina Korejzla.
+    - Systematická archivní prověrka matrik narozených i zemřelých (MZA Brno, Bystřice n. P. sign. 15420 / Detail 4821 a sign. 15471 / Detail 5287) nezvratně prokázala, že všechny děti Augustina Korejzla zemřely v raném dětství: Adolf Josef (* 1866, † 1867), Augustin (* 1867, † 1867), Marie Františka (* 1869, † 1869), Anna Emilia (* 1869, † 1872), Václav (* 1872, † 1872), Karel Josef (* 1871, † 1873). Jediný dospělosti se doživší syn Emil Vojtěch (* 15. 1. 1874) byl vysvěcen na římskokatolického kněze (P. Emil Korejzl, farář v Pasohlávkách a Mušově, bezdětný). Tím je otcovství Augustina Korejzla definitivně vyloučeno.
+  - **Původ rodu Krejzků:**
+    - V indexech narozených Bystřice nad Pernštejnem (1834–1883) ani Nového Města na Moravě (1857–1899) není narození Otakara Krejzka zapsáno.
+    - V sousední farnosti **Strážek** (čp. 21 a 23) byl doložen historický kmen rodu Krejzků (koláři, stolaři a rolníci: Tomáš a František Krejzek), což představuje hlavní geografické a profesní ohnisko rodu v kraji.
+    - Sňatek Otakara Krejzka st. a Františky se konal mimo Bystřici (v oddacím indexu Bystřice 1895–1942 nefiguruje), nejpravděpodobněji v rodné farnosti nevěsty.
+    - Matriky narozených Bystřice nad Pernštejnem po roce 1904 (včetně narození Miroslava a jeho bratrů) podléhají 100leté lhytě a jsou dosud uloženy na Městském úřadě Bystřice nad Pernštejnem.
+  - V rodokmenu celkem evidováno **171 osob** (z toho **34 doložených primárních zápisů** ze snímků matrik a archiválií ve 46 svazcích, 58 řádků deníku).
+
 - Další kroky k prozkoumání:
-  1. Křest Kateřiny Ouzké ml. (* cca 1857, nemanželská dcera Kateřiny Ouzké st. z Končic čp. 14).
-  2. Slovenská řeckokatolická větev Čáki a Bubanec (farnost Dúbrava, okres Snina na Zemplíně – matriky na FamilySearch).
-  3. Sňatek Otakara Krejzka a Františky (kolem 1905–1913 na Moravě mimo Bystřici n. P.).
+  1. Původ a narození koláře Otakara Krejzka st. (* cca 1880–1885) v matrikách farnosti Strážek a okolních farností Vysočiny, popř. v operátech sčítání lidu 1921 pro Bystřici n. P. čp. 147 (SOkA Žďár nad Sázavou).
+  2. Zjištění dívčího příjmení a původu prababičky Františky Krejzkové (* cca 1885–1890) a dohledání sňatku (cca 1905–1910 mimo Bystřici n. P.).
+  3. Slovenská řeckokatolická větev Čáki a Bubanec (farnost Dúbrava, okres Snina na Zemplíně – matriky na FamilySearch).
   4. Starší generace kovářů Černých v Dobšicích a Malém Zboží (farnost Žehuň).
