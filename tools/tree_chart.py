@@ -262,20 +262,56 @@ for g, ulist in units_by_g.items():
 
 
 def resolve_overlaps(ulist):
+    """Symmetric 1D block-merge (VPSC) overlap resolution: preserves the center of mass of every colliding group."""
     if len(ulist) <= 1:
         return
-    # Left-to-right push
-    for i in range(len(ulist) - 1):
-        a, b = ulist[i], ulist[i + 1]
-        min_dist = (a["width"] + b["width"]) / 2 + UNIT_GAP
-        if b["x"] - a["x"] < min_dist:
-            b["x"] = a["x"] + min_dist
-    # Right-to-left pull to keep displacement symmetric
-    for i in range(len(ulist) - 1, 0, -1):
-        a, b = ulist[i - 1], ulist[i]
-        min_dist = (a["width"] + b["width"]) / 2 + UNIT_GAP
-        if b["x"] - a["x"] < min_dist:
-            a["x"] = b["x"] - min_dist
+    blocks = []
+    for i, u in enumerate(ulist):
+        blocks.append([i, i, [0.0], u["x"], 1])
+        while len(blocks) >= 2:
+            b1, b2 = blocks[-2], blocks[-1]
+            x1_base = b1[3] / b1[4]
+            x2_base = b2[3] / b2[4]
+            u_last = ulist[b1[1]]
+            u_first = ulist[b2[0]]
+            min_d = (u_last["width"] + u_first["width"]) / 2 + UNIT_GAP
+            actual_d = x2_base - (x1_base + b1[2][-1])
+            if actual_d >= min_d:
+                break
+            blocks.pop()
+            base_off = b1[2][-1] + min_d
+            for off in b2[2]:
+                b1[2].append(base_off + off)
+            for j in range(b2[0], b2[1] + 1):
+                b1[3] += ulist[j]["x"] - b1[2][j - b1[0]]
+            b1[1] = b2[1]
+            b1[4] += b2[4]
+    for start_i, end_i, offsets, sum_d, cnt in blocks:
+        base_x = sum_d / cnt
+        for idx, off in enumerate(offsets):
+            ulist[start_i + idx]["x"] = base_x + off
+
+
+def place_siblings(ulist):
+    by_couple_dir = {}
+    for u in ulist:
+        if u["sibling_anchor_k"]:
+            anc_uid = p_unit_id.get(u["sibling_anchor_k"])
+            if anc_uid:
+                d = u["sib_dir"] or (-1 if (u["sibling_anchor_k"] % 2 == 0) else 1)
+                by_couple_dir.setdefault((anc_uid, d), []).append(u)
+    for (anc_uid, dir_sign), sib_units in by_couple_dir.items():
+        anc_u = units[anc_uid]
+        if dir_sign > 0:
+            cur_edge = anc_u["x"] + anc_u["width"] / 2 + UNIT_GAP
+            for su in sib_units:
+                su["x"] = cur_edge + su["width"] / 2
+                cur_edge += su["width"] + UNIT_GAP
+        else:
+            cur_edge = anc_u["x"] - anc_u["width"] / 2 - UNIT_GAP
+            for su in reversed(sib_units):
+                su["x"] = cur_edge - su["width"] / 2
+                cur_edge -= su["width"] + UNIT_GAP
 
 
 def sync_node_positions():
@@ -293,10 +329,10 @@ def sync_node_positions():
                 nodes[nids[1]]["y"] = y
 
 
-# Iterative relaxation (bottom-up + top-down)
-for it in range(80):
+# Iterative relaxation (bottom-up + top-down, anchored on starting point in the center)
+for it in range(120):
     sync_node_positions()
-    # 1. Bottom-up: align ancestor couples directly above their children in P,
+    # 1. Bottom-up: align ancestor couples above their children (with gentle pull toward their own parents),
     #    then place top-level siblings right next to their anchor couple BEFORE resolving overlaps
     for g in range(1, max_g + 1):
         ulist = units_by_g[g]
@@ -309,34 +345,30 @@ for it in range(80):
                     cxs = [nodes[p_node_id[m]]["x"]]
                 else:
                     cxs = [nodes[cid]["x"] for _, cid in u["children"]]
-                if cxs:
+                pxs = [units[f"u_couple_{kk}"]["x"] for kk in (2 * m, 2 * m + 1) if f"u_couple_{kk}" in units]
+                if cxs and pxs:
+                    u["x"] = 0.65 * (sum(cxs) / len(cxs)) + 0.35 * (sum(pxs) / len(pxs))
+                elif cxs:
                     u["x"] = sum(cxs) / len(cxs)
-        # Group top-level siblings by their anchor couple unit and direction so they stack cleanly
-        by_couple_dir = {}
-        for u in ulist:
-            if u["sibling_anchor_k"]:
-                anc_uid = p_unit_id.get(u["sibling_anchor_k"])
-                if anc_uid:
-                    d = u["sib_dir"] or (-1 if (u["sibling_anchor_k"] % 2 == 0) else 1)
-                    by_couple_dir.setdefault((anc_uid, d), []).append(u)
-        for (anc_uid, dir_sign), sib_units in by_couple_dir.items():
-            anc_u = units[anc_uid]
-            if dir_sign > 0:
-                cur_edge = anc_u["x"] + anc_u["width"] / 2 + UNIT_GAP
-                for su in sib_units:
-                    su["x"] = cur_edge + su["width"] / 2
-                    cur_edge += su["width"] + UNIT_GAP
-            else:
-                cur_edge = anc_u["x"] - anc_u["width"] / 2 - UNIT_GAP
-                for su in reversed(sib_units):
-                    su["x"] = cur_edge - su["width"] / 2
-                    cur_edge -= su["width"] + UNIT_GAP
+        place_siblings(ulist)
         resolve_overlaps(ulist)
         sync_node_positions()
 
-    # 2. Top-down: align descendant units of side branches and gen 0 under their parents
+    # 2. Top-down: align couples between their parents and children, and place descendant units under their parents
     for g in range(max_g - 1, -1, -1):
         ulist = units_by_g[g]
+        for u in ulist:
+            if u["id"].startswith("u_couple_"):
+                m = int(u["id"].split("_")[-1])
+                if m == 1:
+                    cxs = [nodes[cid]["x"] for _, cid in u["children"]]
+                elif m in p_node_id:
+                    cxs = [nodes[p_node_id[m]]["x"]]
+                else:
+                    cxs = [nodes[cid]["x"] for _, cid in u["children"]]
+                pxs = [units[f"u_couple_{kk}"]["x"] for kk in (2 * m, 2 * m + 1) if f"u_couple_{kk}" in units]
+                if pxs and cxs:
+                    u["x"] = 0.55 * (sum(cxs) / len(cxs)) + 0.45 * (sum(pxs) / len(pxs))
         by_parent = {}
         for u in ulist:
             if u["parents_unit"] and not u["id"].startswith("u_couple_") and not u["sibling_anchor_k"]:
@@ -348,8 +380,15 @@ for it in range(80):
             for cu in ch_units:
                 cu["x"] = cur + cu["width"] / 2
                 cur += cu["width"] + UNIT_GAP
+        place_siblings(ulist)
         resolve_overlaps(ulist)
         sync_node_positions()
+
+    # Keep starting point (Kryštof, Tea, Hynek a Jonáš Menšíkovi) anchored at x = 0
+    anchor_x = units["u_p_1"]["x"] if "u_p_1" in units else units["u_couple_1"]["x"]
+    for u in units.values():
+        u["x"] -= anchor_x
+    sync_node_positions()
 
 sync_node_positions()
 
