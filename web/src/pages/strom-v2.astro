@@ -327,19 +327,31 @@ const allNames = Object.values(people).map((p: any) => p.name).sort((a: string, 
         .attr('transform', `translate(${NODE_WIDTH - 28}, ${-NODE_HEIGHT / 2 + 15})`)
         .style('display', (d: any) => (d.data.side && d.data.side.length > 0 ? 'block' : 'none'))
         .style('cursor', 'pointer')
+        .on('mousedown pointerdown', (event) => {
+          event.stopPropagation();
+        })
         .on('click', (event, d: any) => {
           event.stopPropagation();
           d.data.showSide = !d.data.showSide;
           update(d);
         });
 
+      // Larger transparent hit target so hovering/clicking never slips
       sideGroup.append('circle')
+        .attr('r', 14)
+        .attr('fill', 'transparent');
+
+      const sideVisual = sideGroup.append('g')
+        .attr('class', 'btn-visual');
+
+      sideVisual.append('circle')
+        .attr('class', 'side-circle')
         .attr('r', 9)
         .attr('fill', (d: any) => (d.data.showSide ? '#6E5D4B' : '#F5EEE4'))
         .attr('stroke', '#8C7B68')
         .attr('stroke-width', 1.4);
 
-      sideGroup.append('text')
+      sideVisual.append('text')
         .attr('text-anchor', 'middle')
         .attr('dy', '3.5px')
         .attr('font-size', '10px')
@@ -380,6 +392,9 @@ const allNames = Object.values(people).map((p: any) => p.name).sort((a: string, 
         .attr('transform', `translate(${NODE_WIDTH}, 0)`)
         .style('display', (d: any) => (d.children || d._children ? 'block' : 'none'))
         .style('cursor', 'pointer')
+        .on('mousedown pointerdown', (event) => {
+          event.stopPropagation();
+        })
         .on('click', (event, d: any) => {
           event.stopPropagation();
           if (d.children) {
@@ -392,13 +407,22 @@ const allNames = Object.values(people).map((p: any) => p.name).sort((a: string, 
           update(d);
         });
 
+      // Larger transparent hit target to prevent hover/click jitter
       toggleGroup.append('circle')
-        .attr('r', 9)
+        .attr('r', 15)
+        .attr('fill', 'transparent');
+
+      const toggleVisual = toggleGroup.append('g')
+        .attr('class', 'btn-visual');
+
+      toggleVisual.append('circle')
+        .attr('class', 'toggle-circle')
+        .attr('r', 9.5)
         .attr('fill', (d: any) => (d._children ? '#8A5A2B' : '#E8DFD3'))
         .attr('stroke', '#8A5A2B')
         .attr('stroke-width', 1.6);
 
-      toggleGroup.append('text')
+      toggleVisual.append('text')
         .attr('text-anchor', 'middle')
         .attr('dy', '3.5px')
         .attr('font-size', '11px')
@@ -449,7 +473,7 @@ const allNames = Object.values(people).map((p: any) => p.name).sort((a: string, 
 
         if (d.data.showSide && d.data.side && d.data.side.length > 0) {
           panel.style('display', 'block');
-          sideBtn.select('circle').attr('fill', '#6E5D4B');
+          sideBtn.select('circle.side-circle').attr('fill', '#6E5D4B');
           sideBtn.select('text').attr('fill', '#FFFFFF');
 
           const itemsContainer = panel.select('.side-items-container');
@@ -470,7 +494,7 @@ const allNames = Object.values(people).map((p: any) => p.name).sort((a: string, 
           panel.select('rect.side-panel-bg').attr('height', totalH);
         } else {
           panel.style('display', 'none');
-          sideBtn.select('circle').attr('fill', '#F5EEE4');
+          sideBtn.select('circle.side-circle').attr('fill', '#F5EEE4');
           sideBtn.select('text').attr('fill', '#6E5D4B');
         }
       });
@@ -478,7 +502,7 @@ const allNames = Object.values(people).map((p: any) => p.name).sort((a: string, 
       nodeUpdate.select('.toggle-btn')
         .style('display', (d: any) => (d.children || d._children ? 'block' : 'none'));
 
-      nodeUpdate.select('.toggle-btn circle')
+      nodeUpdate.select('.toggle-btn circle.toggle-circle')
         .attr('fill', (d: any) => (d._children ? '#8A5A2B' : '#E8DFD3'));
 
       nodeUpdate.select('.toggle-btn text')
@@ -682,30 +706,25 @@ const allNames = Object.values(people).map((p: any) => p.name).sort((a: string, 
     }
 
     .photo-avatar {
-      transition: transform 0.15s ease;
+      transition: filter 0.15s ease;
     }
     .photo-avatar:hover {
-      transform: translate(12px, -24px) scale(1.08);
+      filter: brightness(0.95) drop-shadow(0 1px 4px rgba(59, 46, 34, 0.25));
     }
 
-    .side-btn {
+    .side-btn .btn-visual,
+    .toggle-btn .btn-visual {
       transition: transform 0.15s ease;
     }
-    .side-btn:hover {
-      transform: translate(196px, -19px) scale(1.22);
+    .side-btn:hover .btn-visual,
+    .toggle-btn:hover .btn-visual {
+      transform: scale(1.22);
     }
 
     .d3-link {
       fill: none;
       stroke: #C9BFB0;
       stroke-width: 2px;
-    }
-
-    .toggle-btn {
-      transition: transform 0.15s ease;
-    }
-    .toggle-btn:hover {
-      transform: scale(1.25) translate(224px, 0);
     }
 
     .d3-tooltip {
