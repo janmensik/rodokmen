@@ -391,5 +391,55 @@
     "roky": "N: - -, O: 1865 - 1913 -, Z: - -",
     "snimku": 150,
     "url": "https://www.mza.cz/actapublica/matrika/detail/1011"
+  },
+  "mza_10294": {
+    "archiv": "MZA Brno",
+    "portal": "Actapublica",
+    "fond": "Strážek římskokatolická církev",
+    "svazek": "sign. 16258 (N: - 1756 - 1922, O: - -, Z: - -)",
+    "obce": "",
+    "roky": "N: - 1756 - 1922, O: - -, Z: - -",
+    "snimku": 170,
+    "url": "https://www.mza.cz/actapublica/matrika/detail/10294"
+  },
+  "mza_11312": {
+    "archiv": "MZA Brno",
+    "portal": "Actapublica",
+    "fond": "Bystřice nad Pernštejnem římskokatolická církev",
+    "svazek": "sign. 15463 (N: - -, O: 1895 - 1942 -, Z: - -)",
+    "obce": "",
+    "roky": "N: - -, O: 1895 - 1942 -, Z: - -",
+    "snimku": 231,
+    "url": "https://www.mza.cz/actapublica/matrika/detail/11312"
+  },
+  "mza_12912": {
+    "archiv": "MZA Brno",
+    "portal": "Actapublica",
+    "fond": "Bystřice nad Pernštejnem římskokatolická církev",
+    "svazek": "sign. 15487 (N: - -, O: - -, Z: 1885 - 1949 -)",
+    "obce": "",
+    "roky": "N: - -, O: - -, Z: 1885 - 1949 -",
+    "snimku": 123,
+    "url": "https://www.mza.cz/actapublica/matrika/detail/12912"
+  },
+  "mza_12907": {
+    "archiv": "MZA Brno",
+    "portal": "Actapublica",
+    "fond": "Bystřice nad Pernštejnem římskokatolická církev",
+    "svazek": "sign. 15488 (N: - -, O: - -, Z: 1885 - 1949 -)",
+    "obce": "",
+    "roky": "N: - -, O: - -, Z: 1885 - 1949 -",
+    "snimku": 150,
+    "url": "https://www.mza.cz/actapublica/matrika/detail/12907"
+  },
+  "mza_13024": {
+    "archiv": "MZA Brno",
+    "portal": "Actapublica",
+    "fond": "Bystřice nad Pernštejnem římskokatolická církev",
+    "svazek": "sign. 15462 (N: - -, O: 1943 - 1949 -, Z: - -)",
+    "obce": "",
+    "roky": "N: - -, O: 1943 - 1949 -, Z: - -",
+    "snimku": 33,
+    "url": "https://www.mza.cz/actapublica/matrika/detail/13024"
   }
 }

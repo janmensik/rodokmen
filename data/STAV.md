@@ -286,8 +286,15 @@ pak konec `research_log.md` a sekci „Rozpracováno“.
     - Matriky narozených Bystřice nad Pernštejnem po roce 1904 (včetně narození Miroslava a jeho bratrů) podléhají 100leté lhytě a jsou dosud uloženy na Městském úřadě Bystřice nad Pernštejnem.
   - V rodokmenu celkem evidováno **171 osob** (z toho **34 doložených primárních zápisů** ze snímků matrik a archiválií ve 46 svazcích, 58 řádků deníku).
 
+- 28. 10. 2026: Objev sňatků bratří MUDr. Miroslava Krejzka v Bystřici nad Pernštejnem, rozluštění dívčího příjmení prababičky Františky Krejzkové roz. Sýsové a jejího otce Leopolda Sýse:
+  - **Sňatek bratra MUDr. Emila Krejzka (12. 6. 1943):** Matrika Bystřice nad Pernštejnem sign. 15462 (MZA Brno, Detail 13024, sn. 5, pag. 4, č. 3). Praktický lékař MUDr. Emil Krejzek (* 11. 10. 1910 Bystřice n/P., bytem čp. 433) oddán s Miroslavou (Miladou) Šípkovou-Křížovou (* 20. 1. 1914 Olomouc – Nová Ulice). Zápis výslovně uvádí rodiče ženicha: **Otakar Krejzek, kolář na Nových Dvorech u Bystřice n/P.**, a **Františka, rozená Sýs Leopold, hajný z Borovníka**. Svědkem byl nejstarší (šestý) bratr **Ladislav Krejzek (* 1905), odborný učitel v Bystřici n/P. čp. 451**.
+  - **Sňatek nejmladšího bratra MUC. Václava Krejzka (7. 4. 1949):** Táž matrika Bystřice nad Pernštejnem sign. 15462 (Detail 13024, sn. 30, pag. 54). Absolvent medicíny MUC. Václav Krejzek (* 25. 3. 1919 Bystřice n/P., bytem čp. 433), syn koláře Otakara Krejzka a Františky roz. Leopolda Sýse, oddán na Starém Brně s poštovní úřednicí Naděždou Smetanovou (* 3. 10. 1926 Svitavy). Za svědky šli oba bratři-lékaři: **MUDr. Emil Krejzek** (Bystřice n/P. čp. 404) a přímý předek **MUDr. Miroslav Krejzek** (lékař, Žamberk, Habrmanova čp. 627).
+  - Do rodokmenu nově doložen předek v 5. generaci: **Leopold Sýs** (č. 58, hajný v Borovníku, otec Františky Krejzkové roz. Sýsové, prapradědeček Julie) a zkompletována celá šestice bratří Krejzkových (Ladislav * 1905, Otakar ml., Bedřich, MUDr. Emil * 1910, MUDr. Miroslav * 1914, MUDr. Václav * 1919).
+  - Prověřeny matriky farností Březí (pro obec Borovník) a Heřmanov: hajný Leopold Sýs sloužil v Borovníku na panské hájovně dočasně a sňatek Otakara Krejzka s Františkou Sýsovou (před r. 1905) se konal mimo farnosti Bystřice, Březí a Heřmanov.
+  - V rodokmenu celkem evidováno **172 osob** (z toho **36 doložených primárních zápisů** ze snímků matrik a archiválií ve 47 svazcích, 63 řádků deníku).
+
 - Další kroky k prozkoumání:
-  1. Původ a narození koláře Otakara Krejzka st. (* cca 1880–1885) v matrikách farnosti Strážek a okolních farností Vysočiny, popř. v operátech sčítání lidu 1921 pro Bystřici n. P. čp. 147 (SOkA Žďár nad Sázavou).
-  2. Zjištění dívčího příjmení a původu prababičky Františky Krejzkové (* cca 1885–1890) a dohledání sňatku (cca 1905–1910 mimo Bystřici n. P.).
+  1. Původ a narození koláře Otakara Krejzka st. (* cca 1880–1885) a sňatek s Františkou Sýsovou (před r. 1905), např. prostřednictvím sčítacích operátů 1921 pro Bystřici n. P. – Nové Dvory čp. 147 (SOkA Žďár nad Sázavou) nebo farního archivu v Bystřici n/P. (snubní protokoly z let 1943 a 1949).
+  2. Původ hajného Leopolda Sýse (č. 58) a narození jeho dcery Františky Sýsové (* cca 1880–1885).
   3. Slovenská řeckokatolická větev Čáki a Bubanec (farnost Dúbrava, okres Snina na Zemplíně – matriky na FamilySearch).
   4. Starší generace kovářů Černých v Dobšicích a Malém Zboží (farnost Žehuň).

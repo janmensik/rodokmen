@@ -283,5 +283,11 @@
     "lat": 49.9705,
     "lon": 15.2013,
     "osm": "Bojiště, Červené Pečky, okres Kolín, Středočeský kraj, 281 21, Česko"
+  },
+  "Borovník": {
+    "re": "Borovník",
+    "dotaz": "Borovník, okres Brno-venkov, Česko",
+    "lat": 49.3547,
+    "lon": 16.2286
   }
 }

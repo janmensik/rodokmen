@@ -394,5 +394,29 @@
   ],
   "status": "ok",
   "note": "Narození a křest Kateřiny Ouzké ml."
+ },
+ "bystrice_oddani_emil_krejzek_1943": {
+  "boxes": [
+   [
+    0.02,
+    0.23,
+    0.98,
+    0.88
+   ]
+  ],
+  "status": "ok",
+  "note": "Sňatek MUDr. Emila Krejzka a Milady Šípkové-Křížové (12. 6. 1943, Bystřice nad Pernštejnem)"
+ },
+ "bystrice_oddani_vaclav_krejzek_1949": {
+  "boxes": [
+   [
+    0.02,
+    0.52,
+    0.98,
+    0.95
+   ]
+  ],
+  "status": "ok",
+  "note": "Sňatek MUC. Václava Krejzka a Naděždy Smetanové (7. 4. 1949, Staré Brno / Bystřice nad Pernštejnem)"
  }
 }
