@@ -2,7 +2,16 @@
 import Base from '../layouts/Base.astro';
 import fan from '../generated/fan.svg?raw';
 import { people } from '../lib/data.js';
-const names = [...new Set(Object.values(people).filter((p) => p.k > 1).map((p) => p.name))].sort((a, b) => a.localeCompare(b, 'cs'));
+const rawNames: string[] = [];
+for (const p of Object.values(people).filter((p) => p.k > 1)) {
+  rawNames.push(p.name);
+  if (p.roz) {
+    rawNames.push(`${p.name} (roz. ${p.roz})`);
+    const firstName = p.name.split(/\s+/)[0];
+    rawNames.push(`${firstName} ${p.roz}`);
+  }
+}
+const names = [...new Set(rawNames)].sort((a, b) => a.localeCompare(b, 'cs'));
 ---
 <Base title="Vějíř předků" full>
   <div class="fan-bar">
@@ -80,7 +89,11 @@ const names = [...new Set(Object.values(people).filter((p) => p.k > 1).map((p) =
       const q = norm((e.currentTarget as HTMLFormElement).querySelector('input')!.value.trim());
       if (!q) return;
       svg.querySelectorAll('.fan-links a.hit').forEach((a) => a.classList.remove('hit'));
-      const hits = [...svg.querySelectorAll<SVGAElement>('.fan-links a')].filter((a) => norm(a.querySelector('title')?.textContent ?? '').includes(q));
+      const hits = [...svg.querySelectorAll<SVGAElement>('.fan-links a')].filter((a) => {
+        const title = norm(a.querySelector('title')?.textContent ?? '');
+        const words = q.split(/\s+/).filter(Boolean);
+        return words.every((w) => title.includes(w));
+      });
       if (!hits.length) return;
       hits.forEach((a) => a.classList.add('hit'));
       const bb = (hits[0].lastElementChild as SVGGraphicsElement).getBBox();

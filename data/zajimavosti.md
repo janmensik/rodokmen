@@ -117,3 +117,18 @@ Klíčovým okamžikem pro kovářský rod byla svatba Františka Černého dne 
 Při bádání o kováři Janu Černém se dlouho vycházelo z oddacího zápisu z 20. července 1885 v Poděbradech, kde byl zapsán s datem narození 13. prosince 1860. Nález původního primárního zápisu v matrice narozených farnosti Žehuň (svazek Žehuň 04, sn. 257) pro Dobšice však přinesl překvapivé zjištění: Jan Nepomuk se ve skutečnosti narodil **12. března 1860** v Dobšicích čp. 27! 
 
 Na levém okraji křestního zápisu je vepsána autentická úřední poznámka: *„List křestní k ženění 18 3/7 85“* – tedy křestní list vystavený žehuňským administrátorem 3. července 1885 přesně pro chystanou poděbradskou svatbu. Písař na poděbradské matrice se při zápisu dopustil typické písařské chyby: zaměnil 3. měsíc (březen) za 12. měsíc (prosinec) a den 12 za 13. Originální křestní zápis s úředním přípisem tak po 140 letech definitivně vyřešil záhadu jeho data narození.
+
+## Svobodnické a evangelické kořeny na Vysočině: Rody Krejzků, Hamříků a Falských
+
+Nové archivní nálezy v matrikách Moravského zemského archivu v Brně odhalily hluboké a fascinující kořeny předků z rodové linie Krejzků (předků Julie Menšík Čákiové) v drsném kraji Českomoravské vrchoviny mezi Blažkovem, Zvolí, Rožnou a Novým Městem na Moravě.
+
+### Původ mistra kolářského Otakara Jana Krejzka (* 1877)
+Pradědeček [Otakar Krejzek](/osoba/otakar-jan-krejzek-1877/) (* 6. 5. 1877 Blažkov čp. 20), který vybudoval vyhlášenou kolářskou dílnu na Nových Dvorech v Bystřici nad Pernštejnem a vychoval se svou chotí Františkou rozenou Sýsovou šest synů (včetně dvou lékařů a dvou profesorů), se narodil v Blažkově čp. 20. Jeho narození a křest z 10. května 1877 zapsal v matrice Českobratrské církve evangelické v Novém Městě na Moravě známý toleranční farář Ferdinand Císař. Otakarovým otcem byl evangelický rolník Václav Krejsek (* cca 1848 Blažkov čp. 26) a matkou Marie rozená Hamříková (* 16. 4. 1849 Blažkov čp. 14).
+
+### Blažkovští svobodníci (Freysaßen) a mlynáři
+Matka Marie Hamříková pocházela z výjimečné vrstvy venkovského obyvatelstva – z rodu **svobodníků (Freisassen / Freysaßen)**, kteří nepodléhali vrchnostenské robotě na panském a požívali osobní svobody a dědičné držby půdy. Její otec František Hamřík ml. (* cca 1826) i dědeček František Hamřík st. († před 1847) drželi rodový svobodnický dvůr v Blažkově čp. 14. 
+
+V únoru 1847 se František Hamřík oženil se sedmnáctiletou Annou Falskou. Její otec František Falský byl rovněž svobodníkem v Blažkově čp. 28, ale zároveň zámožným gruntovníkem a hostinským ve Zvoli čp. 10. Babička Augustina Josefa Hamříková byla navíc dcerou Václava Valouška, mlynářského mistra na mlýně ve Zvoli čp. 65. Zápis z roku 1847 nese vlastnoruční podpis otce Františka Falského, který osobně stvrdil sňatek své nezletilé dcery.
+
+### Sňatek Jana Krejska a kazatel Gedeon Šlachta z Veselí (1825)
+Dědeček Václava Krejska, sedlák Jan Krejsek z Blažkova čp. 26, uzavřel 8. února 1825 sňatek s Annou Procházkovou z nově založené familiantské osady Josefsdorf (Storf) čp. 5. Protože oba snoubenci byli evangelického vyznání, oddal je přímo ve vsi legendární evangelický pastor ze sboru ve Veselí u Dalečína **Gedeon Šlachta** (působil ve Veselí v letech 1810–1831), za jehož éry byl ohrazen tamní evangelický hřbitov a postavena nová zděná fara. Katolický farář v Rožné musel jako státní matrikář tento protestantský sňatek úředně zapsat do farní knihy, kde je kazatel Šlachta výslovně uveden jako oddávající duchovní.

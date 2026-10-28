@@ -218,7 +218,7 @@ def main():
             path.append(slugs.get(c))
             c //= 2
         people[slugs[k]] = dict(
-            k=k, slug=slugs[k], name=p["n"], y=p.get("y", ""), years=fakta.years(p.get("y")), st=p.get("st", "unk"),
+            k=k, slug=slugs[k], name=p["n"], roz=p.get("roz", ""), y=p.get("y", ""), years=fakta.years(p.get("y")), st=p.get("st", "unk"),
             status=STATUS.get(p.get("st"), ""), gen=gen(k), sex="M" if k == 1 and p.get("sex", "M") == "M" or k > 1 and k % 2 == 0 else "F",
             rel=relation(k), line=line_of(k), facts=fakta.all_facts(p), details=fakta.structure(p), note=p.get("note", ""), records=[r for r in p.get("r", []) if r in recs],
             father=slugs.get(2 * k), mother=slugs.get(2 * k + 1),

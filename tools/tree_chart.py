@@ -118,9 +118,9 @@ UNIT_GAP = 28
 ROW_STEP = 196
 
 
-def add_node(nid, name, yrs, sub, g, k_link, color, is_side=False, is_unk=False, photo=None):
+def add_node(nid, name, yrs, sub, g, k_link, color, is_side=False, is_unk=False, photo=None, maiden=""):
     nodes[nid] = dict(id=nid, name=name, years=yrs, sub=sub, g=g, k_link=k_link,
-                      color=color, is_side=is_side, is_unk=is_unk, photo=photo, x=0.0, y=0.0)
+                      color=color, is_side=is_side, is_unk=is_unk, photo=photo, maiden=maiden, x=0.0, y=0.0)
     return nid
 
 
@@ -162,8 +162,9 @@ for k in sorted(k for k in P if k >= 2):
         if kk in P:
             pk = P[kk]
             unk = pk.get("st") == "unk" or pk["n"].startswith("otec neuveden")
+            maiden = pk.get("roz", "")
             nid = add_node(f"p_{kk}", pk["n"], fakta.years(pk.get("y") or fakta.birth_years(pk)), card_subtitle(pk),
-                           g, kk if not unk else None, color_for_k(kk), is_unk=unk, photo=PORTRAIT.get(kk))
+                           g, kk if not unk else None, color_for_k(kk), is_unk=unk, photo=PORTRAIT.get(kk), maiden=maiden)
             p_node_id[kk] = nid
             nids.append(nid)
     skey = canonical_pos(m)
@@ -189,13 +190,13 @@ def build_side_branch(v, g, k_anchor, skey, parent_uid=None, sibling_k=None, is_
     yrs = fakta.years(v.get("y") or fakta.birth_years(v))
     sub = card_subtitle(v, is_side=True)
     col = color_for_k(k_anchor, is_side=True)
-    nid = add_node(f"side_{idx_tag}", name, yrs, sub, g, k_anchor, col, is_side=True)
+    nid = add_node(f"side_{idx_tag}", name, yrs, sub, g, k_anchor, col, is_side=True, maiden=v.get("roz", ""))
     nids = [nid]
     if v.get("manzel"):
         sp = v["manzel"]
         sp_yrs = fakta.years(sp.get("y") or fakta.birth_years(sp))
         sp_sub = card_subtitle(sp, is_side=True)
-        sp_id = add_node(f"side_{idx_tag}_sp", sp["n"], sp_yrs, sp_sub, g, k_anchor, col, is_side=True)
+        sp_id = add_node(f"side_{idx_tag}_sp", sp["n"], sp_yrs, sp_sub, g, k_anchor, col, is_side=True, maiden=sp.get("roz", ""))
         nids.append(sp_id)
     uid = add_unit(f"u_side_{idx_tag}", g, nids, skey,
                    sibling_anchor_k=k_anchor if is_top_sibling else None,
@@ -522,6 +523,8 @@ for nid, n in nodes.items():
     name = n["name"]
     yrs = n["years"]
     sub = n["sub"]
+    maiden = n.get("maiden", "")
+    yrs_disp = f"{yrs} · roz. {maiden}" if maiden and yrs else (f"roz. {maiden}" if maiden else yrs)
     if len(sub) > 34:
         sub = sub[:32] + "…"
     fs_name = min(16.5, max(12.5, avail_w / (0.58 * max(len(name), 1))))
@@ -533,13 +536,15 @@ for nid, n in nodes.items():
         photo_svg,
         f'<text x="{tx:.1f}" y="{y0 + 30:.1f}" font-size="{fs_name:.1f}" font-weight="700" fill="{fg_name}"{italic}>{html.escape(name)}</text>',
     ]
-    if yrs:
-        inner.append(f'<text x="{tx:.1f}" y="{y0 + 51:.1f}" font-size="13.5" font-weight="500" fill="{fg_yr}">{html.escape(yrs)}</text>')
+    if yrs_disp:
+        fs_yr = 12 if len(yrs_disp) > 18 else 13.5
+        inner.append(f'<text x="{tx:.1f}" y="{y0 + 51:.1f}" font-size="{fs_yr}" font-weight="500" fill="{fg_yr}">{html.escape(yrs_disp)}</text>')
     if sub:
         inner.append(f'<text x="{tx:.1f}" y="{y0 + 70:.1f}" font-size="12" fill="{fg_sub}">{html.escape(sub)}</text>')
 
     href_url = HREFS.get(n["k_link"]) if WEB and n["k_link"] else None
-    title_txt = f'{name} {yrs} {sub}'.strip()
+    title_name = f'{name}{f" (roz. {maiden})" if maiden else ""}'
+    title_txt = f'{title_name} {yrs} {sub}'.strip()
     if href_url:
         card_groups.append(f'<a href="{href_url}" class="tree-card"><title>{html.escape(title_txt)}</title>{"".join(inner)}</a>')
     else:

@@ -441,5 +441,45 @@
     "roky": "N: - -, O: 1943 - 1949 -, Z: - -",
     "snimku": 33,
     "url": "https://www.mza.cz/actapublica/matrika/detail/13024"
+  },
+  "mza_11619": {
+    "archiv": "MZA Brno",
+    "portal": "Actapublica",
+    "fond": "Nové Město na Moravě (helvetské vyznání) českobratrská církev evangelická",
+    "svazek": "sign. 16712 (N: 1875 - 1919 -, O: - -, Z: - -)",
+    "obce": "",
+    "roky": "N: 1875 - 1919 -, O: - -, Z: - -",
+    "snimku": 348,
+    "url": "https://www.mza.cz/actapublica/matrika/detail/11619"
+  },
+  "mza_7379": {
+    "archiv": "MZA Brno",
+    "portal": "Actapublica",
+    "fond": "Nové Město na Moravě (helvetské vyznání) českobratrská církev evangelická",
+    "svazek": "sign. 16716 (N: - -, O: 1788 - 1857 -, Z: - -)",
+    "obce": "",
+    "roky": "N: - -, O: 1788 - 1857 -, Z: - -",
+    "snimku": 94,
+    "url": "https://www.mza.cz/actapublica/matrika/detail/7379"
+  },
+  "mza_7348": {
+    "archiv": "MZA Brno",
+    "portal": "Actapublica",
+    "fond": "Zvole římskokatolická církev",
+    "svazek": "sign. 16557 (N: 1819 - 1873 -, O: 1820 - 1873 -, Z: 1819 - 1873 -)",
+    "obce": "",
+    "roky": "N: 1819 - 1873 -, O: 1820 - 1873 -, Z: 1819 - 1873 -",
+    "snimku": 197,
+    "url": "https://www.mza.cz/actapublica/matrika/detail/7348"
+  },
+  "mza_7015": {
+    "archiv": "MZA Brno",
+    "portal": "Actapublica",
+    "fond": "Rožná římskokatolická církev",
+    "svazek": "sign. 16179 (N: - -, O: 1784 - 1854 -, Z: - -)",
+    "obce": "",
+    "roky": "N: - -, O: 1784 - 1854 -, Z: - -",
+    "snimku": 187,
+    "url": "https://www.mza.cz/actapublica/matrika/detail/7015"
   }
 }

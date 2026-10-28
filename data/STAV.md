@@ -293,6 +293,20 @@ pak konec `research_log.md` a sekci „Rozpracováno“.
   - Prověřeny matriky farností Březí (pro obec Borovník) a Heřmanov: hajný Leopold Sýs sloužil v Borovníku na panské hájovně dočasně a sňatek Otakara Krejzka s Františkou Sýsovou (před r. 1905) se konal mimo farnosti Bystřice, Březí a Heřmanov.
   - V rodokmenu celkem evidováno **172 osob** (z toho **36 doložených primárních zápisů** ze snímků matrik a archiválií ve 47 svazcích, 63 řádků deníku).
 
+- 28. 10. 2026 (večer): Průlomový genealogický objev evangelické větve rodu Krejzků a svobodnických rodů Hamříků a Falských na Novoměstsku a Bystřicku:
+  - **Narození a křest pradědečka Otakara Jana Krejzka (* 6. 5. 1877 Blažkov čp. 20, č. 28):**
+    - V matrice Českobratrské církve evangelické (helvetského vyznání) Nové Město na Moravě (MZA Brno, sign. 16712, detail 11619, sn. 16, pag. 27, zápis č. 20) nalezen a kompletně přepsán křest Otakara Jana Krejzka. Narozen 6. května 1877 v Blažkově čp. 20, pokřtěn 10. května 1877 farářem Ferdinandem Císařem. Tím byl beze zbytku vyřešen původ bystřického mistra kolářského Otakara Krejzka a vysvětleno, proč nefiguroval v katolických matrikách Bystřice!
+  - **Sňatek rodičů Václava Krejska a Marie Hamříkové (24. 11. 1867, č. 56 a 57):**
+    - V matrice ČCE Nové Město na Moravě (sign. 16716, detail 7379, sn. 89, pag. 86) nalezen sňatek uzavřený 24. 11. 1867: ženich devatenáctiletý Václav Krejsek (* cca 1848 Blažkov čp. 26), rolník v Blažkově, syn Jana Krejska a Anny roz. Procházkové; nevěsta devatenáctiletá Marie Hamříková (* 1849 Blažkov čp. 14), dcera svobodníka Františka Hamříka a Anny roz. Falské.
+  - **Sňatek prarodičů Františka Hamříka a Anny Falské (10. 2. 1847, č. 114 a 115):**
+    - V matrice farnosti Zvole (MZA Brno, sign. 16557, detail 7348, sn. 122, pag. 241) nalezen a kompletně přepsán sňatek: dvacetiletý evangelický svobodník (Freysaß) Franz Hamrik z Blažkova čp. 14 (syn † svobodníka Franze Hamrika a Augustiny Josefy roz. Václav Valoušek, mlynářského mistra ve Zvoli čp. 65) a sedmnáctiletá katolická dcera Anna Falská (dcera Franze Falského, svobodníka v Blažkově čp. 28 a hostinského ve Zvoli čp. 10, a † Kateřiny roz. Franz Mišníček, svobodníka v Blažkově čp. 28). Vlastnoruční podpis otce Franze Falského a vrchnostenské povolení z Rožínky.
+  - **Narození a křest babičky Marie (Marianny) Hamříkové (* 16. 4. 1849, č. 57):**
+    - V knize narozených farnosti Zvole pro obec Blažkov (sign. 16563, detail 13256, sn. 10, pag. 16, č. 4) ověřeno přesné datum narození Marianny Hamříkové dne 16. 4. 1849 v Blažkově čp. 14.
+  - **Sňatek prarodičů Jana Krejska a Anny Procházkové (8. 2. 1825, č. 112 a 113):**
+    - V matrice oddaných farnosti Rožná pro obec Josefsdorf (sign. 16179, detail 7015, sn. 80, pag. 248, zápis č. 1 r. 1825) nalezen sňatek: pětadvacetiletý evangelický sedlák Jan Krejsek z Blažkova čp. 26 (syn sedláka Václava Krejska z Blažkova a Anny roz. Stehlíkové ze Zvole) a čtyřiadvacetiletá Anna Procházková z familiantského Josefsdorfu (Storfu) čp. 5 (dcera sedláka Václava Procházky a Terezie roz. Zubánkové z Domanínku). Oddávajícím byl evangelický pastor Gedeon Šlachta ze sboru ve Veselí u Dalečína.
+  - Do rodokmenu nově doloženo celkem **14 nových předků** v 6., 7. a 8. generaci (Václav Krejsek & Marie Hamříková, Jan Krejsek & Anna Procházková, František Hamřík & Anna Falská, Václav Krejsek st. & Anna Stehlíková, Václav Procházka & Terezie Zubánková, František Hamřík st. & Augustina Josefa Valoušková, František Falský & Kateřina Mišníčková).
+  - V rodokmenu celkem evidováno **186 osob** (z toho **40 doložených primárních zápisů** ze snímků matrik a archiválií v 55 svazcích, 63 řádků deníku).
+
 - Další kroky k prozkoumání:
   1. Původ a narození koláře Otakara Krejzka st. (* cca 1880–1885) a sňatek s Františkou Sýsovou (před r. 1905), např. prostřednictvím sčítacích operátů 1921 pro Bystřici n. P. – Nové Dvory čp. 147 (SOkA Žďár nad Sázavou) nebo farního archivu v Bystřici n/P. (snubní protokoly z let 1943 a 1949).
   2. Původ hajného Leopolda Sýse (č. 58) a narození jeho dcery Františky Sýsové (* cca 1880–1885).

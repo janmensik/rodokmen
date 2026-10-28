@@ -2,10 +2,23 @@
 import Base from '../layouts/Base.astro';
 import tree from '../generated/tree.svg?raw';
 
-const rawNames = [...tree.matchAll(/<text [^>]*font-weight="700"[^>]*>([^<]+)<\/text>/g)]
+const titleNames = [...tree.matchAll(/<title>([^<]+)<\/title>/g)]
+  .map((m) => m[1].replace(/\s+[*≈†].*$/, '').trim())
+  .filter((n) => n && n !== '∞' && !n.startsWith('otec neuveden'));
+
+const textNames = [...tree.matchAll(/<text [^>]*font-weight="700"[^>]*>([^<]+)<\/text>/g)]
   .map((m) => m[1].trim())
   .filter((n) => n && n !== '∞' && !n.startsWith('otec neuveden'));
-const names = [...new Set(rawNames)].sort((a, b) => a.localeCompare(b, 'cs'));
+
+const maidenVariants: string[] = [];
+for (const n of titleNames) {
+  const m = n.match(/^([^\(]+?)\s+\S+\s*\(roz\.\s+([^\)]+)\)$/);
+  if (m) {
+    maidenVariants.push(`${m[1].trim()} ${m[2].trim()}`);
+  }
+}
+
+const names = [...new Set([...titleNames, ...textNames, ...maidenVariants])].sort((a, b) => a.localeCompare(b, 'cs'));
 ---
 <Base title="Strom rodiny" full>
   <div class="fan-bar">
@@ -81,9 +94,12 @@ const names = [...new Set(rawNames)].sort((a, b) => a.localeCompare(b, 'cs'));
       const q = norm((e.currentTarget as HTMLFormElement).querySelector('input')!.value.trim());
       if (!q) return;
       svg.querySelectorAll('.fan-links .tree-card.hit').forEach((el) => el.classList.remove('hit'));
-      const hits = [...svg.querySelectorAll<SVGGraphicsElement>('.fan-links .tree-card')].filter((el) =>
-        norm(el.querySelector('title')?.textContent ?? '').includes(q)
-      );
+      const hits = [...svg.querySelectorAll<SVGGraphicsElement>('.fan-links .tree-card')].filter((el) => {
+        const title = norm(el.querySelector('title')?.textContent ?? '');
+        const cardText = norm(el.textContent ?? '');
+        const words = q.split(/\s+/).filter(Boolean);
+        return words.every((w) => title.includes(w) || cardText.includes(w));
+      });
       if (!hits.length) return;
       hits.forEach((el) => el.classList.add('hit'));
       const bb = hits[0].getBBox();

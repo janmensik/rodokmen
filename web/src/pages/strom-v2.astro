@@ -25,6 +25,7 @@ function buildSubtree(k: number, visited = new Set<number>()): any {
     k,
     slug: p.slug,
     name: p.name,
+    roz: p.roz || '',
     years: p.years || '',
     gen: p.gen ?? (k.toString(2).length - 1),
     sex: p.sex || (k % 2 === 0 ? 'M' : 'F'),
@@ -307,7 +308,10 @@ const allNames = Object.values(people).map((p: any) => p.name).sort((a: string, 
         .attr('font-size', '10.5px')
         .attr('font-weight', '600')
         .attr('fill', '#7A6B5B')
-        .text((d) => d.data.years || d.data.rel || 'předek');
+        .text((d) => {
+          const yr = d.data.years || d.data.rel || 'předek';
+          return d.data.roz ? `${yr} · roz. ${d.data.roz}` : yr;
+        });
 
       // Job / Home subtitle
       textGroup.append('text')
@@ -433,7 +437,7 @@ const allNames = Object.values(people).map((p: any) => p.name).sort((a: string, 
       // Tooltip handling
       nodeEnter
         .on('mouseenter', (event, d) => {
-          let html = `<strong>${d.data.name}</strong>`;
+          let html = `<strong>${d.data.name}${d.data.roz ? ` (roz. ${d.data.roz})` : ''}</strong>`;
           if (d.data.years) html += `<div class="tt-sub">${d.data.years}</div>`;
           if (d.data.rel) html += `<div class="tt-rel">${d.data.rel}</div>`;
           if (d.data.job) html += `<div class="tt-line">💼 ${d.data.job}</div>`;
@@ -613,7 +617,9 @@ const allNames = Object.values(people).map((p: any) => p.name).sort((a: string, 
       // Uncollapse all ancestors of the found person
       let matchNode: any = null;
       function findAndExpand(d: any, parents: any[] = []): boolean {
-        const nameMatch = d.data.name.toLowerCase().includes(val);
+        const fullName = `${d.data.name} ${d.data.roz || ''}`.toLowerCase();
+        const words = val.split(/\s+/).filter(Boolean);
+        const nameMatch = words.every((w: string) => fullName.includes(w));
         let foundInChildren = false;
         const allChildren = (d.children || []).concat(d._children || []);
         for (const c of allChildren) {
@@ -647,7 +653,11 @@ const allNames = Object.values(people).map((p: any) => p.name).sort((a: string, 
           // Highlight
           d3.selectAll('.d3-node').classed('node-highlight', false);
           d3.selectAll('.d3-node')
-            .filter((d: any) => d.data.name.toLowerCase().includes(val))
+            .filter((d: any) => {
+              const fullName = `${d.data.name} ${d.data.roz || ''}`.toLowerCase();
+              const words = val.split(/\s+/).filter(Boolean);
+              return words.every((w: string) => fullName.includes(w));
+            })
             .classed('node-highlight', true);
         }, 400);
       }

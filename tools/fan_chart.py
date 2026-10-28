@@ -109,10 +109,12 @@ for k in slots:
     p = P.get(k)
     if not p:
         continue
+    maiden = p.get("roz", "")
     name, yrs, st = p["n"], years(p.get("y")), p.get("st")
+    title_name = f'{name}{f" (roz. {maiden})" if maiden else ""}'
     if k in HREFS:
         shape = (f'<circle cx="{CX}" cy="{CY}" r="{r1}"/>' if g == 0 else f'<path d="{sector(r0, r1, a0, a1)}"/>')
-        links.append(f'<a href="{HREFS[k]}"><title>{html.escape(name)} {html.escape(yrs)}</title>{shape}</a>')
+        links.append(f'<a href="{HREFS[k]}"><title>{html.escape(title_name)} {html.escape(yrs)}</title>{shape}</a>')
     unknown = st == "unk"
     style = 'font-style="italic" fill="#8A8278"' if unknown else ('font-style="italic" fill="#2B2620"' if st in ("prob", "mh") else 'fill="#1F1A15"')
     if g == 0:

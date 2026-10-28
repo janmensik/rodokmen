@@ -252,13 +252,14 @@ P = {
 
              note="Narozena v Hluboké jako dcera truhláře a hostinského Franze Henzla z rodového gruntu čp. 15 v Hluboké a Aloisie roz. Pospíchalové z Radostína. V květnu 1926 se provdala za zámečníka Julia Holánka ze Starého Ranska a žili v Hluboké čp. 36. Maminka Zdenky Jarolímové roz. Holánkové (* 1928); prababička Jana Menšíka."),
 
-    28: dict(n="Otakar Krejzek", y="asi 1880 – po 1949", st="doc",
-             f=["* asi 1880–1885", "× před 1905 Františka Sýsová", "† po 7. 4. 1949",
+    28: dict(n="Otakar Jan Krejzek", y="1877 – po 1949", st="doc",
+             f=["* 6. 5. 1877 Blažkov čp. 20 (pokřtěn 10. 5. 1877 farářem Ferd. Císařem)",
+                "× před 1905 Františka Sýsová", "† po 7. 4. 1949",
                 "otec primáře MUDr. Miroslava Krejzka a jeho 5 bratrů (Ladislav, Otakar ml., Bedřich, MUDr. Emil, MUDr. Václav)"],
              zam="mistr kolářský na Nových Dvorech u Bystřice nad Pernštejnem č. p. 147 (později č. p. 433)",
-             bydl="Bystřice nad Pernštejnem č. p. 147 / č. p. 433 (Nové Dvory)", puvod="Bystřice nad Pernštejnem",
-             r=["cuni_doktori_miroslav_krejzek_1939", "bystrice_oddani_emil_krejzek_1943", "bystrice_oddani_vaclav_krejzek_1949"],
-             note="Mistr kolářský v Bystřici nad Pernštejnem na předměstí Nové Dvory č. p. 147, po přečíslování č. p. 433 (doložen v Adresářích Republiky Československé 1931–1939 i v oddacích zápisech synů z let 1943 a 1949). Otec primáře MUDr. Miroslava Krejzka a jeho pěti bratrů (pradědeček Julie). S manželkou Františkou rozenou Sýsovou (dcerou hajného Leopolda Sýse z Borovníka) vychovali šest synů: Ladislava (* 1905, odborný učitel v Bystřici n/P. čp. 451), Otakara ml. (* cca 1908–1909, učitelský ústav v Brně, poručík pěšího pluku 31 v Jihlavě), Bedřicha (* cca 1909–1910, učitelský ústav v Brně), MUDr. Emila (* 11. 10. 1910 Bystřice n/P., praktický lékař v Bystřici n/P.), MUDr. Miroslava (* 3. 9. 1914 Bystřice n/P., primář Albertina v Žamberku) a MUDr. Václava (* 25. 3. 1919 Bystřice n/P., lékař). V červnu 1943 je v matrice zapsán jako římský katolík, v dubnu 1949 jako českobratrsko-evangelického vyznání; v obou zápisech žijící."),
+             bydl="Bystřice nad Pernštejnem č. p. 147 / č. p. 433 (Nové Dvory)", puvod="Blažkov čp. 20",
+             r=["cuni_doktori_miroslav_krejzek_1939", "bystrice_oddani_emil_krejzek_1943", "bystrice_oddani_vaclav_krejzek_1949", "blazkov_krest_otakar_krejzek_1877"],
+             note="Mistr kolářský v Bystřici nad Pernštejnem na předměstí Nové Dvory č. p. 147, po přečíslování č. p. 433 (doložen v Adresářích Republiky Československé 1931–1939 i v oddacích zápisech synů z let 1943 a 1949). Narozen 6. května 1877 v Blažkově čp. 20 v rodině evangelického rolníka Václava Krejska a Marie rozené Hamříkové. S manželkou Františkou rozenou Sýsovou (dcerou hajného Leopolda Sýse z Borovníka) vychovali šest synů: Ladislava (* 1905, odborný učitel v Bystřici n/P. čp. 451), Otakara ml. (* cca 1908–1909, učitelský ústav v Brně, poručík pěšího pluku 31 v Jihlavě), Bedřicha (* cca 1909–1910, učitelský ústav v Brně), MUDr. Emila (* 11. 10. 1910 Bystřice n/P., praktický lékař v Bystřici n/P.), MUDr. Miroslava (* 3. 9. 1914 Bystřice n/P., primář Albertina v Žamberku) a MUDr. Václava (* 25. 3. 1919 Bystřice n/P., lékař)."),
 
     29: dict(n="Františka Krejzková", y="asi 1880 – po 1949", st="doc",
              f=["* asi 1880–1885", "× před 1905 Otakar Krejzek", "† po 7. 4. 1949",
@@ -402,6 +403,22 @@ P = {
              note="Narozena v Chlumu / Radostíně jako dcera Františka Pospíchala a Anny roz. Bencové. Manželka truhláře a hostinského Franze Henzla na rodovém gruntě čp. 15 v Hluboké a maminka Sofie Holánkové roz. Henzlové (* 1904)."),
 
 
+
+    56: dict(n="Václav Krejsek", y="* cca 1848 – po 1885", st="doc",
+             f=["* cca 1848 Blažkov čp. 26", "× 24. 11. 1867 Zvole / Blažkov Marie Hamříková", "† po 1885",
+                "otec mistra kolářského Otakara Jana Krejzka (* 1877)"],
+             zam="rolník v Blažkově čp. 20 a čp. 26",
+             bydl="Blažkov čp. 20 (dříve čp. 26)", puvod="Blažkov čp. 26",
+             r=["blazkov_oddani_vaclav_krejsek_1867", "blazkov_krest_otakar_krejzek_1877"],
+             note="Evangelický rolník v Blažkově na Novoměstsku. Narodil se kolem roku 1848 v Blažkově čp. 26 jako syn sedláka Jana Krejska a Anny rozené Procházkové z Josefsdorfu (Storfu). Dne 24. listopadu 1867 byl ve věku 19 let oddán s Marií Hamříkovou z Blažkova čp. 14. Hospodařili na usedlosti čp. 20 v Blažkově, kde se jim v květnu 1877 narodil syn Otakar Jan Krejzek, budoucí bystřický mistr kolářský a pradědeček Julie."),
+
+    57: dict(n="Marie Krejsková", y="* 1849 – po 1885", st="doc",
+             f=["* 16. 4. 1849 Blažkov čp. 14 (pokřtěna 17. 4. 1849 ve Zvoli)", "× 24. 11. 1867 Václav Krejsek", "† po 1885",
+                "matka mistra kolářského Otakara Jana Krejzka (* 1877)"],
+             roz="Hamříková", zam="v domácnosti / hospodyně",
+             bydl="Blažkov čp. 20 (rodný dům čp. 14)", puvod="Blažkov čp. 14",
+             r=["blazkov_krest_marianna_hamrikova_1849", "blazkov_oddani_vaclav_krejsek_1867", "blazkov_krest_otakar_krejzek_1877"],
+             note="Narozena 16. dubna 1849 v Blažkově čp. 14 jako dcera svobodníka Františka Hamříka a Anny rozené Falské ze Zvole. Pokřtěna následujícího dne ve Zvoli jménem Marianna. Dne 24. listopadu 1867 se provdala za rolníka Václava Krejska a byla matkou šesti dětí včetně mistra kolářského Otakara Krejska (prababička Julie)."),
 
     58: dict(n="Leopold Sýs", y="", st="doc",
              f=["otec Františky Krejzkové roz. Sýsové"],
@@ -620,6 +637,36 @@ P = {
              f=["× Václav Henzl"], bydl="Hluboká čp. 7", r=[], note="Údaje z rodinného stromu PDF."),
 
 
+
+    112: dict(n="Jan Krejsek", y="* cca 1799 – po 1867", st="doc",
+              f=["* cca 1799–1800 Blažkov čp. 26", "× 8. 2. 1825 Josefsdorf Anna Procházková", "† po 1867",
+                 "syn Václava Krejska, sedláka v Blažkově a Anny rozené Stehlíkové ze Zvole"],
+              zam="sedlák a rolník v Blažkově čp. 26",
+              bydl="Blažkov čp. 26", puvod="Blažkov čp. 26",
+              r=["josefsdorf_oddani_jan_krejsek_1825", "blazkov_oddani_vaclav_krejsek_1867"],
+              note="Evangelický sedlák v Blažkově na gruntu čp. 26. Dne 8. února 1825 byl evangelickým pastorem Gedeonem Šlachtou ze sboru ve Veselí oddán s Annou Procházkovou z familiantského Josefsdorfu (Storfu) čp. 5. Otec Václava Krejska a dědeček bystřického mistra kolářského Otakara Krejska."),
+
+    113: dict(n="Anna Krejsková", y="* cca 1800 – po 1867", st="doc",
+              f=["* cca 1800–1801 Josefsdorf (Storf) čp. 5", "× 8. 2. 1825 Jan Krejsek", "† po 1867",
+                 "dcera Václava Procházky, sedláka v Josefsdorfu a Terezie rozené Zubánkové z Domanínku"],
+              roz="Procházková", bydl="Blažkov čp. 26", puvod="Josefsdorf (Storf) čp. 5 (fara Rožná)",
+              r=["josefsdorf_oddani_jan_krejsek_1825", "blazkov_oddani_vaclav_krejsek_1867"],
+              note="Narozena kolem roku 1800 v Josefsdorfu (Storfu) čp. 5 v rodině sedláka Václava Procházky a Terezie rozené Zubánkové z Domanínku. Dne 8. února 1825 se provdala za Jana Krejska z Blažkova čp. 26."),
+
+    114: dict(n="František Hamřík", y="* cca 1826 – po 1877", st="doc",
+              f=["* cca 1826–1827 Blažkov čp. 14", "× 10. 2. 1847 Zvole Anna Falská", "† po 1877",
+                 "syn svobodníka Františka Hamříka st. a Augustiny Josefy rozené Valouškové, dcery mlynářského mistra ve Zvoli čp. 65"],
+              zam="svobodník a rolník v Blažkově čp. 14",
+              bydl="Blažkov čp. 14", puvod="Blažkov čp. 14",
+              r=["zvole_oddani_frantisek_hamrik_1847", "blazkov_krest_marianna_hamrikova_1849"],
+              note="Evangelický svobodník (Freysaß) v Blažkově na rodovém dvoře čp. 14. Dne 10. února 1847 byl ve Zvoli oddán se sedmnáctiletou Annou Falskou z Blažkova čp. 28 / Zvole čp. 10. Otec Marie Krejskové roz. Hamříkové a dědeček bystřického mistra kolářského Otakara Krejska."),
+
+    115: dict(n="Anna Hamříková", y="* cca 1829 – po 1867", st="doc",
+              f=["* cca 1829–1830 Blažkov čp. 28 / Zvole čp. 10", "× 10. 2. 1847 František Hamřík", "† po 1867",
+                 "dcera Františka Falského, svobodníka v Blažkově čp. 28 a hostinského ve Zvoli čp. 10, a Kateřiny rozené Mišníčkové"],
+              roz="Falská", bydl="Blažkov čp. 14", puvod="Blažkov čp. 28 / Zvole čp. 10",
+              r=["zvole_oddani_frantisek_hamrik_1847", "blazkov_krest_marianna_hamrikova_1849"],
+              note="Dcera ze starého svobodnického rodu Falských z Blažkova čp. 28 a hostinského ve Zvoli čp. 10 Františka Falského a Kateřiny rozené Mišníčkové. V únoru 1847 se provdala za svobodníka Františka Hamříka do Blažkova čp. 14."),
 
     120: dict(n="František Černý", y="asi 1829 – před 1885", st="doc",
               f=["* asi 1829", "× 21. 1. 1856 Vlkov čp. 13 Kateřina Michlová", "† před 1885"],
@@ -942,6 +989,55 @@ P = {
               f=["× Jan Henzl"], bydl="Chlumětín", r=[], note="Údaje z rodinného stromu PDF (psána Anna Nowak)."),
 
 
+
+    224: dict(n="Václav Krejsek", y="* před 1780", st="doc",
+              f=["* před 1780 Blažkov", "otec Jana Krejska (* cca 1799)"],
+              zam="sedlák v Blažkově", bydl="Blažkov čp. 26", puvod="Blažkov",
+              r=["josefsdorf_oddani_jan_krejsek_1825"],
+              note="Sedlák v Blažkově čp. 26, doložený v oddacím zápise svého syna Jana Krejska z února 1825."),
+
+    225: dict(n="Anna Krejsková", y="* před 1780", st="doc",
+              f=["* před 1780 Zvole", "dcera sedláka ze Zvole", "matka Jana Krejska (* cca 1799)"],
+              roz="Stehlíková", bydl="Blažkov čp. 26", puvod="Zvole",
+              r=["josefsdorf_oddani_jan_krejsek_1825"],
+              note="Dcera sedláka Stehlíka ze Zvole, manželka sedláka Václava Krejska v Blažkově."),
+
+    226: dict(n="Václav Procházka", y="* před 1780", st="doc",
+              f=["* před 1780", "otec Anny Procházkové (* cca 1800)"],
+              zam="sedlák v Josefsdorfu (Storfu) čp. 5", bydl="Josefsdorf čp. 5", puvod="Josefsdorf",
+              r=["josefsdorf_oddani_jan_krejsek_1825"],
+              note="Sedlák ve familiantské vsi Josefsdorf (Storf) čp. 5 na pernštejnském panství (fara Rožná)."),
+
+    227: dict(n="Terezie Procházková", y="* před 1780", st="doc",
+              f=["* před 1780 Domanínek", "dcera sedláka Zubánka z Domanínku", "matka Anny Procházkové (* cca 1800)"],
+              roz="Zubánková", bydl="Josefsdorf čp. 5", puvod="Domanínek (fara Bystřice n/P.)",
+              r=["josefsdorf_oddani_jan_krejsek_1825"],
+              note="Pocházela z rodiny sedláka Zubánka z Domanínku u Bystřice nad Pernštejnem."),
+
+    228: dict(n="František Hamřík st.", y="† před 1847", st="doc",
+              f=["* cca 1790–1800 Blažkov", "† před 10. 2. 1847 Blažkov čp. 14", "otec svobodníka Františka Hamříka ml."],
+              zam="svobodník v Blažkově čp. 14", bydl="Blažkov čp. 14", puvod="Blažkov čp. 14",
+              r=["zvole_oddani_frantisek_hamrik_1847"],
+              note="Svobodník (Freysaß) v Blažkově na usedlosti čp. 14. Manžel Augustiny Josefy Valouškové."),
+
+    229: dict(n="Augustina Josefa Hamříková", y="* před 1805", st="doc",
+              f=["* před 1805 Zvole", "dcera Václava Valouška, mlynářského mistra ve Zvoli čp. 65", "matka svobodníka Františka Hamříka ml."],
+              roz="Valoušková", bydl="Blažkov čp. 14", puvod="Zvole čp. 65",
+              r=["zvole_oddani_frantisek_hamrik_1847"],
+              note="Dcera Václava Valouška, mlynářského mistra na mlýně ve Zvoli čp. 65."),
+
+    230: dict(n="František Falský", y="* cca 1795–1805 – po 1867", st="doc",
+              f=["* cca 1795–1805 Blažkov", "otec Anny Hamříkové roz. Falské", "svědek na svatbě vnuka Václava Krejska 1867"],
+              zam="svobodník v Blažkově čp. 28, hostinský a majitel usedlosti ve Zvoli čp. 10",
+              bydl="Zvole čp. 10 a Blažkov čp. 28", puvod="Blažkov čp. 28",
+              r=["zvole_oddani_frantisek_hamrik_1847", "blazkov_krest_marianna_hamrikova_1849", "blazkov_oddani_vaclav_krejsek_1867"],
+              note="Významná osobnost regionu: svobodník v Blažkově čp. 28 a zároveň hostinský a gruntovník ve Zvoli čp. 10. Vlastnoručně podepsán na svatebním zápise dcery Anny v únoru 1847."),
+
+    231: dict(n="Kateřina Falská", y="† před 1847", st="doc",
+              f=["* cca 1800 Blažkov", "† před 10. 2. 1847", "dcera Františka Mišníčka, svobodníka v Blažkově čp. 28", "matka Anny Hamříkové roz. Falské"],
+              roz="Mišníčková", bydl="Blažkov čp. 28 / Zvole čp. 10", puvod="Blažkov čp. 28",
+              r=["zvole_oddani_frantisek_hamrik_1847"],
+              note="Pocházela ze svobodnického rodu Mišníčků z Blažkova čp. 28; první manželka svobodníka a hostinského Františka Falského."),
 
     240: dict(n="Václav Černý", y="", st="doc",
               f=["× Anna Šišková"],
@@ -1555,7 +1651,7 @@ ISSUES = [
 
     ("Povolání Matěje Šímy (č. 90) ze Starého Ranska čp. 2", "Otevřené: v PDF je uvedeno 'horolezec' – v matrice Starého Ranska ověřit, zda nešlo o čtení slova 'horník' / 'havíř' u železáren."),
 
-    ("Původ a narození pradědečka Otakara Krejzka st. (* cca 1880–1885) a prababičky Františky roz. Sýsové", "Částečně vyřešeno z oddacích matrik Bystřice nad Pernštejnem (1943 a 1949): prababička Františka Krejzková byla rozená Sýsová, dcera hajného Leopolda Sýse z Borovníka (č. 58), a všichni šest synů Otakara a Františky Krejzkových jsou jmenovitě doloženi (Ladislav * 1905, Otakar ml., Bedřich, MUDr. Emil * 1910, MUDr. Miroslav * 1914, MUDr. Václav * 1919). V indexu narozených Bystřice (1834–1883) ani Nového Města žádný Otakar Krejzek zapsán není; hypotéza o otcovství nadučitele Augustina Korejzla byla archivně vyvrácena. Kolářská rodina Krejzků má své nejhlubší kořeny v sousední farnosti Strážek (čp. 21 a 23, Tomáš a František Krejzek). Hajný Leopold Sýs sloužil v Borovníku na panské hájovně dočasně a sňatek Otakara Krejzka s Františkou Sýsovou (před r. 1905) se konal mimo farnosti Bystřice, Březí a Heřmanov."),
+    ("Původ a narození pradědečka Otakara Krejzka st. (* cca 1880–1885) a prababičky Františky roz. Sýsové", "Plně vyřešeno z evangelických matrik Nového Města na Moravě (svazek 16712, detail 11619, sn. 16, č. 20): pradědeček se narodil 6. 5. 1877 v Blažkově čp. 20 jako Otakar Jan Krejzek v rodině evangelického rolníka Václava Krejska a Marie roz. Hamříkové. Následně dohledána celá rodová linie: sňatek rodičů 1867, sňatek prarodičů Františka Hamříka a Anny Falské 1847 (svobodníci v Blažkově čp. 14 a 28) a sňatek Jana Krejska a Anny Procházkové 1825 (oddáni pastorem Gedeonem Šlachtou z Veselí). (1943 a 1949): prababička Františka Krejzková byla rozená Sýsová, dcera hajného Leopolda Sýse z Borovníka (č. 58), a všichni šest synů Otakara a Františky Krejzkových jsou jmenovitě doloženi (Ladislav * 1905, Otakar ml., Bedřich, MUDr. Emil * 1910, MUDr. Miroslav * 1914, MUDr. Václav * 1919). V indexu narozených Bystřice (1834–1883) ani Nového Města žádný Otakar Krejzek zapsán není; hypotéza o otcovství nadučitele Augustina Korejzla byla archivně vyvrácena. Kolářská rodina Krejzků má své nejhlubší kořeny v sousední farnosti Strážek (čp. 21 a 23, Tomáš a František Krejzek). Hajný Leopold Sýs sloužil v Borovníku na panské hájovně dočasně a sňatek Otakara Krejzka s Františkou Sýsovou (před r. 1905) se konal mimo farnosti Bystřice, Březí a Heřmanov."),
 ]
 
 
