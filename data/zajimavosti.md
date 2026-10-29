@@ -62,7 +62,7 @@ Památku čtyř statečných bratří dnes připomíná pamětní deska na domě
 
 ## Kdo byla vzpomínaná „paní Pivničková“
 V rodině se uchovala také vzpomínka na „paní Pivničkovou (možná babičku otce)“. Matriční zápisy a úřední soupisy obyvatelstva tuto rodinnou vzpomínku jednoznačně potvrdily:
-Otcem Jana Menšíka je [Ing. Radim Menšík](/osoba/radim-mensik-1946/) (* 1946). Jeho maminkou byla dětská lékařka [MUDr. Ludmila Menšíková](/osoba/ludmila-mensikova-1909/) (1909–2007), která se narodila jako **Ludmila Pivničková**.
+Otcem Jana Menšíka je [Ing. Radim Menšík](/osoba/ing-radim-mensik-1946/) (* 1946). Jeho maminkou byla dětská lékařka [MUDr. Ludmila Menšíková](/osoba/ludmila-mensikova-1909/) (1909–2007), která se narodila jako **Ludmila Pivničková**.
 
 Její maminka – tedy babička Ing. Radima Menšíka z matčiny strany – byla **Emma Marie Pivničková rozená Tomíčková** (* 7. 4. 1886 ve Wartě čp. 59 – Stráži nad Ohří pod hradem Hauenštejn). Emma byla dcerou c. k. železničního přednosty stanice Antonína Tomíčka a v dubnu 1908 se u sv. Jindřicha provdala za hradčanského měšťanského učitele [Jana Emanuela Pivničku](/osoba/jan-emanuel-pivnicka-1872/) (* 1872 na Novém Městě). Rodina Pivničkova bydlela od roku 1913 na Hradčanech v domě **Pod baštami 277/4** (u stanice metra Hradčanská / U Písecké brány). Právě tam jako vdova paní Emma Pivničková dlouhá léta žila, rodina ji navštěvovala a v rodinné paměti vystupovala jako laskavá „paní Pivničková“. Dožila se vysokého věku a odpočívá v rodinném hrobě na Olšanských hřbitovech (část 006, odd. 7a, hrob 134) po boku své dcery Ludmily Menšíkové.
 

@@ -3,38 +3,41 @@ import Base from '../layouts/Base.astro';
 import { people, families, lines, href, root } from '../lib/data.js';
 
 // 1. Line lookup per person
-const personLineMap: Record<string, { slug: string; name: string; color: string }> = {};
-for (const [lineSlug, line] of Object.entries(lines) as [string, any][]) {
+const personLineMap = {};
+for (const lineSlug in lines) {
+  const line = lines[lineSlug];
   for (const personSlug of line.people || []) {
     personLineMap[personSlug] = {
       slug: lineSlug,
       name: line.name,
-      color: line.color || '#8C7B68'
+      color: line.color || '#4A7BB0'
     };
   }
 }
 
 // 2. Extract years & date calculations
-function parseDateParts(raw: string | undefined): { dateStr: string | null; year: number | null; full: boolean } {
-  if (!raw) return { dateStr: null, year: null, full: false };
+function parseDateParts(raw) {
+  if (!raw) return { dateStr: null, year: null, full: false, display: '' };
   const ddm = raw.match(/(\d{1,2})\.\s*(\d{1,2})\.\s*(\d{4})/);
   if (ddm) {
     const day = ddm[1].padStart(2, '0');
     const month = ddm[2].padStart(2, '0');
     const year = parseInt(ddm[3], 10);
-    return { dateStr: `${year}-${month}-${day}`, year, full: true };
+    return { dateStr: `${year}-${month}-${day}`, year, full: true, display: ddm[0] };
   }
   const ym = raw.match(/(\d{4})/);
   if (ym) {
     const year = parseInt(ym[1], 10);
-    return { dateStr: `${year}-06-01`, year, full: false };
+    return { dateStr: `${year}-06-01`, year, full: false, display: String(year) };
   }
-  return { dateStr: null, year: null, full: false };
+  return { dateStr: null, year: null, full: false, display: '' };
 }
 
 // Year propagation for people with missing dates
-const knownYears: Record<string, number> = {};
-for (const [slug, p] of Object.entries(people) as [string, any][]) {
+const knownYears = {};
+const peopleEntries = Object.entries(people);
+
+for (const [slug, p] of peopleEntries) {
   const b = parseDateParts(p.details?.birth || p.y || p.years);
   const d = parseDateParts(p.details?.death);
   if (b.year) knownYears[slug] = b.year;
@@ -42,7 +45,7 @@ for (const [slug, p] of Object.entries(people) as [string, any][]) {
 }
 
 for (let pass = 0; pass < 3; pass++) {
-  for (const [slug, p] of Object.entries(people) as [string, any][]) {
+  for (const [slug, p] of peopleEntries) {
     if (!knownYears[slug]) {
       for (const ch of p.children || []) {
         if (knownYears[ch]) {
@@ -56,20 +59,19 @@ for (let pass = 0; pass < 3; pass++) {
   }
 }
 
-// Build timeline items
-const timelineItems: any[] = [];
+// Build groups and data records
+const peopleData = [];
 
-for (const [slug, p] of Object.entries(people) as [string, any][]) {
+for (const [slug, p] of peopleEntries) {
   const bInfo = parseDateParts(p.details?.birth || p.y || p.years);
   const dInfo = parseDateParts(p.details?.death);
 
-  const approxBirth = !bInfo.year && knownYears[slug];
   const birthYear = bInfo.year || knownYears[slug];
   if (!birthYear) continue;
 
   const isLiving = (p.gen === 0) || (birthYear >= 1935 && !dInfo.year);
-  let startStr = bInfo.dateStr || `${birthYear}-01-01`;
-  let endStr: string;
+  const startStr = bInfo.dateStr || `${birthYear}-01-01`;
+  let endStr;
   let estimated = false;
 
   if (dInfo.dateStr) {
@@ -77,19 +79,17 @@ for (const [slug, p] of Object.entries(people) as [string, any][]) {
   } else if (isLiving) {
     endStr = new Date().toISOString().slice(0, 10);
   } else {
-    // Estimated death
     const deathYear = birthYear + 68;
     endStr = `${deathYear}-01-01`;
     estimated = true;
   }
 
-  // Ensure end is strictly after start
   if (endStr <= startStr) {
     const sY = parseInt(startStr.slice(0, 4), 10);
     endStr = `${sY + 1}-01-01`;
   }
 
-  const lineInfo = personLineMap[slug] || { slug: 'hlavni', name: 'Hlavní rodina Menšíků', color: '#5B4A3A' };
+  const lineInfo = personLineMap[slug] || { slug: 'hlavni', name: 'Hlavní rodina', color: '#4A7BB0' };
   const sex = p.sex === 'F' ? 'F' : 'M';
   const gen = p.gen ?? 0;
 
@@ -98,61 +98,79 @@ for (const [slug, p] of Object.entries(people) as [string, any][]) {
     ageStr = ` (${dInfo.year - bInfo.year} let)`;
   }
 
-  const tooltipHtml = `
-    <div class="tt-box">
-      <div class="tt-content">
-        <div class="tt-title">${p.name}${p.roz ? ` (roz. ${p.roz})` : ''}</div>
-        <div class="tt-dates">${bInfo.year ? `* ${p.details?.birth || bInfo.year}` : `* asi ${birthYear}`}</div>
-        <div class="tt-dates">${isLiving ? 'dosud žijící' : (dInfo.year ? `† ${p.details?.death || dInfo.year}${ageStr}` : `† neznámé`)}</div>
-        ${p.details?.job ? `<div class="tt-sub">💼 ${p.details.job}</div>` : ''}
-        ${p.details?.home ? `<div class="tt-sub">📍 ${p.details.home}</div>` : ''}
-        <div class="tt-line-badge" style="background:${lineInfo.color}22;color:${lineInfo.color};border-color:${lineInfo.color}66">${lineInfo.name}</div>
-        <div class="tt-click-hint">Klepnutím otevřete stránku osoby →</div>
-      </div>
-    </div>
-  `;
+  const yearsLabel = `${bInfo.year || `~${birthYear}`} – ${isLiving ? 'dnes' : (dInfo.year || `~${birthYear + 68}`)}`;
 
-  timelineItems.push({
+  peopleData.push({
     id: slug,
-    personSlug: slug,
-    url: href.person(slug),
-    content: `
-      <div class="tl-item-inner ${sex === 'F' ? 'sex-f' : 'sex-m'}">
-        <span class="tl-sex-icon">${sex === 'F' ? '♀' : '♂'}</span>
-        <span class="tl-label-name">${p.name}</span>
-        <span class="tl-label-years">${bInfo.year || `~${birthYear}`}–${isLiving ? 'dnes' : (dInfo.year || `~${birthYear + 68}`)}</span>
-      </div>
-    `,
-    start: startStr,
-    end: endStr,
-    type: 'range',
-    title: tooltipHtml,
-    className: `tl-person sex-${sex.toLowerCase()} ${estimated ? 'estimated' : ''} line-${lineInfo.slug}`,
-    groupLine: lineInfo.slug,
-    groupGen: `gen-${gen}`,
+    name: p.name,
+    roz: p.roz || '',
+    birthYear: birthYear,
+    startStr: startStr,
+    endStr: endStr,
+    estimated: estimated,
+    sex: sex,
+    gen: gen,
+    lineSlug: lineInfo.slug,
     lineName: lineInfo.name,
     lineColor: lineInfo.color,
-    sex,
-    name: p.name,
-    gen
+    url: href.person(slug),
+    yearsLabel: yearsLabel,
+    ageStr: ageStr,
+    job: p.details?.job || '',
+    home: p.details?.home || '',
+    birthDisplay: bInfo.display,
+    birthFull: p.details?.birth || bInfo.display,
+    deathDisplay: dInfo.display,
+    deathFull: p.details?.death || dInfo.display,
+    hasExactBirth: !!bInfo.dateStr,
+    hasExactDeath: !!dInfo.dateStr,
+    isLiving: isLiving
   });
 }
 
-// Historical era background items
+// Marriages
+const marriagesData = [];
+const familyValues = Object.values(families);
+
+for (const fam of familyValues) {
+  if (fam.marriage && fam.marriage.length > 0) {
+    for (let mIdx = 0; mIdx < fam.marriage.length; mIdx++) {
+      const mStr = fam.marriage[mIdx];
+      const mDate = parseDateParts(mStr);
+      if (mDate.dateStr) {
+        const fatherObj = fam.father ? people[fam.father] : null;
+        const motherObj = fam.mother ? people[fam.mother] : null;
+
+        marriagesData.push({
+          id: `marr-${fam.id}-${mIdx}`,
+          father: fam.father,
+          mother: fam.mother,
+          fatherName: fatherObj?.name || 'neznámý',
+          motherName: motherObj?.name || 'neznámá',
+          dateStr: mDate.dateStr,
+          display: mDate.display,
+          text: mStr.replace(/^[×xX]\s*/, '')
+        });
+      }
+    }
+  }
+}
+
+// Historical milestones across all rows
 const historicalMilestones = [
   {
     id: 'hist-1',
     start: '1781-11-01',
     end: '1781-11-02',
-    content: '<span class="hist-label">Zrušení nevolnictví (1781)</span>',
+    content: '<span class="hist-label">1781 Zrušení nevolnictví</span>',
     type: 'background',
     className: 'hist-marker'
   },
   {
     id: 'hist-2',
     start: '1848-03-01',
-    end: '1848-11-01',
-    content: '<span class="hist-label">Revoluce 1848 / Konec roboty</span>',
+    end: '1848-10-31',
+    content: '<span class="hist-label">1848 Revoluce / Konec roboty</span>',
     type: 'background',
     className: 'hist-zone hist-1848'
   },
@@ -160,7 +178,7 @@ const historicalMilestones = [
     id: 'hist-3',
     start: '1914-07-28',
     end: '1918-11-11',
-    content: '<span class="hist-label">1. světová válka (1914–1918)</span>',
+    content: '<span class="hist-label">1914–1918 1. světová válka</span>',
     type: 'background',
     className: 'hist-zone hist-ww1'
   },
@@ -168,229 +186,397 @@ const historicalMilestones = [
     id: 'hist-4',
     start: '1918-10-28',
     end: '1918-10-29',
-    content: '<span class="hist-label">Vznik Československa (1918)</span>',
+    content: '<span class="hist-label">1918 Vznik ČSR</span>',
     type: 'background',
     className: 'hist-marker'
   },
   {
     id: 'hist-5',
-    start: '1939-09-01',
+    start: '1939-03-15',
     end: '1945-05-08',
-    content: '<span class="hist-label">2. světová válka (1939–1945)</span>',
+    content: '<span class="hist-label">1939–1945 2. světová válka</span>',
     type: 'background',
     className: 'hist-zone hist-ww2'
   }
 ];
 
-// Definition of groups
-const lineGroups = [
-  { id: 'hlavni', content: '<strong>Hlavní větev (Menšíkovi)</strong>', order: 1 },
-  ...Object.entries(lines).map(([slug, l]: [string, any], idx) => ({
-    id: slug,
-    content: `<span class="line-dot" style="background:${l.color}"></span><strong>${l.name}</strong>`,
-    order: idx + 2
+// Initial sorting: oldest ancestors first
+peopleData.sort((a, b) => a.birthYear - b.birthYear);
+
+const clientData = {
+  people: peopleData,
+  marriages: marriagesData,
+  historical: historicalMilestones,
+  lines: Object.entries(lines).map(([slug, l]) => ({
+    slug,
+    name: l.name,
+    color: l.color || '#4A7BB0'
   }))
-];
+};
 
-const genNames = ['0. generace (děti)', '1. generace (rodiče)', '2. generace (prarodiče)', '3. generace (praprarodiče)', '4. generace (předci 19. stol.)', '5. generace (předci 19. stol.)', '6. generace (předci 18. stol.)', '7. generace (předci 18. stol.)', '8.+ generace (17.–18. stol.)'];
-const genGroups = Array.from({ length: 9 }).map((_, i) => ({
-  id: `gen-${i}`,
-  content: `<strong>${genNames[i] || `${i}. generace`}</strong>`,
-  order: i
-}));
-
-const allNames = timelineItems.map((it) => it.name).sort((a: string, b: string) => a.localeCompare(b, 'cs'));
+const allNames = peopleData.map((p) => p.name).sort((a, b) => a.localeCompare(b, 'cs'));
 ---
 
-<Base title="Časová osa rodu (Timelapse)" full>
+<Base title="Časová osa rodiny" full>
+  <!-- Modern Toolbar -->
   <div class="timeline-bar">
     <div class="tb-left">
-      <strong>Časová osa rodu</strong>
-      <div class="group-switch" role="group" aria-label="Seskupení">
-        <button type="button" class="btn-group active" data-group-by="line">Podle rodů</button>
-        <button type="button" class="btn-group" data-group-by="gen">Podle generací</button>
-        <button type="button" class="btn-group" data-group-by="none">Všichni dohromady</button>
+      <div class="tb-title-group">
+        <strong>Časová osa rodiny</strong>
+        <span class="tb-badge" id="visible-count-badge">{peopleData.length} osob</span>
+      </div>
+
+      <!-- Quick Legend -->
+      <div class="tb-legend">
+        <span class="legend-item" title="Kulatý bod na začátku linie"><span class="legend-dot dot-birth"></span> Narození</span>
+        <span class="legend-item" title="Kosočtverec na linii"><span class="legend-dot dot-marriage"></span> Sňatek</span>
+        <span class="legend-item" title="Tmavý bod na konci linie"><span class="legend-dot dot-death"></span> Úmrtí</span>
+        <span class="legend-item" title="Čárkovaná linie"><span class="legend-line-est"></span> Odhad dožití</span>
       </div>
     </div>
 
-    <form class="fan-search" autocomplete="off" id="tl-search-form">
-      <input id="tl-search-input" list="tl-names" placeholder="Najít předka na časové ose…" aria-label="Najít předka na časové ose" />
-      <datalist id="tl-names">{allNames.map((n) => <option value={n} />)}</datalist>
-      <button type="submit">Najít</button>
-    </form>
+    <div class="tb-center">
+      <!-- Search -->
+      <form class="tb-search" autocomplete="off" id="tl-search-form">
+        <svg class="search-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+        <input id="tl-search-input" list="tl-names" placeholder="Hledat osobu…" aria-label="Hledat osobu v časové ose" />
+        <datalist id="tl-names">
+          {allNames.map((n) => <option value={n} />)}
+        </datalist>
+      </form>
 
-    <div class="tb-jumps">
-      <span class="small muted jumps-label">Přejít:</span>
-      <button type="button" class="btn-jump" data-year="1680">17. stol.</button>
-      <button type="button" class="btn-jump" data-year="1750">18. stol.</button>
-      <button type="button" class="btn-jump" data-year="1850">19. stol.</button>
-      <button type="button" class="btn-jump" data-year="1930">20. stol.</button>
-      <button type="button" class="btn-jump" data-year="2010">Současnost</button>
-      <button type="button" class="btn-jump btn-fit" id="btn-fit-all">Celé období</button>
+      <!-- Line Filter -->
+      <div class="filter-dropdown-wrap">
+        <select id="tl-line-filter" class="tl-select" aria-label="Filtrovat rodovou linii">
+          <option value="all">Všechny rody</option>
+          {clientData.lines.map((l) => (
+            <option value={l.slug}>{l.name}</option>
+          ))}
+        </select>
+      </div>
+
+      <!-- Sorting -->
+      <div class="filter-dropdown-wrap">
+        <select id="tl-sort-select" class="tl-select" aria-label="Řazení osob">
+          <option value="birth-asc" selected>Od nejstarších</option>
+          <option value="birth-desc">Od nejmladších</option>
+          <option value="name-asc">Podle jména (A–Z)</option>
+          <option value="line">Podle rodů</option>
+        </select>
+      </div>
     </div>
 
-    <div class="tb-zoom">
-      <button type="button" id="btn-tl-zoom-in" title="Přiblížit">+</button>
-      <button type="button" id="btn-tl-zoom-out" title="Oddálit">−</button>
+    <div class="tb-right">
+      <!-- Quick Century Jumps -->
+      <div class="tb-jumps">
+        <span class="small muted jumps-label">Skok:</span>
+        <button type="button" class="btn-jump" data-year="1680" title="17. století">17. stol.</button>
+        <button type="button" class="btn-jump" data-year="1750" title="18. století">18. stol.</button>
+        <button type="button" class="btn-jump" data-year="1850" title="19. století">19. stol.</button>
+        <button type="button" class="btn-jump" data-year="1930" title="20. století">20. stol.</button>
+        <button type="button" class="btn-jump" data-year="2000" title="Současnost">Dnes</button>
+        <button type="button" class="btn-jump btn-fit" id="btn-fit-all" title="Zobrazit celé období">Vše</button>
+      </div>
+
+      <!-- Zoom -->
+      <div class="tb-zoom">
+        <button type="button" id="btn-tl-zoom-in" title="Přiblížit časovou osu">+</button>
+        <button type="button" id="btn-tl-zoom-out" title="Oddálit časovou osu">−</button>
+      </div>
     </div>
   </div>
 
+  <!-- Stage container for vis-timeline -->
   <div id="vis-timeline-container" class="timeline-stage"></div>
 
-  <script define:vars={{ timelineItems, historicalMilestones, lineGroups, genGroups }}>
-    window.TL_DATA = {
-      items: timelineItems,
-      historical: historicalMilestones,
-      lineGroups: lineGroups,
-      genGroups: genGroups
-    };
+  <!-- Client-side bundle -->
+  <script define:vars={{ clientData }}>
+    window.__TL_DATA__ = clientData;
   </script>
 
   <script>
     import { Timeline, DataSet } from 'vis-timeline/standalone';
     import 'vis-timeline/styles/vis-timeline-graph2d.min.css';
 
-    const data = (window as any).TL_DATA;
-    if (!data) {
-      console.error('Data pro časovou osu nenalezena.');
-    }
+    const rawData = (window as any).__TL_DATA__;
+    const container = document.getElementById('vis-timeline-container');
 
-    const container = document.getElementById('vis-timeline-container')!;
-
-    // Initial group by line
-    let currentGrouping = 'line';
-
-    // Prepare datasets
-    const itemsDataSet = new DataSet<any>([
-      ...data.items.map((it: any) => ({
-        ...it,
-        group: it.groupLine
-      })),
-      ...data.historical
-    ]);
-
-    const groupsDataSet = new DataSet<any>(data.lineGroups);
-
-    const options: any = {
-      stack: true,
-      stackSubgroups: true,
-      horizontalScroll: true,
-      zoomable: true,
-      moveable: true,
-      min: new Date(1620, 0, 1),
-      max: new Date(2045, 11, 31),
-      start: new Date(1750, 0, 1),
-      end: new Date(2030, 11, 31),
-      zoomMin: 1000 * 60 * 60 * 24 * 365 * 3, // 3 years min
-      zoomMax: 1000 * 60 * 60 * 24 * 365 * 450, // 450 years max
-      orientation: {
-        axis: 'top',
-        item: 'top'
-      },
-      showCurrentTime: true,
-      locale: 'cs',
-      margin: {
-        item: {
-          horizontal: 6,
-          vertical: 5
-        },
-        axis: 10
-      },
-      tooltip: {
-        followMouse: true,
-        overflowMethod: 'cap',
-        delay: 150
+    if (!container || !rawData) {
+      console.error('Timeline container or data missing.');
+    } else {
+      // 1. Build left group labels
+      function createGroupContent(p: any) {
+        const sexClass = p.sex === 'F' ? 'sex-f' : 'sex-m';
+        const sexIcon = p.sex === 'F' ? '♀' : '♂';
+        return `
+          <div class="tl-row-label" data-slug="${p.id}" title="${p.name} (${p.yearsLabel})">
+            <span class="tl-row-line-indicator" style="background:${p.lineColor}"></span>
+            <span class="tl-row-sex ${sexClass}">${sexIcon}</span>
+            <a href="${p.url}" class="tl-row-name" title="Otevřít profil: ${p.name}">${p.name}</a>
+            <span class="tl-row-years">${p.yearsLabel}</span>
+          </div>
+        `;
       }
-    };
 
-    const timeline = new Timeline(container, itemsDataSet, groupsDataSet, options);
+      const allGroups = rawData.people.map((p: any) => ({
+        id: p.id,
+        content: createGroupContent(p),
+        name: p.name,
+        order: p.birthYear,
+        birthYear: p.birthYear,
+        sex: p.sex,
+        gen: p.gen,
+        lineSlug: p.lineSlug,
+        lineName: p.lineName,
+        lineColor: p.lineColor,
+        url: p.url,
+        yearsLabel: p.yearsLabel
+      }));
 
-    // Click handler -> navigate to person profile
-    timeline.on('select', (properties) => {
-      if (properties.items && properties.items.length > 0) {
-        const selectedId = properties.items[0];
-        const item = itemsDataSet.get(selectedId);
-        if (item && item.url) {
-          window.location.href = item.url;
-        }
-      }
-    });
+      // 2. Build items (lifespan bars + points + background milestones)
+      const allItems: any[] = [];
 
-    // Grouping switcher
-    document.querySelectorAll('.group-switch button').forEach((btn) => {
-      btn.addEventListener('click', () => {
-        document.querySelectorAll('.group-switch button').forEach((b) => b.classList.remove('active'));
-        btn.classList.add('active');
+      for (const p of rawData.people) {
+        // Lifespan line tooltip
+        const lineTooltip = `
+          <div class="tt-box">
+            <div class="tt-title">${p.name}${p.roz ? ` (roz. ${p.roz})` : ''}</div>
+            <div class="tt-dates">Dožití: ${p.yearsLabel}${p.ageStr}</div>
+            ${p.job ? `<div class="tt-sub">💼 ${p.job}</div>` : ''}
+            ${p.home ? `<div class="tt-sub">📍 ${p.home}</div>` : ''}
+            <div class="tt-line-badge" style="background:${p.lineColor}22;color:${p.lineColor};border-color:${p.lineColor}66">${p.lineName}</div>
+            <div class="tt-click-hint">Klepnutím otevřete profil osoby →</div>
+          </div>
+        `;
 
-        const mode = btn.getAttribute('data-group-by');
-        currentGrouping = mode || 'line';
-
-        if (mode === 'line') {
-          groupsDataSet.clear();
-          groupsDataSet.add(data.lineGroups);
-          data.items.forEach((it: any) => {
-            itemsDataSet.update({ id: it.id, group: it.groupLine });
-          });
-          timeline.setOptions({ showMajorLabels: true });
-        } else if (mode === 'gen') {
-          groupsDataSet.clear();
-          groupsDataSet.add(data.genGroups);
-          data.items.forEach((it: any) => {
-            itemsDataSet.update({ id: it.id, group: it.groupGen });
-          });
-          timeline.setOptions({ showMajorLabels: true });
-        } else {
-          // No groups (all flat)
-          groupsDataSet.clear();
-          data.items.forEach((it: any) => {
-            itemsDataSet.update({ id: it.id, group: undefined });
-          });
-        }
-      });
-    });
-
-    // Quick jumps
-    document.querySelectorAll('.btn-jump[data-year]').forEach((btn) => {
-      btn.addEventListener('click', () => {
-        const year = parseInt(btn.getAttribute('data-year') || '1850', 10);
-        timeline.setWindow(new Date(year - 30, 0, 1), new Date(year + 50, 11, 31), { animation: { duration: 600, easingFunction: 'easeInOutQuad' } });
-      });
-    });
-
-    document.getElementById('btn-fit-all')?.addEventListener('click', () => {
-      timeline.fit({ animation: { duration: 600, easingFunction: 'easeInOutQuad' } });
-    });
-
-    // Zoom buttons
-    document.getElementById('btn-tl-zoom-in')?.addEventListener('click', () => {
-      timeline.zoomIn(0.4, { animation: { duration: 300 } });
-    });
-
-    document.getElementById('btn-tl-zoom-out')?.addEventListener('click', () => {
-      timeline.zoomOut(0.4, { animation: { duration: 300 } });
-    });
-
-    // Search handler
-    const searchForm = document.getElementById('tl-search-form') as HTMLFormElement;
-    const searchInput = document.getElementById('tl-search-input') as HTMLInputElement;
-
-    searchForm?.addEventListener('submit', (e) => {
-      e.preventDefault();
-      const val = searchInput.value.trim().toLowerCase();
-      if (!val) return;
-
-      const found = data.items.find((it: any) => it.name.toLowerCase().includes(val));
-      if (found) {
-        timeline.setSelection(found.id, { focus: true });
-        const startY = parseInt(found.start.slice(0, 4), 10);
-        timeline.setWindow(new Date(startY - 25, 0, 1), new Date(startY + 65, 11, 31), {
-          animation: { duration: 600, easingFunction: 'easeInOutQuad' }
+        // Range line (clean, colored, no text inside)
+        allItems.push({
+          id: `life-${p.id}`,
+          group: p.id,
+          personSlug: p.id,
+          url: p.url,
+          content: '',
+          start: p.startStr,
+          end: p.endStr,
+          type: 'range',
+          title: lineTooltip,
+          className: `tl-life-bar sex-${p.sex.toLowerCase()} line-${p.lineSlug} ${p.estimated ? 'estimated' : ''}`,
+          style: `background:${p.lineColor}; border-color:${p.lineColor};`
         });
+
+        // Birth point
+        if (p.hasExactBirth) {
+          const birthTooltip = `
+            <div class="tt-box">
+              <div class="tt-title">⭐ Narození · ${p.name}</div>
+              <div class="tt-dates">${p.birthFull}</div>
+              <div class="tt-click-hint">Klepnutím otevřete profil osoby →</div>
+            </div>
+          `;
+          allItems.push({
+            id: `birth-${p.id}`,
+            group: p.id,
+            personSlug: p.id,
+            url: p.url,
+            content: '',
+            start: p.startStr,
+            type: 'point',
+            title: birthTooltip,
+            className: 'tl-dot tl-dot-birth'
+          });
+        }
+
+        // Death point
+        if (p.hasExactDeath) {
+          const deathTooltip = `
+            <div class="tt-box">
+              <div class="tt-title">✝ Úmrtí · ${p.name}</div>
+              <div class="tt-dates">${p.deathFull}${p.ageStr}</div>
+              <div class="tt-click-hint">Klepnutím otevřete profil osoby →</div>
+            </div>
+          `;
+          allItems.push({
+            id: `death-${p.id}`,
+            group: p.id,
+            personSlug: p.id,
+            url: p.url,
+            content: '',
+            start: p.endStr,
+            type: 'point',
+            title: deathTooltip,
+            className: 'tl-dot tl-dot-death'
+          });
+        }
       }
-    });
+
+      // Marriage points
+      for (const m of rawData.marriages) {
+        const marrTooltip = `
+          <div class="tt-box">
+            <div class="tt-title">💍 Sňatek · ${m.fatherName} & ${m.motherName}</div>
+            <div class="tt-dates">${m.display}${m.text ? ` (${m.text})` : ''}</div>
+            <div class="tt-click-hint">Klepnutím otevřete profil →</div>
+          </div>
+        `;
+
+        if (m.father) {
+          allItems.push({
+            id: `marr-${m.father}-${m.id}`,
+            group: m.father,
+            personSlug: m.father,
+            url: rawData.people.find((p: any) => p.id === m.father)?.url,
+            content: '',
+            start: m.dateStr,
+            type: 'point',
+            title: marrTooltip,
+            className: 'tl-dot tl-dot-marriage'
+          });
+        }
+
+        if (m.mother) {
+          allItems.push({
+            id: `marr-${m.mother}-${m.id}`,
+            group: m.mother,
+            personSlug: m.mother,
+            url: rawData.people.find((p: any) => p.id === m.mother)?.url,
+            content: '',
+            start: m.dateStr,
+            type: 'point',
+            title: marrTooltip,
+            className: 'tl-dot tl-dot-marriage'
+          });
+        }
+      }
+
+      // Historical milestones
+      for (const hm of rawData.historical) {
+        allItems.push(hm);
+      }
+
+      const groupsDataSet = new DataSet(allGroups);
+      const itemsDataSet = new DataSet(allItems);
+
+      const options: any = {
+        start: new Date(1740, 0, 1),
+        end: new Date(2028, 11, 31),
+        min: new Date(1640, 0, 1),
+        max: new Date(2035, 11, 31),
+        zoomMin: 1000 * 60 * 60 * 24 * 365 * 3,   // 3 years
+        zoomMax: 1000 * 60 * 60 * 24 * 365 * 400, // 400 years
+        orientation: 'top',
+        stack: false,                              // Put markers directly along the lifespan line!
+        horizontalScroll: true,
+        verticalScroll: true,
+        zoomKey: 'ctrlKey',
+        moveable: true,
+        zoomable: true,
+        selectable: true,
+        multiselect: false,
+        showCurrentTime: true,
+        locale: 'cs',
+        margin: {
+          item: { horizontal: 0, vertical: 0 },
+          axis: 6
+        },
+        tooltip: {
+          followMouse: true,
+          overflowMethod: 'cap',
+          delay: 100
+        }
+      };
+
+      const timeline = new Timeline(container, itemsDataSet, groupsDataSet, options);
+
+      // Click on item -> navigate to person profile
+      timeline.on('select', (properties) => {
+        if (properties.items && properties.items.length > 0) {
+          const selectedId = properties.items[0];
+          const item = itemsDataSet.get(selectedId);
+          if (item && item.url) {
+            window.location.href = item.url;
+          }
+        }
+      });
+
+      // Filtering & Sorting function
+      function applyFilterAndSort() {
+        const lineVal = (document.getElementById('tl-line-filter') as HTMLSelectElement)?.value || 'all';
+        const sortVal = (document.getElementById('tl-sort-select') as HTMLSelectElement)?.value || 'birth-asc';
+        const searchVal = ((document.getElementById('tl-search-input') as HTMLInputElement)?.value || '').trim().toLowerCase();
+
+        let filtered = allGroups.filter((g: any) => {
+          if (lineVal !== 'all' && g.lineSlug !== lineVal) return false;
+          if (searchVal && !g.name.toLowerCase().includes(searchVal)) return false;
+          return true;
+        });
+
+        // Apply sort
+        if (sortVal === 'birth-asc') {
+          filtered.sort((a: any, b: any) => a.birthYear - b.birthYear);
+        } else if (sortVal === 'birth-desc') {
+          filtered.sort((a: any, b: any) => b.birthYear - a.birthYear);
+        } else if (sortVal === 'name-asc') {
+          filtered.sort((a: any, b: any) => a.name.localeCompare(b.name, 'cs'));
+        } else if (sortVal === 'line') {
+          filtered.sort((a: any, b: any) => a.lineName.localeCompare(b.lineName, 'cs') || a.birthYear - b.birthYear);
+        }
+
+        groupsDataSet.clear();
+        groupsDataSet.add(filtered);
+
+        // Update badge
+        const badge = document.getElementById('visible-count-badge');
+        if (badge) {
+          badge.textContent = `${filtered.length} osob`;
+        }
+
+        // If search returned exactly 1 person, focus on their start year
+        if (searchVal && filtered.length === 1) {
+          const person = filtered[0];
+          const sY = person.birthYear;
+          timeline.setWindow(new Date(sY - 20, 0, 1), new Date(sY + 70, 11, 31), {
+            animation: { duration: 500, easingFunction: 'easeInOutQuad' }
+          });
+        }
+      }
+
+      document.getElementById('tl-line-filter')?.addEventListener('change', applyFilterAndSort);
+      document.getElementById('tl-sort-select')?.addEventListener('change', applyFilterAndSort);
+
+      const searchInput = document.getElementById('tl-search-input') as HTMLInputElement;
+      searchInput?.addEventListener('input', applyFilterAndSort);
+      document.getElementById('tl-search-form')?.addEventListener('submit', (e) => {
+        e.preventDefault();
+        applyFilterAndSort();
+      });
+
+      // Quick jumps
+      document.querySelectorAll('.btn-jump[data-year]').forEach((btn) => {
+        btn.addEventListener('click', () => {
+          const year = parseInt(btn.getAttribute('data-year') || '1850', 10);
+          timeline.setWindow(new Date(year - 20, 0, 1), new Date(year + 60, 11, 31), {
+            animation: { duration: 500, easingFunction: 'easeInOutQuad' }
+          });
+        });
+      });
+
+      document.getElementById('btn-fit-all')?.addEventListener('click', () => {
+        timeline.fit({ animation: { duration: 600, easingFunction: 'easeInOutQuad' } });
+      });
+
+      // Zoom buttons
+      document.getElementById('btn-tl-zoom-in')?.addEventListener('click', () => {
+        timeline.zoomIn(0.4, { animation: { duration: 250 } });
+      });
+
+      document.getElementById('btn-tl-zoom-out')?.addEventListener('click', () => {
+        timeline.zoomOut(0.4, { animation: { duration: 250 } });
+      });
+    }
   </script>
 
   <style is:global>
+    /* Top Toolbar */
     .timeline-bar {
       display: flex;
       align-items: center;
@@ -398,7 +584,7 @@ const allNames = timelineItems.map((it) => it.name).sort((a: string, b: string) 
       padding: 0.45rem 1rem;
       background: var(--bg-alt, #F6F1EA);
       border-bottom: 1px solid var(--border, #E4DCBE);
-      gap: 0.75rem;
+      gap: 0.8rem;
       flex-wrap: wrap;
       font-size: 0.85rem;
       z-index: 20;
@@ -407,51 +593,151 @@ const allNames = timelineItems.map((it) => it.name).sort((a: string, b: string) 
     .tb-left {
       display: flex;
       align-items: center;
-      gap: 0.8rem;
+      gap: 1rem;
+      flex-wrap: wrap;
     }
 
-    .group-switch {
-      display: inline-flex;
-      border-radius: 6px;
-      background: #EAE2D4;
-      padding: 2px;
-      gap: 2px;
+    .tb-title-group {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
     }
 
-    .group-switch .btn-group {
-      background: transparent;
-      border: none;
-      padding: 0.2rem 0.55rem;
-      font-size: 0.78rem;
-      font-weight: 600;
-      color: #6A5844;
+    .tb-badge {
+      display: inline-block;
+      font-size: 0.72rem;
+      font-weight: 700;
+      padding: 0.12rem 0.45rem;
       border-radius: 4px;
-      cursor: pointer;
-      transition: all 0.15s ease;
+      background: #EAE2D0;
+      color: #70583A;
     }
 
-    .group-switch .btn-group.active {
+    .tb-legend {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.75rem;
+      font-size: 0.74rem;
+      color: #6A5844;
+      background: rgba(255, 255, 255, 0.6);
+      padding: 0.2rem 0.55rem;
+      border-radius: 5px;
+      border: 1px solid rgba(228, 220, 190, 0.6);
+    }
+
+    .legend-item {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.3rem;
+    }
+
+    .legend-dot {
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+    }
+
+    .legend-dot.dot-birth {
+      background: #10B981;
+      border: 1px solid #FFFFFF;
+      box-shadow: 0 0 2px rgba(0,0,0,0.3);
+    }
+
+    .legend-dot.dot-marriage {
+      background: #F59E0B;
+      border-radius: 2px;
+      transform: rotate(45deg);
+      border: 1px solid #FFFFFF;
+      box-shadow: 0 0 2px rgba(0,0,0,0.3);
+    }
+
+    .legend-dot.dot-death {
+      background: #1F2937;
+      border: 1px solid #FFFFFF;
+      box-shadow: 0 0 2px rgba(0,0,0,0.3);
+    }
+
+    .legend-line-est {
+      display: inline-block;
+      width: 14px;
+      height: 0;
+      border-top: 2px dashed #8C7B68;
+    }
+
+    .tb-center {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+    }
+
+    .tb-search {
+      position: relative;
+      display: inline-flex;
+      align-items: center;
+    }
+
+    .search-icon {
+      position: absolute;
+      left: 8px;
+      color: #8C7B68;
+      pointer-events: none;
+    }
+
+    .tb-search input {
+      padding: 0.22rem 0.5rem 0.22rem 1.7rem;
+      border: 1px solid var(--border, #D8CEBC);
+      border-radius: 4px;
       background: #FFFFFF;
-      color: #2B2620;
-      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+      font-size: 0.8rem;
+      width: 150px;
+      transition: width 0.2s ease, border-color 0.2s ease;
+    }
+
+    .tb-search input:focus {
+      width: 210px;
+      border-color: #70583A;
+      outline: none;
+    }
+
+    .tl-select {
+      background: #FFFFFF;
+      border: 1px solid var(--border, #D8CEBC);
+      border-radius: 4px;
+      padding: 0.22rem 0.45rem;
+      font-size: 0.78rem;
+      color: #3B2E22;
+      cursor: pointer;
+    }
+
+    .tl-select:focus {
+      outline: none;
+      border-color: #70583A;
+    }
+
+    .tb-right {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
     }
 
     .tb-jumps {
       display: flex;
       align-items: center;
-      gap: 0.3rem;
+      gap: 0.25rem;
     }
 
     .jumps-label {
-      font-size: 0.75rem;
-      margin-right: 0.2rem;
+      font-size: 0.74rem;
+      margin-right: 0.1rem;
     }
 
     .btn-jump {
       background: #FFFFFF;
       border: 1px solid var(--border, #D8CEBC);
-      padding: 0.2rem 0.45rem;
-      font-size: 0.75rem;
+      padding: 0.18rem 0.4rem;
+      font-size: 0.74rem;
       font-weight: 600;
       color: #4A3B2C;
       border-radius: 4px;
@@ -472,19 +758,19 @@ const allNames = timelineItems.map((it) => it.name).sort((a: string, b: string) 
     .tb-zoom {
       display: flex;
       align-items: center;
-      gap: 0.25rem;
+      gap: 0.2rem;
     }
 
     .tb-zoom button {
-      width: 28px;
-      height: 28px;
+      width: 26px;
+      height: 26px;
       display: inline-flex;
       align-items: center;
       justify-content: center;
       background: #FFFFFF;
       border: 1px solid var(--border, #D8CEBC);
       border-radius: 4px;
-      font-size: 1rem;
+      font-size: 0.95rem;
       font-weight: bold;
       cursor: pointer;
       color: #3B2E22;
@@ -494,6 +780,7 @@ const allNames = timelineItems.map((it) => it.name).sort((a: string, b: string) 
       background: #F4ECE0;
     }
 
+    /* Timeline Stage */
     .timeline-stage {
       height: calc(100vh - 105px);
       width: 100%;
@@ -507,108 +794,201 @@ const allNames = timelineItems.map((it) => it.name).sort((a: string, b: string) 
       font-family: inherit !important;
     }
 
-    .vis-panel.vis-center,
-    .vis-panel.vis-left,
-    .vis-panel.vis-right,
-    .vis-panel.vis-top,
-    .vis-panel.vis-bottom {
-      border-color: var(--border, #E4DCBE) !important;
+    /* Fixed Left Panel (Person Names Column) */
+    .vis-panel.vis-left {
+      width: 270px !important;
+      border-right: 2px solid var(--border, #D8CEBC) !important;
+      background: #FAF7F2 !important;
+      z-index: 10 !important;
+      box-shadow: 2px 0 6px rgba(0,0,0,0.03) !important;
     }
 
-    .vis-time-axis .vis-text {
-      color: #5A4A3A !important;
-      font-size: 0.8rem !important;
-      font-weight: 600 !important;
-      padding-top: 4px;
-    }
-
-    .vis-time-axis .vis-grid.vis-minor {
-      border-color: rgba(228, 220, 190, 0.45) !important;
-    }
-
-    .vis-time-axis .vis-grid.vis-major {
-      border-color: rgba(180, 165, 140, 0.7) !important;
-      border-width: 1.5px !important;
+    .vis-panel.vis-top.vis-left {
+      border-right: 2px solid var(--border, #D8CEBC) !important;
+      background: #EFE8DC !important;
     }
 
     .vis-label {
-      color: #2E251C !important;
-      font-size: 0.82rem !important;
-      font-weight: 700 !important;
-      border-bottom: 1px solid var(--border, #E4DCBE) !important;
-      padding: 6px 10px !important;
-      background: #F8F3EA !important;
+      padding: 0 8px 0 0 !important;
+      height: 32px !important;
+      box-sizing: border-box !important;
+      display: flex !important;
+      align-items: center !important;
+      border-bottom: 1px solid rgba(228, 220, 190, 0.45) !important;
+      background: transparent !important;
+      cursor: pointer;
+      transition: background 0.12s ease;
     }
 
-    .line-dot {
-      display: inline-block;
-      width: 8px;
-      height: 8px;
-      border-radius: 50%;
-      margin-right: 6px;
+    .vis-label:hover {
+      background: #F3EBDD !important;
     }
 
-    /* Person Lifespan Items */
-    .vis-item.tl-person {
-      border-radius: 6px !important;
-      font-size: 0.77rem !important;
-      box-shadow: 0 1px 4px rgba(43, 38, 32, 0.08) !important;
-      cursor: pointer !important;
-      transition: transform 0.12s ease, box-shadow 0.12s ease, filter 0.12s ease !important;
+    .vis-group {
+      height: 32px !important;
+      border-bottom: 1px solid rgba(228, 220, 190, 0.35) !important;
     }
 
-    .vis-item.tl-person:hover {
-      transform: translateY(-1px);
-      box-shadow: 0 4px 10px rgba(43, 38, 32, 0.18) !important;
-      filter: brightness(0.97);
-      z-index: 50 !important;
-    }
-
-    /* Male */
-    .vis-item.tl-person.sex-m {
-      background: #EDF3FA !important;
-      border: 1.5px solid #6C94C4 !important;
-      color: #1A3960 !important;
-    }
-
-    /* Female */
-    .vis-item.tl-person.sex-f {
-      background: #FDF1EA !important;
-      border: 1.5px solid #D68F6E !important;
-      color: #5C2712 !important;
-    }
-
-    /* Estimated items */
-    .vis-item.tl-person.estimated {
-      border-style: dashed !important;
-      opacity: 0.86;
-    }
-
-    .tl-item-inner {
+    /* Row Label inside Left Panel */
+    .tl-row-label {
       display: flex;
       align-items: center;
       gap: 6px;
-      padding: 1px 3px;
+      width: 100%;
+      overflow: hidden;
       white-space: nowrap;
+      text-overflow: ellipsis;
+      font-size: 0.78rem;
+    }
+
+    .tl-row-line-indicator {
+      width: 4px;
+      height: 32px;
+      flex-shrink: 0;
+      border-top-right-radius: 2px;
+      border-bottom-right-radius: 2px;
+    }
+
+    .tl-row-sex {
+      font-size: 0.8rem;
+      font-weight: 700;
+      flex-shrink: 0;
+    }
+
+    .tl-row-sex.sex-m {
+      color: #356091;
+    }
+
+    .tl-row-sex.sex-f {
+      color: #B84D38;
+    }
+
+    .tl-row-name {
+      font-weight: 600;
+      color: var(--text, #2B2620);
+      text-decoration: none;
       overflow: hidden;
       text-overflow: ellipsis;
+      white-space: nowrap;
+      flex: 1;
     }
 
-    .tl-sex-icon {
-      font-size: 0.8rem;
-      font-weight: bold;
-      opacity: 0.7;
+    .tl-row-name:hover {
+      color: #92400E;
+      text-decoration: underline;
     }
 
-    .tl-label-name {
-      font-weight: 700;
+    .tl-row-years {
+      font-size: 0.7rem;
+      color: #7A6B5B;
+      flex-shrink: 0;
+      margin-left: auto;
+      padding-right: 4px;
+      font-variant-numeric: tabular-nums;
     }
 
-    .tl-label-years {
-      font-size: 0.72rem;
-      opacity: 0.8;
-      font-weight: 600;
-      margin-left: 2px;
+    /* Main Part: Clean Lifespan Lines */
+    .vis-item.vis-range.tl-life-bar {
+      height: 6px !important;
+      top: 13px !important;
+      border-radius: 3px !important;
+      border: none !important;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.12) !important;
+      cursor: pointer !important;
+      transition: height 0.15s ease, top 0.15s ease, box-shadow 0.15s ease !important;
+    }
+
+    .vis-item.vis-range.tl-life-bar:hover {
+      height: 10px !important;
+      top: 11px !important;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.25) !important;
+      z-index: 50 !important;
+    }
+
+    .vis-item.vis-range.tl-life-bar .vis-item-content {
+      display: none !important;
+    }
+
+    .vis-item.vis-range.tl-life-bar.estimated {
+      opacity: 0.78 !important;
+      background-image: repeating-linear-gradient(45deg, transparent, transparent 4px, rgba(255,255,255,0.45) 4px, rgba(255,255,255,0.45) 8px) !important;
+    }
+
+    /* Event Points on the Line */
+    .vis-item.vis-point {
+      background: transparent !important;
+      border: none !important;
+      top: 16px !important;
+      cursor: pointer !important;
+      z-index: 20 !important;
+    }
+
+    .vis-item.vis-point .vis-item-content {
+      display: none !important;
+    }
+
+    .vis-item.vis-point .vis-dot {
+      position: absolute !important;
+      box-sizing: border-box !important;
+      cursor: pointer !important;
+      transition: transform 0.15s ease, box-shadow 0.15s ease !important;
+    }
+
+    /* 1. Birth dot (emerald circle) */
+    .vis-item.tl-dot-birth .vis-dot {
+      top: -5px !important;
+      left: -5px !important;
+      width: 10px !important;
+      height: 10px !important;
+      border-radius: 50% !important;
+      background: #10B981 !important;
+      border: 2px solid #FFFFFF !important;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.3) !important;
+    }
+
+    .vis-item.tl-dot-birth:hover .vis-dot {
+      transform: scale(1.45) !important;
+      z-index: 100 !important;
+    }
+
+    /* 2. Marriage dot (golden rotated diamond) */
+    .vis-item.tl-dot-marriage .vis-dot {
+      top: -5px !important;
+      left: -5px !important;
+      width: 10px !important;
+      height: 10px !important;
+      border-radius: 2px !important;
+      transform: rotate(45deg) !important;
+      background: #F59E0B !important;
+      border: 2px solid #FFFFFF !important;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.35) !important;
+    }
+
+    .vis-item.tl-dot-marriage:hover .vis-dot {
+      transform: rotate(45deg) scale(1.45) !important;
+      z-index: 100 !important;
+    }
+
+    /* 3. Death dot (dark slate circle) */
+    .vis-item.tl-dot-death .vis-dot {
+      top: -5px !important;
+      left: -5px !important;
+      width: 10px !important;
+      height: 10px !important;
+      border-radius: 50% !important;
+      background: #1F2937 !important;
+      border: 2px solid #FFFFFF !important;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.35) !important;
+    }
+
+    .vis-item.tl-dot-death:hover .vis-dot {
+      transform: scale(1.45) !important;
+      z-index: 100 !important;
+    }
+
+    /* Selected state */
+    .vis-item.vis-selected {
+      filter: drop-shadow(0 0 4px rgba(184, 77, 56, 0.8)) !important;
     }
 
     /* Historical Background Zones */
@@ -645,19 +1025,36 @@ const allNames = timelineItems.map((it) => it.name).sort((a: string, b: string) 
       font-size: 0.72rem;
       font-weight: 700;
       letter-spacing: 0.02em;
-      color: rgba(60, 45, 30, 0.55);
+      color: rgba(60, 45, 30, 0.6);
       padding: 6px 8px;
     }
 
-    /* Tooltip */
+    /* Time Axis & Labels */
+    .vis-time-axis .vis-text {
+      color: #5A4A3A !important;
+      font-size: 0.8rem !important;
+      font-weight: 600 !important;
+      padding-top: 4px;
+    }
+
+    .vis-time-axis .vis-grid.vis-minor {
+      border-color: rgba(228, 220, 190, 0.45) !important;
+    }
+
+    .vis-time-axis .vis-grid.vis-major {
+      border-color: rgba(180, 165, 140, 0.7) !important;
+      border-width: 1.5px !important;
+    }
+
+    /* Custom Tooltip */
     .vis-tooltip {
       background: #2B2620 !important;
       color: #FFFFFF !important;
       border: none !important;
       border-radius: 8px !important;
-      padding: 0.65rem 0.85rem !important;
+      padding: 0.6rem 0.8rem !important;
       box-shadow: 0 4px 18px rgba(0,0,0,0.3) !important;
-      max-width: 310px !important;
+      max-width: 320px !important;
       font-size: 0.8rem !important;
       line-height: 1.4 !important;
       z-index: 1000 !important;
@@ -666,10 +1063,11 @@ const allNames = timelineItems.map((it) => it.name).sort((a: string, b: string) 
     .tt-box {
       display: flex;
       flex-direction: column;
+      gap: 2px;
     }
 
     .tt-title {
-      font-size: 0.9rem;
+      font-size: 0.88rem;
       font-weight: 700;
       color: #FFFFFF;
       margin-bottom: 2px;
@@ -682,29 +1080,36 @@ const allNames = timelineItems.map((it) => it.name).sort((a: string, b: string) 
 
     .tt-sub {
       font-size: 0.75rem;
-      color: #D6CBC0;
-      margin-top: 3px;
+      color: #D2C4B2;
+      margin-top: 2px;
     }
 
     .tt-line-badge {
       display: inline-block;
+      align-self: flex-start;
       font-size: 0.7rem;
-      font-weight: 600;
-      padding: 1px 6px;
-      border-radius: 3px;
+      font-weight: 700;
+      padding: 0.1rem 0.4rem;
+      border-radius: 4px;
       border: 1px solid;
       margin-top: 5px;
     }
 
     .tt-click-hint {
-      font-size: 0.7rem;
+      font-size: 0.68rem;
       color: #E2B080;
-      font-weight: 600;
       margin-top: 4px;
+      font-weight: 600;
     }
 
-    @media (max-width: 850px) {
-      .tb-jumps {
+    @media (max-width: 900px) {
+      .tb-legend {
+        display: none;
+      }
+      .vis-panel.vis-left {
+        width: 190px !important;
+      }
+      .tl-row-years {
         display: none;
       }
     }

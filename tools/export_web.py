@@ -365,6 +365,9 @@ def main():
     aliases_dict = {a: slugs[a] for a in SAME}
     if child_slugs:
         aliases_dict["krystof-tea-hynek-a-jonas-mensikovi-2010"] = child_slugs[0][0]
+    if 4 in slugs:
+        aliases_dict["ing-radim-jaroslav-mensik-1946"] = slugs[4]
+        aliases_dict["radim-mensik-1946"] = slugs[4]
     site = dict(config=public_cfg, places=places, root=slugs[1], aliases=aliases_dict, people=people,
                 families=families, records=records, lines=lines,
                 issues=[dict(title=i, text="") if isinstance(i, str) else dict(title=i[0], text=i[1]) for i in ISSUES], stats=stats, hypotheses=hypotheses,
