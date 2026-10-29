@@ -1,781 +1,138 @@
 ---
 import Base from '../layouts/Base.astro';
-import { people, href, byK } from '../lib/data.js';
+import { href } from '../lib/data.js';
 
-// Pre-map portrait photo keys for people from docs
-const fotoMap: Record<string, string> = {};
-for (const [slug, p] of Object.entries(people) as [string, any][]) {
-  const fotos = (p.docs || []).filter((d: any) => d.img && d.img.startsWith('foto_'));
-  if (fotos.length > 0) {
-    fotoMap[slug] = fotos[0].img;
-  }
-}
-
-// Build complete hierarchical tree data starting from root (Kekule 1)
-function buildSubtree(k: number, visited = new Set<number>()): any {
-  if (visited.has(k)) return null;
-  const p = byK[k];
-  if (!p) return null;
-  visited.add(k);
-
-  const photoKey = fotoMap[p.slug] || '';
-  const photoUrl = photoKey ? href.to(`/img/${photoKey}.jpg`) : '';
-
-  const node: any = {
-    k,
-    slug: p.slug,
-    name: p.name,
-    roz: p.roz || '',
-    years: p.years || '',
-    gen: p.gen ?? (k.toString(2).length - 1),
-    sex: p.sex || (k % 2 === 0 ? 'M' : 'F'),
-    rel: p.rel || '',
-    status: p.status || '',
-    st: p.st || 'unk',
-    job: (p.details as any)?.job || '',
-    home: (p.details as any)?.home || (p.details as any)?.birth || '',
-    photo: photoUrl,
-    url: href.person(p.slug),
-    side: (p.side || []).map((s: any) => ({
-      name: s.name,
-      text: s.text || ''
-    }))
-  };
-
-  const parents: any[] = [];
-  const father = buildSubtree(2 * k, new Set(visited));
-  const mother = buildSubtree(2 * k + 1, new Set(visited));
-  if (father) parents.push(father);
-  if (mother) parents.push(mother);
-
-  if (parents.length > 0) {
-    node.children = parents;
-  }
-  return node;
-}
-
-const rootTree = buildSubtree(1);
-const allNames = Object.values(people).map((p: any) => p.name).sort((a: string, b: string) => a.localeCompare(b, 'cs'));
+const stromUrl = href.to('/strom-app/');
 ---
 
-<Base title="Interaktivní strom (D3.js)" full>
-  <div class="fan-bar">
-    <strong>Interaktivní strom (D3.js)</strong>
-    <span class="tree-badge">verze 2.0</span>
-    <form class="fan-search" autocomplete="off" id="d3-search-form">
-      <input id="d3-search-input" list="d3-names" placeholder="Najít člena rodiny…" aria-label="Najít člena rodiny" />
-      <datalist id="d3-names">{allNames.map((n) => <option value={n} />)}</datalist>
-      <button type="submit">Najít</button>
-    </form>
-    <span class="fan-btns">
-      <button type="button" id="btn-zoom-in" title="Přiblížit">+</button>
-      <button type="button" id="btn-zoom-out" title="Oddálit">−</button>
-      <button type="button" id="btn-fit" title="Vycentrovat">Vycentrovat</button>
-      <button type="button" id="btn-expand-all" title="Rozbalit vše">Rozbalit vše</button>
-      <button type="button" id="btn-collapse" title="Základní pohled">Základní pohled</button>
-    </span>
-    <span class="small muted fan-hint">
-      Klepnutím na <strong>+ / −</strong> rozbalíte linii. Kliknutím na <strong>👥</strong> zobrazíte boční příbuzné. Kliknutím na jméno/fotku otevřete profil osoby.
-    </span>
+<Base title="Strom rodiny (interaktivní)" full>
+  <div class="strom-page">
+    <div class="strom-toolbar">
+      <div class="strom-title-box">
+        <strong>Interaktivní strom rodiny</strong>
+        <span class="strom-badge">Rodina</span>
+        <span class="small muted strom-desc">
+          Klikatelný, rozbalovací strom s předky. Posunujte tažením, přibližujte kolečkem či gesty. Klepnutím na osobu zvolíte „Zaměřit“, „Prameny“ či „Zobrazit potomky“.
+        </span>
+      </div>
+      <div class="strom-btn-group">
+        <a
+          href={stromUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="strom-external-link"
+          title="Otevřít strom v samostatném okně na celou obrazovku"
+        >
+          <span>Celá obrazovka</span> ↗
+        </a>
+      </div>
+    </div>
+    <div class="strom-frame-wrapper">
+      <iframe
+        src={stromUrl}
+        title="Interaktivní strom rodiny"
+        class="strom-iframe"
+        allow="fullscreen"
+      />
+    </div>
   </div>
-
-  <div id="tree-d3-container" class="d3-stage">
-    <svg id="d3-tree-svg"></svg>
-    <div id="d3-tooltip" class="d3-tooltip hidden"></div>
-  </div>
-
-  <script define:vars={{ rootTree }}>
-    window.INITIAL_TREE_DATA = rootTree;
-  </script>
-
-  <script>
-    import * as d3 from 'd3';
-
-    interface SidePerson {
-      name: string;
-      text: string;
-    }
-
-    interface PersonNode {
-      k: number;
-      slug: string;
-      name: string;
-      years: string;
-      gen: number;
-      sex: string;
-      rel: string;
-      status: string;
-      st: string;
-      job: string;
-      home: string;
-      photo: string;
-      url: string;
-      side: SidePerson[];
-      showSide?: boolean;
-      children?: PersonNode[];
-      _children?: PersonNode[];
-      x?: number;
-      y?: number;
-      x0?: number;
-      y0?: number;
-    }
-
-    const container = document.getElementById('tree-d3-container')!;
-    const svgEl = d3.select<SVGSVGElement, unknown>('#d3-tree-svg');
-    const tooltip = document.getElementById('d3-tooltip')!;
-
-    const rawData: PersonNode = (window as any).INITIAL_TREE_DATA;
-    if (!rawData) {
-      console.error('Data stromu nenalezena');
-    }
-
-    const NODE_WIDTH = 224;
-    const NODE_HEIGHT = 68;
-    const HORIZONTAL_GAP = 285;
-
-    let width = container.clientWidth || window.innerWidth;
-    let height = container.clientHeight || (window.innerHeight - 110);
-
-    const svg = svgEl
-      .attr('width', '100%')
-      .attr('height', '100%')
-      .attr('viewBox', `0 0 ${width} ${height}`);
-
-    const g = svg.append('g').attr('class', 'tree-viewport');
-
-    const zoom = d3.zoom<SVGSVGElement, unknown>()
-      .scaleExtent([0.15, 3])
-      .on('zoom', (event) => {
-        g.attr('transform', event.transform);
-      });
-
-    svg.call(zoom).on('dblclick.zoom', null);
-
-    // Initial root setup
-    const root = d3.hierarchy<PersonNode>(rawData, (d) => d.children);
-    (root as any).x0 = height / 2;
-    (root as any).y0 = 60;
-
-    // Collapse beyond 2nd generation by default
-    function collapseBeyondGen(d: d3.HierarchyNode<PersonNode>, maxGen = 2) {
-      if (d.children) {
-        if (d.data.gen >= maxGen) {
-          (d as any)._children = d.children;
-          d.children = null;
-        } else {
-          d.children.forEach((c) => collapseBeyondGen(c, maxGen));
-        }
-      }
-    }
-    collapseBeyondGen(root, 2);
-
-    const treeLayout = d3.tree<PersonNode>()
-      .nodeSize([92, HORIZONTAL_GAP])
-      .separation((a, b) => (a.parent === b.parent ? 1.05 : 1.25));
-
-    let i = 0;
-
-    function update(source: any) {
-      const duration = 350;
-      const treeData = treeLayout(root);
-
-      const nodes = treeData.descendants();
-      const links = treeData.links();
-
-      // Normalize for fixed horizontal depth
-      nodes.forEach((d) => {
-        d.y = d.depth * HORIZONTAL_GAP + 60;
-      });
-
-      // --- NODES ---
-      const node = g.selectAll<SVGGElement, d3.HierarchyPointNode<PersonNode>>('g.d3-node')
-        .data(nodes, (d: any) => d.id || (d.id = ++i));
-
-      // Enter new nodes at the parent's previous position
-      const nodeEnter = node.enter()
-        .append('g')
-        .attr('class', (d) => `d3-node sex-${d.data.sex} st-${d.data.st}`)
-        .attr('transform', () => `translate(${source.y0 ?? 60}, ${source.x0 ?? height / 2})`);
-
-      // Card Background
-      nodeEnter.append('rect')
-        .attr('class', 'node-box')
-        .attr('x', 0)
-        .attr('y', -NODE_HEIGHT / 2)
-        .attr('width', NODE_WIDTH)
-        .attr('height', NODE_HEIGHT)
-        .attr('rx', 9)
-        .attr('ry', 9)
-        .attr('fill', (d) => d.data.sex === 'F' ? '#FFFDFB' : '#FAFBFD')
-        .attr('stroke', (d) => d.data.sex === 'F' ? '#D6A785' : '#85A7D6')
-        .attr('stroke-width', 1.8)
-        .style('cursor', 'pointer')
-        .on('click', (_event, d) => {
-          if (d.data.url) window.location.href = d.data.url;
-        });
-
-      // Left gender accent strip
-      nodeEnter.append('rect')
-        .attr('x', 0)
-        .attr('y', -NODE_HEIGHT / 2)
-        .attr('width', 6)
-        .attr('height', NODE_HEIGHT)
-        .attr('rx', 2.5)
-        .attr('fill', (d) => d.data.sex === 'F' ? '#D9825B' : '#4E80B4');
-
-      // PORTRAIT (clipped image) OR Avatar placeholder if no portrait
-      const photoGroup = nodeEnter.append('g')
-        .attr('class', 'photo-avatar')
-        .attr('transform', `translate(12, ${-NODE_HEIGHT / 2 + 10})`)
-        .style('cursor', 'pointer')
-        .on('click', (_event, d) => {
-          if (d.data.url) window.location.href = d.data.url;
-        });
-
-      // Clip path for portrait
-      photoGroup.each(function(d: any) {
-        const pG = d3.select(this);
-        const clipId = `avatar-clip-${d.id}`;
-
-        pG.append('clipPath')
-          .attr('id', clipId)
-          .append('rect')
-          .attr('width', 40)
-          .attr('height', 48)
-          .attr('rx', 6);
-
-        if (d.data.photo) {
-          pG.append('image')
-            .attr('href', d.data.photo)
-            .attr('width', 40)
-            .attr('height', 48)
-            .attr('preserveAspectRatio', 'xMidYMid slice')
-            .attr('clip-path', `url(#${clipId})`);
-
-          pG.append('rect')
-            .attr('width', 40)
-            .attr('height', 48)
-            .attr('rx', 6)
-            .attr('fill', 'none')
-            .attr('stroke', '#D2C6B6')
-            .attr('stroke-width', 1);
-        } else {
-          // Subtle placeholder avatar
-          pG.append('rect')
-            .attr('width', 40)
-            .attr('height', 48)
-            .attr('rx', 6)
-            .attr('fill', d.data.sex === 'F' ? '#F7EEE7' : '#EBF0F7')
-            .attr('stroke', d.data.sex === 'F' ? '#E8D4C5' : '#D0DEEE')
-            .attr('stroke-width', 1);
-
-          pG.append('text')
-            .attr('x', 20)
-            .attr('y', 29)
-            .attr('text-anchor', 'middle')
-            .attr('font-size', '17px')
-            .attr('fill', d.data.sex === 'F' ? '#C2987A' : '#7D9FCE')
-            .text(d.data.sex === 'F' ? '♀' : '♂');
-        }
-      });
-
-      // Content text group (offset for portrait: x = 60)
-      const textGroup = nodeEnter.append('g')
-        .attr('transform', `translate(60, ${-NODE_HEIGHT / 2})`);
-
-      // Name Text
-      textGroup.append('text')
-        .attr('class', 'node-name')
-        .attr('x', 0)
-        .attr('y', 20)
-        .attr('font-size', '12px')
-        .attr('font-weight', '700')
-        .attr('fill', '#2B2620')
-        .style('cursor', 'pointer')
-        .text((d) => {
-          const maxLen = 18;
-          return d.data.name.length > maxLen ? d.data.name.slice(0, maxLen - 1) + '…' : d.data.name;
-        })
-        .on('click', (_event, d) => {
-          if (d.data.url) window.location.href = d.data.url;
-        });
-
-      // Years Text
-      textGroup.append('text')
-        .attr('class', 'node-sub')
-        .attr('x', 0)
-        .attr('y', 36)
-        .attr('font-size', '10.5px')
-        .attr('font-weight', '600')
-        .attr('fill', '#7A6B5B')
-        .text((d) => {
-          const yr = d.data.years || d.data.rel || 'předek';
-          return d.data.roz ? `${yr} · roz. ${d.data.roz}` : yr;
-        });
-
-      // Job / Home subtitle
-      textGroup.append('text')
-        .attr('class', 'node-extra')
-        .attr('x', 0)
-        .attr('y', 51)
-        .attr('font-size', '9.5px')
-        .attr('fill', '#8A7B6B')
-        .text((d) => {
-          const info = d.data.job || d.data.home || '';
-          return info.length > 21 ? info.slice(0, 20) + '…' : info;
-        });
-
-      // SIDE BRANCHES BADGE (👥) - if person has siblings / side relatives
-      const sideGroup = nodeEnter.append('g')
-        .attr('class', 'side-btn')
-        .attr('transform', `translate(${NODE_WIDTH - 28}, ${-NODE_HEIGHT / 2 + 15})`)
-        .style('display', (d: any) => (d.data.side && d.data.side.length > 0 ? 'block' : 'none'))
-        .style('cursor', 'pointer')
-        .on('mousedown pointerdown', (event) => {
-          event.stopPropagation();
-        })
-        .on('click', (event, d: any) => {
-          event.stopPropagation();
-          d.data.showSide = !d.data.showSide;
-          update(d);
-        });
-
-      // Larger transparent hit target so hovering/clicking never slips
-      sideGroup.append('circle')
-        .attr('r', 14)
-        .attr('fill', 'transparent');
-
-      const sideVisual = sideGroup.append('g')
-        .attr('class', 'btn-visual');
-
-      sideVisual.append('circle')
-        .attr('class', 'side-circle')
-        .attr('r', 9)
-        .attr('fill', (d: any) => (d.data.showSide ? '#6E5D4B' : '#F5EEE4'))
-        .attr('stroke', '#8C7B68')
-        .attr('stroke-width', 1.4);
-
-      sideVisual.append('text')
-        .attr('text-anchor', 'middle')
-        .attr('dy', '3.5px')
-        .attr('font-size', '10px')
-        .attr('font-weight', 'bold')
-        .attr('fill', (d: any) => (d.data.showSide ? '#FFFFFF' : '#6E5D4B'))
-        .text('👥');
-
-      // SIDE PANEL (Expanded card showing siblings/relatives)
-      const sidePanel = nodeEnter.append('g')
-        .attr('class', 'side-panel')
-        .attr('transform', `translate(0, ${NODE_HEIGHT / 2 + 6})`)
-        .style('display', 'none');
-
-      sidePanel.append('rect')
-        .attr('class', 'side-panel-bg')
-        .attr('width', NODE_WIDTH)
-        .attr('rx', 7)
-        .attr('ry', 7)
-        .attr('fill', '#FCFAF7')
-        .attr('stroke', '#9A8B7A')
-        .attr('stroke-width', 1.4)
-        .attr('stroke-dasharray', '4,3');
-
-      sidePanel.append('text')
-        .attr('class', 'side-panel-title')
-        .attr('x', 10)
-        .attr('y', 15)
-        .attr('font-size', '10px')
-        .attr('font-weight', '700')
-        .attr('fill', '#6E5D4B')
-        .text('Boční linie (sourozenci / tety):');
-
-      sidePanel.append('g').attr('class', 'side-items-container');
-
-      // Toggle Circle (+ / −) for ANCESTORS EXPANSION
-      const toggleGroup = nodeEnter.append('g')
-        .attr('class', 'toggle-btn')
-        .attr('transform', `translate(${NODE_WIDTH}, 0)`)
-        .style('display', (d: any) => (d.children || d._children ? 'block' : 'none'))
-        .style('cursor', 'pointer')
-        .on('mousedown pointerdown', (event) => {
-          event.stopPropagation();
-        })
-        .on('click', (event, d: any) => {
-          event.stopPropagation();
-          if (d.children) {
-            d._children = d.children;
-            d.children = null;
-          } else {
-            d.children = d._children;
-            d._children = null;
-          }
-          update(d);
-        });
-
-      // Larger transparent hit target to prevent hover/click jitter
-      toggleGroup.append('circle')
-        .attr('r', 15)
-        .attr('fill', 'transparent');
-
-      const toggleVisual = toggleGroup.append('g')
-        .attr('class', 'btn-visual');
-
-      toggleVisual.append('circle')
-        .attr('class', 'toggle-circle')
-        .attr('r', 9.5)
-        .attr('fill', (d: any) => (d._children ? '#8A5A2B' : '#E8DFD3'))
-        .attr('stroke', '#8A5A2B')
-        .attr('stroke-width', 1.6);
-
-      toggleVisual.append('text')
-        .attr('text-anchor', 'middle')
-        .attr('dy', '3.5px')
-        .attr('font-size', '11px')
-        .attr('font-weight', 'bold')
-        .attr('fill', (d: any) => (d._children ? '#FFFFFF' : '#4A3B2C'))
-        .text((d: any) => (d._children ? '+' : '−'));
-
-      // Tooltip handling
-      nodeEnter
-        .on('mouseenter', (event, d) => {
-          let html = `<strong>${d.data.name}${d.data.roz ? ` (roz. ${d.data.roz})` : ''}</strong>`;
-          if (d.data.years) html += `<div class="tt-sub">${d.data.years}</div>`;
-          if (d.data.rel) html += `<div class="tt-rel">${d.data.rel}</div>`;
-          if (d.data.job) html += `<div class="tt-line">💼 ${d.data.job}</div>`;
-          if (d.data.home) html += `<div class="tt-line">📍 ${d.data.home}</div>`;
-          if (d.data.side && d.data.side.length > 0) {
-            html += `<div class="tt-side">👥 Boční příbuzní (${d.data.side.length}):<br>${d.data.side.map((s: any) => `• ${s.name}`).join('<br>')}</div>`;
-          }
-          html += `<div class="tt-hint">Kliknutím otevřete stránku osoby →</div>`;
-
-          tooltip.innerHTML = html;
-          tooltip.classList.remove('hidden');
-          const rect = container.getBoundingClientRect();
-          tooltip.style.left = `${event.clientX - rect.left + 16}px`;
-          tooltip.style.top = `${event.clientY - rect.top + 16}px`;
-        })
-        .on('mousemove', (event) => {
-          const rect = container.getBoundingClientRect();
-          tooltip.style.left = `${event.clientX - rect.left + 16}px`;
-          tooltip.style.top = `${event.clientY - rect.top + 16}px`;
-        })
-        .on('mouseleave', () => {
-          tooltip.classList.add('hidden');
-        });
-
-      // UPDATE existing nodes
-      const nodeUpdate = nodeEnter.merge(node);
-
-      nodeUpdate.transition()
-        .duration(duration)
-        .attr('transform', (d) => `translate(${d.y}, ${d.x})`);
-
-      // Update side panel open/closed state
-      nodeUpdate.each(function(d: any) {
-        const nodeEl = d3.select(this);
-        const panel = nodeEl.select('.side-panel');
-        const sideBtn = nodeEl.select('.side-btn');
-
-        if (d.data.showSide && d.data.side && d.data.side.length > 0) {
-          panel.style('display', 'block');
-          sideBtn.select('circle.side-circle').attr('fill', '#6E5D4B');
-          sideBtn.select('text').attr('fill', '#FFFFFF');
-
-          const itemsContainer = panel.select('.side-items-container');
-          itemsContainer.selectAll('*').remove();
-
-          const lineHeight = 15;
-          d.data.side.forEach((s: any, idx: number) => {
-            const itemG = itemsContainer.append('g')
-              .attr('transform', `translate(10, ${30 + idx * lineHeight})`);
-
-            itemG.append('text')
-              .attr('font-size', '9.5px')
-              .attr('fill', '#3B2E22')
-              .text(`• ${s.name.length > 27 ? s.name.slice(0, 26) + '…' : s.name}`);
-          });
-
-          const totalH = 36 + d.data.side.length * lineHeight;
-          panel.select('rect.side-panel-bg').attr('height', totalH);
-        } else {
-          panel.style('display', 'none');
-          sideBtn.select('circle.side-circle').attr('fill', '#F5EEE4');
-          sideBtn.select('text').attr('fill', '#6E5D4B');
-        }
-      });
-
-      nodeUpdate.select('.toggle-btn')
-        .style('display', (d: any) => (d.children || d._children ? 'block' : 'none'));
-
-      nodeUpdate.select('.toggle-btn circle.toggle-circle')
-        .attr('fill', (d: any) => (d._children ? '#8A5A2B' : '#E8DFD3'));
-
-      nodeUpdate.select('.toggle-btn text')
-        .attr('fill', (d: any) => (d._children ? '#FFFFFF' : '#4A3B2C'))
-        .text((d: any) => (d._children ? '+' : '−'));
-
-      // EXIT nodes
-      node.exit()
-        .transition()
-        .duration(duration)
-        .attr('transform', () => `translate(${source.y}, ${source.x})`)
-        .remove();
-
-      // --- LINKS ---
-      const link = g.selectAll<SVGPathElement, d3.HierarchyLink<PersonNode>>('path.d3-link')
-        .data(links, (d: any) => d.target.id);
-
-      const linkEnter = link.enter()
-        .insert('path', 'g')
-        .attr('class', 'd3-link')
-        .attr('d', () => {
-          const o = { x: source.x0 ?? height / 2, y: source.y0 ?? 60 };
-          return diagonal({ source: o, target: o });
-        });
-
-      linkEnter.merge(link)
-        .transition()
-        .duration(duration)
-        .attr('d', diagonal);
-
-      link.exit()
-        .transition()
-        .duration(duration)
-        .attr('d', () => {
-          const o = { x: source.x, y: source.y };
-          return diagonal({ source: o, target: o });
-        })
-        .remove();
-
-      // Store previous positions for transition
-      nodes.forEach((d: any) => {
-        d.x0 = d.x;
-        d.y0 = d.y;
-      });
-    }
-
-    // Smooth cubic bezier connection
-    function diagonal(d: any) {
-      const sx = d.source.y + NODE_WIDTH;
-      const sy = d.source.x;
-      const tx = d.target.y;
-      const ty = d.target.x;
-      const mx = (sx + tx) / 2;
-      return `M ${sx} ${sy} C ${mx} ${sy}, ${mx} ${ty}, ${tx} ${ty}`;
-    }
-
-    // Initial render
-    update(root);
-
-    // Initial positioning
-    function fitCenter() {
-      const transform = d3.zoomIdentity.translate(80, height / 2).scale(0.85);
-      svg.transition().duration(500).call(zoom.transform, transform);
-    }
-    fitCenter();
-
-    // Toolbar buttons
-    document.getElementById('btn-zoom-in')?.addEventListener('click', () => {
-      svg.transition().duration(300).call(zoom.scaleBy, 1.3);
-    });
-    document.getElementById('btn-zoom-out')?.addEventListener('click', () => {
-      svg.transition().duration(300).call(zoom.scaleBy, 0.77);
-    });
-    document.getElementById('btn-fit')?.addEventListener('click', () => {
-      fitCenter();
-    });
-
-    document.getElementById('btn-expand-all')?.addEventListener('click', () => {
-      function expandAll(d: any) {
-        if (d._children) {
-          d.children = d._children;
-          d._children = null;
-        }
-        if (d.children) {
-          d.children.forEach(expandAll);
-        }
-      }
-      expandAll(root);
-      update(root);
-      fitCenter();
-    });
-
-    document.getElementById('btn-collapse')?.addEventListener('click', () => {
-      collapseBeyondGen(root, 2);
-      update(root);
-      fitCenter();
-    });
-
-    // Search person in tree
-    const searchForm = document.getElementById('d3-search-form') as HTMLFormElement;
-    const searchInput = document.getElementById('d3-search-input') as HTMLInputElement;
-
-    searchForm?.addEventListener('submit', (e) => {
-      e.preventDefault();
-      const val = searchInput.value.trim().toLowerCase();
-      if (!val) return;
-
-      // Uncollapse all ancestors of the found person
-      let matchNode: any = null;
-      function findAndExpand(d: any, parents: any[] = []): boolean {
-        const fullName = `${d.data.name} ${d.data.roz || ''}`.toLowerCase();
-        const words = val.split(/\s+/).filter(Boolean);
-        const nameMatch = words.every((w: string) => fullName.includes(w));
-        let foundInChildren = false;
-        const allChildren = (d.children || []).concat(d._children || []);
-        for (const c of allChildren) {
-          if (findAndExpand(c, [...parents, d])) {
-            foundInChildren = true;
-          }
-        }
-        if (nameMatch || foundInChildren) {
-          if (d._children) {
-            d.children = d._children;
-            d._children = null;
-          }
-          if (nameMatch && !matchNode) {
-            matchNode = d;
-          }
-          return true;
-        }
-        return false;
-      }
-
-      findAndExpand(root);
-      update(root);
-
-      if (matchNode) {
-        setTimeout(() => {
-          const scale = 1.1;
-          const tx = width / 2 - matchNode.y * scale - NODE_WIDTH / 2;
-          const ty = height / 2 - matchNode.x * scale;
-          svg.transition().duration(600).call(zoom.transform, d3.zoomIdentity.translate(tx, ty).scale(scale));
-
-          // Highlight
-          d3.selectAll('.d3-node').classed('node-highlight', false);
-          d3.selectAll('.d3-node')
-            .filter((d: any) => {
-              const fullName = `${d.data.name} ${d.data.roz || ''}`.toLowerCase();
-              const words = val.split(/\s+/).filter(Boolean);
-              return words.every((w: string) => fullName.includes(w));
-            })
-            .classed('node-highlight', true);
-        }, 400);
-      }
-    });
-
-    // Responsive resize
-    window.addEventListener('resize', () => {
-      width = container.clientWidth || window.innerWidth;
-      height = container.clientHeight || (window.innerHeight - 110);
-      svg.attr('viewBox', `0 0 ${width} ${height}`);
-    });
-  </script>
-
-  <style is:global>
-    .tree-badge {
-      display: inline-block;
-      font-size: 0.72rem;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 0.04em;
-      padding: 0.15rem 0.5rem;
-      border-radius: 4px;
-      background: #EAE2D0;
-      color: #70583A;
-      margin-left: -0.4rem;
-    }
-
-    .d3-stage {
-      height: calc(100vh - 110px);
-      width: 100%;
-      background: var(--bg);
-      position: relative;
-      overflow: hidden;
-      touch-action: none;
-      cursor: grab;
-    }
-    .d3-stage:active {
-      cursor: grabbing;
-    }
-
-    .d3-node rect.node-box {
-      transition: stroke 0.18s ease, stroke-width 0.18s ease, filter 0.18s ease;
-      filter: drop-shadow(0 2px 6px rgba(43, 38, 32, 0.06));
-    }
-    .d3-node:hover rect.node-box {
-      stroke: #3B2E22 !important;
-      stroke-width: 2.2px !important;
-      filter: drop-shadow(0 4px 12px rgba(43, 38, 32, 0.14));
-    }
-
-    .d3-node.node-highlight rect.node-box {
-      stroke: #D7302A !important;
-      stroke-width: 3.5px !important;
-      fill: #FFF8E6 !important;
-      filter: drop-shadow(0 4px 14px rgba(215, 48, 42, 0.35));
-    }
-
-    .photo-avatar {
-      transition: filter 0.15s ease;
-    }
-    .photo-avatar:hover {
-      filter: brightness(0.95) drop-shadow(0 1px 4px rgba(59, 46, 34, 0.25));
-    }
-
-    .side-btn .btn-visual,
-    .toggle-btn .btn-visual {
-      transition: transform 0.15s ease;
-    }
-    .side-btn:hover .btn-visual,
-    .toggle-btn:hover .btn-visual {
-      transform: scale(1.22);
-    }
-
-    .d3-link {
-      fill: none;
-      stroke: #C9BFB0;
-      stroke-width: 2px;
-    }
-
-    .d3-tooltip {
-      position: absolute;
-      background: #2B2620;
-      color: #FFFFFF;
-      padding: 0.65rem 0.85rem;
-      border-radius: 8px;
-      font-size: 0.8rem;
-      line-height: 1.45;
-      pointer-events: none;
-      box-shadow: 0 4px 16px rgba(0,0,0,0.28);
-      max-width: 290px;
-      z-index: 100;
-    }
-    .d3-tooltip .tt-sub {
-      color: #E5C8A8;
-      font-size: 0.78rem;
-      margin-bottom: 0.2rem;
-    }
-    .d3-tooltip .tt-rel {
-      color: #C0B4A4;
-      font-size: 0.75rem;
-    }
-    .d3-tooltip .tt-line {
-      font-size: 0.75rem;
-      color: #EAE3D9;
-      margin-top: 0.2rem;
-    }
-    .d3-tooltip .tt-side {
-      font-size: 0.73rem;
-      color: #D2C4B2;
-      margin-top: 0.35rem;
-      border-top: 1px solid rgba(255,255,255,0.18);
-      padding-top: 0.3rem;
-    }
-    .d3-tooltip .tt-hint {
-      font-size: 0.7rem;
-      color: #E2B080;
-      margin-top: 0.35rem;
-      font-weight: 600;
-    }
-  </style>
 </Base>
+
+<style>
+  .strom-page {
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 64px);
+    width: 100%;
+    background: var(--bg, #FAF7F2);
+    overflow: hidden;
+  }
+
+  .strom-toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.45rem 1rem;
+    background: var(--bg-alt, #F6F1EA);
+    border-bottom: 1px solid var(--border, #E4DCBE);
+    gap: 1rem;
+    flex-wrap: wrap;
+    font-size: 0.85rem;
+    z-index: 10;
+  }
+
+  .strom-title-box {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    flex-wrap: wrap;
+  }
+
+  .strom-badge {
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    padding: 0.12rem 0.45rem;
+    border-radius: 4px;
+    background: #EAE2D0;
+    color: #70583A;
+  }
+
+  .strom-desc {
+    color: var(--muted, #7A6B5B);
+  }
+
+  .strom-btn-group {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .strom-external-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    padding: 0.3rem 0.75rem;
+    border-radius: 5px;
+    background: #FFFFFF;
+    border: 1px solid var(--border, #D2C6B6);
+    color: var(--text, #2B2620);
+    text-decoration: none;
+    font-size: 0.82rem;
+    font-weight: 600;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    transition: background 0.15s ease, border-color 0.15s ease;
+  }
+
+  .strom-external-link:hover {
+    background: #F8F5F0;
+    border-color: #8C7B68;
+    color: #1A1714;
+    text-decoration: none;
+  }
+
+  .strom-frame-wrapper {
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .strom-iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    display: block;
+  }
+
+  @media (max-width: 768px) {
+    .strom-desc {
+      display: none;
+    }
+    .strom-toolbar {
+      padding: 0.35rem 0.75rem;
+    }
+  }
+</style>

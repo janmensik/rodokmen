@@ -359,12 +359,74 @@ def generate_strom_app(template_html_path, out_html_path):
     safe_json = envelope_json.replace("</script>", "<\\/script>").replace("<!--", "<\\!--")
     
     # Custom tweaks for embedded webapp:
-    # 1. Hide the view-mode banner (we want clean native presentation)
-    # 2. Add custom styling for seamless embedding
+    # 1. Hide the view-mode banner and standalone chrome
+    # 2. Strict read-only mode (hide all edit and add controls)
+    # 3. Focus on "Rodina" and "Potomci" (hide redundant timeline, fan, map)
     custom_head = f"""<style>
 /* Clean embedding into rodokmen webapp */
 #view-mode-banner {{ display: none !important; }}
 #other-tab-notice {{ display: none !important; }}
+
+/* Read-only mode: hide all add and edit controls */
+.add-btn,
+.rel-link-icon,
+.btn-add-person,
+#toolbar-buttons,
+#toolbar-family-btn,
+#bottom-bar-fab,
+.edit-only,
+.toolbar-undo-group,
+.modal-footer button[type="submit"],
+.btn-delete,
+#btn-add-event,
+#btn-add-attachment,
+#person-sources-cite,
+#person-sources-find,
+#source-viewer-edit,
+.source-viewer-edit-btn,
+.source-edit-btn,
+[data-action="edit"],
+[data-action="add"],
+[data-action="delete"],
+[data-action="merge"],
+[data-action="toggle-lock"] {{
+  display: none !important;
+}}
+
+/* Hide standalone app branding and file indicators */
+.toolbar-tree-icon,
+.app-wordmark,
+.tree-switcher,
+#offline-indicator,
+#file-link-indicator,
+#unsaved-copy-indicator,
+#research-sync-pill,
+.desktop-actions {{
+  display: none !important;
+}}
+
+/* In view-mode-segment: keep only Rodina and Potomci; hide redundant Timeline, Fan, Map */
+#view-mode-timeline,
+#view-mode-fan,
+#view-mode-map {{
+  display: none !important;
+}}
+
+/* Mobile bottom bar cleanup */
+#bottom-bar-fab,
+#bb-view-timeline,
+#bb-view-fan,
+#bb-view-map {{
+  display: none !important;
+}}
+
+/* Clean toolbar styling */
+.toolbar {{
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  background: var(--surface, #faf7f2);
+  border-bottom: 1px solid var(--border, #e8dfd1);
+}}
 </style>
 <script>
 window.STROM_EMBEDDED_DATA = {safe_json};

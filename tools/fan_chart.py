@@ -118,6 +118,18 @@ for k in slots:
     unknown = st == "unk"
     style = 'font-style="italic" fill="#8A8278"' if unknown else ('font-style="italic" fill="#2B2620"' if st in ("prob", "mh") else 'fill="#1F1A15"')
     if g == 0:
+        deti = p.get("deti", [])
+        if deti:
+            names = [ch["n"].split()[0] for ch in deti]
+            line1 = " · ".join(names[:2])
+            line2 = " · ".join(names[2:])
+            line3 = "Menšíkovi"
+            line4 = "* 2010 · 2013 · 2015 · 2017"
+            texts.append(f'<text x="{CX}" y="{CY - 40}" text-anchor="middle" font-size="28" font-weight="700" fill="#FFF8EE">{html.escape(line1)}</text>')
+            texts.append(f'<text x="{CX}" y="{CY - 8}" text-anchor="middle" font-size="28" font-weight="700" fill="#FFF8EE">{html.escape(line2)}</text>')
+            texts.append(f'<text x="{CX}" y="{CY + 26}" text-anchor="middle" font-size="24" font-weight="600" fill="#E2D4C3">{html.escape(line3)}</text>')
+            texts.append(f'<text x="{CX}" y="{CY + 58}" text-anchor="middle" font-size="18" fill="#D5C5B1">{html.escape(line4)}</text>')
+            continue
         fs_yr = fit(yrs, 400, 32, 20)
         if len(name) > 24 and " " in name:
             head, tail = name.rsplit(" ", 1)

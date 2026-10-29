@@ -96,6 +96,9 @@ const path = [...p.path].reverse().filter(Boolean);
       <h3>Rodiče</h3>
       <p>Otec: {p.father ? <PersonLink slug={p.father} /> : <span class="muted">{p.fatherUnknown ? 'neuveden (nemanželské dítě)' : 'zatím neznámý'}</span>}<br />
         Matka: {p.mother ? <PersonLink slug={p.mother} /> : <span class="muted">zatím neznámá</span>}</p>
+      {p.family && families[p.family] && families[p.family].children.filter((s) => s !== p.slug).length > 0 && (
+        <p>Sourozenci: {families[p.family].children.filter((s) => s !== p.slug).map((s, i) => <>{i > 0 && ', '}<PersonLink slug={s} /></>)}</p>
+      )}
       {p.family && <p class="small"><a href={href.family(p.family)}>Rodina, ze které pochází →</a></p>}
     </div>
     {p.child && (

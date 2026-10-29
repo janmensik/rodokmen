@@ -133,10 +133,19 @@ def add_unit(uid, g, nids, sort_key, sibling_anchor_k=None, sib_dir=None):
     return uid
 
 
-# 1. Generation 0: check if P[1] has multiple children listed in f
+# 1. Generation 0: check if P[1] has multiple children listed in deti or f
 p1 = P[1]
+deti = p1.get("deti", [])
 child_matches = [re.match(r"^(.+?)\s*\((\*\s*\d{4})\)$", f.strip()) for f in p1.get("f", [])]
-if len(child_matches) >= 2 and all(child_matches):
+if deti:
+    n_ch = len(deti)
+    for idx, ch in enumerate(deti):
+        cname = ch["n"]
+        cyr = fakta.years(ch.get("y"))
+        csub = card_subtitle(ch) or ("syn Jana a Julie" if ch.get("sex", "M") == "M" else "dcera Jana a Julie")
+        nid = add_node(f"ch_{idx}", cname, cyr, csub, 0, 1, "#5B4A3A")
+        uid = add_unit(f"u_ch_{idx}", 0, [nid], 0.5 + (idx - (n_ch - 1) / 2) * 0.001)
+elif len(child_matches) >= 2 and all(child_matches):
     n_ch = len(child_matches)
     for idx, m in enumerate(child_matches):
         cname, cyr = m.group(1).strip(), m.group(2).strip()

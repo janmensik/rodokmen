@@ -28,21 +28,33 @@ P = {
 
     # 0. generace – děti Jana a Julie
 
-    1: dict(n="Kryštof, Tea, Hynek a Jonáš Menšíkovi", y="* 2010, * 2013, * 2015, * 2017", st="fam", sex="M",
-
-            f=[], bydl="Libčice nad Vltavou",
-
-            deti=[dict(n="Kryštof Adam Menšík", y="* 2010", f=["* 20. 3. 2010 Praha"], bydl="Libčice nad Vltavou"),
-
-                  dict(n="Tea Apolena Menšíková", y="* 2013", f=["* 14. 2. 2013 Praha"], bydl="Libčice nad Vltavou"),
-
-                  dict(n="Hynek Albert Menšík", y="* 2015", f=["* 10. 7. 2015 Praha"], bydl="Libčice nad Vltavou"),
-
-                  dict(n="Jonáš Alex Menšík", y="* 2017", f=["* 5. 12. 2017 Praha"], bydl="Libčice nad Vltavou")],
-
-            r=[], note="Čtyři děti Jana a Julie, narozené v Praze, žijící v Libčicích nad Vltavou."),
-
-
+    1: dict(n="Kryštof, Tea, Hynek a Jonáš Menšíkovi", y="* 2010–2017", st="fam", sex="M",
+            f=["Kryštof Adam Menšík (* 20. 3. 2010 Praha)",
+               "Tea Apolena Menšíková (* 14. 2. 2013 Praha)",
+               "Hynek Albert Menšík (* 10. 7. 2015 Praha)",
+               "Jonáš Alex Menšík (* 5. 12. 2017 Praha)",
+               "domov v Libčicích nad Vltavou"],
+            bydl="Libčice nad Vltavou", puvod="Praha",
+            deti=[
+                dict(n="Kryštof Adam Menšík", y="* 2010", sex="M",
+                     f=["* 20. 3. 2010 Praha", "domov v Libčicích nad Vltavou"],
+                     bydl="Libčice nad Vltavou", puvod="Praha", r=[],
+                     note="Nejstarší syn Mgr. Jana Menšíka a Mgr. Julie Menšík Čákiové. Narozen 20. 3. 2010 v Praze, žije v Libčicích nad Vltavou."),
+                dict(n="Tea Apolena Menšíková", y="* 2013", sex="F",
+                     f=["* 14. 2. 2013 Praha", "domov v Libčicích nad Vltavou"],
+                     bydl="Libčice nad Vltavou", puvod="Praha", r=[],
+                     note="Dcera Mgr. Jana Menšíka a Mgr. Julie Menšík Čákiové. Narozena 14. 2. 2013 v Praze, žije v Libčicích nad Vltavou."),
+                dict(n="Hynek Albert Menšík", y="* 2015", sex="M",
+                     f=["* 10. 7. 2015 Praha", "domov v Libčicích nad Vltavou"],
+                     bydl="Libčice nad Vltavou", puvod="Praha", r=[],
+                     note="Syn Mgr. Jana Menšíka a Mgr. Julie Menšík Čákiové. Narozen 10. 7. 2015 v Praze, žije v Libčicích nad Vltavou."),
+                dict(n="Jonáš Alex Menšík", y="* 2017", sex="M",
+                     f=["* 5. 12. 2017 Praha", "domov v Libčicích nad Vltavou"],
+                     bydl="Libčice nad Vltavou", puvod="Praha", r=[],
+                     note="Nejmladší syn Mgr. Jana Menšíka a Mgr. Julie Menšík Čákiové. Narozen 5. 12. 2017 v Praze, žije v Libčicích nad Vltavou.")
+            ],
+            r=[],
+            note="Čtyři děti Mgr. Jana Menšíka a Mgr. Julie Menšík Čákiové, narozené v Praze, žijící v Libčicích nad Vltavou."),
 
     # 1. generace – rodiče (Jan a manželka Julie)
 
