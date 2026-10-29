@@ -1,0 +1,741 @@
+---
+import Base from '../layouts/Base.astro';
+import { people, families, lines, href, root } from '../lib/data.js';
+
+// Pre-map portrait photo keys for people from docs
+const fotoMap: Record<string, string> = {};
+for (const [slug, p] of Object.entries(people) as [string, any][]) {
+  const fotos = (p.docs || []).filter((d: any) => d.img && d.img.startsWith('foto_'));
+  if (fotos.length > 0) {
+    fotoMap[slug] = href.to(`/img/${fotos[0].img}.jpg`);
+  }
+}
+
+// 1. Line lookup per person
+const personLineMap: Record<string, { slug: string; name: string; color: string }> = {};
+for (const [lineSlug, line] of Object.entries(lines) as [string, any][]) {
+  for (const personSlug of line.people || []) {
+    personLineMap[personSlug] = {
+      slug: lineSlug,
+      name: line.name,
+      color: line.color || '#8C7B68'
+    };
+  }
+}
+
+// 2. Extract years & date calculations
+function parseDateParts(raw: string | undefined): { dateStr: string | null; year: number | null; full: boolean } {
+  if (!raw) return { dateStr: null, year: null, full: false };
+  const ddm = raw.match(/(\d{1,2})\.\s*(\d{1,2})\.\s*(\d{4})/);
+  if (ddm) {
+    const day = ddm[1].padStart(2, '0');
+    const month = ddm[2].padStart(2, '0');
+    const year = parseInt(ddm[3], 10);
+    return { dateStr: `${year}-${month}-${day}`, year, full: true };
+  }
+  const ym = raw.match(/(\d{4})/);
+  if (ym) {
+    const year = parseInt(ym[1], 10);
+    return { dateStr: `${year}-06-01`, year, full: false };
+  }
+  return { dateStr: null, year: null, full: false };
+}
+
+// Year propagation for people with missing dates
+const knownYears: Record<string, number> = {};
+for (const [slug, p] of Object.entries(people) as [string, any][]) {
+  const b = parseDateParts(p.details?.birth || p.y || p.years);
+  const d = parseDateParts(p.details?.death);
+  if (b.year) knownYears[slug] = b.year;
+  else if (d.year) knownYears[slug] = d.year - 65;
+}
+
+for (let pass = 0; pass < 3; pass++) {
+  for (const [slug, p] of Object.entries(people) as [string, any][]) {
+    if (!knownYears[slug]) {
+      for (const ch of p.children || []) {
+        if (knownYears[ch]) {
+          knownYears[slug] = knownYears[ch] - 30;
+          break;
+        }
+      }
+      if (!knownYears[slug] && p.father && knownYears[p.father]) knownYears[slug] = knownYears[p.father] + 30;
+      if (!knownYears[slug] && p.mother && knownYears[p.mother]) knownYears[slug] = knownYears[p.mother] + 30;
+    }
+  }
+}
+
+// Build timeline items
+const timelineItems: any[] = [];
+
+for (const [slug, p] of Object.entries(people) as [string, any][]) {
+  const bInfo = parseDateParts(p.details?.birth || p.y || p.years);
+  const dInfo = parseDateParts(p.details?.death);
+
+  const approxBirth = !bInfo.year && knownYears[slug];
+  const birthYear = bInfo.year || knownYears[slug];
+  if (!birthYear) continue;
+
+  const isLiving = (p.gen === 0) || (birthYear >= 1935 && !dInfo.year);
+  let startStr = bInfo.dateStr || `${birthYear}-01-01`;
+  let endStr: string;
+  let estimated = false;
+
+  if (dInfo.dateStr) {
+    endStr = dInfo.dateStr;
+  } else if (isLiving) {
+    endStr = new Date().toISOString().slice(0, 10);
+  } else {
+    // Estimated death
+    const deathYear = birthYear + 68;
+    endStr = `${deathYear}-01-01`;
+    estimated = true;
+  }
+
+  // Ensure end is strictly after start
+  if (endStr <= startStr) {
+    const sY = parseInt(startStr.slice(0, 4), 10);
+    endStr = `${sY + 1}-01-01`;
+  }
+
+  const lineInfo = personLineMap[slug] || { slug: 'hlavni', name: 'Hlavní rodina Menšíků', color: '#5B4A3A' };
+  const photo = fotoMap[slug] || '';
+  const sex = p.sex === 'F' ? 'F' : 'M';
+  const gen = p.gen ?? 0;
+
+  let ageStr = '';
+  if (bInfo.year && dInfo.year) {
+    ageStr = ` (${dInfo.year - bInfo.year} let)`;
+  }
+
+  const tooltipHtml = `
+    <div class="tt-box">
+      ${photo ? `<img src="${photo}" class="tt-avatar" alt="${p.name}">` : ''}
+      <div class="tt-content">
+        <div class="tt-title">${p.name}${p.roz ? ` (roz. ${p.roz})` : ''}</div>
+        <div class="tt-dates">${bInfo.year ? `* ${p.details?.birth || bInfo.year}` : `* asi ${birthYear}`}</div>
+        <div class="tt-dates">${isLiving ? 'dosud žijící' : (dInfo.year ? `† ${p.details?.death || dInfo.year}${ageStr}` : `† neznámé`)}</div>
+        ${p.details?.job ? `<div class="tt-sub">💼 ${p.details.job}</div>` : ''}
+        ${p.details?.home ? `<div class="tt-sub">📍 ${p.details.home}</div>` : ''}
+        <div class="tt-line-badge" style="background:${lineInfo.color}22;color:${lineInfo.color};border-color:${lineInfo.color}66">${lineInfo.name}</div>
+        <div class="tt-click-hint">Klepnutím otevřete stránku osoby →</div>
+      </div>
+    </div>
+  `;
+
+  timelineItems.push({
+    id: slug,
+    personSlug: slug,
+    url: href.person(slug),
+    content: `
+      <div class="tl-item-inner ${sex === 'F' ? 'sex-f' : 'sex-m'}">
+        ${photo ? `<img src="${photo}" class="tl-thumb" alt="">` : `<span class="tl-sex-icon">${sex === 'F' ? '♀' : '♂'}</span>`}
+        <span class="tl-label-name">${p.name}</span>
+        <span class="tl-label-years">${bInfo.year || `~${birthYear}`}–${isLiving ? 'dnes' : (dInfo.year || `~${birthYear + 68}`)}</span>
+      </div>
+    `,
+    start: startStr,
+    end: endStr,
+    type: 'range',
+    title: tooltipHtml,
+    className: `tl-person sex-${sex.toLowerCase()} ${estimated ? 'estimated' : ''} line-${lineInfo.slug}`,
+    groupLine: lineInfo.slug,
+    groupGen: `gen-${gen}`,
+    lineName: lineInfo.name,
+    lineColor: lineInfo.color,
+    sex,
+    name: p.name,
+    gen
+  });
+}
+
+// Historical era background items
+const historicalMilestones = [
+  {
+    id: 'hist-1',
+    start: '1781-11-01',
+    end: '1781-11-02',
+    content: '<span class="hist-label">Zrušení nevolnictví (1781)</span>',
+    type: 'background',
+    className: 'hist-marker'
+  },
+  {
+    id: 'hist-2',
+    start: '1848-03-01',
+    end: '1848-11-01',
+    content: '<span class="hist-label">Revoluce 1848 / Konec roboty</span>',
+    type: 'background',
+    className: 'hist-zone hist-1848'
+  },
+  {
+    id: 'hist-3',
+    start: '1914-07-28',
+    end: '1918-11-11',
+    content: '<span class="hist-label">1. světová válka (1914–1918)</span>',
+    type: 'background',
+    className: 'hist-zone hist-ww1'
+  },
+  {
+    id: 'hist-4',
+    start: '1918-10-28',
+    end: '1918-10-29',
+    content: '<span class="hist-label">Vznik Československa (1918)</span>',
+    type: 'background',
+    className: 'hist-marker'
+  },
+  {
+    id: 'hist-5',
+    start: '1939-09-01',
+    end: '1945-05-08',
+    content: '<span class="hist-label">2. světová válka (1939–1945)</span>',
+    type: 'background',
+    className: 'hist-zone hist-ww2'
+  }
+];
+
+// Definition of groups
+const lineGroups = [
+  { id: 'hlavni', content: '<strong>Hlavní větev (Menšíkovi)</strong>', order: 1 },
+  ...Object.entries(lines).map(([slug, l]: [string, any], idx) => ({
+    id: slug,
+    content: `<span class="line-dot" style="background:${l.color}"></span><strong>${l.name}</strong>`,
+    order: idx + 2
+  }))
+];
+
+const genNames = ['0. generace (děti)', '1. generace (rodiče)', '2. generace (prarodiče)', '3. generace (praprarodiče)', '4. generace (předci 19. stol.)', '5. generace (předci 19. stol.)', '6. generace (předci 18. stol.)', '7. generace (předci 18. stol.)', '8.+ generace (17.–18. stol.)'];
+const genGroups = Array.from({ length: 9 }).map((_, i) => ({
+  id: `gen-${i}`,
+  content: `<strong>${genNames[i] || `${i}. generace`}</strong>`,
+  order: i
+}));
+
+const allNames = timelineItems.map((it) => it.name).sort((a: string, b: string) => a.localeCompare(b, 'cs'));
+---
+
+<Base title="Časová osa rodu (Timelapse)" full>
+  <div class="timeline-bar">
+    <div class="tb-left">
+      <strong>Časová osa rodu</strong>
+      <div class="group-switch" role="group" aria-label="Seskupení">
+        <button type="button" class="btn-group active" data-group-by="line">Podle rodů</button>
+        <button type="button" class="btn-group" data-group-by="gen">Podle generací</button>
+        <button type="button" class="btn-group" data-group-by="none">Všichni dohromady</button>
+      </div>
+    </div>
+
+    <form class="fan-search" autocomplete="off" id="tl-search-form">
+      <input id="tl-search-input" list="tl-names" placeholder="Najít předka na časové ose…" aria-label="Najít předka na časové ose" />
+      <datalist id="tl-names">{allNames.map((n) => <option value={n} />)}</datalist>
+      <button type="submit">Najít</button>
+    </form>
+
+    <div class="tb-jumps">
+      <span class="small muted jumps-label">Přejít:</span>
+      <button type="button" class="btn-jump" data-year="1680">17. stol.</button>
+      <button type="button" class="btn-jump" data-year="1750">18. stol.</button>
+      <button type="button" class="btn-jump" data-year="1850">19. stol.</button>
+      <button type="button" class="btn-jump" data-year="1930">20. stol.</button>
+      <button type="button" class="btn-jump" data-year="2010">Současnost</button>
+      <button type="button" class="btn-jump btn-fit" id="btn-fit-all">Celé období</button>
+    </div>
+
+    <div class="tb-zoom">
+      <button type="button" id="btn-tl-zoom-in" title="Přiblížit">+</button>
+      <button type="button" id="btn-tl-zoom-out" title="Oddálit">−</button>
+    </div>
+  </div>
+
+  <div id="vis-timeline-container" class="timeline-stage"></div>
+
+  <script define:vars={{ timelineItems, historicalMilestones, lineGroups, genGroups }}>
+    window.TL_DATA = {
+      items: timelineItems,
+      historical: historicalMilestones,
+      lineGroups: lineGroups,
+      genGroups: genGroups
+    };
+  </script>
+
+  <script>
+    import { Timeline, DataSet } from 'vis-timeline/standalone';
+    import 'vis-timeline/styles/vis-timeline-graph2d.min.css';
+
+    const data = (window as any).TL_DATA;
+    if (!data) {
+      console.error('Data pro časovou osu nenalezena.');
+    }
+
+    const container = document.getElementById('vis-timeline-container')!;
+
+    // Initial group by line
+    let currentGrouping = 'line';
+
+    // Prepare datasets
+    const itemsDataSet = new DataSet<any>([
+      ...data.items.map((it: any) => ({
+        ...it,
+        group: it.groupLine
+      })),
+      ...data.historical
+    ]);
+
+    const groupsDataSet = new DataSet<any>(data.lineGroups);
+
+    const options: any = {
+      stack: true,
+      stackSubgroups: true,
+      horizontalScroll: true,
+      zoomable: true,
+      moveable: true,
+      min: new Date(1620, 0, 1),
+      max: new Date(2045, 11, 31),
+      start: new Date(1750, 0, 1),
+      end: new Date(2030, 11, 31),
+      zoomMin: 1000 * 60 * 60 * 24 * 365 * 3, // 3 years min
+      zoomMax: 1000 * 60 * 60 * 24 * 365 * 450, // 450 years max
+      orientation: {
+        axis: 'top',
+        item: 'top'
+      },
+      showCurrentTime: true,
+      locale: 'cs',
+      margin: {
+        item: {
+          horizontal: 6,
+          vertical: 5
+        },
+        axis: 10
+      },
+      tooltip: {
+        followMouse: true,
+        overflowMethod: 'cap',
+        delay: 150
+      }
+    };
+
+    const timeline = new Timeline(container, itemsDataSet, groupsDataSet, options);
+
+    // Click handler -> navigate to person profile
+    timeline.on('select', (properties) => {
+      if (properties.items && properties.items.length > 0) {
+        const selectedId = properties.items[0];
+        const item = itemsDataSet.get(selectedId);
+        if (item && item.url) {
+          window.location.href = item.url;
+        }
+      }
+    });
+
+    // Grouping switcher
+    document.querySelectorAll('.group-switch button').forEach((btn) => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.group-switch button').forEach((b) => b.classList.remove('active'));
+        btn.classList.add('active');
+
+        const mode = btn.getAttribute('data-group-by');
+        currentGrouping = mode || 'line';
+
+        if (mode === 'line') {
+          groupsDataSet.clear();
+          groupsDataSet.add(data.lineGroups);
+          data.items.forEach((it: any) => {
+            itemsDataSet.update({ id: it.id, group: it.groupLine });
+          });
+          timeline.setOptions({ showMajorLabels: true });
+        } else if (mode === 'gen') {
+          groupsDataSet.clear();
+          groupsDataSet.add(data.genGroups);
+          data.items.forEach((it: any) => {
+            itemsDataSet.update({ id: it.id, group: it.groupGen });
+          });
+          timeline.setOptions({ showMajorLabels: true });
+        } else {
+          // No groups (all flat)
+          groupsDataSet.clear();
+          data.items.forEach((it: any) => {
+            itemsDataSet.update({ id: it.id, group: undefined });
+          });
+        }
+      });
+    });
+
+    // Quick jumps
+    document.querySelectorAll('.btn-jump[data-year]').forEach((btn) => {
+      btn.addEventListener('click', () => {
+        const year = parseInt(btn.getAttribute('data-year') || '1850', 10);
+        timeline.setWindow(new Date(year - 30, 0, 1), new Date(year + 50, 11, 31), { animation: { duration: 600, easingFunction: 'easeInOutQuad' } });
+      });
+    });
+
+    document.getElementById('btn-fit-all')?.addEventListener('click', () => {
+      timeline.fit({ animation: { duration: 600, easingFunction: 'easeInOutQuad' } });
+    });
+
+    // Zoom buttons
+    document.getElementById('btn-tl-zoom-in')?.addEventListener('click', () => {
+      timeline.zoomIn(0.4, { animation: { duration: 300 } });
+    });
+
+    document.getElementById('btn-tl-zoom-out')?.addEventListener('click', () => {
+      timeline.zoomOut(0.4, { animation: { duration: 300 } });
+    });
+
+    // Search handler
+    const searchForm = document.getElementById('tl-search-form') as HTMLFormElement;
+    const searchInput = document.getElementById('tl-search-input') as HTMLInputElement;
+
+    searchForm?.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const val = searchInput.value.trim().toLowerCase();
+      if (!val) return;
+
+      const found = data.items.find((it: any) => it.name.toLowerCase().includes(val));
+      if (found) {
+        timeline.setSelection(found.id, { focus: true });
+        const startY = parseInt(found.start.slice(0, 4), 10);
+        timeline.setWindow(new Date(startY - 25, 0, 1), new Date(startY + 65, 11, 31), {
+          animation: { duration: 600, easingFunction: 'easeInOutQuad' }
+        });
+      }
+    });
+  </script>
+
+  <style is:global>
+    .timeline-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0.45rem 1rem;
+      background: var(--bg-alt, #F6F1EA);
+      border-bottom: 1px solid var(--border, #E4DCBE);
+      gap: 0.75rem;
+      flex-wrap: wrap;
+      font-size: 0.85rem;
+      z-index: 20;
+    }
+
+    .tb-left {
+      display: flex;
+      align-items: center;
+      gap: 0.8rem;
+    }
+
+    .group-switch {
+      display: inline-flex;
+      border-radius: 6px;
+      background: #EAE2D4;
+      padding: 2px;
+      gap: 2px;
+    }
+
+    .group-switch .btn-group {
+      background: transparent;
+      border: none;
+      padding: 0.2rem 0.55rem;
+      font-size: 0.78rem;
+      font-weight: 600;
+      color: #6A5844;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: all 0.15s ease;
+    }
+
+    .group-switch .btn-group.active {
+      background: #FFFFFF;
+      color: #2B2620;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+
+    .tb-jumps {
+      display: flex;
+      align-items: center;
+      gap: 0.3rem;
+    }
+
+    .jumps-label {
+      font-size: 0.75rem;
+      margin-right: 0.2rem;
+    }
+
+    .btn-jump {
+      background: #FFFFFF;
+      border: 1px solid var(--border, #D8CEBC);
+      padding: 0.2rem 0.45rem;
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: #4A3B2C;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: all 0.15s ease;
+    }
+
+    .btn-jump:hover {
+      background: #F4ECE0;
+      border-color: #8C7B68;
+    }
+
+    .btn-jump.btn-fit {
+      background: #EDE4D4;
+      border-color: #C0B29E;
+    }
+
+    .tb-zoom {
+      display: flex;
+      align-items: center;
+      gap: 0.25rem;
+    }
+
+    .tb-zoom button {
+      width: 28px;
+      height: 28px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      background: #FFFFFF;
+      border: 1px solid var(--border, #D8CEBC);
+      border-radius: 4px;
+      font-size: 1rem;
+      font-weight: bold;
+      cursor: pointer;
+      color: #3B2E22;
+    }
+
+    .tb-zoom button:hover {
+      background: #F4ECE0;
+    }
+
+    .timeline-stage {
+      height: calc(100vh - 105px);
+      width: 100%;
+      background: var(--bg, #FAF6EE);
+      position: relative;
+    }
+
+    /* Vis Timeline Overrides */
+    .vis-timeline {
+      border: none !important;
+      font-family: inherit !important;
+    }
+
+    .vis-panel.vis-center,
+    .vis-panel.vis-left,
+    .vis-panel.vis-right,
+    .vis-panel.vis-top,
+    .vis-panel.vis-bottom {
+      border-color: var(--border, #E4DCBE) !important;
+    }
+
+    .vis-time-axis .vis-text {
+      color: #5A4A3A !important;
+      font-size: 0.8rem !important;
+      font-weight: 600 !important;
+      padding-top: 4px;
+    }
+
+    .vis-time-axis .vis-grid.vis-minor {
+      border-color: rgba(228, 220, 190, 0.45) !important;
+    }
+
+    .vis-time-axis .vis-grid.vis-major {
+      border-color: rgba(180, 165, 140, 0.7) !important;
+      border-width: 1.5px !important;
+    }
+
+    .vis-label {
+      color: #2E251C !important;
+      font-size: 0.82rem !important;
+      font-weight: 700 !important;
+      border-bottom: 1px solid var(--border, #E4DCBE) !important;
+      padding: 6px 10px !important;
+      background: #F8F3EA !important;
+    }
+
+    .line-dot {
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      margin-right: 6px;
+    }
+
+    /* Person Lifespan Items */
+    .vis-item.tl-person {
+      border-radius: 6px !important;
+      font-size: 0.77rem !important;
+      box-shadow: 0 1px 4px rgba(43, 38, 32, 0.08) !important;
+      cursor: pointer !important;
+      transition: transform 0.12s ease, box-shadow 0.12s ease, filter 0.12s ease !important;
+    }
+
+    .vis-item.tl-person:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 4px 10px rgba(43, 38, 32, 0.18) !important;
+      filter: brightness(0.97);
+      z-index: 50 !important;
+    }
+
+    /* Male */
+    .vis-item.tl-person.sex-m {
+      background: #EDF3FA !important;
+      border: 1.5px solid #6C94C4 !important;
+      color: #1A3960 !important;
+    }
+
+    /* Female */
+    .vis-item.tl-person.sex-f {
+      background: #FDF1EA !important;
+      border: 1.5px solid #D68F6E !important;
+      color: #5C2712 !important;
+    }
+
+    /* Estimated items */
+    .vis-item.tl-person.estimated {
+      border-style: dashed !important;
+      opacity: 0.86;
+    }
+
+    .tl-item-inner {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      padding: 1px 3px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .tl-thumb {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      object-fit: cover;
+      flex-shrink: 0;
+      border: 1px solid rgba(0,0,0,0.15);
+    }
+
+    .tl-sex-icon {
+      font-size: 0.8rem;
+      font-weight: bold;
+      opacity: 0.7;
+    }
+
+    .tl-label-name {
+      font-weight: 700;
+    }
+
+    .tl-label-years {
+      font-size: 0.72rem;
+      opacity: 0.8;
+      font-weight: 600;
+      margin-left: 2px;
+    }
+
+    /* Historical Background Zones */
+    .vis-item.vis-background.hist-zone {
+      border-left: 1.5px solid rgba(140, 120, 100, 0.35);
+      border-right: 1.5px solid rgba(140, 120, 100, 0.35);
+    }
+
+    .vis-item.vis-background.hist-zone.hist-ww1 {
+      background: rgba(190, 85, 70, 0.08) !important;
+      border-left-color: rgba(190, 85, 70, 0.45);
+      border-right-color: rgba(190, 85, 70, 0.45);
+    }
+
+    .vis-item.vis-background.hist-zone.hist-ww2 {
+      background: rgba(190, 50, 40, 0.1) !important;
+      border-left-color: rgba(190, 50, 40, 0.5);
+      border-right-color: rgba(190, 50, 40, 0.5);
+    }
+
+    .vis-item.vis-background.hist-zone.hist-1848 {
+      background: rgba(140, 110, 180, 0.08) !important;
+      border-left-color: rgba(140, 110, 180, 0.4);
+      border-right-color: rgba(140, 110, 180, 0.4);
+    }
+
+    .vis-item.vis-background.hist-marker {
+      background: rgba(180, 140, 60, 0.15) !important;
+      border-left: 2px dashed rgba(180, 140, 60, 0.6);
+    }
+
+    .hist-label {
+      display: inline-block;
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+      color: rgba(60, 45, 30, 0.55);
+      padding: 6px 8px;
+    }
+
+    /* Tooltip */
+    .vis-tooltip {
+      background: #2B2620 !important;
+      color: #FFFFFF !important;
+      border: none !important;
+      border-radius: 8px !important;
+      padding: 0.65rem 0.85rem !important;
+      box-shadow: 0 4px 18px rgba(0,0,0,0.3) !important;
+      max-width: 310px !important;
+      font-size: 0.8rem !important;
+      line-height: 1.4 !important;
+      z-index: 1000 !important;
+    }
+
+    .tt-box {
+      display: flex;
+      gap: 10px;
+    }
+
+    .tt-avatar {
+      width: 48px;
+      height: 58px;
+      border-radius: 5px;
+      object-fit: cover;
+      flex-shrink: 0;
+      border: 1px solid rgba(255,255,255,0.25);
+    }
+
+    .tt-title {
+      font-size: 0.9rem;
+      font-weight: 700;
+      color: #FFFFFF;
+      margin-bottom: 2px;
+    }
+
+    .tt-dates {
+      font-size: 0.78rem;
+      color: #E6CEB6;
+    }
+
+    .tt-sub {
+      font-size: 0.75rem;
+      color: #D6CBC0;
+      margin-top: 3px;
+    }
+
+    .tt-line-badge {
+      display: inline-block;
+      font-size: 0.7rem;
+      font-weight: 600;
+      padding: 1px 6px;
+      border-radius: 3px;
+      border: 1px solid;
+      margin-top: 5px;
+    }
+
+    .tt-click-hint {
+      font-size: 0.7rem;
+      color: #E2B080;
+      font-weight: 600;
+      margin-top: 4px;
+    }
+
+    @media (max-width: 850px) {
+      .tb-jumps {
+        display: none;
+      }
+    }
+  </style>
+</Base>

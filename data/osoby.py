@@ -251,6 +251,24 @@ P = {
 
              note="Narozena v Hluboké jako dcera truhláře a hostinského Franze Henzla z rodového gruntu čp. 15 v Hluboké a Aloisie roz. Pospíchalové z Radostína. V květnu 1926 se provdala za zámečníka Julia Holánka ze Starého Ranska a žili v Hluboké čp. 36. Maminka Zdenky Jarolímové roz. Holánkové (* 1928); prababička Jana Menšíka."),
 
+    24: dict(n="Andrej Čáki", y="* 1891", st="doc",
+             f=["* 5. 3. 1891 Dúbrava čp. 42 (okres Snina)", "∞ 15. 4. 1918 Marya ...",
+                "otec Juraje (Jiřího) Čákiho (* 1919)",
+                "syn ... Čákiho († 1926) a Júlie (* 1868)",
+                "příjmení v záznamech: Čaky / Čáki"],
+             zam="roľník v Dúbravě čp. 42",
+             bydl="Dúbrava čp. 42 (okres Snina, Zemplín)", puvod="Dúbrava čp. 42",
+             r=["dubrava_scitanie_1930_caki_juraj"],
+             note="Řeckokatolický roľník v Dúbravě čp. 42 v okrese Snina na Zemplíně, otec Juraje (Jiřího) Čákiho a dědeček JUDr. Miloslava Čákiho (pradědeček Julie). Narozen 5. 3. 1891 v Dúbravě čp. 42. Dne 15. 4. 1918 se oženil s Maryou pocházející ze sousedních Strihoviec (* 1896). Spolu hospodařili na rodové usedlosti čp. 42 a v roce 1930 měli děti: Juraj (* 1919, dědeček Julie), Michal (* 1922), Marya (* 1925), Wasil (* 1927) a novorozenou Júlii (* 1930). V domácnosti s nimi žila i jeho ovdovělá matka Júlie (* 1868)."),
+
+    25: dict(n="Marya Čákiová", y="* 1896", st="doc",
+             f=["* 21. 10. 1896 Strihovce (okres Snina)", "∞ 15. 4. 1918 Andrej Čáki (Čaky)",
+                "matka Juraje (Jiřího) Čákiho (* 1919)",
+                "přistahována do Dúbravy čp. 42 po sňatku 15. 4. 1918"],
+             roz="", bydl="Dúbrava čp. 42 (dříve Strihovce)", puvod="Strihovce (okres Snina, Zemplín)",
+             r=["dubrava_scitanie_1930_caki_juraj"],
+             note="Řeckokatolická hospodyně v Dúbravě čp. 42, matka Juraje (Jiřího) Čákiho a babička JUDr. Miloslava Čákiho (prababička Julie). Narozena 21. 10. 1896 ve Strihovcích v okrese Snina na Zemplíně. Dne 15. 4. 1918 se provdala za roľníka Andreje Čákiho (Čakyho) a přistahovala se do Dúbravy čp. 42. Ve sčítání lidu 1930 doložena s manželem, pěti dětmi a tchýní Júlií."),
+
     28: dict(n="Otakar Jan Krejzek", y="1877 – po 1949", st="doc",
              f=["* 6. 5. 1877 Blažkov čp. 20 (pokřtěn 10. 5. 1877 farářem Ferd. Císařem)",
                 "× před 1905 Františka Sýsová", "† po 7. 4. 1949",
@@ -402,6 +420,23 @@ P = {
              note="Narozena v Chlumu / Radostíně jako dcera Františka Pospíchala a Anny roz. Bencové. Manželka truhláře a hostinského Franze Henzla na rodovém gruntě čp. 15 v Hluboké a maminka Sofie Holánkové roz. Henzlové (* 1904)."),
 
 
+
+    48: dict(n="... Čáki", y="† 1926", st="doc",
+             f=["∞ 30. 9. 1888 Júlia ...", "† 5. 10. 1926 Dúbrava čp. 42",
+                "otec roľníka Andreje Čákiho (* 1891) a dědeček Juraje (* 1919)",
+                "příjmení v záznamech: Čaky / Čáki"],
+             zam="roľník v Dúbravě čp. 42",
+             bydl="Dúbrava čp. 42", puvod="Dúbrava čp. 42 (okres Snina, Zemplín)",
+             r=["dubrava_scitanie_1930_caki_juraj"],
+             note="Řeckokatolický roľník v Dúbravě čp. 42, otec Andreje Čákiho a dědeček Juraje Čákiho (prapradědeček Julie). Dne 30. 9. 1888 se oženil s Júlií ze Strihoviec (* 1868). Hospodařili na usedlosti čp. 42 v Dúbravě. Měli celkem 12 dětí (do roku 1930 jich 9 zemřelo a 3 zůstaly naživu). Zemřel 5. 10. 1926 v Dúbravě čp. 42 (datum sňatku i úmrtí zapsáno v operátu sčítání 1930 u jeho ovdovělé manželky). Křestní jméno bude ověřeno v řeckokatolické matrice farnosti Ruský Hrabovec."),
+
+    49: dict(n="Júlia Čákiová", y="* 1868", st="doc",
+             f=["* 15. 9. 1868 Strihovce (okres Snina)", "∞ 30. 9. 1888 ... Čáki (Čaky)",
+                "† po 1930 (ovdověla 5. 10. 1926)",
+                "matka 12 dětí (mj. roľníka Andreje Čákiho * 1891)"],
+             roz="", bydl="Dúbrava čp. 42 (dříve Strihovce)", puvod="Strihovce (okres Snina, Zemplín)",
+             r=["dubrava_scitanie_1930_caki_juraj"],
+             note="Řeckokatolická hospodyně a výminkářka v Dúbravě čp. 42, matka Andreje Čákiho a babička Juraje Čákiho (praprababička Julie). Narozena 15. 9. 1868 ve Strihovcích v okrese Snina na Zemplíně. Dne 30. 9. 1888 se provdala za roľníka Čákiho do Dúbravy čp. 42. Byla matkou 12 dětí, z nichž 9 zemřelo a 3 žily v roce 1930. Dne 5. 10. 1926 ovdověla. Při sčítání lidu 1930 žila na výminku u svého syna Andreje (* 1891) a vnoučat včetně Juraje (* 1919) a novorozené vnučky Júlie (* 14. 6. 1930)."),
 
     56: dict(n="Václav Krejsek", y="* cca 1848 – po 1885", st="doc",
              f=["* cca 1848 Blažkov čp. 26", "× 24. 11. 1867 Zvole / Blažkov Marie Hamříková", "† po 1885",
