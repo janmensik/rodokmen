@@ -2,15 +2,6 @@
 import Base from '../layouts/Base.astro';
 import { people, families, lines, href, root } from '../lib/data.js';
 
-// Pre-map portrait photo keys for people from docs
-const fotoMap: Record<string, string> = {};
-for (const [slug, p] of Object.entries(people) as [string, any][]) {
-  const fotos = (p.docs || []).filter((d: any) => d.img && d.img.startsWith('foto_'));
-  if (fotos.length > 0) {
-    fotoMap[slug] = href.to(`/img/${fotos[0].img}.jpg`);
-  }
-}
-
 // 1. Line lookup per person
 const personLineMap: Record<string, { slug: string; name: string; color: string }> = {};
 for (const [lineSlug, line] of Object.entries(lines) as [string, any][]) {
@@ -99,7 +90,6 @@ for (const [slug, p] of Object.entries(people) as [string, any][]) {
   }
 
   const lineInfo = personLineMap[slug] || { slug: 'hlavni', name: 'Hlavní rodina Menšíků', color: '#5B4A3A' };
-  const photo = fotoMap[slug] || '';
   const sex = p.sex === 'F' ? 'F' : 'M';
   const gen = p.gen ?? 0;
 
@@ -110,7 +100,6 @@ for (const [slug, p] of Object.entries(people) as [string, any][]) {
 
   const tooltipHtml = `
     <div class="tt-box">
-      ${photo ? `<img src="${photo}" class="tt-avatar" alt="${p.name}">` : ''}
       <div class="tt-content">
         <div class="tt-title">${p.name}${p.roz ? ` (roz. ${p.roz})` : ''}</div>
         <div class="tt-dates">${bInfo.year ? `* ${p.details?.birth || bInfo.year}` : `* asi ${birthYear}`}</div>
@@ -129,7 +118,7 @@ for (const [slug, p] of Object.entries(people) as [string, any][]) {
     url: href.person(slug),
     content: `
       <div class="tl-item-inner ${sex === 'F' ? 'sex-f' : 'sex-m'}">
-        ${photo ? `<img src="${photo}" class="tl-thumb" alt="">` : `<span class="tl-sex-icon">${sex === 'F' ? '♀' : '♂'}</span>`}
+        <span class="tl-sex-icon">${sex === 'F' ? '♀' : '♂'}</span>
         <span class="tl-label-name">${p.name}</span>
         <span class="tl-label-years">${bInfo.year || `~${birthYear}`}–${isLiving ? 'dnes' : (dInfo.year || `~${birthYear + 68}`)}</span>
       </div>
@@ -605,15 +594,6 @@ const allNames = timelineItems.map((it) => it.name).sort((a: string, b: string) 
       text-overflow: ellipsis;
     }
 
-    .tl-thumb {
-      width: 20px;
-      height: 20px;
-      border-radius: 50%;
-      object-fit: cover;
-      flex-shrink: 0;
-      border: 1px solid rgba(0,0,0,0.15);
-    }
-
     .tl-sex-icon {
       font-size: 0.8rem;
       font-weight: bold;
@@ -685,16 +665,7 @@ const allNames = timelineItems.map((it) => it.name).sort((a: string, b: string) 
 
     .tt-box {
       display: flex;
-      gap: 10px;
-    }
-
-    .tt-avatar {
-      width: 48px;
-      height: 58px;
-      border-radius: 5px;
-      object-fit: cover;
-      flex-shrink: 0;
-      border: 1px solid rgba(255,255,255,0.25);
+      flex-direction: column;
     }
 
     .tt-title {
