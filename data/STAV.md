@@ -307,6 +307,28 @@ pak konec `research_log.md` a sekci „Rozpracováno“.
   - Do rodokmenu nově doloženo celkem **14 nových předků** v 6., 7. a 8. generaci (Václav Krejsek & Marie Hamříková, Jan Krejsek & Anna Procházková, František Hamřík & Anna Falská, Václav Krejsek st. & Anna Stehlíková, Václav Procházka & Terezie Zubánková, František Hamřík st. & Augustina Josefa Valoušková, František Falský & Kateřina Mišníčková).
   - V rodokmenu celkem evidováno **186 osob** (z toho **40 doložených primárních zápisů** ze snímků matrik a archiválií v 55 svazcích, 63 řádků deníku).
 
+- 29. 10. 2026: Doplnění narození Jana Krejska a úmrtí Václava Krejska st. v Blažkově:
+  - **Narození a křest Jana Krejska (* 17. 5. 1796 Blažkov čp. 26, č. 112):** Matrika Zvole sign. 16560 (Detail 7349, sn. 17, pag. 32, č. 4). Pokřtěn 23. 5. 1796 pastorem Aaronem Štettinou. Rodiče: Wenzl Kreytschek Bauer a Anna roz. Stehlin (Stehlíková) ze Zvole.
+  - **Úmrtí Václava Krejska st. († 1832 Blažkov čp. 26, č. 224):** Evangelická matrika zemřelých Nové Město na Moravě sign. 16719 (Detail 7380, sn. 118, pag. 233, č. 1). Zemřel 1832 na asijskou choleru.
+  - Trvalé výřezy uloženy: `muj-rodokmen/vyrezy/blazkov_krest_jan_krejsek_1796.jpg`, `muj-rodokmen/vyrezy/blazkov_umrti_vaclav_krejsek_1832.jpg`.
+
+- 29. 10. 2026 (odpoledne): Průlom v řeckokatolické větvi Čáki a Bubanec ze sčítacích operátů Sčítání lidu 1930 (Slovenský národný archív / Slovakiana):
+  - **Juraj (Jíraj) Čáki / Čaky (* 13. 4. 1919 Dúbrava čp. 42, č. 12):**
+    - V sčítacím operátu k 1. 12. 1930 pro obec Dúbrava (okres Snina, škatuľa 0867, hárok 0252, doid-1abfg) nalezen a jednoznačně identifikován dům čp. 42 roľníka Andreje Čakyho.
+    - Přímý předek: syn **Jíraj Čaky (* 13. 4. 1919 Dúbrava)**, žák školy (škôlar, číta a píše).
+    - Rodiče: otec **Andrej Čaky (* 5. 3. 1891 Dúbrava)**, roľník, a matka **Marya (* 21. 10. 1896 Strihovce)**, oddáni 15. 4. 1918.
+    - Prarodiče (noví předci v 5. generaci): babička **Júlia Čakyová (* 15. 9. 1868 Strihovce)**, vdova po dědkovi Čakym, který zemřel **5. 10. 1926 v Dúbravě** (oddáni byli 30. 9. 1888 a měli 12 dětí, z nichž 9 zemřelo v dětství).
+    - Sourozenci Juraje: Michal (* 27. 10. 1922), Marya (* 28. 5. 1925), Wasil (* 1. 1. 1927) a **Júlia (* 14. 6. 1930)** – po této své tetě a prababičce Júlii nese křestní jméno manželka Jana Menšíka Mgr. Julie Menšík Čákiová!
+    - Bratr Miroslav Čáky se narodil později po sčítání 1930. Všichni byli slovenské národnosti a řeckokatolického vyznání.
+  - **Marie Čákiová roz. Bubancová (č. 13):**
+    - Ve sčítacích operátech 1930 prozkoumány všechny domy v Dúbravě (58 domů) a Šmigovci (49 domů).
+    - V Šmigovci doložen silný kmen rodu Búbanec (domy čp. 4, 10, 15, 20, 28, 29, 34, 37).
+    - Hlavní kandidátky podle věkové shody s Jurajem (* 1919):
+      1. **Marie Búbancová (* 21. 11. 1919 Šmigovec čp. 10):** dcera Vasila Búbance (* 14. 9. 1878) a Anny (* 14. 12. 1883 Ladomírov, sobáš 8. 8. 1901). Narozená v tomtéž roce 1919 jako Juraj Čáki!
+      2. **Maria Búbancová (* 8. 9. 1922 Šmigovec čp. 34):** dcera Andreje Búbance (* 26. 2. 1875) a Anny (* 25. 10. 1882).
+      3. **Maria Búbancová (* 14. 4. 1919 Šmigovec čp. 29):** dcera Michala Búbance (* 18. 4. 1893).
+    - Uloženy trvalé výřezy: `muj-rodokmen/vyrezy/dubrava_scitanie_1930_caki_juraj.jpg`, `smigovec_scitanie_1930_bubanec_cp_10.jpg`, `smigovec_scitanie_1930_bubanec_cp_34.jpg`.
+
 - Další kroky k prozkoumání:
   1. Původ a narození koláře Otakara Krejzka st. (* cca 1880–1885) a sňatek s Františkou Sýsovou (před r. 1905), např. prostřednictvím sčítacích operátů 1921 pro Bystřici n. P. – Nové Dvory čp. 147 (SOkA Žďár nad Sázavou) nebo farního archivu v Bystřici n/P. (snubní protokoly z let 1943 a 1949).
   2. Původ hajného Leopolda Sýse (č. 58) a narození jeho dcery Františky Sýsové (* cca 1880–1885).

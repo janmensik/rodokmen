@@ -16,6 +16,10 @@ TOOLS = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(TOOLS)
 sys.path.insert(0, TOOLS)
 import fakta  # noqa: E402
+import site
+_usp = site.getusersitepackages()
+if os.path.exists(_usp) and _usp not in sys.path:
+    sys.path.append(_usp)
 
 args = [a for a in sys.argv[1:]]
 
@@ -32,6 +36,7 @@ def opt(name, default=None):
 PAPIR = opt("--papir", "A2").upper()
 VENOVANI = opt("--venovani", "")
 POPISY = opt("--popisy", None)
+QR_URL = opt("--url", "https://rodokmen.mensik.cz")
 if not args:
     sys.exit(__doc__)
 ROOTK = int(args[0])
@@ -143,6 +148,28 @@ def place_line(k, p):
     return bydl or puvod
 
 
+def qr_svg(url, x, y, size, fill="#2E241C"):
+    try:
+        import qrcode
+        qr = qrcode.QRCode(border=0)
+        qr.add_data(url)
+        qr.make(fit=True)
+        matrix = qr.get_matrix()
+        n = len(matrix)
+        s = size / n
+        parts = []
+        for r in range(n):
+            for c in range(n):
+                if matrix[r][c]:
+                    rx = x + c * s
+                    ry = y + r * s
+                    parts.append(f"M{rx:.2f},{ry:.2f}h{s:.2f}v{s:.2f}h{-s:.2f}z")
+        return f'<path d="{"".join(parts)}" fill="{fill}"/>'
+    except Exception as e:
+        print(f"QR kód nelze vytvořit: {e}", file=sys.stderr)
+        return ""
+
+
 def person(k):
     p = P[k]
     birth = death = ""
@@ -154,8 +181,8 @@ def person(k):
             death = event(f[1:])
     d = dict(k=k, name=p["n"], roz=p.get("roz", ""), job=short_job(k, p),
              birth=("* " + birth) if birth else "", death=("† " + death) if death else "")
-    # místo, jen když není vidět z narození
-    has_place = bool(birth and fakta.split_event(birth)[1])
+    # místo, jen když není vidět z narození ani úmrtí
+    has_place = bool((birth and fakta.split_event(birth)[1]) or (death and fakta.split_event(death)[1]))
     d["place"] = "" if has_place else place_line(k, p)
     return d
 
@@ -267,16 +294,22 @@ def color(k):
 
 
 # velikosti podle generace (mm na A2)
-NAME = {0: 7.0, 1: 4.7, 2: 4.2, 3: 4.0, 4: 3.6}
+NAME = {0: 7.0, 1: 4.7, 2: 4.2, 3: 4.0, 4: 3.5, 5: 2.7, 6: 2.5}
 MAXW = {0: 120, 1: 96, 2: 74, 3: 66, 4: 60}
 
 
 def name_size(g):
-    return NAME.get(g, 3.15) * S
+    return NAME.get(g, 2.7) * S
 
 
 def body_size(g):
-    return max(2.6 * S, name_size(g) * 0.7) if g else 3.4 * S
+    if g == 0:
+        return 3.4 * S
+    if g >= 5:
+        return 2.15 * S
+    if g == 4:
+        return 2.45 * S
+    return max(2.6 * S, name_size(g) * 0.7)
 
 
 rows = {}
@@ -293,22 +326,22 @@ for g, ks in rows.items():
             room.append(xs[k] - xs[ks[i - 1]])
         if i < len(ks) - 1:
             room.append(xs[ks[i + 1]] - xs[k])
-        avail = min(room) - 2.4 * S if room else 10 ** 6
+        avail = min(room) - (1.6 * S if g >= 5 else 2.2 * S) if room else 10 ** 6
         avail = min(avail, 2 * (xs[k] - X0 + 1.5 * S), 2 * (W - MARGIN - xs[k]))
         w = min(MAXW.get(g, 52) * S, avail)
         d = person(k)
         ns_, bs = name_size(g), body_size(g)
-        pad = 2.4 * S if g >= 4 else 3.2 * S
+        pad = 1.5 * S if g >= 5 else (2.2 * S if g == 4 else 3.2 * S)
         inner = w - 2 * pad
         lines = []  # (text, size, style, color, gap_before)
-        for t in wrap(d["name"], ns_, inner, "b", 2):
+        for t in wrap(d["name"], ns_, inner, "b", 3 if g >= 4 else 2):
             lines.append((t, ns_, "b", "#2E241C", 0))
         if d["roz"]:
             lines.append(("roz. " + d["roz"], bs * 1.02, "i", "#5A4A3E", 0))
         first = True
         for key in ("birth", "death"):
             if d[key]:
-                for t in wrap(d[key], bs, inner, "r", 2):
+                for t in wrap(d[key], bs, inner, "r", 3 if g >= 5 else 2):
                     lines.append((t, bs, "r", "#3D3229", 1.2 * S if first else 0))
                     first = False
         if d["place"]:
@@ -316,7 +349,7 @@ for g, ks in rows.items():
                 lines.append((t, bs, "r", "#3D3229", 1.2 * S if first else 0))
                 first = False
         if d["job"]:
-            for i2, t in enumerate(wrap(d["job"], bs, inner, "i", 3 if g <= 3 else 2)):
+            for i2, t in enumerate(wrap(d["job"], bs, inner, "i", 3)):
                 lines.append((t, bs, "i", color(k), 1.2 * S if i2 == 0 else 0))
         h = pad + 1.6 * S + sum(sz * 1.22 + gap for _, sz, _, _, gap in lines) + pad * 0.7
         cards[k] = dict(w=w, h=h, lines=lines, g=g)
@@ -342,7 +375,7 @@ def layout(legend_h):
     avail_h = H - HEADER - legend_h - 2 * FRAME
     need = sum(row_h.values()) + gap * (NGEN - 1)
     if need < avail_h:
-        gap = min(gap + (avail_h - need) / max(1, NGEN - 1), 30 * S)
+        gap = min(gap + (avail_h - need) / max(1, NGEN - 1), 17.5 * S)
     need = sum(row_h.values()) + gap * (NGEN - 1)
     ry, y = {}, HEADER + FRAME + max(0, (avail_h - need) / 2)
     for g in range(NGEN - 1, -1, -1):
@@ -361,7 +394,7 @@ blocking = [xs[k] - cards[k]["w"] / 2 for k in anc
             if row_y[anc[k]] < leg_y0 + leg_h + 3 * S and row_y[anc[k]] + row_h[anc[k]] > leg_y0]
 LEGEND_LEFT = bool(items) and min(blocking, default=W) - X0 >= LEG_W + 6 * S
 if not LEGEND_LEFT:
-    GAP, row_y, too_tall = layout(26 * S)
+    GAP, row_y, too_tall = layout(30 * S)
 if too_tall:
     print("Pozor: strom je vyšší než papír – zvol větší papír (--papir A1).", file=sys.stderr)
 
@@ -497,6 +530,56 @@ for k in sorted(anc, key=lambda k: anc[k]):
             fc = "#FFF8EC" if st != "i" else "#E9D9C2"
         a(f'<text x="{xs[k]}" y="{ty_:.2f}" text-anchor="middle" font-size="{sz:.2f}"{attrs} fill="{fc}">{E(t)}</text>')
         ty_ += sz * 0.27
+
+# panely po stranách výchozí osoby (č. ROOTK)
+rx, ry, rw, rh = card_box(ROOTK)
+
+# 1. QR kód a odkaz na rodinný web (vpravo od kořene)
+if QR_URL:
+    qw = 92 * S
+    qh = rh
+    qx = min(W - MARGIN - qw - 2 * S, xs[ROOTK] + rw / 2 + 16 * S)
+    qy = ry
+    qr_sz = 17.5 * S
+    qrx = qx + 4.0 * S
+    qry = qy + (qh - qr_sz) / 2
+    clean_url = re.sub(r"^https?://", "", QR_URL).rstrip("/")
+
+    a(f'<a href="{E(QR_URL)}" target="_blank" style="text-decoration:none;">')
+    a(f'<g filter="url(#sh)"><rect x="{qx}" y="{qy}" width="{qw}" height="{qh}" rx="{1.6 * S}" '
+      f'fill="#FFFDF8" stroke="#A88B6A" stroke-opacity="0.65" stroke-width="{0.35 * S}"/></g>')
+    # bílý podklad pod QR kódem
+    a(f'<rect x="{qrx - 1.2 * S}" y="{qry - 1.2 * S}" width="{qr_sz + 2.4 * S}" height="{qr_sz + 2.4 * S}" '
+      f'rx="{1.0 * S}" fill="#FFFFFF" stroke="#D8C7AE" stroke-width="{0.25 * S}"/>')
+    # vektorový QR kód
+    a(qr_svg(QR_URL, qrx, qry, qr_sz, fill="#2E241C"))
+    # texty a odkaz
+    tx = qx + qr_sz + 7.8 * S
+    a(f'<text x="{tx}" y="{qy + 7.2 * S}" font-size="{2.6 * S}" letter-spacing="{0.4 * S}" '
+      f'fill="#8C6E4F">RODINNÝ WEB</text>')
+    a(f'<text x="{tx}" y="{qy + 13.5 * S}" font-size="{3.5 * S}" font-weight="bold" '
+      f'fill="#2E241C">{E(clean_url)}</text>')
+    a(f'<text x="{tx}" y="{qy + 19.2 * S}" font-size="{2.45 * S}" font-style="italic" '
+      f'fill="#5A4A3E">Příběhy rodu · fotografie · matriky</text>')
+    a('</a>')
+
+# 2. Informační panel o předcích (vlevo od kořene pro symetrii)
+bw = 92 * S
+bh = rh
+bx = max(MARGIN + LABELW + 2 * S, xs[ROOTK] - rw / 2 - 16 * S - bw)
+by = ry
+btx = bx + bw / 2 + 1.2 * S
+
+a(f'<g filter="url(#sh)"><rect x="{bx}" y="{by}" width="{bw}" height="{bh}" rx="{1.6 * S}" '
+  f'fill="#FFFDF8" stroke="#A88B6A" stroke-opacity="0.65" stroke-width="{0.35 * S}"/></g>')
+a(f'<path d="M{bx},{by + 1.6 * S} a{1.6 * S},{1.6 * S} 0 0 1 {1.6 * S},{-1.6 * S} h{2.0 * S} v{bh} h{-2.0 * S} '
+  f'a{1.6 * S},{1.6 * S} 0 0 1 {-1.6 * S},{-1.6 * S} z" fill="#8C6E4F"/>')
+a(f'<text x="{btx}" y="{by + 7.2 * S}" text-anchor="middle" font-size="{2.6 * S}" letter-spacing="{0.4 * S}" '
+  f'fill="#8C6E4F">PŘÍMÁ LINIE PŘEDKŮ</text>')
+a(f'<text x="{btx}" y="{by + 13.5 * S}" text-anchor="middle" font-size="{3.5 * S}" font-weight="bold" '
+  f'fill="#2E241C">{n_anc} předků v {max_g} generacích</text>')
+a(f'<text x="{btx}" y="{by + 19.2 * S}" text-anchor="middle" font-size="{2.45 * S}" font-style="italic" '
+  f'fill="#5A4A3E">Čechy a Morava · 18. až 20. století</text>')
 
 # legenda větví
 if LEGEND_LEFT:

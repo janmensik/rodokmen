@@ -398,5 +398,55 @@
     "nazev": "Sňatek Jana Krejska a Anny Procházkové",
     "shrnuti": "Dne 8. 2. 1825 byli evangelickým pastorem Gedeonem Šlachtou ze sboru ve Veselí (zapsáno v matrice farnosti Rožná pro obec Josefsdorf) oddáni pětadvacetiletý Jan Krejsek, sedlák v Blažkově čp. 26 (syn Václava Krejska, sedláka v Blažkově a Anny rozené Stehlíkové, dcery sedláka ze Zvole) a čtyřiadvacetiletá Anna Procházková z Josefsdorfu (Storfu) čp. 5 (manželská dcera Václava Procházky, sedláka v Josefsdorfu a Terezie rozené Zubánkové, dcery sedláka z Domanínku). Svědci: Vavřinec Zubánek, familiant z Janovic a Jan Bednář, sedlák z Mirošova.",
     "odkaz": "https://www.mza.cz/actapublica/matrika/detail/7015?image=216000010-000253-003380-000000-016179-000000-00-B07552-00800.jp2"
+  },
+  {
+    "klic": "blazkov_krest_jan_krejsek_1796",
+    "svazek": "mza_7349",
+    "snimek": 17,
+    "druh": "N",
+    "datum": "17. 5. 1796",
+    "nazev": "Narození a křest Jana Krejska (1796)",
+    "shrnuti": "Dne 17. 5. 1796 se v Blažkově čp. 26 narodil Jan Krejsek, syn evangelického sedláka Václava Krejska (Wenzl Kreytschek) a Anny rozené Stehlíkové ze Zvole. Pokřtěn 23. 5. 1796 evangelickým pastorem Aaronem Štettinou ze sboru v Novém Městě na Moravě (zapsáno v katolické matrice farnosti Zvole). Kmotři: Franz Zikmund, sedlák z Blažkova a Anna, dcera sedláka Georga Brože z Blažkova.",
+    "odkaz": "https://www.mza.cz/actapublica/matrika/detail/7349?image=216000010-000253-003380-000000-016560-000000-00-B07817-00170.jp2"
+  },
+  {
+    "klic": "blazkov_umrti_vaclav_krejsek_1832",
+    "svazek": "mza_7380",
+    "snimek": 118,
+    "druh": "Z",
+    "datum": "1832",
+    "nazev": "Úmrtí Václava Krejska st. na choleru (1832)",
+    "shrnuti": "V roce 1832 zemřel v Blažkově čp. 26 na epidemii asijské cholery evangelický sedlák Václav Krejsek st., otec Jana Krejska a pradědeček mistra kolářského Otakara Krejska. Zapsáno v evangelické matrice zemřelých sboru v Novém Městě na Moravě pastorem Janem Rumlem.",
+    "odkaz": "https://www.mza.cz/actapublica/matrika/detail/7380?image=216000010-000253-003380-000000-016719-000000-00-B07973-01180.jp2"
+  },
+  {
+    "klic": "dubrava_scitanie_1930_caki_juraj",
+    "svazek": "sna_scitanie_1930_dubrava",
+    "snimek": 252,
+    "druh": "S",
+    "datum": "1. 12. 1930",
+    "nazev": "Sčítací list rodiny Čaky v Dúbravě čp. 42 (Juraj Čáki * 1919)",
+    "shrnuti": "Sčítací list československého sčítání lidu k 1. 12. 1930 pro dům čp. 42 v Dúbravě (okres Snina). Hlava domácnosti roľník Andrej Čaky (* 5. 3. 1891 Dúbrava) a manželka Marya (* 21. 10. 1896 Strihovce, sobáš 15. 4. 1918). Jejich nejstarší syn Jíraj (Juraj) Čaky se narodil 13. 4. 1919 v Dúbravě jako žák školy (škôlar, číta a píše). Dále sourozenci Michal (* 1922), Marya (* 1925), Wasil (* 1927), Júlia (* 1930) a babička Júlia Čakyová (* 15. 9. 1868 Strihovce, vdova po dědkovi Čakym † 5. 10. 1926). Celá rodina byla slovenské národnosti a řeckokatolického vyznání.",
+    "odkaz": "https://www.slovakiana.sk/scitacie-harky"
+  },
+  {
+    "klic": "smigovec_scitanie_1930_bubanec_cp_10",
+    "svazek": "sna_scitanie_1930_smigovec",
+    "snimek": 505,
+    "druh": "S",
+    "datum": "1. 12. 1930",
+    "nazev": "Sčítací list rodiny Búbanec v Šmigovci čp. 10 (Marie * 1919)",
+    "shrnuti": "Sčítací list československého sčítání lidu k 1. 12. 1930 pro dům čp. 10 v Šmigovci (okres Snina). Hlava domácnosti Vasil Búbanec (* 14. 9. 1878 Šmigovec) a manželka Anna (* 14. 12. 1883 Ladomírov, sobáš 8. 8. 1901). Dcera Marie Búbancová se narodila 21. 11. 1919 v Šmigovci (svobodná, řeckokatolická). Dále sourozenci Vasil (* 1908), Juraj (* 1909), Ján (* 1911) a Júlia (* 1922).",
+    "odkaz": "https://www.slovakiana.sk/scitacie-harky"
+  },
+  {
+    "klic": "smigovec_scitanie_1930_bubanec_cp_34",
+    "svazek": "sna_scitanie_1930_smigovec",
+    "snimek": 520,
+    "druh": "S",
+    "datum": "1. 12. 1930",
+    "nazev": "Sčítací list rodiny Búbanec v Šmigovci čp. 34 (Maria * 1922)",
+    "shrnuti": "Sčítací list československého sčítání lidu k 1. 12. 1930 pro dům čp. 34 v Šmigovci (okres Snina). Hlava domácnosti Andrej Búbanec (* 26. 2. 1875 Šmigovec) a manželka Anna (* 25. 10. 1882). Dcera Maria Búbancová se narodila 8. 9. 1922 v Šmigovci. Dále děti Vasil (* 1907), Ján (* 1910), Helena (* 1914), Júlia (* 1919) a Anna (* 1920).",
+    "odkaz": "https://www.slovakiana.sk/scitacie-harky"
   }
 ]

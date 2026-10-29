@@ -344,6 +344,9 @@ def main():
         subprocess.run([sys.executable, "-I", "-X", "utf8", os.path.join(TOOLS, "tree_chart.py"),
                         os.path.join(gen_dir, "tree.svg"), "--web", hrefs], check=True, capture_output=True)
 
+    if os.path.exists(os.path.join(TOOLS, "export_strom.py")):
+        subprocess.run([sys.executable, "-I", "-X", "utf8", os.path.join(TOOLS, "export_strom.py")], check=True)
+
     gated = login_files(cfg)
 
     copied = 0

@@ -134,23 +134,22 @@ P = {
 
              r=[], note="Narozena v Hluboké čp. 36 u Krucemburku jako dcera zámečníka Julia Holánka (* 1889 Staré Ransko) a Sofie roz. Henzlové (* 1904 Hluboká). Propojila tradiční železářský a hamernický rod Holánků z Ranska se selským rodem Henzlů z Hluboké. S manželem Richardem Jarolímem žili v Hradci Králové. Dožila se požehnaného věku 92 let († 10. 1. 2021); babička Jana z matčiny strany."),
 
-    12: dict(n="Juraj (Jiří) Čáki", y="* asi 1921", st="fam",
+    12: dict(n="Juraj (Jiří) Čáki", y="* 1919", st="doc",
+             f=["* 13. 4. 1919 Dúbrava čp. 42 (okres Snina)", "× Marie Bubancová",
+                "syn roľníka Andreje Čakyho (* 5. 3. 1891 Dúbrava) a Maryi (* 21. 10. 1896 Strihovce, sobáš 15. 4. 1918)",
+                "vnuk Júlie Čakyové (* 15. 9. 1868 Strihovce, ovdověla 5. 10. 1926 v Dúbravě po dědkovi Čakym)",
+                "sourozenci v Dúbravě: Michal (* 1922), Marya (* 1925), Wasil (* 1927), Júlia (* 1930)",
+                "bratr Miroslav Čáky se narodil později po r. 1930",
+                "příjmení v matrikách a sčítání: Čaky / Čáki / Csáky"],
+             puvod="Dúbrava čp. 42 (okres Snina, Zemplín)", bydl="Červeněves čp. 88 (dříve Dúbrava čp. 42)",
+             r=["dubrava_scitanie_1930_caki_juraj"],
+             note="Dědeček Julie Čákiové z otcovy strany (otec JUDr. Miloslava Čákiho, uváděn též jako Jiří Čáki / Čaky). Narozen 13. 4. 1919 v Dúbravě čp. 42 v okrese Snina na Zemplíně jako nejstarší syn řeckokatolického roľníka Andreje Čakyho (* 5. 3. 1891) a Maryi roz. ze Strihoviec (* 21. 10. 1896). Rodina byla řeckokatolického vyznání a slovenské národnosti. Podle sčítání lidu 1930 žil v Dúbravě čp. 42 s rodiči, babičkou Júlií (* 1868) a sourozenci Michalem, Maryou, Wasilem a sestrou Júlií (* 14. 6. 1930, po níž nese křestní jméno jeho vnučka Mgr. Julie Menšík Čákiová!). Později přesídlil do Čech a žil v Červeněvsi čp. 88 u Smidar."),
 
-             f=["* asi 1921 Slovensko (Dúbrava / Šmigovec, okres Snina)", "× Marie Bubancová",
-
-                "příjmení v matrikách: Čáki / Čaky / Csáky"],
-
-             puvod="Zemplín (Dúbrava / Šmigovec)", bydl="Červeněves čp. 88", r=[],
-
-             note="Otec JUDr. Miloslava Čákiho (uváděn též jako Jiří Čáki / Čaky). Pocházel z východního Slovenska (Dúbrava nebo Šmigovec, okres Snina, Zemplín), žil v Červeněvsi čp. 88. Měl bratra Miroslava Čákyho."),
-
-    13: dict(n="Marie Čákiová", y="", st="fam",
-
-             f=["× Juraj (Jiří) Čáki"],
-
-             roz="Bubancová", puvod="Zemplín (Šmigovec / Dúbrava, okres Snina)", r=[],
-
-             note="Matka JUDr. Miloslava Čákiho. Rozená Bubancová, původem z východního Slovenska (Šmigovec nebo Dúbrava, okres Snina, Zemplín)."),
+    13: dict(n="Marie Čákiová", y="* 1919 / 1922", st="doc",
+             f=["* cca 1919–1924 (Šmigovec / Dúbrava, okres Snina)", "× Juraj (Jiří) Čáki"],
+             roz="Bubancová", puvod="Šmigovec (příp. Dúbrava, okres Snina)", bydl="Červeněves čp. 88",
+             r=["smigovec_scitanie_1930_bubanec_cp_10", "smigovec_scitanie_1930_bubanec_cp_34"],
+             note="Babička Julie Čákiové z otcovy strany (matka JUDr. Miloslava Čákiho). Rozená Bubancová (v úředních sčítacích operátech 1930 psáno Búbanec / Búbancová), původem ze Šmigovce v okrese Snina (kde rod Búbanec vlastnil řadu usedlostí, mj. čp. 10 a čp. 34). Nejpravděpodobnější kandidátky ze sčítání lidu 1930 podle věkové shody s manželem Jurajem (* 1919): Marie Búbancová * 21. 11. 1919 v Šmigovci čp. 10 (dcera Vasila Búbance * 1878 a Anny roz. z Ladomírova * 1883), nebo Maria Búbancová * 8. 9. 1922 v Šmigovci čp. 34 (dcera Andreje Búbance * 1875 a Anny * 1882)."),
 
     14: dict(n="MUDr. Miroslav Krejzek", y="1914–1978", st="doc",
              f=["* 3. 9. 1914 Bystřice nad Pernštejnem č. p. 147", "× MUDr. Věra Černá", "† 27. 5. 1978 Žamberk",
@@ -638,13 +637,14 @@ P = {
 
 
 
-    112: dict(n="Jan Krejsek", y="* cca 1799 – po 1867", st="doc",
-              f=["* cca 1799–1800 Blažkov čp. 26", "× 8. 2. 1825 Josefsdorf Anna Procházková", "† po 1867",
-                 "syn Václava Krejska, sedláka v Blažkově a Anny rozené Stehlíkové ze Zvole"],
+    112: dict(n="Jan Krejsek", y="1796 – po 1867", st="doc",
+              f=["* 17. 5. 1796 Blažkov čp. 26", "× 8. 2. 1825 Josefsdorf Anna Procházková", "† po 1867",
+                 "křest 23. 5. 1796 pastorem Aaronem Štettinou (evangelický sbor Nové Město na Moravě)",
+                 "syn sedláka Václava Krejska st. († 1832 na choleru) a Anny rozené Stehlíkové ze Zvole"],
               zam="sedlák a rolník v Blažkově čp. 26",
               bydl="Blažkov čp. 26", puvod="Blažkov čp. 26",
-              r=["josefsdorf_oddani_jan_krejsek_1825", "blazkov_oddani_vaclav_krejsek_1867"],
-              note="Evangelický sedlák v Blažkově na gruntu čp. 26. Dne 8. února 1825 byl evangelickým pastorem Gedeonem Šlachtou ze sboru ve Veselí oddán s Annou Procházkovou z familiantského Josefsdorfu (Storfu) čp. 5. Otec Václava Krejska a dědeček bystřického mistra kolářského Otakara Krejska."),
+              r=["blazkov_krest_jan_krejsek_1796", "josefsdorf_oddani_jan_krejsek_1825", "blazkov_oddani_vaclav_krejsek_1867"],
+              note="Evangelický sedlák v Blažkově na gruntu čp. 26. Narozen 17. 5. 1796 v Blažkově čp. 26 jako syn sedláka Václava Krejska a Anny roz. Stehlíkové ze Zvole (pokřtěn 23. 5. 1796 pastorem Aaronem Štettinou). Dne 8. února 1825 byl evangelickým pastorem Gedeonem Šlachtou ze sboru ve Veselí oddán s Annou Procházkovou z familiantského Josefsdorfu (Storfu) čp. 5. Otec Václava Krejska a dědeček bystřického mistra kolářského Otakara Krejska."),
 
     113: dict(n="Anna Krejsková", y="* cca 1800 – po 1867", st="doc",
               f=["* cca 1800–1801 Josefsdorf (Storf) čp. 5", "× 8. 2. 1825 Jan Krejsek", "† po 1867",
@@ -990,11 +990,12 @@ P = {
 
 
 
-    224: dict(n="Václav Krejsek", y="* před 1780", st="doc",
-              f=["* před 1780 Blažkov", "otec Jana Krejska (* cca 1799)"],
-              zam="sedlák v Blažkově", bydl="Blažkov čp. 26", puvod="Blažkov",
-              r=["josefsdorf_oddani_jan_krejsek_1825"],
-              note="Sedlák v Blažkově čp. 26, doložený v oddacím zápise svého syna Jana Krejska z února 1825."),
+    224: dict(n="Václav Krejsek", y="* před 1775 – † 1832", st="doc",
+              f=["* před 1775 Blažkov", "× Anna Stehlíková (ze Zvole)", "† 1832 Blažkov čp. 26 (na choleru)",
+                 "otec sedláka Jana Krejska (* 1796)", "pradědeček mistra kolářského Otakara Krejska"],
+              zam="sedlák v Blažkově čp. 26", bydl="Blažkov čp. 26", puvod="Blažkov",
+              r=["blazkov_krest_jan_krejsek_1796", "josefsdorf_oddani_jan_krejsek_1825", "blazkov_umrti_vaclav_krejsek_1832"],
+              note="Evangelický sedlák v Blažkově na rodovém gruntu čp. 26. Manžel Anny rozené Stehlíkové ze Zvole a otec sedláka Jana Krejska (* 1796). Zemřel v roce 1832 v Blažkově čp. 26 na epidemii asijské cholery (zápis v evangelické matrice zemřelých Nové Město na Moravě sv. 16719, detail 7380, sn. 118, pag. 233, č. 1)."),
 
     225: dict(n="Anna Krejsková", y="* před 1780", st="doc",
               f=["* před 1780 Zvole", "dcera sedláka ze Zvole", "matka Jana Krejska (* cca 1799)"],

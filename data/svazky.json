@@ -481,5 +481,45 @@
     "roky": "N: - -, O: 1784 - 1854 -, Z: - -",
     "snimku": 187,
     "url": "https://www.mza.cz/actapublica/matrika/detail/7015"
+  },
+  "mza_7349": {
+    "archiv": "MZA Brno",
+    "portal": "Actapublica",
+    "fond": "Zvole římskokatolická církev",
+    "svazek": "sign. 16560 (N: 1784 - 1806)",
+    "obce": "Blažkov, Horní Rozsíčka, Mirošov, Moravec, Olešínka, Pikárec, Radňoves, Radešínská Svratka, Zvole",
+    "roky": "1784 - 1806",
+    "snimku": 178,
+    "url": "https://www.mza.cz/actapublica/matrika/detail/7349"
+  },
+  "mza_7380": {
+    "archiv": "MZA Brno",
+    "portal": "Actapublica",
+    "fond": "Nové Město na Moravě Českobratrská církev evangelická",
+    "svazek": "sign. 16719 (Z: 1827 - 1870)",
+    "obce": "Blažkov, Bohdalec, Borovnice, Bystřice n. P., Jimramov, Nové Město n. M., Nová Ves, Olešná, Zubří a další",
+    "roky": "1827 - 1870",
+    "snimku": 223,
+    "url": "https://www.mza.cz/actapublica/matrika/detail/7380"
+  },
+  "sna_scitanie_1930_dubrava": {
+    "archiv": "Slovenský národný archív",
+    "portal": "Slovakiana",
+    "fond": "Sčítanie ľudu 1930",
+    "svazek": "Okres Snina, obec Dúbrava, škatuľa 0867",
+    "obce": "Dúbrava (čp. 1 - 58)",
+    "roky": "1930",
+    "snimku": 59,
+    "url": "https://www.slovakiana.sk/scitacie-harky"
+  },
+  "sna_scitanie_1930_smigovec": {
+    "archiv": "Slovenský národný archív",
+    "portal": "Slovakiana",
+    "fond": "Sčítanie ľudu 1930",
+    "svazek": "Okres Snina, obec Šmigovec, škatuľa 0871",
+    "obce": "Šmigovec (čp. 1 - 49)",
+    "roky": "1930",
+    "snimku": 51,
+    "url": "https://www.slovakiana.sk/scitacie-harky"
   }
 }

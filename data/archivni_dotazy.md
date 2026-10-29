@@ -18,13 +18,9 @@ Co by šlo zjistit jen v badatelně archivu nebo na matričním úřadě (a pro�
 
 ---
 
-## 2. Původ Otakara Krejzka a sňatek s Františkou na Moravě
-- **Dotčené osoby:** [Otakar Krejzek](/osoba/otakar-krejzek-1880/) (* cca 1880/1885) a [Františka Krejzková](/osoba/frantiska-krejzkova-1885/).
-- **Stav výzkumu:**
-  - V indexu narozených farnosti Bystřice nad Pernštejnem v letech 1834–1883 (MZA Brno, kniha 15492) se příjmení Krejzek vůbec nevyskytuje. Otakar tedy pocházel z jiné farnosti.
-  - V roce 1914 žili v Bystřici n. P. jako „soukromníci“ při narození syna MUDr. Miroslava Krejzka.
-- **Doporučený badatelský postup:**
-  1. **Sčítací operáty ze sčítání lidu 1921 (SOkA Žďár nad Sázavou / MZA Brno):**
-     - Sčítání lidu z roku 1921 obsahuje pro každého obyvatele domu v Bystřici nad Pernštejnem **přesné datum i domovskou a rodnou obec**. Vyhledání sčítacího archu rodiny Otakara Krejzka z roku 1921 jednoznačně odhalí farnost jeho narození i narození manželky Františky.
-  2. **Hledání sňatku Otakara a Františky (cca 1905–1913):**
-     - Podle dobových zvyklostí se svatba konala v rodišti nevěsty. Po zjištění Františčiny rodné obce ze sčítání lidu 1921 bude sňatek dohledán v příslušné farnosti (okolí Tišnova, Brna, Nového Města na Moravě či Velkého Meziříčí).
+## 2. Původ Františky roz. Sýsové a předků Leopolda Sýse (Sčítání lidu 1921)
+- **Dotčené osoby:** [Otakar Krejzek](/osoba/otakar-krejzek-1880/) (* 6. 5. 1877 Blažkov čp. 20), [Františka Krejzková roz. Sýsová](/osoba/frantiska-krejzkova-1885/) (* cca 1880–1885) a [Leopold Sýs](/osoba/leopold-sys/) (hajný v Borovníku).
+- **Archivní instituce:** Státní okresní archiv Žďár nad Sázavou (SOkA Žďár n. S.), fond *Okresní úřad Nové Město na Moravě*, sčítací operáty ze sčítání lidu 1921.
+- **Konkrétní jednotka k vyhledání:** Obec Bystřice nad Pernštejnem, část obce Nové Dvory, dům čp. 147 (kolářská dílna Otakara Krejzka, pozdější čp. 433).
+- **Hledané údaje:** Sčítací list domácnosti Otakara Krejzka z 15. 2. 1921 (obsahuje přesné datum narození, rodnou obec a okres Františky roz. Sýsové a rok sňatku).
+- **Návazný krok:** Po zjištění rodné farnosti Františky Sýsové vyhledat její křestní zápis v online matrikách MZA Brno, odkud budou zjištěni rodiče Leopolda Sýse a jeho manželka.
