@@ -5,8 +5,8 @@ const siteName = config.nazev || 'Rodokmen';
 const { title, description = config.popis || siteName, wide = false, full = false } = Astro.props;
 const path = Astro.url.pathname;
 const groups = [
-  [[toUrl('/'), 'Úvod'], ...(config.maPribeh ? [[toUrl('/pribehy/'), config.pribeh?.menu || 'Příběh rodu']] : []), [toUrl('/zajimavosti/'), 'Zajímavosti']],
-  [[toUrl('/rody/'), 'Rody'], [toUrl('/mapa/'), 'Mapa'], [toUrl('/casova-osa/'), 'Časová osa'], [toUrl('/strom/'), 'Strom'], [toUrl('/strom-v2/'), 'Strom (interaktivní)'], [toUrl('/vejir/'), 'Vějíř'], [toUrl('/predci/'), 'Předci'], [toUrl('/zapisy/'), 'Zápisy'], [toUrl('/hledame/'), 'Co hledáme']],
+  [[toUrl('/'), 'Úvod'], ...(config.maPribeh ? [[toUrl('/pribehy/'), 'Příběh']] : []), [toUrl('/zajimavosti/'), 'Zajímavosti']],
+  [[toUrl('/rody/'), 'Rody'], [toUrl('/mapa/'), 'Mapa'], [toUrl('/casova-osa/'), 'Časová osa'], [toUrl('/strom/'), 'Strom'], [toUrl('/strom-v2/'), 'Interaktivní'], [toUrl('/vejir/'), 'Vějíř'], [toUrl('/predci/'), 'Předci'], [toUrl('/zapisy/'), 'Zápisy'], [toUrl('/hledame/'), 'Co hledáme']],
   [[toUrl('/hledat/'), 'Hledat']],
 ];
 const current = (linkUrl) => {
