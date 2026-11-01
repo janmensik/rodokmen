@@ -502,15 +502,15 @@ P = {
 
     # 6. generace (64–70, 84–93)
 
-    64: dict(n="Josef Menšík st.", y="* cca 1801/1806", st="doc",
+    64: dict(n="Josef Menšík st.", y="* 1800", st="doc",
 
-             f=["* 13. 7. 1806 Jistebnice čp. 156", "× 12. 2. 1828 Jistebnice Barbora Horychová"],
+             f=["* 23. 3. 1800 Jistebnice čp. 119", "× 12. 2. 1828 Jistebnice Barbora Horychová"],
 
              zam="měšťan a pekař v Jistebnici čp. 156", puvod="Jistebnice",
 
-             r=["jistebnice_krest_josef_mensik_1832", "jistebnice_oddani_josef_mensik_1828", "jistebnice_oddani_josef_mensik_1865"],
+             r=["jistebnice_krest_josef_mensik_1800", "jistebnice_krest_josef_mensik_1832", "jistebnice_oddani_josef_mensik_1828", "jistebnice_oddani_josef_mensik_1865"],
 
-             note="Měšťan a mistr pekařský v Jistebnici čp. 156, syn řezníka Františka Menšíka (v matrice 1832 zapsán Faustin) a Anny roz. Dvořákové. Narozen 13. 7. 1806 v čp. 156. Oddán 12. 2. 1828 v Jistebnici s Barborou Horychovou (v oddací matrice zapsán ve věku 26 let, bydliště čp. 165)."),
+             note="Měšťan a mistr pekařský v Jistebnici čp. 156, syn řezníka Františka Menšíka (v matrice 1832 zapsán Faustin) a Anny roz. Dvořákové. Narozen 23. 3. 1800 v čp. 119. Oddán 12. 2. 1828 v Jistebnici s Barborou Horychovou (v oddací matrice zapsán ve věku 26 let, bydliště čp. 165)."),
 
     65: dict(n="Barbora Menšíková", y="* 1801", st="doc",
 
@@ -732,8 +732,8 @@ P = {
               f=["* 31. 8. 1832 Vyšehořovice čp. 22", "× 12. 4. 1853 Chvalovice čp. 21 Anna Kováříková", "† před 1885"],
               zam="gruntovník a rolník v Chvalovicích čp. 21 a 4",
               bydl="Chvalovice čp. 21 a 4", puvod="Vyšehořovice čp. 22",
-              r=["kovanice_oddani_vaclav_hromada_1853", "chvalovice_krest_anna_hromadova_1864", "podebrady_oddani_jan_cerny_1885"],
-              note="Gruntovník v Chvalovicích čp. 21 a rolník v čp. 4. Narozen 31. 8. 1832 ve Vyšehořovicích čp. 22 jako manželský syn gruntovníka Václava Hromady st. a Alžběty roz. Jirkovské z čp. 25. Dne 12. 4. 1853 se ještě jako nezletilý (20 1/2 let) po vrchnoporučenském svolení soudu v Českém Brodě oženil v Chvalovicích s Annou Kováříkovou a převzal zdejší grunt čp. 21. Otec Anny Černé roz. Hromadové (* 1864)."),
+              r=["vysehorovice_krest_vaclav_hromada_1832", "kovanice_oddani_vaclav_hromada_1853", "chvalovice_krest_anna_hromadova_1864", "podebrady_oddani_jan_cerny_1885"],
+              note="Gruntovník v Chvalovicích čp. 21 a rolník v čp. 4. Narozen 31. 8. 1832 ve Vyšehořovicích čp. 22 (pokřtěn 1. 9. farářem Janem Kinským) jako manželský syn gruntovníka Václava Hromady st. a Alžběty roz. Jirkovské z čp. 25. Dne 12. 4. 1853 se ještě jako nezletilý (20 1/2 let) po vrchnoporučenském svolení soudu v Českém Brodě oženil v Chvalovicích s Annou Kováříkovou a převzal zdejší grunt čp. 21. Otec Anny Černé roz. Hromadové (* 1864)."),
 
     123: dict(n="Anna Hromadová", y="* 1831", st="doc",
               f=["* 1831 Chvalovice čp. 21", "× 12. 4. 1853 Chvalovice čp. 21 Václav Hromada"],
@@ -748,11 +748,11 @@ P = {
               r=["bojiste_oddani_vaclav_mestanek_1858", "bojiste_krest_josef_mestanek_1859", "koncice_oddani_josef_mestanek_1883", "koncice_krest_marie_mestankova_1885"],
               note="Tovaryš tesařský v Bojišti čp. 10 a tkalec. Sloužil u c. k. 6. pluku polního dělostřelectva (Artillerie-Regiment Nr. 6, majitel generálmajor rytíř von Fitz). Narozen kolem roku 1830 ve Dvorech čp. 2 jako manželský syn nádeníka Antonína Měšťánka a Barbory roz. Šafáříkové z Peček. Dne 4. 10. 1858 se v Pečkách po doručení vojenského povolení z Pešti a ohláškách u dělostřelecké jednotky v Uhrách oženil s Barborou Kosovou z Bojiště čp. 10. Otec mistra tesařského Josefa Měšťánka (* 1859)."),
 
-    125: dict(n="Barbora Měšťánková", y="* cca 1835", st="doc",
-              f=["* cca 1835 Bojiště čp. 10", "× 4. 10. 1858 Pečky (farnost Nebovidy) Václav Měšťánek"],
+    125: dict(n="Barbora Měšťánková", y="* 1835", st="doc",
+              f=["* 27. 11. 1835 Bojiště čp. 10", "× 4. 10. 1858 Pečky (farnost Nebovidy) Václav Měšťánek"],
               roz="Kosová", bydl="Bojiště čp. 10", puvod="Bojiště čp. 10",
-              r=["bojiste_oddani_vaclav_mestanek_1858", "bojiste_krest_josef_mestanek_1859", "koncice_oddani_josef_mestanek_1883", "koncice_krest_marie_mestankova_1885"],
-              note="Narozena kolem roku 1835 v Bojišti čp. 10 jako manželská dcera domkáře a tesaře Václava Kosa a Marie roz. Kollářové z Peček čp. 55. Dne 4. 10. 1858 se za přítomnosti svého otce v Pečkách provdala za tesaře a dělostřeleckého záložníka Václava Měšťánka. Matka Josefa Měšťánka (* 1859)."),
+              r=["bojiste_krest_barbora_kosova_1835", "bojiste_oddani_vaclav_mestanek_1858", "bojiste_krest_josef_mestanek_1859", "koncice_oddani_josef_mestanek_1883", "koncice_krest_marie_mestankova_1885"],
+              note="Narozena 27. 11. 1835 v Bojišti čp. 10 (pokřtěna 28. 11. 1835) jako manželská dcera tovaryše tesařského Václava Kosa a Marie roz. Kollářové z Peček čp. 55. Dne 4. 10. 1858 se v Pečkách provdala za tesaře a dělostřeleckého záložníka Václava Měšťánka. Matka Josefa Měšťánka (* 1859)."),
 
     127: dict(n="Kateřina Ouzká", y="", st="doc",
               f=[], bydl="Končice čp. 14", puvod="Končice",
@@ -767,11 +767,11 @@ P = {
 
               f=["× Anna Dvořáková"],
 
-              zam="řezník v Jistebnici", puvod="Jistebnice",
+              zam="měšťan a řezník v Jistebnici", puvod="Jistebnice",
 
-              r=["jistebnice_krest_josef_mensik_1832", "jistebnice_oddani_josef_mensik_1865"],
+              r=["jistebnice_krest_josef_mensik_1800", "jistebnice_krest_josef_mensik_1832", "jistebnice_oddani_josef_mensik_1865"],
 
-              note="Řezník v Jistebnici, otec pekaře Josefa Menšíka z čp. 156. V křtu syna Josefa 1832 zapsán Faustin Menšík, v oddací matrice 1865 František."),
+              note="Měšťan a řezník v Jistebnici (čp. 119), otec pekaře Josefa Menšíka. V křtu syna Josefa 1800 zapsán František Menšík (Franz Menssjk), v křtu vnuka Josefa 1832 Faustin, v oddací matrice vnuka 1865 František."),
 
     129: dict(n="Anna Menšíková", y="", st="doc",
 
@@ -779,9 +779,9 @@ P = {
 
               roz="Dvořáková", puvod="Jistebnice",
 
-              r=["jistebnice_krest_josef_mensik_1832", "jistebnice_oddani_josef_mensik_1865"],
+              r=["jistebnice_krest_josef_mensik_1800", "jistebnice_krest_josef_mensik_1832", "jistebnice_oddani_josef_mensik_1865"],
 
-              note="Manželka řezníka Františka Menšíka z Jistebnice."),
+              note="Manželka řezníka Františka Menšíka z Jistebnice, matka pekaře Josefa Menšíka."),
 
     130: dict(n="František Horych", y="", st="doc",
 
@@ -803,25 +803,25 @@ P = {
 
               note="Manželka zednického mistra Františka Horycha z Jistebnice, rozená Dědová. Oddána 18. 1. 1791 v Jistebnici."),
 
-    132: dict(n="Antonín Šmedla st.", y="", st="doc",
+    132: dict(n="Antonín Šmedla st.", y="* cca 1771", st="doc",
 
-              f=["× Anna Kostková"],
+              f=["* cca 1771 Brandýs nad Labem", "× 17. 11. 1793 Jistebnice Anna Kostková"],
 
-              zam="punčochář v Jistebnici", puvod="Jistebnice",
+              zam="mistr punčochářský v Jistebnici čp. 30", puvod="Brandýs nad Labem",
 
-              r=["jistebnice_krest_marie_smedlova_1835", "jistebnice_oddani_josef_mensik_1865"],
+              r=["jistebnice_oddani_antonin_smedla_1793", "jistebnice_krest_marie_smedlova_1835", "jistebnice_oddani_josef_mensik_1865"],
 
-              note="Punčochář v Jistebnici, otec kostelníka Antonína Šmedly."),
+              note="Mistr punčochářský v Jistebnici, původem z Brandýsa nad Labem, syn zemřelého Josefa Šmedly. Oddán 17. 11. 1793 v Jistebnici s Annou Kostkovou (v matrice zapsán ve věku 22 let). Otec punčocháře a kostelníka Antonína Šmedly ml."),
 
-    133: dict(n="Anna Šmedlová", y="", st="doc",
+    133: dict(n="Anna Šmedlová", y="* cca 1769", st="doc",
 
-              f=["× Antonín Šmedla"],
+              f=["* cca 1769 Jistebnice", "× 17. 11. 1793 Jistebnice Antonín Šmedla"],
 
               roz="Kostková", puvod="Jistebnice",
 
-              r=["jistebnice_krest_marie_smedlova_1835", "jistebnice_oddani_josef_mensik_1865"],
+              r=["jistebnice_oddani_antonin_smedla_1793", "jistebnice_krest_marie_smedlova_1835", "jistebnice_oddani_josef_mensik_1865"],
 
-              note="Manželka punčocháře Antonína Šmedly z Jistebnice, rozená Kostková."),
+              note="Dcera Jana Kostky z Jistebnice čp. 30. Oddána 17. 11. 1793 v Jistebnici ve věku 24 let s punčochářem Antonínem Šmedlou z Brandýsa."),
 
     134: dict(n="Václav Šebele", y="", st="doc",
 
@@ -1114,14 +1114,14 @@ P = {
     244: dict(n="Václav Hromada st.", y="† před 1853", st="doc",
               f=["† před 1853", "× Alžběta Jirkovská"],
               zam="gruntovník ve Vyšehořovicích čp. 22", bydl="Vyšehořovice čp. 22", puvod="Vyšehořovice",
-              r=["kovanice_oddani_vaclav_hromada_1853", "chvalovice_krest_anna_hromadova_1864"],
-              note="Gruntovník ve Vyšehořovicích čp. 22 na Českobrodsku, manžel Alžběty roz. Jirkovské z usedlosti čp. 25. Zemřel před 12. dubnem 1853. Otec gruntovníka Václava Hromady ml. z Chvalovic."),
+              r=["vysehorovice_krest_vaclav_hromada_1832", "kovanice_oddani_vaclav_hromada_1853", "chvalovice_krest_anna_hromadova_1864"],
+              note="Gruntovník ve Vyšehořovicích čp. 22 na Českobrodsku (kounické panství), syn Matěje Hromady, gruntovníka z Vyšehořovic čp. 22 a Magdaleny roz. Buriankové z Chýště čp. 10. Manžel Alžběty roz. Jirkovské z čp. 25. Zemřel před 12. dubnem 1853. Otec gruntovníka Václava Hromady ml. z Chvalovic."),
 
     245: dict(n="Alžběta Hromadová", y="", st="doc",
               f=["× Václav Hromada"],
               roz="Jirkovská", bydl="Vyšehořovice čp. 22", puvod="Vyšehořovice čp. 25",
-              r=["kovanice_oddani_vaclav_hromada_1853", "chvalovice_krest_anna_hromadova_1864"],
-              note="Pocházela ze selského rodu Jirkovských z Vyšehořovic čp. 25 na Českobrodsku. Manželka gruntovníka Václava Hromady st. z čp. 22 a matka Václava Hromady ml. z Chvalovic."),
+              r=["vysehorovice_krest_vaclav_hromada_1832", "kovanice_oddani_vaclav_hromada_1853", "chvalovice_krest_anna_hromadova_1864"],
+              note="Dcera Jana Jirkovského, výminkáře z usedlosti čp. 25 ve Vyšehořovicích a Alžběty roz. Špačkové z Úhonic. Manželka gruntovníka Václava Hromady st. z čp. 22 a matka Václava Hromady ml. z Chvalovic."),
 
     246: dict(n="Josef Kovářík", y="", st="doc",
               f=["× Anna Homolová"],
@@ -1147,17 +1147,17 @@ P = {
               r=["bojiste_oddani_vaclav_mestanek_1858", "bojiste_krest_josef_mestanek_1859"],
               note="Pocházela z Peček na Kolínsku, manželka domkáře Antonína Měšťánka ze Dvorů čp. 2. Matka tesaře Václava Měšťánka a babička Josefa Měšťánka (* 1859)."),
 
-    250: dict(n="Václav Kos", y="", st="doc",
-              f=["× Marie Kollářová"],
-              zam="domkář a tesař v Bojišti čp. 10", bydl="Bojiště čp. 10", puvod="Bojiště",
-              r=["bojiste_oddani_vaclav_mestanek_1858", "bojiste_krest_josef_mestanek_1859", "koncice_oddani_josef_mestanek_1883", "koncice_krest_marie_mestankova_1885"],
-              note="Domkář a tesař v Bojišti čp. 10 na Kolínsku. Manžel Marie roz. Kollářové z Peček čp. 55. Dne 4. 10. 1858 byl přítomen na svatbě své dcery Barbory s Václavem Měšťánkem v Pečkách a připojil svůj otcovský souhlas. Dědeček Josefa Měšťánka (* 1859)."),
+    250: dict(n="Václav Kos", y="* cca 1811", st="doc",
+              f=["* cca 1810–1811 Svrabov čp. 35", "× 13. 1. 1835 Pečky (farnost Nebovidy pro Bojiště čp. 10) Marie Kollářová"],
+              zam="tovaryš tesařský a domkář v Bojišti čp. 10", bydl="Bojiště čp. 10", puvod="Svrabov (Svatbín) čp. 35",
+              r=["bojiste_oddani_vaclav_kos_1835", "bojiste_krest_barbora_kosova_1835", "bojiste_oddani_vaclav_mestanek_1858", "bojiste_krest_josef_mestanek_1859", "koncice_oddani_josef_mestanek_1883", "koncice_krest_marie_mestankova_1885"],
+              note="Tovaryš tesařský a domkář v Bojišti čp. 10 na Kolínsku, syn Jana Kosa, tovaryše tesařského a baráčníka ze Svrabova (dnes Svatbín u Kostelce nad Černými lesy) čp. 35 a Kateřiny roz. Fukalkové ze Škvorce čp. 9. Dne 13. 1. 1835 se ve věku 24 let v Pečkách oženil s Marií Kollářovou z Peček/Bojiště. Dne 4. 10. 1858 byl osobně přítomen na svatbě dcery Barbory s Václavem Měšťánkem v Pečkách a připojil svůj otcovský souhlas. Dědeček Josefa Měšťánka (* 1859)."),
 
-    251: dict(n="Marie Kosová", y="", st="doc",
-              f=["× Václav Kos"],
+    251: dict(n="Marie Kosová", y="* cca 1808", st="doc",
+              f=["* cca 1807–1808 Pečky", "× 13. 1. 1835 Pečky (farnost Nebovidy pro Bojiště čp. 10) Václav Kos"],
               roz="Kollářová", bydl="Bojiště čp. 10", puvod="Pečky čp. 55",
-              r=["bojiste_oddani_vaclav_mestanek_1858", "bojiste_krest_josef_mestanek_1859"],
-              note="Pocházela ze stavení čp. 55 v Pečkách na Kolínsku. Manželka domkáře a tesaře Václava Kosa z Bojiště čp. 10 a matka Barbory provdané Měšťánkové."),
+              r=["bojiste_oddani_vaclav_kos_1835", "bojiste_krest_barbora_kosova_1835", "bojiste_oddani_vaclav_mestanek_1858", "bojiste_krest_josef_mestanek_1859"],
+              note="Pocházela ze stavení čp. 55 v Pečkách (Červené Pečky) na Kolínsku, dcera po zemřelém baráčníkovi Melicharu Kollářovi a Anny roz. Pomyjové z Peček čp. 52. Dne 13. 1. 1835 se ve věku 27 let v Pečkách provdala za tovaryše tesařského Václava Kosa a žila s ním v Bojišti čp. 10. Matka Barbory provdané Měšťánkové a babička Josefa Měšťánka (* 1859)."),
 
     254: dict(n="Jiří Ouzký", y="† před 1862", st="doc",
               f=["† před 1862", "× Barbora Daníčková"],
@@ -1173,7 +1173,25 @@ P = {
 
 
 
-    # 8. generace (144–147, 342, 352–363, 510)
+    # 8. generace (144–147, 264, 266, 342, 352–363, 510)
+
+    264: dict(n="Josef Šmedla", y="† před 1793", st="doc",
+
+              f=["† před 17. 11. 1793"],
+
+              puvod="Brandýs nad Labem",
+
+              r=["jistebnice_oddani_antonin_smedla_1793"],
+
+              note="Měšťan v Brandýse nad Labem, otec punčocháře Antonína Šmedly st. V oddacím zápisu syna 1793 v Jistebnici uveden jako již zemřelý."),
+
+    266: dict(n="Jan Kostka", y="", st="doc",
+
+              f=[], puvod="Jistebnice", bydl="Jistebnice čp. 30",
+
+              r=["jistebnice_oddani_antonin_smedla_1793"],
+
+              note="Měšťan v Jistebnici čp. 30, otec Anny Šmedlové roz. Kostkové."),
 
     342: dict(n="Josef Táborský", y="", st="doc",
 
@@ -1229,7 +1247,67 @@ P = {
 
 
 
-    # 9. generace (704–711)
+    # 9. generace (488–491, 704–711)
+
+    488: dict(n="Matěj Hromada", y="", st="doc",
+              f=[], zam="gruntovník ve Vyšehořovicích čp. 22",
+              puvod="Vyšehořovice", bydl="Vyšehořovice čp. 22",
+              r=["vysehorovice_krest_vaclav_hromada_1832"],
+              note="Gruntovník ve Vyšehořovicích čp. 22 na kounickém panství, otec gruntovníka Václava Hromady st."),
+
+    489: dict(n="Magdalena Hromadová", y="", st="doc",
+              f=["× Matěj Hromada"],
+              roz="Burianková", puvod="Chýšť čp. 10", bydl="Vyšehořovice čp. 22",
+              r=["vysehorovice_krest_vaclav_hromada_1832"],
+              note="Dcera Matěje Burianka z Chýště čp. 10 na panství Chlumec nad Cidlinou. Manželka gruntovníka Matěje Hromady z Vyšehořovic čp. 22."),
+
+    490: dict(n="Jan Jirkovský", y="", st="doc",
+              f=["× Alžběta Špačková"],
+              zam="výminkář ve Vyšehořovicích čp. 25", puvod="Vyšehořovice", bydl="Vyšehořovice čp. 25",
+              r=["vysehorovice_krest_vaclav_hromada_1832"],
+              note="Hospodář a výminkář ve Vyšehořovicích čp. 25 na kounickém panství, otec Alžběty Hromadové roz. Jirkovské."),
+
+    491: dict(n="Alžběta Jirkovská", y="", st="doc",
+              f=["× Jan Jirkovský"],
+              roz="Špačková", puvod="Úhonice", bydl="Vyšehořovice čp. 25",
+              r=["vysehorovice_krest_vaclav_hromada_1832"],
+              note="Pocházela z Úhonic, manželka Jana Jirkovského, výminkáře ve Vyšehořovicích čp. 25."),
+
+    500: dict(n="Jan Kos", y="", st="doc",
+              f=["× Kateřina Fukalková"],
+              zam="tovaryš tesařský a baráčník ve Svrabově čp. 35", puvod="Svrabov (panství Černokostelecké)", bydl="Svrabov čp. 35",
+              r=["bojiste_oddani_vaclav_kos_1835", "bojiste_krest_barbora_kosova_1835"],
+              note="Tovaryš tesařský a baráčník ve vsi Svrabov (dnešní Svatbín u Kostelce nad Černými lesy) čp. 35 na panství Černokosteleckém v kraji Kouřimském. Manžel Kateřiny roz. Fukalkové a otec tovaryše tesařského Václava Kosa."),
+
+    501: dict(n="Kateřina Kosová", y="", st="doc",
+              f=["× Jan Kos"],
+              roz="Fukalková", puvod="Škvorec čp. 9 (panství Černokostelecké)", bydl="Svrabov čp. 35",
+              r=["bojiste_oddani_vaclav_kos_1835", "bojiste_krest_barbora_kosova_1835"],
+              note="Dcera Tomáše Fúkalky, baráčníka ze Škvorce čp. 9 na panství Černokosteleckém. Manželka Jana Kosa, tovaryše tesařského a baráčníka ze Svrabova čp. 35 a matka Václava Kosa."),
+
+    502: dict(n="Melichar Kollář", y="† před 1835", st="doc",
+              f=["† před 1835", "× Anna Pomyjová"],
+              zam="baráčník v Pečkách čp. 55", puvod="Pečky", bydl="Pečky čp. 55",
+              r=["bojiste_oddani_vaclav_kos_1835", "bojiste_krest_barbora_kosova_1835"],
+              note="Baráčník v Pečkách (Červené Pečky) čp. 55 na panství Pečky v kraji Čáslavském, zemřel před lednem 1835. Manžel Anny roz. Pomyjové z Peček čp. 52 a otec Marie provdané Kosové."),
+
+    503: dict(n="Anna Kollářová", y="", st="doc",
+              f=["× Melichar Kollář"],
+              roz="Pomyjová", puvod="Pečky čp. 52", bydl="Pečky čp. 55",
+              r=["bojiste_oddani_vaclav_kos_1835", "bojiste_krest_barbora_kosova_1835"],
+              note="Dcera Jana Pomyje, chalupníka z Peček čp. 52 na panství Pečky. Manželka baráčníka Melichara Kolláře z Peček čp. 55 a matka Marie provdané Kosové."),
+
+    1002: dict(n="Tomáš Fúkalka", y="", st="doc",
+               f=[], zam="baráčník ve Škvorci čp. 9",
+               puvod="Škvorec čp. 9 (panství Černokostelecké)", bydl="Škvorec čp. 9",
+               r=["bojiste_oddani_vaclav_kos_1835"],
+               note="Baráčník ve Škvorci čp. 9 na panství Černokosteleckém, otec Kateřiny Kosové roz. Fukalkové."),
+
+    1006: dict(n="Jan Pomyje", y="", st="doc",
+               f=[], zam="chalupník v Pečkách čp. 52",
+               puvod="Pečky čp. 52 (panství Pečky)", bydl="Pečky čp. 52",
+               r=["bojiste_oddani_vaclav_kos_1835"],
+               note="Chalupník v Pečkách (Červené Pečky) čp. 52 na panství Pečky, otec Anny Kollářové roz. Pomyjové."),
 
     704: dict(n='Václav Holánek', y='1726–1787', st='mh',
 
@@ -1287,7 +1365,12 @@ P = {
 
 
 
-    # 10. generace (1408–1423)
+    # 10. generace (978, 1408–1423)
+
+    978: dict(n="Matěj Burianek", y="", st="doc",
+              f=[], puvod="Chýšť čp. 10", bydl="Chýšť čp. 10",
+              r=["vysehorovice_krest_vaclav_hromada_1832"],
+              note="Otec Magdaleny Hromadové roz. Buriankové z Chýště čp. 10."),
 
     1408: dict(n='Vít Holánek', y='1680–1756', st='mh',
 
@@ -1526,17 +1609,14 @@ P = {
 
 
 LINES = {
-
-        9: ("Pivničkovi a Menšíkovi", "Pražská větev – babička MUDr. Ludmila Menšíková roz. Pivničková (1909–2007), učitel Jan Pivnička a přednosta stanice Antonín Tomíček."),
-
+    8: ("Menšíkovi a Jirkovští", "Jihočeská a pražská větev – pradědeček František Xaver Menšík (* 1873 Jistebnice), pekaři v Jistebnici a hrdinové protinacistického odboje Linhartovi."),
+    9: ("Pivničkovi a Tomíčkovi", "Pražská a kadaňská větev – babička MUDr. Ludmila Menšíková roz. Pivničková (1909–2007), učitel Jan Emanuel Pivnička a železniční přednosta Antonín Tomíček z Hauenštejnu."),
     10: ("Jarolímovi a Hůlkovi", "Obuvníci ze Žlebů, krejčí z Dolní Krupé a lesníci; dědeček Richard Jarolím (1927–2012)."),
-
     11: ("Holánkovi a Henzlovi", "Zámečníci a hamerníci ze Starého Ranska a truhláři z Hluboké; babička Zdenka Jarolímová roz. Holánková (* 1928)."),
-
-    12: ("Čákiovi", "Slovenská větev rodiny Julie Menšík Čákiové – pradědeček Juraj (Jiří) Čáki (* asi 1921) a prababička Marie rozená Bubancová z východního Slovenska (obce Dúbrava a Šmigovec, okres Snina)."),
-
-    14: ("Krejzkovi a Černí", "Větev pradědečka MUDr. Miroslava Krejzka (1914–1978, Bystřice nad Pernštejnem / Žamberk) a prababičky Věry roz. Černé (1917–2005, Poděbrady / Žamberk)."),
-
+    12: ("Čákiovi", "Slovenská řeckokatolická větev – pradědeček Juraj (Jiří) Čáki (* 13. 4. 1919 Dúbrava čp. 42), roľník Andrej Čáki (* 1891) a babička Júlia (* 1868) ze Zemplína."),
+    13: ("Bubancovi", "Východoslovenská větev – prababička Marie Čákiová roz. Bubancová z podhorské obce Šmigovec pod Vihorlatem (okres Snina)."),
+    14: ("Krejzkovi a Sýsovi", "Vysočinská větev – pradědeček MUDr. Miroslav Krejzek (1914–1978, Bystřice nad Pernštejnem / Žamberk), mistr kolářský Otakar Krejzek a hajný Leopold Sýs z Borovníka."),
+    15: ("Černí a Měšťánkovi", "Polabská větev – prababička MUDr. Věra Krejzková roz. Černá (1917–2005), mistři kovářští Černí z Poděbrad a mistři tesařští Měšťánkovi z Končic."),
 }
 
 

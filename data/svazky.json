@@ -521,5 +521,44 @@
     "roky": "1930",
     "snimku": 51,
     "url": "https://www.slovakiana.sk/scitacie-harky"
+  },
+  "trebon_4506": {
+    "archiv": "SOA Třeboň – Sbírka matrik",
+    "portal": "digi.ceskearchivy.cz",
+    "svazek": "Jistebnice 9 • N 1799–1809",
+    "popis": "Kniha narozených farnosti Jistebnice (městys Jistebnice a okolní osady)",
+    "url": "https://digi.ceskearchivy.cz/4506"
+  },
+  "trebon_4515": {
+    "archiv": "SOA Třeboň – Sbírka matrik",
+    "portal": "digi.ceskearchivy.cz",
+    "svazek": "Jistebnice 18 • O 1784–1799",
+    "popis": "Kniha oddaných farnosti Jistebnice (vedena po obcích, městys Jistebnice sn. 2–16)",
+    "snimku": 54,
+    "url": "https://digi.ceskearchivy.cz/4515"
+  },
+  "ebad_8125": {
+    "archiv": "SOA Praha – Sbírka matrik",
+    "portal": "eBadatelna",
+    "svazek": "Vyšehořovice 03 • N 1795–1838",
+    "popis": "Kniha narozených farnosti Vyšehořovice (obec Vyšehořovice)",
+    "snimku": 49,
+    "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/8125"
+  },
+  "ebad_9439": {
+    "archiv": "SOA Praha – Sbírka matrik",
+    "portal": "eBadatelna",
+    "svazek": "Nebovidy 06 • N 1826–1842",
+    "popis": "Kniha narozených farnosti Nebovidy pro obce Bohouňovice I, Bojiště, Červené Pečky, Dobešovice, Hluboký Důl, Hořany, Nebovidy, Opatovice, Polepy",
+    "snimku": 307,
+    "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/9439"
+  },
+  "ebad_9440": {
+    "archiv": "SOA Praha – Sbírka matrik",
+    "portal": "eBadatelna",
+    "svazek": "Nebovidy 07 • O 1784–1842",
+    "popis": "Kniha oddaných farnosti Nebovidy pro obce Bohouňovice I, Bojiště, Červené Pečky, Dobešovice, Hluboký Důl, Kbel, Nebovidy, Opatovice, Polepy s indexem",
+    "snimku": 189,
+    "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/9440"
   }
 }

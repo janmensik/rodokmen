@@ -448,5 +448,55 @@
     "nazev": "Sčítací list rodiny Búbanec v Šmigovci čp. 34 (Maria * 1922)",
     "shrnuti": "Sčítací list československého sčítání lidu k 1. 12. 1930 pro dům čp. 34 v Šmigovci (okres Snina). Hlava domácnosti Andrej Búbanec (* 26. 2. 1875 Šmigovec) a manželka Anna (* 25. 10. 1882). Dcera Maria Búbancová se narodila 8. 9. 1922 v Šmigovci. Dále děti Vasil (* 1907), Ján (* 1910), Helena (* 1914), Júlia (* 1919) a Anna (* 1920).",
     "odkaz": "https://www.slovakiana.sk/scitacie-harky"
+  },
+  {
+    "klic": "jistebnice_krest_josef_mensik_1800",
+    "svazek": "trebon_4506",
+    "snimek": 4,
+    "druh": "N",
+    "datum": "23. 3. 1800",
+    "nazev": "Křest Josefa Menšíka",
+    "shrnuti": "Joseph Menšík, narozen a pokřtěn 23. 3. 1800 v Jistebnici čp. 119. Otec František Menšík (Franz Menssjk), měšťan a řezník zdejší. Matka Anna rozená Dvořáková (Anna Dworžakina). Kmotři František Horych, měšťan, Kateřina Hladká a Alžběta Horychová (bába). Křtil P. František Schrek, kaplan.",
+    "odkaz": "https://digi.ceskearchivy.cz/4506/4"
+  },
+  {
+    "klic": "jistebnice_oddani_antonin_smedla_1793",
+    "svazek": "trebon_4515",
+    "snimek": 11,
+    "druh": "O",
+    "datum": "17. 11. 1793",
+    "nazev": "Sňatek Antonína Šmedly a Anny Kostkové",
+    "shrnuti": "Dne 17. 11. 1793 byli v Jistebnici oddáni Antonín Šmedla (22 let, svobodný, * cca 1771, punčochář z Brandýsa, syn po zemřelém Josefu Šmedlovi) a Anna Kostková (24 let, svobodná, * cca 1769, z Jistebnice čp. 30, dcera Jana Kostky). Svědky byli jistebnický rychtář Václav Kostka a Jan Kostka ml.",
+    "odkaz": "https://digi.ceskearchivy.cz/4515/11"
+  },
+  {
+    "klic": "vysehorovice_krest_vaclav_hromada_1832",
+    "svazek": "ebad_8125",
+    "snimek": 31,
+    "druh": "N",
+    "datum": "31. 8. 1832",
+    "nazev": "Křest Václava Hromady",
+    "shrnuti": "Václav Hromada, narozen 31. 8. 1832, pokřtěn 1. 9. 1832 ve Vyšehořovicích čp. 22. Otec Václav Hromada, gruntovník ve Vyšehořovicích čp. 22 (kounické panství), syn Matěje Hromady, gruntovníka z Vyšehořovic čp. 22 a Magdaleny roz. Matěj Burianek z Chýště čp. 10. Matka Alžběta, dcera Jana Jirkovského, výminkáře z Vyšehořovic čp. 25 a Alžběty roz. Špačkové z Úhonic. Křtil P. Jan Kinský, farář.",
+    "odkaz": "https://ebadatelna.soapraha.cz/d/8125/31"
+  },
+  {
+    "klic": "bojiste_krest_barbora_kosova_1835",
+    "svazek": "ebad_9439",
+    "snimek": 295,
+    "druh": "N",
+    "datum": "27. 11. 1835",
+    "nazev": "Křest Barbory Kosové",
+    "shrnuti": "Barbora Kosová, narozena 27. 11. 1835, pokřtěna 28. 11. 1835 v Bojišti čp. 10. Otec Václav Kos, tovaryš tesařský z Bojiště čp. 10, syn Jana Kosa, tesaře ze Svrabova (dnes Svatbín) čp. 35 na panství Černokosteleckém a Kateřiny rozené Fukové ze Svrabova. Matka Marie, dcera po zemřelém Melicharu Kollářovi, baráčníkovi z Peček (Červené Pečky) čp. 55 a jeho manželky Anny rozené Jiráskové z Peček čp. 52. Křtil P. Josef Lorenc, kooperátor.",
+    "odkaz": "https://ebadatelna.soapraha.cz/d/9439/295"
+  },
+  {
+    "klic": "bojiste_oddani_vaclav_kos_1835",
+    "svazek": "ebad_9440",
+    "snimek": 137,
+    "druh": "O",
+    "datum": "13. 1. 1835",
+    "nazev": "Sňatek Václava Kosa a Marie Kollářové",
+    "shrnuti": "Oddáni 13. 1. 1835 v chrámu Páně v Pečkách pro obec Bojiště čp. 10. Ženich Václav Kos (24 let, * cca 1810–1811), tovaryš tesařský ze Svrabova (dnes Svatbín) čp. 35 na panství Černokosteleckém, syn Jana Kosa, tovaryše tesařského a baráčníka ze Svrabova čp. 35 a Kateřiny rozené po Tomáši Fúkalkovi, baráčníkovi ze Škvorce čp. 9 na panství Černokosteleckém. Nevěsta Marie Kollářová (27 let, * cca 1807–1808) z Bojiště čp. 10, dcera po zemřelém Melicharu Kollářovi, baráčníkovi z Peček čp. 55 a Anny rozené po Janu Pomyjovi, chalupníkovi z Peček čp. 52. Oddal kaplan P. Josef Lorenc po ohláškách 4., 6. a 11. ledna 1835. Svědci Josef Wopršál a Jan Wáňa z Peček.",
+    "odkaz": "https://ebadatelna.soapraha.cz/d/9440/137"
   }
 ]

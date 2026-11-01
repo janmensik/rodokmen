@@ -21,7 +21,17 @@ Babička MUDr. Věra Krejzková roz. Černá pocházela ze staré kovářské dy
 Josefovou manželkou byla [Marie Měšťánková](/osoba/marie-cerna-1885/) (* 13. 12. 1885 Končice čp. 14 – † 25. 10. 1972 Žamberk), dcera rolníka Josefa Měšťánka a Kateřiny rozené Ouzké. Její křestní zápis ze Žiželic nese výjimečný přípis: v závěru života žila u své dcery a zetě v Žamberku a zemřela v říjnu 1972 přímo v léčebně Albertinum ve věku téměř 87 let.
 
 ## Karpatské kořeny rodu Čáki – Dúbrava a Šmigovec na Zemplíně
-Slovenská větev rodiny Čáki má kořeny na malebném horním Zemplíně pod Vihorlatem a Bukovskými vrchy u dnešní slovensko-ukrajinské hranice. Prarodiče Julie – [Juraj Čáki](/osoba/juraj-caki/) a [Marie rozená Bubancová](/osoba/marie-cakicova/) – pocházeli z obcí **Dúbrava** a **Šmigovec** (okres Snina). Juraj měl bratra Miroslava (psán rovněž v maďarské variantě Čáky). Po druhé světové válce se rodina přestěhovala do severovýchodních Čech a usadila se v Podkrkonoší v **Červeněvsi čp. 88** u Nového Bydžova.
+Slovenská větev rodiny Čáki (v dobových zápisech též *Čaky* či maďarsky *Csáky*) má své hluboké kořeny na malebném horním Zemplíně pod Vihorlatem a Bukovskými vrchy v bezprostřední blízkosti dnešní slovensko-ukrajinské hranice. Pradědeček Julie – [Juraj (Jiří) Čáki](/osoba/juraj-jiri-caki-1919/) – se narodil **13. dubna 1919 v Dúbravě čp. 42** (okres Snina).
+
+Originální sčítací arch ze sčítání lidu z 1. prosince 1930 zachycuje celou třígenerační řeckokatolickou rolnickou rodinu na usedlosti v Dúbravě čp. 42:
+- Hospodář a otec: **[Andrej Čáki](/osoba/andrej-caki-1891/)** (* 5. 3. 1891 Dúbrava, roľník).
+- Manželka a matka: **[Marya Čákiová](/osoba/marya-cakiova-1896/)** (* 21. 10. 1896 ve sousedních Strihovcích, oddáni 15. 4. 1918).
+- Děti: nejstarší syn **Juraj** (* 13. 4. 1919, tehdy 11letý školák), Michal (* 1922), Marya (* 1925), Wasil (* 1927) a nejmladší **Júlia** (* 14. 6. 1930).
+- Výminkářka a babička: **[Júlia Čákiová](/osoba/julia-cakiova-1868/)** (* 15. 9. 1868 Strihovce), vdova po dědkovi Čákym (**[... Čáki](/osoba/caki/)**, jenž zemřel 5. 10. 1926).
+
+Právě toto zjištění přineslo nádherný osobní detail: křestní jméno **Julie** (které nese maminka [Mgr. Julie Menšík Čákiová](/osoba/mgr-julie-mensik-cakiova-1979/) i dcera Tea Apolena) má v rodině hlubokou tradici – v roce 1930 žila na statku v Dúbravě jak 62letá prababička Júlia, tak právě narozená půlroční teta Júlia!
+
+Prababička **[Marie Čákiová roz. Bubancová](/osoba/marie-cakiova-1919/)** pocházela ze sousedního **Šmigovce**. Ve sčítání 1930 byly ve Šmigovci nalezeny dvě spřízněné rodiny s dcerami Mariemi – v čp. 10 rodina Vasila Búbance (* 1878) s dcerou Marií (* 21. 11. 1919) a v čp. 34 rodina Andreje Búbance (* 1875) s dcerou Marií (* 8. 9. 1922). Po druhé světové válce se mladí manželé Juraj a Marie Čákiovi přestěhovali do Čech a usadili se v **Červeněvsi čp. 88** u Smidar, kde prožil své dětství i otec Julie, [JUDr. Miloslav Čáki](/osoba/judr-miloslav-caki-1947/).
 
 ## Architekti v rodině Hájků
 Rodinnou tvůrčí linku představují architekti [Ing. arch. Martin Hájek](/osoba/martin-hajek-1947/) (* 1947 Praha) a jeho syn [Ing. arch. Václav Hájek](/osoba/vaclav-hajek-1980/) (* 1980 Praha), kteří oba vystudovali architekturu a profesně navazují na technicko-stavitelské tradice rodiny.
@@ -132,3 +142,16 @@ V únoru 1847 se František Hamřík oženil se sedmnáctiletou Annou Falskou. J
 
 ### Sňatek Jana Krejska a kazatel Gedeon Šlachta z Veselí (1825)
 Dědeček Václava Krejska, sedlák Jan Krejsek z Blažkova čp. 26, uzavřel 8. února 1825 sňatek s Annou Procházkovou z nově založené familiantské osady Josefsdorf (Storf) čp. 5. Protože oba snoubenci byli evangelického vyznání, oddal je přímo ve vsi legendární evangelický pastor ze sboru ve Veselí u Dalečína **Gedeon Šlachta** (působil ve Veselí v letech 1810–1831), za jehož éry byl ohrazen tamní evangelický hřbitov a postavena nová zděná fara. Katolický farář v Rožné musel jako státní matrikář tento protestantský sňatek úředně zapsat do farní knihy, kde je kazatel Šlachta výslovně uveden jako oddávající duchovní.
+
+## Průlom do 9. a 10. generace: Tesaři Kosové ze Svatbína a gruntovníci Hromadové z Vyšehořovic
+Při systematickém bádání v matrikách SOA Praha (farnosti Nebovidy a Vyšehořovice) se v linii babičky MUDr. Věry Krejzkové roz. Černé podařilo dosáhnout mimořádného úspěchu a posunout doložený rodokmen až do **9. a 10. generace**:
+1. **Tesaři Kosové ze Svrabova (Svatbína) a Peček:**
+   - V knize Nebovidy 06 byl nalezen křestní zápis [Barbory Kosové](/osoba/barbora-mestankova/) (* 27. 11. 1835 Bojiště čp. 10), manželky dělostřeleckého veterána a tesaře Václava Měšťánka.
+   - V knize Nebovidy 07 byl následně objeven sňatek jejích rodičů z **13. ledna 1835**: tovaryš tesařský [Václav Kos](/osoba/vaclav-kos/) (24 let, * cca 1811) pocházel ze vsi Svrabov (dnešní Svatbín u Kostelce nad Černými lesy) čp. 35 z rodiny tesaře [Jana Kosa](/osoba/jan-kos/) a Kateřiny rozené po baráčníku [Tomáši Fúkalkovi](/osoba/tomas-fukalka/) ze Škvorce čp. 9 (**10. generace**).
+   - Václavovou nevěstou byla [Marie Kollářová](/osoba/marie-kosova/) (27 let, * cca 1808) z Peček čp. 55, dcera baráčníka [Melichara Kolláře](/osoba/melichar-kollar/) a Anny rozené po chalupníkovi [Janu Pomyjovi](/osoba/jan-pomyje/) z Peček čp. 52 (**10. generace**).
+2. **Polabští gruntovníci Hromadové z Vyšehořovic:**
+   - Křestní zápis z Vyšehořovic z 31. srpna 1832 doložil narození pradědečka [Václava Hromady ml.](/osoba/vaclav-hromada/) na statku čp. 22.
+   - Zápis odkryl starý selský rod na kounickém panství: otcem byl gruntovník [Václav Hromada st.](/osoba/vaclav-hromada-st/), dědečkem gruntovník [Matěj Hromada](/osoba/matej-hromada/) ve Vyšehořovicích čp. 22 s chotí Magdalenou rozenou po [Matěji Buriankovi](/osoba/matej-burianek/) z Chýště čp. 10 (**10. generace**), a mateřskou linii tvořil výminkář [Jan Jirkovský](/osoba/jan-jirkovsky/) z Vyšehořovic čp. 25 s chotí Alžbětou rozenou Špačkovou z Úhonic.
+
+## Punčochář Antonín Šmedla z Brandýsa nad Labem
+V jistebnické knize oddaných (svazek 4515) byl objeven sňatek pradědečka jistebnické větve pekařů: dne 17. listopadu 1793 se v Jistebnici čp. 30 oženil [Antonín Šmedla st.](/osoba/antonin-smedla/) (22 let, * cca 1771), punčochář z Brandýsa nad Labem, syn po zemřelém Josefu Šmedlovi, s Annou Kostkovou (24 let), dcerou Jana Kostky z Jistebnice čp. 30. Tím se jihočeská linie Šmedlů nečekaně propojila s polabským Brandýsem nad Labem.

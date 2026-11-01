@@ -9,9 +9,13 @@ Co víme z vyprávění a rodinných dokumentů – kdo to řekl / odkud to je a
   - Manželka: **Mgr. Julie Menšík Čákiová roz. Čákiová** (* 22. 5. 1979, Praha, ID 3000002; od roku 2009 žijí společně v Libčicích nad Vltavou; rodiče **Miloslav Čáki** ID 3000008 a **Eva Čákiová** ID 3000009; sestra **Mgr. Lucie Černíková roz. Čákiová** ID 3000010 s manželem **Alešem Černíkem** ID 3000017, CIO v C.S.CARGO, bydliště Praha-Stodůlky, a dětmi **Davidem Černíkem** * asi 2004 a **Lenkou Černíkovou** * asi 2008).
     - **6 – JUDr. Miloslav Čáki** (* 1. 6. 1947 Vlčice u Trutnova, dětství v Červeněvsi čp. 88; právník na MFČR, bytem Praha 4 - Háje)
       - Rodiče Miloslava Čákiho:
-        - Otec: **12 – Juraj (Jiří) Čáki** (* asi 1921 Slovensko, Dúbrava nebo Šmigovec v okrese Snina na Zemplíně; žil v Červeněvsi čp. 88; varianty příjmení: Čáki, Čaky, Csáky)
-          - Bratr Juraje: **Miroslav Čáky**
-        - Matka: **13 – Marie Čákiová roz. Bubancová** (narozena jako Bubancová, Dúbrava nebo Šmigovec v okrese Snina)
+        - Otec: **12 – Juraj (Jiří) Čáki** (* 13. 4. 1919 Dúbrava čp. 42, okres Snina na Zemplíně; žil v Červeněvsi čp. 88; varianty příjmení: Čáki, Čaky, Csáky; doložen ve sčítání lidu 1930)
+          - Rodiče Juraje Čákiho (doloženi ve sčítání 1930 v Dúbravě čp. 42):
+            - Otec: **24 – Andrej Čáki (Čaky)** (* 5. 3. 1891 Dúbrava čp. 42), řeckokatolický roľník, sňatek 15. 4. 1918
+            - Matka: **25 – Marya Čákiová roz. ze Strihoviec** (* 21. 10. 1896 Strihovce, okres Snina)
+            - Babička (matka Andreje): **49 – Júlia Čákiová (Čakyová)** (* 15. 9. 1868 Strihovce), vdova po sňatku 30. 9. 1888 s dědkem Čákym (**48 – ... Čáki**, zemřel 5. 10. 1926 v Dúbravě)
+          - Sourozenci Juraje: Michal (* 27. 10. 1922), Marya (* 28. 5. 1925), Wasil (* 1. 1. 1927), Júlia (* 14. 6. 1930, po níž nese křestní jméno vnučka Julie!) a později narozený bratr Miroslav Čáky
+        - Matka: **13 – Marie Čákiová roz. Bubancová** (* cca 1919–1922 Šmigovec, okres Snina; kandidátky doloženy ve sčítání 1930 v Šmigovci čp. 10 a čp. 34)
     - **7 – PhDr. Eva Čákiová roz. Krejzková** (* 1. 11. 1946 Rychnov nad Kněžnou, dětství v Žamberku; bytem Praha 4 - Háje a Vrabsko)
       - Rodiče Evy Čákiové:
       - Otec: **14 – MUDr. Miroslav Krejzek** (* 3. 9. 1914 Bystřice nad Pernštejnem, lékař, studium v Brně, 5 bratrů, † 27. 5. 1978 Žamberk)
