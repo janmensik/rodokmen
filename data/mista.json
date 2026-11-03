@@ -289,5 +289,30 @@
     "dotaz": "Borovník, okres Brno-venkov, Česko",
     "lat": 49.3547,
     "lon": 16.2286
+  },
+  "Stráž nad Ohří": {
+    "lat": 50.3444,
+    "lon": 13.0531,
+    "re": "\\b(Stráž nad Ohří|Warta|Hauenstein)\\b"
+  },
+  "Kouřim": {
+    "lat": 50.0031,
+    "lon": 14.9786,
+    "re": "\\bKouřim\\b"
+  },
+  "Kolín": {
+    "lat": 50.0281,
+    "lon": 15.2006,
+    "re": "\\bKolín\\b"
+  },
+  "Lobeč": {
+    "lat": 50.2444,
+    "lon": 14.3075,
+    "re": "\\bLobeč\\b"
+  },
+  "Holubice": {
+    "lat": 50.2047,
+    "lon": 14.2889,
+    "re": "\\bHolubice\\b"
   }
 }

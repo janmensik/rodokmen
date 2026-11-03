@@ -114,7 +114,7 @@ P = {
 
     8: dict(n="doc. RNDr. Miroslav Vladimír Menšík", y="1906–1968", st="doc",
 
-            f=["* 3. 8. 1906 Praha (křest u Nejsv. Trojice v Podskalí)", "× MUDr. Ludmila Menšíková", "† 12. 1. 1968 Praha"],
+            f=["* 3. 8. 1906 Praha (křest u Nejsv. Trojice v Podskalí)", "× 1940–1942 MUDr. Ludmila Pivničková", "† 12. 1. 1968 Praha"],
 
             zam="docent deskriptivní geometrie a fotogrammetrie na Stavební fakultě ČVUT; vedoucí redaktor Rozhledů matematicko-fyzikálních (1956–1968)",
 
@@ -122,8 +122,8 @@ P = {
 
     9: dict(n="MUDr. Ludmila Menšíková", y="1909–2007", st="doc",
             f=["* 22. 8. 1909 Praha (křest u sv. Apolináře)",
-               "× 1. asi 1935 MUDr. Pech",
-               "× 2. 1940–1942 doc. RNDr. Miroslav Menšík",
+               "× 1940–1942 doc. RNDr. Miroslav Menšík (2. sňatek)",
+               "× asi 1935 MUDr. Pech (1. sňatek)",
                "† 2007 Praha", "pohřbena Olšanské hřbitovy (část 006, odd. 7a, hrob 134)"],
             roz="Pivničková", zam="dětská lékařka (pediatr)",
             bydl="Praha 6 - Hradčany (Pod baštami 277/4), dříve Dejvice (Vítězné nám. 1)",
@@ -144,7 +144,7 @@ P = {
 
              roz="Holánková", bydl="Hradec Králové",
 
-             r=[], note="Narozena v Hluboké čp. 36 u Krucemburku jako dcera zámečníka Julia Holánka (* 1889 Staré Ransko) a Sofie roz. Henzlové (* 1904 Hluboká). Propojila tradiční železářský a hamernický rod Holánků z Ranska se selským rodem Henzlů z Hluboké. S manželem Richardem Jarolímem žili v Hradci Králové. Dožila se požehnaného věku 92 let († 10. 1. 2021); babička Jana z matčiny strany."),
+             r=[], note="Narozena v Hluboké čp. 36 u Krucemburku jako dcera zámečníka Julia Holánka (* 1889 Staré Ransko) a Sofie roz. Henzlové (* 1904 Hluboká). Propojila tradiční železářský a hamernický rod Holánků z Ranska se selským rodem Henzlů z Hluboké. S manželem Richardem Jarolímem žili v Hradci Králové; babička Jana z matčiny strany."),
 
     12: dict(n="Juraj (Jiří) Čáki", y="* 1919", st="doc",
              f=["* 13. 4. 1919 Dúbrava čp. 42 (okres Snina)", "× Marie Bubancová",
@@ -221,13 +221,13 @@ P = {
              r=["stepan_krest_jan_pivnicka_1872", "jindrich_oddani_jan_pivnicka_1908"],
              note="Definitivní učitel měšťanské chlapecké školy na Hradčanech. Narozen 14. 1. 1872 v Praze na Novém Městě čp. 1356 (pokřtěn 21. 1. 1872 u sv. Štěpána). Syn mistra krejčovského Josefa Pivničky (rodem z Čechtic) a Antonie roz. Grubnerové z Dobříše. Dne 27. 4. 1908 oddán u sv. Jindřicha s Emmou Marií Tomíčkovou. V roce 1921 vystoupil z církve římskokatolické."),
     19: dict(n="Emma Marie Pivničková", y="1886–?", st="doc",
-             f=["* 7. 4. 1886 Warta čp. 59 (Stráž nad Ohří)",
+             f=["* 17. 4. 1886 Warta čp. 59 (Stráž nad Ohří)",
                 "× 27. 4. 1908 Praha (kostel sv. Jindřicha) Jan Emanuel Pivnička",
                 "pohřbena Olšanské hřbitovy (část 006, odd. 7a, hrob 134)"],
              roz="Tomíčková", bydl="Praha IV - Hradčany čp. 277, dříve Kamenné Žehrovice čp. 164",
              puvod="Warta (Stráž nad Ohří u Hauenštejnu, okres Kadaň)",
-             r=["jindrich_oddani_jan_pivnicka_1908"],
-             note="Manželka Jana Emanuela Pivničky a matka MUDr. Ludmily Menšíkové. Narozena 7. 4. 1886 ve Wartě čp. 59 (dnes Stráž nad Ohří u hradu Hauenštejn, okres Kadaň). Dcera c. k. železničního přednosty stanice Hauenstein-Warta Antonína Tomíčka a Anny roz. Halíkové z Lobče čp. 63. Pohřbena v rodinném hrobě na Olšanech spolu s dcerou Ludmilou. V rodině Jana Menšíka je pamatována jako „paní Pivničková“ (babička otce Ing. Radima Menšíka), u níž rodina na Hradčanech (Pod baštami 277/4) pobývala."),
+             r=["warta_krest_emma_tomickova_1886", "jindrich_oddani_jan_pivnicka_1908"],
+             note="Manželka Jana Emanuela Pivničky a matka MUDr. Ludmily Menšíkové. Narozena 17. 4. 1886 v budově železniční stanice Hauenstein-Warta čp. 59 (dnes Stráž nad Ohří pod hradem Hauenštejn, okres Kadaň; v pražském oddacím zápise 1908 chybně zapsáno 7. 4. 1886). Dcera c. k. železničního přednosty stanice Hauenstein-Warta Antonína Tomíčka a Anny roz. Halíkové z Lobče čp. 63. Pohřbena v rodinném hrobě na Olšanech spolu s dcerou Ludmilou. V rodině Jana Menšíka je pamatována jako „paní Pivničková“ (babička otce Ing. Radima Menšíka), u níž rodina na Hradčanech (Pod baštami 277/4) pobývala."),
 
 
 
@@ -264,7 +264,7 @@ P = {
              note="Narozena v Hluboké jako dcera truhláře a hostinského Franze Henzla z rodového gruntu čp. 15 v Hluboké a Aloisie roz. Pospíchalové z Radostína. V květnu 1926 se provdala za zámečníka Julia Holánka ze Starého Ranska a žili v Hluboké čp. 36. Maminka Zdenky Jarolímové roz. Holánkové (* 1928); prababička Jana Menšíka."),
 
     24: dict(n="Andrej Čáki", y="* 1891", st="doc",
-             f=["* 5. 3. 1891 Dúbrava čp. 42 (okres Snina)", "∞ 15. 4. 1918 Marya ...",
+             f=["* 5. 3. 1891 Dúbrava čp. 42 (okres Snina)", "× 15. 4. 1918 Marya ...",
                 "otec Juraje (Jiřího) Čákiho (* 1919)",
                 "syn ... Čákiho († 1926) a Júlie (* 1868)",
                 "příjmení v záznamech: Čaky / Čáki"],
@@ -274,7 +274,7 @@ P = {
              note="Řeckokatolický roľník v Dúbravě čp. 42 v okrese Snina na Zemplíně, otec Juraje (Jiřího) Čákiho a dědeček JUDr. Miloslava Čákiho (pradědeček Julie). Narozen 5. 3. 1891 v Dúbravě čp. 42. Dne 15. 4. 1918 se oženil s Maryou pocházející ze sousedních Strihoviec (* 1896). Spolu hospodařili na rodové usedlosti čp. 42 a v roce 1930 měli děti: Juraj (* 1919, dědeček Julie), Michal (* 1922), Marya (* 1925), Wasil (* 1927) a novorozenou Júlii (* 1930). V domácnosti s nimi žila i jeho ovdovělá matka Júlie (* 1868)."),
 
     25: dict(n="Marya Čákiová", y="* 1896", st="doc",
-             f=["* 21. 10. 1896 Strihovce (okres Snina)", "∞ 15. 4. 1918 Andrej Čáki (Čaky)",
+             f=["* 21. 10. 1896 Strihovce (okres Snina)", "× 15. 4. 1918 Andrej Čáki (Čaky)",
                 "matka Juraje (Jiřího) Čákiho (* 1919)",
                 "přistahována do Dúbravy čp. 42 po sňatku 15. 4. 1918"],
              roz="", bydl="Dúbrava čp. 42 (dříve Strihovce)", puvod="Strihovce (okres Snina, Zemplín)",
@@ -371,17 +371,17 @@ P = {
              roz="Grubnerová", bydl="Praha Nové Město čp. 1356", puvod="Dobříš (okres Příbram)",
              r=["jilji_oddani_josef_pivnicka_1869", "stepan_krest_jan_pivnicka_1872"],
              note="Manželka mistra krejčího Josefa Pivničky. Narozena 6. 2. 1843 v Dobříši. Dcera dobříšského mistra krejčovského Antonína Grubnera a Barbory roz. Filoridové."),
-    38: dict(n="Antonín Tomíček", y="† před 1908", st="doc",
-             f=["× Anna Halíková", "† před 1908"],
+    38: dict(n="Antonín Tomíček", y="* asi 1850–1855 – † před 1908", st="doc",
+             f=["* asi 1850–1855", "× Anna Halíková", "† před dubnem 1908"],
              zam="c. k. železniční přednosta stanice Hauenstein-Warta (Buštěhradská dráha)",
-             bydl="Warta čp. 59 (Stráž nad Ohří)", puvod="Čechy",
-             r=["jindrich_oddani_jan_pivnicka_1908"],
-             note="C. k. železniční přednosta nádraží Hauenstein-Warta (dnes Stráž nad Ohří na trati Chomutov–Cheb bývalé Buštěhradské dráhy) ve Wartě čp. 59. Manžel Anny roz. Halíkové a otec Emmy Marie Pivničkové."),
-    39: dict(n="Anna Tomíčková", y="† před 1908", st="doc",
-             f=["* Lobeč čp. 63", "× Antonín Tomíček", "† před 1908"],
-             roz="Halíková", bydl="Warta čp. 59", puvod="Lobeč čp. 63 (okres Slaný / Mšeno)",
-             r=["jindrich_oddani_jan_pivnicka_1908"],
-             note="Manželka c. k. přednosty stanice Antonína Tomíčka a matka Emmy Marie Pivničkové. Pocházela z Lobče čp. 63."),
+             bydl="Warta čp. 59 (Stráž nad Ohří)", puvod="Kouřim / Kolín",
+             r=["warta_krest_emma_tomickova_1886", "jindrich_oddani_jan_pivnicka_1908"],
+             note="C. k. železniční přednosta nádraží Hauenstein-Warta (dnes Stráž nad Ohří na trati Chomutov–Cheb bývalé Buštěhradské dráhy) ve Wartě čp. 59. Manželský syn c. k. kancelisty Josefa Tomíčka z Kouřimi a Karolíny roz. Harrerové z Kolína čp. 122. Manžel Anny roz. Halíkové a otec Emmy Marie Pivničkové."),
+    39: dict(n="Anna Tomíčková", y="* asi 1855–1860 – † před 1908", st="doc",
+             f=["* asi 1855–1860", "× Antonín Tomíček", "† před dubnem 1908"],
+             roz="Halíková", bydl="Warta čp. 59", puvod="Lobeč čp. 63 (u Kralup nad Vltavou)",
+             r=["warta_krest_emma_tomickova_1886", "jindrich_oddani_jan_pivnicka_1908"],
+             note="Manželka c. k. přednosty stanice Antonína Tomíčka a matka Emmy Marie Pivničkové. Manželská dcera Josefa Halíka, úředníka cukrovaru v Lobči čp. 63 (u Kralup nad Vltavou) a Marie roz. Roháčkové z Holubic čp. 4."),
 
     42: dict(n="Jan Jarolím", y="1863–1903", st="doc",
 
@@ -434,7 +434,7 @@ P = {
 
 
     48: dict(n="... Čáki", y="† 1926", st="doc",
-             f=["∞ 30. 9. 1888 Júlia ...", "† 5. 10. 1926 Dúbrava čp. 42",
+             f=["× 30. 9. 1888 Júlia ...", "† 5. 10. 1926 Dúbrava čp. 42",
                 "otec roľníka Andreje Čákiho (* 1891) a dědeček Juraje (* 1919)",
                 "příjmení v záznamech: Čaky / Čáki"],
              zam="roľník v Dúbravě čp. 42",
@@ -443,7 +443,7 @@ P = {
              note="Řeckokatolický roľník v Dúbravě čp. 42, otec Andreje Čákiho a dědeček Juraje Čákiho (prapradědeček Julie). Dne 30. 9. 1888 se oženil s Júlií ze Strihoviec (* 1868). Hospodařili na usedlosti čp. 42 v Dúbravě. Měli celkem 12 dětí (do roku 1930 jich 9 zemřelo a 3 zůstaly naživu). Zemřel 5. 10. 1926 v Dúbravě čp. 42 (datum sňatku i úmrtí zapsáno v operátu sčítání 1930 u jeho ovdovělé manželky). Křestní jméno bude ověřeno v řeckokatolické matrice farnosti Ruský Hrabovec."),
 
     49: dict(n="Júlia Čákiová", y="* 1868", st="doc",
-             f=["* 15. 9. 1868 Strihovce (okres Snina)", "∞ 30. 9. 1888 ... Čáki (Čaky)",
+             f=["* 15. 9. 1868 Strihovce (okres Snina)", "× 30. 9. 1888 ... Čáki (Čaky)",
                 "† po 1930 (ovdověla 5. 10. 1926)",
                 "matka 12 dětí (mj. roľníka Andreje Čákiho * 1891)"],
              roz="", bydl="Dúbrava čp. 42 (dříve Strihovce)", puvod="Strihovce (okres Snina, Zemplín)",
@@ -581,7 +581,7 @@ P = {
              r=["apolinar_krest_aloisie_ticha_1858", "tyn_oddani_alois_jirkovsky_1885", "tyn_krest_pavlina_jirkovska_1882"],
 
              note="Manželka mistra krejčího Františka Tichého v Praze, rozená Svobodová z Prahy. Dcera Václava Svobody, policejního komisionáře v Praze čp. 501-II, a Anny roz. Schneiderové. K listopadu 1882 již zemřelá."),
-    72: dict(n="Josef Pivnička", y="", st="doc",
+    72: dict(n="Josef Pivnička", y="† před 1872", st="doc",
              f=["× Josefa (Barbora) Boháčková", "† před 1872"],
              zam="soused a provazník v Čechticích", puvod="Čechtice",
              r=["stepan_krest_jan_pivnicka_1872", "jilji_oddani_josef_pivnicka_1869"],
@@ -601,6 +601,26 @@ P = {
              roz="Filoridová", puvod="Dobříš",
              r=["jilji_oddani_josef_pivnicka_1869", "stepan_krest_jan_pivnicka_1872"],
              note="Manželka dobříšského mistra krejčovského Antonína Grubnera a matka Antonie Pivničkové roz. Grubnerové (* 1843). Příjmení psáno též Filoridy / Tilorády."),
+    76: dict(n="Josef Tomíček", y="† před 1886", st="doc",
+             f=["c. k. kancelista v Kouřimi", "× Karolina Harrerová", "† před dubnem 1886 Kouřim"],
+             zam="c. k. kancelista v Kouřimi", bydl="Kouřim", puvod="Kouřim",
+             r=["warta_krest_emma_tomickova_1886"],
+             note="Pradědeček MUDr. Ludmily Menšíkové, c. k. kancelista (úředník okresního či soudního úřadu) v Kouřimi. Manžel Karolíny roz. Harrerové z Kolína čp. 122 a otec železničního přednosty Antonína Tomíčka."),
+    77: dict(n="Karolina Tomíčková", y="", st="doc",
+             f=["pocházela z Kolína čp. 122", "× Josef Tomíček"],
+             roz="Harrerová", bydl="Kouřim", puvod="Kolín čp. 122",
+             r=["warta_krest_emma_tomickova_1886"],
+             note="Prababička MUDr. Ludmily Menšíkové. Pocházela z Kolína čp. 122. Manželka c. k. kancelisty Josefa Tomíčka v Kouřimi a matka přednosty stanice Antonína Tomíčka."),
+    78: dict(n="Josef Halík", y="", st="doc",
+             f=["úředník cukrovaru v Lobči čp. 63", "× Marie Roháčková"],
+             zam="úředník cukrovaru (Zuckerfabriksbeamter)", bydl="Lobeč čp. 63", puvod="Lobeč (u Kralup nad Vltavou)",
+             r=["warta_krest_emma_tomickova_1886"],
+             note="Pradědeček MUDr. Ludmily Menšíkové. Úředník v parním cukrovaru v Lobči u Kralup nad Vltavou čp. 63 (panství Minice, okres Slaný). Manžel Marie roz. Roháčkové z Holubic čp. 4 a otec Anny Tomíčkové roz. Halíkové."),
+    79: dict(n="Marie Halíková", y="", st="doc",
+             f=["pocházela z Holubic čp. 4", "× Josef Halík"],
+             roz="Roháčková", bydl="Lobeč čp. 63", puvod="Holubice čp. 4 (u Kralup nad Vltavou)",
+             r=["warta_krest_emma_tomickova_1886"],
+             note="Prababička MUDr. Ludmily Menšíkové. Pocházela z Holubic čp. 4 (u Kralup nad Vltavou, panství Středokluky, okres Smíchov). Manželka cukrovarnického úředníka Josefa Halíka v Lobči a matka Anny Tomíčkové roz. Halíkové."),
 
     84: dict(n="otec neuveden", y="", st="unk",
 
@@ -1045,44 +1065,44 @@ P = {
               note="Evangelický sedlák v Blažkově na rodovém gruntu čp. 26. Manžel Anny rozené Stehlíkové ze Zvole a otec sedláka Jana Krejska (* 1796). Zemřel v roce 1832 v Blažkově čp. 26 na epidemii asijské cholery (zápis v evangelické matrice zemřelých Nové Město na Moravě sv. 16719, detail 7380, sn. 118, pag. 233, č. 1)."),
 
     225: dict(n="Anna Krejsková", y="* před 1780", st="doc",
-              f=["* před 1780 Zvole", "dcera sedláka ze Zvole", "matka Jana Krejska (* cca 1799)"],
+              f=["* před 1780 Zvole", "× Václav Krejsek", "dcera sedláka ze Zvole", "matka Jana Krejska (* 1796)"],
               roz="Stehlíková", bydl="Blažkov čp. 26", puvod="Zvole",
-              r=["josefsdorf_oddani_jan_krejsek_1825"],
+              r=["blazkov_krest_jan_krejsek_1796", "josefsdorf_oddani_jan_krejsek_1825"],
               note="Dcera sedláka Stehlíka ze Zvole, manželka sedláka Václava Krejska v Blažkově."),
 
     226: dict(n="Václav Procházka", y="* před 1780", st="doc",
-              f=["* před 1780", "otec Anny Procházkové (* cca 1800)"],
+              f=["* před 1780", "× Terezie Zubánková", "otec Anny Procházkové (* cca 1800)"],
               zam="sedlák v Josefsdorfu (Storfu) čp. 5", bydl="Josefsdorf čp. 5", puvod="Josefsdorf",
               r=["josefsdorf_oddani_jan_krejsek_1825"],
               note="Sedlák ve familiantské vsi Josefsdorf (Storf) čp. 5 na pernštejnském panství (fara Rožná)."),
 
     227: dict(n="Terezie Procházková", y="* před 1780", st="doc",
-              f=["* před 1780 Domanínek", "dcera sedláka Zubánka z Domanínku", "matka Anny Procházkové (* cca 1800)"],
+              f=["* před 1780 Domanínek", "× Václav Procházka", "dcera sedláka Zubánka z Domanínku", "matka Anny Procházkové (* cca 1800)"],
               roz="Zubánková", bydl="Josefsdorf čp. 5", puvod="Domanínek (fara Bystřice n/P.)",
               r=["josefsdorf_oddani_jan_krejsek_1825"],
               note="Pocházela z rodiny sedláka Zubánka z Domanínku u Bystřice nad Pernštejnem."),
 
     228: dict(n="František Hamřík st.", y="† před 1847", st="doc",
-              f=["* cca 1790–1800 Blažkov", "† před 10. 2. 1847 Blažkov čp. 14", "otec svobodníka Františka Hamříka ml."],
+              f=["* cca 1790–1800 Blažkov", "× Augustina Josefa Valoušková", "† před 10. 2. 1847 Blažkov čp. 14", "otec svobodníka Františka Hamříka ml."],
               zam="svobodník v Blažkově čp. 14", bydl="Blažkov čp. 14", puvod="Blažkov čp. 14",
               r=["zvole_oddani_frantisek_hamrik_1847"],
               note="Svobodník (Freysaß) v Blažkově na usedlosti čp. 14. Manžel Augustiny Josefy Valouškové."),
 
     229: dict(n="Augustina Josefa Hamříková", y="* před 1805", st="doc",
-              f=["* před 1805 Zvole", "dcera Václava Valouška, mlynářského mistra ve Zvoli čp. 65", "matka svobodníka Františka Hamříka ml."],
+              f=["* před 1805 Zvole", "× František Hamřík st.", "dcera Václava Valouška, mlynářského mistra ve Zvoli čp. 65", "matka svobodníka Františka Hamříka ml."],
               roz="Valoušková", bydl="Blažkov čp. 14", puvod="Zvole čp. 65",
               r=["zvole_oddani_frantisek_hamrik_1847"],
               note="Dcera Václava Valouška, mlynářského mistra na mlýně ve Zvoli čp. 65."),
 
     230: dict(n="František Falský", y="* cca 1795–1805 – po 1867", st="doc",
-              f=["* cca 1795–1805 Blažkov", "otec Anny Hamříkové roz. Falské", "svědek na svatbě vnuka Václava Krejska 1867"],
+              f=["* cca 1795–1805 Blažkov", "× Kateřina Mišníčková", "otec Anny Hamříkové roz. Falské", "svědek na svatbě vnuka Václava Krejska 1867"],
               zam="svobodník v Blažkově čp. 28, hostinský a majitel usedlosti ve Zvoli čp. 10",
               bydl="Zvole čp. 10 a Blažkov čp. 28", puvod="Blažkov čp. 28",
               r=["zvole_oddani_frantisek_hamrik_1847", "blazkov_krest_marianna_hamrikova_1849", "blazkov_oddani_vaclav_krejsek_1867"],
               note="Významná osobnost regionu: svobodník v Blažkově čp. 28 a zároveň hostinský a gruntovník ve Zvoli čp. 10. Vlastnoručně podepsán na svatebním zápise dcery Anny v únoru 1847."),
 
     231: dict(n="Kateřina Falská", y="† před 1847", st="doc",
-              f=["* cca 1800 Blažkov", "† před 10. 2. 1847", "dcera Františka Mišníčka, svobodníka v Blažkově čp. 28", "matka Anny Hamříkové roz. Falské"],
+              f=["* cca 1800 Blažkov", "× František Falský", "† před 10. 2. 1847", "dcera Františka Mišníčka, svobodníka v Blažkově čp. 28", "matka Anny Hamříkové roz. Falské"],
               roz="Mišníčková", bydl="Blažkov čp. 28 / Zvole čp. 10", puvod="Blažkov čp. 28",
               r=["zvole_oddani_frantisek_hamrik_1847"],
               note="Pocházela ze svobodnického rodu Mišníčků z Blažkova čp. 28; první manželka svobodníka a hostinského Františka Falského."),
@@ -1203,7 +1223,7 @@ P = {
 
     352: dict(n="František Holánek", y="", st="fam",
 
-              f=[], bydl="Křižanov", r=[], note="Údaje z rodinného stromu PDF."),
+              f=["× 1. 2. 1791 Křižanov 37 Mariana Žundálková"], bydl="Křižanov", r=[], note="Údaje z rodinného stromu PDF a exportu Geni / MyHeritage."),
 
     354: dict(n="Jan Sláma", y="", st="fam",
 
@@ -1250,7 +1270,7 @@ P = {
     # 9. generace (488–491, 704–711)
 
     488: dict(n="Matěj Hromada", y="", st="doc",
-              f=[], zam="gruntovník ve Vyšehořovicích čp. 22",
+              f=["× Magdalena Burianková"], zam="gruntovník ve Vyšehořovicích čp. 22",
               puvod="Vyšehořovice", bydl="Vyšehořovice čp. 22",
               r=["vysehorovice_krest_vaclav_hromada_1832"],
               note="Gruntovník ve Vyšehořovicích čp. 22 na kounickém panství, otec gruntovníka Václava Hromady st."),
@@ -1701,9 +1721,20 @@ SIDE = [
 
          vetev=dict(n="Václav Horych", y="* 1795", f=["* 4. 8. 1795 Jistebnice čp. 136", "× 18. 2. 1828 Jistebnice Mariana Šmedlová"], zam="měšťan v Jistebnici čp. 86", vztah="bratr Barbory")),
 
-    dict(k=12, n="Miroslav Čáky", t="Bratr Juraje Čákiho, původem ze Slovenska (Zemplín / Snina).", r=[],
+    dict(k=12, n="Michal Čáki (* 1922)", t="Mladší bratr Juraje Čákiho, * 27. 10. 1922 Dúbrava čp. 42 (okres Snina), syn roľníka Andreje Čákiho a Maryi. Doložen ve sčítání lidu 1930 v Dúbravě čp. 42.", r=["dubrava_scitanie_1930_caki_juraj"],
+         vetev=dict(n="Michal Čáki", y="* 1922", f=["* 27. 10. 1922 Dúbrava čp. 42"], bydl="Dúbrava čp. 42", vztah="bratr Juraje")),
 
-         vetev=dict(n="Miroslav Čáky", y="", puvod="Slovensko (Zemplín / Snina)", vztah="bratr Juraje (psán Čáky)")),
+    dict(k=12, n="Marya Čákiová (* 1925)", t="Sestra Juraje Čákiho, * 28. 5. 1925 Dúbrava čp. 42 (okres Snina), dcera roľníka Andreje Čákiho a Maryi. Doložena ve sčítání lidu 1930 v Dúbravě čp. 42.", r=["dubrava_scitanie_1930_caki_juraj"],
+         vetev=dict(n="Marya Čákiová", y="* 1925", f=["* 28. 5. 1925 Dúbrava čp. 42"], bydl="Dúbrava čp. 42", vztah="sestra Juraje")),
+
+    dict(k=12, n="Wasil Čáki (* 1927)", t="Mladší bratr Juraje Čákiho, * 1. 1. 1927 Dúbrava čp. 42 (okres Snina), syn roľníka Andreje Čákiho a Maryi. Doložen ve sčítání lidu 1930 v Dúbravě čp. 42.", r=["dubrava_scitanie_1930_caki_juraj"],
+         vetev=dict(n="Wasil Čáki", y="* 1927", f=["* 1. 1. 1927 Dúbrava čp. 42"], bydl="Dúbrava čp. 42", vztah="bratr Juraje")),
+
+    dict(k=12, n="Júlia Čákiová (* 1930)", t="Mladší sestra Juraje Čákiho, * 14. 6. 1930 Dúbrava čp. 42 (okres Snina), dcera roľníka Andreje Čákiho a Maryi (nesla jméno po babičce Júlii Čákiové * 1868). Doložena ve sčítání lidu 1930 v Dúbravě čp. 42.", r=["dubrava_scitanie_1930_caki_juraj"],
+         vetev=dict(n="Júlia Čákiová", y="* 1930", f=["* 14. 6. 1930 Dúbrava čp. 42"], bydl="Dúbrava čp. 42", vztah="sestra Juraje")),
+
+    dict(k=12, n="Miroslav Čáky (* po 1930)", t="Nejmladší bratr Juraje Čákiho, narozený po prosinci 1930 v Dúbravě čp. 42 (okres Snina, Zemplín).", r=[],
+         vetev=dict(n="Miroslav Čáky", y="* po 1930", f=["* po 1930 Dúbrava čp. 42"], puvod="Dúbrava čp. 42 (Zemplín)", vztah="bratr Juraje (psán Čáky)")),
 
     dict(k=14, n="Ladislav Krejzek (* 1905)", t="Nejstarší bratr primáře MUDr. Miroslava Krejzka, syn mistra kolářského Otakara Krejzka a Františky roz. Sýsové. Narozen roku 1905, odborný učitel chlapecké měšťanské školy v Bystřici nad Pernštejnem č. p. 451 (učitelské zkoušky v Brně 1925, 1928 a 1931 pro měšťanské školy). Dne 27. 12. 1930 se v Brně u sv. Tomáše oženil s Boženou Cihlářovou (* 30. 7. 1903 Ochoz u Tišnova, † 27. 8. 1949 Bystřice n/P. čp. 451). Dne 12. 6. 1943 byl svědkem na svatbě bratra MUDr. Emila Krejzka v Bystřici nad Pernštejnem.", r=["bystrice_oddani_emil_krejzek_1943", "bystrice_umrti_bozena_krejzkova_1949"],
 
@@ -1780,13 +1811,13 @@ ISSUES = [
 
         ("Otcovská větev Menšíků – rodné příjmení a rodiče babičky MUDr. Ludmily Menšíkové (č. 9)", "Vyřešeno z primárních matrik, archiválií a evidence SPH: babička MUDr. Ludmila Menšíková byla rozená Pivničková (1909–2007), dětská lékařka, dcera měšťanského učitele na Hradčanech Jana Emanuela Pivničky (1872–po 1921) a Emmy Marie roz. Tomíčkové (* 1886 Warta). Doloženi i prarodiče Josef Pivnička (* 1844 Čechtice) & Antonie roz. Grubnerová (* 1843 Dobříš) a přednosta stanice Antonín Tomíček & Anna roz. Halíková z Lobče."),
 
-    ("Větev manželky Julie Menšík Čákiové (prarodiče dětí č. 12–15)", "Vyřešeno z rodinných údajů: všichni 4 prarodiče Julie jsou identifikováni – Juraj (Jiří) Čáki (* asi 1921, č. 12) & Marie roz. Bubancová (č. 13) z otcovy strany, Miroslav Krejzek (1914–1978, č. 14) & Věra roz. Černá (1917–2005, č. 15) z matčiny strany."),
+    ("Větev manželky Julie Menšík Čákiové (prarodiče dětí č. 12–15)", "Vyřešeno z rodinných údajů a sčítání lidu 1930: všichni 4 prarodiče Julie jsou identifikováni – Juraj (Jiří) Čáki (* 13. 4. 1919 Dúbrava čp. 42, č. 12, syn roľníka Andreje Čákiho * 1891 a Maryi * 1896, vnuk ... Čákiho † 1926 a Júlie * 1868) & Marie roz. Bubancová ze Šmigovce (č. 13) z otcovy strany, MUDr. Miroslav Krejzek (1914–1978, č. 14) & MUDr. Věra roz. Černá (1917–2005, č. 15) z matčiny strany."),
 
     ("Původ pradědečka Fridricha Hůlka (č. 20)", "Otevřené: v PDF je uveden jako lesní inženýr s fotografií, ale bez data a místa narození; jeho syn Richard (* 1927 Žleby čp. 17) nesl příjmení matky Jarolím."),
 
     ("Povolání Matěje Šímy (č. 90) ze Starého Ranska čp. 2", "Otevřené: v PDF je uvedeno 'horolezec' – v matrice Starého Ranska ověřit, zda nešlo o čtení slova 'horník' / 'havíř' u železáren."),
 
-    ("Původ a narození pradědečka Otakara Krejzka st. (* cca 1880–1885) a prababičky Františky roz. Sýsové", "Plně vyřešeno z evangelických matrik Nového Města na Moravě (svazek 16712, detail 11619, sn. 16, č. 20): pradědeček se narodil 6. 5. 1877 v Blažkově čp. 20 jako Otakar Jan Krejzek v rodině evangelického rolníka Václava Krejska a Marie roz. Hamříkové. Následně dohledána celá rodová linie: sňatek rodičů 1867, sňatek prarodičů Františka Hamříka a Anny Falské 1847 (svobodníci v Blažkově čp. 14 a 28) a sňatek Jana Krejska a Anny Procházkové 1825 (oddáni pastorem Gedeonem Šlachtou z Veselí). (1943 a 1949): prababička Františka Krejzková byla rozená Sýsová, dcera hajného Leopolda Sýse z Borovníka (č. 58), a všichni šest synů Otakara a Františky Krejzkových jsou jmenovitě doloženi (Ladislav * 1905, Otakar ml., Bedřich, MUDr. Emil * 1910, MUDr. Miroslav * 1914, MUDr. Václav * 1919). V indexu narozených Bystřice (1834–1883) ani Nového Města žádný Otakar Krejzek zapsán není; hypotéza o otcovství nadučitele Augustina Korejzla byla archivně vyvrácena. Kolářská rodina Krejzků má své nejhlubší kořeny v sousední farnosti Strážek (čp. 21 a 23, Tomáš a František Krejzek). Hajný Leopold Sýs sloužil v Borovníku na panské hájovně dočasně a sňatek Otakara Krejzka s Františkou Sýsovou (před r. 1905) se konal mimo farnosti Bystřice, Březí a Heřmanov."),
+    ("Původ a narození pradědečka Otakara Jana Krejzka (* 6. 5. 1877 Blažkov čp. 20, č. 28) a prababičky Františky roz. Sýsové (č. 29)", "Narození a rodokmen Otakara Jana Krejzka plně vyřešeny z evangelických a katolických matrik Novoměstska (sv. 16712, sn. 16): narodil se 6. 5. 1877 v Blažkově čp. 20 v rodině evangelického rolníka a pozdějšího starosty Václava Krejska (* cca 1848) a Marie roz. Hamříkové (* 1849), vnuk sedláka Jana Krejska (* 1796) & Anny Procházkové a svobodníka Františka Hamříka & Anny Falské, pravnuk sedláka Václava Krejska st. († 1832 na choleru). Z oddacích zápisů synů MUDr. Emila (1943) a MUDr. Václava (1949) bylo zjištěno rodné příjmení jeho manželky Františky Sýsové, dcery hajného Leopolda Sýse z Borovníka (č. 58), a doloženi všichni šest synů (Ladislav * 1905, Otakar ml. * 1907, MUDr. Emil * 1910, Bedřich * 1912, MUDr. Miroslav * 1914, MUDr. Václav * 1919). Otevřené zůstává přesné datum a místo narození Františky Sýsové (cca 1880–1885, hajný Leopold Sýs sloužil v Borovníku dočasně) a místo jejich sňatku před r. 1905."),
 ]
 
 

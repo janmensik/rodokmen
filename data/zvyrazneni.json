@@ -550,5 +550,17 @@
     ],
     "status": "ok",
     "note": "Zápis o úmrtí Boženy Krejzkové roz. Cihlářové"
+  },
+  "warta_krest_emma_tomickova_1886": {
+    "boxes": [
+      [
+        0.005,
+        0.38,
+        0.995,
+        0.99
+      ]
+    ],
+    "status": "ok",
+    "note": "Zápis o narození a křtu Emmy Marie Tomíčkové"
   }
 }

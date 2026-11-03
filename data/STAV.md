@@ -329,6 +329,13 @@ pak konec `research_log.md` a sekci „Rozpracováno“.
       3. **Maria Búbancová (* 14. 4. 1919 Šmigovec čp. 29):** dcera Michala Búbance (* 18. 4. 1893).
     - Uloženy trvalé výřezy: `muj-rodokmen/vyrezy/dubrava_scitanie_1930_caki_juraj.jpg`, `smigovec_scitanie_1930_bubanec_cp_10.jpg`, `smigovec_scitanie_1930_bubanec_cp_34.jpg`.
 
+- 4. 11. 2026: V matrikách SOA Plzeň (Porta fontium) objeven křestní zápis Emmy Marie Tomíčkové (* 1886) a odhaleni 4 noví předci v 6. generaci:
+  - **Emma Maria Tomíčková (č. 19):** narozena 17. 4. 1886 (nikoli 7. 4., jak mylně uvedl pražský oddací zápis) v nádražní budově Hauenstein-Warta čp. 59 (dnes Stráž nad Ohří pod hradem Hauenštejn na Buštěhradské dráze, okres Kadaň). Matrika Stráž nad Ohří 05, sn. 169 (fol. 167v).
+  - Otec **Antonín Tomíček (č. 38):** c. k. železniční přednosta stanice Hauenstein-Warta čp. 59, syn **Josefa Tomíčka (č. 76)**, c. k. kancelisty v Kouřimi († před 1886) a **Karoliny roz. Harrerové (č. 77)** z Kolína čp. 122.
+  - Matka **Anna Halíková (č. 39):** dcera **Josefa Halíka (č. 78)**, úředníka cukrovaru v Lobči čp. 63 (u Kralup nad Vltavou) a **Marie roz. Roháčkové (č. 79)** z Holubic čp. 4.
+  - Do rodokmenu nově doloženi 4 noví předci v 6. generaci: Josef Tomíček (č. 76), Karolina Harrerová (č. 77), Josef Halík (č. 78) a Marie Roháčková (č. 79).
+  - V rodokmenu celkem evidováno **207 osob** (z toho **52 doložených primárních zápisů** ze snímků matrik v 67 svazcích, 76 řádků deníku hledání).
+
 - Další kroky k prozkoumání:
   1. Původ a narození koláře Otakara Krejzka st. (* cca 1880–1885) a sňatek s Františkou Sýsovou (před r. 1905), např. prostřednictvím sčítacích operátů 1921 pro Bystřici n. P. – Nové Dvory čp. 147 (SOkA Žďár nad Sázavou) nebo farního archivu v Bystřici n/P. (snubní protokoly z let 1943 a 1949).
   2. Původ hajného Leopolda Sýse (č. 58) a narození jeho dcery Františky Sýsové (* cca 1880–1885).
