@@ -271,7 +271,7 @@
     "osm": "Vyšehořovice, okres Praha-východ, Středočeský kraj, 250 87, Česko"
   },
   "Červené Pečky": {
-    "re": "Červené\\ Pečky",
+    "re": "Červen[éý]ch?\\s+Pečk|\\bPečk[yách]",
     "dotaz": "Červené Pečky, Česko",
     "lat": 49.9782,
     "lon": 15.2084,
@@ -293,26 +293,152 @@
   "Stráž nad Ohří": {
     "lat": 50.3444,
     "lon": 13.0531,
-    "re": "\\b(Stráž nad Ohří|Warta|Hauenstein)\\b"
+    "re": "Stráž.*Ohří|Wart[aěy]|Hauenstein|Hauenštejn"
   },
   "Kouřim": {
     "lat": 50.0031,
     "lon": 14.9786,
-    "re": "\\bKouřim\\b"
+    "re": "Kouřim"
   },
   "Kolín": {
     "lat": 50.0281,
     "lon": 15.2006,
-    "re": "\\bKolín\\b"
+    "re": "\\bKolín"
   },
   "Lobeč": {
     "lat": 50.2444,
     "lon": 14.3075,
-    "re": "\\bLobeč\\b"
+    "re": "Lobeč|Lobč"
   },
   "Holubice": {
     "lat": 50.2047,
     "lon": 14.2889,
-    "re": "\\bHolubice\\b"
+    "re": "Holubic"
+  },
+  "Blažkov": {
+    "re": "Blažkov",
+    "dotaz": "Blažkov, okres Žďár nad Sázavou, Česko",
+    "lat": 49.4792,
+    "lon": 16.2164
+  },
+  "Zvole": {
+    "re": "Zvol[ei]",
+    "dotaz": "Zvole, okres Žďár nad Sázavou, Česko",
+    "lat": 49.4939,
+    "lon": 16.1917
+  },
+  "Josefsdorf (Josefův Důl)": {
+    "re": "Josefsdorf|Storf",
+    "dotaz": "Josefův Důl, Rožná, okres Žďár nad Sázavou, Česko",
+    "lat": 49.4678,
+    "lon": 16.2411
+  },
+  "Domanínek": {
+    "re": "Domanínek|Domanínk",
+    "dotaz": "Domanínek, Bystřice nad Pernštejnem, Česko",
+    "lat": 49.5347,
+    "lon": 16.2364
+  },
+  "Strihovce": {
+    "re": "Strihovc|Strihoviec",
+    "dotaz": "Strihovce, okres Snina, Slovensko",
+    "lat": 48.9006,
+    "lon": 22.295
+  },
+  "Čechtice": {
+    "re": "Čechtic",
+    "dotaz": "Čechtice, okres Benešov, Česko",
+    "lat": 49.6258,
+    "lon": 15.0481
+  },
+  "Dobříš": {
+    "re": "Dobříš",
+    "dotaz": "Dobříš, okres Příbram, Česko",
+    "lat": 49.7811,
+    "lon": 14.1694
+  },
+  "Brandýs nad Labem": {
+    "re": "Brandýs",
+    "dotaz": "Brandýs nad Labem, Česko",
+    "lat": 50.1872,
+    "lon": 14.6633
+  },
+  "Vlasenice": {
+    "re": "Vlasenic",
+    "dotaz": "Vlasenice, Jistebnice, okres Tábor, Česko",
+    "lat": 49.4475,
+    "lon": 14.5578
+  },
+  "Žiželice": {
+    "re": "Žiželic",
+    "dotaz": "Žiželice, okres Kolín, Česko",
+    "lat": 50.1339,
+    "lon": 15.3925
+  },
+  "Vlkov nad Lesy": {
+    "re": "\\bVlkov",
+    "dotaz": "Vlkov nad Lesy, okres Nymburk, Česko",
+    "lat": 50.1742,
+    "lon": 15.3986
+  },
+  "Lužany": {
+    "re": "Lužan",
+    "dotaz": "Lužany, okres Hradec Králové, Česko",
+    "lat": 50.3414,
+    "lon": 15.4686
+  },
+  "Dvory": {
+    "re": "Dvor[yů]|ve Dvorech",
+    "dotaz": "Dvory, okres Nymburk, Česko",
+    "lat": 50.2286,
+    "lon": 14.9964
+  },
+  "Svatbín (Svrabov)": {
+    "re": "Svrabov|Svatbín",
+    "dotaz": "Svatbín, Kostelec nad Černými lesy, Česko",
+    "lat": 49.9989,
+    "lon": 14.8286
+  },
+  "Škvorec": {
+    "re": "Škvorc|Sskworc",
+    "dotaz": "Škvorec, okres Praha-východ, Česko",
+    "lat": 50.0469,
+    "lon": 14.7339
+  },
+  "Chrást": {
+    "re": "Chrást",
+    "dotaz": "Chrást, okres Nymburk, Česko",
+    "lat": 50.1194,
+    "lon": 14.9086
+  },
+  "Chýšť": {
+    "re": "Chýšť|Chýšt",
+    "dotaz": "Chýšť, okres Pardubice, Česko",
+    "lat": 50.1258,
+    "lon": 15.5458
+  },
+  "Úhonice": {
+    "re": "Úhonic",
+    "dotaz": "Úhonice, okres Praha-západ, Česko",
+    "lat": 50.0431,
+    "lon": 14.1864
+  },
+  "Smiřice": {
+    "re": "Smiřic",
+    "dotaz": "Smiřice, okres Hradec Králové, Česko",
+    "lat": 50.2994,
+    "lon": 15.8622
+  },
+  "Krucemburk": {
+    "re": "Krucemburk",
+    "dotaz": "Krucemburk, okres Havlíčkův Brod, Česko",
+    "lat": 49.6881,
+    "lon": 15.8522
+  },
+  "Horní Studenec": {
+    "re": "Studenec|Studenc",
+    "dotaz": "Horní Studenec, Ždírec nad Doubravou, Česko",
+    "lat": 49.7219,
+    "lon": 15.8058
   }
 }

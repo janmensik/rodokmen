@@ -562,5 +562,65 @@
     ],
     "status": "ok",
     "note": "Zápis o narození a křtu Emmy Marie Tomíčkové"
+  },
+  "blazkov_krest_jan_krejsek_1796": {
+    "boxes": [
+      [
+        0.02,
+        0.02,
+        0.98,
+        0.98
+      ]
+    ],
+    "status": "ok",
+    "note": "Zápis o narození a křtu Jana Krejska (17. 5. 1796 Blažkov čp. 26)"
+  },
+  "blazkov_umrti_vaclav_krejsek_1832": {
+    "boxes": [
+      [
+        0.02,
+        0.02,
+        0.98,
+        0.98
+      ]
+    ],
+    "status": "ok",
+    "note": "Zápis o úmrtí Václava Krejska st. na choleru (1832 Blažkov čp. 26)"
+  },
+  "dubrava_scitanie_1930_caki_juraj": {
+    "boxes": [
+      [
+        0.02,
+        0.02,
+        0.98,
+        0.98
+      ]
+    ],
+    "status": "ok",
+    "note": "Sčítací arch rodiny Andreje Čakyho v Dúbravě čp. 42 (1930)"
+  },
+  "smigovec_scitanie_1930_bubanec_cp_10": {
+    "boxes": [
+      [
+        0.02,
+        0.02,
+        0.98,
+        0.98
+      ]
+    ],
+    "status": "ok",
+    "note": "Sčítací arch rodiny Vasila Búbance v Šmigovci čp. 10 (1930)"
+  },
+  "smigovec_scitanie_1930_bubanec_cp_34": {
+    "boxes": [
+      [
+        0.02,
+        0.02,
+        0.98,
+        0.98
+      ]
+    ],
+    "status": "ok",
+    "note": "Sčítací arch rodiny Andreje Búbance v Šmigovci čp. 34 (1930)"
   }
 }

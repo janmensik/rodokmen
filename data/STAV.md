@@ -337,7 +337,7 @@ pak konec `research_log.md` a sekci „Rozpracováno“.
   - V rodokmenu celkem evidováno **207 osob** (z toho **52 doložených primárních zápisů** ze snímků matrik v 67 svazcích, 76 řádků deníku hledání).
 
 - Další kroky k prozkoumání:
-  1. Původ a narození koláře Otakara Krejzka st. (* cca 1880–1885) a sňatek s Františkou Sýsovou (před r. 1905), např. prostřednictvím sčítacích operátů 1921 pro Bystřici n. P. – Nové Dvory čp. 147 (SOkA Žďár nad Sázavou) nebo farního archivu v Bystřici n/P. (snubní protokoly z let 1943 a 1949).
-  2. Původ hajného Leopolda Sýse (č. 58) a narození jeho dcery Františky Sýsové (* cca 1880–1885).
-  3. Slovenská řeckokatolická větev Čáki a Bubanec (farnost Dúbrava, okres Snina na Zemplíně – matriky na FamilySearch).
-  4. Starší generace kovářů Černých v Dobšicích a Malém Zboží (farnost Žehuň).
+  1. Původ hajného Leopolda Sýse (č. 58), narození jeho dcery Františky Sýsové (* cca 1880–1885) a její sňatek s mistrem kolářským Otakarem Janem Krejzkem (* 6. 5. 1877 Blažkov čp. 20) před r. 1905 – např. prostřednictvím sčítacích operátů 1921 pro Bystřici n. P. – Nové Dvory čp. 147 (SOkA Žďár nad Sázavou).
+  2. Slovenská řeckokatolická větev Čáki a Bubanec v matrikách farností Dúbrava, Ruský Hrabovec a Strihovce (Štátny archív v Prešove / FamilySearch): křestní jméno dědečka Čákiho († 5. 10. 1926 Dúbrava čp. 42), rodná příjmení Maryi Čákiové (* 21. 10. 1896 Strihovce) a Júlie Čákiové (* 15. 9. 1868 Strihovce) a potvrzení rodiny Marie Bubancové v Šmigovci (čp. 10 vs. čp. 34).
+  3. Původ lesního inženýra Fridricha Hůlka (č. 20, otec Richarda Jarolíma * 26. 3. 1927 Žleby čp. 17).
+  4. Starší generace kovářů Černých v Dobšicích čp. 27 a Šišků v Žiželicích čp. 119 (farnost Žehuň).

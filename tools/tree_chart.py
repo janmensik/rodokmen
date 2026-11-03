@@ -340,26 +340,32 @@ def sync_node_positions():
 
 
 # Iterative relaxation (bottom-up + top-down, anchored on starting point in the center)
-for it in range(120):
+for it in range(160):
     sync_node_positions()
-    # 1. Bottom-up: align ancestor couples above their children (with gentle pull toward their own parents),
-    #    then place top-level siblings right next to their anchor couple BEFORE resolving overlaps
+    # 1. Bottom-up: align ancestor couples above ALL their children (direct + side siblings),
+    #    with pull toward their own parents, then place top-level siblings right next to their anchor couple
     for g in range(1, max_g + 1):
         ulist = units_by_g[g]
         for u in ulist:
             if u["id"].startswith("u_couple_"):
                 m = int(u["id"].split("_")[-1])
-                if m == 1:
-                    cxs = [nodes[cid]["x"] for _, cid in u["children"]]
-                elif m in p_node_id:
-                    cxs = [nodes[p_node_id[m]]["x"]]
-                else:
-                    cxs = [nodes[cid]["x"] for _, cid in u["children"]]
-                pxs = [units[f"u_couple_{kk}"]["x"] for kk in (2 * m, 2 * m + 1) if f"u_couple_{kk}" in units]
-                if cxs and pxs:
-                    u["x"] = 0.65 * (sum(cxs) / len(cxs)) + 0.35 * (sum(pxs) / len(pxs))
+                cxs = [nodes[cid]["x"] for _, cid in u["children"]]
+                if m in p_node_id and len(cxs) > 1:
+                    direct_x = nodes[p_node_id[m]]["x"]
+                    avg_all = sum(cxs) / len(cxs)
+                    ch_target = 0.5 * direct_x + 0.5 * avg_all
                 elif cxs:
-                    u["x"] = sum(cxs) / len(cxs)
+                    ch_target = sum(cxs) / len(cxs)
+                else:
+                    ch_target = None
+                pxs = [units[f"u_couple_{kk}"]["x"] for kk in (2 * m, 2 * m + 1) if f"u_couple_{kk}" in units]
+                if ch_target is not None and pxs:
+                    w_ch = 0.85 if g >= 8 else (0.50 if g <= 6 else 0.70)
+                    u["x"] = w_ch * ch_target + (1.0 - w_ch) * (sum(pxs) / len(pxs))
+                elif ch_target is not None:
+                    u["x"] = ch_target
+                elif pxs:
+                    u["x"] = sum(pxs) / len(pxs)
         place_siblings(ulist)
         resolve_overlaps(ulist)
         sync_node_positions()
@@ -370,15 +376,19 @@ for it in range(120):
         for u in ulist:
             if u["id"].startswith("u_couple_"):
                 m = int(u["id"].split("_")[-1])
-                if m == 1:
-                    cxs = [nodes[cid]["x"] for _, cid in u["children"]]
-                elif m in p_node_id:
-                    cxs = [nodes[p_node_id[m]]["x"]]
+                cxs = [nodes[cid]["x"] for _, cid in u["children"]]
+                if m in p_node_id and len(cxs) > 1:
+                    direct_x = nodes[p_node_id[m]]["x"]
+                    avg_all = sum(cxs) / len(cxs)
+                    ch_target = 0.5 * direct_x + 0.5 * avg_all
+                elif cxs:
+                    ch_target = sum(cxs) / len(cxs)
                 else:
-                    cxs = [nodes[cid]["x"] for _, cid in u["children"]]
+                    ch_target = None
                 pxs = [units[f"u_couple_{kk}"]["x"] for kk in (2 * m, 2 * m + 1) if f"u_couple_{kk}" in units]
-                if pxs and cxs:
-                    u["x"] = 0.55 * (sum(cxs) / len(cxs)) + 0.45 * (sum(pxs) / len(pxs))
+                if pxs and ch_target is not None:
+                    w_ch = 0.75 if g >= 8 else (0.45 if g <= 6 else 0.65)
+                    u["x"] = w_ch * ch_target + (1.0 - w_ch) * (sum(pxs) / len(pxs))
         by_parent = {}
         for u in ulist:
             if u["parents_unit"] and not u["id"].startswith("u_couple_") and not u["sibling_anchor_k"]:
@@ -398,6 +408,18 @@ for it in range(120):
     anchor_x = units["u_p_1"]["x"] if "u_p_1" in units else units["u_couple_1"]["x"]
     for u in units.values():
         u["x"] -= anchor_x
+    sync_node_positions()
+
+# Final bottom-up pass for sparse upper generations (g >= 8) so leaf ancestor rows sit directly over their child
+for g in range(8, max_g + 1):
+    ulist = units_by_g[g]
+    for u in ulist:
+        if u["id"].startswith("u_couple_"):
+            cxs = [nodes[cid]["x"] for _, cid in u["children"]]
+            if cxs:
+                u["x"] = sum(cxs) / len(cxs)
+    place_siblings(ulist)
+    resolve_overlaps(ulist)
     sync_node_positions()
 
 sync_node_positions()
@@ -441,6 +463,9 @@ GEN_LABELS = {
     6: "6. generace – 5× prarodiče",
     7: "7. generace – 6× prarodiče",
     8: "8. generace – 7× prarodiče",
+    9: "9. generace – 8× prarodiče",
+    10: "10. generace – 9× prarodiče",
+    11: "11. generace – 10× prarodiče",
 }
 
 for g in range(max_g + 1):
