@@ -288,7 +288,7 @@ P = {
              zam="mistr kolářský na Nových Dvorech u Bystřice nad Pernštejnem č. p. 147 (později č. p. 433)",
              bydl="Bystřice nad Pernštejnem č. p. 147 / č. p. 433 (Nové Dvory)", puvod="Blažkov čp. 20",
              r=["cuni_doktori_miroslav_krejzek_1939", "bystrice_oddani_emil_krejzek_1943", "bystrice_oddani_vaclav_krejzek_1949", "blazkov_krest_otakar_krejzek_1877"],
-             note="Mistr kolářský v Bystřici nad Pernštejnem na předměstí Nové Dvory č. p. 147, po přečíslování č. p. 433 (doložen v Adresářích Republiky Československé 1931–1939 i v oddacích zápisech synů z let 1943 a 1949). Narozen 6. května 1877 v Blažkově čp. 20 v rodině evangelického rolníka Václava Krejska a Marie rozené Hamříkové. S manželkou Františkou rozenou Sýsovou (dcerou hajného Leopolda Sýse z Borovníka) vychovali šest synů: Ladislava (* 1905, odborný učitel v Bystřici n/P. čp. 451), Otakara ml. (* cca 1908–1909, učitelský ústav v Brně, poručík pěšího pluku 31 v Jihlavě), Bedřicha (* cca 1909–1910, učitelský ústav v Brně), MUDr. Emila (* 11. 10. 1910 Bystřice n/P., praktický lékař v Bystřici n/P.), MUDr. Miroslava (* 3. 9. 1914 Bystřice n/P., primář Albertina v Žamberku) a MUDr. Václava (* 25. 3. 1919 Bystřice n/P., lékař)."),
+             note="Mistr kolářský v Bystřici nad Pernštejnem na předměstí Nové Dvory č. p. 147, po přečíslování č. p. 433 (doložen v Adresářích Republiky Československé 1931–1939 i v oddacích zápisech synů z let 1943 a 1949). Narozen 6. května 1877 v Blažkově čp. 20 v rodině evangelického rolníka Václava Krejska (pozdějšího starosty Blažkova) a Marie rozené Hamříkové. S manželkou Františkou rozenou Sýsovou (dcerou hajného Leopolda Sýse z Borovníka) vychovali šest synů, z nichž všichni dosáhli vysokoškolského či vyššího vzdělání (tři lékaři a tři pedagogové): Ladislava (* 1905, odborný učitel měšťanské chlapecké školy v Bystřici n/P. čp. 451), Otakara ml. (* 1907, učitel ve Velkých Janovicích u Jimramova, poručík pěšího pluku 31 v Jihlavě), MUDr. Emila (* 11. 10. 1910 Bystřice n/P., praktický lékař v Bystřici n/P.), Bedřicha (* 1912, učitel v Cikháji u Žďáru), MUDr. Miroslava (* 3. 9. 1914 Bystřice n/P., primář Albertina v Žamberku) a MUDr. Václava (* 25. 3. 1919 Bystřice n/P., lékař)."),
 
     29: dict(n="Františka Krejzková", y="asi 1880 – po 1949", st="doc",
              f=["* asi 1880–1885", "× před 1905 Otakar Krejzek", "† po 7. 4. 1949",
@@ -450,13 +450,13 @@ P = {
              r=["dubrava_scitanie_1930_caki_juraj"],
              note="Řeckokatolická hospodyně a výminkářka v Dúbravě čp. 42, matka Andreje Čákiho a babička Juraje Čákiho (praprababička Julie). Narozena 15. 9. 1868 ve Strihovcích v okrese Snina na Zemplíně. Dne 30. 9. 1888 se provdala za roľníka Čákiho do Dúbravy čp. 42. Byla matkou 12 dětí, z nichž 9 zemřelo a 3 žily v roce 1930. Dne 5. 10. 1926 ovdověla. Při sčítání lidu 1930 žila na výminku u svého syna Andreje (* 1891) a vnoučat včetně Juraje (* 1919) a novorozené vnučky Júlie (* 14. 6. 1930)."),
 
-    56: dict(n="Václav Krejsek", y="* cca 1848 – po 1885", st="doc",
-             f=["* cca 1848 Blažkov čp. 26", "× 24. 11. 1867 Zvole / Blažkov Marie Hamříková", "† po 1885",
+    56: dict(n="Václav Krejsek", y="* cca 1848 – po 1923", st="doc",
+             f=["* cca 1848 Blažkov čp. 26", "× 24. 11. 1867 Zvole / Blažkov Marie Hamříková", "† po 1923",
                 "otec mistra kolářského Otakara Jana Krejzka (* 1877)"],
-             zam="rolník v Blažkově čp. 20 a čp. 26",
+             zam="rolník v Blažkově čp. 20 a starosta obce Blažkov (1923)",
              bydl="Blažkov čp. 20 (dříve čp. 26)", puvod="Blažkov čp. 26",
              r=["blazkov_oddani_vaclav_krejsek_1867", "blazkov_krest_otakar_krejzek_1877"],
-             note="Evangelický rolník v Blažkově na Novoměstsku. Narodil se kolem roku 1848 v Blažkově čp. 26 jako syn sedláka Jana Krejska a Anny rozené Procházkové z Josefsdorfu (Storfu). Dne 24. listopadu 1867 byl ve věku 19 let oddán s Marií Hamříkovou z Blažkova čp. 14. Hospodařili na usedlosti čp. 20 v Blažkově, kde se jim v květnu 1877 narodil syn Otakar Jan Krejzek, budoucí bystřický mistr kolářský a pradědeček Julie."),
+             note="Evangelický rolník a starosta obce Blažkov na Novoměstsku. Narodil se kolem roku 1848 v Blažkově čp. 26 jako syn sedláka Jana Krejska a Anny rozené Procházkové z Josefsdorfu (Storfu). Dne 24. listopadu 1867 byl ve věku 19 let oddán s Marií Hamříkovou z Blažkova čp. 14. Hospodařili na usedlosti čp. 20 v Blažkově, kde se jim v květnu 1877 narodil syn Otakar Jan Krejzek, budoucí bystřický mistr kolářský a pradědeček Julie. V říjnu 1923 byl zvolen starostou obce Blažkov (doložen v Chytilově adresáři 1924)."),
 
     57: dict(n="Marie Krejsková", y="* 1849 – po 1885", st="doc",
              f=["* 16. 4. 1849 Blažkov čp. 14 (pokřtěna 17. 4. 1849 ve Zvoli)", "× 24. 11. 1867 Václav Krejsek", "† po 1885",
@@ -1699,17 +1699,18 @@ SIDE = [
 
          vetev=dict(n="Miroslav Čáky", y="", puvod="Slovensko (Zemplín / Snina)", vztah="bratr Juraje (psán Čáky)")),
 
-    dict(k=14, n="Ladislav Krejzek (* 1905)", t="Nejstarší bratr primáře MUDr. Miroslava Krejzka, syn mistra kolářského Otakara Krejzka a Františky roz. Sýsové. Narozen roku 1905, odborný učitel v Bystřici nad Pernštejnem č. p. 451 (učitelské zkoušky v Brně 1925 a 1928). Dne 12. 6. 1943 byl svědkem na svatbě bratra MUDr. Emila Krejzka v Bystřici nad Pernštejnem.", r=["bystrice_oddani_emil_krejzek_1943"],
+    dict(k=14, n="Ladislav Krejzek (* 1905)", t="Nejstarší bratr primáře MUDr. Miroslava Krejzka, syn mistra kolářského Otakara Krejzka a Františky roz. Sýsové. Narozen roku 1905, odborný učitel chlapecké měšťanské školy v Bystřici nad Pernštejnem č. p. 451 (učitelské zkoušky v Brně 1925, 1928 a 1931 pro měšťanské školy). Dne 27. 12. 1930 se v Brně u sv. Tomáše oženil s Boženou Cihlářovou (* 30. 7. 1903 Ochoz u Tišnova, † 27. 8. 1949 Bystřice n/P. čp. 451). Dne 12. 6. 1943 byl svědkem na svatbě bratra MUDr. Emila Krejzka v Bystřici nad Pernštejnem.", r=["bystrice_oddani_emil_krejzek_1943", "bystrice_umrti_bozena_krejzkova_1949"],
 
-         vetev=dict(n="Ladislav Krejzek", y="* 1905", f=["* 1905"], zam="odborný učitel v Bystřici nad Pernštejnem č. p. 451", bydl="Bystřice nad Pernštejnem č. p. 451", vztah="nejstarší bratr Miroslava")),
+         vetev=dict(n="Ladislav Krejzek", y="* 1905", f=["* 1905 Bystřice nad Pernštejnem", "× 27. 12. 1930 Brno (u sv. Tomáše) Božena Cihlářová"], zam="odborný učitel měšťanské školy chlapecké v Bystřici nad Pernštejnem č. p. 451", bydl="Bystřice nad Pernštejnem č. p. 451", vztah="nejstarší bratr Miroslava",
+                    manzel=dict(n="Božena Krejzková", y="1903–1949", roz="Cihlářová", f=["* 30. 7. 1903 Ochoz u Tišnova", "× 27. 12. 1930 Brno (u sv. Tomáše) Ladislav Krejzek", "† 27. 8. 1949 Bystřice nad Pernštejnem č. p. 451 (pohřbena 30. 8. 1949)"], puvod="Ochoz u Tišnova", bydl="Bystřice nad Pernštejnem č. p. 451"))),
 
-    dict(k=14, n="Otakar Krejzek ml. (* cca 1908–1909)", t="Starší bratr primáře MUDr. Miroslava Krejzka z Bystřice nad Pernštejnem č. p. 147 / 433, syn mistra kolářského Otakara Krejzka a Františky roz. Sýsové. V letech 1928–1930 student učitelského ústavu v Brně, později poručík pěšího pluku 31 v Jihlavě (1935–1937).", r=[],
+    dict(k=14, n="Otakar Krejzek ml. (* 1907)", t="Starší bratr primáře MUDr. Miroslava Krejzka z Bystřice nad Pernštejnem č. p. 147 / 433, syn mistra kolářského Otakara Krejzka a Františky roz. Sýsové. Narozen roku 1907, v roce 1929 maturoval na c.k. českém ústavu ku vzdělání učitelů v Brně, v roce 1933 složil zkoušku způsobilosti a působil jako učitel na obecné škole ve Velkých Janovicích u Jimramova. Později též záložní důstojník a poručík pěšího pluku 31 v Jihlavě.", r=[],
 
-         vetev=dict(n="Otakar Krejzek ml.", y="* cca 1908–1909", f=["* cca 1908–1909 Bystřice nad Pernštejnem č. p. 147"], zam="učitel, poručík pěšího pluku 31 v Jihlavě", bydl="Bystřice nad Pernštejnem / Jihlava", vztah="bratr Miroslava")),
+         vetev=dict(n="Otakar Krejzek ml.", y="* 1907", f=["* 1907 Bystřice nad Pernštejnem", "maturita 1929 na c.k. českém ústavu ku vzdělání učitelů v Brně", "zkouška způsobilosti 1933", "učitel na obecné škole ve Velkých Janovicích u Jimramova"], zam="učitel ve Velkých Janovicích u Jimramova, poručík pěšího pluku 31 v Jihlavě", bydl="Bystřice nad Pernštejnem / Velké Janovice / Jihlava", vztah="bratr Miroslava")),
 
-    dict(k=14, n="Bedřich Krejzek (* cca 1909–1910)", t="Starší bratr primáře MUDr. Miroslava Krejzka z Bystřice nad Pernštejnem č. p. 147 / 433, syn mistra kolářského Otakara Krejzka a Františky roz. Sýsové. V letech 1928–1930 student učitelského ústavu v Brně.", r=[],
+    dict(k=14, n="Bedřich Krejzek (* 1912)", t="Starší bratr primáře MUDr. Miroslava Krejzka z Bystřice nad Pernštejnem č. p. 147 / 433, syn mistra kolářského Otakara Krejzka a Františky roz. Sýsové. Narozen roku 1912, v roce 1931 maturoval na učitelském ústavu v Brně a působil jako učitel na obecné škole v Cikháji u Žďáru nad Sázavou.", r=[],
 
-         vetev=dict(n="Bedřich Krejzek", y="* cca 1909–1910", f=["* cca 1909–1910 Bystřice nad Pernštejnem č. p. 147"], zam="student učitelského ústavu v Brně (1928–1930)", bydl="Bystřice nad Pernštejnem", vztah="bratr Miroslava")),
+         vetev=dict(n="Bedřich Krejzek", y="* 1912", f=["* 1912 Bystřice nad Pernštejnem", "maturita 1931 na učitelském ústavu v Brně", "učitel na obecné škole v Cikháji u Žďáru nad Sázavou"], zam="učitel na obecné škole v Cikháji u Žďáru nad Sázavou", bydl="Bystřice nad Pernštejnem / Cikháj", vztah="bratr Miroslava")),
 
     dict(k=14, n="MUDr. Emil Krejzek (* 1910)", t="Starší bratr primáře MUDr. Miroslava Krejzka, syn mistra kolářského Otakara Krejzka a Františky roz. Sýsové. Narozen 11. 10. 1910 v Bystřici nad Pernštejnem (křestní matrika tom. XIII, pag. 106), absolvent reálného gymnázia v Tišnově (1925–1929), praktický lékař (MUDr.) v Bystřici nad Pernštejnem č. p. 433 a č. p. 404. Dne 12. 6. 1943 oddán v Bystřici nad Pernštejnem s Miroslavou (Miladou) Šípkovou-Křížovou (* 20. 1. 1914 Olomouc – Nová Ulice). Dne 7. 4. 1949 šel spolu s bratrem MUDr. Miroslavem Krejzkem za svědka na svatbě nejmladšího bratra Václava.", r=["bystrice_oddani_emil_krejzek_1943", "bystrice_oddani_vaclav_krejzek_1949"],
 

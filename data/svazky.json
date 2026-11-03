@@ -560,5 +560,25 @@
     "popis": "Kniha oddaných farnosti Nebovidy pro obce Bohouňovice I, Bojiště, Červené Pečky, Dobešovice, Hluboký Důl, Kbel, Nebovidy, Opatovice, Polepy s indexem",
     "snimku": 189,
     "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/9440"
+  },
+  "mza_15472": {
+    "archiv": "MZA Brno",
+    "portal": "Actapublica",
+    "fond": "Bystřice nad Pernštejnem římskokatolická církev",
+    "svazek": "sign. 15472 (Z: 1885 - 1949)",
+    "obce": "Bystřice nad Pernštejnem",
+    "roky": "Z: 1885 - 1949",
+    "snimku": 216,
+    "url": "https://www.mza.cz/actapublica/matrika/detail/12962"
+  },
+  "mza_15500": {
+    "archiv": "MZA Brno",
+    "portal": "Actapublica",
+    "fond": "Bystřice nad Pernštejnem římskokatolická církev",
+    "svazek": "sign. 15500 (index Z: 1903 - 1949)",
+    "obce": "Bystřice nad Pernštejnem",
+    "roky": "index Z: 1903 - 1949",
+    "snimku": 90,
+    "url": "https://www.mza.cz/actapublica/matrika/detail/15464"
   }
 }
