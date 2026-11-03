@@ -233,11 +233,11 @@ P = {
 
     # Pokračování 4. generace (20–23, 30)
 
-    20: dict(n="Fridrich Hůlek", y="", st="fam",
+    20: dict(n="Fridrich Hůlek", y="asi 1885–1898 – ?", st="fam",
 
-             f=[], zam="lesní inženýr", r=[],
+             f=["* asi 1885–1898", "působil ve Žlebech (panství Auerspergů / lesní správa)"], zam="lesní inženýr", r=[],
 
-             note="Údaje z rodinného stromu PDF (datum a místo narození zatím neuvedeny; syn Richard nesl příjmení matky Jarolím)."),
+             note="Pradědeček Jana z matčiny strany, vysokoškolsky vzdělaný lesní inženýr (Ing.). V dochovaném rodinném portrétu je zachycen ve slavnostním lesnickém stejnokroji vyššího úředníka s vyšívanou dubovou ratolestí se žaludy na nárameníku a rozetou na klopě. Otec Richarda Jarolíma (* 26. 3. 1927 Žleby čp. 17). Matkou byla dělnice Emilie Jarolímová (* 1899 Žleby čp. 37); vzhledem k nemanželskému svazku nesl syn příjmení matky Jarolím. V rodinném stromu byl zapsán jako Fridrich Hůlek (v českých matrikách zpravidla Bedřich Hůlek, v německých Friedrich Hulek). Původ a předky lze spolehlivě dohledat v matrice narozených pro Žleby 1927 na matrice v Čáslavi, v personálním fondu velkostatku Žleby v SOA Praha nebo ve fondu VŠZLI v Archivu ČVUT."),
 
     21: dict(n="Emilie Jarolímová", y="1899 – po 1927", st="doc",
 
@@ -1641,11 +1641,17 @@ SIDE = [
 
                           dict(n="Lenka Černíková", y="* asi 2008", f=["* asi 2008 Praha"], bydl="Praha")])),
 
-    dict(k=4, n="Ivan Menšík (asi 1942–2012)", t="Starší bratr Radima Menšíka (strýc Jana), syn Miroslava a Ludmily, * asi 1942 Praha, † 2012 Praha, pohřben v Čtyřkolech.", r=[],
+    dict(k=4, n="Ivan Menšík (asi 1942–2012)", t="Starší bratr Radima Menšíka (strýc Jana), syn Miroslava a Ludmily, * asi 1942 Praha, † 2012 Praha, pohřben v Čtyřkolech; byl ženatý a měl 2 dcery.", r=[],
 
          vetev=dict(n="Ivan Menšík", y="asi 1942–2012", f=["* asi 1942 Praha", "† 2012 Praha"], bydl="Praha",
 
-                    pohreb="Čtyřkoly", vztah="bratr Radima")),
+                    pohreb="Čtyřkoly", vztah="bratr Radima",
+
+                    manzel=dict(n="manželka Ivana Menšíka", y="", bydl="Praha"),
+
+                    deti=[dict(n="dcera Ivana Menšíka (1. dcera)", y="", bydl="Praha", vztah="sestřenice Jana"),
+
+                          dict(n="dcera Ivana Menšíka (2. dcera)", y="", bydl="Praha", vztah="sestřenice Jana")])),
 
     dict(k=5, n="Lenka Hájková roz. Jarolímová (* 1962)", t="Mladší sestra Zdeňky (teta Jana), * 21. / 24. 4. 1962 Hradec Králové; manžel Ing. arch. Martin Hájek (* 1960 Smiřice, architekt), syn Ing. arch. Václav Hájek (* 17. 1. / 20. 2. 1983 Hradec Králové, architekt).", r=[],
 
