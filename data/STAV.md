@@ -358,7 +358,20 @@ pak konec `research_log.md` a sekci „Rozpracováno“.
       - **Anna Tomíčková roz. Skalská (č. 153)**: z Podmokel.
       - **Josef Harrer (č. 154)**: kolínský městský radní z Kolína čp. 122.
       - **Johana Harrerová roz. Schreberová (č. 155)**: z Kolína.
-  - V rodokmenu celkem evidováno **215 osob** (z toho **55 doložených primárních zápisů** ze snímků matrik v 70 svazcích, 79 řádků deníku hledání).
+  - **Dne 4. 11. 2026 nalezen sňatek pradědečka Josefa Tomíčka a Karolíny Harrerové (19. 8. 1850 Kolín)**:
+    - SOA Praha, kniha Kolín 35, sn. 219, pag. 215, 2. zápis (klíč: kolin_oddani_josef_tomicek_1850).
+    - Ženich: Josef Tomíček (28 let, * cca 1822), diurnista při podkrajském úřadě v Kolíně, rodem z **Poniklé čp. 117** (v Podkrkonoší, okr. Semily), manželský syn již zemřelého Michala Tomíčka, pekaře z Poniklé a Anny roz. Skalské. Tímto zápisem byl definitivně rozluštěn a potvrzen skutečný rodový původ rodiny Tomíčků v Poniklé.
+    - Nevěsta: Karolína (21 let, * 1823), dcera po zemřelém Josefu Harrerovi, radním pánu z Kolína čp. 122 a Johany roz. Schreberové.
+    - Svědkové: Josef Doubek, c. k. podkrajský komisař a Antonín Neubäuer, c. k. podkrajský lékař.
+  - **Dne 4. 11. 2026 nalezeno narození a křest prababičky Karolíny Harrerové (16. 5. 1823 Kolín čp. 122)**:
+    - SOA Praha, kniha Kolín 11, sn. 61, pag. 58, 3. zápis (klíč: kolin_krest_karolina_harrerova_1823).
+    - Pokřtěna jako Carolina Josepha Johanna děkanem Wenzelem Tuoringerem.
+    - Otec: pan Josef Harrer (č. 154), městský radní v Kolíně (Rath zdejší).
+    - Matka: paní Johanna (č. 155), manželská dcera po panu Josefu Schreberovi (č. 310), knížecím/vrchnostenském úředníkovi (hejtmanovi), a paní Kláry (č. 311) z alpského města **Feldkirch ve Vorarlbergu** (Rakousko)!
+    - Zápis odhalil a doložil **2 nové předky v 8. generaci**:
+      - **Josef Schreber (č. 310)**: vrchnostenský hejtman a správce († před 1823).
+      - **Klára Schreberová (č. 311)**: z Feldkirchu ve Vorarlbergu (Rakousko).
+  - V rodokmenu celkem evidováno **217 osob** (z toho **57 doložených primárních zápisů** ze snímků matrik v 72 svazcích, 81 řádků deníku hledání).
 
 - Další kroky k prozkoumání:
   1. Původ hajného Leopolda Sýse (č. 58), narození jeho dcery Františky Sýsové (* cca 1880–1885) a její sňatek s mistrem kolářským Otakarem Janem Krejzkem (* 6. 5. 1877 Blažkov čp. 20) před r. 1905 – např. prostřednictvím sčítacích operátů 1921 pro Bystřici n. P. – Nové Dvory čp. 147 (SOkA Žďár nad Sázavou).

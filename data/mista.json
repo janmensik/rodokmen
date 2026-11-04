@@ -464,5 +464,17 @@
     "dotaz": "Podmokly, okres Kutná Hora, Česko",
     "lat": 49.8825,
     "lon": 15.4217
+  },
+  "Poniklá": {
+    "re": "Ponikl",
+    "dotaz": "Poniklá, okres Semily, Česko",
+    "lat": 50.6608,
+    "lon": 15.4608
+  },
+  "Feldkirch": {
+    "re": "Feldkirch",
+    "dotaz": "Feldkirch, Vorarlberg, Rakousko",
+    "lat": 47.2372,
+    "lon": 9.5986
   }
 }

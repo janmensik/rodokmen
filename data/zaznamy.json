@@ -548,5 +548,25 @@
     "nazev": "Narození a křest Antonína Jaroslava Tomíčka",
     "shrnuti": "Dne 30. 4. 1853 se v Kolíně čp. 29 (Pražské předměstí) narodil a téhož dne byl kaplanem Janem Svobodou pokřtěn Antonín Jaroslav Tomíček. Otec: Josef Tomíček, diurnista při c. k. podkrajském úřadě v Kolíně, rodem z Podmokel čp. 117 (syn již zemřelého pekaře Michala Tomíčka z Podmokel a Anny rozené Skalské). Matka: Karolína, dcera městského radního Josefa Harrera z Kolína čp. 122 a Johany rozené Schreberové. Kmotři: Antonín Krickner, sklenářský tovaryš a Anna Doubková, choť c. k. vrchního poštovního úředníka.",
     "odkaz": "https://ebadatelna.soapraha.cz/d/6689/115"
+  },
+  {
+    "klic": "kolin_oddani_josef_tomicek_1850",
+    "svazek": "ebad_6706",
+    "snimek": 219,
+    "druh": "O",
+    "datum": "19. 8. 1850",
+    "nazev": "Sňatek Josefa Tomíčka a Karolíny Harrerové",
+    "shrnuti": "Dne 19. 8. 1850 byli v Kolíně oddáni Josef Tomíček (28 let, * cca 1822), diurnista při zdejším podkrajském úřadě, svobodný katolík rodem z Poniklé čp. 117 (syn již zemřelého Michala Tomíčka, pekaře z Poniklé a Anny rozené Skalské), a Karolina Harrerová (21 let, * 16. 5. 1823 Kolín čp. 122), dcera po zemřelém Josefu Harrerovi, radním pánu z Kolína čp. 122 a Johany rozené Schreberové. Svědkové: Josef Doubek, c. k. podkrajský komisař a Antonín Neubäuer, c. k. podkrajský lékař.",
+    "odkaz": "https://ebadatelna.soapraha.cz/d/6706/219"
+  },
+  {
+    "klic": "kolin_krest_karolina_harrerova_1823",
+    "svazek": "ebad_6682",
+    "snimek": 61,
+    "druh": "N",
+    "datum": "16. 5. 1823",
+    "nazev": "Narození a křest Karolíny Harrerové",
+    "shrnuti": "Dne 16. 5. 1823 se v Kolíně čp. 122 narodila a téhož dne byla děkanem Václavem Tuoringerem pokřtěna Carolina Josepha Johanna Harrerová. Otec: pan Josef Harrer, městský radní v Kolíně (Rath zdejší). Matka: paní Johanna, dcera po panu Josefu Schreberovi, vrchnostenském správci/hejtmanovi, a paní Kláry z Feldkirchu ve Vorarlbergu (Rakousko). Kmotři: pan Johann Schreber, c. k. úředník a paní Anna Schreberová.",
+    "odkaz": "https://ebadatelna.soapraha.cz/d/6682/61"
   }
 ]

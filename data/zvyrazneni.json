@@ -658,5 +658,29 @@
     ],
     "status": "ok",
     "note": "Zápis o narození a křtu Antonína Jaroslava Tomíčka"
+  },
+  "kolin_oddani_josef_tomicek_1850": {
+    "boxes": [
+      [
+        0.005,
+        0.005,
+        0.995,
+        0.995
+      ]
+    ],
+    "status": "ok",
+    "note": "Zápis o sňatku Josefa Tomíčka a Karolíny Harrerové"
+  },
+  "kolin_krest_karolina_harrerova_1823": {
+    "boxes": [
+      [
+        0.005,
+        0.005,
+        0.995,
+        0.995
+      ]
+    ],
+    "status": "ok",
+    "note": "Zápis o narození a křtu Karolíny Harrerové"
   }
 }
