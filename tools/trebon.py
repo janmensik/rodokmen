@@ -2,24 +2,25 @@
 """Matriky SOA Třeboň (digi.ceskearchivy.cz) bez prohlížeče.
 
 Použití (z kořene projektu):
-  trebon.py misto "Obec"                 -> id místa a jeho název (portál vybere jedno místo; při více stejných
-                                            jménech zkontroluj okres v názvu, případně použij id přímo)
+  trebon.py misto "Obec"                 -> id místa a jeho název
   trebon.py svazky <id_mista|"Obec">     -> seznam matrik: id_knihy | kniha | druh | roky | obce
-  trebon.py rejstrik <id_knihy> <písmeno> -> jmenný rejstřík (dobrovolnický): příjmení | jméno | místo | rok | snímek
-                                            (ne každá kniha ho má; prázdný výsledek = rejstřík chybí, ne „osoba tam není“)
+  trebon.py rejstrik <id_knihy> <písmeno> -> jmenný rejstřík
   trebon.py snimek <id_knihy> <snímek> <vystup.jpg> [nahled]
-                                         -> stáhne snímek v plném rozlišení (slepí dlaždice); "nahled" = 1/4 rozlišení
+                                         -> stáhne snímek v plném rozlišení (nebo nahled)
   trebon.py svazek <id_knihy>            -> zapíše svazek do data/svazky.json (klíč trebon_<id_knihy>)
 Trvalý odkaz na snímek: https://digi.ceskearchivy.cz/<id_knihy>/<snímek>
-Ber ohled na server: stahuj jen snímky, které čteš.
 """
-import html, json, os, re, subprocess, sys, tempfile, unicodedata, urllib.parse, urllib.request, http.cookiejar
+import html, http.cookiejar, json, math, os, re, subprocess, sys, tempfile, unicodedata, urllib.parse, urllib.request
 
 BASE = "https://digi.ceskearchivy.cz"
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 _cj = http.cookiejar.CookieJar()
 _op = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(_cj))
-_op.addheaders = [("User-Agent", "Mozilla/5.0 (rodokmen)")]
+_op.addheaders = [
+    ("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"),
+    ("Accept", "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"),
+    ("Accept-Language", "cs,en-US;q=0.7,en;q=0.3"),
+]
 
 
 def get(path, referer=None, binary=False):
@@ -77,47 +78,89 @@ def rejstrik(bid, pis):
     return rows
 
 
+def extrahuj_token(html_str):
+    # Moderní DigiArchiv (obfuscované konstanty)
+    m_call = re.search(r'Z\.showImage\("myContainer",\s*([^,\{]+)', html_str)
+    if m_call:
+        parts_expr = m_call.group(1)
+        var_names = re.findall(r'(_[a-zA-Z0-9]+)', parts_expr)
+        if var_names:
+            vars_dict = {}
+            for m in re.finditer(r'(?:const|var)\s+(_[a-zA-Z0-9]+)\s*=\s*["\']([^"\']+)["\']', html_str):
+                vars_dict[m.group(1)] = m.group(2).replace('\\/', '/')
+            token = "".join(vars_dict.get(v, "") for v in var_names)
+            if token:
+                return token
+    # Starší verze s přímým řetězcem
+    m_old = re.search(r'showImage\("[^"]*","([^"]+)"', html_str)
+    if m_old:
+        return m_old.group(1)
+    return None
+
+
 def snimek(bid, n, out, nahled=False):
-    ref = f"{BASE}/{bid}/{n}"
-    get(ref)
-    page, _ = get(f"/view.php?menu=3&id={bid}&page={n}&r=0", referer=ref)
-    m = re.search(r'showImage\("[^"]*","([^"]+)"', page)
-    if not m:
+    ref_container = f"{BASE}/{bid}/{n}"
+    get(ref_container)
+    ref_view = f"{BASE}/view.php?menu=3&id={bid}&page={n}&r=0"
+    page, _ = get(ref_view, referer=ref_container)
+    token = extrahuj_token(page)
+    if not token:
         sys.exit("token obrázku nenalezen (snímek neexistuje?)")
-    src = f"{BASE}/cgi-bin/isrv8.cgi?{m.group(1)}"
-    # najdi nejvyšší úroveň a počet dlaždic
-    def tile(t, x, y):
-        d, _ = get(f"{src}.0.{t}-{x}-{y}", referer=ref, binary=True)
-        return d
-    tier = 1
-    while tile(tier + 1, 0, 0):
-        tier += 1
-    if nahled:
-        tier = max(1, tier - 2)
-    tmp = tempfile.mkdtemp(prefix="trebon_")
-    rows, y = [], 0
+    
+    # Zjisti vlastnosti obrázku
+    desc_url = f"{BASE}/cgi-bin/i_M6Izlkmw?{token}.0.desc"
+    desc_xml, _ = get(desc_url, referer=ref_view)
+    m_dim = re.search(r'WIDTH="(\d+)"\s+HEIGHT="(\d+)".*?TILESIZE="(\d+)"', desc_xml)
+    if not m_dim:
+        sys.exit(f"chyba čtení rozměrů ze serveru: {desc_xml[:100]}")
+    W, H, T = int(m_dim.group(1)), int(m_dim.group(2)), int(m_dim.group(3))
+
+    # Zoomify vrstvy
+    dims, w, h = [], W, H
     while True:
-        x, row = 0, []
-        while True:
-            d = tile(tier, x, y)
-            if not d:
-                break
-            p = os.path.join(tmp, f"t_{y}_{x}.jpg")
-            open(p, "wb").write(d)
-            row.append(p)
-            x += 1
-        if not row:
+        dims.append((w, h))
+        if w <= T and h <= T:
             break
-        rp = os.path.join(tmp, f"row_{y}.png")
-        subprocess.run(["magick", *row, "-crop", "768x769+0+0", "+repage", "+append", rp], check=True)
-        rows.append(rp)
-        y += 1
-    subprocess.run(["magick", *rows, "-crop", "100%x768+0+0", "+repage", "-append", out], check=True)
-    for f in os.listdir(tmp):
-        os.remove(os.path.join(tmp, f))
-    os.rmdir(tmp)
+        w, h = (w + 1) // 2, (h + 1) // 2
+    dims = dims[::-1]
+    counts = [math.ceil(a / T) * math.ceil(b / T) for a, b in dims]
+
+    # Zvolení úrovně rozlišení
+    L = max(0, len(dims) - 3) if nahled else len(dims) - 1
+    w_target, h_target = dims[L]
+    nx, ny = math.ceil(w_target / T), math.ceil(h_target / T)
+    start = sum(counts[:L])
+
+    d = tempfile.mkdtemp(prefix="trebon_")
+    files = []
+    try:
+        for y in range(ny):
+            for x in range(nx):
+                g = (start + y * nx + x) // 256
+                tile_url = f"{BASE}/cgi-bin/i_M6Izlkmw?{token}.{g}.{L}-{x}-{y}"
+                tile_data, _ = get(tile_url, referer=ref_view, binary=True)
+                p = os.path.join(d, f"{y:03d}_{x:03d}.jpg")
+                with open(p, "wb") as f:
+                    f.write(tile_data)
+                files.append(p)
+
+        os.makedirs(os.path.dirname(os.path.abspath(out)), exist_ok=True)
+        tmp = os.path.abspath(out) + ".tmp.jpg"
+        subprocess.run(["magick", "montage", *[os.path.basename(f) for f in files],
+                        "-tile", f"{nx}x{ny}", "-geometry", "+0+0",
+                        "-gravity", "NorthWest", "-background", "white", tmp], check=True, cwd=d)
+        subprocess.run(["magick", tmp, "-crop", f"{w_target}x{h_target}+0+0", "+repage", "-quality", "88", out], check=True)
+        if os.path.exists(tmp):
+            os.remove(tmp)
+    finally:
+        for f in files:
+            if os.path.exists(f):
+                os.remove(f)
+        if os.path.exists(d):
+            os.rmdir(d)
+
     r = subprocess.run(["magick", "identify", "-format", "%wx%h", out], capture_output=True, text=True)
-    print(out, r.stdout, "odkaz:", ref)
+    print(out, r.stdout.strip(), "odkaz:", ref_container)
 
 
 def svazek(bid):
@@ -138,17 +181,18 @@ if __name__ == "__main__":
     a = sys.argv[1:]
     if not a:
         sys.exit(__doc__)
-    if a[0] == "misto":
-        print(*misto(a[1]), sep=" | ")
-    elif a[0] == "svazky":
+    cmd = a[0]
+    if cmd == "misto":
+        print(*misto(a[1]))
+    elif cmd == "svazky":
         for bid, c in svazky(a[1]):
-            print(bid, "|", " | ".join(x[:300] for x in c if x))
-    elif a[0] == "rejstrik":
+            print(bid, "|", " | ".join(c))
+    elif cmd == "rejstrik":
         for r in rejstrik(a[1], a[2]):
-            print(" | ".join(r[:2] + r[3:]))
-    elif a[0] == "snimek":
-        snimek(a[1], a[2], a[3], len(a) > 4)
-    elif a[0] == "svazek":
+            print(" | ".join(r))
+    elif cmd == "snimek":
+        snimek(a[1], a[2], a[3], nahled=("nahled" in a[4:]))
+    elif cmd == "svazek":
         svazek(a[1])
     else:
         sys.exit(__doc__)

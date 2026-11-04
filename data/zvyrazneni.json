@@ -694,5 +694,17 @@
     ],
     "status": "ok",
     "note": "Zápis o sňatku Josefa Halíka a Marie Procházkové"
+  },
+  "jistebnice_oddani_frantisek_horych_1791": {
+    "boxes": [
+      [
+        0.01,
+        0.01,
+        0.99,
+        0.99
+      ]
+    ],
+    "status": "ok",
+    "note": "Sňatek Františka Horycha a Barbory Dědové (1791)"
   }
 }

@@ -378,7 +378,17 @@ pak konec `research_log.md` a sekci „Rozpracováno“.
     - Svolení ke sňatku: písemný souhlas otce neplnoleté nevěsty s vlastnoručním podpisem "Wácslaw Procházka".
     - Svědkové: František Šára a Jan Žalud, sousedé z Holubic.
     - Zápis fixuje přesná data a věk: Josef Halík (* cca 1826) se ženil jako 29letý vdovec; Marie Procházková (* cca 1833) se vdávala jako 22letá panna.
-  - V rodokmenu celkem evidováno **217 osob** (z toho **58 doložených primárních zápisů** ze snímků matrik v 73 svazcích, 82 řádků deníku hledání).
+  - **Dne 4. 11. 2026 nalezen sňatek prapradědečka Františka Horycha a Barbory Dědové (18. 1. 1791 Jistebnice čp. 136)**:
+    - SOA Třeboň, kniha Jistebnice 18 (4515 • 1784–1799), sn. 9, pag. 15, 1. zápis (klíč: `jistebnice_oddani_frantisek_horych_1791`).
+    - Ženich: František Horych (22 let, * 1. 8. 1768 Jistebnice), měšťan v Jistebnici, manželský syn Jana Horycha, měšťana a mistra zednického v Jistebnici.
+    - Nevěsta: Barbora Dědová (24 let, * 2. 12. 1766 Jistebnice čp. 136), pozůstalá manželská dcera po zemřelém měšťanu Janu Dědovi z Jistebnice.
+    - Svědkové: Ferdinand Strnad, městský radní (senátor) a Matyáš Klejzar.
+    - Oddal kurát P. Jan Brzva po trojích ohláškách.
+    - Zápis odhalil a doložil **2 nové předky v 8. generaci**:
+      - **Jan Horych (č. 260)**: jistebnický měšťan a mistr zednický.
+      - **Jan Děd (č. 262)**: jistebnický měšťan z čp. 136 († před 1791).
+    - Zápis zároveň přinesl přesná data narození Františka Horycha (* 1. 8. 1768) a Barbory Dědové (* 2. 12. 1766) zapsaná formou přípisu přímo u věku snoubenců.
+  - V rodokmenu celkem evidováno **219 osob** (z toho **59 doložených primárních zápisů** ze snímků matrik v 73 svazcích, 83 řádků deníku hledání).
 
 - Další kroky k prozkoumání:
   1. Původ hajného Leopolda Sýse (č. 58), narození jeho dcery Františky Sýsové (* cca 1880–1885) a její sňatek s mistrem kolářským Otakarem Janem Krejzkem (* 6. 5. 1877 Blažkov čp. 20) před r. 1905 – např. prostřednictvím sčítacích operátů 1921 pro Bystřici n. P. – Nové Dvory čp. 147 (SOkA Žďár nad Sázavou).

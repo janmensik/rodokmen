@@ -803,25 +803,25 @@ P = {
 
               note="Manželka řezníka Františka Menšíka z Jistebnice, matka pekaře Josefa Menšíka."),
 
-    130: dict(n="František Horych", y="", st="doc",
+    130: dict(n="František Horych", y="* 1768", st="doc",
 
-              f=["× 18. 1. 1791 Jistebnice Barbora Dědová"],
+              f=["* 1. 8. 1768 Jistebnice", "× 18. 1. 1791 Jistebnice (Barbora Dědová)"],
 
               zam="mistr zednický a měšťan v Jistebnici", puvod="Jistebnice",
 
-              r=["jistebnice_krest_josef_mensik_1832", "jistebnice_oddani_josef_mensik_1828", "jistebnice_oddani_josef_mensik_1865"],
+              r=["jistebnice_oddani_frantisek_horych_1791", "jistebnice_krest_josef_mensik_1800", "jistebnice_oddani_josef_mensik_1828", "jistebnice_krest_josef_mensik_1832", "jistebnice_oddani_josef_mensik_1865"],
 
-              note="Mistr zednický a měšťan v Jistebnici (čp. 136 a 86), otec Barbory Menšíkové roz. Horychové. Oddán 18. 1. 1791 v Jistebnici s Barborou Dědovou."),
+              note="Měšťan a mistr zednický v Jistebnici (čp. 136 a čp. 86), syn zednického mistra Jana Horycha. Narozen 1. 8. 1768 v Jistebnici. Dne 18. 1. 1791 byl ve věku 22 let v chrámu sv. Michaela v Jistebnici oddán s 24letou Barborou Dědovou. V roce 1800 byl kmotrem při křtu Josefa Menšíka st. (* 1800 čp. 119), který se později v roce 1828 oženil s jeho dcerou Barborou."),
 
-    131: dict(n="Barbora Horychová", y="", st="doc",
+    131: dict(n="Barbora Horychová", y="* 1766", st="doc",
 
-              f=["× 18. 1. 1791 Jistebnice František Horych"],
+              f=["* 2. 12. 1766 Jistebnice čp. 136", "× 18. 1. 1791 Jistebnice (František Horych)"],
 
-              roz="Dědová", puvod="Jistebnice",
+              roz="Dědová", puvod="Jistebnice čp. 136",
 
-              r=["jistebnice_krest_josef_mensik_1832", "jistebnice_oddani_josef_mensik_1828", "jistebnice_oddani_josef_mensik_1865"],
+              r=["jistebnice_oddani_frantisek_horych_1791", "jistebnice_oddani_josef_mensik_1828", "jistebnice_krest_josef_mensik_1832", "jistebnice_oddani_josef_mensik_1865"],
 
-              note="Manželka zednického mistra Františka Horycha z Jistebnice, rozená Dědová. Oddána 18. 1. 1791 v Jistebnici."),
+              note="Manželka zednického mistra Františka Horycha z Jistebnice, dcera jistebnického měšťana Jana Děda z čp. 136. Narozena 2. 12. 1766 v Jistebnici. Dne 18. 1. 1791 byla v Jistebnici oddána s 22letým Františkem Horychem. Matka Barbory Menšíkové roz. Horychové (* 1801)."),
 
     132: dict(n="Antonín Šmedla st.", y="* cca 1771", st="doc",
 
@@ -1235,7 +1235,27 @@ P = {
 
 
 
-    # 8. generace (144–147, 264, 266, 342, 352–363, 510)
+    # 8. generace (144–147, 260, 262, 264, 266, 310, 311, 342, 352–363, 510)
+
+    260: dict(n="Jan Horych", y="před 1748–?", st="doc",
+
+              f=["měšťan a mistr zednický v Jistebnici", "otec Františka Horycha (* 1768)"],
+
+              zam="měšťan a mistr zednický v Jistebnici", puvod="Jistebnice",
+
+              r=["jistebnice_oddani_frantisek_horych_1791"],
+
+              note="Měšťan a mistr zednický v Jistebnici, poddaný k jistebnickému panství. Otec jistebnického zednického mistra Františka Horycha (* 1768). Doložen v synově oddacím zápisu roku 1791 (Horich Joan. civis murarius)."),
+
+    262: dict(n="Jan Děd", y="† před 1791", st="doc",
+
+              f=["měšťan v Jistebnici čp. 136", "† před 18. 1. 1791", "otec Barbory provdané Horychové (* 1766)"],
+
+              bydl="Jistebnice čp. 136", puvod="Jistebnice",
+
+              r=["jistebnice_oddani_frantisek_horych_1791"],
+
+              note="Měšťan v Jistebnici čp. 136, otec Barbory Dědové (* 1766) provdané Horychové. V oddacím zápise své dcery z 18. 1. 1791 je doložen jako již zemřelý (defunctus Joannes Děd, civis Jistebnicensis)."),
 
     264: dict(n="Josef Šmedla", y="† před 1793", st="doc",
 
