@@ -724,5 +724,17 @@
     "y": 40,
     "w": 850,
     "h": 480
+  },
+  "minice_umrti_anna_halikova_1856": {
+    "x": 20,
+    "y": 110,
+    "w": 1680,
+    "h": 590
+  },
+  "minice_umrti_alzbeta_halikova_1854": {
+    "x": 20,
+    "y": 380,
+    "w": 1680,
+    "h": 580
   }
 }

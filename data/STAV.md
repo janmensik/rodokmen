@@ -407,7 +407,17 @@ pak konec `research_log.md` a sekci „Rozpracováno“.
     - Vlastnoruční podpisy otců: *„Jozef Halik otec ženicha“* (vlastnoruční autograf předka č. 156!) a *„Tomáš Benc otec nevěsty“*.
     - Svědkové: Jan Wálek, gruntovník z Holubic; Josef Pavlíček, gruntovník z Kozince. Oddal farář Josef Schoválek.
     - Zásadní genealogický přínos: vysvětluje status Josefa Halíka jako vdovce při 2. sňatku 1855 a opravuje rok narození Josefa Halíka z původně odhadovaných 1826 na cca **1831**.
-  - V rodokmenu celkem evidováno **223 osob** (z toho **61 doložených primárních zápisů** ze snímků matrik v 75 svazcích, 85 řádků deníku hledání).
+  - **Dne 4. 11. 2026 nalezeno úmrtí 1. manželky Alžběty Halíkové roz. Bencové (5. 4. 1854 Holubice čp. 3)**:
+    - SOA Praha, kniha Minice 18 (sign. 8592 • 1825–1870), sn. 182, Fol. 359, 2. zápis (klíč: minice_umrti_alzbeta_halikova_1854).
+    - Zemřela 5. 4. 1854 v Holubicích čp. 3 ve věku 20 let a 9 měsíců na souchotiny/příjicní oubytě; pohřbena 8. 4. 1854 farářem Josefem Schovánkem.
+    - Zápis fixuje dobu jejího skonu a vysvětluje ovdovění 24letého Josefa Halíka ml. po dvou letech a 3 měsících manželství.
+
+  - **Dne 4. 11. 2026 nalezeno úmrtí praprababičky Anny Halíkové roz. Zárubové (13. 8. 1856 Holubice čp. 3)**:
+    - SOA Praha, kniha Minice 18 (sign. 8592 • 1825–1870), sn. 185, Fol. 365, 1. zápis (klíč: minice_umrti_anna_halikova_1856).
+    - Manželka sedláka Josefa Halíka st. z Holubic čp. 3 a matka Josefa Halíka ml. Zemřela 13. 8. 1856 v Holubicích čp. 3 ve věku 49 let na souchotiny (tuberkulózu plic); pohřbena 15. 8. 1856 farářem Josefem Schovánkem na minickém hřbitově.
+    - Zásadní genealogický přínos: určuje přesné datum úmrtí předkyně v 7. generaci (č. 157) a potvrzuje její narození kolem roku 1807 v Třebusicích.
+
+  - V rodokmenu celkem evidováno **223 osob** (z toho **63 doložených primárních zápisů** ze snímků matrik v 76 svazcích, 87 řádků deníku hledání).
 
 - Další kroky k prozkoumání:
   1. Původ hajného Leopolda Sýse (č. 58), narození jeho dcery Františky Sýsové (* cca 1880–1885) a její sňatek s mistrem kolářským Otakarem Janem Krejzkem (* 6. 5. 1877 Blažkov čp. 20) před r. 1905 – např. prostřednictvím sčítacích operátů 1921 pro Bystřici n. P. – Nové Dvory čp. 147 (SOkA Žďár nad Sázavou).
