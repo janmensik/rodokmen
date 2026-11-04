@@ -718,5 +718,11 @@
     ],
     "status": "ok",
     "note": "Křest Marie Procházkové (1833)"
+  },
+  "minice_oddani_josef_halik_1852": {
+    "x": 80,
+    "y": 40,
+    "w": 850,
+    "h": 480
   }
 }

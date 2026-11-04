@@ -400,7 +400,14 @@ pak konec `research_log.md` a sekci „Rozpracováno“.
       - **Anna Procházková roz. Nováková (č. 317)**: z Velkých Stránčic (evangelického augsburského vyznání).
       - **Jan Šára (č. 318)**: výminkář a sedlák v Holubicích čp. 4.
       - **Anna Šárová roz. Růžková (č. 319)**: z Minic čp. 23.
-  - V rodokmenu celkem evidováno **223 osob** (z toho **60 doložených primárních zápisů** ze snímků matrik v 74 svazcích, 84 řádků deníku hledání).
+  - **Dne 4. 11. 2026 nalezen 1. sňatek pradědečka Josefa Halíka ml. s Alžbětou Bencovou (13. 1. 1852 Kozinec čp. 5 / Minice)**:
+    - SOA Praha, kniha Minice 15 (sign. 8589 • 1826–1853), sn. 131, Fol. 133, 2. zápis (klíč: `minice_oddani_josef_halik_1852`).
+    - Ženich: Josef Halík (20 let, svobodný, * cca 1831), sedlák z Holubic čp. 3, syn Josefa Halíka gruntovníka z Holubic čp. 3 a matky Anny rodilé Zárubové z Dřevčic [Třebusic].
+    - Nevěsta: Alžběta Bencová (19 let, svobodná, * cca 1832) z Kozince čp. 5, dcera Tomáše Bence, gruntovníka z Kozince čp. 5 a matky Anny rodilé Poláčkové z Radlic.
+    - Vlastnoruční podpisy otců: *„Jozef Halik otec ženicha“* (vlastnoruční autograf předka č. 156!) a *„Tomáš Benc otec nevěsty“*.
+    - Svědkové: Jan Wálek, gruntovník z Holubic; Josef Pavlíček, gruntovník z Kozince. Oddal farář Josef Schoválek.
+    - Zásadní genealogický přínos: vysvětluje status Josefa Halíka jako vdovce při 2. sňatku 1855 a opravuje rok narození Josefa Halíka z původně odhadovaných 1826 na cca **1831**.
+  - V rodokmenu celkem evidováno **223 osob** (z toho **61 doložených primárních zápisů** ze snímků matrik v 75 svazcích, 85 řádků deníku hledání).
 
 - Další kroky k prozkoumání:
   1. Původ hajného Leopolda Sýse (č. 58), narození jeho dcery Františky Sýsové (* cca 1880–1885) a její sňatek s mistrem kolářským Otakarem Janem Krejzkem (* 6. 5. 1877 Blažkov čp. 20) před r. 1905 – např. prostřednictvím sčítacích operátů 1921 pro Bystřici n. P. – Nové Dvory čp. 147 (SOkA Žďár nad Sázavou).
