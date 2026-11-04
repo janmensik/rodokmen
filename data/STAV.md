@@ -371,7 +371,14 @@ pak konec `research_log.md` a sekci „Rozpracováno“.
     - Zápis odhalil a doložil **2 nové předky v 8. generaci**:
       - **Josef Schreber (č. 310)**: vrchnostenský hejtman a správce († před 1823).
       - **Klára Schreberová (č. 311)**: z Feldkirchu ve Vorarlbergu (Rakousko).
-  - V rodokmenu celkem evidováno **217 osob** (z toho **57 doložených primárních zápisů** ze snímků matrik v 72 svazcích, 81 řádků deníku hledání).
+  - **Dne 4. 11. 2026 nalezen sňatek pradědečka Josefa Halíka a Marie Procházkové (12. 6. 1855 Holubice čp. 4 / Minice)**:
+    - SOA Praha, kniha Minice 16 (sign. 8590 • 1854–1865), sn. 7, pag. 5, 3. zápis (klíč: `minice_oddani_josef_halik_1855`).
+    - Ženich: Josef Halík (29 let, vdovec, * cca 1826), sedlák z Holubic čp. 3, syn Josefa Halíka sedláka z Holubic čp. 3 a matky Anny rodilé Zárubové z Třebusic.
+    - Nevěsta: Maria Procházková (22 let, svobodná panna, * cca 1833), dcera Václava Procházky sedláka z Holubic čp. 4 a matky Barbory rodilé Šárové z Holubic.
+    - Svolení ke sňatku: písemný souhlas otce neplnoleté nevěsty s vlastnoručním podpisem "Wácslaw Procházka".
+    - Svědkové: František Šára a Jan Žalud, sousedé z Holubic.
+    - Zápis fixuje přesná data a věk: Josef Halík (* cca 1826) se ženil jako 29letý vdovec; Marie Procházková (* cca 1833) se vdávala jako 22letá panna.
+  - V rodokmenu celkem evidováno **217 osob** (z toho **58 doložených primárních zápisů** ze snímků matrik v 73 svazcích, 82 řádků deníku hledání).
 
 - Další kroky k prozkoumání:
   1. Původ hajného Leopolda Sýse (č. 58), narození jeho dcery Františky Sýsové (* cca 1880–1885) a její sňatek s mistrem kolářským Otakarem Janem Krejzkem (* 6. 5. 1877 Blažkov čp. 20) před r. 1905 – např. prostřednictvím sčítacích operátů 1921 pro Bystřici n. P. – Nové Dvory čp. 147 (SOkA Žďár nad Sázavou).

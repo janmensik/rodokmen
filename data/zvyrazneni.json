@@ -682,5 +682,17 @@
     ],
     "status": "ok",
     "note": "Zápis o narození a křtu Karolíny Harrerové"
+  },
+  "minice_oddani_josef_halik_1855": {
+    "boxes": [
+      [
+        0.005,
+        0.005,
+        0.995,
+        0.995
+      ]
+    ],
+    "status": "ok",
+    "note": "Zápis o sňatku Josefa Halíka a Marie Procházkové"
   }
 }
