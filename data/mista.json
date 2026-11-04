@@ -458,5 +458,11 @@
     "dotaz": "Minice, Kralupy nad Vltavou, Česko",
     "lat": 50.2319,
     "lon": 14.3015
+  },
+  "Podmokly": {
+    "re": "Podmokl",
+    "dotaz": "Podmokly, okres Kutná Hora, Česko",
+    "lat": 49.8825,
+    "lon": 15.4217
   }
 }

@@ -350,7 +350,15 @@ pak konec `research_log.md` a sekci „Rozpracováno“.
       - **Václav Procházka (č. 158)**: gruntovník v Holubicích čp. 4.
       - **Barbora Procházková roz. Sárová (č. 159)**: z Holubic.
     - Zároveň definitivně objasnil rodné příjmení Marie č. 79 jako **Procházková** (v německém zápise z r. 1886 zkomolené na Roháčková).
-  - V rodokmenu celkem evidováno **211 osob** (z toho **54 doložených primárních zápisů** ze snímků matrik v 69 svazcích, 78 řádků deníku hledání).
+  - **Narození a křest Antonína Jaroslava Tomíčka (30. 4. 1853 Kolín čp. 29, matrika Kolín 18, sn. 115, fol. 89):**
+    - Otec: Josef Tomíček, diurnista (úřední písař) podkrajského úřadu v Kolíně (později c. k. kancelista v Kouřimi), rodem z Podmokel čp. 117, manželský syn již zemřelého pekaře Michala Tomíčka z Podmokel a Anny roz. Skalské.
+    - Matka: Karolína, manželská dcera městského radního Josefa Harrera z Kolína čp. 122 a Johany roz. Schreberové.
+    - Zápis odhalil a doložil dalších **4 nové předky v 7. generaci**:
+      - **Michal Tomíček (č. 152)**: pekařský mistr v Podmoklech čp. 117 († před 1853).
+      - **Anna Tomíčková roz. Skalská (č. 153)**: z Podmokel.
+      - **Josef Harrer (č. 154)**: kolínský městský radní z Kolína čp. 122.
+      - **Johana Harrerová roz. Schreberová (č. 155)**: z Kolína.
+  - V rodokmenu celkem evidováno **215 osob** (z toho **55 doložených primárních zápisů** ze snímků matrik v 70 svazcích, 79 řádků deníku hledání).
 
 - Další kroky k prozkoumání:
   1. Původ hajného Leopolda Sýse (č. 58), narození jeho dcery Františky Sýsové (* cca 1880–1885) a její sňatek s mistrem kolářským Otakarem Janem Krejzkem (* 6. 5. 1877 Blažkov čp. 20) před r. 1905 – např. prostřednictvím sčítacích operátů 1921 pro Bystřici n. P. – Nové Dvory čp. 147 (SOkA Žďár nad Sázavou).
