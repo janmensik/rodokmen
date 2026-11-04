@@ -616,11 +616,11 @@ P = {
              zam="gruntovník v Holubicích, úředník cukrovaru v Lobči", bydl="Lobeč čp. 63, dříve Holubice čp. 3 a 63", puvod="Holubice čp. 3",
              r=["minice_oddani_josef_halik_1855", "minice_krest_anna_halikova_1857", "minice_oddani_antonin_tomicek_1880", "warta_krest_emma_tomickova_1886"],
              note="Pradědeček MUDr. Ludmily Menšíkové. Narozen kolem roku 1826 v Holubicích čp. 3 (manželský syn gruntovníka Josefa Halíka st. z Holubic čp. 3 a Anny roz. Zárubové z Třebusic). Dne 12. 6. 1855 se jako 29letý vdovec a sedlák v chrámu Páně v Minicích oženil s 22letou Marií roz. Procházkovou z Holubic čp. 4. Později působil jako úředník parního cukrovaru v Lobči u Kralup nad Vltavou čp. 63. Otec Anny Tomíčkové roz. Halíkové. Dne 29. 1. 1880 v Minicích osobně podepsal svolení ke sňatku své dcery Anny s Antonínem Tomíčkem."),
-    79: dict(n="Marie Halíková", y="* cca 1833 – ?", st="doc",
-             f=["* cca 1833 Holubice čp. 4", "× 12. 6. 1855 Minice (Josef Halík)"],
+    79: dict(n="Marie Halíková", y="* 1833 – ?", st="doc",
+             f=["* 23. 9. 1833 Holubice čp. 4", "× 12. 6. 1855 Minice (Josef Halík)"],
              roz="Procházková", bydl="Lobeč čp. 63, dříve Holubice čp. 4", puvod="Holubice čp. 4 (u Kralup nad Vltavou)",
-             r=["minice_oddani_josef_halik_1855", "minice_krest_anna_halikova_1857", "minice_oddani_antonin_tomicek_1880", "warta_krest_emma_tomickova_1886"],
-             note="Prababička MUDr. Ludmily Menšíkové. Narozena kolem roku 1833 v Holubicích čp. 4 jako manželská dcera gruntovníka Václava Procházky z Holubic čp. 4 a Barbory roz. Sárové z Holubic. Dne 12. 6. 1855 byla v Minicích oddána s 29letým sedlákem Josefem Halíkem z Holubic čp. 3; ke sňatku tehdy 22leté nevěsty připojil vlastnoruční souhlas její otec Václav Procházka. Matka Anny Tomíčkové roz. Halíkové. (V německém křestním zápise vnučky Emmy v západočeské Wartě roku 1886 bylo její příjmení foneticky zkomoleno na „Roháčková“, avšak v minických matrikách narození i oddání je jednoznačně doložena jako Procházková)."),
+             r=["minice_krest_marie_prochazkova_1833", "minice_oddani_josef_halik_1855", "minice_krest_anna_halikova_1857", "minice_oddani_antonin_tomicek_1880", "warta_krest_emma_tomickova_1886"],
+             note="Prababička MUDr. Ludmily Menšíkové. Narozena 23. 9. 1833 v 5 hodin ráno v Holubicích čp. 4 (pokřtěna téhož dne kaplanem P. Janem Němcem, bába Magdalena Müllerová z Holubic) jako manželská dcera sedláka Václava Procházky z Holubic čp. 4 a Barbory roz. Šárové. V záhlaví křestní matriky je přípis 'Dne 15. října 1853 vydán křestní list k oddavkám'. Dne 12. 6. 1855 byla v Minicích oddána s 29letým sedlákem Josefem Halíkem z Holubic čp. 3; ke sňatku tehdy 22leté nevěsty připojil vlastnoruční souhlas její otec Václav Procházka. Matka Anny Tomíčkové roz. Halíkové. (V německém křestním zápise vnučky Emmy v západočeské Wartě roku 1886 bylo její příjmení foneticky zkomoleno na „Roháčková“, avšak v minických matrikách narození i oddání je jednoznačně doložena jako Procházková)."),
 
     84: dict(n="otec neuveden", y="", st="unk",
 
@@ -962,16 +962,16 @@ P = {
               roz="Zárubová", bydl="Holubice čp. 3", puvod="Třebusice (panství Zvolenoves)",
               r=["minice_oddani_josef_halik_1855", "minice_krest_anna_halikova_1857"],
               note="Praprababička MUDr. Ludmily Menšíkové. Pocházela z Třebusic na Kladensku (panství Zvolenoves), manželka gruntovníka Josefa Halíka st. z Holubic čp. 3 a matka Josefa Halíka ml. Doložena v oddací matrice syna (1855) i v matrice křtu vnučky Anny Marie (1857, kde je již uvedena jako zemřelá)."),
-    158: dict(n="Václav Procházka", y="před 1835–?", st="doc",
-              f=["gruntovník v Holubicích čp. 4", "× Barbora Sárová"],
-              zam="gruntovník v Holubicích", bydl="Holubice čp. 4", puvod="Holubice",
-              r=["minice_oddani_josef_halik_1855", "minice_krest_anna_halikova_1857"],
-              note="Prapradědeček MUDr. Ludmily Menšíkové, gruntovník v Holubicích čp. 4 (panství Nelahozeves). Manžel Barbory roz. Sárové z Holubic a otec Marie Procházkové provdané Halíkové. Dne 12. 6. 1855 vlastnoručně podepsal svolení ke sňatku své neplnoleté dcery Marie se sedlákem Josefem Halíkem."),
-    159: dict(n="Barbora Procházková", y="před 1835–?", st="doc",
-              f=["* Holubice", "× Václav Procházka"],
-              roz="Sárová", bydl="Holubice čp. 4", puvod="Holubice",
-              r=["minice_oddani_josef_halik_1855", "minice_krest_anna_halikova_1857"],
-              note="Praprababička MUDr. Ludmily Menšíkové. Pocházela z Holubic, manželka gruntovníka Václava Procházky z Holubic čp. 4 a matka Marie Procházkové provdané Halíkové."),
+    158: dict(n="Václav Procházka", y="před 1815–?", st="doc",
+              f=["sedlák v Holubicích čp. 4", "× Barbora Šárová", "syn zednického mistra Martina Procházky z Lenešic a Anny roz. Novákové z Velkých Stránčic"],
+              zam="sedlák v Holubicích", bydl="Holubice čp. 4", puvod="Holubice / Lenešice",
+              r=["minice_krest_marie_prochazkova_1833", "minice_oddani_josef_halik_1855", "minice_krest_anna_halikova_1857"],
+              note="Prapradědeček MUDr. Ludmily Menšíkové, sedlák v Holubicích čp. 4. Manželský syn Martina Procházky, mistra zednického z Lenešic (u Loun), a matky Anny roz. Novákové z Velkých Stránčic (evangelického augsburského vyznání). Manžel Barbory roz. Šárové z Holubic čp. 4 a otec Marie Procházkové provdané Halíkové. Dne 12. 6. 1855 vlastnoručně podepsal svolení ke sňatku své neplnoleté dcery Marie se sedlákem Josefem Halíkem."),
+    159: dict(n="Barbora Procházková", y="před 1815–?", st="doc",
+              f=["* Holubice čp. 4", "× Václav Procházka", "dcera Jana Šáry z Holubic čp. 4 a Anny roz. Růžkové z Minic čp. 23"],
+              roz="Šárová", bydl="Holubice čp. 4", puvod="Holubice čp. 4",
+              r=["minice_krest_marie_prochazkova_1833", "minice_oddani_josef_halik_1855", "minice_krest_anna_halikova_1857"],
+              note="Praprababička MUDr. Ludmily Menšíkové. Manželská dcera Jana Šáry, výminkáře a sedláka z Holubic čp. 4, a matky Anny roz. Růžkové (v matrice Růžanck) z Minic čp. 23 (katolického vyznání). Manželka sedláka Václava Procházky z Holubic čp. 4 a matka Marie Procházkové provdané Halíkové."),
 
     170: dict(n="Josef Jarolím", y="", st="doc",
 
@@ -1235,7 +1235,7 @@ P = {
 
 
 
-    # 8. generace (144–147, 260, 262, 264, 266, 310, 311, 342, 352–363, 510)
+    # 8. generace (144–147, 260, 262, 264, 266, 310, 311, 316–319, 342, 352–363, 510)
 
     260: dict(n="Jan Horych", y="před 1748–?", st="doc",
 
@@ -1285,6 +1285,26 @@ P = {
               bydl="Feldkirch, Kolín", puvod="Feldkirch",
               r=["kolin_krest_karolina_harrerova_1823"],
               note="Předek v 8. generaci MUDr. Ludmily Menšíkové (prapraprababička). Pocházela z alpského města Feldkirch ve Vorarlbergu v západním Rakousku. Manželka vrchnostenského úředníka Josefa Schrebera a matka Johany Harrerové roz. Schreberové."),
+    316: dict(n="Martin Procházka", y="před 1795–?", st="doc",
+              f=["mistr zednický v Lenešicích (u Loun)", "× Anna Nováková", "otec sedláka Václava Procházky z Holubic čp. 4"],
+              zam="mistr zednický", bydl="Lenešice (okres Louny)", puvod="Lenešice",
+              r=["minice_krest_marie_prochazkova_1833"],
+              note="Předek v 8. generaci MUDr. Ludmily Menšíkové (praprapradědeček). Mistr zednický v Lenešicích u Loun. Manžel Anny roz. Novákové z Velkých Stránčic a otec holubického sedláka Václava Procházky. Doložen v křestní matrice vnučky Marie Procházkové (Minice 12, sn. 73)."),
+    317: dict(n="Anna Procházková", y="před 1795–?", st="doc",
+              f=["* Velké Stránčice", "evangelického augsburského vyznání (A. C.)", "× Martin Procházka", "matka sedláka Václava Procházky z Holubic čp. 4"],
+              roz="Nováková", bydl="Lenešice", puvod="Velké Stránčice (Stránčice)",
+              r=["minice_krest_marie_prochazkova_1833"],
+              note="Předek v 8. generaci MUDr. Ludmily Menšíkové (prapraprababička). Pocházela z Velkých Stránčic jako dcera rodu Novákových. Byla evangelického augsburského vyznání (Augsburgicae Confessionis). Manželka zednického mistra Martina Procházky z Lenešic u Loun a matka Václava Procházky. Doložena v křestní matrice vnučky Marie Procházkové (Minice 12, sn. 73)."),
+    318: dict(n="Jan Šára", y="před 1795–?", st="doc",
+              f=["sedlák a výminkář v Holubicích čp. 4", "× Anna Růžková", "otec Barbory provdané Procházkové"],
+              zam="sedlák a výminkář v Holubicích čp. 4", bydl="Holubice čp. 4", puvod="Holubice",
+              r=["minice_krest_marie_prochazkova_1833"],
+              note="Předek v 8. generaci MUDr. Ludmily Menšíkové (praprapradědeček). Sedlák a výminkář v Holubicích čp. 4 na panství Nelahozeves. Manžel Anny roz. Růžkové z Minic čp. 23 a otec Barbory Šárové provdané Procházkové. Doložen v křestní matrice vnučky Marie Procházkové (Minice 12, sn. 73)."),
+    319: dict(n="Anna Šárová", y="před 1795–?", st="doc",
+              f=["* Minice čp. 23", "× Jan Šára", "matka Barbory provdané Procházkové"],
+              roz="Růžková", bydl="Holubice čp. 4", puvod="Minice čp. 23",
+              r=["minice_krest_marie_prochazkova_1833"],
+              note="Předek v 8. generaci MUDr. Ludmily Menšíkové (prapraprababička). Pocházela z Minic čp. 23 (rod Růžků / v matrice psáno Růžanck). Katolického vyznání. Manželka výminkáře Jana Šáry v Holubicích čp. 4 a matka Barbory Šárové provdané Procházkové. Doložena v křestní matrice vnučky Marie Procházkové (Minice 12, sn. 73)."),
     342: dict(n="Josef Táborský", y="", st="doc",
 
               f=[], bydl="Žleby čp. 7 / čp. 126",

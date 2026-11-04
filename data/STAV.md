@@ -388,7 +388,19 @@ pak konec `research_log.md` a sekci „Rozpracováno“.
       - **Jan Horych (č. 260)**: jistebnický měšťan a mistr zednický.
       - **Jan Děd (č. 262)**: jistebnický měšťan z čp. 136 († před 1791).
     - Zápis zároveň přinesl přesná data narození Františka Horycha (* 1. 8. 1768) a Barbory Dědové (* 2. 12. 1766) zapsaná formou přípisu přímo u věku snoubenců.
-  - V rodokmenu celkem evidováno **219 osob** (z toho **59 doložených primárních zápisů** ze snímků matrik v 73 svazcích, 83 řádků deníku hledání).
+  - **Dne 4. 11. 2026 nalezeno narození a křest prababičky Marie Procházkové (23. 9. 1833 Holubice čp. 4)**:
+    - SOA Praha, kniha Minice 12 (sign. 8586 • 1825–1846), sn. 73, Fol. 72, 2. zápis (klíč: `minice_krest_marie_prochazkova_1833`).
+    - Narozená 23. 9. 1833 v 5 hodin ráno v Holubicích čp. 4, pokřtěná téhož dne kaplanem P. Janem Němcem; bába Magdalena Müllerová z Holubic.
+    - Dítě: Marya Procházka. V záhlaví je přípis: *„Dne 15. října 1853 vydán křestní list k oddavkám“* (pro sňatek s Josefem Halíkem 1855!).
+    - Otec: Václav Procházka sedlák, syn **Martina Procházky** mistra zednického z **Lenešic** (u Loun) a matky **Anny roz. Novákové** z **Velkých Stránčic** augsburského evangelického vyznání (*Augsburgicae Confessionis*).
+    - Matka: Barbora dcera **Jana Šáry** výminkáře z Holubic čp. 4 a matky **Anny roz. Růžkové** z Minic čp. 23 (katolického vyznání).
+    - Kmotři: Alžběta Hillebrandová dcera po zemřelém Antonínu Hillebrandovi, panském šafáři z Červeného Újezdce; Václav Douša učitel minický.
+    - Zápis odhalil a doložil **4 nové předky v 8. generaci**:
+      - **Martin Procházka (č. 316)**: mistr zednický z Lenešic u Loun.
+      - **Anna Procházková roz. Nováková (č. 317)**: z Velkých Stránčic (evangelického augsburského vyznání).
+      - **Jan Šára (č. 318)**: výminkář a sedlák v Holubicích čp. 4.
+      - **Anna Šárová roz. Růžková (č. 319)**: z Minic čp. 23.
+  - V rodokmenu celkem evidováno **223 osob** (z toho **60 doložených primárních zápisů** ze snímků matrik v 74 svazcích, 84 řádků deníku hledání).
 
 - Další kroky k prozkoumání:
   1. Původ hajného Leopolda Sýse (č. 58), narození jeho dcery Františky Sýsové (* cca 1880–1885) a její sňatek s mistrem kolářským Otakarem Janem Krejzkem (* 6. 5. 1877 Blažkov čp. 20) před r. 1905 – např. prostřednictvím sčítacích operátů 1921 pro Bystřici n. P. – Nové Dvory čp. 147 (SOkA Žďár nad Sázavou).
