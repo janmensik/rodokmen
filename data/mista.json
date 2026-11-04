@@ -440,5 +440,23 @@
     "dotaz": "Horní Studenec, Ždírec nad Doubravou, Česko",
     "lat": 49.7219,
     "lon": 15.8058
+  },
+  "Chomutov": {
+    "re": "Chomutov",
+    "dotaz": "Chomutov, Česko",
+    "lat": 50.4605,
+    "lon": 13.4178
+  },
+  "Třebusice": {
+    "re": "Třebusic",
+    "dotaz": "Třebusice, Česko",
+    "lat": 50.2023,
+    "lon": 14.1785
+  },
+  "Minice": {
+    "re": "Minic",
+    "dotaz": "Minice, Kralupy nad Vltavou, Česko",
+    "lat": 50.2319,
+    "lon": 14.3015
   }
 }

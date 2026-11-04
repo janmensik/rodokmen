@@ -336,6 +336,22 @@ pak konec `research_log.md` a sekci „Rozpracováno“.
   - Do rodokmenu nově doloženi 4 noví předci v 6. generaci: Josef Tomíček (č. 76), Karolina Harrerová (č. 77), Josef Halík (č. 78) a Marie Roháčková (č. 79).
   - V rodokmenu celkem evidováno **207 osob** (z toho **52 doložených primárních zápisů** ze snímků matrik v 67 svazcích, 76 řádků deníku hledání).
 
+- 4. 11. 2026 (pokračování výzkumu – větev Tomíček / Halík v matrikách SOA Praha – eBadatelna):
+  - **Sňatek Antonína Tomíčka a Anny Halíkové (29. 1. 1880 Minice, kniha 25, sn. 114, fol. 112):**
+    - Ženich: Antonín Tomíček (26 let, nar. 30. 4. 1853 Kolín), úředník Buštěhradské dráhy v Chomutově čp. 608, příslušný do Kouřimi, syn již zemřelého Josefa Tomíčka, c. k. kancelisty v Kouřimi a Karolíny roz. Harrerové z Kolína čp. 122.
+    - Nevěsta: Anna Halíková (22 let, nar. 7. 3. 1857 Lobeč čp. 63), dcera Josefa Halíka, úředníka cukrovaru v Lobči čp. 63 a Marie roz. Procházkové z Holubic čp. 4.
+    - Zápis přinesl přesná data narození obou snoubenců a potvrdil jejich původ.
+  - **Narození a křest Anny Marie Halíkové (7. 3. 1857 Lobeč čp. 63, matrika Minice 13, sn. 149, pag. 148):**
+    - Otec: Josef Halík, gruntovník v Holubicích čp. 63 (nar. v Holubicích čp. 3), syn Josefa Halíka st. a Anny roz. Zárubové z Třebusic.
+    - Matka: Marie, dcera Václava Procházky (gruntovníka v Holubicích čp. 4) a Barbory roz. Sárové z Holubic.
+    - Zápis odhalil a doložil **4 nové předky v 7. generaci**:
+      - **Josef Halík st. (č. 156)**: gruntovník v Holubicích čp. 3.
+      - **Anna Halíková roz. Zárubová (č. 157)**: z Třebusic († před 1857).
+      - **Václav Procházka (č. 158)**: gruntovník v Holubicích čp. 4.
+      - **Barbora Procházková roz. Sárová (č. 159)**: z Holubic.
+    - Zároveň definitivně objasnil rodné příjmení Marie č. 79 jako **Procházková** (v německém zápise z r. 1886 zkomolené na Roháčková).
+  - V rodokmenu celkem evidováno **211 osob** (z toho **54 doložených primárních zápisů** ze snímků matrik v 69 svazcích, 78 řádků deníku hledání).
+
 - Další kroky k prozkoumání:
   1. Původ hajného Leopolda Sýse (č. 58), narození jeho dcery Františky Sýsové (* cca 1880–1885) a její sňatek s mistrem kolářským Otakarem Janem Krejzkem (* 6. 5. 1877 Blažkov čp. 20) před r. 1905 – např. prostřednictvím sčítacích operátů 1921 pro Bystřici n. P. – Nové Dvory čp. 147 (SOkA Žďár nad Sázavou).
   2. Slovenská řeckokatolická větev Čáki a Bubanec v matrikách farností Dúbrava, Ruský Hrabovec a Strihovce (Štátny archív v Prešove / FamilySearch): křestní jméno dědečka Čákiho († 5. 10. 1926 Dúbrava čp. 42), rodná příjmení Maryi Čákiové (* 21. 10. 1896 Strihovce) a Júlie Čákiové (* 15. 9. 1868 Strihovce) a potvrzení rodiny Marie Bubancové v Šmigovci (čp. 10 vs. čp. 34).

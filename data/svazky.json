@@ -588,5 +588,21 @@
   "popis": "Stráž nad Ohří (Warta); Nro. III. Geburtsbuch für die [ ] Warta [ ] Jänner 1857",
   "snimku": 253,
   "url": "https://www.portafontium.eu/register/soap-pn/straz-nad-ohri-05"
+ },
+ "ebad_8599": {
+  "archiv": "SOA Praha – Sbírka matrik",
+  "portal": "eBadatelna",
+  "svazek": "Minice 25, O 1865–1898, Oi 1865–1898",
+  "popis": "Debrno, Holubice, Kozinec, Kralupy nad Vltavou, Lobeč, Minice, Otvovice",
+  "snimku": 299,
+  "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/8599"
+ },
+ "ebad_8587": {
+  "archiv": "SOA Praha – Sbírka matrik",
+  "portal": "eBadatelna",
+  "svazek": "Minice 13, N 1846–1864, Ni 1846–1864",
+  "popis": "Debrno, Holubice, Kozinec, Kralupy nad Vltavou, Lobeč, Minice, Otvovice",
+  "snimku": 360,
+  "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/8587"
  }
 }

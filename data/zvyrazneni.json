@@ -622,5 +622,29 @@
     ],
     "status": "ok",
     "note": "Sčítací arch rodiny Andreje Búbance v Šmigovci čp. 34 (1930)"
+  },
+  "minice_oddani_antonin_tomicek_1880": {
+    "boxes": [
+      [
+        0.005,
+        0.005,
+        0.995,
+        0.995
+      ]
+    ],
+    "status": "ok",
+    "note": "Zápis o sňatku Antonína Tomíčka a Anny Halíkové"
+  },
+  "minice_krest_anna_halikova_1857": {
+    "boxes": [
+      [
+        0.005,
+        0.005,
+        0.995,
+        0.995
+      ]
+    ],
+    "status": "ok",
+    "note": "Zápis o narození a křtu Anny Marie Halíkové"
   }
 }
