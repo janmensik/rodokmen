@@ -347,7 +347,23 @@ pak konec `research_log.md` a sekci „Rozpracováno“.
       - V SOA Zámrsk (ARON) lokalizovány samostatné knihy narozených pro jednotlivé osady: pro Chlum kniha sign. 3713 (`7d0b8d06`, 1848–1891, kde je zapsána Aloisie Pospíchalová * 6. 1. 1875 Chlum čp. 35) a pro Hlubokou kniha sign. 6030 (`c66bfff0`, 1838–1908, kde je zapsán Franz Henzl * 12. 7. 1872 Hluboká čp. 15).
     - **Větev Fridrich Hůlek (Žleby / Auersperg)**:
       - Prověřena kniha Žleby 36 (Ni 1880–1909), kde rod Hůlků sídlil v Lipovci čp. 16 a Hostoulicích čp. 40; lesní inženýr Fridrich Hůlek se narodil mimo Žleby nebo přišel z jiného auersperského panství / po studiích.
-    - V rodokmenu celkem evidováno **225 osob** (z toho **64 doložených primárních zápisů** v **83 svazcích**, 89 řádků deníku hledání).
+  - **Dne 5. 11. 2026 nalezeno a doloženo narození a křest prababičky Aloisie Pospíchalové (* 8. 1. 1875 Chlum čp. 31)**:
+    - SOA Zámrsk / ARON, Sbírka matrik Východočeského kraje, kniha Chlum sign. 3713 (poř.č. 5447 • N 1848–1891), sn. 117, pag. 114, poslední zápis (klíč: chlum_krest_aloisie_pospichalova_1875).
+    - Narozená 8. 1. 1875 v Chlumu čp. 31, pokřtěná téhož dne farářem P. J. Šimkem; bába Marie Šunová z Chlumu čp. 92.
+    - Zapsána jako nemanželská dcera, legitimovaná následným sňatkem rodičů dne 4. 2. 1876 (*Haec proles per subsequens matrimonium die 4. februarii 1876 celebratum [Lit. O. pag. 22] legitimata est*).
+    - Otec: Jan Pospíchal (č. 94), katolík, tesař v Chlumu č. 32 (35), manželský syn Tomáše Pospíchala (č. 188), domkaře v Chlumu čp. 35 a jeho manželky Josefy roz. Kasalové (č. 189) z Krucemburku čp. 42.
+    - Matka: Františka (č. 95), katolička, manželská dcera Jana Podroužka (č. 190), půlníka v Chlumu čp. 31 a jeho manželky Antonie roz. Řeháčkové (č. 191), dcery Josefa Řeháčka (č. 382) z Chlumu čp. 120.
+    - Kmotra: babička Antonie Podroužková, manželka Jana Podroužka, půlníka z Chlumu čp. 31.
+    - Přípisy na okraji: vystavení křestního listu k 15. 10. 1940 a sňatek s truhlářem Franzem Henzlem (* 12. 7. 1872 Hluboká čp. 15).
+    - Zásadní genealogický přínos: vyvrací dosavadní neověřenou rodinnou tradici o rodičích (František Pospíchal a Anna Bencová) a doloženě odhaluje **7 nových předků v 7. až 9. generaci**:
+      - **Jan Pospíchal (č. 94)**: tesař v Chlumu čp. 32 a 35 (* před 1855).
+      - **Františka Pospíchalová roz. Podroužková (č. 95)**: z Chlumu čp. 31 (* před 1857).
+      - **Tomáš Pospíchal (č. 188)**: domkař v Chlumu čp. 35 (* před 1835).
+      - **Josefa Pospíchalová roz. Kasalová (č. 189)**: z Krucemburku čp. 42 (* před 1835).
+      - **Jan Podroužek (č. 190)**: půlník v Chlumu čp. 31 (* před 1835).
+      - **Antonie Podroužková roz. Řeháčková (č. 191)**: z Chlumu čp. 120 (* před 1835).
+      - **Josef Řeháček (č. 382)**: obyvatel/půlník v Chlumu čp. 120 (* před 1815).
+    - V rodokmenu celkem evidováno **232 osob** (z toho **65 doložených primárních zápisů** v **83 svazcích**, **90 řádků deníku hledání**).
 
 - 4. 11. 2026 (pokračování výzkumu – větev Tomíček / Halík v matrikách SOA Praha – eBadatelna):
   - **Sňatek Antonína Tomíčka a Anny Halíkové (29. 1. 1880 Minice, kniha 25, sn. 114, fol. 112):**
@@ -443,7 +459,23 @@ pak konec `research_log.md` a sekci „Rozpracováno“.
       - V SOA Zámrsk (ARON) lokalizovány samostatné knihy narozených pro jednotlivé osady: pro Chlum kniha sign. 3713 (`7d0b8d06`, 1848–1891, kde je zapsána Aloisie Pospíchalová * 6. 1. 1875 Chlum čp. 35) a pro Hlubokou kniha sign. 6030 (`c66bfff0`, 1838–1908, kde je zapsán Franz Henzl * 12. 7. 1872 Hluboká čp. 15).
     - **Větev Fridrich Hůlek (Žleby / Auersperg)**:
       - Prověřena kniha Žleby 36 (Ni 1880–1909), kde rod Hůlků sídlil v Lipovci čp. 16 a Hostoulicích čp. 40; lesní inženýr Fridrich Hůlek se narodil mimo Žleby nebo přišel z jiného auersperského panství / po studiích.
-    - V rodokmenu celkem evidováno **225 osob** (z toho **64 doložených primárních zápisů** v **83 svazcích**, 89 řádků deníku hledání).
+  - **Dne 5. 11. 2026 nalezeno a doloženo narození a křest prababičky Aloisie Pospíchalové (* 8. 1. 1875 Chlum čp. 31)**:
+    - SOA Zámrsk / ARON, Sbírka matrik Východočeského kraje, kniha Chlum sign. 3713 (poř.č. 5447 • N 1848–1891), sn. 117, pag. 114, poslední zápis (klíč: chlum_krest_aloisie_pospichalova_1875).
+    - Narozená 8. 1. 1875 v Chlumu čp. 31, pokřtěná téhož dne farářem P. J. Šimkem; bába Marie Šunová z Chlumu čp. 92.
+    - Zapsána jako nemanželská dcera, legitimovaná následným sňatkem rodičů dne 4. 2. 1876 (*Haec proles per subsequens matrimonium die 4. februarii 1876 celebratum [Lit. O. pag. 22] legitimata est*).
+    - Otec: Jan Pospíchal (č. 94), katolík, tesař v Chlumu č. 32 (35), manželský syn Tomáše Pospíchala (č. 188), domkaře v Chlumu čp. 35 a jeho manželky Josefy roz. Kasalové (č. 189) z Krucemburku čp. 42.
+    - Matka: Františka (č. 95), katolička, manželská dcera Jana Podroužka (č. 190), půlníka v Chlumu čp. 31 a jeho manželky Antonie roz. Řeháčkové (č. 191), dcery Josefa Řeháčka (č. 382) z Chlumu čp. 120.
+    - Kmotra: babička Antonie Podroužková, manželka Jana Podroužka, půlníka z Chlumu čp. 31.
+    - Přípisy na okraji: vystavení křestního listu k 15. 10. 1940 a sňatek s truhlářem Franzem Henzlem (* 12. 7. 1872 Hluboká čp. 15).
+    - Zásadní genealogický přínos: vyvrací dosavadní neověřenou rodinnou tradici o rodičích (František Pospíchal a Anna Bencová) a doloženě odhaluje **7 nových předků v 7. až 9. generaci**:
+      - **Jan Pospíchal (č. 94)**: tesař v Chlumu čp. 32 a 35 (* před 1855).
+      - **Františka Pospíchalová roz. Podroužková (č. 95)**: z Chlumu čp. 31 (* před 1857).
+      - **Tomáš Pospíchal (č. 188)**: domkař v Chlumu čp. 35 (* před 1835).
+      - **Josefa Pospíchalová roz. Kasalová (č. 189)**: z Krucemburku čp. 42 (* před 1835).
+      - **Jan Podroužek (č. 190)**: půlník v Chlumu čp. 31 (* před 1835).
+      - **Antonie Podroužková roz. Řeháčková (č. 191)**: z Chlumu čp. 120 (* před 1835).
+      - **Josef Řeháček (č. 382)**: obyvatel/půlník v Chlumu čp. 120 (* před 1815).
+    - V rodokmenu celkem evidováno **232 osob** (z toho **65 doložených primárních zápisů** v **83 svazcích**, **90 řádků deníku hledání**).
 
 - Další kroky k prozkoumání:
   1. Původ hajného Leopolda Sýse (č. 58), narození jeho dcery Františky Sýsové (* cca 1880–1885) a její sňatek s mistrem kolářským Otakarem Janem Krejzkem (* 6. 5. 1877 Blažkov čp. 20) před r. 1905 – např. prostřednictvím sčítacích operátů 1921 pro Bystřici n. P. – Nové Dvory čp. 147 (SOkA Žďár nad Sázavou).

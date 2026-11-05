@@ -425,11 +425,12 @@ P = {
 
              note="Narozen 12. 7. 1872 v Hluboké čp. 15. Truhlář a hostinský na rodové usedlosti čp. 15 v Hluboké u Krucemburku. Syn čtvrtláníka Václava Henzla (* 1844) a Marie roz. Procházkové z čp. 7; vnuk kováře a zámečníka Jana Henzla. S manželkou Aloisií roz. Pospíchalovou představovali třetí generaci rodu Henzlů na gruntě čp. 15; otec Sofie Holánkové roz. Henzlové."),
 
-    47: dict(n="Aloisie Pospíchalová", y="1875–1957", st="fam",
-
-             f=["* 6. 1. 1875 Chlum čp. 35", "× Franz Henzl", "† 1957"], r=[],
-
-             note="Narozena v Chlumu / Radostíně jako dcera Františka Pospíchala a Anny roz. Bencové. Manželka truhláře a hostinského Franze Henzla na rodovém gruntě čp. 15 v Hluboké a maminka Sofie Holánkové roz. Henzlové (* 1904)."),
+    47: dict(n="Aloisie Pospíchalová", y="1875–1957", st="doc",
+             f=["* 8. 1. 1875 Chlum čp. 31", "křest 8. 1. 1875 Chlum (P. J. Šimek)",
+                "legitimována sňatkem rodičů 4. 2. 1876", "× Franz Henzl", "† 1957"],
+             r=["chlum_krest_aloisie_pospichalova_1875"],
+             bydl="Chlum čp. 31, později Hluboká čp. 15", puvod="Chlum čp. 31",
+             note="Prababička Jana Menšíka. Narozena 8. 1. 1875 v Chlumu čp. 31 a téhož dne pokřtěna farářem J. Šimkem. Dcera tesaře Jana Pospíchala a Františky roz. Podroužkové; legitimována následným sňatkem rodičů dne 4. 2. 1876 (oddací kniha farnosti, Lit. O. pag. 22). Matriční záznam vyvrací starší rodinnou tradici o rodičích (František Pospíchal a Anna Bencová). Manželka truhláře a hostinského Franze Henzla na rodovém gruntě čp. 15 v Hluboké a maminka Sofie Holánkové roz. Henzlové (* 1904)."),
 
 
 
@@ -699,8 +700,23 @@ P = {
              note="Údaje z rodinného stromu PDF."),
 
     93: dict(n="Marie Procházková", y="", st="fam",
-
              f=["× Václav Henzl"], bydl="Hluboká čp. 7", r=[], note="Údaje z rodinného stromu PDF."),
+
+    94: dict(n="Jan Pospíchal", y="před 1855 – ?", st="doc",
+             f=["* před 1855 Chlum", "tesař v Chlumu č. 32 a čp. 35",
+                "× 4. 2. 1876 Krucemburk / Chlum (Františka Podroužková)",
+                "syn Tomáše Pospíchala, domkaře v Chlumu čp. 35 a Josefy Kasalové z Krucemburku čp. 42"],
+             zam="tesař v Chlumu", bydl="Chlum čp. 32 a 35", puvod="Chlum čp. 35",
+             r=["chlum_krest_aloisie_pospichalova_1875"],
+             note="Prapradědeček Jana Menšíka, tesař v Chlumu čp. 32 a 35. Manželský syn Tomáše Pospíchala, domkaře v Chlumu čp. 35 a Josefy roz. Kasalové z Krucemburku čp. 42. Dne 4. 2. 1876 uzavřel sňatek s Františkou Podroužkovou z Chlumu čp. 31, čímž legitimoval dceru Aloisii (* 8. 1. 1875)."),
+
+    95: dict(n="Františka Pospíchalová", y="před 1857 – ?", st="doc",
+             f=["* před 1857 Chlum čp. 31",
+                "× 4. 2. 1876 Krucemburk / Chlum (Jan Pospíchal)",
+                "dcera Jana Podroužka, půlníka v Chlumu čp. 31 a Antonie Řeháčkové z čp. 120"],
+             roz="Podroužková", bydl="Chlum čp. 31", puvod="Chlum čp. 31",
+             r=["chlum_krest_aloisie_pospichalova_1875"],
+             note="Praprababička Jana Menšíka. Manželská dcera Jana Podroužka, půlníka v Chlumu čp. 31 a Antonie roz. Řeháčkové (dcery Josefa Řeháčka z Chlumu čp. 120). Dne 4. 2. 1876 se provdala za tesaře Jana Pospíchala z Chlumu čp. 35."),
 
 
 
@@ -1094,8 +1110,31 @@ P = {
               f=["× Anna Nováková", "† před 1872"], zam="kovář a zámečník", bydl="Hluboká čp. 15", r=[], note="Údaje z rodinného stromu PDF."),
 
     185: dict(n="Anna Nováková", y="", st="fam",
-
               f=["× Jan Henzl"], bydl="Chlumětín", r=[], note="Údaje z rodinného stromu PDF (psána Anna Nowak)."),
+
+    188: dict(n="Tomáš Pospíchal", y="před 1835 – ?", st="doc",
+              f=["domkař v Chlumu čp. 35", "× Josefa Kasalová"],
+              zam="domkař v Chlumu", bydl="Chlum čp. 35", puvod="Chlum",
+              r=["chlum_krest_aloisie_pospichalova_1875"],
+              note="Pra-pra-pradědeček Jana Menšíka, domkař v Chlumu čp. 35. Manžel Josefy roz. Kasalové z Krucemburku čp. 42 a otec tesaře Jana Pospíchala."),
+
+    189: dict(n="Josefa Pospíchalová", y="před 1835 – ?", st="doc",
+              f=["* před 1835 Krucemburk čp. 42", "× Tomáš Pospíchal"],
+              roz="Kasalová", bydl="Chlum čp. 35", puvod="Krucemburk čp. 42",
+              r=["chlum_krest_aloisie_pospichalova_1875"],
+              note="Pra-pra-prababička Jana Menšíka, rozená Kasalová z Krucemburku čp. 42. Manželka domkaře Tomáše Pospíchala v Chlumu čp. 35 a matka tesaře Jana Pospíchala."),
+
+    190: dict(n="Jan Podroužek", y="před 1835 – ?", st="doc",
+              f=["půlník v Chlumu čp. 31", "× Antonie Řeháčková"],
+              zam="půlník v Chlumu", bydl="Chlum čp. 31", puvod="Chlum",
+              r=["chlum_krest_aloisie_pospichalova_1875"],
+              note="Pra-pra-pradědeček Jana Menšíka, půlník v Chlumu čp. 31. Manžel Antonie roz. Řeháčkové a otec Františky Podroužkové provdané Pospíchalové."),
+
+    191: dict(n="Antonie Podroužková", y="před 1835 – ?", st="doc",
+              f=["* před 1835 Chlum čp. 120", "× Jan Podroužek", "kmotra vnučky Aloisie (1875)"],
+              roz="Řeháčková", bydl="Chlum čp. 31", puvod="Chlum čp. 120",
+              r=["chlum_krest_aloisie_pospichalova_1875"],
+              note="Pra-pra-prababička Jana Menšíka, rozená Řeháčková z Chlumu čp. 120 (dcera Josefa Řeháčka). Manželka půlníka Jana Podroužka v Chlumu čp. 31 a kmotra své vnučky Aloisie Pospíchalové při křtu 8. 1. 1875."),
 
 
 
@@ -1348,8 +1387,13 @@ P = {
               f=["× Kateřina Dušková"], r=[], note="Údaje z rodinného stromu PDF."),
 
     363: dict(n="Kateřina Dušková", y="", st="fam",
-
               f=["× Ondřej Halík"], r=[], note="Údaje z rodinného stromu PDF."),
+
+    382: dict(n="Josef Řeháček", y="před 1815 – ?", st="doc",
+              f=["obyvatel / půlník v Chlumu čp. 120"],
+              bydl="Chlum čp. 120", puvod="Chlum",
+              r=["chlum_krest_aloisie_pospichalova_1875"],
+              note="Předek Jana Menšíka v 9. generaci (č. 382), usedlý v Chlumu čp. 120 (panství Rychmburk / hejtmanství Chrudim). Otec Antonie Podroužkové roz. Řeháčkové."),
 
     # 8. generace – doplněno z GEDCOM (353)
 
