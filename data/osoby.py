@@ -417,13 +417,12 @@ P = {
 
              note="Narozena ve Starém Ransku čp. 46 jako dcera horníka Matěje Šímy a Františky roz. Benové (dcery hamernického mistra Františka Bena). Manželka kováře Františka Holánka v čp. 55 a maminka zámečníka Julia Holánka (* 1889)."),
 
-    46: dict(n="Franz Henzl", y="1872–1954", st="fam",
-
-             f=["* 12. 7. 1872 Hluboká čp. 15", "× Aloisie Pospíchalová", "† 15. 2. 1954 Havlíčkův Brod čp. 539"],
-
-             zam="truhlář a hostinský", r=[],
-
-             note="Narozen 12. 7. 1872 v Hluboké čp. 15. Truhlář a hostinský na rodové usedlosti čp. 15 v Hluboké u Krucemburku. Syn čtvrtláníka Václava Henzla (* 1844) a Marie roz. Procházkové z čp. 7; vnuk kováře a zámečníka Jana Henzla. S manželkou Aloisií roz. Pospíchalovou představovali třetí generaci rodu Henzlů na gruntě čp. 15; otec Sofie Holánkové roz. Henzlové."),
+    46: dict(n="Franz Henzl", y="1872–1954", st="doc",
+             f=["* 12. 7. 1872 Hluboká čp. 15", "křest 13. 7. 1872 Hluboká (P. Augustin Jelínek)",
+                "kř. list 1898 k sňatku do Chlumu", "× Aloisie Pospíchalová", "† 15. 2. 1954 Havlíčkův Brod čp. 539"],
+             zam="truhlář a hostinský", bydl="Hluboká čp. 15", puvod="Hluboká čp. 15",
+             r=["hluboka_krest_franz_henzl_1872"],
+             note="Pradědeček Jana Menšíka. Narozen 12. 7. 1872 v Hluboké čp. 15 a pokřtěn 13. 7. farářem Augustinem Jelínkem. Truhlář a hostinský na rodové usedlosti čp. 15 v Hluboké u Krucemburku. Manželský syn čtvrtníka Václava Henzla a Marie roz. Procházkové z čp. 7; vnuk Jana Henzla a Františka Procházky. Křestní zápis nese přípisy o vystavení křestního listu 9. 4. 1893 k plnoletosti, 12. 7. 1898 k sňatku do Chlumu s Aloisií Pospíchalovou a úřední záznam MNV Křižanov o úmrtí 15. 2. 1954 v Havlíčkově Brodě (Dolní čp. 539). Otec Sofie Holánkové roz. Henzlové."),
 
     47: dict(n="Aloisie Pospíchalová", y="1875–1957", st="doc",
              f=["* 8. 1. 1875 Chlum čp. 31", "křest 8. 1. 1875 Chlum (P. J. Šimek)",
@@ -691,16 +690,17 @@ P = {
 
              f=["× Matěj Šíma"], bydl="Staré Ransko čp. 41", r=[], note="Údaje z rodinného stromu PDF."),
 
-    92: dict(n="Václav Henzl", y="* 1844", st="fam",
-
+    92: dict(n="Václav Henzl", y="* 1844", st="doc",
              f=["* 6. 8. 1844 Hluboká čp. 15", "× Marie Procházková"],
+             zam="čtvrtník v Hluboké čp. 15", bydl="Hluboká čp. 15", puvod="Hluboká čp. 15",
+             r=["hluboka_krest_franz_henzl_1872"],
+             note="Prapradědeček Jana Menšíka, čtvrtník na usedlosti čp. 15 v Hluboké. Manželský syn zemřelého půlláníka Jana Henzla z Hluboké čp. 15 a Anny roz. Novákové z Chlumětína. Doložen v křestním zápisu syna Františka roku 1872."),
 
-             zam="čtvrtláník", r=[],
-
-             note="Údaje z rodinného stromu PDF."),
-
-    93: dict(n="Marie Procházková", y="", st="fam",
-             f=["× Václav Henzl"], bydl="Hluboká čp. 7", r=[], note="Údaje z rodinného stromu PDF."),
+    93: dict(n="Marie Procházková", y="", st="doc",
+             f=["× Václav Henzl"],
+             roz="Procházková", bydl="Hluboká čp. 15", puvod="Hluboká čp. 7",
+             r=["hluboka_krest_franz_henzl_1872"],
+             note="Praprababička Jana Menšíka. Pocházela z Hluboké čp. 7, manželská dcera zemřelého půlláníka Františka Procházky z Hluboké čp. 7 a Františky roz. Křesťanové z Hluboké čp. 26. Manželka čtvrtníka Václava Henzla z čp. 15 a matka hostinského Franze Henzla. Doložena v křestním zápisu syna Františka roku 1872."),
 
     94: dict(n="Jan Pospíchal", y="před 1855 – ?", st="doc",
              f=["* před 1855 Chlum", "tesař v Chlumu č. 32 a čp. 35",
@@ -1105,12 +1105,29 @@ P = {
 
               f=["× František Ben"], bydl="Česká Kamenice", r=[], note="Údaje z rodinného stromu PDF."),
 
-    184: dict(n="Jan Henzl", y="† před 1872", st="fam",
+    184: dict(n="Jan Henzl", y="† před 1872", st="doc",
+              f=["půlláník v Hluboké čp. 15", "× Anna Nováková", "† před 12. 7. 1872"],
+              zam="půlláník (v tradici kovář a zámečník)", bydl="Hluboká čp. 15", puvod="Hluboká čp. 15",
+              r=["hluboka_krest_franz_henzl_1872"],
+              note="Pra-pra-pradědeček Jana Menšíka, usedlý jako půlláník na gruntu čp. 15 v Hluboké, zemřel před červencem 1872. Manžel Anny roz. Novákové z Chlumětína a otec čtvrtníka Václava Henzla."),
 
-              f=["× Anna Nováková", "† před 1872"], zam="kovář a zámečník", bydl="Hluboká čp. 15", r=[], note="Údaje z rodinného stromu PDF."),
+    185: dict(n="Anna Nováková", y="", st="doc",
+              f=["* Chlumětín", "× Jan Henzl"],
+              roz="Nováková", bydl="Hluboká čp. 15", puvod="Chlumětín",
+              r=["hluboka_krest_franz_henzl_1872"],
+              note="Pra-pra-prababička Jana Menšíka, pocházela z Chlumětína (rodem Nováková). Manželka půlláníka Jana Henzla z Hluboké čp. 15 a matka Václava Henzla."),
 
-    185: dict(n="Anna Nováková", y="", st="fam",
-              f=["× Jan Henzl"], bydl="Chlumětín", r=[], note="Údaje z rodinného stromu PDF (psána Anna Nowak)."),
+    186: dict(n="František Procházka", y="† před 1872", st="doc",
+              f=["půlláník v Hluboké čp. 7", "× Františka Křesťanová", "† před 12. 7. 1872"],
+              zam="půlláník v Hluboké čp. 7", bydl="Hluboká čp. 7", puvod="Hluboká čp. 7",
+              r=["hluboka_krest_franz_henzl_1872"],
+              note="Pra-pra-pradědeček Jana Menšíka (č. 186), půlláník na gruntě čp. 7 v Hluboké, zemřel před červencem 1872. Manžel Františky roz. Křesťanové z Hluboké čp. 26 a otec Marie provdané Henzlové."),
+
+    187: dict(n="Františka Křesťanová", y="", st="doc",
+              f=["* Hluboká čp. 26", "× František Procházka"],
+              roz="Křesťanová", bydl="Hluboká čp. 7", puvod="Hluboká čp. 26",
+              r=["hluboka_krest_franz_henzl_1872"],
+              note="Pra-pra-prababička Jana Menšíka (č. 187), pocházela z Hluboké čp. 26 (rodem Křesťanová). Manželka půlláníka Františka Procházky v Hluboké čp. 7 a matka Marie provdané Henzlové."),
 
     188: dict(n="Tomáš Pospíchal", y="před 1835 – ?", st="doc",
               f=["domkař v Chlumu čp. 35", "× Josefa Kasalová"],

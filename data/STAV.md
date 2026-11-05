@@ -363,7 +363,19 @@ pak konec `research_log.md` a sekci „Rozpracováno“.
       - **Jan Podroužek (č. 190)**: půlník v Chlumu čp. 31 (* před 1835).
       - **Antonie Podroužková roz. Řeháčková (č. 191)**: z Chlumu čp. 120 (* před 1835).
       - **Josef Řeháček (č. 382)**: obyvatel/půlník v Chlumu čp. 120 (* před 1815).
-    - V rodokmenu celkem evidováno **232 osob** (z toho **65 doložených primárních zápisů** v **83 svazcích**, **90 řádků deníku hledání**).
+    - Dne 5. 11. 2026 nalezeno a doloženo narození a křest pradědečka Franze Henzla (* 12. 7. 1872 Hluboká čp. 15):
+    - SOA Zámrsk / ARON, Sbírka matrik Východočeského kraje, kniha Hluboká sign. 6030 (poř.č. 5453 – N 1838–1908), sn. 112, pag. 109, 2. zápis (klíč: hluboka_krest_franz_henzl_1872).
+    - Narozen 12. 7. 1872 v Hluboké čp. 15, pokřtěn 13. 7. 1872 farářem Augustinem Jelínkem jako František.
+    - Otec: Václav Henzl (č. 92), katolík, čtvrtník v Hluboké čp. 15, syn zemřelého Jana Henzla (č. 184), půlláníka z Hluboké čp. 15 a Anny roz. Novákové (č. 185) z Chlumětína.
+    - Matka: Maria (č. 93), katolická, manželská dcera zemřelého Františka Procházky (č. 186), půlláníka z Hluboké čp. 7 a Františky roz. Křesťanové (č. 187) z Hluboké čp. 26.
+    - Kmotři: Jan Lepeník, půlník z Hluboké čp. 24 a Anna Lepeníková manželka jeho.
+    - Přípisy na okraji: vystavení křestního listu 9. 4. 1893 k plnoletosti, křestního listu 12. 7. 1898 k sňatku do Chlumu (kde si vzal Aloisii Pospíchalovou) a úřední záznam MNV Křižanov o úmrtí 15. 2. 1954 v Havlíčkově Brodě (Dolní čp. 539) potvrzující rodinná data do posledního detailu.
+    - Zásadní genealogický přínos: primárně doložen pradědeček **Franz Henzl (č. 46)** a rodiče **Václav Henzl (č. 92)** a **Marie Procházková (č. 93)**; odhaleni **4 noví předci v 8. generaci**:
+      - **Jan Henzl (č. 184)**: půlláník na gruntě čp. 15 v Hluboké († před 1872).
+      - **Anna Henzlová roz. Nováková (č. 185)**: z Chlumětína.
+      - **František Procházka (č. 186)**: půlláník na gruntě čp. 7 v Hluboké († před 1872).
+      - **Františka Procházková roz. Křesťanová (č. 187)**: z Hluboké čp. 26.
+    - V rodokmenu celkem evidováno **234 osob** (z toho **66 doložených primárních zápisů** v **83 svazcích**, **91 řádků deníku hledání**).
 
 - 4. 11. 2026 (pokračování výzkumu – větev Tomíček / Halík v matrikách SOA Praha – eBadatelna):
   - **Sňatek Antonína Tomíčka a Anny Halíkové (29. 1. 1880 Minice, kniha 25, sn. 114, fol. 112):**
@@ -475,7 +487,19 @@ pak konec `research_log.md` a sekci „Rozpracováno“.
       - **Jan Podroužek (č. 190)**: půlník v Chlumu čp. 31 (* před 1835).
       - **Antonie Podroužková roz. Řeháčková (č. 191)**: z Chlumu čp. 120 (* před 1835).
       - **Josef Řeháček (č. 382)**: obyvatel/půlník v Chlumu čp. 120 (* před 1815).
-    - V rodokmenu celkem evidováno **232 osob** (z toho **65 doložených primárních zápisů** v **83 svazcích**, **90 řádků deníku hledání**).
+    - Dne 5. 11. 2026 nalezeno a doloženo narození a křest pradědečka Franze Henzla (* 12. 7. 1872 Hluboká čp. 15):
+    - SOA Zámrsk / ARON, Sbírka matrik Východočeského kraje, kniha Hluboká sign. 6030 (poř.č. 5453 – N 1838–1908), sn. 112, pag. 109, 2. zápis (klíč: hluboka_krest_franz_henzl_1872).
+    - Narozen 12. 7. 1872 v Hluboké čp. 15, pokřtěn 13. 7. 1872 farářem Augustinem Jelínkem jako František.
+    - Otec: Václav Henzl (č. 92), katolík, čtvrtník v Hluboké čp. 15, syn zemřelého Jana Henzla (č. 184), půlláníka z Hluboké čp. 15 a Anny roz. Novákové (č. 185) z Chlumětína.
+    - Matka: Maria (č. 93), katolická, manželská dcera zemřelého Františka Procházky (č. 186), půlláníka z Hluboké čp. 7 a Františky roz. Křesťanové (č. 187) z Hluboké čp. 26.
+    - Kmotři: Jan Lepeník, půlník z Hluboké čp. 24 a Anna Lepeníková manželka jeho.
+    - Přípisy na okraji: vystavení křestního listu 9. 4. 1893 k plnoletosti, křestního listu 12. 7. 1898 k sňatku do Chlumu (kde si vzal Aloisii Pospíchalovou) a úřední záznam MNV Křižanov o úmrtí 15. 2. 1954 v Havlíčkově Brodě (Dolní čp. 539) potvrzující rodinná data do posledního detailu.
+    - Zásadní genealogický přínos: primárně doložen pradědeček **Franz Henzl (č. 46)** a rodiče **Václav Henzl (č. 92)** a **Marie Procházková (č. 93)**; odhaleni **4 noví předci v 8. generaci**:
+      - **Jan Henzl (č. 184)**: půlláník na gruntě čp. 15 v Hluboké († před 1872).
+      - **Anna Henzlová roz. Nováková (č. 185)**: z Chlumětína.
+      - **František Procházka (č. 186)**: půlláník na gruntě čp. 7 v Hluboké († před 1872).
+      - **Františka Procházková roz. Křesťanová (č. 187)**: z Hluboké čp. 26.
+    - V rodokmenu celkem evidováno **234 osob** (z toho **66 doložených primárních zápisů** v **83 svazcích**, **91 řádků deníku hledání**).
 
 - Další kroky k prozkoumání:
   1. Původ hajného Leopolda Sýse (č. 58), narození jeho dcery Františky Sýsové (* cca 1880–1885) a její sňatek s mistrem kolářským Otakarem Janem Krejzkem (* 6. 5. 1877 Blažkov čp. 20) před r. 1905 – např. prostřednictvím sčítacích operátů 1921 pro Bystřici n. P. – Nové Dvory čp. 147 (SOkA Žďár nad Sázavou).
