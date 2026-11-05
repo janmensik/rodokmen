@@ -375,7 +375,13 @@ pak konec `research_log.md` a sekci „Rozpracováno“.
       - **Anna Henzlová roz. Nováková (č. 185)**: z Chlumětína.
       - **František Procházka (č. 186)**: půlláník na gruntě čp. 7 v Hluboké († před 1872).
       - **Františka Procházková roz. Křesťanová (č. 187)**: z Hluboké čp. 26.
-    - V rodokmenu celkem evidováno **234 osob** (z toho **66 doložených primárních zápisů** v **83 svazcích**, **91 řádků deníku hledání**).
+    - Dne 5. 11. 2026 nalezen a doložen sňatek Jana Pospíchala a Františky Podroužkové (4. 2. 1876):
+    - SOA Zámrsk / ARON, Sbírka matrik Východočeského kraje, kniha Chlum sign. 3714 (poř.č. 5462 – O 1862–1894), sn. 25, pag. 22, 1. zápis (klíč: `chlum_oddani_jan_pospichal_1876`).
+    - Oddáni 4. 2. 1876 ve farním chrámu v Krucemburku farářem Josefem Šimkem (sňatkem legitimována dcera Aloisie * 8. 1. 1875).
+    - Ženich: Jan Pospíchal (č. 94), 27 let (* cca 1848–1849), svobodný tesař z Chlumu čp. 35, záložník c. k. 21. pěšího pluku barona Reischacha, syn Tomáše Pospíchala (č. 188), domkaře z Chlumu čp. 35 a Josefy roz. Kasalové (č. 189) z Krucemburku čp. 42.
+    - Nevěsta: Františka Podroužková (č. 95), 20 let (* cca 1855–1856), svobodná dcera Jana Podroužka (č. 190), půlníka z Chlumu čp. 31 a Antonie roz. Řeháčkové (č. 191) z Chlumu čp. 140/120.
+    - Zvláštní hodnota zápisu: otec nevěsty Jan Podroužek (č. 190) připojil do matriky vlastnoruční souhlas sňatku se svým dochovaným podpisem „Jan Podroužek Otec“; zápis odhaluje vojenskou službu Jana Pospíchala u 21. řadového pěšího pluku (K.u.k. Infanterie-Regiment Graf von Reischach Nr. 21) a zpřesňuje roky narození obou předků na cca 1848–1849 a 1855–1856.
+    - V rodokmenu celkem evidováno **234 osob** (z toho **67 doložených primárních zápisů** v **84 svazcích**, **92 řádků deníku hledání**).
 
 - 4. 11. 2026 (pokračování výzkumu – větev Tomíček / Halík v matrikách SOA Praha – eBadatelna):
   - **Sňatek Antonína Tomíčka a Anny Halíkové (29. 1. 1880 Minice, kniha 25, sn. 114, fol. 112):**
@@ -499,7 +505,13 @@ pak konec `research_log.md` a sekci „Rozpracováno“.
       - **Anna Henzlová roz. Nováková (č. 185)**: z Chlumětína.
       - **František Procházka (č. 186)**: půlláník na gruntě čp. 7 v Hluboké († před 1872).
       - **Františka Procházková roz. Křesťanová (č. 187)**: z Hluboké čp. 26.
-    - V rodokmenu celkem evidováno **234 osob** (z toho **66 doložených primárních zápisů** v **83 svazcích**, **91 řádků deníku hledání**).
+    - Dne 5. 11. 2026 nalezen a doložen sňatek Jana Pospíchala a Františky Podroužkové (4. 2. 1876):
+    - SOA Zámrsk / ARON, Sbírka matrik Východočeského kraje, kniha Chlum sign. 3714 (poř.č. 5462 – O 1862–1894), sn. 25, pag. 22, 1. zápis (klíč: `chlum_oddani_jan_pospichal_1876`).
+    - Oddáni 4. 2. 1876 ve farním chrámu v Krucemburku farářem Josefem Šimkem (sňatkem legitimována dcera Aloisie * 8. 1. 1875).
+    - Ženich: Jan Pospíchal (č. 94), 27 let (* cca 1848–1849), svobodný tesař z Chlumu čp. 35, záložník c. k. 21. pěšího pluku barona Reischacha, syn Tomáše Pospíchala (č. 188), domkaře z Chlumu čp. 35 a Josefy roz. Kasalové (č. 189) z Krucemburku čp. 42.
+    - Nevěsta: Františka Podroužková (č. 95), 20 let (* cca 1855–1856), svobodná dcera Jana Podroužka (č. 190), půlníka z Chlumu čp. 31 a Antonie roz. Řeháčkové (č. 191) z Chlumu čp. 140/120.
+    - Zvláštní hodnota zápisu: otec nevěsty Jan Podroužek (č. 190) připojil do matriky vlastnoruční souhlas sňatku se svým dochovaným podpisem „Jan Podroužek Otec“; zápis odhaluje vojenskou službu Jana Pospíchala u 21. řadového pěšího pluku (K.u.k. Infanterie-Regiment Graf von Reischach Nr. 21) a zpřesňuje roky narození obou předků na cca 1848–1849 a 1855–1856.
+    - V rodokmenu celkem evidováno **234 osob** (z toho **67 doložených primárních zápisů** v **84 svazcích**, **92 řádků deníku hledání**).
 
 - Další kroky k prozkoumání:
   1. Původ hajného Leopolda Sýse (č. 58), narození jeho dcery Františky Sýsové (* cca 1880–1885) a její sňatek s mistrem kolářským Otakarem Janem Krejzkem (* 6. 5. 1877 Blažkov čp. 20) před r. 1905 – např. prostřednictvím sčítacích operátů 1921 pro Bystřici n. P. – Nové Dvory čp. 147 (SOkA Žďár nad Sázavou).

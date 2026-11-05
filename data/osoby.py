@@ -702,21 +702,22 @@ P = {
              r=["hluboka_krest_franz_henzl_1872"],
              note="Praprababička Jana Menšíka. Pocházela z Hluboké čp. 7, manželská dcera zemřelého půlláníka Františka Procházky z Hluboké čp. 7 a Františky roz. Křesťanové z Hluboké čp. 26. Manželka čtvrtníka Václava Henzla z čp. 15 a matka hostinského Franze Henzla. Doložena v křestním zápisu syna Františka roku 1872."),
 
-    94: dict(n="Jan Pospíchal", y="před 1855 – ?", st="doc",
-             f=["* před 1855 Chlum", "tesař v Chlumu č. 32 a čp. 35",
+    94: dict(n="Jan Pospíchal", y="* cca 1848–1849 – ?", st="doc",
+             f=["* cca 1848–1849 Chlum", "tesař v Chlumu čp. 35",
+                "záložník c. k. 21. pěšího pluku barona Reischacha",
                 "× 4. 2. 1876 Krucemburk / Chlum (Františka Podroužková)",
                 "syn Tomáše Pospíchala, domkaře v Chlumu čp. 35 a Josefy Kasalové z Krucemburku čp. 42"],
-             zam="tesař v Chlumu", bydl="Chlum čp. 32 a 35", puvod="Chlum čp. 35",
-             r=["chlum_krest_aloisie_pospichalova_1875"],
-             note="Prapradědeček Jana Menšíka, tesař v Chlumu čp. 32 a 35. Manželský syn Tomáše Pospíchala, domkaře v Chlumu čp. 35 a Josefy roz. Kasalové z Krucemburku čp. 42. Dne 4. 2. 1876 uzavřel sňatek s Františkou Podroužkovou z Chlumu čp. 31, čímž legitimoval dceru Aloisii (* 8. 1. 1875)."),
+             zam="tesař v Chlumu čp. 35, záložník c. k. 21. pěšího pluku", bydl="Chlum čp. 32 a 35", puvod="Chlum čp. 35",
+             r=["chlum_krest_aloisie_pospichalova_1875", "chlum_oddani_jan_pospichal_1876"],
+             note="Prapradědeček Jana Menšíka. Narozen kolem 1848–1849 v Chlumu. Tesař v Chlumu čp. 35 a vojenský záložník c. k. 21. pěšího pluku (K.u.k. Infanterie-Regiment Graf von Reischach Nr. 21). Manželský syn Tomáše Pospíchala, domkaře v Chlumu čp. 35 a Josefy roz. Kasalové z Krucemburku čp. 42. Dne 4. 2. 1876 uzavřel ve věku 27 let v Krucemburku sňatek s dvacetiletou Františkou Podroužkovou z Chlumu čp. 31, čímž legitimoval dceru Aloisii (* 8. 1. 1875)."),
 
-    95: dict(n="Františka Pospíchalová", y="před 1857 – ?", st="doc",
-             f=["* před 1857 Chlum čp. 31",
+    95: dict(n="Františka Pospíchalová", y="* cca 1855–1856 – ?", st="doc",
+             f=["* cca 1855–1856 Chlum čp. 31",
                 "× 4. 2. 1876 Krucemburk / Chlum (Jan Pospíchal)",
                 "dcera Jana Podroužka, půlníka v Chlumu čp. 31 a Antonie Řeháčkové z čp. 120"],
              roz="Podroužková", bydl="Chlum čp. 31", puvod="Chlum čp. 31",
-             r=["chlum_krest_aloisie_pospichalova_1875"],
-             note="Praprababička Jana Menšíka. Manželská dcera Jana Podroužka, půlníka v Chlumu čp. 31 a Antonie roz. Řeháčkové (dcery Josefa Řeháčka z Chlumu čp. 120). Dne 4. 2. 1876 se provdala za tesaře Jana Pospíchala z Chlumu čp. 35."),
+             r=["chlum_krest_aloisie_pospichalova_1875", "chlum_oddani_jan_pospichal_1876"],
+             note="Praprababička Jana Menšíka. Narozena kolem 1855–1856 v Chlumu čp. 31, manželská dcera půlníka Jana Podroužka z Chlumu čp. 31 a Antonie roz. Řeháčkové z Chlumu čp. 120. Dne 4. 2. 1876 se jako dvacetiletá se souhlasem svého otce provdala za tesaře Jana Pospíchala z Chlumu čp. 35."),
 
 
 
@@ -1142,10 +1143,10 @@ P = {
               note="Pra-pra-prababička Jana Menšíka, rozená Kasalová z Krucemburku čp. 42. Manželka domkaře Tomáše Pospíchala v Chlumu čp. 35 a matka tesaře Jana Pospíchala."),
 
     190: dict(n="Jan Podroužek", y="před 1835 – ?", st="doc",
-              f=["půlník v Chlumu čp. 31", "× Antonie Řeháčková"],
+              f=["půlník v Chlumu čp. 31", "× Antonie Řeháčková", "vlastnoruční podpis v oddací matrice 1876"],
               zam="půlník v Chlumu", bydl="Chlum čp. 31", puvod="Chlum",
-              r=["chlum_krest_aloisie_pospichalova_1875"],
-              note="Pra-pra-pradědeček Jana Menšíka, půlník v Chlumu čp. 31. Manžel Antonie roz. Řeháčkové a otec Františky Podroužkové provdané Pospíchalové."),
+              r=["chlum_krest_aloisie_pospichalova_1875", "chlum_oddani_jan_pospichal_1876"],
+              note="Pra-pra-pradědeček Jana Menšíka, půlník na gruntě čp. 31 v Chlumu. Manžel Antonie roz. Řeháčkové a otec Františky Podroužkové provdané Pospíchalové. V oddací matrice z roku 1876 je dochován jeho vlastnoruční otcovský podpis ('Jan Podroužek Otec')."),
 
     191: dict(n="Antonie Podroužková", y="před 1835 – ?", st="doc",
               f=["* před 1835 Chlum čp. 120", "× Jan Podroužek", "kmotra vnučky Aloisie (1875)"],

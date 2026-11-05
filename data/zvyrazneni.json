@@ -766,5 +766,17 @@
     ],
     "status": "ok",
     "note": "Zápis křtu Františka (Franze) Henzla"
+  },
+  "chlum_oddani_jan_pospichal_1876": {
+    "boxes": [
+      [
+        0.015,
+        0.05,
+        0.985,
+        0.95
+      ]
+    ],
+    "status": "ok",
+    "note": "Zápis sňatku Jana Pospíchala a Františky Podroužkové"
   }
 }
