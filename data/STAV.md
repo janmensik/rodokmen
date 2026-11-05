@@ -334,7 +334,20 @@ pak konec `research_log.md` a sekci „Rozpracováno“.
   - Otec **Antonín Tomíček (č. 38):** c. k. železniční přednosta stanice Hauenstein-Warta čp. 59, syn **Josefa Tomíčka (č. 76)**, c. k. kancelisty v Kouřimi († před 1886) a **Karoliny roz. Harrerové (č. 77)** z Kolína čp. 122.
   - Matka **Anna Halíková (č. 39):** dcera **Josefa Halíka (č. 78)**, úředníka cukrovaru v Lobči čp. 63 (u Kralup nad Vltavou) a **Marie roz. Roháčkové (č. 79)** z Holubic čp. 4.
   - Do rodokmenu nově doloženi 4 noví předci v 6. generaci: Josef Tomíček (č. 76), Karolina Harrerová (č. 77), Josef Halík (č. 78) a Marie Roháčková (č. 79).
-  - V rodokmenu celkem evidováno **225 osob** (z toho **64 doložených primárních zápisů** ze snímků matrik v 77 svazcích, 88 řádků deníku hledání).
+  - **Dne 4. 11. 2026 nalezeno narození a křest Anny Marie Zárubové (* 30. 1. 1808 Dřevčice čp. 29)**:
+    - SOA Praha, kniha Dřevčice 02 (sign. 5348 • N 1784–1825), sn. 34, Pag. 32, 3. zápis (klíč: `drevcice_krest_anna_zarubova_1808`).
+    - Narozená 30. 1. 1808 v Dřevčicích čp. 29, pokřtěná téhož dne kaplanem P. Josefem Kermetsem; otec Jan Záruba sedlák v Dřevčicích čp. 29, matka Barbora dcera Matěje Šindelky (?) z Úhonic.
+    - Odhaleni 2 noví předci v 8. generaci: **Jan Záruba (č. 314)** a **Barbora Zárubová (č. 315)**.
+
+  - **Dne 5. 11. 2026 systematická analýza nejkratších větví rodokmenu**:
+    - **Větev Sýs / Krejzek (Borovník / Bystřice nad Pernštejnem)**:
+      - V matrikách farnosti Březí (MZA Brno, sign. 15399 / `mza_4690`) ověřeno rozdělení farních knih podle obcí (Březí, Březské, Borovník); prozkoumána všechna narození v Borovníku 1878–1887.
+      - V matrice oddaných Bystřice n. P. (sign. 15461 / `mza_11311`) a evangelického sboru Veselí (sign. 16757 / `11816`) prověřeny možnosti sňatku mistra kolářského Otakara Krejzka (* 1877 Blažkov, evangelík h. v.) a Františky Sýsové (* cca 1880–1885, katolička, dcera panského hajného Leopolda Sýse).
+    - **Větev Henzl / Pospíchal (Hluboká, Chlum / farnost Krucemburk)**:
+      - V SOA Zámrsk (ARON) lokalizovány samostatné knihy narozených pro jednotlivé osady: pro Chlum kniha sign. 3713 (`7d0b8d06`, 1848–1891, kde je zapsána Aloisie Pospíchalová * 6. 1. 1875 Chlum čp. 35) a pro Hlubokou kniha sign. 6030 (`c66bfff0`, 1838–1908, kde je zapsán Franz Henzl * 12. 7. 1872 Hluboká čp. 15).
+    - **Větev Fridrich Hůlek (Žleby / Auersperg)**:
+      - Prověřena kniha Žleby 36 (Ni 1880–1909), kde rod Hůlků sídlil v Lipovci čp. 16 a Hostoulicích čp. 40; lesní inženýr Fridrich Hůlek se narodil mimo Žleby nebo přišel z jiného auersperského panství / po studiích.
+    - V rodokmenu celkem evidováno **225 osob** (z toho **64 doložených primárních zápisů** v **83 svazcích**, 89 řádků deníku hledání).
 
 - 4. 11. 2026 (pokračování výzkumu – větev Tomíček / Halík v matrikách SOA Praha – eBadatelna):
   - **Sňatek Antonína Tomíčka a Anny Halíkové (29. 1. 1880 Minice, kniha 25, sn. 114, fol. 112):**
@@ -417,7 +430,20 @@ pak konec `research_log.md` a sekci „Rozpracováno“.
     - Manželka sedláka Josefa Halíka st. z Holubic čp. 3 a matka Josefa Halíka ml. Zemřela 13. 8. 1856 v Holubicích čp. 3 ve věku 49 let na souchotiny (tuberkulózu plic); pohřbena 15. 8. 1856 farářem Josefem Schovánkem na minickém hřbitově.
     - Zásadní genealogický přínos: určuje přesné datum úmrtí předkyně v 7. generaci (č. 157) a potvrzuje její narození kolem roku 1807 v Třebusicích.
 
-  - V rodokmenu celkem evidováno **225 osob** (z toho **64 doložených primárních zápisů** ze snímků matrik v 77 svazcích, 88 řádků deníku hledání).
+  - **Dne 4. 11. 2026 nalezeno narození a křest Anny Marie Zárubové (* 30. 1. 1808 Dřevčice čp. 29)**:
+    - SOA Praha, kniha Dřevčice 02 (sign. 5348 • N 1784–1825), sn. 34, Pag. 32, 3. zápis (klíč: `drevcice_krest_anna_zarubova_1808`).
+    - Narozená 30. 1. 1808 v Dřevčicích čp. 29, pokřtěná téhož dne kaplanem P. Josefem Kermetsem; otec Jan Záruba sedlák v Dřevčicích čp. 29, matka Barbora dcera Matěje Šindelky (?) z Úhonic.
+    - Odhaleni 2 noví předci v 8. generaci: **Jan Záruba (č. 314)** a **Barbora Zárubová (č. 315)**.
+
+  - **Dne 5. 11. 2026 systematická analýza nejkratších větví rodokmenu**:
+    - **Větev Sýs / Krejzek (Borovník / Bystřice nad Pernštejnem)**:
+      - V matrikách farnosti Březí (MZA Brno, sign. 15399 / `mza_4690`) ověřeno rozdělení farních knih podle obcí (Březí, Březské, Borovník); prozkoumána všechna narození v Borovníku 1878–1887.
+      - V matrice oddaných Bystřice n. P. (sign. 15461 / `mza_11311`) a evangelického sboru Veselí (sign. 16757 / `11816`) prověřeny možnosti sňatku mistra kolářského Otakara Krejzka (* 1877 Blažkov, evangelík h. v.) a Františky Sýsové (* cca 1880–1885, katolička, dcera panského hajného Leopolda Sýse).
+    - **Větev Henzl / Pospíchal (Hluboká, Chlum / farnost Krucemburk)**:
+      - V SOA Zámrsk (ARON) lokalizovány samostatné knihy narozených pro jednotlivé osady: pro Chlum kniha sign. 3713 (`7d0b8d06`, 1848–1891, kde je zapsána Aloisie Pospíchalová * 6. 1. 1875 Chlum čp. 35) a pro Hlubokou kniha sign. 6030 (`c66bfff0`, 1838–1908, kde je zapsán Franz Henzl * 12. 7. 1872 Hluboká čp. 15).
+    - **Větev Fridrich Hůlek (Žleby / Auersperg)**:
+      - Prověřena kniha Žleby 36 (Ni 1880–1909), kde rod Hůlků sídlil v Lipovci čp. 16 a Hostoulicích čp. 40; lesní inženýr Fridrich Hůlek se narodil mimo Žleby nebo přišel z jiného auersperského panství / po studiích.
+    - V rodokmenu celkem evidováno **225 osob** (z toho **64 doložených primárních zápisů** v **83 svazcích**, 89 řádků deníku hledání).
 
 - Další kroky k prozkoumání:
   1. Původ hajného Leopolda Sýse (č. 58), narození jeho dcery Františky Sýsové (* cca 1880–1885) a její sňatek s mistrem kolářským Otakarem Janem Krejzkem (* 6. 5. 1877 Blažkov čp. 20) před r. 1905 – např. prostřednictvím sčítacích operátů 1921 pro Bystřici n. P. – Nové Dvory čp. 147 (SOkA Žďár nad Sázavou).

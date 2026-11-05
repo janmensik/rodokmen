@@ -30,7 +30,7 @@ HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
 
 
 def get_sync_client():
-    return httpx.Client(http2=True, follow_redirects=True, timeout=30.0)
+    return httpx.Client(http2=False, follow_redirects=True, timeout=30.0)
 
 
 def load_volume(detail_id):
@@ -115,7 +115,8 @@ def load_volume(detail_id):
 
 
 async def async_fetch_image(dzi_url, level_offset=1, out="page.jpg", crop=None):
-    async with httpx.AsyncClient(http2=True, follow_redirects=True, timeout=45.0) as client:
+    limits = httpx.Limits(max_keepalive_connections=5, max_connections=10)
+    async with httpx.AsyncClient(http2=False, limits=limits, follow_redirects=True, timeout=45.0) as client:
         r = await client.get(dzi_url, headers=HEADERS)
         root = ET.fromstring(r.text)
         size = root.find("{http://schemas.microsoft.com/deepzoom/2008}Size")
