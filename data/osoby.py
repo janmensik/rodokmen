@@ -709,14 +709,11 @@ P = {
              zam="tesař v Chlumu čp. 35, záložník c. k. 21. pěšího pluku", bydl="Chlum čp. 32 a 35", puvod="Chlum čp. 35",
              r=["chlum_krest_aloisie_pospichalova_1875", "chlum_oddani_jan_pospichal_1876"],
              note="Prapradědeček Jana Menšíka. Narozen kolem 1848–1849 v Chlumu. Tesař v Chlumu čp. 35 a vojenský záložník c. k. 21. pěšího pluku (K.u.k. Infanterie-Regiment Graf von Reischach Nr. 21). Manželský syn Tomáše Pospíchala, domkaře v Chlumu čp. 35 a Josefy roz. Kasalové z Krucemburku čp. 42. Dne 4. 2. 1876 uzavřel ve věku 27 let v Krucemburku sňatek s dvacetiletou Františkou Podroužkovou z Chlumu čp. 31, čímž legitimoval dceru Aloisii (* 8. 1. 1875)."),
-
-    95: dict(n="Františka Pospíchalová", y="* cca 1855–1856 – ?", st="doc",
-             f=["* cca 1855–1856 Chlum čp. 31",
-                "× 4. 2. 1876 Krucemburk / Chlum (Jan Pospíchal)",
-                "dcera Jana Podroužka, půlníka v Chlumu čp. 31 a Antonie Řeháčkové z čp. 120"],
+    95: dict(n="Františka Pospíchalová", y="* 1854 – ?", st="doc",
+             f=["* 20. 4. 1854 Chlum čp. 120 (po sňatku rodičů čp. 31)", "∞ 4. 2. 1876 Krucemburk / Chlum (Jan Pospíchal)"],
              roz="Podroužková", bydl="Chlum čp. 31", puvod="Chlum čp. 31",
-             r=["chlum_krest_aloisie_pospichalova_1875", "chlum_oddani_jan_pospichal_1876"],
-             note="Praprababička Jana Menšíka. Narozena kolem 1855–1856 v Chlumu čp. 31, manželská dcera půlníka Jana Podroužka z Chlumu čp. 31 a Antonie roz. Řeháčkové z Chlumu čp. 120. Dne 4. 2. 1876 se jako dvacetiletá se souhlasem svého otce provdala za tesaře Jana Pospíchala z Chlumu čp. 35."),
+             r=["chlum_krest_frantiska_podrouzkova_1854", "chlum_oddani_jan_pospichal_1876", "chlum_krest_aloisie_pospichalova_1875"],
+             note="Praprababička Jana Menšíka. Narozena 20. 4. 1854 v Chlumu (pokřtěna 21. 4. 1854), dcera půlláníka Jana Podroužka z Chlumu čp. 31 a Antonie roz. Řehákové z Chlumu čp. 120. Legitimizována následným sňatkem rodičů 16. 1. 1855. Dne 4. 2. 1876 se jako dvacetiletá se souhlasem svého otce provdala za tesaře a záložníka 21. pěšího pluku Jana Pospíchala z Chlumu čp. 35."),
 
 
 
@@ -1138,18 +1135,16 @@ P = {
               roz="Kasalová", bydl="Chlum čp. 35", puvod="Krucemburk čp. 42",
               r=["chlum_krest_aloisie_pospichalova_1875"],
               note="Pra-pra-prababička Jana Menšíka, rozená Kasalová z Krucemburku čp. 42. Manželka domkaře Tomáše Pospíchala v Chlumu čp. 35 a matka tesaře Jana Pospíchala."),
-
     190: dict(n="Jan Podroužek", y="před 1835 – ?", st="doc",
-              f=["půlník v Chlumu čp. 31", "× Antonie Řeháčková", "vlastnoruční podpis v oddací matrice 1876"],
-              zam="půlník v Chlumu", bydl="Chlum čp. 31", puvod="Chlum",
-              r=["chlum_krest_aloisie_pospichalova_1875", "chlum_oddani_jan_pospichal_1876"],
-              note="Pra-pra-pradědeček Jana Menšíka, půlník na gruntě čp. 31 v Chlumu. Manžel Antonie roz. Řeháčkové a otec Františky Podroužkové provdané Pospíchalové. V oddací matrice z roku 1876 je dochován jeho vlastnoruční otcovský podpis ('Jan Podroužek Otec')."),
-
+              f=["půlláník v Chlumu čp. 31", "∞ 16. 1. 1855 Chlum (Antonie Řeháková)", "vlastnoruční podpis v oddací matrice 1876"],
+              zam="půlláník v Chlumu", bydl="Chlum čp. 31", puvod="Chlum",
+              r=["chlum_krest_frantiska_podrouzkova_1854", "chlum_oddani_jan_pospichal_1876", "chlum_krest_aloisie_pospichalova_1875"],
+              note="Pra-pra-pradědeček Jana Menšíka, půlláník na gruntě čp. 31 v Chlumu. Manželský syn zemřelého půlláníka Jana Podroužka z čp. 31 a Anny roz. Rejnové z Kohoutova čp. 5. Dne 16. 1. 1855 se oženil s Antonií roz. Řehákovou. V oddací matrice dcery Františky z roku 1876 je dochován jeho vlastnoruční otcovský podpis ('Jan Podroužek Otec')."),
     191: dict(n="Antonie Podroužková", y="před 1835 – ?", st="doc",
-              f=["* před 1835 Chlum čp. 120", "× Jan Podroužek", "kmotra vnučky Aloisie (1875)"],
-              roz="Řeháčková", bydl="Chlum čp. 31", puvod="Chlum čp. 120",
-              r=["chlum_krest_aloisie_pospichalova_1875"],
-              note="Pra-pra-prababička Jana Menšíka, rozená Řeháčková z Chlumu čp. 120 (dcera Josefa Řeháčka). Manželka půlníka Jana Podroužka v Chlumu čp. 31 a kmotra své vnučky Aloisie Pospíchalové při křtu 8. 1. 1875."),
+              f=["* Chlum čp. 120", "∞ 16. 1. 1855 Chlum (Jan Podroužek)", "kmotra vnučky Aloisie (1875)"],
+              roz="Řeháková", bydl="Chlum čp. 31", puvod="Chlum čp. 120",
+              r=["chlum_krest_frantiska_podrouzkova_1854", "chlum_krest_aloisie_pospichalova_1875"],
+              note="Pra-pra-prababička Jana Menšíka, pocházela z Chlumu čp. 120. Manželská dcera domkaře Josefa Řeháka z Chlumu čp. 120 a Anny roz. Bártové ze Slouče čp. 2. Dne 16. 1. 1855 se provdala za půlláníka Jana Podroužka z Chlumu čp. 31 a byla kmotrou své vnučky Aloisie Pospíchalové při křtu 8. 1. 1875."),
 
 
 
@@ -1403,12 +1398,11 @@ P = {
 
     363: dict(n="Kateřina Dušková", y="", st="fam",
               f=["× Ondřej Halík"], r=[], note="Údaje z rodinného stromu PDF."),
-
-    382: dict(n="Josef Řeháček", y="před 1815 – ?", st="doc",
-              f=["obyvatel / půlník v Chlumu čp. 120"],
-              bydl="Chlum čp. 120", puvod="Chlum",
-              r=["chlum_krest_aloisie_pospichalova_1875"],
-              note="Předek Jana Menšíka v 9. generaci (č. 382), usedlý v Chlumu čp. 120 (panství Rychmburk / hejtmanství Chrudim). Otec Antonie Podroužkové roz. Řeháčkové."),
+    382: dict(n="Josef Řehák", y="před 1815 – ?", st="doc",
+              f=["domkař v Chlumu čp. 120", "∞ Anna Bártová"],
+              zam="domkař v Chlumu čp. 120", bydl="Chlum čp. 120", puvod="Chlum",
+              r=["chlum_krest_frantiska_podrouzkova_1854", "chlum_krest_aloisie_pospichalova_1875"],
+              note="Předek Jana Menšíka v 9. generaci (č. 382), domkař v Chlumu čp. 120 (panství Rychmburk). Manžel Anny roz. Bártové ze Slouče čp. 2 a otec Antonie Podroužkové roz. Řehákové. V matrikách uváděn též jako Josef Řeháček."),
 
     # 8. generace – doplněno z GEDCOM (353)
 
@@ -1809,6 +1803,25 @@ P = {
               roz="Teplá", bydl="Chlumětín čp. 55", puvod="Svratkouch",
               r=["hluboka_krest_vaclav_henzl_1844"],
               note="Přímá předkyně v 9. generaci (č. 371). Pocházela ze Svratkoucha (panství Rychmburk, rodem Teplá / v matrice též čteno Deyly). Manželka mistra kovářského Františka Nováka v Chlumětíně čp. 55 a matka Anny provdané Henzlové. Doložena v křestním zápisu vnuka Václava roku 1844."),
+
+
+    380: dict(n="Jan Podroužek st.", y="† před 1854", st="doc",
+              f=["půlláník v Chlumu čp. 31", "∞ Anna Rejnová", "† před 20. 4. 1854"],
+              zam="půlláník v Chlumu čp. 31", bydl="Chlum čp. 31", puvod="Chlum čp. 31",
+              r=["chlum_krest_frantiska_podrouzkova_1854"],
+              note="Přímý předek v 9. generaci (č. 380), usedlý jako půlláník na rodovém gruntě čp. 31 v Chlumu, zemřel před dubnem 1854. Manžel Anny roz. Rejnové z Kohoutova čp. 5 a otec půlláníka Jana Podroužka ml. Doložen v křestním zápisu vnučky Františky roku 1854."),
+
+    381: dict(n="Anna Rejnová", y="", st="doc",
+              f=["* Kohoutov čp. 5", "∞ Jan Podroužek st."],
+              roz="Rejnová", bydl="Chlum čp. 31", puvod="Kohoutov čp. 5",
+              r=["chlum_krest_frantiska_podrouzkova_1854"],
+              note="Přímá předkyně v 9. generaci (č. 381). Pocházela z Kohoutova čp. 5 (farnost Krucemburk). Manželka půlláníka Jana Podroužka st. z Chlumu čp. 31 a matka Jana Podroužka ml. Doložena v křestním zápisu vnučky Františky roku 1854."),
+
+    383: dict(n="Anna Bártová", y="", st="doc",
+              f=["* Slouč čp. 2", "∞ Josef Řehák"],
+              roz="Bártová", bydl="Chlum čp. 120", puvod="Slouč čp. 2",
+              r=["chlum_krest_frantiska_podrouzkova_1854"],
+              note="Přímá předkyně v 9. generaci (č. 383). Pocházela ze Slouče čp. 2 (okres poličský). Manželka domkaře Josefa Řeháka v Chlumu čp. 120 a matka Antonie provdané Podroužkové. Doložena v křestním zápisu vnučky Františky roku 1854."),
 
 }
 

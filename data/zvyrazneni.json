@@ -790,5 +790,17 @@
     ],
     "status": "ok",
     "note": "Křest Václava Henzla"
+  },
+  "chlum_krest_frantiska_podrouzkova_1854": {
+    "boxes": [
+      [
+        0.454,
+        0.031,
+        0.725,
+        0.964
+      ]
+    ],
+    "status": "ok",
+    "note": "Křest Františky Podroužkové"
   }
 }

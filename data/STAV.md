@@ -522,6 +522,14 @@ pak konec `research_log.md` a sekci „Rozpracováno“.
       - Josefa roz. Teplá (č. 371) ze Svratkoucha (panství Rychmburk, v matrice též čteno Deyly).
     - V rodokmenu celkem evidováno **238 osob** (z toho **68 doložených primárních zápisů** v **85 svazcích**, **93 řádků deníku hledání**).
 
+- 6. 11. 2026: V matrice narozených farnosti Krucemburk / obec Chlum (SOA Zámrsk / ARON, sign. 3713, sn. 34, Fol. 31, 4. zápis) s pomocí souhrnného farního indexu sign. 2985 (sn. 53) nalezena a primárně doložena praprababička **Františka Podroužková** (* 20. 4. 1854 Chlum čp. 120/31):
+    - Narozena 20. 4. 1854 v domku matky čp. 120, legitimizována sňatkem rodičů 16. ledna 1855 a přepsána na rodový půllán čp. 31.
+    - Zápis odhaluje datum sňatku rodičů (16. 1. 1855) a **3 nové přímé předky v 9. generaci**:
+      - Jan Podroužek st. (č. 380, † před 1854), půlláník v Chlumu čp. 31.
+      - Anna roz. Rejnová (č. 381) z Kohoutova čp. 5.
+      - Anna roz. Bártová (č. 383) ze Slouče čp. 2.
+    - V rodokmenu celkem evidováno **241 osob** (z toho **69 doložených primárních zápisů** v **85 svazcích**, **94 řádků deníku hledání**).
+
 - Další kroky k prozkoumání:
   1. Původ hajného Leopolda Sýse (č. 58), narození jeho dcery Františky Sýsové (* cca 1880–1885) a její sňatek s mistrem kolářským Otakarem Janem Krejzkem (* 6. 5. 1877 Blažkov čp. 20) před r. 1905 – např. prostřednictvím sčítacích operátů 1921 pro Bystřici n. P. – Nové Dvory čp. 147 (SOkA Žďár nad Sázavou).
   2. Slovenská řeckokatolická větev Čáki a Bubanec v matrikách farností Dúbrava, Ruský Hrabovec a Strihovce (Štátny archív v Prešove / FamilySearch): křestní jméno dědečka Čákiho († 5. 10. 1926 Dúbrava čp. 42), rodná příjmení Maryi Čákiové (* 21. 10. 1896 Strihovce) a Júlie Čákiové (* 15. 9. 1868 Strihovce) a potvrzení rodiny Marie Bubancové v Šmigovci (čp. 10 vs. čp. 34).
