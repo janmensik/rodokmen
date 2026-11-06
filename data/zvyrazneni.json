@@ -778,5 +778,17 @@
     ],
     "status": "ok",
     "note": "Zápis sňatku Jana Pospíchala a Františky Podroužkové"
+  },
+  "hluboka_krest_vaclav_henzl_1844": {
+    "boxes": [
+      [
+        0.197,
+        0.066,
+        0.334,
+        0.905
+      ]
+    ],
+    "status": "ok",
+    "note": "Křest Václava Henzla"
   }
 }

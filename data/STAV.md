@@ -513,6 +513,15 @@ pak konec `research_log.md` a sekci „Rozpracováno“.
     - Zvláštní hodnota zápisu: otec nevěsty Jan Podroužek (č. 190) připojil do matriky vlastnoruční souhlas sňatku se svým dochovaným podpisem „Jan Podroužek Otec“; zápis odhaluje vojenskou službu Jana Pospíchala u 21. řadového pěšího pluku (K.u.k. Infanterie-Regiment Graf von Reischach Nr. 21) a zpřesňuje roky narození obou předků na cca 1848–1849 a 1855–1856.
     - V rodokmenu celkem evidováno **234 osob** (z toho **67 doložených primárních zápisů** v **84 svazcích**, **92 řádků deníku hledání**).
 
+- 6. 11. 2026: V matrice narozených farnosti Krucemburk / obec Hluboká (SOA Zámrsk / ARON, sign. 6030, sn. 28, Fol. 26, 1. zápis) nalezen a primárně doložen křest prapradědečka **Václava Henzla** (* 6. 8. 1844 Hluboká čp. 15):
+    - Pokřtěn 7. 8. 1844 kaplanem Janem Jouklem jako manželský syn půlláníka Jana Henzla z Hluboké čp. 15 a Anny roz. Novákové z Chlumětína čp. 55.
+    - Zápis odhaluje novou generaci předků – **4 nové přímé předky v 9. generaci**:
+      - Josef Henzl (č. 368), sedlák na usedlosti čp. 15 v Hluboké (panství Polná).
+      - Terezie roz. Danielová (č. 369) z Březin (panství Polná).
+      - František Novák (č. 370), mistr kovářský na kovárně v Chlumětíně čp. 55 (panství Rychmburk).
+      - Josefa roz. Teplá (č. 371) ze Svratkoucha (panství Rychmburk, v matrice též čteno Deyly).
+    - V rodokmenu celkem evidováno **238 osob** (z toho **68 doložených primárních zápisů** v **85 svazcích**, **93 řádků deníku hledání**).
+
 - Další kroky k prozkoumání:
   1. Původ hajného Leopolda Sýse (č. 58), narození jeho dcery Františky Sýsové (* cca 1880–1885) a její sňatek s mistrem kolářským Otakarem Janem Krejzkem (* 6. 5. 1877 Blažkov čp. 20) před r. 1905 – např. prostřednictvím sčítacích operátů 1921 pro Bystřici n. P. – Nové Dvory čp. 147 (SOkA Žďár nad Sázavou).
   2. Slovenská řeckokatolická větev Čáki a Bubanec v matrikách farností Dúbrava, Ruský Hrabovec a Strihovce (Štátny archív v Prešove / FamilySearch): křestní jméno dědečka Čákiho († 5. 10. 1926 Dúbrava čp. 42), rodná příjmení Maryi Čákiové (* 21. 10. 1896 Strihovce) a Júlie Čákiové (* 15. 9. 1868 Strihovce) a potvrzení rodiny Marie Bubancové v Šmigovci (čp. 10 vs. čp. 34).

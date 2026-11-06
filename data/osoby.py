@@ -689,12 +689,11 @@ P = {
     91: dict(n="Františka Benová", y="", st="fam",
 
              f=["× Matěj Šíma"], bydl="Staré Ransko čp. 41", r=[], note="Údaje z rodinného stromu PDF."),
-
     92: dict(n="Václav Henzl", y="* 1844", st="doc",
-             f=["* 6. 8. 1844 Hluboká čp. 15", "× Marie Procházková"],
+             f=["* 6. 8. 1844 Hluboká čp. 15 (pokřtěn 7. 8. 1844)", "∞ Marie Procházková"],
              zam="čtvrtník v Hluboké čp. 15", bydl="Hluboká čp. 15", puvod="Hluboká čp. 15",
-             r=["hluboka_krest_franz_henzl_1872"],
-             note="Prapradědeček Jana Menšíka, čtvrtník na usedlosti čp. 15 v Hluboké. Manželský syn zemřelého půlláníka Jana Henzla z Hluboké čp. 15 a Anny roz. Novákové z Chlumětína. Doložen v křestním zápisu syna Františka roku 1872."),
+             r=["hluboka_krest_vaclav_henzl_1844", "hluboka_krest_franz_henzl_1872"],
+             note="Prapradědeček Jana Menšíka, čtvrtník na usedlosti čp. 15 v Hluboké. Narodil se 6. 8. 1844 v Hluboké čp. 15 jako manželský syn půlláníka Jana Henzla z Hluboké čp. 15 a Anny roz. Novákové z Chlumětína. Křest doložen primárním zápisem v matrice Hluboká sign. 6030."),
 
     93: dict(n="Marie Procházková", y="", st="doc",
              f=["× Václav Henzl"],
@@ -1105,18 +1104,16 @@ P = {
     183: dict(n="Karolina Králíčková", y="", st="fam",
 
               f=["× František Ben"], bydl="Česká Kamenice", r=[], note="Údaje z rodinného stromu PDF."),
-
     184: dict(n="Jan Henzl", y="† před 1872", st="doc",
-              f=["půlláník v Hluboké čp. 15", "× Anna Nováková", "† před 12. 7. 1872"],
+              f=["půlláník v Hluboké čp. 15", "∞ Anna Nováková", "† před 12. 7. 1872"],
               zam="půlláník (v tradici kovář a zámečník)", bydl="Hluboká čp. 15", puvod="Hluboká čp. 15",
-              r=["hluboka_krest_franz_henzl_1872"],
-              note="Pra-pra-pradědeček Jana Menšíka, usedlý jako půlláník na gruntu čp. 15 v Hluboké, zemřel před červencem 1872. Manžel Anny roz. Novákové z Chlumětína a otec čtvrtníka Václava Henzla."),
-
+              r=["hluboka_krest_vaclav_henzl_1844", "hluboka_krest_franz_henzl_1872"],
+              note="Pra-pra-pradědeček Jana Menšíka, usedlý jako půlláník na gruntu čp. 15 v Hluboké (poddaný panství Polná). Manželský syn Josefa Henzla, sedláka z Hluboké čp. 15, a Terezie roz. Danielové z Březin. Manžel Anny roz. Novákové z Chlumětína a otec Václava Henzla. Zemřel před červencem 1872."),
     185: dict(n="Anna Nováková", y="", st="doc",
-              f=["* Chlumětín", "× Jan Henzl"],
+              f=["* Chlumětín", "∞ Jan Henzl"],
               roz="Nováková", bydl="Hluboká čp. 15", puvod="Chlumětín",
-              r=["hluboka_krest_franz_henzl_1872"],
-              note="Pra-pra-prababička Jana Menšíka, pocházela z Chlumětína (rodem Nováková). Manželka půlláníka Jana Henzla z Hluboké čp. 15 a matka Václava Henzla."),
+              r=["hluboka_krest_vaclav_henzl_1844", "hluboka_krest_franz_henzl_1872"],
+              note="Pra-pra-prababička Jana Menšíka, pocházela z Chlumětína čp. 55. Manželská dcera Františka Nováka, kovářského mistra v Chlumětíně čp. 55, a Josefy roz. Teplé ze Svratkoucha (poddaní panství Rychmburk). Manželka půlláníka Jana Henzla z Hluboké čp. 15 a matka Václava Henzla."),
 
     186: dict(n="František Procházka", y="† před 1872", st="doc",
               f=["půlláník v Hluboké čp. 7", "× Františka Křesťanová", "† před 12. 7. 1872"],
@@ -1787,6 +1784,31 @@ P = {
              note='Údaj z exportu Geni / MyHeritage (export-Forest.ged).'),
 
 
+
+
+    368: dict(n="Josef Henzl", y="", st="doc",
+              f=["sedlák v Hluboké čp. 15", "∞ Terezie Danielová"],
+              zam="sedlák v Hluboké čp. 15", bydl="Hluboká čp. 15", puvod="Hluboká čp. 15",
+              r=["hluboka_krest_vaclav_henzl_1844"],
+              note="Přímý předek v 9. generaci (č. 368), sedlák na gruntu čp. 15 v Hluboké, poddaný k panství Polná. Manžel Terezie roz. Danielové z Březin a otec půlláníka Jana Henzla. Doložen v křestním zápisu vnuka Václava roku 1844."),
+
+    369: dict(n="Terezie Danielová", y="", st="doc",
+              f=["* Březiny", "∞ Josef Henzl"],
+              roz="Danielová", bydl="Hluboká čp. 15", puvod="Březiny",
+              r=["hluboka_krest_vaclav_henzl_1844"],
+              note="Přímá předkyně v 9. generaci (č. 369). Pocházela z Březin, poddaná k panství Polná. Manželka sedláka Josefa Henzla z Hluboké čp. 15 a matka Jana Henzla. Doložena v křestním zápisu vnuka Václava roku 1844."),
+
+    370: dict(n="František Novák", y="", st="doc",
+              f=["mistr kovářský v Chlumětíně čp. 55", "∞ Josefa Teplá"],
+              zam="mistr kovářský v Chlumětíně čp. 55", bydl="Chlumětín čp. 55", puvod="Chlumětín čp. 55",
+              r=["hluboka_krest_vaclav_henzl_1844"],
+              note="Přímý předek v 9. generaci (č. 370). Mistr kovářský na kovárně v Chlumětíně čp. 55, poddaný k panství Rychmburk. Manžel Josefy roz. Teplé ze Svratkoucha a otec Anny provdané Henzlové. Doložen v křestním zápisu vnuka Václava roku 1844."),
+
+    371: dict(n="Josefa Teplá", y="", st="doc",
+              f=["* Svratkouch", "∞ František Novák"],
+              roz="Teplá", bydl="Chlumětín čp. 55", puvod="Svratkouch",
+              r=["hluboka_krest_vaclav_henzl_1844"],
+              note="Přímá předkyně v 9. generaci (č. 371). Pocházela ze Svratkoucha (panství Rychmburk, rodem Teplá / v matrice též čteno Deyly). Manželka mistra kovářského Františka Nováka v Chlumětíně čp. 55 a matka Anny provdané Henzlové. Doložena v křestním zápisu vnuka Václava roku 1844."),
 
 }
 
