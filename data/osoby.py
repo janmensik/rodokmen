@@ -1128,12 +1128,12 @@ P = {
               r=["hluboka_krest_franz_henzl_1872"],
               note="Pra-pra-prababička Jana Menšíka (č. 187), pocházela z Hluboké čp. 26 (rodem Křesťanová). Manželka půlláníka Františka Procházky v Hluboké čp. 7 a matka Marie provdané Henzlové."),
 
-    188: dict(n="Tomáš Pospíchal", y="* cca 1811 – ?", st="doc",
+    188: dict(n="Tomáš Pospíchal", y="* 1. 8. 1810 – ?", st="doc",
               otec=376, matka=377,
-              f=["* cca 1811", "mistr krejčovský a domkař v Chlumu čp. 35", "∞ 10. 11. 1836 Krucemburk (Josefa Kasalová)", "syn Tomáše Pospíchala z Chlumu čp. 35 a Kateřiny Pátkové z Krucemburku čp. 122"],
+              f=["* 1. 8. 1810 Chlum čp. 35", "mistr krejčovský a domkař v Chlumu čp. 35", "∞ 10. 11. 1836 Krucemburk (Josefa Kasalová)", "syn Tomáše Pospíchala z Chlumu čp. 35 a Kateřiny Pátkové z Krucemburku čp. 122"],
               zam="mistr krejčovský a domkař v Chlumu", bydl="Chlum čp. 35", puvod="Chlum",
-              r=["krucemburk_oddani_pospichal_kasalova_1836", "chlum_krest_jan_pospichal_1847", "chlum_krest_aloisie_pospichalova_1875"],
-              note="Pra-pra-pradědeček Jana Menšíka, mistr krejčovský a domkař v Chlumu čp. 35. Narozen kolem roku 1811. Dne 10. 11. 1836 se v Krucemburku oženil s devatenáctiletou Josefou Kasalovou z Krucemburku čp. 43. Otec tesaře Jana Pospíchala."),
+              r=["chlum_krest_tomas_pospichal_1810", "krucemburk_oddani_pospichal_kasalova_1836", "chlum_krest_jan_pospichal_1847", "chlum_krest_aloisie_pospichalova_1875"],
+              note="Pra-pra-pradědeček Jana Menšíka, mistr krejčovský a domkař v Chlumu čp. 35. Narozen 1. 8. 1810 v Chlumu čp. 35 (pokřtěn 2. 8. 1810 kurátem Josefem Martincem, kmotři Jan Pospíchal chalupník z Chlumu a Terezie). Dne 10. 11. 1836 se v Krucemburku oženil s devatenáctiletou Josefou Kasalovou z Krucemburku čp. 43. Otec tesaře Jana Pospíchala."),
 
     189: dict(n="Josefa Pospíchalová", y="* 6. 3. 1817 – ?", st="doc",
               otec=378, matka=379,
@@ -1811,18 +1811,19 @@ P = {
               note="Přímá předkyně v 9. generaci (č. 371). Pocházela ze Svratkoucha (panství Rychmburk, rodem Teplá / v matrice též čteno Deyly). Manželka mistra kovářského Františka Nováka v Chlumětíně čp. 55 a matka Anny provdané Henzlové. Doložena v křestním zápisu vnuka Václava roku 1844."),
 
 
-
     376: dict(n="Tomáš Pospíchal", y="před 1795 – ?", st="doc",
-              f=["domkař v Chlumu čp. 35", "∞ Kateřina Pátková"],
+              otec=752,
+              f=["domkař a chalupník v Chlumu čp. 35", "syn zemřelého Vojtěcha Pospíchala chalupníka z Chlumu", "∞ Kateřina Pátková"],
               zam="domkař v Chlumu", bydl="Chlum čp. 35", puvod="Chlum",
-              r=["krucemburk_oddani_pospichal_kasalova_1836", "chlum_krest_jan_pospichal_1847"],
-              note="Přímý předek v 9. generaci (č. 376), domkař v Chlumu čp. 35 (panství Chrast). Manžel Kateřiny rozené Pátkové z Krucemburku čp. 122 a otec mistra krejčovského Tomáše Pospíchala. Doložen v oddacím zápisu syna 1836 a křestním zápisu vnuka Jana roku 1847."),
+              r=["chlum_krest_tomas_pospichal_1810", "krucemburk_oddani_pospichal_kasalova_1836", "chlum_krest_jan_pospichal_1847"],
+              note="Přímý předek v 9. generaci (č. 376), domkař v Chlumu čp. 35 (panství Chrast). Syn zemřelého chalupníka Vojtěcha Pospíchala z Chlumu. Manžel Kateřiny rozené Pátkové z Krucemburku čp. 122 a otec mistra krejčovského Tomáše Pospíchala ml. Doložen v křestní matrice syna Tomáše 1810, v oddacím zápisu syna 1836 a křestním zápisu vnuka Jana roku 1847."),
 
     377: dict(n="Kateřina Pátková", y="před 1795 – ?", st="doc",
+              otec=754,
               f=["* Krucemburk čp. 122", "dcera Martina Pátka domkaře v Krucemburku čp. 122", "∞ Tomáš Pospíchal"],
               roz="Pátková", bydl="Chlum čp. 35", puvod="Krucemburk čp. 122",
-              r=["krucemburk_oddani_pospichal_kasalova_1836", "chlum_krest_jan_pospichal_1847"],
-              note="Přímá předkyně v 9. generaci (č. 377). Dcera Martina Pátka, domkaře v Krucemburku čp. 122 (panství Polná). Manželka domkaře Tomáše Pospíchala v Chlumu čp. 35 a matka krejčovského mistra Tomáše Pospíchala ml. Doložena v oddacím zápisu syna 1836 a křestním zápisu vnuka Jana 1847."),
+              r=["chlum_krest_tomas_pospichal_1810", "krucemburk_oddani_pospichal_kasalova_1836", "chlum_krest_jan_pospichal_1847"],
+              note="Přímá předkyně v 9. generaci (č. 377). Dcera Martina Pátka, domkaře v Krucemburku čp. 122 (panství Polná). Manželka domkaře Tomáše Pospíchala v Chlumu čp. 35 a matka krejčovského mistra Tomáše Pospíchala ml. Doložena v křestní matrice syna Tomáše 1810, oddacím zápisu syna 1836 a křestním zápisu vnuka Jana 1847."),
 
     378: dict(n="Jan Kasal", y="před 1800 – ?", st="doc",
               otec=756,
@@ -1874,6 +1875,18 @@ P = {
               r=["krucemburk_krest_josefa_kasalova_1817"],
               note="Přímá předkyně v 10. generaci (č. 759). Manželka domkaře Františka Kasala v Krucemburku čp. 43 a matka Apoleny Kasalové (č. 379). Výslovně doložena rodným příjmením v křestním zápisu vnučky Josefy roku 1817 ('matky Anny Krupkowý z Krucember.')."),
 
+
+    752: dict(n="Vojtěch Pospíchal", y="před 1770 – před 1810", st="doc",
+              f=["chalupník v Chlumu", "zemřel před 1. 8. 1810", "otec Tomáše Pospíchala st."],
+              zam="chalupník v Chlumu", bydl="Chlum", puvod="Chlum",
+              r=["chlum_krest_tomas_pospichal_1810"],
+              note="Přímý předek v 10. generaci (č. 752), chalupník v Chlumu (panství Chrast). Otec domkaře Tomáše Pospíchala st. (č. 376) a dědeček krejčovského mistra Tomáše Pospíchala ml. (* 1810). V křestním zápisu vnuka Tomáše z 1. 8. 1810 je otec výslovně uveden jako 'Tomáš Pospjchal syn + Wogtěcha Pospjchala chalupnjka z Chlumu', což dokládá Vojtěchovo jméno i skutečnost, že v srpnu 1810 byl již po smrti."),
+
+    754: dict(n="Martin Pátek", y="před 1775 – ?", st="doc",
+              f=["domkař v Krucemburku čp. 122", "otec Kateřiny Pátkové"],
+              zam="domkař v Krucemburku čp. 122", bydl="Krucemburk čp. 122", puvod="Krucemburk",
+              r=["chlum_krest_tomas_pospichal_1810", "krucemburk_oddani_pospichal_kasalova_1836", "chlum_krest_jan_pospichal_1847"],
+              note="Přímý předek v 10. generaci (č. 754), domkař v Krucemburku čp. 122 (panství Polná). Otec Kateřiny Pátkové (č. 377) a dědeček krejčovského mistra Tomáše Pospíchala ml. (* 1810). Doložen v křestním zápisu vnuka Tomáše roku 1810 ('matky Kateřiny dcery Martina Pátka z Krucemberka'), v oddacím zápisu vnuka 1836 i křestním zápisu pravnuka Jana 1847."),
 }
 
 
