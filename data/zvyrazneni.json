@@ -814,5 +814,17 @@
     ],
     "status": "ok",
     "note": "Křest Jana Pospíchala"
+  },
+  "chlum_oddani_jan_podrouzek_1855": {
+    "boxes": [
+      [
+        0.302,
+        0.045,
+        0.518,
+        0.965
+      ]
+    ],
+    "status": "ok",
+    "note": "Sňatek Jana Podroužka a Antonie Řehákové"
   }
 }

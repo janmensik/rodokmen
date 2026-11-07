@@ -540,6 +540,13 @@ pak konec `research_log.md` a sekci „Rozpracováno“.
       - Apolena roz. Kasalová (č. 379) z Krucemburku čp. 42 (panství Polnické).
     - V rodokmenu celkem evidováno **245 osob** (z toho **70 doložených primárních zápisů** v **86 svazcích**, **95 řádků deníku hledání**).
 
+- 7. 11. 2026: V matrice oddaných farnosti Krucemburk / obec Chlum (SOA Zámrsk / ARON, sign. 707, sn. 142, Fol. 279, 2. zápis) nalezen a primárně doložen sňatek pra-pra-prarodičů **Jana Podroužka** (* cca 1828–1829 Chlum čp. 31) a **Antonie Řehákové** (* cca 1828 Chlum čp. 120):
+    - Oddáni 16. 1. 1855 ve farním chrámu v Krucemburku kurátem Josefem Němcem po trojím ohlášení (sňatkem legitimizována dcera Františka * 20. 4. 1854).
+    - Ženich: Jan Podroužek (č. 190), 26 let (* cca 1828–1829), svobodný půlláník z Chlumu čp. 31, syn zemřelého půlláníka Jana Podroužka st. (č. 380) a Anny roz. Rejnové (č. 381) z Kohoutova čp. 5.
+    - Nevěsta: Antonie Řeháková (č. 191), 26 1/2 roku (* cca 1828), svobodná legitimovaná dcera domkaře Josefa Řeháka (č. 382) z Chlumu čp. 120 a Anny roz. Bartošové (č. 383), dcery mlynáře ze Slouče čp. 2.
+    - Zvláštní hodnota zápisu: upřesňuje věk obou manželů a odhaluje mlynářské povolání v rodině matky nevěsty Anny Bartošové (Slouč čp. 2).
+    - V rodokmenu celkem evidováno **245 osob** (z toho **71 doložených primárních zápisů** v **86 svazcích**, **96 řádků deníku hledání**).
+
 - Další kroky k prozkoumání:
   1. Původ hajného Leopolda Sýse (č. 58), narození jeho dcery Františky Sýsové (* cca 1880–1885) a její sňatek s mistrem kolářským Otakarem Janem Krejzkem (* 6. 5. 1877 Blažkov čp. 20) před r. 1905 – např. prostřednictvím sčítacích operátů 1921 pro Bystřici n. P. – Nové Dvory čp. 147 (SOkA Žďár nad Sázavou).
   2. Slovenská řeckokatolická větev Čáki a Bubanec v matrikách farností Dúbrava, Ruský Hrabovec a Strihovce (Štátny archív v Prešove / FamilySearch): křestní jméno dědečka Čákiho († 5. 10. 1926 Dúbrava čp. 42), rodná příjmení Maryi Čákiové (* 21. 10. 1896 Strihovce) a Júlie Čákiové (* 15. 9. 1868 Strihovce) a potvrzení rodiny Marie Bubancové v Šmigovci (čp. 10 vs. čp. 34).
