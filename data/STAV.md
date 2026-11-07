@@ -558,6 +558,13 @@ pak konec `research_log.md` a sekci „Rozpracováno“.
     - Prababička č. 23 povýšena ze stavu `fam` na `doc`!
     - V rodokmenu celkem evidováno **245 osob** (z toho **72 doložených primárních zápisů** v **86 svazcích**, **97 řádků deníku hledání**).
 
+- 7. 11. 2026: V matrice oddaných farnosti Krucemburk (SOA Zámrsk / ARON, sign. 2975, sn. 62, Pag. 110, 2. zápis r. 1836) nalezen a primárně doložen sňatek pra-pra-prarodičů **Tomáše Pospíchala** (* cca 1811 Chlum čp. 35) a **Josefy Kasalové** (* cca 1817 Krucemburk čp. 43):
+    - Oddáni 10. 11. 1836 v chrámu sv. Mikuláše v Krucemburku farářem Františkem Dúbravským (vyhledáno pomocí generálního farního indexu sign. 714 sn. 88 pod zkratkou `I: 110`).
+    - Ženich: Tomáš Pospíchal (č. 188), 25 let (* cca 1811), svobodný mistr krejčovský a domkař v Chlumu čp. 35, syn Tomáše Pospíchala (č. 376), domkaře v Chlumu čp. 35 a Kateřiny roz. Pátkové (č. 377) z Krucemburku čp. 122 (panství Polná).
+    - Nevěsta: Josefa Kasalová (č. 189), 19 let (* cca 1817), svobodná dcera Jana Kasala (č. 378), domkaře v Krucemburku čp. 43 a Apoleny roz. Kasalové (č. 379), dcery Františka Kasala, domkaře v Krucemburku čp. 43.
+    - Zvláštní hodnota zápisu: otec nevěsty Jan Kasal byl přítomen a připojil vlastnoruční podpis *„Jan Kasal Otec“*. Zápis upřesňuje věk obou snoubenců a odhaluje mateřské linie v 10. generaci (Martin Pátek v Krucemburku čp. 122 a František Kasal v Krucemburku čp. 43).
+    - V rodokmenu celkem evidováno **245 osob** (z toho **73 doložených primárních zápisů** v **86 svazcích**, **98 řádků deníku hledání**).
+
 - Další kroky k prozkoumání:
   1. Původ hajného Leopolda Sýse (č. 58), narození jeho dcery Františky Sýsové (* cca 1880–1885) a její sňatek s mistrem kolářským Otakarem Janem Krejzkem (* 6. 5. 1877 Blažkov čp. 20) před r. 1905 – např. prostřednictvím sčítacích operátů 1921 pro Bystřici n. P. – Nové Dvory čp. 147 (SOkA Žďár nad Sázavou).
   2. Slovenská řeckokatolická větev Čáki a Bubanec v matrikách farností Dúbrava, Ruský Hrabovec a Strihovce (Štátny archív v Prešove / FamilySearch): křestní jméno dědečka Čákiho († 5. 10. 1926 Dúbrava čp. 42), rodná příjmení Maryi Čákiové (* 21. 10. 1896 Strihovce) a Júlie Čákiové (* 15. 9. 1868 Strihovce) a potvrzení rodiny Marie Bubancové v Šmigovci (čp. 10 vs. čp. 34).

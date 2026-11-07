@@ -838,5 +838,17 @@
     ],
     "status": "ok",
     "note": "Narození a křest Žofie Anny Henzlové"
+  },
+  "krucemburk_oddani_pospichal_kasalova_1836": {
+    "boxes": [
+      [
+        0.02,
+        0.01,
+        0.98,
+        0.99
+      ]
+    ],
+    "status": "ok",
+    "note": "Sňatek Tomáše Pospíchala a Josefy Kasalové"
   }
 }
