@@ -802,5 +802,17 @@
     ],
     "status": "ok",
     "note": "Křest Františky Podroužkové"
+  },
+  "chlum_krest_jan_pospichal_1847": {
+    "boxes": [
+      [
+        0.612,
+        0.055,
+        0.748,
+        0.955
+      ]
+    ],
+    "status": "ok",
+    "note": "Křest Jana Pospíchala"
   }
 }

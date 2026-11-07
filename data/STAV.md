@@ -530,6 +530,16 @@ pak konec `research_log.md` a sekci „Rozpracováno“.
       - Anna roz. Bártová (č. 383) ze Slouče čp. 2.
     - V rodokmenu celkem evidováno **241 osob** (z toho **69 doložených primárních zápisů** v **85 svazcích**, **94 řádků deníku hledání**).
 
+- 7. 11. 2026: V matrice narozených farnosti Krucemburk / obec Chlum (SOA Zámrsk / ARON, sign. 707, sn. 98, Fol. 191, 5. zápis) s pomocí farního indexu sign. 2985 (sn. 52, litera R, fol. 191) nalezen a primárně doložen prapradědeček **Jan Pospíchal** (* 23. 6. 1847 Chlum čp. 35):
+    - Narozen 23. 6. 1847 v Chlumu čp. 35, pokřtěn 24. 6. 1847 kaplanem P. Josefem Ryllem jako Jan, manželský syn domkaře Tomáše Pospíchala a Josefy rozené Kasalové z Krucemburku čp. 43.
+    - Zpřesňuje dosud odhadované datum narození (z cca 1848–1849 na přesné 23. 6. 1847).
+    - Zápis odhaluje novou generaci předků – **4 nové přímé předky v 9. generaci**:
+      - Tomáš Pospíchal st. (č. 376), domkař v Chlumu čp. 35 (panství Polná).
+      - Kateřina roz. Kasalová (č. 377) z Krucemburku čp. 122 (panství Polná).
+      - Jan Kasal (č. 378), domkař v Krucemburku čp. 43 (panství Polnické).
+      - Apolena roz. Kasalová (č. 379) z Krucemburku čp. 42 (panství Polnické).
+    - V rodokmenu celkem evidováno **245 osob** (z toho **70 doložených primárních zápisů** v **86 svazcích**, **95 řádků deníku hledání**).
+
 - Další kroky k prozkoumání:
   1. Původ hajného Leopolda Sýse (č. 58), narození jeho dcery Františky Sýsové (* cca 1880–1885) a její sňatek s mistrem kolářským Otakarem Janem Krejzkem (* 6. 5. 1877 Blažkov čp. 20) před r. 1905 – např. prostřednictvím sčítacích operátů 1921 pro Bystřici n. P. – Nové Dvory čp. 147 (SOkA Žďár nad Sázavou).
   2. Slovenská řeckokatolická větev Čáki a Bubanec v matrikách farností Dúbrava, Ruský Hrabovec a Strihovce (Štátny archív v Prešove / FamilySearch): křestní jméno dědečka Čákiho († 5. 10. 1926 Dúbrava čp. 42), rodná příjmení Maryi Čákiové (* 21. 10. 1896 Strihovce) a Júlie Čákiové (* 15. 9. 1868 Strihovce) a potvrzení rodiny Marie Bubancové v Šmigovci (čp. 10 vs. čp. 34).
