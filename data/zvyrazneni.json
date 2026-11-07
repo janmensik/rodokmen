@@ -876,9 +876,27 @@
     "note": "Křest Tomáše Pospíchala v Chlumu čp. 35"
   },
   "krucemburk_oddani_pospichal_patkova_1794": {
-    "x": 0.0,
-    "y": 0.0,
-    "w": 1.0,
-    "h": 1.0
+    "boxes": [
+      [
+        0.02,
+        0.01,
+        0.98,
+        0.99
+      ]
+    ],
+    "status": "ok",
+    "note": "Sňatek Tomáše Pospíchala a Kateřiny Pátkové v Krucemburku čp. 122"
+  },
+  "krucemburk_krest_katerina_patkova_1776": {
+    "boxes": [
+      [
+        0.02,
+        0.01,
+        0.98,
+        0.99
+      ]
+    ],
+    "status": "ok",
+    "note": "Narození a křest Kateřiny Pátkové v Chlumu čp. 58"
   }
 }

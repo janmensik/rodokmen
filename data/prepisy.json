@@ -335,5 +335,22 @@
     "doslovny": "1794 Leden 28. | Nro 122 | Tomaš Pospjchal | katolické | 30 l. | svobodný | Katerzina Patkowa | katolické | 19 l. | svobodná | Joannes Sauzer capellanus | Svědkové: Wogtiech Krzistan +++, Waczlaw Paufr +++",
     "orig": "Léta Páně 1794. Leden 28. | Nro Domu: 122 | Ženich: Tomaš Pospjchal (30 l., svobodný) | Nevěsta: Katerzina Patkowa (19 l., svobodná) | Joannes Sauzer capellanus | Svědkové: Wogtiech Krzistan +++, Waczlaw Paufr +++",
     "cs": "28. ledna 1794 byli v Krucemburku čp. 122 kaplanem Janem Sauzerem oddáni Tomáš Pospíchal (30 let, svobodný katolík z Chlumu) a Kateřina Pátková (19 let, svobodná katolička z Krucemburku čp. 122). Svědky byli Vojtěch Křesťan a Václav Paufr z Krucemburku."
+  },
+  "krucemburk_krest_katerina_patkova_1776": {
+    "hlavicka": "Kniha narozených farnosti Krucemburk • Pag. 201 • 1776 (SOA Zámrsk, sign. 705, sn. 104)",
+    "sloupce": {
+      "Dies Nativitatis / Baptisati": "9. / 10. Novembris 1776",
+      "Baptisans": "Joannes Daniek Capellanus",
+      "Infans": "Catharina",
+      "Parentes": "Pátek Martinus rusticus et uxor Magdalena Subditi Chrastenses",
+      "Levans": "Anna uxor Adalberti Staněk sutoris e Chluma",
+      "Testes": "Tejřaj Mathias rotarius e Chluma",
+      "Religio": "Cath.",
+      "Locus": "Chlum",
+      "Nrus Domus": "58"
+    },
+    "doslovny": "Dies Nativitatis 9. | Baptisati 10. Novembris 1776 | Joannes Daniek Capell. | Catharina | Pátek Martinus rusticus et uxor Magdalena Subditi Chrastenses | Anna uxor Adalberti Staněk sutoris e Chluma | Tejřaj Mathias rotarius e Chluma | Cath. | Chlum | 58",
+    "orig": "9. / 10. Novembris 1776 | Joannes Daniek Capell. | Catharina | Pátek Martinus rusticus et uxor Magdalena Subditi Chrastenses | Levans: Anna uxor Adalberti Staněk sutoris e Chluma | Testes: Tejřaj Mathias rotarius e Chluma | Cath. | Chlum 58",
+    "cs": "9. listopadu 1776 se v Chlumu čp. 58 narodila a 10. listopadu 1776 byla kaplanem Janem Daňkem pokřtěna Kateřina (Catharina), dcera sedláka (rusticus) Martina Pátka a jeho manželky Magdaleny, poddaných panství Chrást. Kmotrou byla Anna, manželka ševce Vojtěcha Staňka z Chlumu, a svědkem kolář Matěj Tejřaj z Chlumu."
   }
 }

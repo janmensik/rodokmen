@@ -72,6 +72,14 @@ pak konec `research_log.md` a sekci „Rozpracováno“.
 
 ## Rozpracováno (aktualizovat průběžně)
 
+- 7. 11. 2026: V matrice narozených farnosti Krucemburk (SOA Zámrsk / ARON, sign. 705, sn. 104, Pag. 201, poslední zápis r. 1776) nalezena a primárně doložena pra-pra-prababička 9. generace **Kateřina Pátková** (* 9. 11. 1776 Chlum čp. 58):
+    - Narozena 9. 11. 1776 v Chlumu čp. 58, pokřtěna 10. 11. 1776 kaplanem Janem Daňkem jako Catharina (vyhledáno pomocí generálního farního indexu sign. 713 sn. 32 pod zápisem '58 Chlum Pátek Catharina IV 201').
+    - Otec: Martin Pátek (č. 754), sedlák ('Pátek Martinus rusticus'), poddaný panství Chrást ('Subditi Chrastenses').
+    - Matka: Magdalena (č. 755), manželka Martina Pátka.
+    - Kmotra: Anna, manželka ševce Vojtěcha Staňka z Chlumu; svědek: Matěj Tejřaj, kolář z Chlumu.
+    - Zvláštní hodnota zápisu: přináší přesné datum narození a místo původu Kateřiny Pátkové (Chlum čp. 58) a odhaluje novou předkyni v 10. generaci – matku **Magdalenu (č. 755)**.
+    - V rodokmenu celkem evidováno **251 osob** (z toho **77 doložených primárních zápisů** v **89 svazcích**, **102 řádků deníku hledání**).
+
 - 7. 11. 2026: V matrice oddaných farnosti Krucemburk (SOA Zámrsk / ARON, sign. 2975, sn. 23, Pag. 36, předposlední zápis r. 1794) nalezen a primárně doložen sňatek pra-pra-prarodičů 9. generace **Tomáše Pospíchala** (* cca 1763/1764 Chlum) a **Kateřiny Pátkové** (* cca 1774/1775 Krucemburk čp. 122):
     - Oddáni 28. 1. 1794 v chrámu sv. Mikuláše v Krucemburku kaplanem Janem Sauzerem (vyhledáno pomocí generálního farního indexu sign. 714 sn. 86 pod zkratkami 'Pospichal Tomáš I: 36' a 'Patek Kateřina I: 36').
     - Ženich: Tomáš Pospíchal (č. 376), 30 let (* cca 1763/1764), svobodný katolík z Chlumu (syn chalupníka Vojtěcha Pospíchala z Chlumu).
