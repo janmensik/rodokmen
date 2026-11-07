@@ -371,5 +371,21 @@
     "doslovny": "1792 Máj 3. | Nro 49 (79) | Jan | katolické (1) | mužské (1) | manželské (1) | Joannes Sauzer Capellanus | Bába: Alžběta Kalibowa | Otec: Wácslaw Kasal | Matka: Magdalena dcera Wytiskowa | Kmotři: Jakub Paukert +++, Ewa Podstatnická",
     "orig": "1792 Máj 3. | Nro Domu: 49 (79) | Jméno: Jan | Joannes Sauzer Capellanus | Bába Alžběta Kalibowa | Otec: Wácslaw Kasal | Matka: Magdalena dcera Wytiskowa | Kmotři: Jakub Paukert, Ewa Podstatnická",
     "cs": "3. května 1792 se v Krucemburku čp. 49 (nebo 79) narodil a téhož dne byl kaplanem Janem Sauzerem pokřtěn Jan, manželský syn Václava Kasala a Magdaleny rozené Vytiskové. Kmotry byli Jakub Paukert a Eva Podstatnická, porodní bábou Alžběta Kalibová."
+  },
+  "krucemburk_krest_apolena_kasalova_1784": {
+    "hlavicka": "Kniha narozených Krucemburk – Pag. 72 – 1784 (SOA Zámrsk, sign. 708, sn. 40)",
+    "sloupce": {
+      "Mensis et Dies (Nativitatis / Baptizati)": "1784. Mense Aprili. Dies Nat. 13. / Bapt. 13.",
+      "Baptizans": "Wenceslaus Herzman Capel. Loci",
+      "Infans": "Apollonia",
+      "Parentes": "Kassal Franciscus casarius, uxor Anna subditi Polna",
+      "Patrini (Levans / Testes)": "Levans: Apollonia uxor Joannis Novotny casary Krusburga | Testes: Bukowsky Wenceslaus colorarius Krusburga",
+      "Religio / Sexus / Thorus": "Catholica / Foeminei / Legitimi",
+      "Locus": "Krusburga",
+      "Nrus domus": "23"
+    },
+    "doslovny": "72. Anno 1784. Mense Aprili. | Dies Nat. 13. Bapt. 13. | Wenceslaus Herzman Capel. Loci | Apollonia | Kassal Franciscus casarius, uxor Anna subditi Polna | Patrini: Levans: Apollonia uxor Joannis Novotny casary Krusburga, Testes: Bukowsky Wenceslaus colorarius Krusburga | Religio: Cath. | Sexus: Foeminei | Thorus: Legitimi | Locus: Krusburga | Nrus domus: 23",
+    "orig": "72. Anno 1784. Mense Aprili. | Dies Nat. 13. Bapt. 13. | Wenceslaus Herzman Capel. Loci | Apollonia | Kassal Franciscus casarius, uxor Anna subditi Polna | Levans: Apollonia uxor Joannis Novotny casary Krusburga | Testes: Bukowsky Wenceslaus colorarius Krusburga | Cath. | Krusburga 23.",
+    "cs": "13. dubna 1784 se v Krucemburku čp. 23 narodila a téhož dne byla místním kaplanem Václavem Heřmanem pokřtěna Apollonia (Apolena), manželská dcera Františka Kasala, domkáře (chalupníka), a jeho manželky Anny, poddaných panství Polná. Kmotrou byla Apolena, manželka Jana Novotného, domkáře z Krucemburku; svědkem Václav Bukovský, barvíř z Krucemburku."
   }
 }

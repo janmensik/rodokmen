@@ -910,5 +910,15 @@
     ],
     "status": "ok",
     "note": "Narození a křest Jana Kasala v Krucemburku"
+  },
+  "krucemburk_krest_apolena_kasalova_1784": {
+    "boxes": [
+      [
+        0.38,
+        0.02,
+        0.95,
+        0.98
+      ]
+    ]
   }
 }
