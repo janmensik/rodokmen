@@ -72,6 +72,14 @@ pak konec `research_log.md` a sekci „Rozpracováno“.
 
 ## Rozpracováno (aktualizovat průběžně)
 
+- 7. 11. 2026: V matrice oddaných farnosti Krucemburk (SOA Zámrsk / ARON, sign. 2975, sn. 23, Pag. 36, předposlední zápis r. 1794) nalezen a primárně doložen sňatek pra-pra-prarodičů 9. generace **Tomáše Pospíchala** (* cca 1763/1764 Chlum) a **Kateřiny Pátkové** (* cca 1774/1775 Krucemburk čp. 122):
+    - Oddáni 28. 1. 1794 v chrámu sv. Mikuláše v Krucemburku kaplanem Janem Sauzerem (vyhledáno pomocí generálního farního indexu sign. 714 sn. 86 pod zkratkami 'Pospichal Tomáš I: 36' a 'Patek Kateřina I: 36').
+    - Ženich: Tomáš Pospíchal (č. 376), 30 let (* cca 1763/1764), svobodný katolík z Chlumu (syn chalupníka Vojtěcha Pospíchala z Chlumu).
+    - Nevěsta: Kateřina Pátková (č. 377), 19 let (* cca 1774/1775), svobodná katolička z Krucemburku čp. 122 (dcera domkaře Martina Pátka z Krucemburku čp. 122).
+    - Svědci: Vojtěch Křesťan a Václav Paufr z Krucemburku.
+    - Zvláštní hodnota zápisu: upřesňuje věk obou snoubenců a potvrzuje rodinné vazby do Chlumu a Krucemburku čp. 122 pro 10. generaci (Vojtěch Pospíchal č. 752 a Martin Pátek č. 754).
+    - V rodokmenu celkem evidováno **250 osob** (z toho **76 doložených primárních zápisů** v **88 svazcích**, **101 řádků deníku hledání**).
+
 - 7. 11. 2026: V matrice Krucemburku (SOA Zámrsk – ARON, sign. 709, sn. 10, Fol. 6) ověřeno a doloženo:
   - Narození a křest **Josefy Kasalové** (* 6. 3. 1817 Krucemburk čp. 43, č. 189), manželské dcery domkaře Jana Kasala a Apoleny rozené Kasalové.
   - Zápis výslovně uvádí otce Jana Kasala jako syna Václava Kasala ('syn Waclawow domkař z Krucemberka') a matku Apolenu jako dceru Františka Kasala a Anny rozené Krupkové z Krucemburku.
