@@ -547,6 +547,17 @@ pak konec `research_log.md` a sekci „Rozpracováno“.
     - Zvláštní hodnota zápisu: upřesňuje věk obou manželů a odhaluje mlynářské povolání v rodině matky nevěsty Anny Bartošové (Slouč čp. 2).
     - V rodokmenu celkem evidováno **245 osob** (z toho **71 doložených primárních zápisů** v **86 svazcích**, **96 řádků deníku hledání**).
 
+- 7. 11. 2026: V matrice narozených farnosti Krucemburk / obec Hluboká (SOA Zámrsk / ARON, sign. 6030, sn. 192, Fol. 187, 3. zápis r. 1904, poř. č. 29) nalezena a primárně doložena prababička **Žofie Anna Henzlová** (* 8. 5. 1904 Hluboká čp. 38):
+    - Narozena 8. 5. 1904 v Hluboké čp. 38, pokřtěna 12. 5. 1904 krucemburským farářem Antonínem Rohlíkem jako Žofie Anna.
+    - Otec: František Henzl (č. 46), katolík, truhlář a hostinský, nar. 25. 12. 1872 v Hluboké čp. 15, manželský syn rolníka Václava Henzla z čp. 56 a Marie roz. Františka Procházky z Hluboké čp. 35.
+    - Matka: Aloisie roz. Pospíchalová (č. 47), katolička, nar. 5. 7. 1875 v Chlumu čp. 35, manželská dcera domkáře z Chlumu čp. 35 a Františky roz. Jana Podroužka ze Chlumu.
+    - Kmotra: Marie Jirková, manželka Filipa Jirky, hostinského v Radostíně čp. 27.
+    - Zvláštní hodnota zápisu: obsahuje dva klíčové autentické přípisy:
+      1. Přesné datum sňatku rodičů Franze Henzla a Aloisie Pospíchalové: 'cop. 18 16/8 98' (16. 8. 1898 v Chlumu).
+      2. Přípis o sňatku samotné Žofie: 'Oddána dne 20. V. 1926 s Juliem Holánkem' (zámečník ze Starého Ranska, pradědeček č. 22).
+    - Prababička č. 23 povýšena ze stavu `fam` na `doc`!
+    - V rodokmenu celkem evidováno **245 osob** (z toho **72 doložených primárních zápisů** v **86 svazcích**, **97 řádků deníku hledání**).
+
 - Další kroky k prozkoumání:
   1. Původ hajného Leopolda Sýse (č. 58), narození jeho dcery Františky Sýsové (* cca 1880–1885) a její sňatek s mistrem kolářským Otakarem Janem Krejzkem (* 6. 5. 1877 Blažkov čp. 20) před r. 1905 – např. prostřednictvím sčítacích operátů 1921 pro Bystřici n. P. – Nové Dvory čp. 147 (SOkA Žďár nad Sázavou).
   2. Slovenská řeckokatolická větev Čáki a Bubanec v matrikách farností Dúbrava, Ruský Hrabovec a Strihovce (Štátny archív v Prešove / FamilySearch): křestní jméno dědečka Čákiho († 5. 10. 1926 Dúbrava čp. 42), rodná příjmení Maryi Čákiové (* 21. 10. 1896 Strihovce) a Júlie Čákiové (* 15. 9. 1868 Strihovce) a potvrzení rodiny Marie Bubancové v Šmigovci (čp. 10 vs. čp. 34).

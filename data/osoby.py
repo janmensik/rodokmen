@@ -257,11 +257,14 @@ P = {
 
              note="Narozen ve Starém Ransku čp. 55 jako syn hamerníka a kováře Františka Holánka a Julie roz. Šímové. V duchu rodové tradice raneckých hutníků se vyučil zámečníkem a kovářem. V květnu 1926 se oženil se Sofií Henzlovou (* 1904), dcerou truhláře a hostinského Franze Henzla z Hluboké (věkový rozdíl manželů byl 15 let). Žil v Hluboké čp. 36; pradědeček Jana Menšíka."),
 
-    23: dict(n="Sofia Henzlová", y="1904–1985", st="fam",
+    23: dict(n="Sofia Henzlová", y="1904–1985", st="doc",
 
-             f=["* 8. 5. 1904 Hluboká čp. 38", "× 20. 5. 1926 Julius Holánek", "† 1985"], r=[],
+             f=["* 8. 5. 1904 Hluboká čp. 38", "křest 12. 5. 1904 Hluboká (P. Antonín Rohlík)",
+                "× 20. 5. 1926 Julius Holánek", "† 1985"],
+             bydl="Hluboká čp. 38, později Hluboká čp. 36", puvod="Hluboká čp. 38",
+             r=["hluboka_krest_zofie_henzlova_1904"],
 
-             note="Narozena v Hluboké jako dcera truhláře a hostinského Franze Henzla z rodového gruntu čp. 15 v Hluboké a Aloisie roz. Pospíchalové z Radostína. V květnu 1926 se provdala za zámečníka Julia Holánka ze Starého Ranska a žili v Hluboké čp. 36. Maminka Zdenky Jarolímové roz. Holánkové (* 1928); prababička Jana Menšíka."),
+             note="Prababička Jana Menšíka. V matrice zapsána jako Žofie Anna. Narozena 8. 5. 1904 v Hluboké čp. 38 a pokřtěna 12. 5. farářem Antonínem Rohlíkem jako manželská dcera truhláře a hostinského Františka Henzla (narozeného 25. 12. 1872 v Hluboké čp. 15) a Aloisie roz. Pospíchalové (narozené 5. 7. 1875 v Chlumu čp. 35). Kmotrou byla Marie Jirková, choť hostinského z Radostína čp. 27. Matriční zápis obsahuje přípisy o sňatku rodičů (16. 8. 1898) i o jejím vlastním sňatku dne 20. 5. 1926 se zámečníkem Juliem Holánkem ze Starého Ranska. Žili v Hluboké čp. 36; maminka Zdenky Jarolímové roz. Holánkové (* 1928)."),
 
     24: dict(n="Andrej Čáki", y="* 1891", st="doc",
              f=["* 5. 3. 1891 Dúbrava čp. 42 (okres Snina)", "× 15. 4. 1918 Marya ...",
@@ -419,15 +422,15 @@ P = {
 
     46: dict(n="Franz Henzl", y="1872–1954", st="doc",
              f=["* 12. 7. 1872 Hluboká čp. 15", "křest 13. 7. 1872 Hluboká (P. Augustin Jelínek)",
-                "kř. list 1898 k sňatku do Chlumu", "× Aloisie Pospíchalová", "† 15. 2. 1954 Havlíčkův Brod čp. 539"],
+                "kř. list 1898 k sňatku do Chlumu", "× 16. 8. 1898 Chlum Aloisie Pospíchalová", "† 15. 2. 1954 Havlíčkův Brod čp. 539"],
              zam="truhlář a hostinský", bydl="Hluboká čp. 15", puvod="Hluboká čp. 15",
-             r=["hluboka_krest_franz_henzl_1872"],
+             r=["hluboka_krest_franz_henzl_1872", "hluboka_krest_zofie_henzlova_1904"],
              note="Pradědeček Jana Menšíka. Narozen 12. 7. 1872 v Hluboké čp. 15 a pokřtěn 13. 7. farářem Augustinem Jelínkem. Truhlář a hostinský na rodové usedlosti čp. 15 v Hluboké u Krucemburku. Manželský syn čtvrtníka Václava Henzla a Marie roz. Procházkové z čp. 7; vnuk Jana Henzla a Františka Procházky. Křestní zápis nese přípisy o vystavení křestního listu 9. 4. 1893 k plnoletosti, 12. 7. 1898 k sňatku do Chlumu s Aloisií Pospíchalovou a úřední záznam MNV Křižanov o úmrtí 15. 2. 1954 v Havlíčkově Brodě (Dolní čp. 539). Otec Sofie Holánkové roz. Henzlové."),
 
     47: dict(n="Aloisie Pospíchalová", y="1875–1957", st="doc",
              f=["* 8. 1. 1875 Chlum čp. 31", "křest 8. 1. 1875 Chlum (P. J. Šimek)",
-                "legitimována sňatkem rodičů 4. 2. 1876", "× Franz Henzl", "† 1957"],
-             r=["chlum_krest_aloisie_pospichalova_1875"],
+                "legitimována sňatkem rodičů 4. 2. 1876", "× 16. 8. 1898 Chlum Franz Henzl", "† 1957"],
+             r=["chlum_krest_aloisie_pospichalova_1875", "hluboka_krest_zofie_henzlova_1904"],
              bydl="Chlum čp. 31, později Hluboká čp. 15", puvod="Chlum čp. 31",
              note="Prababička Jana Menšíka. Narozena 8. 1. 1875 v Chlumu čp. 31 a téhož dne pokřtěna farářem J. Šimkem. Dcera tesaře Jana Pospíchala a Františky roz. Podroužkové; legitimována následným sňatkem rodičů dne 4. 2. 1876 (oddací kniha farnosti, Lit. O. pag. 22). Matriční záznam vyvrací starší rodinnou tradici o rodičích (František Pospíchal a Anna Bencová). Manželka truhláře a hostinského Franze Henzla na rodovém gruntě čp. 15 v Hluboké a maminka Sofie Holánkové roz. Henzlové (* 1904)."),
 
