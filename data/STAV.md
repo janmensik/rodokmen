@@ -72,6 +72,15 @@ pak konec `research_log.md` a sekci „Rozpracováno“.
 
 ## Rozpracováno (aktualizovat průběžně)
 
+- 7. 11. 2026: V matrice narozených farnosti Krucemburk (SOA Zámrsk / ARON, sign. 708, sn. 61, Pag. 113, 4. zápis r. 1792) nalezen a primárně doložen pra-pra-pradědeček 9. generace **Jan Kasal** (* 3. 5. 1792 Krucemburk):
+    - Narozen 3. 5. 1792 v Krucemburku čp. 49 (79), pokřtěn téhož dne kaplanem Janem Sauzerem jako Jan (vyhledáno pomocí generálního farního indexu sign. 714 sn. 25 pod zápisem 'Kasal Jan * 1792 E 113').
+    - Otec: Václav Kasal (č. 756, 'Wácslaw Kasal').
+    - Matka: Magdalena dcera Vytiskova (č. 757, 'Magdalena dcera Wytiskowa').
+    - Kmotři: Jakub Paukert a Eva Podstatnická.
+    - Zvláštní hodnota zápisu: potvrzuje otcovství Václava Kasala (č. 756) a odhaluje novou přímou předkyni v 10. generaci – matku **Magdalenu rozenou Vytiskovou (č. 757)**.
+    - V rodokmenu celkem evidováno **252 přímých předků** (z toho **78 doložených primárních zápisů** v **90 svazcích**, **103 řádků deníku hledání**).
+
+
 - 7. 11. 2026: V matrice narozených farnosti Krucemburk (SOA Zámrsk / ARON, sign. 705, sn. 104, Pag. 201, poslední zápis r. 1776) nalezena a primárně doložena pra-pra-prababička 9. generace **Kateřina Pátková** (* 9. 11. 1776 Chlum čp. 58):
     - Narozena 9. 11. 1776 v Chlumu čp. 58, pokřtěna 10. 11. 1776 kaplanem Janem Daňkem jako Catharina (vyhledáno pomocí generálního farního indexu sign. 713 sn. 32 pod zápisem '58 Chlum Pátek Catharina IV 201').
     - Otec: Martin Pátek (č. 754), sedlák ('Pátek Martinus rusticus'), poddaný panství Chrást ('Subditi Chrastenses').

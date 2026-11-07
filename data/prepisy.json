@@ -352,5 +352,24 @@
     "doslovny": "Dies Nativitatis 9. | Baptisati 10. Novembris 1776 | Joannes Daniek Capell. | Catharina | Pátek Martinus rusticus et uxor Magdalena Subditi Chrastenses | Anna uxor Adalberti Staněk sutoris e Chluma | Tejřaj Mathias rotarius e Chluma | Cath. | Chlum | 58",
     "orig": "9. / 10. Novembris 1776 | Joannes Daniek Capell. | Catharina | Pátek Martinus rusticus et uxor Magdalena Subditi Chrastenses | Levans: Anna uxor Adalberti Staněk sutoris e Chluma | Testes: Tejřaj Mathias rotarius e Chluma | Cath. | Chlum 58",
     "cs": "9. listopadu 1776 se v Chlumu čp. 58 narodila a 10. listopadu 1776 byla kaplanem Janem Daňkem pokřtěna Kateřina (Catharina), dcera sedláka (rusticus) Martina Pátka a jeho manželky Magdaleny, poddaných panství Chrást. Kmotrou byla Anna, manželka ševce Vojtěcha Staňka z Chlumu, a svědkem kolář Matěj Tejřaj z Chlumu."
+  },
+  "krucemburk_krest_jan_kasal_1792": {
+    "hlavicka": "Kniha narozených Krucemburk • Pag. 113 • 1792 (SOA Zámrsk, sign. 708, sn. 61)",
+    "sloupce": {
+      "Rok a Měsíc": "1792 Máj 3.",
+      "Nro Domu": "49 (79)",
+      "Jméno": "Jan",
+      "Náboženství": "katolické (1)",
+      "Pohlaví": "mužské (1)",
+      "Lože": "manželské (1)",
+      "Kněz křtící": "Joannes Sauzer Capellanus",
+      "Bába": "Alžběta Kalibowa",
+      "Otec": "Wácslaw Kasal",
+      "Matka": "Magdalena dcera Wytiskowa",
+      "Kmotři": "Jakub Paukert +++, Ewa Podstatnická, Klobucká"
+    },
+    "doslovny": "1792 Máj 3. | Nro 49 (79) | Jan | katolické (1) | mužské (1) | manželské (1) | Joannes Sauzer Capellanus | Bába: Alžběta Kalibowa | Otec: Wácslaw Kasal | Matka: Magdalena dcera Wytiskowa | Kmotři: Jakub Paukert +++, Ewa Podstatnická",
+    "orig": "1792 Máj 3. | Nro Domu: 49 (79) | Jméno: Jan | Joannes Sauzer Capellanus | Bába Alžběta Kalibowa | Otec: Wácslaw Kasal | Matka: Magdalena dcera Wytiskowa | Kmotři: Jakub Paukert, Ewa Podstatnická",
+    "cs": "3. května 1792 se v Krucemburku čp. 49 (nebo 79) narodil a téhož dne byl kaplanem Janem Sauzerem pokřtěn Jan, manželský syn Václava Kasala a Magdaleny rozené Vytiskové. Kmotry byli Jakub Paukert a Eva Podstatnická, porodní bábou Alžběta Kalibová."
   }
 }

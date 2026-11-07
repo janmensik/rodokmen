@@ -898,5 +898,17 @@
     ],
     "status": "ok",
     "note": "Narození a křest Kateřiny Pátkové v Chlumu čp. 58"
+  },
+  "krucemburk_krest_jan_kasal_1792": {
+    "boxes": [
+      [
+        0.02,
+        0.01,
+        0.98,
+        0.99
+      ]
+    ],
+    "status": "ok",
+    "note": "Narození a křest Jana Kasala v Krucemburku"
   }
 }
