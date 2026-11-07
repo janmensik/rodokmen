@@ -72,6 +72,14 @@ pak konec `research_log.md` a sekci „Rozpracováno“.
 
 ## Rozpracováno (aktualizovat průběžně)
 
+- 7. 11. 2026: V matrice oddaných farnosti Krucemburk (SOA Zámrsk / ARON, sign. 2975, sn. 42, Pag. 74, 3. zápis r. 1816) nalezen a primárně doložen sňatek pra-pra-prarodičů 9. generace **Jana Kasala** (* 1792) a **Apoleny Kasalové** (* 1784):
+    - Oddáni 11. 8. 1816 v chrámu sv. Mikuláše v Krucemburku kaplanem Josefem Flepplem (dům čp. 43).
+    - Ženich: Jan Kasal (č. 378), 25 let, svobodný (* 1792), syn Václava Kasala, familianta z Krucemburku (č. 756).
+    - Nevěsta: Apolena Kasalová (č. 379), 29 let, svobodná (* 1784), dcera Františka Kasala, familianta z Krucemburku čp. 43 (č. 758).
+    - Svědkové: Jakub Pátek, rychtář a Jan Pytlík, soused z Krucemburku.
+    - Zvláštní hodnota zápisu: spojuje rodové linie Kasalů v 9. a 10. generaci, dokládá přesné datum sňatku předků 7 měsíců před narozením dcery Josefy (* 6. 3. 1817) a potvrzuje status familiantů na panství Polná.
+    - V rodokmenu celkem evidováno **252 přímých předků** (z toho **80 doložených primárních zápisů** v **90 svazcích**, **105 řádků deníku hledání**).
+
 - 7. 11. 2026: V matrice narozených farnosti Krucemburk (SOA Zámrsk / ARON, sign. 708, sn. 40, Pag. 72, 1. zápis r. 1784) nalezena a primárně doložena pra-pra-prababička 9. generace **Apolena Kasalová** (* 13. 4. 1784 Krucemburk čp. 23):
     - Narozena 13. 4. 1784 v Krucemburku čp. 23, pokřtěna téhož dne kaplanem Václavem Heřmanem jako Apollonia (vyhledáno pomocí generálního farního indexu sign. 714 sn. 24 pod zápisem 'Kasal Apolena E 72').
     - Otec: František Kasal (č. 758, 'Kassal Franciscus casarius, uxor Anna subditi Polna').

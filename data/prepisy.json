@@ -387,5 +387,19 @@
     "doslovny": "72. Anno 1784. Mense Aprili. | Dies Nat. 13. Bapt. 13. | Wenceslaus Herzman Capel. Loci | Apollonia | Kassal Franciscus casarius, uxor Anna subditi Polna | Patrini: Levans: Apollonia uxor Joannis Novotny casary Krusburga, Testes: Bukowsky Wenceslaus colorarius Krusburga | Religio: Cath. | Sexus: Foeminei | Thorus: Legitimi | Locus: Krusburga | Nrus domus: 23",
     "orig": "72. Anno 1784. Mense Aprili. | Dies Nat. 13. Bapt. 13. | Wenceslaus Herzman Capel. Loci | Apollonia | Kassal Franciscus casarius, uxor Anna subditi Polna | Levans: Apollonia uxor Joannis Novotny casary Krusburga | Testes: Bukowsky Wenceslaus colorarius Krusburga | Cath. | Krusburga 23.",
     "cs": "13. dubna 1784 se v Krucemburku čp. 23 narodila a téhož dne byla místním kaplanem Václavem Heřmanem pokřtěna Apollonia (Apolena), manželská dcera Františka Kasala, domkáře (chalupníka), a jeho manželky Anny, poddaných panství Polná. Kmotrou byla Apolena, manželka Jana Novotného, domkáře z Krucemburku; svědkem Václav Bukovský, barvíř z Krucemburku."
+  },
+  "krucemburk_oddani_jan_kasal_apolena_kasalova_1816": {
+    "hlavicka": "Kniha oddaných Krucemburk – Pag. 74 – 1816 (SOA Zámrsk, sign. 2975, sn. 42)",
+    "sloupce": {
+      "Měsíc a Den": "1816 Augusti 11",
+      "Nro Domu": "43",
+      "Ženich (Jméno, Náboženství, Stav, Věk)": "Jan Kasal syn Waclawa Kasala familianta | katolické (1) | svobodný (1) | 25",
+      "Nevěsta (Jméno, Náboženství, Stav, Věk)": "Apolena dcera Františka Kasala familianta | katolické (1) | svobodná (1) | 29",
+      "Kněz oddávající": "Copul. Joseph. Fleppl Capell.",
+      "Svědkové": "Jakub Pátek Rychtář | Jan Pytlík soused"
+    },
+    "doslovny": "Pag. 74. 1816. | Augusti 11 | Nro 43 | Ženich: Jan Kasal syn Waclawa Kasala familianta | katolické (1) | svobodný (1) | 25 | Nevěsta: Apolena dcera Františka Kasala familianta | katolické (1) | svobodná (1) | 29 | Copul. Joseph. Fleppl Capell. | Svědkové: Jakub Pátek Rychtář, Jan Pytlík soused",
+    "orig": "Augusti 11 | Nro 43 | Jan Kasal syn Waclawa Kasala familianta | 1 | 1 | 25 | Apolena dcera Františka Kasala familianta | 1 | 1 | 29 | Copul. Joseph. Fleppl Capell. | Jakub Pátek Rychtář, Jan Pytlík soused",
+    "cs": "11. srpna 1816 byli v Krucemburku kaplanem Josefem Flepplem oddáni Jan Kasal (25 let, svobodný, syn Václava Kasala, familianta) a Apolena Kasalová (29 let, svobodná, dcera Františka Kasala, familianta z čp. 43). Svědky byli Jakub Pátek, rychtář, a Jan Pytlík, soused."
   }
 }
