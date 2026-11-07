@@ -1135,12 +1135,12 @@ P = {
               r=["krucemburk_oddani_pospichal_kasalova_1836", "chlum_krest_jan_pospichal_1847", "chlum_krest_aloisie_pospichalova_1875"],
               note="Pra-pra-pradědeček Jana Menšíka, mistr krejčovský a domkař v Chlumu čp. 35. Narozen kolem roku 1811. Dne 10. 11. 1836 se v Krucemburku oženil s devatenáctiletou Josefou Kasalovou z Krucemburku čp. 43. Otec tesaře Jana Pospíchala."),
 
-    189: dict(n="Josefa Pospíchalová", y="* cca 1817 – ?", st="doc",
+    189: dict(n="Josefa Pospíchalová", y="* 6. 3. 1817 – ?", st="doc",
               otec=378, matka=379,
-              f=["* cca 1817 Krucemburk čp. 43", "∞ 10. 11. 1836 Krucemburk (Tomáš Pospíchal)", "dcera Jana Kasala z Krucemburku čp. 43 a Apoleny Kasalové (dcery Františka Kasala) z Krucemburku čp. 43"],
+              f=["* 6. 3. 1817 Krucemburk čp. 43", "∞ 10. 11. 1836 Krucemburk (Tomáš Pospíchal)", "dcera Jana Kasala (syna Václava) z Krucemburku čp. 43 a Apoleny Kasalové (dcery Františka Kasala a Anny roz. Krupkové) z Krucemburku čp. 43"],
               roz="Kasalová", bydl="Chlum čp. 35", puvod="Krucemburk čp. 43",
-              r=["krucemburk_oddani_pospichal_kasalova_1836", "chlum_krest_jan_pospichal_1847", "chlum_krest_aloisie_pospichalova_1875"],
-              note="Pra-pra-prababička Jana Menšíka, rozená Kasalová z Krucemburku čp. 43. Narozena kolem roku 1817 jako dcera domkaře Jana Kasala a Apoleny roz. Kasalové. Dne 10. 11. 1836 se v Krucemburku provdala za krejčovského mistra Tomáše Pospíchala z Chlumu čp. 35. Otec Jan Kasal připojil k zápisu vlastnoruční podpis."),
+              r=["krucemburk_krest_josefa_kasalova_1817", "krucemburk_oddani_pospichal_kasalova_1836", "chlum_krest_jan_pospichal_1847", "chlum_krest_aloisie_pospichalova_1875"],
+              note="Pra-pra-prababička Jana Menšíka, rozená Kasalová z Krucemburku čp. 43. Narozena 6. 3. 1817 v Krucemburku čp. 43 jako dcera domkaře Jana Kasala (syna Václava Kasala) a Apoleny, dcery Františka Kasala a Anny rozené Krupkové. Dne 10. 11. 1836 se v Krucemburku provdala za krejčovského mistra Tomáše Pospíchala z Chlumu čp. 35. Otec Jan Kasal připojil k zápisu vlastnoruční podpis."),
     190: dict(n="Jan Podroužek", y="* cca 1828–1829 – ?", st="doc",
               otec=380, matka=381,
               f=["* cca 1828–1829", "půlláník v Chlumu čp. 31", "∞ 16. 1. 1855 Chlum (Antonie Řeháková)", "syn Jana Podroužka st. z Chlumu čp. 31 a Anny Rejnové z Kohoutova čp. 5", "vlastnoruční podpis v oddací matrice 1876"],
@@ -1825,16 +1825,18 @@ P = {
               note="Přímá předkyně v 9. generaci (č. 377). Dcera Martina Pátka, domkaře v Krucemburku čp. 122 (panství Polná). Manželka domkaře Tomáše Pospíchala v Chlumu čp. 35 a matka krejčovského mistra Tomáše Pospíchala ml. Doložena v oddacím zápisu syna 1836 a křestním zápisu vnuka Jana 1847."),
 
     378: dict(n="Jan Kasal", y="před 1800 – ?", st="doc",
-              f=["domkař v Krucemburku čp. 43", "∞ Apolena Kasalová", "vlastnoruční podpis v oddací matrice 1836"],
+              otec=756,
+              f=["domkař v Krucemburku čp. 43", "syn Václava Kasala domkaře z Krucemburku", "∞ Apolena Kasalová", "vlastnoruční podpis v oddací matrice 1836"],
               zam="domkař v Krucemburku", bydl="Krucemburk čp. 43", puvod="Krucemburk čp. 43",
-              r=["krucemburk_oddani_pospichal_kasalova_1836", "chlum_krest_jan_pospichal_1847"],
-              note="Přímý předek v 9. generaci (č. 378), domkař v Krucemburku čp. 43 (panství Polná). Manžel Apoleny rozené Kasalové a otec Josefy provdané Pospíchalové. Dne 10. 11. 1836 dal v Krucemburku před svědky otcovský souhlas k sňatku dcery Josefy a vlastnoručně se podepsal jako 'Jan Kasal Otec'."),
+              r=["krucemburk_oddani_pospichal_kasalova_1836", "krucemburk_krest_josefa_kasalova_1817", "chlum_krest_jan_pospichal_1847"],
+              note="Přímý předek v 9. generaci (č. 378), domkař v Krucemburku čp. 43 (panství Polná). Syn domkaře Václava Kasala. Manžel Apoleny rozené Kasalové a otec Josefy provdané Pospíchalové. Dne 10. 11. 1836 dal v Krucemburku před svědky otcovský souhlas k sňatku dcery Josefy a vlastnoručně se podepsal jako 'Jan Kasal Otec'."),
 
     379: dict(n="Apolena Kasalová", y="před 1800 – ?", st="doc",
-              f=["* Krucemburk", "dcera Františka Kasala domkaře v Krucemburku čp. 43", "∞ Jan Kasal"],
+              otec=758, matka=759,
+              f=["* Krucemburk", "dcera Františka Kasala domkaře v Krucemburku čp. 43 a Anny rozené Krupkové", "∞ Jan Kasal"],
               roz="Kasalová", bydl="Krucemburk čp. 43", puvod="Krucemburk čp. 43",
-              r=["krucemburk_oddani_pospichal_kasalova_1836", "chlum_krest_jan_pospichal_1847"],
-              note="Přímá předkyně v 9. generaci (č. 379). Dcera Františka Kasala, domkaře v Krucemburku čp. 43 (panství Polná). Manželka domkaře Jana Kasala v Krucemburku čp. 43 a matka Josefy provdané Pospíchalové. Doložena v oddacím zápisu dcery 1836 a křestním zápisu vnuka Jana 1847."),
+              r=["krucemburk_oddani_pospichal_kasalova_1836", "krucemburk_krest_josefa_kasalova_1817", "chlum_krest_jan_pospichal_1847"],
+              note="Přímá předkyně v 9. generaci (č. 379). Dcera Františka Kasala, domkaře v Krucemburku čp. 43 (panství Polná), a Anny rozené Krupkové. Manželka domkaře Jana Kasala v Krucemburku čp. 43 a matka Josefy provdané Pospíchalové. Doložena v oddacím zápisu dcery 1836, křestním zápisu dcery Josefy 1817 a křestním zápisu vnuka Jana 1847."),
 
     380: dict(n="Jan Podroužek st.", y="† před 1854", st="doc",
               f=["půlláník v Chlumu čp. 31", "∞ Anna Rejnová", "† před 20. 4. 1854"],
@@ -1853,6 +1855,24 @@ P = {
               roz="Bártová", bydl="Chlum čp. 120", puvod="Slouč čp. 2",
               r=["chlum_oddani_jan_podrouzek_1855", "chlum_krest_frantiska_podrouzkova_1854"],
               note="Přímá předkyně v 9. generaci (č. 383). Pocházela ze Slouče čp. 2 (okres poličský). Manželka domkaře Josefa Řeháka v Chlumu čp. 120 a matka Antonie provdané Podroužkové. Doložena v křestním zápisu vnučky Františky roku 1854."),
+
+    756: dict(n="Václav Kasal", y="před 1780 – ?", st="doc",
+              f=["domkař v Krucemburku", "otec Jana Kasala"],
+              zam="domkař v Krucemburku", bydl="Krucemburk", puvod="Krucemburk",
+              r=["krucemburk_krest_josefa_kasalova_1817"],
+              note="Přímý předek v 10. generaci (č. 756), domkař v Krucemburku (panství Polná). Otec domkaře Jana Kasala (č. 378) a dědeček Josefy Kasalové (* 1817). Výslovně doložen v křestním zápisu vnučky Josefy roku 1817 ('Jan Kasal syn Waclawow domkař z Krucemberka')."),
+
+    758: dict(n="František Kasal", y="před 1780 – ?", st="doc",
+              f=["domkař v Krucemburku čp. 43", "∞ Anna Krupková", "otec Apoleny Kasalové"],
+              zam="domkař v Krucemburku čp. 43", bydl="Krucemburk čp. 43", puvod="Krucemburk čp. 43",
+              r=["krucemburk_krest_josefa_kasalova_1817", "krucemburk_oddani_pospichal_kasalova_1836"],
+              note="Přímý předek v 10. generaci (č. 758), domkař v Krucemburku čp. 43 (panství Polná). Manžel Anny rozené Krupkové a otec Apoleny Kasalové (č. 379). Doložen v křestním zápisu vnučky Josefy roku 1817 a jejím oddacím zápisu roku 1836."),
+
+    759: dict(n="Anna Krupková", y="před 1780 – ?", st="doc",
+              f=["* Krucemburk", "∞ František Kasal", "matka Apoleny Kasalové"],
+              roz="Krupková", bydl="Krucemburk čp. 43", puvod="Krucemburk",
+              r=["krucemburk_krest_josefa_kasalova_1817"],
+              note="Přímá předkyně v 10. generaci (č. 759). Manželka domkaře Františka Kasala v Krucemburku čp. 43 a matka Apoleny Kasalové (č. 379). Výslovně doložena rodným příjmením v křestním zápisu vnučky Josefy roku 1817 ('matky Anny Krupkowý z Krucember.')."),
 
 }
 

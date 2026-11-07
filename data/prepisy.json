@@ -290,5 +290,21 @@
   "krucemburk_oddani_pospichal_kasalova_1836": {
     "doslovny": "Rok měsjc a den: Dne 10ho 9bra [listopadu] 1836 | Čjslo Domu: 35 z Chlumu\nŽenich: Tomáš Pospíchal mistr kreyčowský a domkař v Chlumu N: 35, manželský syn Tomáše Pospíchal domkaře v Chlumu N: 35 poddaný k panstwj Chrasteckému, a geho manželky Kateřiny dcery Martina Pátek domkaře v Krucemburku N: 122 na panstwj polenském, oba katolického náboženstwj.\nNáboženství: katolické | Wěk: 25 | Swobodný: 1\nPovolení a ohlášky: Powolenj dal slawny direktoriálnj auřad chrastecký od dne 30 ledna 1836 čísla 189/25. - Prohlasseni byli v Krucemburku dne 31 ledna, 2ho a 7ho v nowé [února] 1836. - Allegat vložen v Arch: farnjm N: reg. II fasciculo ab ao 1836. Oddáni odemne Frant. Dúbravský farář.\nČjslo Domu nevěsty: 43 z Krucemburku\nNewěsta: Jozefa manželská dcera Jana Kasal domkaře v Krucemburku N: 43, a geho manželky Apoleny dcery Františka Kasal domkaře v Krucemburku N: 43, poddanj k panstwj polenskému, a oba katolického náboženstwj.\nNáboženství: katolické | Wěk: 19 | Swobodná: 1\nPovolení otce nevěsty: Otec newěsty v přjtomnosti zde spolu podepsaných swědků dal swé powolenj. Geho wlastnoručnj podpis: Jan Kasal Otec.\nSwědkowé: Franz Pheng mistr rzeznicky Pfarrgasse [?] Nro 12; Jozef Marek rychtář benátský Krucemburka N. 166.",
     "preklad": "Datum sňatku: 10. listopadu 1836 (oddával krucemburský farář František Dúbravský).\nMísto: kostel sv. Mikuláše v Krucemburku (ženich z Chlumu čp. 35, nevěsta z Krucemburku čp. 43).\nŽenich: Tomáš Pospíchal, svobodný mistr krejčovský a domkař v Chlumu čp. 35, katolík, věk 25 let (* cca 1811), poddaný panství Chrast. Manželský syn Tomáše Pospíchala, domkaře v Chlumu čp. 35, a Kateřiny dcery Martina Pátka, domkaře v Krucemburku čp. 122 (panství Polná).\nPovolení vrchnosti: chrastecký direktoriální úřad ze dne 30. ledna 1836 č. 189/25. Ohlášky v Krucemburku: 31. ledna, 2. a 7. února 1836.\nNevěsta: Josefa, svobodná dcera Jana Kasala, domkaře v Krucemburku čp. 43, a jeho manželky Apoleny rozené Kasalové (dcery Františka Kasala, domkaře v Krucemburku čp. 43), poddaní panství Polná, oba katolíci. Věk 19 let (* cca 1817).\nSouhlas otce nevěsty: Otec Jan Kasal udělil před svědky výslovný souhlas k sňatku nezletilé dcery a vlastnoručně se podepsal jako 'Jan Kasal Otec'.\nSvědkové: Franz Pheng, řeznický mistr, a Jozef Marek, benátský rychtář z Krucemburku čp. 166."
+  },
+  "krucemburk_krest_josefa_kasalova_1817": {
+    "hlavicka": "Křtících kniha Krucemburk • Fol. 6 • 1817 (SOA Zámrsk, sign. 709, sn. 10)",
+    "sloupce": {
+      "Měsyc": "März 6.",
+      "Nro Domu": "43",
+      "Gméno": "Josefa Kasal | Křtil: Jozef Fleppl Cap.",
+      "Náboženstwj": "katolického (1)",
+      "Pohlawj": "ženského (1)",
+      "Staw": "manželského (1)",
+      "Otec": "Jan Kasal syn Waclawow domkař z Krucemberka",
+      "Matka": "Apolena dcera Františka Kasala domkaře matky Anny Krupkowý z Krucember.",
+      "Swědkové při křtu": "Jan Pytlík 1/4ník z Krucemberka; Barbora dcera",
+      "Bába": "Kateryna..."
+    },
+    "doslovny": "März 6. | Nro 43 | Josefa Kasal | Křtil: Jozef Fleppl Cap. | katolického | ženského | manželského | Otec: Jan Kasal syn Waclawow domkař z Krucemberka | Matka: Apolena dcera Františka Kasala domkaře matky Anny Krupkowý z Krucember. | Kmotři: Jan Pytlík 1/4ník z Krucemberka, Barbora dcera"
   }
 }

@@ -72,6 +72,15 @@ pak konec `research_log.md` a sekci „Rozpracováno“.
 
 ## Rozpracováno (aktualizovat průběžně)
 
+- 7. 11. 2026: V matrice Krucemburku (SOA Zámrsk – ARON, sign. 709, sn. 10, Fol. 6) ověřeno a doloženo:
+  - Narození a křest **Josefy Kasalové** (* 6. 3. 1817 Krucemburk čp. 43, č. 189), manželské dcery domkaře Jana Kasala a Apoleny rozené Kasalové.
+  - Zápis výslovně uvádí otce Jana Kasala jako syna Václava Kasala ('syn Waclawow domkař z Krucemberka') a matku Apolenu jako dceru Františka Kasala a Anny rozené Krupkové z Krucemburku.
+  - Plně doloženi 3 noví předci v 10. generaci:
+    - **Václav Kasal** (č. 756, domkař v Krucemburku, otec Jana Kasala).
+    - **František Kasal** (č. 758, domkař v Krucemburku čp. 43, otec Apoleny Kasalové).
+    - **Anna Krupková** (č. 759, matka Apoleny Kasalové).
+  - Databáze: **248 osob**, **74 doložených zápisů**, **88 svazků**, **99 řádků deníku**.
+
 - 21. 10. 2026: Import předků z GEDCOM (`dokumenty/export-Forest.ged` z Geni.com):
 
   - Načteno 43 nových předků v 8. až 11. generaci (roky 1630–1780) v liniích Holánek, Sláma, Dymáček, Žundálek, Škoda, Dobrovolný, Chlebeček (stav `mh`).
