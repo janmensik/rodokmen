@@ -251,11 +251,11 @@ P = {
 
     22: dict(n="Julius Holánek", y="1889–1952", st="fam",
 
-             f=["* 20. 7. 1889 Staré Ransko čp. 55", "× 20. 5. 1926 Sofia Henzlová", "† 1952"],
+             f=["* 20. 7. 1889 Staré Ransko čp. 55", "∞ 20. 5. 1926 Sofia Henzlová", "† 1952"],
 
-             zam="zámečník", r=[],
+             zam="zámečník", r=["ransko_krest_julius_holanek_1889_index"],
 
-             note="Narozen ve Starém Ransku čp. 55 jako syn hamerníka a kováře Františka Holánka a Julie roz. Šímové. V duchu rodové tradice raneckých hutníků se vyučil zámečníkem a kovářem. V květnu 1926 se oženil se Sofií Henzlovou (* 1904), dcerou truhláře a hostinského Franze Henzla z Hluboké (věkový rozdíl manželů byl 15 let). Žil v Hluboké čp. 36; pradědeček Jana Menšíka."),
+             note="Narozen ve Starém Ransku čp. 55 jako syn zámečníka Františka Holánka a Julie roz. Šímové. Datum narození 20. 7. 1889 i rodič a čp. 55 doloženy úředním zápisem ve farním indexu narozených Krucemburk (sign. 2985, sn. 24, odkaz na knihu TI, fol. 124). V duchu rodové tradice raneckých hutníků se vyučil zámečníkem a kovářem. V květnu 1926 se oženil se Sofií Henzlovou (* 1904), dcerou truhláře a hostinského Franze Henzla z Hluboké. Žil v Hluboké čp. 36; pradědeček Jana Menšíka."),
 
     23: dict(n="Sofia Henzlová", y="1904–1985", st="doc",
 
@@ -414,11 +414,13 @@ P = {
 
              note="Narození ve Starém Ransku čp. 53 doloženo přímo z matriky SOA Zámrsk / ARON (sign. 711, sn. 188, pag. 185). Pokřtěn 4. 8. 1854. Zámečník ve Starém Ransku."),
 
-    45: dict(n="Julie Šímová", y="1854 – po 1896", st="fam",
+    45: dict(n="Julie Šímová", y="1854 – po 1896", st="doc",
 
-             f=["* 16. 3. 1854 Staré Ransko čp. 46", "× František Holánek", "† po 1896"], r=[],
+             f=["* 16. 3. 1854 Staré Ransko čp. 46", "křest 18. 3. 1854 Krucemburk (P. Ferdinand Rimeš)", "∞ František Holánek", "† po 1896"],
+             bydl="Staré Ransko čp. 46, později čp. 55", puvod="Staré Ransko čp. 46",
+             r=["ransko_krest_julie_simova_1854"],
 
-             note="Narozena ve Starém Ransku čp. 46 jako dcera horníka Matěje Šímy a Františky roz. Benové (dcery hamernického mistra Františka Bena). Manželka kováře Františka Holánka v čp. 55 a maminka zámečníka Julia Holánka (* 1889)."),
+             note="Narození ve Starém Ransku čp. 46 doloženo přímo z matriky SOA Zámrsk / ARON (sign. 711, sn. 183, fol. 180). Pokřtěna 18. 3. 1854 kaplanem Ferdinandem Rimešem. Dcera kovolijce Matěje Šímy (syna drába Tomáše Šímy z čp. 2 a Marie roz. Halíkové z Volešné čp. 25) a Františky roz. Benové (dcery hamernického mistra Františka Bena z čp. 41 a Karoliny roz. Králíčkové z České Kamenice). Manželka zámečníka Františka Holánka v čp. 55 a maminka Julia Holánka (* 1889)." ),
 
     46: dict(n="Franz Henzl", y="1872–1954", st="doc",
              f=["* 12. 7. 1872 Hluboká čp. 15", "křest 13. 7. 1872 Hluboká (P. Augustin Jelínek)",
@@ -683,15 +685,19 @@ P = {
 
     90: dict(n="Matěj Šíma", y="", st="fam",
 
-             f=["× Františka Benová"],
+             f=["∞ Františka Benová"],
 
-             zam="horník / horolezec", bydl="Staré Ransko čp. 2", r=[],
+             zam="kovolijec", bydl="Staré Ransko čp. 46 a čp. 2",
+             r=["ransko_krest_julie_simova_1854"],
 
-             note="Údaje z rodinného stromu PDF (v PDF uvedeno 'horolezec' – ověřit v matrice, zda nešlo o horníka / havíře v železárnách v Ransku)."),
+             note="Kovolijec v raneckých hutích a železárnách (v rodinné tradici PDF dříve chybně tradováno jako 'horolezec' – vyvráceno, opraveno a doloženo z originální matriky SOA Zámrsk sign. 711, sn. 183). Manželský syn drába Tomáše Šímy z Ranska čp. 2 a Marie rozené Halíkové z Volešné čp. 25. Manžel Františky roz. Benové."),
 
     91: dict(n="Františka Benová", y="", st="fam",
 
-             f=["× Matěj Šíma"], bydl="Staré Ransko čp. 41", r=[], note="Údaje z rodinného stromu PDF."),
+             f=["∞ Matěj Šíma"], bydl="Staré Ransko čp. 41",
+             r=["ransko_krest_julie_simova_1854"],
+             note="Doložena v křestní matrice dcery Julie (* 1854, sign. 711, sn. 183). Manželská dcera Františka Bena, mistra hamernického ze Starého Ranska čp. 41 a Karoliny rozené Králíčkové z České Kamenice."),
+
     92: dict(n="Václav Henzl", y="* 1844", st="doc",
              f=["* 6. 8. 1844 Hluboká čp. 15 (pokřtěn 7. 8. 1844)", "∞ Marie Procházková"],
              zam="čtvrtník v Hluboké čp. 15", bydl="Hluboká čp. 15", puvod="Hluboká čp. 15",
@@ -1092,19 +1098,28 @@ P = {
 
     180: dict(n="Tomáš Šíma", y="", st="fam",
 
-              f=["× Marie Halíková"], zam="dráb", bydl="Staré Ransko čp. 2", r=[], note="Údaje z rodinného stromu PDF."),
+              f=["∞ Marie Halíková"], zam="dráb", bydl="Staré Ransko čp. 2",
+              r=["ransko_krest_julie_simova_1854"],
+              note="Dráb ve Starém Ransku čp. 2. Doložen v křestní matrice vnučky Julie Šímové (* 1854, sign. 711, sn. 183). Manžel Marie rozené Halíkové z Volešné."),
 
     181: dict(n="Marie Halíková", y="", st="fam",
 
-              f=["× Tomáš Šíma"], bydl="Olešná (Volešná)", r=[], note="Údaje z rodinného stromu PDF."),
+              f=["∞ Tomáš Šíma"], bydl="Olešná (Volešná) čp. 25",
+              r=["ransko_krest_julie_simova_1854"],
+              note="Pocházela z Volešné (Olešná) čp. 25 na panství Přibyslav. Doložena v křestní matrice vnučky Julie Šímové (* 1854, sign. 711, sn. 183). Manželka drába Tomáše Šímy."),
 
     182: dict(n="František Ben", y="", st="fam",
 
-              f=["× Karolina Králíčková"], zam="hamernický mistr", bydl="Staré Ransko čp. 41", r=[], note="Údaje z rodinného stromu PDF."),
+              f=["∞ Karolina Králíčková"], zam="hamernický mistr", bydl="Staré Ransko čp. 41",
+              r=["ransko_krest_julie_simova_1854"],
+              note="Mistr hamernický ve Starém Ransku čp. 41. Doložen v křestní matrice vnučky Julie Šímové (* 1854, sign. 711, sn. 183). Manžel Karoliny rozené Králíčkové z České Kamenice."),
 
     183: dict(n="Karolina Králíčková", y="", st="fam",
 
-              f=["× František Ben"], bydl="Česká Kamenice", r=[], note="Údaje z rodinného stromu PDF."),
+              f=["∞ František Ben"], bydl="Česká Kamenice",
+              r=["ransko_krest_julie_simova_1854"],
+              note="Pocházela z České Kamenice v severních Čechách. Doložena v křestní matrice vnučky Julie Šímové (* 1854, sign. 711, sn. 183). Manželka hamernického mistra Františka Bena."),
+
     184: dict(n="Jan Henzl", y="† před 1872", st="doc",
               f=["půlláník v Hluboké čp. 15", "∞ Anna Nováková", "† před 12. 7. 1872"],
               zam="půlláník (v tradici kovář a zámečník)", bydl="Hluboká čp. 15", puvod="Hluboká čp. 15",

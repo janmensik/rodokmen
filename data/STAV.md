@@ -72,6 +72,19 @@ pak konec `research_log.md` a sekci „Rozpracováno“.
 
 ## Rozpracováno (aktualizovat průběžně)
 
+- 8. 11. 2026: V matrice narozených farnosti Krucemburk pro Nové a Staré Ransko (SOA Zámrsk / ARON, sign. 711, sn. 183, Fol. 180, 2. zápis r. 1854) nalezena a primárně doložena prapraprababička 6. generace **Julie Šímová** (* 16. 3. 1854 Staré Ransko čp. 46):
+    - Narozena 16. 3. 1854 ve Starém Ransku čp. 46, pokřtěna 18. 3. 1854 kaplanem Ferdinandem Rimešem.
+    - Otec: **Matěj Šíma** (č. 90), katolík, **kovolijec** (v rodinné tradici dosud chybně tradováno jako 'horolezec' – opraveno a doloženo z originálního rukopisu!), manželský syn **Tomáše Šímy** (č. 180), drába z Ranska čp. 2 a **Marie rozené Halíkové** (č. 181) z Volešné (Olešné) čp. 25 okresu Přibyslavského.
+    - Matka: **Františka** (č. 91), manželská dcera **Františka Bena** (č. 182), mistra hamernického z Ranska čp. 41 a **Karoliny rozené Králíčkové** (č. 183) z České Kamenice.
+    - Kmotři: Jan Šíma, kovolijec z Ranska čp. 84 a jeho manželka Marie Šímová.
+    - Zvláštní hodnota zápisu: povyšuje Julii Šímovou (č. 45) ze stavu `fam` na `doc`, vyvrací a napravuje letitý rodinný omyl ohledně profese Matěje Šímy (byl to kovolijec v raneckých železárnách, nikoli 'horolezec') a primárně potvrzuje a dokládá dalších 6 předků v hutnických a řemeslnických liniích (č. 90, 91, 180, 181, 182, 183).
+    - V rodokmenu celkem evidováno **252 přímých předků** (z toho **82 doložených primárních zápisů** v **91 svazcích**, **107 řádků deníku hledání**).
+
+- 8. 11. 2026: Ve farním indexu narozených farnosti Krucemburk (SOA Zámrsk / ARON, sign. 2985, sn. 24, litera H, 7. zápis pod rokem 1889) nalezen a primárně doložen pradědeček 5. generace **Julius Holánek** (* 20. 7. 1889 Staré Ransko čp. 55):
+    - Úřední zápis farního úřadu: *'55 Holánek Julius (František) Ransko ... 20 července TI 124'*.
+    - Potvrzuje přesné datum narození (20. 7. 1889), rodný dům (Staré Ransko čp. 55), otce Františka Holánka (zámečníka v čp. 55) a odkazuje na navazující farní matriku narozených Ranska označenou literou TI, folio 124 (kniha dosud uložená na příslušném matričním úřadě z důvodu 100leté ochranné lhůty).
+
+
 - 7. 11. 2026: V matrice oddaných farnosti Krucemburk (SOA Zámrsk / ARON, sign. 2975, sn. 42, Pag. 74, 3. zápis r. 1816) nalezen a primárně doložen sňatek pra-pra-prarodičů 9. generace **Jana Kasala** (* 1792) a **Apoleny Kasalové** (* 1784):
     - Oddáni 11. 8. 1816 v chrámu sv. Mikuláše v Krucemburku kaplanem Josefem Flepplem (dům čp. 43).
     - Ženich: Jan Kasal (č. 378), 25 let, svobodný (* 1792), syn Václava Kasala, familianta z Krucemburku (č. 756).

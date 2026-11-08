@@ -930,5 +930,29 @@
         0.97
       ]
     ]
+  },
+  "ransko_krest_julie_simova_1854": {
+    "boxes": [
+      [
+        0.04,
+        0.01,
+        0.96,
+        0.99
+      ]
+    ],
+    "status": "ok",
+    "note": "Narození a křest Julie Šímové ve Starém Ransku čp. 46"
+  },
+  "ransko_krest_julius_holanek_1889_index": {
+    "boxes": [
+      [
+        0.58,
+        0.01,
+        0.68,
+        0.98
+      ]
+    ],
+    "status": "ok",
+    "note": "Zápis narození Julia Holánka v indexu farnosti Krucemburk (1889)"
   }
 }

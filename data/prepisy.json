@@ -401,5 +401,29 @@
     "doslovny": "Pag. 74. 1816. | Augusti 11 | Nro 43 | Ženich: Jan Kasal syn Waclawa Kasala familianta | katolické (1) | svobodný (1) | 25 | Nevěsta: Apolena dcera Františka Kasala familianta | katolické (1) | svobodná (1) | 29 | Copul. Joseph. Fleppl Capell. | Svědkové: Jakub Pátek Rychtář, Jan Pytlík soused",
     "orig": "Augusti 11 | Nro 43 | Jan Kasal syn Waclawa Kasala familianta | 1 | 1 | 25 | Apolena dcera Františka Kasala familianta | 1 | 1 | 29 | Copul. Joseph. Fleppl Capell. | Jakub Pátek Rychtář, Jan Pytlík soused",
     "cs": "11. srpna 1816 byli v Krucemburku kaplanem Josefem Flepplem oddáni Jan Kasal (25 let, svobodný, syn Václava Kasala, familianta) a Apolena Kasalová (29 let, svobodná, dcera Františka Kasala, familianta z čp. 43). Svědky byli Jakub Pátek, rychtář, a Jan Pytlík, soused."
+  },
+  "ransko_krest_julie_simova_1854": {
+    "hlavicka": "Kniha narozených Nové a Staré Ransko • Fol. 180 • 1854 (SOA Zámrsk, sign. 711, sn. 183)",
+    "sloupce": {
+      "Rok, měsíc a den": "1854. 16 března narozena, 18 pokřtěna. Křtil P. Ferd. Rimeš kaplan. Bába zkoušená Jozefa Vavroušek z Ranska čís. 49",
+      "Haus Nro.": "46",
+      "Namen des Kindes": "Julie Šíma (katolická 1, pohlaví ženské 1, lože manželské 1)",
+      "Namen des Vaters": "Matěj Šíma, katolik kovolijec manželský syn Tomáše Šíma drába z Ranska čís. 2 a jeho manželky Marie rozené Halík z Volešný čís. 25 okresu Pribyslavskeho, otec žije v okresu choteborském.",
+      "Namen der Mutter": "Františka, katolička, manželská dcera Františka Bena mistra hamernického z Ranska čís. 41, a jeho manželky Karoliny rozené Králíček z České Kamenice čís. x. – matka žije v okresu chotěbořském.",
+      "Pathen": "Johann Schima kovolijec z Ranska N. 84. Marga Schima manželka jeho."
+    },
+    "doslovny": "Fol. 180. 1854 | 16 března narozena, 18 pokřtěna. Křtil P. Ferd. Rimeš kaplan. Bába zkoušená Jozefa Vavroušek z Ranska čís. 49 | Haus Nro. 46 | Julie Šíma | katolická (1) | ženské (1) | manželské (1) | Otec: Matěj Šíma, katolik kovolijec manželský syn Tomáše Šíma drába z Ranska čís. 2 a jeho manželky Marie rozené Halík z Volešný čís. 25 okresu Pribyslavskeho, otec žije v okresu choteborském. | Matka: Františka, katolička, manželská dcera Františka Bena mistra hamernického z Ranska čís. 41, a jeho manželky Karoliny rozené Králíček z České Kamenice čís. x. – matka žije v okresu chotěbořském. | Kmotři: Johann Schima kovolijec z Ranska N. 84, Marga Schima manželka jeho.",
+    "cs": "16. března 1854 se ve Starém Ransku čp. 46 narodila a 18. března byla kaplanem Ferdinandem Rimešem pokřtěna Julie Šímová. Otcem byl Matěj Šíma, kovolijec, manželský syn drába Tomáše Šímy z Ranska čp. 2 a Marie rozené Halíkové z Volešné (Olešné) čp. 25. Matkou byla Františka, manželská dcera Františka Bena, mistra hamernického z Ranska čp. 41, a Karoliny rozené Králíčkové z České Kamenice. Kmotry byli Jan Šíma, kovolijec z Ranska čp. 84 a jeho manželka Marie Šímová."
+  },
+  "ransko_krest_julius_holanek_1889_index": {
+    "hlavicka": "Farní index narozených Krucemburk • L. P. 1889 • litera H (SOA Zámrsk, sign. 2985, sn. 24)",
+    "sloupce": {
+      "Namen des Kindes / Vaters": "55 Holánek Julius (František) Ransko",
+      "Nativitatis dies, mensis": "20 července (1889)",
+      "Matrica Litera": "TI",
+      "Folio": "124"
+    },
+    "doslovny": "L. P. 1889 | 55 Holánek Julius (František) Ransko | 20 července | Matrica Litera: TI | Folio: 124",
+    "cs": "Farní index narozených Krucemburk zaznamenává pod rokem 1889: v obci Ransko čp. 55 se dne 20. července 1889 narodil Julius Holánek, syn Františka Holánka. Zápis byl proveden v matrice Ranska označené literou TI na straně (foliu) 124."
   }
 }
