@@ -662,16 +662,11 @@ P = {
              note="Dcera učitele Ignáce Jeřábka a Josefy roz. Hoffmannové z Frauenthalu (Pohledu) čp. 5. Doložena v křtu dcery Antonie (1857), oddavkách (1888) i křtu vnučky Emilie (1899)."),
 
     88: dict(n="Jan Holánek", y="* 1820", st="doc",
-
              f=["* 18. 6. 1820 Staré Ransko čp. 45", "× Johanna Hlaváčková",
-
                 "syn mistra kovářského Josefa Holánka a Barbory Slámové"],
-
              zam="domkař", bydl="Staré Ransko čp. 53",
-
-             r=["ransko_krest_frantisek_holanek_1854"],
-
-             note="Domkař ve Starém Ransku čp. 53. Doložen v křestní matrice syna Františka (* 1854, sign. 711, sn. 188), kde je uveden jako manželský syn již zesnulého kovářského mistra Josefa Holánka ze Starého Ranska čp. 53 a Barbory roz. Slámové ze Starého Ranska čp. 33."),
+             r=["ransko_krest_frantisek_holanek_1854", "ransko_krest_jan_holanek_1820"],
+             note="Domkař ve Starém Ransku čp. 53. Narození doloženo v matrice SOA Zámrsk sign. 8327, sn. 47 (* 18. 6. 1820 Staré Ransko čp. 45, syn kovářského mistra Josefa Holánka a Barbory dcery tesařského mistra Jana Slámy z čp. 33 a Alžběty roz. Dymáčkové). Doložen též v křestní matrice syna Františka (* 1854, sign. 711, sn. 188)."),
 
     89: dict(n="Johanna Hlaváčková", y="", st="doc",
 
@@ -1057,24 +1052,16 @@ P = {
               note="Manželka učitele Ignáce Jeřábka, rodem z Frauenthalu (Pohledu) čp. 5. Matka Anny Jeřábkové. Doložena v křestní matrice dcery Antonie."),
 
     176: dict(n="Josef Holánek", y="† před 1854", st="doc",
-
               f=["× Barbora Slámová", "† před 4. 8. 1854"],
-
-              zam="mistr kovářský", bydl="Staré Ransko čp. 53",
-
-              r=["ransko_krest_frantisek_holanek_1854"],
-
-              note="Mistr kovářský ve Starém Ransku čp. 53. Doložen v křestní matrice vnuka Františka (* 1854), kde je uveden jako již zesnulý mistr kovářský. Manželka Barbora roz. Slámová z čp. 33."),
+              zam="mistr kovářský", bydl="Staré Ransko čp. 45 a čp. 53",
+              r=["ransko_krest_frantisek_holanek_1854", "ransko_krest_jan_holanek_1820"],
+              note="Mistr kovářský ve Starém Ransku čp. 45 (roku 1820) a čp. 53. Doložen v křestní matrice syna Jana (* 1820, sign. 8327, sn. 47) i vnuka Františka (* 1854, sign. 711, sn. 188), kde je označen za již zesnulého mistra kovářského. Manželka Barbora roz. Slámová z čp. 33."),
 
     177: dict(n="Barbora Slámová", y="", st="doc",
-
               f=["× Josef Holánek"],
-
-              bydl="Staré Ransko čp. 33",
-
-              r=["ransko_krest_frantisek_holanek_1854"],
-
-              note="V rodinném stromu PDF byla uvedena s křestním jménem Filipina; v křestní matrice vnuka Františka (* 1854) je však jednoznačně doložena jako Barbora rozená Sláma ze Starého Ranska čp. 33."),
+              bydl="Staré Ransko čp. 33 a čp. 45",
+              r=["ransko_krest_frantisek_holanek_1854", "ransko_krest_jan_holanek_1820"],
+              note="V rodinném stromu PDF byla dříve mylně uvedena s křestním jménem Filipina; v křestních matrikách syna Jana (* 1820, sign. 8327, sn. 47) i vnuka Františka (* 1854, sign. 711, sn. 188) je jednoznačně doložena jako Barbora, dcera tesařského mistra Jana Slámy z čp. 33 a Alžběty rozené Dymáčkové."),
 
     178: dict(n="Vojtěch Hlaváček", y="", st="doc",
 
@@ -1397,13 +1384,11 @@ P = {
 
               f=["× 1. 2. 1791 Křižanov 37 Mariana Žundálková"], bydl="Křižanov", r=[], note="Údaje z rodinného stromu PDF a exportu Geni / MyHeritage."),
 
-    354: dict(n="Jan Sláma", y="", st="fam",
+    354: dict(n="Jan Sláma", y="", st="doc",
+              f=["× Alžběta Dymáčková"], zam="mistr tesařský", bydl="Staré Ransko čp. 33", r=["ransko_krest_jan_holanek_1820"], note="Mistr tesařský ve Starém Ransku čp. 33. Doložen v křestní matrice vnuka Jana Holánka (* 1820, sign. 8327, sn. 47). Manžel Alžběty rozené Dymáčkové."),
 
-              f=["× Alžběta Dymáčková"], zam="tesař", bydl="Staré Ransko čp. 33", r=[], note="Údaje z rodinného stromu PDF."),
-
-    355: dict(n="Alžběta Dymáčková", y="", st="fam",
-
-              f=["× Jan Sláma"], r=[], note="Údaje z rodinného stromu PDF."),
+    355: dict(n="Alžběta Dymáčková", y="", st="doc",
+              f=["× Jan Sláma"], bydl="Staré Ransko čp. 33", r=["ransko_krest_jan_holanek_1820"], note="Doložena v křestní matrice vnuka Jana Holánka (* 1820, sign. 8327, sn. 47) jako matka Barbory Slámové a manželka tesařského mistra Jana Slámy ze Starého Ranska čp. 33."),
 
     358: dict(n="Josef Haisler", y="", st="fam",
 

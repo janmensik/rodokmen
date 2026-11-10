@@ -72,6 +72,14 @@ pak konec `research_log.md` a sekci „Rozpracováno“.
 
 ## Rozpracováno (aktualizovat průběžně)
 
+- 10. 11. 2026: V matrice narozených farnosti Krucemburk pro Staré a Nové Ransko (SOA Zámrsk / ARON, sign. 8327, sn. 47, 2. zápis r. 1820) nalezen a primárně doložen pra-pradědeček 7. generace **Jan Holánek** (* 18. 6. 1820 Staré Ransko čp. 45):
+    - Narozen a pokřtěn 18. 6. 1820 ve Starém Ransku čp. 45 kaplanem Josefem Flepplem jako Jan.
+    - Otec: **Josef Holánek** (č. 176), mistr kovářský ze Starého Ranska čp. 45, poddaný panství Polná.
+    - Matka: **Barbora** (č. 177), katolička, manželská dcera **Jana Slámy** (č. 354), mistra tesařského ze Starého Ranska čp. 33 a **Alžběty rozené Dymáčkové** (č. 355) z Ranska.
+    - Kmotři: Jan Schmoranz, mistr kolářský ze Starého Ranska čp. 49 a Kateřina manželka jeho.
+    - Zvláštní hodnota zápisu: přímo a nezvratně dokládá datum i místo narození Jana Holánka (* 1820), potvrzuje kovářské řemeslo jeho otce Josefa Holánka i rodný dům čp. 45 a povyšuje další 2 předky v 9. generaci v tesařské linii ze stavu am na doc (**č. 354 Jan Sláma** a **č. 355 Alžběta Dymáčková**).
+    - V rodokmenu celkem evidováno **252 přímých předků** (z toho **83 doložených primárních zápisů** v **92 svazcích**, **108 řádků deníku hledání**).
+
 - 8. 11. 2026: V matrice narozených farnosti Krucemburk pro Nové a Staré Ransko (SOA Zámrsk / ARON, sign. 711, sn. 183, Fol. 180, 2. zápis r. 1854) nalezena a primárně doložena prapraprababička 6. generace **Julie Šímová** (* 16. 3. 1854 Staré Ransko čp. 46):
     - Narozena 16. 3. 1854 ve Starém Ransku čp. 46, pokřtěna 18. 3. 1854 kaplanem Ferdinandem Rimešem.
     - Otec: **Matěj Šíma** (č. 90), katolík, **kovolijec** (v rodinné tradici dosud chybně tradováno jako 'horolezec' – opraveno a doloženo z originálního rukopisu!), manželský syn **Tomáše Šímy** (č. 180), drába z Ranska čp. 2 a **Marie rozené Halíkové** (č. 181) z Volešné (Olešné) čp. 25 okresu Přibyslavského.

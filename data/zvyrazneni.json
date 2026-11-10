@@ -954,5 +954,11 @@
     ],
     "status": "ok",
     "note": "Zápis narození Julia Holánka v indexu farnosti Krucemburk (1889)"
+  },
+  "ransko_krest_jan_holanek_1820": {
+    "x": 0.06,
+    "y": 0.314,
+    "w": 0.87,
+    "h": 0.101
   }
 }
