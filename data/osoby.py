@@ -1679,11 +1679,18 @@ P = {
                r=["krucemburk_krest_frantisek_rejna_1767"],
                note="Přímá předkyně v 11. generaci (č. 1525), dcera Jana Nováka (č. 3050). Manželka Jana Rejného z Kohoutova (č. 1524) a matka pololáníka Františka Rejného (č. 762). Doložena v křestním zápisu syna Františka roku 1767 ('Anna filia Joannis Nowák')."),
 
-    1526: dict(n="František Stehno", y="před 1765 – ?", st="doc",
-               f=["sedlák v Kohoutově", "otec Kateřiny provdané Rejné"],
-               zam="sedlák v Kohoutově", bydl="Kohoutov", puvod="Kohoutov",
-               r=["chlum_krest_jan_podrouzek_1829"],
-               note="Přímý předek v 11. generaci (č. 1526), sedlák v Kohoutově (farnost Krucemburk). Otec Kateřiny provdané Rejné (č. 763) a dědeček Anny provdané Podroužkové (č. 381). Doložen v křestním zápisu pravnuka Jana Podroužka ml. roku 1829."),
+    1526: dict(n="Václav Bislavský", y="před 1755 – ?", st="doc",
+               f=["tesař v Krucemburku čp. 116", "manžel Magdaleny Špringerové", "otec Kateřiny provdané Rejné (* 1775)"],
+               zam="tesař v Krucemburku", bydl="Krucemburk čp. 116", puvod="Krucemburk",
+               r=["krucemburk_krest_katerina_bislavska_1775"],
+               note="Přímý předek v 11. generaci (č. 1526), tesař (tigniarius) v Krucemburku čp. 116 (panství Polná). Manžel Magdaleny rozené Špringerové (č. 1527) a otec Kateřiny provdané Rejné (č. 763). Doložen v křestním zápisu dcery Kateřiny roku 1775 ('Bielauschek Wenceslaus tigniarius')."),
+
+    1527: dict(n="Magdalena Špringerová", y="před 1755 – ?", st="doc",
+               otec=3054,
+               f=["manželka Václava Bislavského z Krucemburku", "dcera Jana Špringera", "matka Kateřiny provdané Rejné (* 1775)"],
+               roz="Špringerová", bydl="Krucemburk čp. 116", puvod="Krucemburk",
+               r=["krucemburk_krest_katerina_bislavska_1775"],
+               note="Přímá předkyně v 11. generaci (č. 1527), dcera zemřelého Jana Špringera (č. 3054). Manželka tesaře Václava Bislavského z Krucemburku čp. 116 (č. 1526) a matka Kateřiny provdané Rejné (č. 763). Doložena v křestním zápisu dcery Kateřiny roku 1775 ('uxor Magdalena filia defuncti Joannis Springer')."),
 
 
 
@@ -1699,6 +1706,12 @@ P = {
                zam="hospodář", bydl="panství Polná", puvod="panství Polná",
                r=["krucemburk_krest_frantisek_rejna_1767"],
                note="Přímý předek ve 12. generaci (č. 3050), hospodář na panství Polná. Otec Anny provdané Rejné (č. 1525) a dědeček Františka Rejného (č. 762). Doložen v křestním zápisu vnuka Františka roku 1767 ('Anna filia Joannis Nowák')."),
+
+    3054: dict(n="Jan Špringer", y="před 1735 – † před 1775", st="doc",
+               f=["hospodář a měšťan v Krucemburku", "otec Magdaleny provdané Bislavské"],
+               bydl="Krucemburk", puvod="Krucemburk",
+               r=["krucemburk_krest_katerina_bislavska_1775"],
+               note="Přímý předek ve 12. generaci (č. 3054), hospodář v Krucemburku. Zemřel před únorem 1775. Otec Magdaleny provdané Bislavské (č. 1527) a dědeček Kateřiny provdané Rejné (č. 763). Doložen v křestním zápisu vnučky Kateřiny roku 1775 ('defuncti Joannis Springer')."),
 
     # 11. generace (2816–2847)
 
@@ -1980,12 +1993,12 @@ P = {
               r=["krucemburk_krest_frantisek_rejna_1767", "kohoutov_oddani_frantisek_rejna_1790", "kohoutov_krest_anna_rejnova_1795", "chlum_krest_jan_podrouzek_1829"],
               note="Přímý předek v 10. generaci (č. 762), pololáník a čtvrtník na selském gruntě v Kohoutově čp. 5 (farnost Krucemburk). Narozen 5. 10. 1767 v Kohoutově a pokřtěn 6. 10. 1767 ve farním kostele v Krucemburku kaplanem Františkem Jaulem jako syn Jana syna Jana Rejného (č. 1524) a Anny rozené Jana Nováka (č. 1525). Dne 26. 1. 1790 se v Kohoutově čp. 5 jako dvaadvacetiletý oženil s patnáctiletou Kateřinou (č. 763). Otec Anny provdané Podroužkové (* 1795, č. 381). Doložen v křestní matrice Krucemburku 1767, v matrice oddaných Kohoutova 1790 i v křestních zápisech dcery a vnuka."),
 
-    763: dict(n="Kateřina", y="* cca 1774/1775 – ?", st="doc",
-              otec=1526,
-              f=["* cca 1774/1775", "manželka Františka Rejného z Kohoutova čp. 5", "matka Anny provdané Podroužkové (* 1795)"],
-              bydl="Kohoutov čp. 5", puvod="Kohoutov",
-              r=["kohoutov_oddani_frantisek_rejna_1790", "kohoutov_krest_anna_rejnova_1795", "chlum_krest_jan_podrouzek_1829"],
-              note="Přímá předkyně v 10. generaci (č. 763). Narozena kolem let 1774–1775, dne 26. 1. 1790 se v Kohoutově čp. 5 jako patnáctiletá provdala za dvaadvacetiletého sedláka Františka Rejného (č. 762). V křestním zápisu dcery Anny (* 1795) a v oddacím zápisu 1790 je uváděna jako Kateřina Bislavská / Bislaušková, zatímco v pozdějším křestním zápisu vnuka Jana Podroužka ml. roku 1829 je uvedena jako 'Kateřina rozená Františka Stehna sedláka z Kohoutova' (odkaz na rodinu Stehnů, se kterou byli Rejnové na gruntě čp. 5 spřízněni)."),
+    763: dict(n="Kateřina Bislavská", y="* 25. 2. 1775 – ?", st="doc",
+              otec=1526, matka=1527,
+              f=["* 25. 2. 1775 Krucemburk čp. 116 (křest 28. 2. 1775)", "dcera tesaře Václava Bislavského", "∞ 26. 1. 1790 Kohoutov (František Rejný)", "matka Anny provdané Podroužkové (* 1795)"],
+              roz="Bislavská", bydl="Kohoutov čp. 5", puvod="Krucemburk čp. 116",
+              r=["krucemburk_krest_katerina_bislavska_1775", "kohoutov_oddani_frantisek_rejna_1790", "kohoutov_krest_anna_rejnova_1795", "chlum_krest_jan_podrouzek_1829"],
+              note="Přímá předkyně v 10. generaci (č. 763). Narozena 25. 2. 1775 v Krucemburku čp. 116 a pokřtěna 28. 2. 1775 ve farním kostele v Krucemburku kaplanem Janem Daňkem jako dcera tesaře Václava Bislavského / Bislauška (č. 1526) a Magdaleny rozené Špringerové (č. 1527). Dne 26. 1. 1790 se v Kohoutově čp. 5 jako patnáctiletá provdala za dvaadvacetiletého sedláka Františka Rejného (č. 762). V oddacím zápisu 1790 i v křestním zápisu dcery Anny (* 1795) je uváděna jako Kateřina Bislavská / Bislaušková; v pozdějším zápisu vnuka Jana Podroužka ml. roku 1829 byl zapsán odkaz na spřízněnou rodinu Stehnů z Kohoutova."),
 }
 
 
