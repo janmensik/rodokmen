@@ -1665,6 +1665,20 @@ P = {
                r=["chlum_krest_jan_podrouzek_1798"],
                note="Přímá předkyně v 11. generaci (č. 1523). Manželka sedláka Václava Pátka ze Chlumu (č. 1522), matka Magdaleny provdané Podroužkové (č. 761) a babička Jana Podroužka st. (č. 380). Doložena v křestním zápisu vnuka Jana Podroužka st. roku 1798 ('Magdalena dcera Wáclawa Pátka sedláka a Magdaleny')."),
 
+    1524: dict(n="Jan Rejný", y="před 1747 – ?", st="doc",
+               otec=3048,
+               f=["sedlák v Kohoutově", "manžel Anny Novákové", "otec Františka Rejného (* 1767)"],
+               zam="sedlák v Kohoutově", bydl="Kohoutov", puvod="Kohoutov",
+               r=["krucemburk_krest_frantisek_rejna_1767"],
+               note="Přímý předek v 11. generaci (č. 1524), syn Jana Rejného (č. 3048). Sedlák v Kohoutově (panství Polná). Manžel Anny rozené Novákové (č. 1525) a otec pololáníka Františka Rejného (č. 762). Doložen v křestním zápisu syna Františka roku 1767 ('filius Joannis filij Joannis Rejneg')."),
+
+    1525: dict(n="Anna Nováková", y="před 1747 – ?", st="doc",
+               otec=3050,
+               f=["manželka Jana Rejného z Kohoutova", "dcera Jana Nováka", "matka Františka Rejného (* 1767)"],
+               roz="Nováková", bydl="Kohoutov", puvod="Kohoutov",
+               r=["krucemburk_krest_frantisek_rejna_1767"],
+               note="Přímá předkyně v 11. generaci (č. 1525), dcera Jana Nováka (č. 3050). Manželka Jana Rejného z Kohoutova (č. 1524) a matka pololáníka Františka Rejného (č. 762). Doložena v křestním zápisu syna Františka roku 1767 ('Anna filia Joannis Nowák')."),
+
     1526: dict(n="František Stehno", y="před 1765 – ?", st="doc",
                f=["sedlák v Kohoutově", "otec Kateřiny provdané Rejné"],
                zam="sedlák v Kohoutově", bydl="Kohoutov", puvod="Kohoutov",
@@ -1672,6 +1686,19 @@ P = {
                note="Přímý předek v 11. generaci (č. 1526), sedlák v Kohoutově (farnost Krucemburk). Otec Kateřiny provdané Rejné (č. 763) a dědeček Anny provdané Podroužkové (č. 381). Doložen v křestním zápisu pravnuka Jana Podroužka ml. roku 1829."),
 
 
+
+    # 12. generace (předkové krucemburské větve)
+    3048: dict(n="Jan Rejný", y="před 1727 – ?", st="doc",
+               f=["hospodář v Kohoutově", "otec Jana Rejného ml."],
+               zam="hospodář v Kohoutově", bydl="Kohoutov", puvod="Kohoutov",
+               r=["krucemburk_krest_frantisek_rejna_1767"],
+               note="Přímý předek ve 12. generaci (č. 3048), hospodář v Kohoutově (panství Polná). Otec Jana Rejného (č. 1524) a dědeček Františka Rejného (č. 762). Doložen v křestním zápisu vnuka Františka roku 1767 ('Joannes filius Joannis Rejneg')."),
+
+    3050: dict(n="Jan Novák", y="před 1727 – ?", st="doc",
+               f=["hospodář na panství Polná", "otec Anny provdané Rejné"],
+               zam="hospodář", bydl="panství Polná", puvod="panství Polná",
+               r=["krucemburk_krest_frantisek_rejna_1767"],
+               note="Přímý předek ve 12. generaci (č. 3050), hospodář na panství Polná. Otec Anny provdané Rejné (č. 1525) a dědeček Františka Rejného (č. 762). Doložen v křestním zápisu vnuka Františka roku 1767 ('Anna filia Joannis Nowák')."),
 
     # 11. generace (2816–2847)
 
@@ -1946,11 +1973,12 @@ P = {
               r=["chlum_krest_jan_podrouzek_1798", "chlum_krest_jan_podrouzek_1829"],
               note="Přímá předkyně v 10. generaci (č. 761), dcera sedláka Václava Pátka ze Chlumu (č. 1522) a jeho manželky Magdaleny (č. 1523). Manželka sedláka Františka Podroužka z Chlumu čp. 31 (č. 760) a matka Jana Podroužka st. (č. 380). Doložena v křestním zápisu syna Jana roku 1798 ('Magdalena dcera Wáclawa Pátka sedláka a Magdaleny') i vnuka Jana Podroužka ml. roku 1829."),
 
-    762: dict(n="František Rejný", y="* cca 1767/1768 – ?", st="doc",
-              f=["* cca 1767/1768", "pololáník a čtvrtník v Kohoutově čp. 5", "∞ 26. 1. 1790 Kohoutov (Kateřina Bislavská)", "otec Anny provdané Podroužkové (* 1795)"],
+    762: dict(n="František Rejný", y="* 5. 10. 1767 – ?", st="doc",
+              otec=1524, matka=1525,
+              f=["* 5. 10. 1767 Kohoutov (křest 6. 10. 1767 Krucemburk)", "pololáník a čtvrtník v Kohoutově čp. 5", "∞ 26. 1. 1790 Kohoutov (Kateřina Bislavská)", "otec Anny provdané Podroužkové (* 1795)"],
               zam="pololáník a čtvrtník v Kohoutově čp. 5", bydl="Kohoutov čp. 5", puvod="Kohoutov",
-              r=["kohoutov_oddani_frantisek_rejna_1790", "kohoutov_krest_anna_rejnova_1795", "chlum_krest_jan_podrouzek_1829"],
-              note="Přímý předek v 10. generaci (č. 762), pololáník a čtvrtník na selském gruntě v Kohoutově čp. 5 (farnost Krucemburk). Narozen kolem let 1767–1768. Dne 26. 1. 1790 se v Kohoutově čp. 5 jako dvaadvacetiletý oženil s patnáctiletou Kateřinou (č. 763). Otec Anny provdané Podroužkové (* 1795, č. 381). Doložen v křestní matrice dcery Anny 1795, v oddací matrice Kohoutova 1790 i v křestním zápisu vnuka Jana Podroužka ml. roku 1829 ('Anna dcera Františka Reyny čtwrtnjka z Kohautowa')."),
+              r=["krucemburk_krest_frantisek_rejna_1767", "kohoutov_oddani_frantisek_rejna_1790", "kohoutov_krest_anna_rejnova_1795", "chlum_krest_jan_podrouzek_1829"],
+              note="Přímý předek v 10. generaci (č. 762), pololáník a čtvrtník na selském gruntě v Kohoutově čp. 5 (farnost Krucemburk). Narozen 5. 10. 1767 v Kohoutově a pokřtěn 6. 10. 1767 ve farním kostele v Krucemburku kaplanem Františkem Jaulem jako syn Jana syna Jana Rejného (č. 1524) a Anny rozené Jana Nováka (č. 1525). Dne 26. 1. 1790 se v Kohoutově čp. 5 jako dvaadvacetiletý oženil s patnáctiletou Kateřinou (č. 763). Otec Anny provdané Podroužkové (* 1795, č. 381). Doložen v křestní matrice Krucemburku 1767, v matrice oddaných Kohoutova 1790 i v křestních zápisech dcery a vnuka."),
 
     763: dict(n="Kateřina", y="* cca 1774/1775 – ?", st="doc",
               otec=1526,
