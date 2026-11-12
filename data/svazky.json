@@ -811,5 +811,53 @@
   "popis": "římskokatolická matrika NAROZENÝCH, ODDANÝCH, ZEMŘELÝCH, Kohoutov\nN 10.1784-1854, O 11.1784-6.1945, Z od 1785",
   "snimku": 153,
   "url": "https://aron.vychodoceskearchivy.cz/apu/14964c9c-7d37-4287-a101-0d1f9ea57fb1"
+ },
+ "1f20d56e": {
+  "archiv": "Státní oblastní archiv v Hradci Králové",
+  "portal": "ARON",
+  "svazek": "Sbírka matrik Východočeského kraje, sign.: 6029 (poř.č. 5452), 1784-1921",
+  "popis": "římskokatolická matrika NAROZENÝCH, ZEMŘELÝCH, ODDANÝCH, Hluboká\nN 11.1784-6.1838, O 10.1784-11.1857, Z 11.1784-8.1921",
+  "snimku": 150,
+  "url": "https://aron.vychodoceskearchivy.cz/apu/1f20d56e-892f-4efb-81f6-fd49b33fc0c2"
+ },
+ "ebad_4708": {
+  "archiv": "SOA Praha – Sbírka matrik",
+  "portal": "eBadatelna",
+  "svazek": "Čechtice 11, N 1838–1873, Ni 1838–1873",
+  "popis": "Čechtice, Chrastovice",
+  "snimku": 227,
+  "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/4708"
+ },
+ "ebad_5070": {
+  "archiv": "SOA Praha – Sbírka matrik",
+  "portal": "eBadatelna",
+  "svazek": "Dobříš 12, N 1837–1843",
+  "popis": "Baba, Brodec, Dobříš, Ježovka, Obora, Rosovice, Stará Huť, Trnová, U Pěti Lip, Voznice",
+  "snimku": 207,
+  "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/5070"
+ },
+ "ebad_5078": {
+  "archiv": "SOA Praha – Sbírka matrik",
+  "portal": "eBadatelna",
+  "svazek": "Dobříš 20, O 1816–1837",
+  "popis": "Baba, Brodec, Dobříš, Obora, Rosovice, Stará Huť, Trnová, U Pěti Lip, Voznice",
+  "snimku": 137,
+  "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/5078"
+ },
+ "ebad_10060": {
+  "archiv": "SOA Praha – Sbírka matrik",
+  "portal": "eBadatelna",
+  "svazek": "Žiželice 08, O 1798–1833, Oi 1798–1833",
+  "popis": "Bílé Vchynice, Freudenthal, Hlavečník, Hradišťko II, Končice, Korce, Kundratice, Loukonosy, Převýšov, Radovesnice II, Rasochy, Rozehnaly, Tetov, Zbraň, Žiželice",
+  "snimku": 131,
+  "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/10060"
+ },
+ "ebad_10053": {
+  "archiv": "SOA Praha – Sbírka matrik",
+  "portal": "eBadatelna",
+  "svazek": "Žiželice 01, N 1798–1816, Ni 1798–1816",
+  "popis": "Bílé Vchynice, Freudenthal, Hlavečník, Hradišťko II, Končice, Korce, Kundratice, Loukonosy, Převýšov, Radovesnice II, Rasochy, Rozehnaly, Tetov, Zbraň, Žiželice",
+  "snimku": 221,
+  "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/10053"
  }
 }
