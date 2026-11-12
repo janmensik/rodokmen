@@ -1870,12 +1870,12 @@ P = {
               r=["chlum_krest_jan_podrouzek_1829", "chlum_oddani_jan_podrouzek_1855", "chlum_krest_frantiska_podrouzkova_1854"],
               note="Přímý předek v 9. generaci (č. 380), usedlý jako sedlák a půlláník na rodovém gruntě čp. 31 v Chlumu, zemřel před dubnem 1854. Syn sedláka Františka Podroužka (č. 760) a Magdaleny rozené Pátkové (č. 761). Manžel Anny roz. Rejnové z Kohoutova a otec půlláníka Jana Podroužka ml. (* 1829). Doložen v křestním zápisu syna Jana roku 1829 i vnučky Františky roku 1854."),
 
-    381: dict(n="Anna Rejnová", y="", st="doc",
+    381: dict(n="Anna Rejnová", y="* 12. 5. 1795 – ?", st="doc",
               otec=762, matka=763,
-              f=["* Kohoutov", "dcera Františka Rejného a Kateřiny Stehnové", "∞ Jan Podroužek st."],
-              roz="Rejnová", bydl="Chlum čp. 31", puvod="Kohoutov",
-              r=["chlum_krest_jan_podrouzek_1829", "chlum_oddani_jan_podrouzek_1855", "chlum_krest_frantiska_podrouzkova_1854"],
-              note="Přímá předkyně v 9. generaci (č. 381). Pocházela z Kohoutova (farnost Krucemburk) jako dcera čtvrtníka Františka Rejného (č. 762) a Kateřiny rozené Stehnové (č. 763). Manželka půlláníka Jana Podroužka st. z Chlumu čp. 31 a matka Jana Podroužka ml. (* 1829). Doložena v křestním zápisu syna Jana roku 1829 i vnučky Františky roku 1854."),
+              f=["* 12. 5. 1795 Kohoutov čp. 5 (křest 12. 5. 1795)", "dcera Františka Rejného a Kateřiny", "∞ Jan Podroužek st."],
+              roz="Rejnová", bydl="Chlum čp. 31", puvod="Kohoutov čp. 5",
+              r=["kohoutov_krest_anna_rejnova_1795", "chlum_krest_jan_podrouzek_1829", "chlum_oddani_jan_podrouzek_1855", "chlum_krest_frantiska_podrouzkova_1854"],
+              note="Přímá předkyně v 9. generaci (č. 381). Narodila se 12. 5. 1795 v Kohoutově čp. 5 a téhož dne byla pokřtěna kaplanem Janem Michlíčkem jako dcera pololáníka Františka Rejného (č. 762) a Kateřiny (č. 763). Manželka půlláníka Jana Podroužka st. z Chlumu čp. 31 a matka půlláníka Jana Podroužka ml. (* 1829). Doložena v křestní matrice Kohoutova 1795, v křestním zápisu syna Jana roku 1829 i vnučky Františky roku 1854."),
 
     383: dict(n="Anna Bártová", y="", st="doc",
               f=["* Slouč čp. 2", "∞ Josef Řehák"],
@@ -1940,18 +1940,18 @@ P = {
               r=["chlum_krest_jan_podrouzek_1829"],
               note="Přímá předkyně v 10. generaci (č. 761), dcera sedláka Václava Pátka ze Chlumu (č. 1522). Manželka sedláka Františka Podroužka z Chlumu čp. 31 (č. 760) a matka Jana Podroužka st. (č. 380). Doložena v křestním zápisu vnuka Jana Podroužka ml. roku 1829 ('a Magdaleny rozené Wáclawa Pátek sedláka ze Chlumu')."),
 
-    762: dict(n="František Rejný", y="před 1785 – ?", st="doc",
-              f=["čtvrtník v Kohoutově", "manžel Kateřiny Stehnové", "otec Anny provdané Podroužkové"],
-              zam="čtvrtník v Kohoutově", bydl="Kohoutov", puvod="Kohoutov",
-              r=["chlum_krest_jan_podrouzek_1829"],
-              note="Přímý předek v 10. generaci (č. 762), čtvrtník v Kohoutově (farnost Krucemburk). Manžel Kateřiny rozené Stehnové (č. 763) a otec Anny provdané Podroužkové (č. 381). Doložen v křestním zápisu vnuka Jana Podroužka ml. roku 1829 ('Anna dcera Františka Reyny čtwrtnjka z Kohautowa')."),
+    762: dict(n="František Rejný", y="* cca 1767/1768 – ?", st="doc",
+              f=["* cca 1767/1768", "pololáník a čtvrtník v Kohoutově čp. 5", "∞ 26. 1. 1790 Kohoutov (Kateřina Bislavská)", "otec Anny provdané Podroužkové (* 1795)"],
+              zam="pololáník a čtvrtník v Kohoutově čp. 5", bydl="Kohoutov čp. 5", puvod="Kohoutov",
+              r=["kohoutov_oddani_frantisek_rejna_1790", "kohoutov_krest_anna_rejnova_1795", "chlum_krest_jan_podrouzek_1829"],
+              note="Přímý předek v 10. generaci (č. 762), pololáník a čtvrtník na selském gruntě v Kohoutově čp. 5 (farnost Krucemburk). Narozen kolem let 1767–1768. Dne 26. 1. 1790 se v Kohoutově čp. 5 jako dvaadvacetiletý oženil s patnáctiletou Kateřinou (č. 763). Otec Anny provdané Podroužkové (* 1795, č. 381). Doložen v křestní matrice dcery Anny 1795, v oddací matrice Kohoutova 1790 i v křestním zápisu vnuka Jana Podroužka ml. roku 1829 ('Anna dcera Františka Reyny čtwrtnjka z Kohautowa')."),
 
-    763: dict(n="Kateřina Stehnová", y="před 1785 – ?", st="doc",
+    763: dict(n="Kateřina", y="* cca 1774/1775 – ?", st="doc",
               otec=1526,
-              f=["* Kohoutov", "dcera Františka Stehna sedláka z Kohoutova", "manželka Františka Rejného z Kohoutova"],
-              roz="Stehnová", bydl="Kohoutov", puvod="Kohoutov",
-              r=["chlum_krest_jan_podrouzek_1829"],
-              note="Přímá předkyně v 10. generaci (č. 763), pocházela ze selského rodu Stehnů v Kohoutově jako dcera Františka Stehna (č. 1526). Manželka čtvrtníka Františka Rejného (č. 762) a matka Anny provdané Podroužkové (č. 381). Doložena v křestním zápisu vnuka Jana Podroužka ml. roku 1829 ('a Kateřiny rozené Františka Stehno sedláka z Kohautowa')."),
+              f=["* cca 1774/1775", "manželka Františka Rejného z Kohoutova čp. 5", "matka Anny provdané Podroužkové (* 1795)"],
+              bydl="Kohoutov čp. 5", puvod="Kohoutov",
+              r=["kohoutov_oddani_frantisek_rejna_1790", "kohoutov_krest_anna_rejnova_1795", "chlum_krest_jan_podrouzek_1829"],
+              note="Přímá předkyně v 10. generaci (č. 763). Narozena kolem let 1774–1775, dne 26. 1. 1790 se v Kohoutově čp. 5 jako patnáctiletá provdala za dvaadvacetiletého sedláka Františka Rejného (č. 762). V křestním zápisu dcery Anny (* 1795) a v oddacím zápisu 1790 je uváděna jako Kateřina Bislavská / Bislaušková, zatímco v pozdějším křestním zápisu vnuka Jana Podroužka ml. roku 1829 je uvedena jako 'Kateřina rozená Františka Stehna sedláka z Kohoutova' (odkaz na rodinu Stehnů, se kterou byli Rejnové na gruntě čp. 5 spřízněni)."),
 }
 
 

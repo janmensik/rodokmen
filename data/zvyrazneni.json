@@ -996,5 +996,29 @@
     ],
     "status": "ok",
     "note": "Narození a křest Jana Podroužka v Chlumu čp. 31"
+  },
+  "kohoutov_krest_anna_rejnova_1795": {
+    "boxes": [
+      [
+        0.35,
+        0.02,
+        0.75,
+        0.98
+      ]
+    ],
+    "status": "ok",
+    "note": "Narození a křest Anny Rejnové v Kohoutově čp. 5"
+  },
+  "kohoutov_oddani_frantisek_rejna_1790": {
+    "boxes": [
+      [
+        0.55,
+        0.02,
+        0.98,
+        0.98
+      ]
+    ],
+    "status": "ok",
+    "note": "Sňatek Františka Rejného a Kateřiny Bislavské v Kohoutově čp. 5"
   }
 }
