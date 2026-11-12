@@ -1056,5 +1056,41 @@
     ],
     "status": "ok",
     "note": "Zápis o narození a křtu Kateřiny Bislavské"
+  },
+  "ransko_oddani_matej_sima_1837": {
+    "boxes": [
+      [
+        0.01,
+        0.05,
+        0.99,
+        0.95
+      ]
+    ],
+    "status": "ok",
+    "note": "Zápis o sňatku Matěje Šímy a Františky Benové"
+  },
+  "ransko_krest_jan_sima_1837": {
+    "boxes": [
+      [
+        0.01,
+        0.05,
+        0.99,
+        0.95
+      ]
+    ],
+    "status": "ok",
+    "note": "Zápis o křtu Jana Křt. Šímy"
+  },
+  "ransko_krest_vojtech_hlavacek_1837": {
+    "boxes": [
+      [
+        0.01,
+        0.05,
+        0.99,
+        0.95
+      ]
+    ],
+    "status": "ok",
+    "note": "Zápis o křtu Vojtěcha Hlaváčka"
   }
 }

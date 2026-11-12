@@ -669,29 +669,21 @@ P = {
              note="Domkař ve Starém Ransku čp. 53. Narození doloženo v matrice SOA Zámrsk sign. 8327, sn. 47 (* 18. 6. 1820 Staré Ransko čp. 45, syn kovářského mistra Josefa Holánka a Barbory dcery tesařského mistra Jana Slámy z čp. 33 a Alžběty roz. Dymáčkové). Doložen též v křestní matrice syna Františka (* 1854, sign. 711, sn. 188)."),
 
     89: dict(n="Johanna Hlaváčková", y="", st="doc",
-
-             f=["× Jan Holánek", "dcera mistra zámečnického Vojtěcha Hlaváčka a Barbory Haislerové"],
-
+             f=["× Jan Holánek", "dcera zámečníka/uhlíře Vojtěcha Hlaváčka a Barbory Heislerové"],
              bydl="Staré Ransko čp. 49",
+             r=["ransko_krest_frantisek_holanek_1854", "ransko_krest_vojtech_hlavacek_1837"],
+             note="Doložena v křestní matrice syna Františka (* 1854, sign. 711, sn. 188). Manželská dcera zámečnického mistra a uhlíře Vojtěcha Hlaváčka ze Starého Ranska čp. 49 a Barbory roz. Heislerové (Haislerové)."),
 
-             r=["ransko_krest_frantisek_holanek_1854"],
+    90: dict(n="Matěj Šíma", y="* cca 1815", st="doc",
+             f=["× 31. 1. 1837 Staré Ransko Františka Benová (22 let)"],
+             zam="havíř a kovolijec", bydl="Staré Ransko čp. 20, čp. 41 a čp. 46",
+             r=["ransko_oddani_matej_sima_1837", "ransko_krest_jan_sima_1837", "ransko_krest_julie_simova_1854"],
+             note="Havíř a kovolijec v raneckých hutích a železárnách (v rodinné tradici PDF dříve chybně tradováno jako 'horolezec' – vyvráceno, opraveno a doloženo z originálních matrik SOA Zámrsk sign. 8327 a sign. 711). Dne 31. 1. 1837 se ve svých 22 letech (* cca 1815) oženil na Ransku čp. 20 s Františkou Benovou. Manželský syn panského drába † Tomáše Šímy z Ranska čp. 1 a Marie Anny rozené Halíkové z Volešné čp. 25."),
 
-             note="Doložena v křestní matrice syna Františka (* 1854, sign. 711, sn. 188). Manželská dcera zámečnického mistra Vojtěcha Hlaváčka ze Starého Ranska čp. 49 a Barbory roz. Haislerové z Hamrů čp. 9 (u Hlinska)."),
-
-    90: dict(n="Matěj Šíma", y="", st="fam",
-
-             f=["∞ Františka Benová"],
-
-             zam="kovolijec", bydl="Staré Ransko čp. 46 a čp. 2",
-             r=["ransko_krest_julie_simova_1854"],
-
-             note="Kovolijec v raneckých hutích a železárnách (v rodinné tradici PDF dříve chybně tradováno jako 'horolezec' – vyvráceno, opraveno a doloženo z originální matriky SOA Zámrsk sign. 711, sn. 183). Manželský syn drába Tomáše Šímy z Ranska čp. 2 a Marie rozené Halíkové z Volešné čp. 25. Manžel Františky roz. Benové."),
-
-    91: dict(n="Františka Benová", y="", st="fam",
-
-             f=["∞ Matěj Šíma"], bydl="Staré Ransko čp. 41",
-             r=["ransko_krest_julie_simova_1854"],
-             note="Doložena v křestní matrice dcery Julie (* 1854, sign. 711, sn. 183). Manželská dcera Františka Bena, mistra hamernického ze Starého Ranska čp. 41 a Karoliny rozené Králíčkové z České Kamenice."),
+    91: dict(n="Františka Benová", y="* cca 1811", st="doc",
+             f=["× 31. 1. 1837 Staré Ransko Matěj Šíma (26 let)"], bydl="Staré Ransko čp. 41",
+             r=["ransko_oddani_matej_sima_1837", "ransko_krest_jan_sima_1837", "ransko_krest_julie_simova_1854"],
+             note="Doložena v oddacím zápisu (31. 1. 1837, 26 let, * cca 1811) i v křestní matrice dětí Jana (* 1837) a Julie (* 1854). Manželská dcera Františka Bena, mistra hamernického ze Starého Ranska čp. 41, a Karoliny rozené Králíčkové z Jindřichova Hradce."),
 
     92: dict(n="Václav Henzl", y="* 1844", st="doc",
              f=["* 6. 8. 1844 Hluboká čp. 15 (pokřtěn 7. 8. 1844)", "∞ Marie Procházková"],
@@ -1064,48 +1056,36 @@ P = {
               note="V rodinném stromu PDF byla dříve mylně uvedena s křestním jménem Filipina; v křestních matrikách syna Jana (* 1820, sign. 8327, sn. 47) i vnuka Františka (* 1854, sign. 711, sn. 188) je jednoznačně doložena jako Barbora, dcera tesařského mistra Jana Slámy z čp. 33 a Alžběty rozené Dymáčkové."),
 
     178: dict(n="Vojtěch Hlaváček", y="", st="doc",
-
-              f=["× Barbora Haislerová"],
-
-              zam="mistr zámečnický", bydl="Staré Ransko čp. 49",
-
-              r=["ransko_krest_frantisek_holanek_1854"],
-
-              note="Mistr zámečnický ve Starém Ransku čp. 49 (v rodinném stromu PDF byl chybně označen za uhlíře). Doložen v křestní matrice vnuka Františka Holánka (* 1854)."),
+              f=["× Barbora Heislerová", "syn † Matouše Hlaváčka z Markvarce čp. 8 a † Anny Plesnivé"],
+              zam="uhlíř, domkař a mistr zámečnický", bydl="Staré Ransko čp. 49",
+              r=["ransko_krest_vojtech_hlavacek_1837", "ransko_krest_frantisek_holanek_1854"],
+              note="Uhlíř, domkař a mistr zámečnický ve Starém Ransku čp. 49 (poddaný panství Polná). Doložen v křestní matrice syna Vojtěcha (* 1837, sign. 8327, sn. 57) i vnuka Františka Holánka (* 1854). Podle zápisu z r. 1837 byl synem † Matouše Hlaváčka, sedláka v Markvarci čp. 8 (panství Černovice, kraj Táborský) a † Anny rozené Matěje Plesnivého z Markvarce čp. 9."),
 
     179: dict(n="Barbora Haislerová", y="", st="doc",
+              f=["× Vojtěch Hlaváček", "dcera Josefa Heislera a † Rosalie Haurové"],
+              bydl="Staré Ransko čp. 49, dříve Matějovice čp. 14 / Hamry čp. 9",
+              r=["ransko_krest_vojtech_hlavacek_1837", "ransko_krest_frantisek_holanek_1854"],
+              note="Podle křtu syna Vojtěcha (* 1837, sign. 8327, sn. 57) byla manželskou dcerou Josefa Heislera, podruha a nádeníka v Matějovicích čp. 14 (panství Bystřické, kraj Jihlavský na Moravě), a † Rosalie rozené Jana Haura, sklenáře z Gründelhütten v Horních Rakousích; u vnuka (* 1854) uváděna z Hamrů čp. 9 na hlineckém panství."),
 
-              f=["× Vojtěch Hlaváček"],
+    180: dict(n="Tomáš Šíma", y="† před 1837", st="doc",
+              f=["∞ Marie Anna Halíková", "† před 31. 1. 1837"], zam="panský dráb", bydl="Staré Ransko čp. 1 a čp. 2",
+              r=["ransko_oddani_matej_sima_1837", "ransko_krest_jan_sima_1837", "ransko_krest_julie_simova_1854"],
+              note="Panský dráb ve Starém Ransku čp. 1 (později čp. 2), zemřel před sňatkem syna Matěje dne 31. 1. 1837. Doložen v oddacím zápisu syna Matěje (1837) a křestních zápisech vnuků Jana (1837) a Julie (1854). Manžel Marie Anny rozené Halíkové z Volešné čp. 25."),
 
-              bydl="Hamry čp. 9 (panství Hlinecké)",
+    181: dict(n="Marie Halíková", y="", st="doc",
+              f=["∞ Tomáš Šíma", "dcera Ondřeje Halíka z Volešné čp. 25"], bydl="Olešná (Volešná) čp. 25",
+              r=["ransko_oddani_matej_sima_1837", "ransko_krest_jan_sima_1837", "ransko_krest_julie_simova_1854"],
+              note="Pocházela z Volešné (Olešná) čp. 25 na panství Polná/Přibyslav, dcera sedláka Ondřeje Halíka. Doložena v oddacím zápisu syna Matěje (1837) i křestních zápisech vnuků Jana (1837) a Julie (1854)."),
 
-              r=["ransko_krest_frantisek_holanek_1854"],
-
-              note="Pocházela z Hamrů čp. 9 na hlineckém panství (panství Hlinsko, Chrudimský kraj). Doložena v křestním zápise vnuka Františka Holánka (* 1854)."),
-
-    180: dict(n="Tomáš Šíma", y="", st="fam",
-
-              f=["∞ Marie Halíková"], zam="dráb", bydl="Staré Ransko čp. 2",
-              r=["ransko_krest_julie_simova_1854"],
-              note="Dráb ve Starém Ransku čp. 2. Doložen v křestní matrice vnučky Julie Šímové (* 1854, sign. 711, sn. 183). Manžel Marie rozené Halíkové z Volešné."),
-
-    181: dict(n="Marie Halíková", y="", st="fam",
-
-              f=["∞ Tomáš Šíma"], bydl="Olešná (Volešná) čp. 25",
-              r=["ransko_krest_julie_simova_1854"],
-              note="Pocházela z Volešné (Olešná) čp. 25 na panství Přibyslav. Doložena v křestní matrice vnučky Julie Šímové (* 1854, sign. 711, sn. 183). Manželka drába Tomáše Šímy."),
-
-    182: dict(n="František Ben", y="", st="fam",
-
+    182: dict(n="František Ben", y="", st="doc",
               f=["∞ Karolina Králíčková"], zam="hamernický mistr", bydl="Staré Ransko čp. 41",
-              r=["ransko_krest_julie_simova_1854"],
-              note="Mistr hamernický ve Starém Ransku čp. 41. Doložen v křestní matrice vnučky Julie Šímové (* 1854, sign. 711, sn. 183). Manžel Karoliny rozené Králíčkové z České Kamenice."),
+              r=["ransko_oddani_matej_sima_1837", "ransko_krest_jan_sima_1837", "ransko_krest_julie_simova_1854"],
+              note="Mistr hamernický v pobočním hamru ve Starém Ransku čp. 41 (poddaný panství Polná). Doložen v oddacím zápisu dcery Františky (1837) i křestních zápisech vnuků Jana (1837) a Julie (1854). Manžel Karoliny rozené Králíčkové."),
 
-    183: dict(n="Karolina Králíčková", y="", st="fam",
-
-              f=["∞ František Ben"], bydl="Česká Kamenice",
-              r=["ransko_krest_julie_simova_1854"],
-              note="Pocházela z České Kamenice v severních Čechách. Doložena v křestní matrice vnučky Julie Šímové (* 1854, sign. 711, sn. 183). Manželka hamernického mistra Františka Bena."),
+    183: dict(n="Karolina Králíčková", y="", st="doc",
+              f=["∞ František Ben", "dcera † Jana Králíčka, krejčího v Jindřichově Hradci"], bydl="Jindřichův Hradec (později uváděna z České Kamenice)",
+              r=["ransko_oddani_matej_sima_1837", "ransko_krest_jan_sima_1837", "ransko_krest_julie_simova_1854"],
+              note="Podle oddacího zápisu dcery Františky (31. 1. 1837) a křtu vnuka Jana (6. 3. 1837) byla dcerou † Jana Králíčka, krejčího v Jindřichově Hradci (u křtu vnučky Julie r. 1854 uváděna z České Kamenice). Manželka hamernického mistra Františka Bena."),
 
     184: dict(n="Jan Henzl", y="† před 1872", st="doc",
               f=["půlláník v Hluboké čp. 15", "∞ Anna Nováková", "† před 12. 7. 1872"],
@@ -1390,20 +1370,47 @@ P = {
     355: dict(n="Alžběta Dymáčková", y="", st="doc",
               f=["× Jan Sláma"], bydl="Staré Ransko čp. 33", r=["ransko_krest_jan_holanek_1820"], note="Doložena v křestní matrice vnuka Jana Holánka (* 1820, sign. 8327, sn. 47) jako matka Barbory Slámové a manželka tesařského mistra Jana Slámy ze Starého Ranska čp. 33."),
 
-    358: dict(n="Josef Haisler", y="", st="fam",
+    356: dict(n="Matouš Hlaváček", y="† před 1837", st="doc",
+              f=["sedlák v Markvarci čp. 8 (panství Černovice)", "∞ Anna Plesnivá", "† před 7. 4. 1837"],
+              zam="sedlák v Markvarci čp. 8", bydl="Markvarec čp. 8 (panství Černovice)", puvod="Markvarec",
+              r=["ransko_krest_vojtech_hlavacek_1837"],
+              note="Předek v 9. generaci (č. 356), sedlák v Markvarci čp. 8 na panství Černovice v kraji Táborském. Doložen v křestním zápisu vnuka Vojtěcha Hlaváčka (* 6. 4. 1837 ve Starém Ransku) jako † Matouš Hlaváček."),
 
-              f=[], bydl="Františkodol (Fraunsthal)", r=[], note="Údaje z rodinného stromu PDF."),
+    357: dict(n="Anna Plesnivá", y="† před 1837", st="doc",
+              f=["dcera Matěje Plesnivého, sedláka z Markvarce čp. 9", "∞ Matouš Hlaváček", "† před 7. 4. 1837"],
+              bydl="Markvarec čp. 8 (dříve čp. 9)", puvod="Markvarec čp. 9 (panství Černovice)",
+              r=["ransko_krest_vojtech_hlavacek_1837"],
+              note="Předkyně v 9. generaci (č. 357), dcera Matěje Plesnivého, sedláka z Markvarce čp. 9 (panství Černovice, kraj Táborský). Doložena v křestním zápisu vnuka Vojtěcha Hlaváčka (* 6. 4. 1837 ve Starém Ransku)."),
+
+    358: dict(n="Josef Heisler", y="", st="doc",
+              f=["podruh a nádeník v Matějovicích čp. 14", "∞ † Rosalie Haurová"],
+              zam="podruh a nádeník v Matějovicích čp. 14", bydl="Matějovice čp. 14 (panství Bystřické, kraj Jihlavský na Moravě)", puvod="Matějovice / Františkodol",
+              r=["ransko_krest_vojtech_hlavacek_1837"],
+              note="Předek v 9. generaci (č. 358), podruh a nádeník ve vsi Matějovicích čp. 14 na panství Bystřickém v kraji Jihlavském na Moravě (v rodinném stromu PDF uváděn ve Františkodole). Doložen v křestním zápisu vnuka Vojtěcha Hlaváčka (* 6. 4. 1837 ve Starém Ransku)."),
+
+    359: dict(n="Rosalie Haurová", y="† před 1837", st="doc",
+              f=["dcera Jana Haura, sklenáře z Gründelhütten v Horních Rakousích", "∞ Josef Heisler", "† před 7. 4. 1837"],
+              bydl="Matějovice čp. 14", puvod="Gründelhütten (Horní Rakousy)",
+              r=["ransko_krest_vojtech_hlavacek_1837"],
+              note="Předkyně v 9. generaci (č. 359), dcera sklenáře Jana Haura z Gründelhütten v Horních Rakousích. Doložena v křestním zápisu vnuka Vojtěcha Hlaváčka (* 6. 4. 1837 ve Starém Ransku) jako † manželka Josefa Heislera."),
 
     360: dict(n="Vojtěch Šíma", y="", st="fam",
-
               f=[], bydl="Staré Ransko", r=[], note="Údaje z rodinného stromu PDF."),
 
-    362: dict(n="Ondřej Halík", y="", st="fam",
-
-              f=["× Kateřina Dušková"], r=[], note="Údaje z rodinného stromu PDF."),
+    362: dict(n="Ondřej Halík", y="", st="doc",
+              f=["sedlák z Volešné čp. 25", "× Kateřina Dušková"],
+              zam="sedlák", bydl="Volešná čp. 25", puvod="Volešná čp. 25",
+              r=["ransko_krest_jan_sima_1837"],
+              note="Sedlák ve Volešné (Olešná) čp. 25 na panství Polná. Doložen v křestním zápisu pravnuka Jana Křt. Šímy (* 5. 3. 1837 ve Starém Ransku) jako otec Marie Anny Šímové roz. Halíkové."),
 
     363: dict(n="Kateřina Dušková", y="", st="fam",
               f=["× Ondřej Halík"], r=[], note="Údaje z rodinného stromu PDF."),
+
+    366: dict(n="Jan Králíček", y="† před 1837", st="doc",
+              f=["krejčí v Jindřichově Hradci", "† před 31. 1. 1837"],
+              zam="krejčí v Jindřichově Hradci", bydl="Jindřichův Hradec", puvod="Jindřichův Hradec",
+              r=["ransko_oddani_matej_sima_1837", "ransko_krest_jan_sima_1837"],
+              note="Předek v 9. generaci (č. 366), krejčí v Jindřichově Hradci. Doložen jako † otec Karoliny Benové roz. Králíčkové v oddacím zápisu vnučky Františky Šímové (31. 1. 1837) i v křestním zápisu pravnuka Jana Křt. Šímy (6. 3. 1837)."),
     382: dict(n="Josef Řehák", y="před 1815 – ?", st="doc",
               f=["domkař v Chlumu čp. 120", "∞ Anna Bártová"],
               zam="domkař v Chlumu čp. 120", bydl="Chlum čp. 120", puvod="Chlum",
@@ -1543,6 +1550,18 @@ P = {
              f=['* 1. 7. 1728', '× 17. 9. 1752 Ransko Karel Dymáček', '† 1780'], r=[],
 
              note='Údaj z exportu Geni / MyHeritage (export-Forest.ged).'),
+
+    714: dict(n="Matěj Plesnivý", y="před 1765 – ?", st="doc",
+              f=["sedlák v Markvarci čp. 9 (panství Černovice)", "otec Anny Hlaváčkové roz. Plesnivé"],
+              zam="sedlák v Markvarci čp. 9", bydl="Markvarec čp. 9 (panství Černovice)", puvod="Markvarec čp. 9",
+              r=["ransko_krest_vojtech_hlavacek_1837"],
+              note="Předek v 10. generaci (č. 714), sedlák v Markvarci čp. 9 na panství Černovice v kraji Táborském. Doložen v křestním zápisu pravnuka Vojtěcha Hlaváčka (* 6. 4. 1837 ve Starém Ransku) jako otec Anny Hlaváčkové roz. Plesnivé."),
+
+    718: dict(n="Jan Haur", y="před 1765 – ?", st="doc",
+              f=["sklenář z Gründelhütten v Horních Rakousích", "otec Rosalie Heislerové roz. Haurové"],
+              zam="sklenář", bydl="Gründelhütten (Horní Rakousy)", puvod="Gründelhütten (Horní Rakousy)",
+              r=["ransko_krest_vojtech_hlavacek_1837"],
+              note="Předek v 10. generaci (č. 718), sklenář z Gründelhütten v Horních Rakousích. Doložen v křestním zápisu pravnuka Vojtěcha Hlaváčka (* 6. 4. 1837 ve Starém Ransku) jako otec Rosalie Heislerové roz. Haurové."),
 
 
 
