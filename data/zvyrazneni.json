@@ -972,5 +972,17 @@
     ],
     "status": "ok",
     "note": "Úmrtí Magdaleny Pátkové v Chlumu čp. 58"
+  },
+  "krucemburk_krest_vojtech_pospichal_1753": {
+    "boxes": [
+      [
+        0.05,
+        0.05,
+        0.95,
+        0.95
+      ]
+    ],
+    "status": "ok",
+    "note": "Křest Vojtěcha (Adalberta) Pospíchala v Krucemburku"
   }
 }

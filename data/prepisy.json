@@ -442,5 +442,18 @@
       "Nemoc a Způsob Smrti": "na souchoty"
     },
     "doslovny": "September 22. / 24. | Nro 58 | Magdalena Manželka Martina Pátka Sedláka | Zaopatřil: Carolus Willars Curator | katolického | ženského | 70 let | na souchoty"
+  },
+  "krucemburk_krest_vojtech_pospichal_1753": {
+    "hlavicka": "Kniha narozených farnosti Krucemburk • Pag. 146 • 1753 (SOA Zámrsk, sign. 704, sn. 77)",
+    "sloupce": {
+      "Dies & Mensis": "Die 9. Aprilis natus, 11. baptisatus",
+      "Patria": "z Kruzburka",
+      "Infans": "Adalbertus",
+      "Parentes": "Franciscus filius Laurentii Pospjchal, Elisabetha, Subditi: Polna",
+      "Levans": "Carolus Heppl",
+      "Testes": "Joannes Kosmizky, Anna Křiwanowa",
+      "Baptisans": "Ego Wenceslaus Paul Capellanus loci qui scribo parocho"
+    },
+    "doslovny": "Die 9. Aprilis natus, 11. baptisatus | z Kruzburka | Adalbertus | Franciscus filius Laurentii Pospjchal, Elisabetha, Subditi: Polna | Carolus Heppl | Joannes Kosmizky, Anna Křiwanowa | Ego Wenceslaus Paul Capellanus loci qui scribo parocho"
   }
 }

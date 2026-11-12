@@ -1641,6 +1641,18 @@ P = {
 
              note='Údaj z exportu Geni / MyHeritage (export-Forest.ged).'),
 
+    1504: dict(n="Vavřinec Pospíchal", y="před 1733 – ?", st="doc",
+               f=["obyvatel Krucemburku (panství Polná)", "manžel Alžběty", "otec Vojtěcha Pospíchala (* 1753)"],
+               zam="obyvatel Krucemburku", bydl="Krucemburk", puvod="Krucemburk",
+               r=["krucemburk_krest_vojtech_pospichal_1753"],
+               note="Přímý předek v 11. generaci (č. 1504), poddaný panství Polná v Krucemburku. Manžel Alžběty (č. 1505) a otec Vojtěcha Pospíchala (č. 752), pokřtěného 11. 4. 1753 v Krucemburku ('Laurentius Pospjchal, Elisabetha, Subditi: Polna')."),
+
+    1505: dict(n="Alžběta", y="před 1735 – ?", st="doc",
+               f=["manželka Vavřince Pospíchala z Krucemburku", "matka Vojtěcha Pospíchala (* 1753)"],
+               bydl="Krucemburk", puvod="Krucemburk",
+               r=["krucemburk_krest_vojtech_pospichal_1753"],
+               note="Přímá předkyně v 11. generaci (č. 1505), manželka Vavřince Pospíchala z Krucemburku (panství Polná) a matka Vojtěcha Pospíchala (č. 752), pokřtěného 11. 4. 1753 v Krucemburku."),
+
 
 
     # 11. generace (2816–2847)
@@ -1882,11 +1894,12 @@ P = {
               note="Přímá předkyně v 10. generaci (č. 759). Manželka domkaře Františka Kasala v Krucemburku a matka Apoleny Kasalové (* 1784, č. 379). Doložena jako matka Anna v křestním zápisu dcery Apoleny roku 1784 a výslovně celým rodným příjmením v křestním zápisu vnučky Josefy roku 1817 ('matky Anny Krupkowý z Krucember.')."),
 
 
-    752: dict(n="Vojtěch Pospíchal", y="před 1770 – před 1810", st="doc",
-              f=["chalupník v Chlumu", "zemřel před 1. 8. 1810", "otec Tomáše Pospíchala st."],
-              zam="chalupník v Chlumu", bydl="Chlum", puvod="Chlum",
-              r=["chlum_krest_tomas_pospichal_1810"],
-              note="Přímý předek v 10. generaci (č. 752), chalupník v Chlumu (panství Chrast). Otec domkaře Tomáše Pospíchala st. (č. 376) a dědeček krejčovského mistra Tomáše Pospíchala ml. (* 1810). V křestním zápisu vnuka Tomáše z 1. 8. 1810 je otec výslovně uveden jako 'Tomáš Pospjchal syn + Wogtěcha Pospjchala chalupnjka z Chlumu', což dokládá Vojtěchovo jméno i skutečnost, že v srpnu 1810 byl již po smrti."),
+    752: dict(n="Vojtěch Pospíchal", y="* 9. 4. 1753 – před 1810", st="doc",
+              otec=1504, matka=1505,
+              f=["* 9. 4. 1753 Krucemburk (křest 11. 4.)", "chalupník v Chlumu", "zemřel před 1. 8. 1810", "otec Tomáše Pospíchala st."],
+              zam="chalupník v Chlumu", bydl="Chlum / Krucemburk", puvod="Krucemburk",
+              r=["krucemburk_krest_vojtech_pospichal_1753", "chlum_krest_tomas_pospichal_1810"],
+              note="Přímý předek v 10. generaci (č. 752), chalupník v Chlumu (panství Chrast), původem z Krucemburku (panství Polná). Narozen 9. 4. 1753 v Krucemburku, pokřtěn 11. 4. 1753 kaplanem Václavem Paulem jako Adalbertus, syn Vavřince Pospíchala a Alžběty. Otec domkaře Tomáše Pospíchala st. (č. 376) a dědeček krejčovského mistra Tomáše Pospíchala ml. (* 1810). V křestním zápisu vnuka Tomáše z 1. 8. 1810 je otec výslovně uveden jako 'Tomáš Pospjchal syn + Wogtěcha Pospjchala chalupnjka z Chlumu', což dokládá, že v srpnu 1810 byl již po smrti."),
 
     754: dict(n="Martin Pátek", y="před 1756 – ?", st="doc",
               f=["sedlák v Chlumu čp. 58, později domkař v Krucemburku čp. 122", "manžel Magdaleny", "otec Kateřiny Pátkové (* 1776)"],
