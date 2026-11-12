@@ -960,5 +960,17 @@
     "y": 0.314,
     "w": 0.87,
     "h": 0.101
+  },
+  "chlum_umrti_magdalena_patkova_1797": {
+    "boxes": [
+      [
+        0.05,
+        0.05,
+        0.95,
+        0.95
+      ]
+    ],
+    "status": "ok",
+    "note": "Úmrtí Magdaleny Pátkové v Chlumu čp. 58"
   }
 }

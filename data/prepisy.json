@@ -429,5 +429,18 @@
   "ransko_krest_jan_holanek_1820": {
     "orig": "[Datum narození a křtu] 1820. Dne 18. Června narozen a pokřtěn od Josefa Fleppla kaplana.\n[Číslo domu] 45.\n[Jméno křtěnce] Jan\n[Náboženství] katolického\n[Pohlaví] mužského\n[Lože] manželského\n[Otec] Josef Holánek mistr kowářský z Ranska N. 45, poddaný panstwj Polná.\n[Matka] Barbora katolička, manželská dcera Jana Slámy mistra tesařského z Ranska N. 33 a matky Alžběty rozené Dymáček z Ranska.\n[Kmotrové] Jan Schmoranz mistr kolářský z Ranska N. 49.\nKateřina manželka geho.",
     "cs": "Dne 18. června 1820 se ve Starém Ransku čp. 45 narodil a téhož dne byl kaplanem Josefem Flepplem pokřtěn Jan Holánek. Otec Josef Holánek byl mistr kovářský ve Starém Ransku čp. 45, poddaný panství Polná. Matka Barbora byla katolička, manželská dcera tesařského mistra Jana Slámy ze Starého Ranska čp. 33 a jeho manželky Alžběty rozené Dymáčkové z Ranska. Kmotry byli kolářský mistr Jan Schmoranz ze Starého Ranska čp. 49 a jeho manželka Kateřina."
+  },
+  "chlum_umrti_magdalena_patkova_1797": {
+    "hlavicka": "Kniha zemřelých Chlum • Pag. 235 • 1797 (SOA Zámrsk, sign. 706, sn. 97)",
+    "sloupce": {
+      "Měsyc a Den Úmrtj / Pohřbu": "September 22. / 24.",
+      "Nro Domu": "58",
+      "Gméno a Staw Umrlého": "Magdalena Manželka Martina Pátka Sedláka | Zaopatřil: Carolus Willars Curator",
+      "Náboženstwj": "katolického (1)",
+      "Pohlawj": "ženského (1)",
+      "Wěk Umrlého": "70 let",
+      "Nemoc a Způsob Smrti": "na souchoty"
+    },
+    "doslovny": "September 22. / 24. | Nro 58 | Magdalena Manželka Martina Pátka Sedláka | Zaopatřil: Carolus Willars Curator | katolického | ženského | 70 let | na souchoty"
   }
 }

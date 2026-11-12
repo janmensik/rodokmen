@@ -1894,11 +1894,11 @@ P = {
               r=["krucemburk_krest_katerina_patkova_1776", "krucemburk_oddani_pospichal_patkova_1794", "chlum_krest_tomas_pospichal_1810", "krucemburk_oddani_pospichal_kasalova_1836", "chlum_krest_jan_pospichal_1847"],
               note="Přímý předek v 10. generaci (č. 754), sedlák v Chlumu čp. 58 (panství Chrást) a později domkař v Krucemburku čp. 122 (panství Polná). Manžel Magdaleny (č. 755), otec Kateřiny Pátkové (* 1776, č. 377) a dědeček krejčovského mistra Tomáše Pospíchala ml. (* 1810). Doložen v křestní matrice dcery Kateřiny 1776 ('Pátek Martinus rusticus et uxor Magdalena Subditi Chrastenses'), oddací matrice dcery 1794, křestním zápisu vnuka Tomáše 1810, oddacím zápisu vnuka 1836 i křestním zápisu pravnuka Jana 1847."),
 
-    755: dict(n="Magdalena", y="před 1758 – ?", st="doc",
-              f=["manželka Martina Pátka z Chlumu čp. 58", "matka Kateřiny Pátkové (* 1776)"],
+    755: dict(n="Magdalena", y="* cca 1727 – † 22. 9. 1797", st="doc",
+              f=["* cca 1727", "† 22. 9. 1797 Chlum čp. 58 (70 let, na souchoty)", "manželka Martina Pátka sedláka z Chlumu čp. 58", "matka Kateřiny Pátkové (* 1776)"],
               bydl="Chlum čp. 58", puvod="Chlum / Krucemburk",
-              r=["krucemburk_krest_katerina_patkova_1776"],
-              note="Přímá předkyně v 10. generaci (č. 755), manželka sedláka Martina Pátka z Chlumu čp. 58 (panství Chrást) a později v Krucemburku čp. 122. Matka Kateřiny Pátkové (* 9. 11. 1776 Chlum čp. 58, č. 377). Doložena v křestním zápisu dcery Kateřiny roku 1776 v Krucemburku ('Pátek Martinus rusticus et uxor Magdalena Subditi Chrastenses')."),
+              r=["krucemburk_krest_katerina_patkova_1776", "chlum_umrti_magdalena_patkova_1797"],
+              note="Přímá předkyně v 10. generaci (č. 755), manželka sedláka Martina Pátka z Chlumu čp. 58 (panství Chrást). Matka Kateřiny Pátkové (* 9. 11. 1776 Chlum čp. 58, č. 377). Doložena v křestním zápisu dcery Kateřiny roku 1776 v Krucemburku ('Pátek Martinus rusticus et uxor Magdalena Subditi Chrastenses'). Zemřela 22. 9. 1797 v Chlumu čp. 58 na souchoty ve věku 70 let (narozena cca 1727), pohřbena 24. 9. 1797 kurátem Karlem Willarsem."),
 }
 
 
