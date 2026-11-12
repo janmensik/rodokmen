@@ -1143,12 +1143,12 @@ P = {
               roz="Kasalová", bydl="Chlum čp. 35", puvod="Krucemburk čp. 43",
               r=["krucemburk_krest_josefa_kasalova_1817", "krucemburk_oddani_pospichal_kasalova_1836", "chlum_krest_jan_pospichal_1847", "chlum_krest_aloisie_pospichalova_1875"],
               note="Pra-pra-prababička Jana Menšíka, rozená Kasalová z Krucemburku čp. 43. Narozena 6. 3. 1817 v Krucemburku čp. 43 jako dcera domkaře Jana Kasala (syna Václava Kasala) a Apoleny, dcery Františka Kasala a Anny rozené Krupkové. Dne 10. 11. 1836 se v Krucemburku provdala za krejčovského mistra Tomáše Pospíchala z Chlumu čp. 35. Otec Jan Kasal připojil k zápisu vlastnoruční podpis."),
-    190: dict(n="Jan Podroužek", y="* cca 1828–1829 – ?", st="doc",
+    190: dict(n="Jan Podroužek", y="* 11. 1. 1829 – ?", st="doc",
               otec=380, matka=381,
-              f=["* cca 1828–1829", "půlláník v Chlumu čp. 31", "∞ 16. 1. 1855 Chlum (Antonie Řeháková)", "syn Jana Podroužka st. z Chlumu čp. 31 a Anny Rejnové z Kohoutova čp. 5", "vlastnoruční podpis v oddací matrice 1876"],
+              f=["* 11. 1. 1829 Chlum čp. 31 (křest 12. 1. 1829)", "půlláník v Chlumu čp. 31", "∞ 16. 1. 1855 Chlum (Antonie Řeháková)", "syn Jana Podroužka st. z Chlumu čp. 31 a Anny Rejnové z Kohoutova", "vlastnoruční podpis v oddací matrice 1876"],
               zam="půlláník v Chlumu", bydl="Chlum čp. 31", puvod="Chlum",
-              r=["chlum_oddani_jan_podrouzek_1855", "chlum_krest_frantiska_podrouzkova_1854", "chlum_oddani_jan_pospichal_1876"],
-              note="Pra-pra-pradědeček Jana Menšíka. Narozen kolem 1828–1829, půlláník na rodovém gruntě čp. 31 v Chlumu. Dne 16. 1. 1855 se v Krucemburku oženil s Antonií Řehákovou z Chlumu čp. 120, čímž legitimoval dceru Františku (* 1854). V roce 1876 připojil do matriky vlastnoruční otcovský souhlas k jejímu sňatku s Janem Pospíchalem."),
+              r=["chlum_krest_jan_podrouzek_1829", "chlum_oddani_jan_podrouzek_1855", "chlum_krest_frantiska_podrouzkova_1854", "chlum_oddani_jan_pospichal_1876"],
+              note="Pra-pra-pradědeček Jana Menšíka. Narozen 11. 1. 1829 v Chlumu čp. 31 a pokřtěn 12. 1. 1829 kaplanem Janem Casparem Rogaským jako syn půlláníka Jana Podroužka a Anny rozené Rejnové z Kohoutova. Půlláník na rodovém gruntě čp. 31 v Chlumu. Dne 16. 1. 1855 se v Krucemburku oženil s Antonií Řehákovou z Chlumu čp. 120, čímž legitimoval dceru Františku (* 1854). V roce 1876 připojil do matriky vlastnoruční otcovský souhlas k jejímu sňatku s Janem Pospíchalem."),
 
     191: dict(n="Antonie Podroužková", y="* cca 1828 – ?", st="doc",
               otec=382, matka=383,
@@ -1653,6 +1653,18 @@ P = {
                r=["krucemburk_krest_vojtech_pospichal_1753"],
                note="Přímá předkyně v 11. generaci (č. 1505), manželka Vavřince Pospíchala z Krucemburku (panství Polná) a matka Vojtěcha Pospíchala (č. 752), pokřtěného 11. 4. 1753 v Krucemburku."),
 
+    1522: dict(n="Václav Pátek", y="před 1765 – ?", st="doc",
+               f=["sedlák v Chlumu", "otec Magdaleny provdané Podroužkové"],
+               zam="sedlák v Chlumu", bydl="Chlum", puvod="Chlum",
+               r=["chlum_krest_jan_podrouzek_1829"],
+               note="Přímý předek v 11. generaci (č. 1522), sedlák v Chlumu. Otec Magdaleny provdané Podroužkové (č. 761) a dědeček Jana Podroužka st. (č. 380). Doložen v křestním zápisu pravnuka Jana Podroužka ml. roku 1829."),
+
+    1526: dict(n="František Stehno", y="před 1765 – ?", st="doc",
+               f=["sedlák v Kohoutově", "otec Kateřiny provdané Rejné"],
+               zam="sedlák v Kohoutově", bydl="Kohoutov", puvod="Kohoutov",
+               r=["chlum_krest_jan_podrouzek_1829"],
+               note="Přímý předek v 11. generaci (č. 1526), sedlák v Kohoutově (farnost Krucemburk). Otec Kateřiny provdané Rejné (č. 763) a dědeček Anny provdané Podroužkové (č. 381). Doložen v křestním zápisu pravnuka Jana Podroužka ml. roku 1829."),
+
 
 
     # 11. generace (2816–2847)
@@ -1852,16 +1864,18 @@ P = {
               note="Přímá předkyně v 9. generaci (č. 379). Narozena 13. 4. 1784 v Krucemburku čp. 23 jako dcera chalupníka a familianta Františka Kasala (panství Polná) a jeho manželky Anny. Dne 11. 8. 1816 oddána v Krucemburku s domkařem Janem Kasalem (č. 378). Matka Josefy provdané Pospíchalové. Doložena ve vlastní křestní matrice 1784, oddací matrice 1816, křestním zápisu dcery Josefy 1817 i jejím oddacím zápisu roku 1836."),
 
     380: dict(n="Jan Podroužek st.", y="† před 1854", st="doc",
-              f=["půlláník v Chlumu čp. 31", "∞ Anna Rejnová", "† před 20. 4. 1854"],
-              zam="půlláník v Chlumu čp. 31", bydl="Chlum čp. 31", puvod="Chlum čp. 31",
-              r=["chlum_oddani_jan_podrouzek_1855", "chlum_krest_frantiska_podrouzkova_1854"],
-              note="Přímý předek v 9. generaci (č. 380), usedlý jako půlláník na rodovém gruntě čp. 31 v Chlumu, zemřel před dubnem 1854. Manžel Anny roz. Rejnové z Kohoutova čp. 5 a otec půlláníka Jana Podroužka ml. Doložen v křestním zápisu vnučky Františky roku 1854."),
+              otec=760, matka=761,
+              f=["půlláník a sedlák v Chlumu čp. 31", "∞ Anna Rejnová", "† před 20. 4. 1854"],
+              zam="půlláník a sedlák v Chlumu čp. 31", bydl="Chlum čp. 31", puvod="Chlum čp. 31",
+              r=["chlum_krest_jan_podrouzek_1829", "chlum_oddani_jan_podrouzek_1855", "chlum_krest_frantiska_podrouzkova_1854"],
+              note="Přímý předek v 9. generaci (č. 380), usedlý jako sedlák a půlláník na rodovém gruntě čp. 31 v Chlumu, zemřel před dubnem 1854. Syn sedláka Františka Podroužka (č. 760) a Magdaleny rozené Pátkové (č. 761). Manžel Anny roz. Rejnové z Kohoutova a otec půlláníka Jana Podroužka ml. (* 1829). Doložen v křestním zápisu syna Jana roku 1829 i vnučky Františky roku 1854."),
 
     381: dict(n="Anna Rejnová", y="", st="doc",
-              f=["* Kohoutov čp. 5", "∞ Jan Podroužek st."],
-              roz="Rejnová", bydl="Chlum čp. 31", puvod="Kohoutov čp. 5",
-              r=["chlum_oddani_jan_podrouzek_1855", "chlum_krest_frantiska_podrouzkova_1854"],
-              note="Přímá předkyně v 9. generaci (č. 381). Pocházela z Kohoutova čp. 5 (farnost Krucemburk). Manželka půlláníka Jana Podroužka st. z Chlumu čp. 31 a matka Jana Podroužka ml. Doložena v křestním zápisu vnučky Františky roku 1854."),
+              otec=762, matka=763,
+              f=["* Kohoutov", "dcera Františka Rejného a Kateřiny Stehnové", "∞ Jan Podroužek st."],
+              roz="Rejnová", bydl="Chlum čp. 31", puvod="Kohoutov",
+              r=["chlum_krest_jan_podrouzek_1829", "chlum_oddani_jan_podrouzek_1855", "chlum_krest_frantiska_podrouzkova_1854"],
+              note="Přímá předkyně v 9. generaci (č. 381). Pocházela z Kohoutova (farnost Krucemburk) jako dcera čtvrtníka Františka Rejného (č. 762) a Kateřiny rozené Stehnové (č. 763). Manželka půlláníka Jana Podroužka st. z Chlumu čp. 31 a matka Jana Podroužka ml. (* 1829). Doložena v křestním zápisu syna Jana roku 1829 i vnučky Františky roku 1854."),
 
     383: dict(n="Anna Bártová", y="", st="doc",
               f=["* Slouč čp. 2", "∞ Josef Řehák"],
@@ -1912,6 +1926,32 @@ P = {
               bydl="Chlum čp. 58", puvod="Chlum / Krucemburk",
               r=["krucemburk_krest_katerina_patkova_1776", "chlum_umrti_magdalena_patkova_1797"],
               note="Přímá předkyně v 10. generaci (č. 755), manželka sedláka Martina Pátka z Chlumu čp. 58 (panství Chrást). Matka Kateřiny Pátkové (* 9. 11. 1776 Chlum čp. 58, č. 377). Doložena v křestním zápisu dcery Kateřiny roku 1776 v Krucemburku ('Pátek Martinus rusticus et uxor Magdalena Subditi Chrastenses'). Zemřela 22. 9. 1797 v Chlumu čp. 58 na souchoty ve věku 70 let (narozena cca 1727), pohřbena 24. 9. 1797 kurátem Karlem Willarsem."),
+
+    760: dict(n="František Podroužek", y="před 1785 – ?", st="doc",
+              f=["sedlák v Chlumu čp. 31", "manžel Magdaleny Pátkové", "otec Jana Podroužka st."],
+              zam="sedlák v Chlumu čp. 31", bydl="Chlum čp. 31", puvod="Chlum",
+              r=["chlum_krest_jan_podrouzek_1829"],
+              note="Přímý předek v 10. generaci (č. 760), sedlák na rodovém gruntě v Chlumu čp. 31. Manžel Magdaleny rozené Pátkové (č. 761) a otec sedláka Jana Podroužka st. (č. 380). Doložen v křestním zápisu vnuka Jana Podroužka ml. roku 1829 ('syn Františka sedláka')."),
+
+    761: dict(n="Magdalena Pátková", y="před 1785 – ?", st="doc",
+              otec=1522,
+              f=["* Chlum", "dcera Václava Pátka sedláka ze Chlumu", "manželka Františka Podroužka z Chlumu čp. 31"],
+              roz="Pátková", bydl="Chlum čp. 31", puvod="Chlum",
+              r=["chlum_krest_jan_podrouzek_1829"],
+              note="Přímá předkyně v 10. generaci (č. 761), dcera sedláka Václava Pátka ze Chlumu (č. 1522). Manželka sedláka Františka Podroužka z Chlumu čp. 31 (č. 760) a matka Jana Podroužka st. (č. 380). Doložena v křestním zápisu vnuka Jana Podroužka ml. roku 1829 ('a Magdaleny rozené Wáclawa Pátek sedláka ze Chlumu')."),
+
+    762: dict(n="František Rejný", y="před 1785 – ?", st="doc",
+              f=["čtvrtník v Kohoutově", "manžel Kateřiny Stehnové", "otec Anny provdané Podroužkové"],
+              zam="čtvrtník v Kohoutově", bydl="Kohoutov", puvod="Kohoutov",
+              r=["chlum_krest_jan_podrouzek_1829"],
+              note="Přímý předek v 10. generaci (č. 762), čtvrtník v Kohoutově (farnost Krucemburk). Manžel Kateřiny rozené Stehnové (č. 763) a otec Anny provdané Podroužkové (č. 381). Doložen v křestním zápisu vnuka Jana Podroužka ml. roku 1829 ('Anna dcera Františka Reyny čtwrtnjka z Kohautowa')."),
+
+    763: dict(n="Kateřina Stehnová", y="před 1785 – ?", st="doc",
+              otec=1526,
+              f=["* Kohoutov", "dcera Františka Stehna sedláka z Kohoutova", "manželka Františka Rejného z Kohoutova"],
+              roz="Stehnová", bydl="Kohoutov", puvod="Kohoutov",
+              r=["chlum_krest_jan_podrouzek_1829"],
+              note="Přímá předkyně v 10. generaci (č. 763), pocházela ze selského rodu Stehnů v Kohoutově jako dcera Františka Stehna (č. 1526). Manželka čtvrtníka Františka Rejného (č. 762) a matka Anny provdané Podroužkové (č. 381). Doložena v křestním zápisu vnuka Jana Podroužka ml. roku 1829 ('a Kateřiny rozené Františka Stehno sedláka z Kohautowa')."),
 }
 
 

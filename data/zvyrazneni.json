@@ -984,5 +984,17 @@
     ],
     "status": "ok",
     "note": "Křest Vojtěcha (Adalberta) Pospíchala v Krucemburku"
+  },
+  "chlum_krest_jan_podrouzek_1829": {
+    "boxes": [
+      [
+        0.05,
+        0.05,
+        0.95,
+        0.95
+      ]
+    ],
+    "status": "ok",
+    "note": "Narození a křest Jana Podroužka v Chlumu čp. 31"
   }
 }
