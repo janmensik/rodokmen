@@ -1404,5 +1404,29 @@
     ],
     "status": "ok",
     "note": ""
+  },
+  "drevcice_krest_anna_zarubova_1813": {
+    "boxes": [
+      [
+        0.02,
+        0.05,
+        0.98,
+        0.95
+      ]
+    ],
+    "status": "ok",
+    "note": ""
+  },
+  "minice_oddani_vaclav_prochazka_1820": {
+    "boxes": [
+      [
+        0.015,
+        0.44,
+        0.985,
+        0.98
+      ]
+    ],
+    "status": "ok",
+    "note": ""
   }
 }
