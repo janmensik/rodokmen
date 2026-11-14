@@ -1296,5 +1296,29 @@
     ],
     "status": "ok",
     "note": ""
+  },
+  "ponikla_krest_josef_tomicek_1824": {
+    "boxes": [
+      [
+        0.02,
+        0.05,
+        0.98,
+        0.95
+      ]
+    ],
+    "status": "ok",
+    "note": ""
+  },
+  "ponikla_oddani_michal_tomicek_1818": {
+    "boxes": [
+      [
+        0.02,
+        0.05,
+        0.98,
+        0.95
+      ]
+    ],
+    "status": "ok",
+    "note": ""
   }
 }
