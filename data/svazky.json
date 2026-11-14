@@ -859,5 +859,37 @@
   "popis": "Bílé Vchynice, Freudenthal, Hlavečník, Hradišťko II, Končice, Korce, Kundratice, Loukonosy, Převýšov, Radovesnice II, Rasochy, Rozehnaly, Tetov, Zbraň, Žiželice",
   "snimku": 221,
   "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/10053"
+ },
+ "ebad_10746": {
+  "archiv": "SOA Praha – Sbírka matrik",
+  "portal": "eBadatelna",
+  "svazek": "Osov 08, N 1800–1814",
+  "popis": "Lážovice, Malý Chlumec, Nové Dvory, Osov, Osovec, Skřipel, Velký Chlumec, Vižina",
+  "snimku": 86,
+  "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/10746"
+ },
+ "ebad_5068": {
+  "archiv": "SOA Praha – Sbírka matrik",
+  "portal": "eBadatelna",
+  "svazek": "Dobříš 10, N 1814–1822",
+  "popis": "Baba, Brodec, Dobříš, Ježovka, Kodetka, Obora, Rosovice, Stará Huť, Trnová, U Pěti Lip, Voznice",
+  "snimku": 188,
+  "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/5068"
+ },
+ "ebad_12693": {
+  "archiv": "SOA Praha – Sbírka matrik",
+  "portal": "eBadatelna",
+  "svazek": "Svaté Pole 05, O 1785–1820",
+  "popis": "Budín, Budínek, Daleké Dušníky, Dlouhá Lhota, Druhlice, Lhotka, Libice, Obořiště, Rybníky, Svaté Pole, Sychrov",
+  "snimku": 60,
+  "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/12693"
+ },
+ "ebad_4702": {
+  "archiv": "SOA Praha – Sbírka matrik",
+  "portal": "eBadatelna",
+  "svazek": "Čechtice 05, N 1784–1808",
+  "popis": "Borovnice, Čechtice, Černičí, Chmelná, Chrastovice, Chýstovice, Dobříkovice, Jedlina, Jeníkov, Krčmy, Kuňovice, Malá Paseka, Mnichovice, Nové Práchňany, Otročice, Růžkovy Lhotice, Sudislavice",
+  "snimku": 230,
+  "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/4702"
  }
 }
