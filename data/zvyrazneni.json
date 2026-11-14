@@ -1548,5 +1548,41 @@
     ],
     "status": "ok",
     "note": ""
+  },
+  "svatepole_krest_vojtech_patrasek_1735": {
+    "boxes": [
+      [
+        0.02,
+        0.04,
+        0.98,
+        0.96
+      ]
+    ],
+    "status": "ok",
+    "note": ""
+  },
+  "svatepole_krest_rozalie_patraskove_1787": {
+    "boxes": [
+      [
+        0.02,
+        0.04,
+        0.98,
+        0.96
+      ]
+    ],
+    "status": "ok",
+    "note": ""
+  },
+  "minice_krest_matej_sara_1738": {
+    "boxes": [
+      [
+        0.02,
+        0.04,
+        0.98,
+        0.96
+      ]
+    ],
+    "status": "ok",
+    "note": ""
   }
 }
