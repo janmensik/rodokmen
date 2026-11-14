@@ -1368,5 +1368,29 @@
     ],
     "status": "ok",
     "note": ""
+  },
+  "drevcice_oddani_josef_halik_1832": {
+    "boxes": [
+      [
+        0.02,
+        0.05,
+        0.98,
+        0.95
+      ]
+    ],
+    "status": "ok",
+    "note": ""
+  },
+  "caslav_krest_anna_tomasikova_1799": {
+    "boxes": [
+      [
+        0.02,
+        0.05,
+        0.98,
+        0.95
+      ]
+    ],
+    "status": "ok",
+    "note": ""
   }
 }
