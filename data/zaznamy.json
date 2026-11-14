@@ -1313,5 +1313,55 @@
     "nazev": "Sňatek Františka Grubnera a Anny Bergerové (Vižina, 1802)",
     "shrnuti": "Dne 22. 11. 1802 ve Vižině čp. 17 oddán František (33 let, svobodný, katolík), syn Tomáše Grubnera z Vižiny čp. 17, s Annou (20 let, svobodná, katolička), dcerou šenkýře Jana Bergera ze Skřiplu.",
     "odkaz": "https://ebadatelna.soapraha.cz/d/10753/14"
+  },
+  {
+    "klic": "drevcice_oddani_vaclav_zaruba_1778",
+    "svazek": "ebad_5347",
+    "snimek": "fol. 180, sn. 94",
+    "druh": "O",
+    "datum": "23. 2. 1778",
+    "nazev": "Sňatek Václava Záruby a Anny Švančarové (Dřevčice, 1778)",
+    "shrnuti": "Dne 23. 2. 1778 byli v Dřevčicích čp. 20 oddáni svobodný Václav Záruba a svobodná Anna Švančarová. Oddal P. Holub; svědci: Josef Gunda a Tomáš Svoboda.",
+    "odkaz": "https://ebadatelna.soapraha.cz/d/5347/94"
+  },
+  {
+    "klic": "drevcice_krest_jan_zaruba_1780",
+    "svazek": "ebad_5347",
+    "snimek": "fol. 79, sn. 41",
+    "druh": "N",
+    "datum": "17. 5. 1780",
+    "nazev": "Křest Jana Záruby (Dřevčice, 1780)",
+    "shrnuti": "Dne 17. 5. 1780 byl v Dřevčicích čp. 6 pokřtěn Jan, manželský syn sedláka Václava Záruby a Anny rozené Švančarové. Kmotři: Josef Gunda, Tomáš Svoboda a Anna Škodová.",
+    "odkaz": "https://ebadatelna.soapraha.cz/d/5347/41"
+  },
+  {
+    "klic": "vinor_oddani_jan_zaruba_1798",
+    "svazek": "ahmp_vnr_o7",
+    "snimek": "pag. 6, sn. 11",
+    "druh": "O",
+    "datum": "13. 2. 1798",
+    "nazev": "Sňatek Jana Záruby a Barbory Jindřichové/Šindelkové (Vinoř, 1798)",
+    "shrnuti": "Dne 13. 2. 1798 byli ve Vinoři čp. 24 oddáni Jan Záruba z Dřevčic (18 let, svobodný, katolík) a Barbora (17 let, svobodná, katolička), dcera sedláka Matěje Jindřicha (v pozdějších dřevčických matrikách uváděn jako Šindelka/Tšindylka) z Vinoře. Svědci: mlynář Tomáš Miller z Vinoře a sedlák Václav Švančara z Dřevčic.",
+    "odkaz": "https://katalog.ahmp.cz/pragapublica/permalink?xid=0EACF248CF214FB6A7C91828202F11B6&scan=11"
+  },
+  {
+    "klic": "drevcice_umrti_barbora_zarubova_1854",
+    "svazek": "ebad_5352",
+    "snimek": "fol. 24, sn. 15",
+    "druh": "Z",
+    "datum": "24. 3. 1854",
+    "nazev": "Úmrtí Barbory Zárubové (Dřevčice, 1854)",
+    "shrnuti": "Dne 24. 3. 1854 zemřela v Dřevčicích čp. 29 ve věku 72 let Barbora Zárubová, manželka gruntovnického výměnkáře Jana Záruby, rozená z Vinoře (Winon) čp. 3. Pohřbena 27. 3. 1854.",
+    "odkaz": "https://ebadatelna.soapraha.cz/d/5352/15"
+  },
+  {
+    "klic": "drevcice_umrti_jan_zaruba_1864",
+    "svazek": "ebad_5352",
+    "snimek": "fol. 49, sn. 27",
+    "druh": "Z",
+    "datum": "2. 3. 1864",
+    "nazev": "Úmrtí Jana Záruby (Dřevčice, 1864)",
+    "shrnuti": "Dne 2. 3. 1864 zemřel v Dřevčicích čp. 29 ve věku 84 let na slabost věku Jan Záruba, vdovec a výměnkář gruntovnický, manželský syn Václava Záruby gruntovníka a rychtáře z Dřevčic čp. 6 a Anny rozené Švančarové z Dřevčic čp. 20. Pohřben 5. 3. 1864.",
+    "odkaz": "https://ebadatelna.soapraha.cz/d/5352/27"
   }
 ]

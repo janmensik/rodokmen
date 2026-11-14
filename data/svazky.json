@@ -1107,5 +1107,29 @@
   "popis": "Lážovice, Malý Chlumec, Nové Dvory, Osov, Osovec, Skřipel, Velký Chlumec, Vižina",
   "snimku": 38,
   "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/10753"
+ },
+ "ebad_5347": {
+  "archiv": "SOA Praha – Sbírka matrik",
+  "portal": "eBadatelna",
+  "svazek": "Dřevčice 01, N+O+Z+I 1755–1784",
+  "popis": "Dřevčice, Brázdim, Jenštejn, Popovice, Vrábí",
+  "snimku": 133,
+  "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/5347"
+ },
+ "ebad_5352": {
+  "archiv": "SOA Praha – Sbírka matrik",
+  "portal": "eBadatelna",
+  "svazek": "Dřevčice 06, Z 1839–1871",
+  "popis": "Dřevčice, Jenštejn, Popovice",
+  "snimku": 121,
+  "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/5352"
+ },
+ "ahmp_vnr_o7": {
+  "archiv": "AHMP – Sbírka matrik",
+  "portal": "Katalog AHMP",
+  "svazek": "VNŘ O7, O 1784–1826",
+  "popis": "Vinoř, Čakovice, Kbely, Letňany, Miškovice, Přezletice, Radonice, Satalice, Třeboradice",
+  "snimku": 148,
+  "url": "https://katalog.ahmp.cz/pragapublica/permalink?xid=0EACF248CF214FB6A7C91828202F11B6"
  }
 }

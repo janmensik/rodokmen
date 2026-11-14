@@ -1488,5 +1488,65 @@
     ],
     "status": "ok",
     "note": ""
+  },
+  "drevcice_oddani_vaclav_zaruba_1778": {
+    "boxes": [
+      [
+        0.03,
+        0.72,
+        0.96,
+        0.98
+      ]
+    ],
+    "status": "ok",
+    "note": ""
+  },
+  "drevcice_krest_jan_zaruba_1780": {
+    "boxes": [
+      [
+        0.03,
+        0.72,
+        0.96,
+        0.96
+      ]
+    ],
+    "status": "ok",
+    "note": ""
+  },
+  "vinor_oddani_jan_zaruba_1798": {
+    "boxes": [
+      [
+        0.02,
+        0.16,
+        0.98,
+        0.68
+      ]
+    ],
+    "status": "ok",
+    "note": ""
+  },
+  "drevcice_umrti_barbora_zarubova_1854": {
+    "boxes": [
+      [
+        0.02,
+        0.04,
+        0.98,
+        0.96
+      ]
+    ],
+    "status": "ok",
+    "note": ""
+  },
+  "drevcice_umrti_jan_zaruba_1864": {
+    "boxes": [
+      [
+        0.02,
+        0.04,
+        0.98,
+        0.96
+      ]
+    ],
+    "status": "ok",
+    "note": ""
   }
 }
