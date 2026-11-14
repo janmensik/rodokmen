@@ -1147,5 +1147,29 @@
   "popis": "Budín, Budínek, Daleké Dušníky, Dlouhá Lhota, Druhlice, Lhotka, Libice, Obořiště, Ostrov, Rybníky, Svaté Pole, Sychrov",
   "snimku": 275,
   "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/12701"
+ },
+ "ebad_8123": {
+  "archiv": "SOA Praha – Sbírka matrik",
+  "portal": "eBadatelna",
+  "svazek": "Vyšehořovice 01, N 1762–1779, O 1763–1784, Z 1762–1782",
+  "popis": "Horoušany, Kozovazy, Vykáň, Vyšehořovice",
+  "snimku": 98,
+  "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/8123"
+ },
+ "ebad_8124": {
+  "archiv": "SOA Praha – Sbírka matrik",
+  "portal": "eBadatelna",
+  "svazek": "Vyšehořovice 02, N 1779–1793, O 1784–1794, Z 1784–1795",
+  "popis": "Horoušany, Kozovazy, Vykáň, Vyšehořovice",
+  "snimku": 65,
+  "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/8124"
+ },
+ "ebad_8130": {
+  "archiv": "SOA Praha – Sbírka matrik",
+  "portal": "eBadatelna",
+  "svazek": "Vyšehořovice 08, O 1795–1852",
+  "popis": "Vyšehořovice",
+  "snimku": 48,
+  "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/8130"
  }
 }

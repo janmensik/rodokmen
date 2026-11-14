@@ -1584,5 +1584,41 @@
     ],
     "status": "ok",
     "note": ""
+  },
+  "vysehorovice_oddani_vaclav_hromada_1817": {
+    "boxes": [
+      [
+        0.02,
+        0.04,
+        0.98,
+        0.96
+      ]
+    ],
+    "status": "ok",
+    "note": ""
+  },
+  "vysehorovice_krest_vaclav_hromada_1793": {
+    "boxes": [
+      [
+        0.02,
+        0.04,
+        0.98,
+        0.96
+      ]
+    ],
+    "status": "ok",
+    "note": ""
+  },
+  "vysehorovice_krest_matej_hromada_1763": {
+    "boxes": [
+      [
+        0.02,
+        0.04,
+        0.98,
+        0.96
+      ]
+    ],
+    "status": "ok",
+    "note": ""
   }
 }
