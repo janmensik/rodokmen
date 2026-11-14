@@ -1428,5 +1428,65 @@
     ],
     "status": "ok",
     "note": ""
+  },
+  "minice_krest_barbora_sarova_1797": {
+    "boxes": [
+      [
+        0.12,
+        0.52,
+        0.97,
+        0.98
+      ]
+    ],
+    "status": "ok",
+    "note": ""
+  },
+  "minice_oddani_jan_sara_1786": {
+    "boxes": [
+      [
+        0.02,
+        0.72,
+        0.97,
+        0.98
+      ]
+    ],
+    "status": "ok",
+    "note": ""
+  },
+  "minice_krest_anna_stepankova_1766": {
+    "boxes": [
+      [
+        0.02,
+        0.05,
+        0.98,
+        0.95
+      ]
+    ],
+    "status": "ok",
+    "note": ""
+  },
+  "minice_krest_jan_sara_1769": {
+    "boxes": [
+      [
+        0.02,
+        0.08,
+        0.98,
+        0.92
+      ]
+    ],
+    "status": "ok",
+    "note": ""
+  },
+  "osov_oddani_frantisek_grubner_1802": {
+    "boxes": [
+      [
+        0.015,
+        0.42,
+        0.985,
+        0.98
+      ]
+    ],
+    "status": "ok",
+    "note": ""
   }
 }

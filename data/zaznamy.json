@@ -1263,5 +1263,55 @@
     "nazev": "Sňatek Václava Procházky a Barbory Šárové (Holubice, 1820)",
     "shrnuti": "Dne 9. 2. 1820 oddán Václav (24 let, svobodný, katolík), vlastní syn Martina Procházky z Braníka, s Barborou (20 let, svobodná, katolička), vlastní dcerou Jana Šáry, sedláka z Holubic čp. 4. Svědci Matěj Miller (mistr šenkovský z Holubic) a Jan Šára.",
     "odkaz": "https://ebadatelna.soapraha.cz/d/8564/69"
+  },
+  {
+    "klic": "minice_krest_barbora_sarova_1797",
+    "svazek": "ebad_8562",
+    "snimek": "fol. 434, sn. 125",
+    "druh": "N",
+    "datum": "3. 12. 1797",
+    "nazev": "Narození Barbory Šárové (Holubice, 1797)",
+    "shrnuti": "Dne 3. 12. 1797 v Holubicích čp. 4 narozena (4. 12. pokřtěna) Barbora, manželská dcera sedláka Jana Šáry a Anny rozené Růžankové (Růžkové).",
+    "odkaz": "https://ebadatelna.soapraha.cz/d/8562/125"
+  },
+  {
+    "klic": "minice_oddani_jan_sara_1786",
+    "svazek": "ebad_8588",
+    "snimek": "pag. 27, sn. 19",
+    "druh": "O",
+    "datum": "27. 2. 1786",
+    "nazev": "Sňatek Jana Šáry a Anny Štěpánkové-Růžkové (Minice, 1786)",
+    "shrnuti": "Dne 27. 2. 1786 v Minicích oddán Jan (18 let, svobodný, katolík), syn sedláka Matěje Šáry z Holubic, s Annou (19 let, svobodná, katolička), dcerou Františka Štěpánka-Růžky z Minic.",
+    "odkaz": "https://ebadatelna.soapraha.cz/d/8588/19"
+  },
+  {
+    "klic": "minice_krest_anna_stepankova_1766",
+    "svazek": "ebad_8561",
+    "snimek": "pag. 225, sn. 118",
+    "druh": "N",
+    "datum": "21. 7. 1766",
+    "nazev": "Narození Anny Rosalie Štěpánkové (Minice, 1766)",
+    "shrnuti": "Dne 21. 7. 1766 v Minicích narozena (22. 7. pokřtěna) Anna Rosalia, manželská dcera šenkýře Františka Štěpánka a manželky Eleonory.",
+    "odkaz": "https://ebadatelna.soapraha.cz/d/8561/118"
+  },
+  {
+    "klic": "minice_krest_jan_sara_1769",
+    "svazek": "ebad_8561",
+    "snimek": "pag. 247, sn. 129",
+    "druh": "N",
+    "datum": "7. 5. 1769",
+    "nazev": "Narození Jana Šáry (Holubice, 1769)",
+    "shrnuti": "Dne 7. 5. 1769 v Holubicích narozen a pokřtěn Jan, manželský syn sedláka Matěje Šáry a Magdaleny rozené Jelínkové.",
+    "odkaz": "https://ebadatelna.soapraha.cz/d/8561/129"
+  },
+  {
+    "klic": "osov_oddani_frantisek_grubner_1802",
+    "svazek": "ebad_10753",
+    "snimek": "pag. 35, sn. 14",
+    "druh": "O",
+    "datum": "22. 11. 1802",
+    "nazev": "Sňatek Františka Grubnera a Anny Bergerové (Vižina, 1802)",
+    "shrnuti": "Dne 22. 11. 1802 ve Vižině čp. 17 oddán František (33 let, svobodný, katolík), syn Tomáše Grubnera z Vižiny čp. 17, s Annou (20 let, svobodná, katolička), dcerou šenkýře Jana Bergera ze Skřiplu.",
+    "odkaz": "https://ebadatelna.soapraha.cz/d/10753/14"
   }
 ]

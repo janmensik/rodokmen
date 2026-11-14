@@ -1091,5 +1091,21 @@
   "popis": "Holubice",
   "snimku": 96,
   "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/8564"
+ },
+ "ebad_8561": {
+  "archiv": "SOA Praha – Sbírka matrik",
+  "portal": "eBadatelna",
+  "svazek": "Minice 04, N 1736–1777, Ni 1736–1777, O 1762–1777, Z 1762–1777",
+  "popis": "Chýnov, Debrno, Dolany nad Vltavou, Hleďsebe 1.díl, Holubice, Kozinec, Kralupy nad Vltavou, Lešany, Letky, Libčice nad Vltavou, Lobeč, Lobeček, Minice, Nelahozeves, Otvovice, Podmoráň, Strachov",
+  "snimku": 272,
+  "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/8561"
+ },
+ "ebad_10753": {
+  "archiv": "SOA Praha – Sbírka matrik",
+  "portal": "eBadatelna",
+  "svazek": "Osov 14, O 1800–1817",
+  "popis": "Lážovice, Malý Chlumec, Nové Dvory, Osov, Osovec, Skřipel, Velký Chlumec, Vižina",
+  "snimku": 38,
+  "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/10753"
  }
 }

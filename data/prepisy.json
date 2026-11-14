@@ -529,8 +529,8 @@
     "cs": "Dne 30. srpna 1805 se v městečku Žiželice v domě čp. 1 narodila a 31. srpna 1805 byla kaplanem Františkem Eckertem pokřtěna jako Marie Anna manželská dcera Jana Šišky, v té době kovářského tovaryše v Žiželicích (později mistra kovářského na usedlostech čp. 103 a 119), a Barbory, dcery zemřelého Františka Lišky, tkadlce v Žiželicích. Kmotry byli mistr kovářský Jan Slanina a Magdalena, manželka mistra kovářského Václava Kvačka z Žiželic. Anna Šišková se 31. ledna 1826 v Žiželicích provdala za kováře Václava Černého a stala se matkou kováře Františka Černého v Dobšicích čp. 27."
   },
   "osov_krest_antonin_grubner_1810": {
-    "orig": "1810 | 28 Junij | Nro. Domu 77 | Antonin | Katolické 1, Chlapec 1, Manželský 1 | Ita testor qui Baptisavi Dominicus Parochus, baba Alžb. Dubrowa ze Wěžny | Excepit litt. baptiz. 10 Janur 1837 Car. Giar Cur. | Otec: Frantissek Grubner ... | Mateř: Anna dcera po + Janowi Franzman[owi] ... | Kmotři: Martin ... ze Skřipla?, Barbora ...",
-    "cs": "28. června 1810, Vižina čp. 77 (fol. 72). Pokřtěn Antonín, katolík, chlapec, manželský. Křtil farář Dominicus, bába Alžběta Dubrová z Vižiny. Poznámka: Vyzvedl křestní list 10. ledna 1837. Otec: František Grubner. Matka: Anna rozená Franzmannová. Kmotři z farnosti Osov."
+    "orig": "1810 | 28 Junij | Nro. Domu 77 | Antonin | Katolické 1, Chlapec 1, Manželský 1 | Ita testor qui Baptisavi Dominicus Parochus, baba Alžb. Dubrowa ze Wěžny | Excepit litt. baptiz. 10 Janur 1837 Car. Giar Cur. | Otec: Frantissek Grubner Ssenkýř z Wěžny | Mateř: Anna dcera po + Janowi Bergerowi Rychtáři ze Wěžny | Kmotři: Martin Šebek rychtář z Osova, Barbora Kamberská ze Skřipla.",
+    "cs": "28. června 1810, Vižina čp. 77 (fol. 72). Pokřtěn Antonín, katolík, chlapec, manželský. Křtil farář Dominicus, bába Alžběta Dubrová z Vižiny. Poznámka: Vyzvedl křestní list 10. ledna 1837. Otec: František Grubner, šenkýř z Vižiny. Matka: Anna, dcera po + Janu Bergerovi, rychtáři z Vižiny."
   },
   "dobris_krest_barbora_klaudyova_1815": {
     "orig": "1815 | 6. Septb: narozený a okřtěný | Nro. Domu 53 | Barbara Klaudowa | křt.: P. Matěj ... farář | Katolického 1, Ženského 1, Ženatý [manželský] 1 | Otec: Antonín Klauda Měšťanín | Matka: Ewa dcera Wogtěcha Patraška swobodníka z Druhlic N. 50 | baba Johana Šubertova | Swědkowé: Josef Taušek?, František ..., Barbora Novotná, kožešníkova? — oba z Dobříše.",
@@ -603,5 +603,25 @@
   "minice_oddani_vaclav_prochazka_1820": {
     "orig": "[1820] Februario 9. | [Nr. Domu] 32. | [Ženich] Wáclaw wlastnj syn Martina Procházky [...] z Braníka (katolické 1, léta wěku 24., swobodný 1.) | Copulavi Ego Jos. Fiala | [Newěsta] Barbora wlastnj dcera Jana Ssáry sedlaka z Holubitz Nro 4. (katolické 1, léta wěku 20., swobodná 1.) | [Swědkové] Matěg Miller Mistr šenkowskj z Holubitz; Jan Šára ...",
     "cs": "Dne 9. února 1820 v Holubicích oddal Josef Fiala Václava (24 let, svobodný, katolík), vlastního syna Martina Procházky z Braníka, s Barborou (20 let, svobodná, katolička), vlastní dcerou Jana Šáry, sedláka z Holubic čp. 4. Svědci: Matěj Miller, mistr šenkovský z Holubic, a Jan Šára."
+  },
+  "minice_krest_barbora_sarova_1797": {
+    "orig": "[1797] December | [Dies] 3., 4. Baptisavi Ignatius Kafka Coop. | [Nro. Domu] 4. | [Gméno] Barbara Šaarowa (Katolické 1, Děwče 1, Manželská 1) | [Otec] Jan Ssára Sedlak | [Matka] Anna rozena Růžankowa | [Kmotři] Františka Šárowá z Holubitz chalupnice; Alžběta Srpowá z Dolán sedlka; Martin Fux z Holubitz Sedlak.",
+    "cs": "Dne 3. prosince 1797 v Holubicích čp. 4 narozena a 4. prosince kooperátorem Ignácem Kafkou pokřtěna Barbora, manželská dcera sedláka Jana Šáry a Anny rozené Růžankové (Růžkové). Kmotři: chalupnice Františka Šárová z Holubic, selka Alžběta Srpová z Dolán a sedlák Martin Fux z Holubic."
+  },
+  "minice_oddani_jan_sara_1786": {
+    "orig": "[Anno 1786] Februarius 27. | [Nro Domu] 14. [Minice] | [Ženich] Jan Syn Matege Ssáry sedlaka z Holubitz (Katolické 1, Léta 18, Swobodný 1) | Copulavi Franciscus Patermann Curatus | [Newěsta] Anna dcera Frantisska Sstiepanka Růžkj z Minicz (Katolické 1, Léta 19, Swobodná 1) | [Swědkové] Jozef Salomon Sedlák z Minic; Theresia Hofmanowa dcera panaburgmistra z Minic.",
+    "cs": "Dne 27. února 1786 v Minicích (čp. 14) oddal farář František Patermann Jana (18 let, svobodný, katolík), syna sedláka Matěje Šáry z Holubic, s Annou (19 let, svobodná, katolička), dcerou Františka Štěpánka-Růžky z Minic. Svědci: sedlák Josef Salomon z Minic a Terezie Hofmanová, dcera purkmistra z Minic."
+  },
+  "minice_krest_anna_stepankova_1766": {
+    "orig": "Ao 1766 Die 22 Julii in Ecclesia Parochiali Minitzensi S. Jacobi Ap. M. a Presbytero Ecclesiastico Francisco Mladek loci Capellano Baptisata fuit Anna Rosalia filia legitima Francisci Stiepanek Cauponis et uxoris ejus Eleonora Parentum Subditorum Serenissimo Principi Regenti de Lobkovitz ad Dominium Mülhausnense Nata die 21 Julij ejus Levans fuit Anna ... ex Minicz Testes seu Patrini fuere Catharina Techmanin Christophorus ... ex Minkovitz.",
+    "cs": "Dne 21. července 1766 narozena a 22. července 1766 ve farním kostele sv. Jakuba v Minicích kaplanem Františkem Mládkem pokřtěna Anna Rosalia, manželská dcera minického šenkýře Františka Štěpánka a manželky Eleonory (poddaných knížeti z Lobkovic k panství nelahozeveskému). Kmotři: Anna ... z Minic, Kateřina Techmanová a Kryštof ... z Minkovic."
+  },
+  "minice_krest_jan_sara_1769": {
+    "orig": "[Anno 1769] Die 7 Maji in Ecclesia Parochiali Minitzensi S. Jacobi Ap. M. a Presbytero Ecclesiastico Wenceslao Gundrak loci Parocho Baptisatus fuit Joannes filius legitimus Mathiae Schara Praediani et Uxoris ejus Magdalenae natae Jelinkin Parentum Subditorum ad Dominium Mülhausnense Natus die 7 Maji. Ejus Levans fuit Georgius Hanuss ex Holubitz, Franciscus Jelinek ex Tursko, Barbara Fuxin ex Holubitz.",
+    "cs": "Dne 7. května 1769 narozen a téhož dne ve farním kostele sv. Jakuba v Minicích farářem Václavem Gundrakem pokřtěn Jan, manželský syn holubického sedláka Matěje Šáry a jeho manželky Magdaleny rozené Jelínkové (poddaných k panství nelahozeveskému). Kmotři: Jiří Hanuš z Holubic, František Jelínek z Turska a Barbora Fuxová z Holubic."
+  },
+  "osov_oddani_frantisek_grubner_1802": {
+    "orig": "[1802] 22. 9bris | [Nro. Domu] 17 [Vižina] | [Ženich] Frantissek syn Tomásse Grubnera [...] z Wěžny (katolické 1, léta wěku 33., swobodný 1.) | Ita testor qui Copulavi Adalbertus Paudnicky Curatus Loci | [Newěsta] Anna dcera Jana Bergera Ssenkýře z Skřiplu (katolické 1, léta wěku 20., swobodná 1.) | [Swědkové] Matěg Berger [...]; Jozef Šrámek ze Skřiplu, Saused.",
+    "cs": "Dne 22. listopadu 1802 ve Vižině čp. 17 oddal farář Vojtěch Paudnický Františka (33 let, svobodný, katolík), syna Tomáše Grubnera z Vižiny, s Annou (20 let, svobodná, katolička), dcerou šenkýře Jana Bergera ze Skřiplu. Svědci: Matěj Berger a soused Josef Šrámek ze Skřiplu."
   }
 }
