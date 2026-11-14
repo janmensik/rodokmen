@@ -775,6 +775,7 @@ P = {
               note="Gruntovník v Chvalovicích čp. 21 a rolník v čp. 4. Narozen 31. 8. 1832 ve Vyšehořovicích čp. 22 (pokřtěn 1. 9. farářem Janem Kinským) jako manželský syn gruntovníka Václava Hromady st. a Alžběty roz. Jirkovské z čp. 25. Dne 12. 4. 1853 se ještě jako nezletilý (20 1/2 let) po vrchnoporučenském svolení soudu v Českém Brodě oženil v Chvalovicích s Annou Kováříkovou a převzal zdejší grunt čp. 21. Otec Anny Černé roz. Hromadové (* 1864)."),
 
     123: dict(n="Anna Hromadová", y="* 1831", st="doc",
+              otec=246, matka=247,
               f=["* 1831 Chvalovice čp. 21", "× 12. 4. 1853 Chvalovice čp. 21 Václav Hromada"],
               roz="Kováříková", bydl="Chvalovice čp. 21 a 4", puvod="Chvalovice čp. 21",
               r=["kovanice_oddani_vaclav_hromada_1853", "chvalovice_krest_anna_hromadova_1864", "podebrady_oddani_jan_cerny_1885"],
@@ -794,6 +795,7 @@ P = {
               note="Narozena 27. 11. 1835 v Bojišti čp. 10 (pokřtěna 28. 11. 1835) jako manželská dcera tovaryše tesařského Václava Kosa a Marie roz. Kollářové z Peček čp. 55. Dne 4. 10. 1858 se v Pečkách provdala za tesaře a dělostřeleckého záložníka Václava Měšťánka. Matka Josefa Měšťánka (* 1859)."),
 
     127: dict(n="Kateřina Ouzká", y="", st="doc",
+              otec=254, matka=255,
               f=[], bydl="Končice čp. 14", puvod="Končice",
               r=["koncice_krest_katerina_ouzka_1862", "koncice_oddani_josef_mestanek_1883", "koncice_krest_marie_mestankova_1885"],
               note="Svobodná matka v Končicích čp. 14, dcera domkaře a baráčníka Jiřího Ouzkého z Končic čp. 14 a Barbory roz. Daníčkové z Končic čp. 12. Matka Kateřiny provdané Měšťánkové (* 1862)."),
@@ -1279,11 +1281,11 @@ P = {
               r=["vysehorovice_oddani_vaclav_hromada_1817", "vysehorovice_krest_vaclav_hromada_1832", "kovanice_oddani_vaclav_hromada_1853", "chvalovice_krest_anna_hromadova_1864"],
               note="Dcera Jana Jirkovského, výminkáře z usedlosti čp. 25 ve Vyšehořovicích, a Alžběty roz. Špačkové z Úhonic. Dne 4. 2. 1817 se ve věku 18 let provdala ve Vyšehořovicích za Václava Hromadu st. z čp. 22; matka Václava Hromady ml. z Chvalovic."),
 
-    246: dict(n="Josef Kovářík", y="", st="doc",
-              f=["× Anna Homolová"],
-              zam="výminkář a dříve gruntovník v Chvalovicích čp. 21", bydl="Chvalovice čp. 21", puvod="Chvalovice",
-              r=["kovanice_oddani_vaclav_hromada_1853", "chvalovice_krest_anna_hromadova_1864"],
-              note="Hospodář a gruntovník v Chvalovicích čp. 21, který roku 1853 předal grunt mladému zeti Václavu Hromadovi a dceři Anně a odešel na výminek. Dne 12. 4. 1853 vlastnoručně podepsal v matrice souhlas se sňatkem své dcery Anny. Manžel Anny roz. Homolové z Chrástu."),
+    246: dict(n="Josef Kovářík", y="asi 1792–25. 11. 1877", st="doc",
+              f=["* asi 1792", "× Anna Homolová", "+ 25. 11. 1877 Chvalovice čp. 44 (85 let)"],
+              zam="výminkář a dříve gruntovník v Chvalovicích čp. 21", bydl="Chvalovice čp. 21 a 44", puvod="Chvalovice",
+              r=["kovanice_oddani_vaclav_hromada_1853", "chvalovice_krest_anna_hromadova_1864", "chvalovice_umrti_josef_kovarik_1877"],
+              note="Hospodář a gruntovník v Chvalovicích čp. 21, který roku 1853 předal grunt mladému zeti Václavu Hromadovi a dceři Anně a odešel na výminek. Dne 12. 4. 1853 vlastnoručně podepsal v matrice souhlas se sňatkem své dcery Anny. Manžel Anny roz. Homolové z Chrástu. Zemřel 25. 11. 1877 ve Chvalovicích čp. 44 ve věku 85 let."),
 
     247: dict(n="Anna Kováříková", y="", st="doc",
               f=["× Josef Kovářík"],
