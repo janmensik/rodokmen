@@ -1320,5 +1320,29 @@
     ],
     "status": "ok",
     "note": ""
+  },
+  "ponikla_krest_michal_tomicek_1796": {
+    "boxes": [
+      [
+        0.02,
+        0.05,
+        0.98,
+        0.95
+      ]
+    ],
+    "status": "ok",
+    "note": ""
+  },
+  "ponikla_krest_anna_skalska_1801": {
+    "boxes": [
+      [
+        0.02,
+        0.05,
+        0.98,
+        0.95
+      ]
+    ],
+    "status": "ok",
+    "note": ""
   }
 }
