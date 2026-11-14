@@ -1113,5 +1113,45 @@
     "nazev": "Křest Josefa Boháčková (23. 3. 1805 Čechtice čp. 10)",
     "shrnuti": "Dne 23. března 1805 byla v Čechticích čp. 10 (fol. 214) pokřtěna Josefa Boháčková (#73), manželská dcera měšťana Jakuba Boháčka (#146) a Kateřiny rozené po Janu Žebráčkovi (#294) a Barboře roz. Jelenkové (#295) z Křivsoudova.",
     "odkaz": "https://ebadatelna.soapraha.cz/d/4702/208"
+  },
+  {
+    "klic": "sv_frantisek_oddani_frantisek_jirkovsky_1852",
+    "svazek": "ahmp_fr_o7",
+    "snimek": "fol. 335, sn. 341",
+    "druh": "O",
+    "datum": "15. 2. 1852",
+    "nazev": "Sňatek Františka Jirkovského a Aloisie Franzové (Praha sv. František, 1852)",
+    "shrnuti": "František Jirkovský (26 let, hrnčířský tovaryš v Praze čp. 94-I, rodák z Kutné Hory – předměstí Čech čp. 43, * 17. 2. 1826, příslušný do Zbyšova/Žichova, syn Václava Jirkovského a Anny roz. Tomášové/Tomašíkové) × Aloisie Franzová (26 let, * 28. 12. 1825 v Praze, nemanželská dcera Barbory Franzové, pradleny/ošetřovatelky ze Smíchova, a babičky Marie roz. Wolitzké ze Smíchova).",
+    "odkaz": "https://katalog.ahmp.cz/pragapublica/permalink?xid=F4FE010579C44A29B80F045D363C16F0&scan=341"
+  },
+  {
+    "klic": "kutna_hora_krest_frantisek_jirkovsky_1826",
+    "svazek": "ebad_7402",
+    "snimek": "pag. 39, sn. 41",
+    "druh": "N",
+    "datum": "17. 2. 1826",
+    "nazev": "Křest Františka Jirkovského (Kutná Hora, 1826)",
+    "shrnuti": "František Jirkovský (* 17. 2. 1826 Kutná Hora, předměstí Čech čp. 43), manželský syn Václava Jirkovského (obyvatele v Kutné Hoře, syna Petra Jirkovského, chalupníka ve Zbyšově, a Zuzany N.) a Anny roz. Tomašíkové (dcery Jana Tomašíka, obyvatele z čp. 533, a Anny roz. Marianové z Březic?).",
+    "odkaz": "https://ebadatelna.soapraha.cz/d/7402/41"
+  },
+  {
+    "klic": "kutna_hora_oddani_vaclav_jirkovsky_1825",
+    "svazek": "ebad_7408",
+    "snimek": "pag. 270, sn. 217",
+    "druh": "O",
+    "datum": "17. 5. 1825",
+    "nazev": "Sňatek Václava Jirkovského a Anny Tomašíkové (Kutná Hora, 1825)",
+    "shrnuti": "Václav Jirkovský (36 let, invalida v Kutné Hoře čp. 41, syn Petra Jirkovského, chalupníka ze Zbyšova/Žižova, a Anny?, pozn. Kraj Klatový) × Anna Tomašíková (26 let, pozn. Čáslav 29. 8. 1798, dcera Jana Tomašíka, nádeníka, a Barbory roz. Doubkové?).",
+    "odkaz": "https://ebadatelna.soapraha.cz/d/7408/217"
+  },
+  {
+    "klic": "breznice_krest_frantisek_tichy_1819",
+    "svazek": "ebad_4229",
+    "snimek": "pag. 2, sn. 3",
+    "druh": "N",
+    "datum": "19. 11. 1819",
+    "nazev": "Křest Františka Xavera Tichého (Březnice, 1819)",
+    "shrnuti": "František Xaver Tichý (* 19. 11., pokřtěn 20. 11. 1819 v Březnici, Předměstí čp. 8), manželský syn Josefa Tichého (služebného v Březnici) a Anny roz. Šatrové (dcery Havla Šatry z Koupě a Alžběty Balkové z Hutě).",
+    "odkaz": "https://ebadatelna.soapraha.cz/d/4229/3"
   }
 ]

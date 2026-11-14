@@ -1248,5 +1248,53 @@
     ],
     "status": "ok",
     "note": ""
+  },
+  "sv_frantisek_oddani_frantisek_jirkovsky_1852": {
+    "boxes": [
+      [
+        0.0,
+        0.5,
+        1.0,
+        0.96
+      ]
+    ],
+    "status": "ok",
+    "note": ""
+  },
+  "kutna_hora_krest_frantisek_jirkovsky_1826": {
+    "boxes": [
+      [
+        0.0,
+        0.74,
+        1.0,
+        0.99
+      ]
+    ],
+    "status": "ok",
+    "note": ""
+  },
+  "kutna_hora_oddani_vaclav_jirkovsky_1825": {
+    "boxes": [
+      [
+        0.0,
+        0.25,
+        1.0,
+        0.95
+      ]
+    ],
+    "status": "ok",
+    "note": ""
+  },
+  "breznice_krest_frantisek_tichy_1819": {
+    "boxes": [
+      [
+        0.04,
+        0.72,
+        0.96,
+        0.85
+      ]
+    ],
+    "status": "ok",
+    "note": ""
   }
 }

@@ -547,35 +547,35 @@ P = {
 
              note="Dcera Václava Šebeleho, správčího ve Vlasenicích, a jeho choti Apolonie."),
 
-    68: dict(n="František Jirkovský", y="† před 1882", st="doc",
+    68: dict(n="František Jirkovský", y="1826–před 1882", st="doc",
 
-             f=["× 15. 2. 1852 Praha (sv. František) Aloisie Franzová", "† před 2. 11. 1882"],
+             f=["* 17. 2. 1826 Kutná Hora (Čech čp. 43)", "× 15. 2. 1852 Praha (sv. František) Aloisie Franzová", "† před 2. 11. 1882"],
 
-             zam="hrnčířský tovaryš a kamnář v Praze", puvod="Kutná Hora", bydl="Praha I čp. 783",
+             zam="hrnčířský tovaryš a kamnář v Praze", puvod="Kutná Hora (předměstí Čech čp. 43)", bydl="Praha I čp. 783",
 
-             r=["hastal_krest_alois_jirkovsky_1859", "tyn_oddani_alois_jirkovsky_1885", "tyn_krest_pavlina_jirkovska_1882"],
+             r=["kutna_hora_krest_frantisek_jirkovsky_1826", "sv_frantisek_oddani_frantisek_jirkovsky_1852", "hastal_krest_alois_jirkovsky_1859", "tyn_oddani_alois_jirkovsky_1885", "tyn_krest_pavlina_jirkovska_1882"],
 
-             note="Hrnčířský tovaryš v Praze, rodilý z Kutné Hory. Syn Václava Jirkovského, patentního invalidy v Čáslavi, a Anny roz. Pilzové z Kutné Hory. Oddán 15. 2. 1852 u sv. Františka v Praze s Aloisií Franzovou. K listopadu 1882 již zemřelý."),
+             note="Hrnčířský tovaryš v Praze, narozený 17. 2. 1826 v Kutné Hoře (předměstí Čech čp. 43). Syn Václava Jirkovského (invalidy v Kutné Hoře, později patentního invalidy v Čáslavi, původem ze Zbyšova/Žichova) a Anny roz. Tomášové/Tomašíkové (v pozdějším zápisu z r. 1859 uvedena jako Pilzová). Oddán 15. 2. 1852 u sv. Františka v Praze s Aloisií Franzovou. K listopadu 1882 již zemřelý."),
 
-    69: dict(n="Aloisie Jirkovská", y="", st="doc",
+    69: dict(n="Aloisie Jirkovská", y="* 28. 12. 1825", st="doc",
 
-             f=["× 15. 2. 1852 Praha (sv. František) František Jirkovský"],
+             f=["* 28. 12. 1825 Praha", "× 15. 2. 1852 Praha (sv. František) František Jirkovský"],
 
              roz="Franzová", puvod="Praha", bydl="Praha I čp. 783",
 
-             r=["hastal_krest_alois_jirkovsky_1859", "tyn_oddani_alois_jirkovsky_1885", "tyn_krest_pavlina_jirkovska_1882"],
+             r=["sv_frantisek_oddani_frantisek_jirkovsky_1852", "hastal_krest_alois_jirkovsky_1859", "tyn_oddani_alois_jirkovsky_1885", "tyn_krest_pavlina_jirkovska_1882"],
 
-             note="Manželka hrnčířského tovaryše Františka Jirkovského v Praze, rozená Franzová z Prahy (dcera Barbory Franzové, pradleny v Praze). Oddána 15. 2. 1852 u sv. Františka. Matka kamnáře Aloise Jirkovského."),
+             note="Manželka hrnčířského tovaryše Františka Jirkovského v Praze, narozená 28. 12. 1825 v Praze jako nemanželská dcera Barbory Franzové, pradleny a ošetřovatelky původem ze Smíchova. Oddána 15. 2. 1852 u sv. Františka. Matka kamnáře Aloise Jirkovského."),
 
-    70: dict(n="František Tichý", y="† před 1882", st="doc",
+    70: dict(n="František Tichý", y="1819–před 1882", st="doc",
 
-             f=["× Anna Svobodová", "† před 2. 11. 1882"],
+             f=["* 19. 11. 1819 Březnice (Předměstí čp. 8)", "× Anna Svobodová", "† před 2. 11. 1882"],
 
-             zam="mistr krejčovský v Praze čp. 501-II", puvod="Březnice", bydl="Praha Nové Město čp. 501-II",
+             zam="mistr krejčovský v Praze čp. 501-II", puvod="Březnice (Předměstí čp. 8)", bydl="Praha Nové Město čp. 501-II",
 
-             r=["apolinar_krest_aloisie_ticha_1858", "tyn_oddani_alois_jirkovsky_1885", "tyn_krest_pavlina_jirkovska_1882", "tyn_oddani_frantisek_mensik_1902"],
+             r=["breznice_krest_frantisek_tichy_1819", "apolinar_krest_aloisie_ticha_1858", "tyn_oddani_alois_jirkovsky_1885", "tyn_krest_pavlina_jirkovska_1882", "tyn_oddani_frantisek_mensik_1902"],
 
-             note="Mistr krejčovský v Praze na Novém Městě čp. 501-II, rodilý z Březnice. Syn Josefa Tichého, vrchnostenského poddaného v Březnici, a Anny roz. Satrové (Šatrové) z Koupě. Manžel Anny roz. Svobodové a otec Aloisie Marie Jirkovské roz. Tiché. K listopadu 1882 již zemřelý."),
+             note="Mistr krejčovský v Praze na Novém Městě čp. 501-II, narozený 19. 11. 1819 v Březnici (Předměstí čp. 8). Syn Josefa Tichého, služebného a vrchnostenského poddaného v Březnici, a Anny roz. Šatrové (Satrové) z Koupě. Manžel Anny roz. Svobodové a otec Aloisie Marie Jirkovské roz. Tiché. K listopadu 1882 již zemřelý."),
 
     71: dict(n="Anna Tichá", y="† před 1882", st="doc",
 
@@ -879,53 +879,45 @@ P = {
 
               note="Manželka správčího Václava Šebeleho ve Vlasenicích."),
 
-    136: dict(n="Václav Jirkovský", y="", st="doc",
+    136: dict(n="Václav Jirkovský", y="* cca 1789", st="doc",
+              otec=272, matka=273,
+              f=["* cca 1789 (Zbyšov / Žichov)", "× 17. 5. 1825 Kutná Hora Anna Tomašíková"],
+              zam="invalida / patentinvalida (vysloužilý voják) v Kutné Hoře a Čáslavi", puvod="Zbyšov / Žichov (Kraj Klatový)", bydl="Kutná Hora (Čech čp. 43) / Čáslav",
+              r=["kutna_hora_oddani_vaclav_jirkovsky_1825", "kutna_hora_krest_frantisek_jirkovsky_1826", "sv_frantisek_oddani_frantisek_jirkovsky_1852", "hastal_krest_alois_jirkovsky_1859"],
+              note="Invalida a obyvatel v Kutné Hoře (předměstí Čech čp. 43), později patentinvalida v Čáslavi. Syn Petra Jirkovského, chalupníka ze Zbyšova/Žichova, a Zuzany N. Oddán 17. 5. 1825 v Kutné Hoře s Annou Tomašíkovou. Otec hrnčířského tovaryše Františka Jirkovského (* 1826)."),
 
-              f=["× Anna Pilzová"],
-
-              zam="patentinvalida (vysloužilý voják) v Čáslavi", puvod="Kutná Hora", bydl="Čáslav",
-
-              r=["hastal_krest_alois_jirkovsky_1859"],
-
-              note="Patentinvalida v Čáslavi, původem z Kutné Hory. Otec hrnčířského tovaryše Františka Jirkovského v Praze."),
-
-    137: dict(n="Anna Jirkovská", y="", st="doc",
-
-              f=["× Václav Jirkovský"],
-
-              roz="Pilzová", puvod="Kutná Hora",
-
-              r=["hastal_krest_alois_jirkovsky_1859"],
-
-              note="Manželka Václava Jirkovského, rozená Pilzová (Pílcová) z Kutné Hory. Matka Františka Jirkovského."),
+    137: dict(n="Anna Jirkovská", y="* cca 1798/1799", st="doc",
+              otec=274, matka=275,
+              f=["* cca 1798/1799 (Čáslav?)", "× 17. 5. 1825 Kutná Hora Václav Jirkovský"],
+              roz="Tomašíková (Tomášová / Pilzová)", puvod="Kutná Hora / Čáslav",
+              r=["kutna_hora_oddani_vaclav_jirkovsky_1825", "kutna_hora_krest_frantisek_jirkovsky_1826", "sv_frantisek_oddani_frantisek_jirkovsky_1852", "hastal_krest_alois_jirkovsky_1859"],
+              note="Manželka Václava Jirkovského, rozená Tomašíková / Tomášová (dcera Jana Tomašíka, obyvatele v Kutné Hoře čp. 533; v pozdějším pražském zápisu z r. 1859 uvedena jako roz. Pilzová). Oddána 17. 5. 1825 v Kutné Hoře (26 let). Matka Františka Jirkovského (* 1826)."),
 
     139: dict(n="Barbora Franzová", y="", st="doc",
-
-              f=[], zam="pradlena v Praze", puvod="Praha", bydl="Praha",
-
-              r=["hastal_krest_alois_jirkovsky_1859"],
-
-              note="Pradlena v Praze, matka Aloisie Jirkovské roz. Franzové."),
+              matka=279,
+              f=["ze Smíchova"], zam="pradlena a ošetřovatelka v Praze", puvod="Smíchov", bydl="Praha / Smíchov",
+              r=["sv_frantisek_oddani_frantisek_jirkovsky_1852", "hastal_krest_alois_jirkovsky_1859"],
+              note="Pradlena a ošetřovatelka v Praze, původem ze Smíchova (dcera Marie roz. Wolitzké ze Smíchova). Svobodná matka Aloisie Jirkovské roz. Franzové (* 1825)."),
 
     140: dict(n="Josef Tichý", y="", st="doc",
 
-              f=["× Anna Satrová"],
+              f=["× Anna Šatrová (Satrová)"],
 
-              zam="vrchnostenský poddaný v Březnici", puvod="Březnice", bydl="Březnice",
+              zam="služebný a vrchnostenský poddaný v Březnici", puvod="Březnice", bydl="Březnice (Předměstí čp. 8)",
 
-              r=["apolinar_krest_aloisie_ticha_1858"],
+              r=["breznice_krest_frantisek_tichy_1819", "apolinar_krest_aloisie_ticha_1858"],
 
-              note="Vrchnostenský poddaný v Březnici, otec pražského mistra krejčovského Františka Tichého."),
+              note="Služebný a vrchnostenský poddaný v Březnici (Předměstí čp. 8), otec pražského mistra krejčovského Františka Tichého (* 1819)."),
 
     141: dict(n="Anna Tichá", y="", st="doc",
-
+              otec=282, matka=283,
               f=["× Josef Tichý"],
 
-              roz="Satrová", puvod="Koupě", bydl="Březnice / Koupě",
+              roz="Šatrová (Satrová)", puvod="Koupě", bydl="Březnice / Koupě",
 
-              r=["apolinar_krest_aloisie_ticha_1858"],
+              r=["breznice_krest_frantisek_tichy_1819", "apolinar_krest_aloisie_ticha_1858"],
 
-              note="Manželka Josefa Tichého, rozená Satrová (Šatrová) z Koupě u Březnice. Matka Františka Tichého."),
+              note="Manželka Josefa Tichého, rozená Šatrová (Satrová), dcera Havla Šatry z Koupě a Alžběty roz. Balkové z Hutě. Matka Františka Tichého (* 1819)."),
 
     142: dict(n="Václav Svoboda", y="", st="doc",
 
@@ -2138,6 +2130,41 @@ P = {
               r=["krucemburk_krest_katerina_bislavska_1775", "kohoutov_oddani_frantisek_rejna_1790", "kohoutov_krest_anna_rejnova_1795", "chlum_krest_jan_podrouzek_1829"],
               note="Přímá předkyně v 10. generaci (č. 763). Narozena 25. 2. 1775 v Krucemburku čp. 116 a pokřtěna 28. 2. 1775 ve farním kostele v Krucemburku kaplanem Janem Daňkem jako dcera tesaře Václava Bislavského / Bislauška (č. 1526) a Magdaleny rozené Špringerové (č. 1527). Dne 26. 1. 1790 se v Kohoutově čp. 5 jako patnáctiletá provdala za dvaadvacetiletého sedláka Františka Rejného (č. 762). V oddacím zápisu 1790 i v křestním zápisu dcery Anny (* 1795) je uváděna jako Kateřina Bislavská / Bislaušková; v pozdějším zápisu vnuka Jana Podroužka ml. roku 1829 byl zapsán odkaz na spřízněnou rodinu Stehnů z Kohoutova."),
 
+    272: dict(n="Petr Jirkovský", y="", st="doc",
+              f=["chalupník ve Zbyšově / Žichově", "× Zuzana N."],
+              zam="chalupník", bydl="Zbyšov / Žichov", puvod="Zbyšov / Žichov",
+              r=["kutna_hora_oddani_vaclav_jirkovsky_1825", "kutna_hora_krest_frantisek_jirkovsky_1826"],
+              note="Přímý předek v 9. generaci (č. 272), chalupník ve Zbyšově / Žichově. Otec invalidy Václava Jirkovského (č. 136)."),
+    273: dict(n="Zuzana Jirkovská", y="", st="doc",
+              f=["× Petr Jirkovský"],
+              bydl="Zbyšov / Žichov", puvod="Zbyšov / Žichov",
+              r=["kutna_hora_krest_frantisek_jirkovsky_1826"],
+              note="Přímá předkyně v 9. generaci (č. 273), manželka chalupníka Petra Jirkovského ze Zbyšova / Žichova a matka Václava Jirkovského (č. 136)."),
+    274: dict(n="Jan Tomašík", y="", st="doc",
+              f=["obyvatel v Kutné Hoře čp. 533", "× Anna roz. Marianová?"],
+              zam="obyvatel a nádeník v Kutné Hoře", bydl="Kutná Hora čp. 533", puvod="Kutná Hora",
+              r=["kutna_hora_oddani_vaclav_jirkovsky_1825", "kutna_hora_krest_frantisek_jirkovsky_1826"],
+              note="Přímý předek v 9. generaci (č. 274), obyvatel a nádeník v Kutné Hoře čp. 533. Otec Anny Jirkovské roz. Tomašíkové (č. 137)."),
+    275: dict(n="Anna Tomašíková", y="", st="doc",
+              f=["× Jan Tomašík"],
+              roz="Marianová?", bydl="Kutná Hora čp. 533", puvod="Březice?",
+              r=["kutna_hora_krest_frantisek_jirkovsky_1826"],
+              note="Přímá předkyně v 9. generaci (č. 275), manželka Jana Tomašíka v Kutné Hoře čp. 533 a matka Anny Jirkovské (č. 137)."),
+    279: dict(n="Marie Franzová", y="", st="doc",
+              f=["ze Smíchova"],
+              roz="Wolitzká", bydl="Smíchov", puvod="Smíchov",
+              r=["sv_frantisek_oddani_frantisek_jirkovsky_1852"],
+              note="Přímá předkyně v 9. generaci (č. 279), rozená Wolitzká ze Smíchova. Matka Barbory Franzové (č. 139)."),
+    282: dict(n="Havel Šatra", y="", st="doc",
+              f=["hospodář z Koupě", "× Alžběta Balková"],
+              zam="hospodář", bydl="Koupě", puvod="Koupě",
+              r=["breznice_krest_frantisek_tichy_1819"],
+              note="Přímý předek v 9. generaci (č. 282), hospodář v Koupi (farnost Bělčice). Manžel Alžběty roz. Balkové z Hutě a otec Anny Tiché roz. Šatrové (č. 141)."),
+    283: dict(n="Alžběta Šatrová", y="", st="doc",
+              f=["× Havel Šatra"],
+              roz="Balková", bydl="Koupě", puvod="Hutě",
+              r=["breznice_krest_frantisek_tichy_1819"],
+              note="Přímá předkyně v 9. generaci (č. 283), rozená Balková z Hutě. Manželka Havla Šatry z Koupě a matka Anny Tiché roz. Šatrové (č. 141)."),
     294: dict(n="Jan Žebráček", y="", st="doc",
               f=["z Křivsoudova", "× Barbora Jelenková"],
               bydl="Křivsoudov", puvod="Křivsoudov",
