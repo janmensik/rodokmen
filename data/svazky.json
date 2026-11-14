@@ -1203,5 +1203,29 @@
     "popis": "Chvalovice, Hořátev, Kovanice, Neujahrsdorf",
     "snimku": 195,
     "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/7149"
+  },
+  "ebad_4705": {
+    "archiv": "SOA Praha – Sbírka matrik",
+    "portal": "eBadatelna",
+    "svazek": "Čechtice 08, O 1784–1808",
+    "popis": "Čechtice, okres Benešov",
+    "snimku": 64,
+    "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/4705"
+  },
+  "ebad_4710": {
+    "archiv": "SOA Praha – Sbírka matrik",
+    "portal": "eBadatelna",
+    "svazek": "Čechtice 13, O+I 1809–1891",
+    "popis": "Čechtice, okres Benešov",
+    "snimku": 209,
+    "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/4710"
+  },
+  "ebad_4711": {
+    "archiv": "SOA Praha – Sbírka matrik",
+    "portal": "eBadatelna",
+    "svazek": "Čechtice 14, Z+I 1809–1891",
+    "popis": "Čechtice, okres Benešov",
+    "snimku": 261,
+    "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/4711"
   }
 }
