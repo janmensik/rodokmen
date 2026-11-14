@@ -1315,17 +1315,19 @@ P = {
               r=["bojiste_oddani_vaclav_kos_1835", "bojiste_krest_barbora_kosova_1835", "bojiste_oddani_vaclav_mestanek_1858", "bojiste_krest_josef_mestanek_1859"],
               note="Pocházela ze stavení čp. 55 v Pečkách (Červené Pečky) na Kolínsku, dcera po zemřelém baráčníkovi Melicharu Kollářovi a Anny roz. Pomyjové z Peček čp. 52. Dne 13. 1. 1835 se ve věku 27 let v Pečkách provdala za tovaryše tesařského Václava Kosa a žila s ním v Bojišti čp. 10. Matka Barbory provdané Měšťánkové a babička Josefa Měšťánka (* 1859)."),
 
-    254: dict(n="Jiří Ouzký", y="† před 1862", st="doc",
-              f=["† před 1862", "× Barbora Daníčková"],
-              zam="domkař a baráčník v Končicích čp. 14", bydl="Končice čp. 14", puvod="Končice",
-              r=["koncice_krest_katerina_ouzka_1862", "koncice_oddani_josef_mestanek_1883", "koncice_krest_marie_mestankova_1885"],
-              note="Domkař a baráčník v Končicích čp. 14, zemřel před dubnem 1862. Manžel Barbory roz. Daníčkové z Končic čp. 12. Dědeček Kateřiny provdané Měšťánkové."),
+    254: dict(n="Jiří Ouzký", y="1813–před 1862", st="doc",
+              otec=508, matka=509,
+              f=["* 17. 12. 1813 Hradišťko čp. 22", "† před 1862", "× Barbora Daníčková"],
+              zam="domkař a baráčník v Končicích čp. 14", bydl="Končice čp. 14", puvod="Hradišťko čp. 22",
+              r=["hradistko_krest_jiri_ouzky_1813", "koncice_krest_anna_ouzka_1848", "koncice_krest_katerina_ouzka_1862", "koncice_oddani_josef_mestanek_1883", "koncice_krest_marie_mestankova_1885"],
+              note="Narozen 17. 12. 1813 v Hradišťku čp. 22 jako syn Josefa Ouzkého a Anny Novotné. Domkař a baráčník v Končicích čp. 14, zemřel před dubnem 1862. Manžel Barbory roz. Daníčkové z Končic čp. 12/38. Dědeček Kateřiny provdané Měšťánkové."),
 
-    255: dict(n="Barbora Ouzká", y="", st="doc",
-              f=["× Jiří Ouzký"],
-              roz="Daníčková", bydl="Končice čp. 14", puvod="Končice čp. 12",
-              r=["koncice_oddani_josef_mestanek_1883", "koncice_krest_marie_mestankova_1885"],
-              note="Dcera Jiřího Daníčka z Končic čp. 12, manželka domkaře Jiřího Ouzkého z Končic čp. 14."),
+    255: dict(n="Barbora Ouzká", y="1809–?", st="doc",
+              otec=510, matka=511,
+              f=["* 20. 11. 1809 Končice čp. 38", "× Jiří Ouzký"],
+              roz="Daníčková", bydl="Končice čp. 14", puvod="Končice čp. 38",
+              r=["koncice_krest_barbora_danickova_1809", "koncice_krest_anna_ouzka_1848", "koncice_oddani_josef_mestanek_1883", "koncice_krest_marie_mestankova_1885"],
+              note="Narozena 20. 11. 1809 v Končicích čp. 38 jako dcera půlsedláka Jiřího Daníčka a Magdaleny Černé ze Zbraně. Manželka domkaře Jiřího Ouzkého z Končic čp. 14."),
 
 
 
@@ -1484,11 +1486,29 @@ P = {
 
 
 
+    508: dict(n="Josef Ouzký", y="", st="doc",
+              f=["baráčník v Hradišťku čp. 12 / 22", "× Anna Novotná"],
+              zam="baráčník", bydl="Hradišťko čp. 12 / 22", puvod="Hradišťko",
+              r=["hradistko_krest_jiri_ouzky_1813", "koncice_krest_anna_ouzka_1848"],
+              note="Baráčník v Hradišťku čp. 12 / 22, manžel Anny roz. Novotné z Končic čp. 1 a otec Jiřího Ouzkého (* 1813)."),
+
+    509: dict(n="Anna Novotná", y="", st="doc",
+              f=["× Josef Ouzký"],
+              roz="Novotná", bydl="Hradišťko čp. 12 / 22", puvod="Končice čp. 1",
+              r=["hradistko_krest_jiri_ouzky_1813", "koncice_krest_anna_ouzka_1848"],
+              note="Dcera z Končic čp. 1, manželka baráčníka Josefa Ouzkého z Hradišťka a matka Jiřího Ouzkého (* 1813)."),
+
     510: dict(n="Jiří Daníček", y="† před 1885", st="doc",
-              f=["† před 1885"],
-              zam="domkař v Končicích čp. 12", bydl="Končice čp. 12", puvod="Končice",
-              r=["koncice_oddani_josef_mestanek_1883", "koncice_krest_marie_mestankova_1885"],
-              note="Domkař v Končicích čp. 12, otec Barbory provdané Ouzké a pradědeček Kateřiny provdané Měšťánkové."),
+              f=["† před 1885", "× Magdalena Černá"],
+              zam="půlsedlák a baráčník v Končicích čp. 38 a 12", bydl="Končice čp. 38 / 12", puvod="Končice",
+              r=["koncice_krest_barbora_danickova_1809", "koncice_krest_anna_ouzka_1848", "koncice_oddani_josef_mestanek_1883", "koncice_krest_marie_mestankova_1885"],
+              note="Půlsedlák v Končicích čp. 38 a později baráčník v Končicích čp. 12, manžel Magdaleny roz. Černé ze Zbraně, otec Barbory provdané Ouzké (* 1809) a pradědeček Kateřiny provdané Měšťánkové."),
+
+    511: dict(n="Magdalena Černá", y="", st="doc",
+              f=["dcera Jana Černého, baráčníka ze Zbraně čp. 10", "× Jiří Daníček"],
+              roz="Černá", bydl="Končice čp. 38 / 12", puvod="Zbraň čp. 10",
+              r=["koncice_krest_barbora_danickova_1809", "koncice_krest_anna_ouzka_1848"],
+              note="Dcera baráčníka Jana Černého ze Zbraně čp. 10, manželka Jiřího Daníčka z Končic a matka Barbory provdané Ouzké (* 1809)."),
 
 
 

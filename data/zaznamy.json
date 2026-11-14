@@ -1423,5 +1423,35 @@
     "nazev": "Křest Matěje Hromady (Vyšehořovice, 1763)",
     "shrnuti": "Dne 10. 3. 1763 byl ve Vyšehořovicích pokřtěn Matěj (narozen 9. 3.), syn sedláka Václava Hromady a Anny, poddaných panství Kounice.",
     "odkaz": "https://ebadatelna.soapraha.cz/d/8123/9"
+  },
+  {
+    "klic": "koncice_krest_anna_ouzka_1848",
+    "svazek": "ebad_10056",
+    "snimek": "pag. 160, sn. 157",
+    "druh": "N",
+    "datum": "20. 5. 1848",
+    "nazev": "Křest Anny Ouzké (Končice, 1848)",
+    "shrnuti": "Dne 20. 5. 1848 byla v Končicích (čp. 14) pokřtěna Anna (nar. 19. 5.), dcera baráčníka Jiřího Ouzkého (syna Josefa Ouzkého z Hradišťka čp. 12 a Anny Novotné z Končic čp. 1) a Barbory (dcery Jiřího Daníčka z Končic čp. 12 a Magdaleny Černé ze Zbraně čp. 10).",
+    "odkaz": "https://ebadatelna.soapraha.cz/d/10056/157"
+  },
+  {
+    "klic": "hradistko_krest_jiri_ouzky_1813",
+    "svazek": "ebad_10053",
+    "snimek": "fol. 190, sn. 95",
+    "druh": "N",
+    "datum": "18. 12. 1813",
+    "nazev": "Křest Jiřího Ouzkého (Hradišťko, 1813)",
+    "shrnuti": "Dne 18. 12. 1813 byl pokřtěn Jiří (Georgius, nar. 17. 12. v Hradišťku čp. 22), manželský syn baráčníka Josefa Ouzkého z Hradišťka a Anny Novotné z Končic.",
+    "odkaz": "https://ebadatelna.soapraha.cz/d/10053/95"
+  },
+  {
+    "klic": "koncice_krest_barbora_danickova_1809",
+    "svazek": "ebad_10053",
+    "snimek": "fol. 131, sn. 106",
+    "druh": "N",
+    "datum": "20. 11. 1809",
+    "nazev": "Křest Barbory Daníčkové (Končice, 1809)",
+    "shrnuti": "Dne 20. 11. 1809 byla v Končicích (čp. 38) pokřtěna Barbora, manželská dcera půlsedláka Jiřího Daníčka z Končic a Magdaleny roz. Černé ze Zbraně.",
+    "odkaz": "https://ebadatelna.soapraha.cz/d/10053/106"
   }
 ]
