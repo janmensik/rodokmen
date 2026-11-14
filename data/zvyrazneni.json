@@ -1392,5 +1392,17 @@
     ],
     "status": "ok",
     "note": ""
+  },
+  "svatepole_krest_eva_patraskova_1776": {
+    "boxes": [
+      [
+        0.02,
+        0.22,
+        0.98,
+        0.96
+      ]
+    ],
+    "status": "ok",
+    "note": ""
   }
 }
