@@ -1344,5 +1344,29 @@
     ],
     "status": "ok",
     "note": ""
+  },
+  "ponikla_oddani_jerolim_skalsky_1796": {
+    "boxes": [
+      [
+        0.02,
+        0.05,
+        0.98,
+        0.95
+      ]
+    ],
+    "status": "ok",
+    "note": ""
+  },
+  "ponikla_oddani_michal_tomicek_1786": {
+    "boxes": [
+      [
+        0.02,
+        0.05,
+        0.98,
+        0.95
+      ]
+    ],
+    "status": "ok",
+    "note": ""
   }
 }
