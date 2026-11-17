@@ -1243,5 +1243,21 @@
   "popis": "Dobříš, okres Příbram",
   "snimku": 38,
   "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/5083"
+ },
+ "ebad_6715": {
+  "archiv": "SOA Praha – Sbírka matrik",
+  "portal": "eBadatelna",
+  "svazek": "Kolín 44, Z 1832–1838",
+  "popis": "Kolín, okres Kolín",
+  "snimku": 137,
+  "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/6715"
+ },
+ "ebad_4250": {
+  "archiv": "SOA Praha – Sbírka matrik",
+  "portal": "eBadatelna",
+  "svazek": "Březnice 25, N 1770–1834, Ni 1770–1834, O 1772–1825, Oi 1772–1825, Z 1771–1831, Zi 1771–1831",
+  "popis": "Březnice",
+  "snimku": 39,
+  "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/4250"
  }
 }
