@@ -1803,5 +1803,35 @@
     "nazev": "Úmrtí Josefa Ouzkého (Hradišťko, 1845)",
     "shrnuti": "Dne 5. 3. 1845 v 6 hodin večer zemřel v Hradišťku čp. 34 a 7. 3. byl pochován vdovec a výměnkář Josef Ouzký ve věku 78 let (* cca 1767; souchotiny).",
     "odkaz": "https://ebadatelna.soapraha.cz/d/10065/91"
+  },
+  {
+    "klic": "zbran_oddani_jiri_danicek_1809",
+    "svazek": "ebad_10060",
+    "snimek": "fol. 123v, sn. 114",
+    "druh": "O",
+    "datum": "7. 2. 1809",
+    "nazev": "Sňatek Jiřího Daníčka (Wlaníčka) a Magdaleny Černé (Zbraň, 1809)",
+    "shrnuti": "Dne 7. 2. 1809 byl ve Zbrani čp. 10 oddán Jiří Daníček (zapsán jako Wlaníček), chalupník a půlsedlák z Končic čp. 38 (29 let, * cca 1780), s Magdalenou (22 let, * cca 1787), dcerou Jana Černého, baráčníka ze Zbraně čp. 10.",
+    "odkaz": "https://ebadatelna.soapraha.cz/d/10060/114"
+  },
+  {
+    "klic": "koncice_umrti_jiri_danicek_1849",
+    "svazek": "ebad_10065",
+    "snimek": "pag. 131, sn. 131",
+    "druh": "Z",
+    "datum": "15. 7. 1849",
+    "nazev": "Úmrtí Jiřího Daníčka (Waníčka) (Končice, 1849)",
+    "shrnuti": "Dne 15. 7. 1849 v 1 hodinu ráno zemřel v Končicích čp. 12 a 17. 7. byl pochován Jiří Daníček (zapsán jako Waníček), obytný a bývalý výminkář z Končic, ve věku 70 let (* cca 1779; slabost věku).",
+    "odkaz": "https://ebadatelna.soapraha.cz/d/10065/131"
+  },
+  {
+    "klic": "vlkov_umrti_josef_michl_1855",
+    "svazek": "98b9af8e",
+    "snimek": "pag. 150, sn. 71",
+    "druh": "Z",
+    "datum": "21. 11. 1855",
+    "nazev": "Úmrtí Josefa Michla (Vlkov nad Lesy, 1855)",
+    "shrnuti": "Dne 21. 11. 1855 zemřel ve Vlkově čp. 13 a 23. 11. byl pochován kovář Josef Michl ve věku 80 let (* cca 1775; věkem sešel).",
+    "odkaz": "https://aron.vychodoceskearchivy.cz/apu/98b9af8e-21a1-48f2-adca-fcbac769b0ab"
   }
 ]

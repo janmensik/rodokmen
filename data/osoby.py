@@ -1259,11 +1259,11 @@ P = {
               r=["zizelice_krest_anna_siskova_1805", "zizelice_oddani_vaclav_cerny_1826", "vlkov_oddani_frantisek_cerny_1856", "dobsice_krest_jan_cerny_1860", "dobsice_umrti_anna_cerna_1871"],
               note="Narodila se 30. 8. 1805 v Žiželicích čp. 1 (pokřtěna 31. 8. jako Marie Anna), dcera kováře Jana Šišky a Barbory roz. Liškové. Dne 31. 1. 1826 se v Žiželicích čp. 103 provdala za kovářského tovaryše Václava Černého. Zemřela jako vdova 21. 1. 1871 v Dobšicích čp. 27 (v matrice zapsána omylem jako rodilá Tichá a s věkem 76 let, skutečný věk byl 65 let). Matka kováře Františka Černého."),
 
-    242: dict(n="Josef Michl", y="† před 1856", st="doc",
-              f=["† před 1856", "× Anna Fialová"],
+    242: dict(n="Josef Michl", y="cca 1775–21. 11. 1855", st="doc",
+              f=["* cca 1775", "† 21. 11. 1855, Vlkov čp. 13 (ve věku 80 let)", "× Anna Fialová"],
               zam="mistr kovářský ve Vlkově čp. 13", bydl="Vlkov čp. 13", puvod="Vlkov",
-              r=["vlkov_oddani_frantisek_cerny_1856", "dobsice_krest_jan_cerny_1860", "podebrady_oddani_jan_cerny_1885"],
-              note="Mistr kovářský ve Vlkově čp. 13, zemřel před 21. lednem 1856. Manžel Anny roz. Fialové z Lužan čp. 19. Otec Kateřiny provdané Černé a dědeček kováře Jana Černého."),
+              r=["vlkov_umrti_josef_michl_1855", "vlkov_oddani_frantisek_cerny_1856", "dobsice_krest_jan_cerny_1860", "podebrady_oddani_jan_cerny_1885"],
+              note="Mistr kovářský ve Vlkově čp. 13, narozen kolem r. 1775, zemřel 21. 11. 1855 ve Vlkově čp. 13 ve věku 80 let (zaopatřen a pohřben farářem hrabětem Jiřím Kolowratem). Manžel Anny roz. Fialové z Lužan čp. 19. Otec Kateřiny provdané Černé a dědeček kováře Jana Černého."),
 
     243: dict(n="Anna Michlová", y="", st="doc",
               f=["× Josef Michl"],
@@ -1502,17 +1502,18 @@ P = {
               r=["hradistko_krest_jiri_ouzky_1813", "hradistko_umrti_anna_ouzka_1838", "koncice_krest_anna_ouzka_1848"],
               note="Dcera Jana Novotného z Končic (v úmrtním zápise čp. 29, u křtu vnučky r. 1848 uváděna z čp. 1), manželka baráčníka Josefa Ouzkého z Hradišťka a matka Jiřího Ouzkého (* 1813). Zemřela 21. 7. 1838 v Hradišťku čp. 34 ve věku 60 let (* cca 1778)."),
 
-    510: dict(n="Jiří Daníček", y="† před 1885", st="doc",
-              f=["† před 1885", "× Magdalena Černá"],
+    510: dict(n="Jiří Daníček", y="cca 1779–15. 7. 1849", st="doc",
+              f=["* cca 1779–1780", "× 7. 2. 1809 Zbraň čp. 10 (Magdalena Černá)", "† 15. 7. 1849, Končice čp. 12 (ve věku 70 let)"],
               zam="půlsedlák a baráčník v Končicích čp. 38 a 12", bydl="Končice čp. 38 / 12", puvod="Končice",
-              r=["koncice_krest_barbora_danickova_1809", "koncice_krest_anna_ouzka_1848", "koncice_oddani_josef_mestanek_1883", "koncice_krest_marie_mestankova_1885"],
-              note="Půlsedlák v Končicích čp. 38 a později baráčník v Končicích čp. 12, manžel Magdaleny roz. Černé ze Zbraně, otec Barbory provdané Ouzké (* 1809) a pradědeček Kateřiny provdané Měšťánkové."),
+              r=["zbran_oddani_jiri_danicek_1809", "koncice_krest_barbora_danickova_1809", "koncice_krest_anna_ouzka_1848", "koncice_umrti_jiri_danicek_1849", "koncice_oddani_josef_mestanek_1883", "koncice_krest_marie_mestankova_1885"],
+              note="Půlsedlák v Končicích čp. 38 a později baráčník a výměnkář v Končicích čp. 12. Dne 7. 2. 1809 se ve Zbrani čp. 10 (ve věku 29 let, zapsán jako Wlaníček) oženil s Magdalenou roz. Černou ze Zbraně; otec Barbory provdané Ouzké (* 1809) a pradědeček Kateřiny provdané Měšťánkové. Zemřel 15. 7. 1849 v Končicích čp. 12 (zapsán jako Waníček) ve věku 70 let."),
 
-    511: dict(n="Magdalena Černá", y="", st="doc",
-              f=["dcera Jana Černého, baráčníka ze Zbraně čp. 10", "× Jiří Daníček"],
+    511: dict(n="Magdalena Černá", y="cca 1787–?", st="doc",
+              otec=1022,
+              f=["* cca 1787", "× 7. 2. 1809 Zbraň čp. 10 (Jiří Daníček)", "dcera Jana Černého, baráčníka ze Zbraně čp. 10"],
               roz="Černá", bydl="Končice čp. 38 / 12", puvod="Zbraň čp. 10",
-              r=["koncice_krest_barbora_danickova_1809", "koncice_krest_anna_ouzka_1848"],
-              note="Dcera baráčníka Jana Černého ze Zbraně čp. 10, manželka Jiřího Daníčka z Končic a matka Barbory provdané Ouzké (* 1809)."),
+              r=["zbran_oddani_jiri_danicek_1809", "koncice_krest_barbora_danickova_1809", "koncice_krest_anna_ouzka_1848"],
+              note="Dcera baráčníka Jana Černého ze Zbraně čp. 10, narozena kolem r. 1787. Dne 7. 2. 1809 se ve Zbrani čp. 10 (ve věku 22 let) provdala za Jiřího Daníčka z Končic čp. 38; matka Barbory provdané Ouzké (* 1809)."),
 
 
 
@@ -2405,6 +2406,12 @@ P = {
               bydl="Vyšehořovice", puvod="Vyšehořovice",
               r=["vysehorovice_krest_matej_hromada_1763"],
               note="Přímá předkyně v 11. generaci (č. 977), manželka sedláka Václava Hromady z Vyšehořovic a matka rychtáře Matěje Hromady (* 9. 3. 1763, č. 488)."),
+
+    1022: dict(n="Jan Černý", y="", st="doc",
+               f=["baráčník ze Zbraně čp. 10", "otec Magdaleny Daníčkové roz. Černé (* cca 1787)"],
+               zam="baráčník ze Zbraně čp. 10", bydl="Zbraň čp. 10", puvod="Zbraň čp. 10",
+               r=["zbran_oddani_jiri_danicek_1809"],
+               note="Přímý předek v 11. generaci (č. 1022), baráčník ze Zbraně čp. 10. Otec Magdaleny Daníčkové roz. Černé (* cca 1787, č. 511)."),
 }
 
 
