@@ -1330,5 +1330,20 @@
   "svazek": "Sbírka matrik Východočeského kraje, sign.: 95-13 (poř.č. 6783), 1836-1871",
   "popis": "římskokatolická matrika ZEMŘELÝCH, Dvůr Žabí Lhotka + Lužec nad Cidlinou, Číhary + Hlínov + Vlkov nad Lesy (od 8.1836), Skochovice, Žantov, Bludy + Lada + Lovčice, Lišice + Lišičky",
   "url": "https://aron.vychodoceskearchivy.cz/apu/98b9af8e-21a1-48f2-adca-fcbac769b0ab"
+ },
+ "91b7a2cf": {
+  "archiv": "Státní oblastní archiv v Hradci Králové",
+  "portal": "ARON",
+  "svazek": "Sbírka matrik Východočeského kraje, sign.: 95-9 (poř.č. 6778), 1784-1835",
+  "popis": "římskokatolická matrika ODDANÝCH, Dvůr Žabí Lhotka + Lužec nad Cidlinou (2.1785-10.1835), Číhary + Hlínov + Kopanina + Vlkov nad Lesy (11.1784-1834), Skochovice, Žantov, Bludy + Lovčice",
+  "url": "https://aron.vychodoceskearchivy.cz/apu/91b7a2cf-a02f-4966-b9c1-f267d18bf9f6"
+ },
+ "ebad_7073": {
+  "archiv": "SOA Praha – Sbírka matrik",
+  "portal": "eBadatelna",
+  "svazek": "Kounice 10, O 1800–1867, Oi 1800–1867",
+  "popis": "Chrást, Manderšejd (okres Nymburk)",
+  "snimku": 43,
+  "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/7073"
  }
 }
