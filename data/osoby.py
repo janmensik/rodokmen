@@ -1156,13 +1156,13 @@ P = {
               r=["hluboka_krest_frantisek_prochazka_1816", "hluboka_oddani_frantisek_prochazka_1846", "hluboka_krest_marie_prochazkova_1846", "hluboka_krest_franz_henzl_1872"],
               note="Pra-pra-pradědeček Jana Menšíka (č. 186). Narodil se 1. 12. 1816 v Hluboké čp. 26 jako syn Josefa Procházky a Marie roz. Lepeníkové. Dne 27. 1. 1846 se jako devětadvacetiletý obecník z čp. 53 oženil v Hluboké čp. 7 se sedmnáctiletou Františkou Křesťanovou. Později půlláník a sedlák v Hluboké čp. 7; zemřel před červencem 1872."),
 
-    187: dict(n="Františka Křesťanová", y="* 8. 8. 1829 – ?", st="doc",
+    187: dict(n="Františka Křesťanová", y="8. 8. 1829 – 17. 7. 1901", st="doc",
               otec=374, matka=375,
               f=["* 8. 8. 1829 Hluboká čp. 7", "∞ 27. 1. 1846 Hluboká (František Procházka)",
-                 "dcera Jana Křesťana z Hluboké čp. 7 a Kateřiny roz. Panské ze Slavětína"],
-              roz="Křesťanová", bydl="Hluboká čp. 7", puvod="Hluboká čp. 7",
-              r=["hluboka_krest_frantiska_krestanova_1829", "hluboka_oddani_frantisek_prochazka_1846", "hluboka_krest_marie_prochazkova_1846", "hluboka_krest_franz_henzl_1872"],
-              note="Pra-pra-prababička Jana Menšíka (č. 187). Narodila se 8. 8. 1829 v Hluboké čp. 7 jako dcera obecníka Jana Křesťana a Kateřiny roz. Panské ze Slavětína. Dne 27. 1. 1846 se ve věku pouhých 17 let provdala za Františka Procházku – otec Jan Křesťan k sňatku nezletilé dcery udělil souhlas stvrzený třemi křížky. Matka Marie provdané Henzlové."),
+                 "dcera Jana Křesťana z Hluboké čp. 7 a Kateřiny roz. Panské ze Slavětína", "† 17. 7. 1901 Hluboká čp. 43 (71 let, 11 měsíců, 9 dní)"],
+              roz="Křesťanová", bydl="Hluboká čp. 7 a 43", puvod="Hluboká čp. 7",
+              r=["hluboka_krest_frantiska_krestanova_1829", "hluboka_oddani_frantisek_prochazka_1846", "hluboka_krest_marie_prochazkova_1846", "hluboka_krest_franz_henzl_1872", "hluboka_umrti_frantiska_prochazkova_1901"],
+              note="Pra-pra-prababička Jana Menšíka (č. 187). Narodila se 8. 8. 1829 v Hluboké čp. 7 jako dcera obecníka Jana Křesťana a Kateřiny roz. Panské ze Slavětína. Dne 27. 1. 1846 se ve věku pouhých 17 let provdala za Františka Procházku – otec Jan Křesťan k sňatku nezletilé dcery udělil souhlas stvrzený třemi křížky. Matka Marie provdané Henzlové. Zemřela jako vdova po výměnkáři Františku Procházkovi 17. 7. 1901 v Hluboké čp. 43 ve věku 71 let, 11 měsíců a 9 dní (marasmus)."),
 
     188: dict(n="Tomáš Pospíchal", y="* 1. 8. 1810 – ?", st="doc",
               otec=376, matka=377,
@@ -2006,13 +2006,13 @@ P = {
               r=["hluboka_krest_frantiska_krestanova_1829", "hluboka_oddani_frantisek_prochazka_1846", "hluboka_krest_marie_prochazkova_1846"],
               note="Přímý předek v 9. generaci (č. 374), chalupník a obecník v Hluboké čp. 7 (panství Polná). Syn Matěje Křesťana a Anny roz. Vávrové z Chlumětína. Manžel Kateřiny roz. Panské ze Slavětína a otec Františky (* 1829), které roku 1846 osobně udělil souhlas k sňatku v 17 letech stvrzený třemi křížky."),
 
-    375: dict(n="Kateřina Panská", y="před 1811 – ?", st="doc",
+    375: dict(n="Kateřina Panská", y="* cca 1790 – † 5. 11. 1856", st="doc",
               otec=750, matka=751,
-              f=["* Slavětín čp. 11", "∞ Jan Křesťan",
-                 "dcera Jakuba/Františka Panského ze Slavětína a Rozálie Šalamounové ze Ždírce"],
+              f=["* cca 1790 Slavětín čp. 11", "∞ Jan Křesťan",
+                 "dcera Jakuba/Františka Panského ze Slavětína a Rozálie Šalamounové ze Ždírce", "† 5. 11. 1856 Hluboká čp. 7 (66 let)"],
               roz="Panská", bydl="Hluboká čp. 7", puvod="Slavětín čp. 11",
-              r=["hluboka_krest_frantiska_krestanova_1829", "hluboka_oddani_frantisek_prochazka_1846", "hluboka_krest_marie_prochazkova_1846"],
-              note="Přímá předkyně v 9. generaci (č. 375), pocházela ze Slavětína čp. 11 (panství Polná). Dcera Jakuba Panského ze Slavětína (v oddacím zápisu dcery 1846 zapsán jako Franta Panský, obecník v Hluboké) a Rozálie roz. Šalamounové ze Ždírce. Manželka Jana Křesťana z Hluboké čp. 7."),
+              r=["hluboka_krest_frantiska_krestanova_1829", "hluboka_oddani_frantisek_prochazka_1846", "hluboka_krest_marie_prochazkova_1846", "hluboka_umrti_katerina_krestanova_1856"],
+              note="Přímá předkyně v 9. generaci (č. 375), pocházela ze Slavětína čp. 11 (panství Polná). Dcera Jakuba Panského ze Slavětína (v oddacím zápisu dcery 1846 zapsán jako Franta Panský, obecník v Hluboké) a Rozálie roz. Šalamounové ze Ždírce. Manželka čtvrtníka Jana Křesťana z Hluboké čp. 7. Zemřela 5. 11. 1856 v Hluboké čp. 7 ve věku 66 let."),
 
 
     376: dict(n="Tomáš Pospíchal", y="* cca 1763/1764 – ?", st="doc",
