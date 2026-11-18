@@ -2015,12 +2015,12 @@ P = {
               note="Přímá předkyně v 9. generaci (č. 375), pocházela ze Slavětína čp. 11 (panství Polná). Dcera Jakuba Panského ze Slavětína (v oddacím zápisu dcery 1846 zapsán jako Franta Panský, obecník v Hluboké) a Rozálie roz. Šalamounové ze Ždírce. Manželka čtvrtníka Jana Křesťana z Hluboké čp. 7. Zemřela 5. 11. 1856 v Hluboké čp. 7 ve věku 66 let."),
 
 
-    376: dict(n="Tomáš Pospíchal", y="* cca 1763/1764 – ?", st="doc",
+    376: dict(n="Tomáš Pospíchal", y="* cca 1763/1764 – † 21. 11. 1839", st="doc",
               otec=752,
-              f=["* cca 1763/1764", "domkař a chalupník v Chlumu čp. 35", "syn chalupníka Vojtěcha Pospíchala z Chlumu", "∞ 28. 1. 1794 Krucemburk (Kateřina Pátková)"],
+              f=["* cca 1763/1764", "domkař a chalupník v Chlumu čp. 35", "syn chalupníka Vojtěcha Pospíchala z Chlumu", "∞ 28. 1. 1794 Krucemburk (Kateřina Pátková)", "† 21. 11. 1839 Chlum čp. 35 (udáno 85 let)"],
               zam="domkař v Chlumu", bydl="Chlum čp. 35", puvod="Chlum",
-              r=["krucemburk_oddani_pospichal_patkova_1794", "chlum_krest_tomas_pospichal_1810", "krucemburk_oddani_pospichal_kasalova_1836", "chlum_krest_jan_pospichal_1847"],
-              note="Přímý předek v 9. generaci (č. 376), domkař a chalupník v Chlumu čp. 35 (panství Chrast). Narozen kolem let 1763–1764, syn chalupníka Vojtěcha Pospíchala z Chlumu. Dne 28. 1. 1794 se jako třicetiletý v Krucemburku oženil s devatenáctiletou Kateřinou Pátkovou z Krucemburku čp. 122. Otec mistra krejčovského Tomáše Pospíchala ml. (* 1810). Doložen v oddací matrice 1794, křestní matrice syna 1810, oddacím zápisu syna 1836 i křestním zápisu vnuka Jana roku 1847."),
+              r=["krucemburk_oddani_pospichal_patkova_1794", "chlum_krest_tomas_pospichal_1810", "krucemburk_oddani_pospichal_kasalova_1836", "chlum_umrti_tomas_pospichal_1839", "chlum_krest_jan_pospichal_1847", "chlum_umrti_katerina_pospichalova_1848"],
+              note="Přímý předek v 9. generaci (č. 376), domkař a chalupník v Chlumu čp. 35 (panství Chrast). Narozen kolem let 1763–1764, syn chalupníka Vojtěcha Pospíchala z Chlumu. Dne 28. 1. 1794 se jako třicetiletý v Krucemburku oženil s devatenáctiletou Kateřinou Pátkovou z Krucemburku čp. 122. Otec mistra krejčovského Tomáše Pospíchala ml. (* 1810). Zemřel 21. 11. 1839 v Chlumu čp. 35 (v matrice udáno 85 let, skutečný věk 75–76 let)."),
 
     377: dict(n="Kateřina Pátková", y="* 9. 11. 1776 – † 4. 11. 1848", st="doc",
               otec=754, matka=755,
@@ -2075,11 +2075,11 @@ P = {
               r=["krucemburk_krest_jan_kasal_1792"],
               note="Přímá předkyně v 10. generaci (č. 757), manželka domkaře Václava Kasala z Krucemburku. Matka Jana Kasala (* 3. 5. 1792 Krucemburk, č. 378) a prababička Jana Pospíchala (* 1847). Doložena v křestním zápisu syna Jana roku 1792 v Krucemburku ('Magdalena dcera Wytiskowa')."),
 
-    758: dict(n="František Kasal", y="před 1764 – ?", st="doc",
-              f=["domkař, chalupník a familiant v Krucemburku čp. 23 a 43", "∞ Anna Krupková", "otec Apoleny Kasalové (* 1784)"],
-              zam="chalupník, domkař a familiant v Krucemburku", bydl="Krucemburk čp. 43", puvod="Krucemburk",
-              r=["krucemburk_oddani_jan_kasal_apolena_kasalova_1816", "krucemburk_krest_apolena_kasalova_1784", "krucemburk_krest_josefa_kasalova_1817", "krucemburk_oddani_pospichal_kasalova_1836"],
-              note="Přímý předek v 10. generaci (č. 758), chalupník, domkař a familiant v Krucemburku čp. 23 a 43 (panství Polná). Manžel Anny rozené Krupkové a otec Apoleny Kasalové (* 1784, č. 379). Doložen v křestním zápisu dcery Apoleny roku 1784, v jejím oddacím zápisu roku 1816 ('Františka Kasala familianta'), v křestním zápisu vnučky Josefy roku 1817 i jejím oddacím zápisu roku 1836."),
+    758: dict(n="František Kasal", y="* cca 1754 – † 4. 9. 1839", st="doc",
+              f=["* cca 1754, Krucemburk čp. 23", "domkař, chalupník a familiant v Krucemburku čp. 23 a 43", "∞ Anna Krupková", "otec Apoleny Kasalové (* 1784)", "† 4. 9. 1839 Krucemburk čp. 43 (85 let)"],
+              zam="chalupník, domkař a familiant v Krucemburku", bydl="Krucemburk čp. 43", puvod="Krucemburk čp. 23",
+              r=["krucemburk_oddani_jan_kasal_apolena_kasalova_1816", "krucemburk_krest_apolena_kasalova_1784", "krucemburk_krest_josefa_kasalova_1817", "krucemburk_oddani_pospichal_kasalova_1836", "krucemburk_umrti_frantisek_kasal_1839"],
+              note="Přímý předek v 10. generaci (č. 758), chalupník, domkař a familiant v Krucemburku čp. 23 a 43 (panství Polná). Manžel Anny rozené Krupkové a otec Apoleny Kasalové (* 1784, č. 379). Zemřel 4. 9. 1839 v Krucemburku čp. 43 jako žebrák ve věku 85 let (* cca 1754, v zápisu výslovně uveden původ z Krucemburku čp. 23)."),
 
     759: dict(n="Anna Krupková", y="před 1766 – ?", st="doc",
               f=["* Krucemburk", "∞ František Kasal", "matka Apoleny Kasalové (* 1784)"],
