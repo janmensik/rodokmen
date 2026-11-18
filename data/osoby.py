@@ -1490,17 +1490,17 @@ P = {
 
 
 
-    508: dict(n="Josef Ouzký", y="", st="doc",
-              f=["baráčník v Hradišťku čp. 12 / 22", "× Anna Novotná"],
-              zam="baráčník", bydl="Hradišťko čp. 12 / 22", puvod="Hradišťko",
-              r=["hradistko_krest_jiri_ouzky_1813", "koncice_krest_anna_ouzka_1848"],
-              note="Baráčník v Hradišťku čp. 12 / 22, manžel Anny roz. Novotné z Končic čp. 1 a otec Jiřího Ouzkého (* 1813)."),
+    508: dict(n="Josef Ouzký", y="* cca 1767 – † 5. 3. 1845", st="doc",
+              f=["* cca 1767", "baráčník a výměnkář v Hradišťku čp. 12, 22 a 34", "× Anna Novotná", "† 5. 3. 1845 Hradišťko čp. 34 (78 let)"],
+              zam="baráčník a výměnkář", bydl="Hradišťko čp. 12 / 22 / 34", puvod="Hradišťko",
+              r=["hradistko_krest_jiri_ouzky_1813", "hradistko_umrti_anna_ouzka_1838", "hradistko_umrti_josef_ouzsky_1845", "koncice_krest_anna_ouzka_1848"],
+              note="Baráčník v Hradišťku čp. 12, 22 a 34, manžel Anny roz. Novotné z Končic a otec Jiřího Ouzkého (* 1813). Zemřel jako vdovec a výměnkář 5. 3. 1845 v Hradišťku čp. 34 ve věku 78 let (* cca 1767)."),
 
-    509: dict(n="Anna Novotná", y="", st="doc",
-              f=["× Josef Ouzký"],
-              roz="Novotná", bydl="Hradišťko čp. 12 / 22", puvod="Končice čp. 1",
-              r=["hradistko_krest_jiri_ouzky_1813", "koncice_krest_anna_ouzka_1848"],
-              note="Dcera z Končic čp. 1, manželka baráčníka Josefa Ouzkého z Hradišťka a matka Jiřího Ouzkého (* 1813)."),
+    509: dict(n="Anna Novotná", y="* cca 1778 – † 21. 7. 1838", st="doc",
+              f=["* cca 1778, Končice", "dcera Jana Novotného z Končic čp. 29", "× Josef Ouzký", "† 21. 7. 1838 Hradišťko čp. 34 (60 let)"],
+              roz="Novotná", bydl="Hradišťko čp. 12 / 22 / 34", puvod="Končice čp. 1 / 29",
+              r=["hradistko_krest_jiri_ouzky_1813", "hradistko_umrti_anna_ouzka_1838", "koncice_krest_anna_ouzka_1848"],
+              note="Dcera Jana Novotného z Končic (v úmrtním zápise čp. 29, u křtu vnučky r. 1848 uváděna z čp. 1), manželka baráčníka Josefa Ouzkého z Hradišťka a matka Jiřího Ouzkého (* 1813). Zemřela 21. 7. 1838 v Hradišťku čp. 34 ve věku 60 let (* cca 1778)."),
 
     510: dict(n="Jiří Daníček", y="† před 1885", st="doc",
               f=["† před 1885", "× Magdalena Černá"],
