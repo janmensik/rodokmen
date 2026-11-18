@@ -1317,19 +1317,19 @@ P = {
               r=["bojiste_oddani_vaclav_kos_1835", "bojiste_krest_barbora_kosova_1835", "bojiste_oddani_vaclav_mestanek_1858", "bojiste_krest_josef_mestanek_1859"],
               note="Pocházela ze stavení čp. 55 v Pečkách (Červené Pečky) na Kolínsku, dcera po zemřelém baráčníkovi Melicharu Kollářovi a Anny roz. Pomyjové z Peček čp. 52. Dne 13. 1. 1835 se ve věku 27 let v Pečkách provdala za tovaryše tesařského Václava Kosa a žila s ním v Bojišti čp. 10. Matka Barbory provdané Měšťánkové a babička Josefa Měšťánka (* 1859)."),
 
-    254: dict(n="Jiří Ouzký", y="1813–před 1862", st="doc",
+    254: dict(n="Jiří Ouzký", y="17. 12. 1813 – 27. 3. 1881", st="doc",
               otec=508, matka=509,
-              f=["* 17. 12. 1813 Hradišťko čp. 22", "† před 1862", "× Barbora Daníčková"],
+              f=["* 17. 12. 1813 Hradišťko čp. 22", "† 27. 3. 1881 Končice čp. 14 (40 let v manželství)", "× Barbora Daníčková"],
               zam="domkař a baráčník v Končicích čp. 14", bydl="Končice čp. 14", puvod="Hradišťko čp. 22",
-              r=["hradistko_krest_jiri_ouzky_1813", "koncice_krest_anna_ouzka_1848", "koncice_krest_katerina_ouzka_1862", "koncice_oddani_josef_mestanek_1883", "koncice_krest_marie_mestankova_1885"],
-              note="Narozen 17. 12. 1813 v Hradišťku čp. 22 jako syn Josefa Ouzkého a Anny Novotné. Domkař a baráčník v Končicích čp. 14, zemřel před dubnem 1862. Manžel Barbory roz. Daníčkové z Končic čp. 12/38. Dědeček Kateřiny provdané Měšťánkové."),
+              r=["hradistko_krest_jiri_ouzky_1813", "koncice_krest_anna_ouzka_1848", "koncice_krest_katerina_ouzka_1862", "koncice_oddani_josef_mestanek_1883", "koncice_krest_marie_mestankova_1885", "koncice_umrti_jiri_ouzky_1881"],
+              note="Narozen 17. 12. 1813 v Hradišťku čp. 22 jako syn Josefa Ouzkého a Anny Novotné. Domkař a baráčník v Končicích čp. 14. Manžel Barbory roz. Daníčkové z Končic čp. 12/38 (žil 40 let v manželství). Zemřel 27. 3. 1881 v Končicích čp. 14 na sešlost věkem (udáno 76 let, skutečný věk 67 let). Dědeček Kateřiny provdané Měšťánkové."),
 
-    255: dict(n="Barbora Ouzká", y="1809–?", st="doc",
+    255: dict(n="Barbora Ouzká", y="20. 11. 1809 – 15. 7. 1883", st="doc",
               otec=510, matka=511,
-              f=["* 20. 11. 1809 Končice čp. 38", "× Jiří Ouzký"],
+              f=["* 20. 11. 1809 Končice čp. 38", "× Jiří Ouzký", "† 15. 7. 1883 Končice čp. 14 (vdova, 73 let)"],
               roz="Daníčková", bydl="Končice čp. 14", puvod="Končice čp. 38",
-              r=["koncice_krest_barbora_danickova_1809", "koncice_krest_anna_ouzka_1848", "koncice_oddani_josef_mestanek_1883", "koncice_krest_marie_mestankova_1885"],
-              note="Narozena 20. 11. 1809 v Končicích čp. 38 jako dcera půlsedláka Jiřího Daníčka a Magdaleny Černé ze Zbraně. Manželka domkaře Jiřího Ouzkého z Končic čp. 14."),
+              r=["koncice_krest_barbora_danickova_1809", "koncice_krest_anna_ouzka_1848", "koncice_oddani_josef_mestanek_1883", "koncice_krest_marie_mestankova_1885", "koncice_umrti_barbora_ouzka_1883"],
+              note="Narozena 20. 11. 1809 v Končicích čp. 38 (dříve/později čp. 12) jako dcera půlsedláka Jiřího Daníčka a Magdaleny Černé ze Zbraně. Manželka domkaře Jiřího Ouzkého z Končic čp. 14. Zemřela jako vdova 15. 7. 1883 v Končicích čp. 14 ve věku udaném jako 73 let, 10 měsíců a 25 dní na sešlost věkem."),
 
 
 
