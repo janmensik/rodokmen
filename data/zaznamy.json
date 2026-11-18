@@ -1573,5 +1573,25 @@
     "nazev": "Úmrtí Jana Křesťana (Hluboká, 1861)",
     "shrnuti": "Dne 23. 3. 1861 v 9 hodin ráno náhle zemřel v Hluboké čp. 7 a 25. 3. byl pochován výminkář Jan Křesťan ve věku 73 let (* cca 1788).",
     "odkaz": "https://aron.vychodoceskearchivy.cz/apu/1f20d56e-892f-4efb-81f6-fd49b33fc0c2/dao/1f20d56e-892f-4efb-81f6-fd49b33fc0c2/file/ec771881-d16e-4de4-aa53-f6fc5a8043d4"
+  },
+  {
+    "klic": "dobsice_umrti_vaclav_cerny_1865",
+    "svazek": "ebad_9867",
+    "snimek": "pag. 245, sn. 124",
+    "druh": "Z",
+    "datum": "11. 5. 1865",
+    "nazev": "Úmrtí kováře Václava Černého (Dobšice, 1865)",
+    "shrnuti": "Dne 11. 5. 1865 (v indexu 14. 5.) zemřel v Dobšicích čp. 27 kovář na výminku Václav Černý ve věku udaném jako 70 let (souchotiny).",
+    "odkaz": "https://ebadatelna.soapraha.cz/d/9867/124"
+  },
+  {
+    "klic": "dobsice_umrti_anna_cerna_1871",
+    "svazek": "ebad_9867",
+    "snimek": "pag. 254, sn. 129",
+    "druh": "Z",
+    "datum": "21. 1. 1871",
+    "nazev": "Úmrtí Anny Černé roz. Šiškové (Dobšice, 1871)",
+    "shrnuti": "Dne 21. 1. 1871 zemřela v Dobšicích čp. 27 a 23. 1. byla pochována Anna, vdova po Václavu Černém, baráčníku a kováři z Dobšic čp. 27 (zapsána s písařskou přesmyčkou jako rodilá Tichá ze Žiželic), ve věku udaném jako 76 let (skutečný věk podle křtu z r. 1805 byl 65 let).",
+    "odkaz": "https://ebadatelna.soapraha.cz/d/9867/129"
   }
 ]
