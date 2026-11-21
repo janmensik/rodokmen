@@ -754,12 +754,12 @@ P = {
               r=["zvole_oddani_frantisek_hamrik_1847", "blazkov_krest_marianna_hamrikova_1849"],
               note="Dcera ze starého svobodnického rodu Falských z Blažkova čp. 28 a hostinského ve Zvoli čp. 10 Františka Falského a Kateřiny rozené Mišníčkové. V únoru 1847 se provdala za svobodníka Františka Hamříka do Blažkova čp. 14."),
 
-    120: dict(n="František Černý", y="asi 1829 – před 1885", st="doc",
-              f=["* asi 1829", "× 21. 1. 1856 Vlkov čp. 13 Kateřina Michlová", "† před 1885"],
+    120: dict(n="František Černý", y="asi 1829–1. 4. 1884", st="doc",
+              f=["* asi 1829", "× 21. 1. 1856 Vlkov čp. 13 Kateřina Michlová", "† 1. 4. 1884 Malé Zboží čp. 15"],
               zam="mistr kovářský v Dobšicích čp. 27 a Malém Zboží čp. 15",
               bydl="Dobšice čp. 27, později Malé Zboží čp. 15", puvod="Dobšice čp. 27",
-              r=["vlkov_oddani_frantisek_cerny_1856", "dobsice_krest_jan_cerny_1860", "podebrady_oddani_jan_cerny_1885"],
-              note="Mistr kovářský v Dobšicích čp. 27 a v Malém Zboží čp. 15, manželský syn kováře Václava Černého z Dobšic čp. 27 a Anny roz. Šiškové z kovářské usedlosti v Žiželicích čp. 119. Dne 21. 1. 1856 se ve Vlkově čp. 13 oženil se sedmnáctiletou dcerou místního kováře Kateřinou Michlovou. Otec mistra kovářského Jana Černého (* 1860)."),
+              r=["vlkov_oddani_frantisek_cerny_1856", "dobsice_krest_jan_cerny_1860", "male_zbozi_umrti_frantisek_cerny_1884", "podebrady_oddani_jan_cerny_1885"],
+              note="Mistr kovářský v Dobšicích čp. 27 a v Malém Zboží čp. 15, manželský syn kováře Václava Černého z Dobšic čp. 27 a Anny roz. Šiškové z kovářské usedlosti v Žiželicích čp. 119. Dne 21. 1. 1856 se ve Vlkově čp. 13 oženil se sedmnáctiletou dcerou místního kováře Kateřinou Michlovou. Otec mistra kovářského Jana Černého (* 1860). Zemřel 1. 4. 1884 v Malém Zboží čp. 15 ve věku 54 let na vodnatelnost (27 let v manželství)."),
 
     121: dict(n="Kateřina Černá", y="* asi 1838", st="doc",
               f=["* asi 1838 Vlkov čp. 13", "× 21. 1. 1856 Vlkov čp. 13 František Černý"],
@@ -767,12 +767,12 @@ P = {
               r=["vlkov_oddani_frantisek_cerny_1856", "dobsice_krest_jan_cerny_1860", "podebrady_oddani_jan_cerny_1885"],
               note="Pocházela z kovářské chalupy ve Vlkově čp. 13 jako manželská dcera již zemřelého kováře Josefa Michla a Anny roz. Fialové z Lužan čp. 19. Dne 21. 1. 1856 se po vrchnoporučenském svolení provdala za kováře Františka Černého z Dobšic. Matka mistra kovářského Jana Černého (* 1860)."),
 
-    122: dict(n="Václav Hromada", y="* 1832 · † před 1885", st="doc",
-              f=["* 31. 8. 1832 Vyšehořovice čp. 22", "× 12. 4. 1853 Chvalovice čp. 21 Anna Kováříková", "† před 1885"],
+    122: dict(n="Václav Hromada", y="31. 8. 1832–3. 9. 1866", st="doc",
+              f=["* 31. 8. 1832 Vyšehořovice čp. 22", "× 12. 4. 1853 Chvalovice čp. 21 Anna Kováříková", "† 3. 9. 1866 Chvalovice čp. 21 / Kovanice čp. 10"],
               zam="gruntovník a rolník v Chvalovicích čp. 21 a 4",
               bydl="Chvalovice čp. 21 a 4", puvod="Vyšehořovice čp. 22",
-              r=["vysehorovice_krest_vaclav_hromada_1832", "kovanice_oddani_vaclav_hromada_1853", "chvalovice_krest_anna_hromadova_1864", "podebrady_oddani_jan_cerny_1885"],
-              note="Gruntovník v Chvalovicích čp. 21 a rolník v čp. 4. Narozen 31. 8. 1832 ve Vyšehořovicích čp. 22 (pokřtěn 1. 9. farářem Janem Kinským) jako manželský syn gruntovníka Václava Hromady st. a Alžběty roz. Jirkovské z čp. 25. Dne 12. 4. 1853 se ještě jako nezletilý (20 1/2 let) po vrchnoporučenském svolení soudu v Českém Brodě oženil v Chvalovicích s Annou Kováříkovou a převzal zdejší grunt čp. 21. Otec Anny Černé roz. Hromadové (* 1864)."),
+              r=["vysehorovice_krest_vaclav_hromada_1832", "kovanice_oddani_vaclav_hromada_1853", "chvalovice_krest_anna_hromadova_1864", "chvalovice_umrti_vaclav_hromada_1866", "podebrady_oddani_jan_cerny_1885"],
+              note="Gruntovník v Chvalovicích čp. 21 a rolník v čp. 4. Narozen 31. 8. 1832 ve Vyšehořovicích čp. 22 (pokřtěn 1. 9. farářem Janem Kinským) jako manželský syn gruntovníka Václava Hromady st. a Alžběty roz. Jirkovské z čp. 25. Dne 12. 4. 1853 se ještě jako nezletilý (20 1/2 let) po vrchnoporučenském svolení soudu v Českém Brodě oženil v Chvalovicích s Annou Kováříkovou a převzal zdejší grunt čp. 21. Otec Anny Černé roz. Hromadové (* 1864). Zemřel na choleru 3. 9. 1866 v Kovanicích čp. 10 (příslušný do Chvalovic čp. 21) ve věku 34 let (v matrice udáno 35 let)."),
 
     123: dict(n="Anna Hromadová", y="* 1831", st="doc",
               otec=246, matka=247,
