@@ -761,11 +761,11 @@ P = {
               r=["vlkov_oddani_frantisek_cerny_1856", "dobsice_krest_jan_cerny_1860", "male_zbozi_umrti_frantisek_cerny_1884", "podebrady_oddani_jan_cerny_1885"],
               note="Mistr kovářský v Dobšicích čp. 27 a v Malém Zboží čp. 15, manželský syn kováře Václava Černého z Dobšic čp. 27 a Anny roz. Šiškové z kovářské usedlosti v Žiželicích čp. 119. Dne 21. 1. 1856 se ve Vlkově čp. 13 oženil se sedmnáctiletou dcerou místního kováře Kateřinou Michlovou. Otec mistra kovářského Jana Černého (* 1860). Zemřel 1. 4. 1884 v Malém Zboží čp. 15 ve věku 54 let na vodnatelnost (27 let v manželství)."),
 
-    121: dict(n="Kateřina Černá", y="* asi 1838", st="doc",
-              f=["* asi 1838 Vlkov čp. 13", "× 21. 1. 1856 Vlkov čp. 13 František Černý"],
-              roz="Michlová", bydl="Vlkov čp. 13, Dobšice čp. 27, Malé Zboží čp. 15", puvod="Vlkov čp. 13",
-              r=["vlkov_oddani_frantisek_cerny_1856", "dobsice_krest_jan_cerny_1860", "podebrady_oddani_jan_cerny_1885"],
-              note="Pocházela z kovářské chalupy ve Vlkově čp. 13 jako manželská dcera již zemřelého kováře Josefa Michla a Anny roz. Fialové z Lužan čp. 19. Dne 21. 1. 1856 se po vrchnoporučenském svolení provdala za kováře Františka Černého z Dobšic. Matka mistra kovářského Jana Černého (* 1860)."),
+    121: dict(n="Kateřina Černá", y="21. 3. 1839–29. 9. 1914", st="doc",
+              f=["* 21. 3. 1839 Vlkov nad Lesy čp. 11", "× 21. 1. 1856 Vlkov čp. 13 František Černý", "† 29. 9. 1914 Poděbrady čp. 254-III"],
+              roz="Michlová", bydl="Vlkov čp. 11 a 13, Dobšice čp. 27, Malé Zboží čp. 15, Poděbrady čp. 254-III", puvod="Vlkov nad Lesy čp. 11",
+              r=["vlkov_krest_katerina_michlova_1839", "vlkov_oddani_frantisek_cerny_1856", "dobsice_krest_jan_cerny_1860", "podebrady_oddani_jan_cerny_1885", "podebrady_umrti_katerina_cerna_1914"],
+              note="Narodila se 21. 3. 1839 ve Vlkově nad Lesy čp. 11 (pokřtěna 22. 3.; v poděbradském úmrtním zápise z r. 1914 chybně opsáno 29. 4. 1839) jako manželská dcera kováře Josefa Michla a Anny roz. Václava Fialy z Lužce nad Cidlinou čp. 12. Dne 21. 1. 1856 se po vrchnoporučenském svolení provdala za kováře Františka Černého z Dobšic. Matka mistra kovářského Jana Černého (* 1860). Zemřela náhle na mrtvici v Poděbradech čp. 254-III ve věku 75 let a byla pohřbena ve Velkém Zboží."),
 
     122: dict(n="Václav Hromada", y="31. 8. 1832–3. 9. 1866", st="doc",
               f=["* 31. 8. 1832 Vyšehořovice čp. 22", "× 12. 4. 1853 Chvalovice čp. 21 Anna Kováříková", "† 3. 9. 1866 Chvalovice čp. 21 / Kovanice čp. 10"],
@@ -794,11 +794,11 @@ P = {
               r=["bojiste_krest_barbora_kosova_1835", "bojiste_oddani_vaclav_mestanek_1858", "bojiste_krest_josef_mestanek_1859", "koncice_oddani_josef_mestanek_1883", "koncice_krest_marie_mestankova_1885"],
               note="Narozena 27. 11. 1835 v Bojišti čp. 10 (pokřtěna 28. 11. 1835) jako manželská dcera tovaryše tesařského Václava Kosa a Marie roz. Kollářové z Peček čp. 55. Dne 4. 10. 1858 se v Pečkách provdala za tesaře a dělostřeleckého záložníka Václava Měšťánka. Matka Josefa Měšťánka (* 1859)."),
 
-    127: dict(n="Kateřina Ouzká", y="", st="doc",
+    127: dict(n="Kateřina Ouzká", y="* 9. 9. 1839 – ?", st="doc",
               otec=254, matka=255,
-              f=[], bydl="Končice čp. 14", puvod="Končice",
-              r=["koncice_krest_katerina_ouzka_1862", "koncice_oddani_josef_mestanek_1883", "koncice_krest_marie_mestankova_1885"],
-              note="Svobodná matka v Končicích čp. 14, dcera domkaře a baráčníka Jiřího Ouzkého z Končic čp. 14 a Barbory roz. Daníčkové z Končic čp. 12. Matka Kateřiny provdané Měšťánkové (* 1862)."),
+              f=["* 9. 9. 1839 Končice čp. 12 (legit. 22. 11. 1841)"], bydl="Končice čp. 12 a 14", puvod="Končice čp. 12",
+              r=["koncice_krest_katerina_ouzka_1839", "koncice_krest_katerina_ouzka_1862", "koncice_oddani_josef_mestanek_1883", "koncice_krest_marie_mestankova_1885"],
+              note="Narozena 9. 9. 1839 v Končicích čp. 12 jako původně nemanželská dcera Jiřího Ouzkého a Barbory roz. Daníčkové z Končic čp. 12, legitimizována jejich následným sňatkem dne 22. 11. 1841. Svobodná matka Kateřiny provdané Měšťánkové (* 1862)."),
 
 
 
@@ -1324,17 +1324,17 @@ P = {
 
     254: dict(n="Jiří Ouzký", y="17. 12. 1813 – 27. 3. 1881", st="doc",
               otec=508, matka=509,
-              f=["* 17. 12. 1813 Hradišťko čp. 22", "† 27. 3. 1881 Končice čp. 14 (40 let v manželství)", "× Barbora Daníčková"],
-              zam="domkař a baráčník v Končicích čp. 14", bydl="Končice čp. 14", puvod="Hradišťko čp. 22",
-              r=["hradistko_krest_jiri_ouzky_1813", "koncice_krest_anna_ouzka_1848", "koncice_krest_katerina_ouzka_1862", "koncice_oddani_josef_mestanek_1883", "koncice_krest_marie_mestankova_1885", "koncice_umrti_jiri_ouzky_1881"],
-              note="Narozen 17. 12. 1813 v Hradišťku čp. 22 jako syn Josefa Ouzkého a Anny Novotné. Domkař a baráčník v Končicích čp. 14. Manžel Barbory roz. Daníčkové z Končic čp. 12/38 (žil 40 let v manželství). Zemřel 27. 3. 1881 v Končicích čp. 14 na sešlost věkem (udáno 76 let, skutečný věk 67 let). Dědeček Kateřiny provdané Měšťánkové."),
+              f=["* 17. 12. 1813 Hradišťko čp. 22", "× 22. 11. 1841 Končice čp. 12 Barbora Daníčková", "† 27. 3. 1881 Končice čp. 14 (40 let v manželství)"],
+              zam="domkař a baráčník v Končicích čp. 14, dříve vysloužilý kapitulantský voják", bydl="Končice čp. 12 a 14", puvod="Hradišťko čp. 22",
+              r=["hradistko_krest_jiri_ouzky_1813", "koncice_krest_katerina_ouzka_1839", "koncice_oddani_jiri_ouzky_1841", "koncice_krest_anna_ouzka_1848", "koncice_krest_katerina_ouzka_1862", "koncice_oddani_josef_mestanek_1883", "koncice_krest_marie_mestankova_1885", "koncice_umrti_jiri_ouzky_1881"],
+              note="Narozen 17. 12. 1813 v Hradišťku čp. 22 (v oddacím zápise uveden křest 23. 1. 1809 a věk 32 let) jako syn Josefa Ouzkého a Anny Novotné. Vysloužilý kapitulantský voják c. k. pěšího pluku Reisinger, poté domkař a baráčník v Končicích čp. 14. Dne 22. 11. 1841 se v Končicích čp. 12 oženil s Barborou roz. Daníčkovou z Končic čp. 12/38 (žil 40 let v manželství). Zemřel 27. 3. 1881 v Končicích čp. 14 na sešlost věkem (udáno 76 let, skutečný věk 67 let). Dědeček Kateřiny provdané Měšťánkové."),
 
     255: dict(n="Barbora Ouzká", y="20. 11. 1809 – 15. 7. 1883", st="doc",
               otec=510, matka=511,
-              f=["* 20. 11. 1809 Končice čp. 38", "× Jiří Ouzký", "† 15. 7. 1883 Končice čp. 14 (vdova, 73 let)"],
-              roz="Daníčková", bydl="Končice čp. 14", puvod="Končice čp. 38",
-              r=["koncice_krest_barbora_danickova_1809", "koncice_krest_anna_ouzka_1848", "koncice_oddani_josef_mestanek_1883", "koncice_krest_marie_mestankova_1885", "koncice_umrti_barbora_ouzka_1883"],
-              note="Narozena 20. 11. 1809 v Končicích čp. 38 (dříve/později čp. 12) jako dcera půlsedláka Jiřího Daníčka a Magdaleny Černé ze Zbraně. Manželka domkaře Jiřího Ouzkého z Končic čp. 14. Zemřela jako vdova 15. 7. 1883 v Končicích čp. 14 ve věku udaném jako 73 let, 10 měsíců a 25 dní na sešlost věkem."),
+              f=["* 20. 11. 1809 Končice čp. 38", "× 22. 11. 1841 Končice čp. 12 Jiří Ouzký", "† 15. 7. 1883 Končice čp. 14 (vdova, 73 let)"],
+              roz="Daníčková", bydl="Končice čp. 12 a 14", puvod="Končice čp. 38",
+              r=["koncice_krest_barbora_danickova_1809", "koncice_krest_katerina_ouzka_1839", "koncice_oddani_jiri_ouzky_1841", "koncice_krest_anna_ouzka_1848", "koncice_oddani_josef_mestanek_1883", "koncice_krest_marie_mestankova_1885", "koncice_umrti_barbora_ouzka_1883"],
+              note="Narozena 20. 11. 1809 v Končicích čp. 38 (dříve/později čp. 12) jako dcera půlsedláka Jiřího Daníčka a Magdaleny Černé ze Zbraně. Dne 22. 11. 1841 se v Končicích čp. 12 provdala za Jiřího Ouzkého z Končic čp. 14. Zemřela jako vdova 15. 7. 1883 v Končicích čp. 14 ve věku udaném jako 73 let, 10 měsíců a 25 dní na sešlost věkem."),
 
 
 

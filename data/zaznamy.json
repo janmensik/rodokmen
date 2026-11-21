@@ -1903,5 +1903,70 @@
     "nazev": "Úmrtí Františka Černého (Malé Zboží, 1884)",
     "shrnuti": "Dne 1. 4. 1884 zemřel v Malém Zboží čp. 15 a 3. 4. byl pohřben František Černý, kovář v Malém Zboží, ve věku 54 let (* cca 1830, 27 roků v manželství; vodnatelnost).",
     "odkaz": "https://ebadatelna.soapraha.cz/d/15571/44"
+  },
+  {
+    "klic": "podebrady_umrti_katerina_cerna_1914",
+    "typ": "umrti",
+    "druh": "Z",
+    "nazev": "Úmrtí Kateřiny Černé roz. Michlové",
+    "svazek": "ebad_13988",
+    "strana": "pag. 68, sn. 70",
+    "datum": "1914-09-29",
+    "misto": "Poděbrady čp. 254-III",
+    "osoby": [
+      121
+    ],
+    "shrnuti": "Dne 29. 9. 1914 zemřela náhle v Poděbradech čp. 254-III na mrtvici a 1. 10. byla pohřbena ve Velkém Zboží Kateřina Černá, vdova po + Františku Černém, kováři v Poděbradech čp. 254-III, rodem Michlová z Vlkova (nar. 29. 4. 1839 ve Vlkově, o. Poděbrady), ve věku 75 let.",
+    "odkaz": "https://ebadatelna.soapraha.cz/d/13988/70"
+  },
+  {
+    "klic": "koncice_krest_katerina_ouzka_1839",
+    "typ": "krest",
+    "druh": "N",
+    "nazev": "Narození a křest Kateřiny Ouzké",
+    "svazek": "ebad_10055",
+    "strana": "pag. 153, sn. 138",
+    "datum": "1839-09-09",
+    "misto": "Končice čp. 12",
+    "osoby": [
+      127,
+      254,
+      255
+    ],
+    "shrnuti": "Dne 9. 9. 1839 se narodila a 10. 9. byla pokřtěna Kateřina Ouzká v Končicích čp. 12, dcera Jiřího Ouzkého (syna Josefa Ouzkého z Hradišťka čp. 34 a Anny roz. Josefa Novotného z Končic čp. 9) a Barbory (dcery Jiřího Daníčka z Končic čp. 12 a Magdaleny roz. Jana Černého ze Zbraně čp. 4); legitimizována následným sňatkem rodičů dne 22. 11. 1841.",
+    "odkaz": "https://ebadatelna.soapraha.cz/d/10055/138"
+  },
+  {
+    "klic": "koncice_oddani_jiri_ouzky_1841",
+    "typ": "oddani",
+    "druh": "O",
+    "nazev": "Sňatek Jiřího Ouzkého a Barbory Daníčkové",
+    "svazek": "ebad_10061",
+    "strana": "pag. 104, sn. 98",
+    "datum": "1841-11-22",
+    "misto": "Končice čp. 12",
+    "osoby": [
+      254,
+      255
+    ],
+    "shrnuti": "Dne 22. 11. 1841 byli v Končicích čp. 12 oddáni Jiří Ouzký (32 let, vysloužilý kapitulantský voják od c. k. pěšího pluku Reisinger, syn + Josefa Ouzkého z Hradišťka čp. 34 a Anny roz. Jana Novotného z Končic čp. 9) a Barbora Daníčková (32 let, * 20. 11. 1809, dcera Jiřího Daníčka z Končic čp. 12 a Magdaleny roz. Černého ze Zbraně čp. 4).",
+    "odkaz": "https://ebadatelna.soapraha.cz/d/10061/98"
+  },
+  {
+    "klic": "vlkov_krest_katerina_michlova_1839",
+    "typ": "krest",
+    "druh": "N",
+    "nazev": "Narození a křest Kateřiny Michlové",
+    "svazek": "eba3255a",
+    "strana": "fol. 215v, sn. 196",
+    "datum": "1839-03-21",
+    "misto": "Vlkov nad Lesy čp. 11",
+    "osoby": [
+      121,
+      242,
+      243
+    ],
+    "shrnuti": "Dne 21. 3. 1839 se narodila a 22. 3. byla pokřtěna Kateřina Michlová ve Vlkově nad Lesy čp. 11, dcera kováře Josefa Michla a Anny roz. Václava Fialy z Lužce nad Cidlinou čp. 12.",
+    "odkaz": "https://aron.vychodoceskearchivy.cz/apu/eba3255a-f26a-4700-99c7-8212d896d8d6/dao/eba3255a-f26a-4700-99c7-8212d896d8d6/file/bb2ce61b-cc54-443a-8246-ffb90a069fae"
   }
 ]

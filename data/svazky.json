@@ -1377,5 +1377,29 @@
   "popis": "Malé Zboží, Velké Zboží",
   "snimku": 98,
   "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/15571"
+ },
+ "ebad_13988": {
+  "archiv": "SOA Praha – Sbírka matrik",
+  "portal": "eBadatelna",
+  "svazek": "Poděbrady 73, Z 1909–1927",
+  "popis": "Malé Zboží, Poděbrady",
+  "snimku": 209,
+  "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/13988"
+ },
+ "ebad_10061": {
+  "archiv": "SOA Praha – Sbírka matrik",
+  "portal": "eBadatelna",
+  "svazek": "Žiželice 09, O 1834–1849, Oi 1834–1849",
+  "popis": "Bílé Vchynice, Freudenthal, Hlavečník, Hradišťko II, Končice, Korce, Kundratice, Loukonosy, Převýšov, Radovesnice II, Rasochy, Rozehnaly, Tetov, Zbraň, Žiželice",
+  "snimku": 189,
+  "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/10061"
+ },
+ "eba3255a": {
+  "archiv": "Státní oblastní archiv v Hradci Králové",
+  "portal": "ARON",
+  "svazek": "Sbírka matrik Východočeského kraje, sign.: 95-4 (poř.č. 6771), 1823-1844",
+  "popis": "římskokatolická matrika NAROZENÝCH, Dvůr Žabí Lhotka + Lužec nad Cidlinou, Skochovice, Číhary + Hlínov + Kopanina + Vlkov nad Lesy (2.1823-10.1844), Žantov (7.1823-11.1844)",
+  "snimku": 212,
+  "url": "https://aron.vychodoceskearchivy.cz/apu/eba3255a-f26a-4700-99c7-8212d896d8d6"
  }
 }
