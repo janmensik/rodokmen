@@ -1049,15 +1049,11 @@ P = {
 
               note="Matka Barbory Jarolímové, dcera Josefa Táborského ze Žlebů."),
 
-    172: dict(n="Martin Havel", y="† před 1857", st="doc",
-
-              f=["× Magdalena Dolanská", "† před 13. 1. 1857"],
-
-              zam="domkař", bydl="Dolní Krupá čp. 42",
-
-              r=["krupa_krest_antonie_havlova_1857", "krupa_oddani_jan_jarolim_1888"],
-
-              note="Domkař v Dolní Krupé čp. 42, otec mistra krejčovského Jana Havla. Doložen v křestní matrice vnučky Antonie."),
+    172: dict(n="Martin Havel", y="cca 1770 – 18. 6. 1847", st="doc",
+              f=["* cca 1770", "× Magdalena Dolanská", "† 18. 6. 1847 Dolní Krupá čp. 42 (77 let)"],
+              zam="krejčí, domkař a výměnkář", bydl="Dolní Krupá čp. 42",
+              r=["krupa_krest_jan_havel_1814", "krupa_umrti_martin_havel_1847", "krupa_krest_antonie_havlova_1857", "krupa_oddani_jan_jarolim_1888"],
+              note="Krejčí, domkař a výměnkář v Dolní Krupé čp. 42, otec mistra krejčovského Jana Havla (* 1814). Zemřel 18. 6. 1847 v Dolní Krupé čp. 42 ve věku 77 let (* cca 1770) na záduší."),
 
     173: dict(n="Magdalena Dolanská", y="† před 1857", st="doc",
 
