@@ -1223,8 +1223,8 @@
  "ebad_4711": {
   "archiv": "SOA Praha – Sbírka matrik",
   "portal": "eBadatelna",
-  "svazek": "Čechtice 14, Z+I 1809–1891",
-  "popis": "Čechtice, okres Benešov",
+  "svazek": "Čechtice 14, Z 1809–1891, Zi 1809–1891",
+  "popis": "Čechtice, Černičí, Chrastovice, Malá Paseka, Růžkovy Lhotice, Sudislavice",
   "snimku": 261,
   "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/4711"
  },
@@ -1417,5 +1417,13 @@
   "popis": "Bohouňovice I, Bojiště, Dobešovice, Hořany, Opatovice",
   "snimku": 104,
   "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/9452"
+ },
+ "ebad_10758": {
+  "archiv": "SOA Praha – Sbírka matrik",
+  "portal": "eBadatelna",
+  "svazek": "Osov 19, Z 1826–1851",
+  "popis": "Lážovice, Malý Chlumec, Nové Dvory, Osov, Osovec, Skřipel, Velký Chlumec, Vižina",
+  "snimku": 103,
+  "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/10758"
  }
 }
