@@ -2030,5 +2030,39 @@
     ],
     "shrnuti": "Dne 24. 4. 1842 zemřela v Čechticích čp. 38 ve věku 80 let (* cca 1762) na úbytě a 26. 4. byla pohřbena Terezie Pivničková, vdova a sousedka.",
     "odkaz": "https://ebadatelna.soapraha.cz/d/4711/45"
+  },
+  {
+    "klic": "ponikla_umrti_michal_tomicek_1848",
+    "nazev": "Úmrtí Michala Tomíčka (1848)",
+    "druh": "Z",
+    "datum": "7. 11. 1848",
+    "obec": "Poniklá čp. 117",
+    "svazek": "95ed2014",
+    "strana": "pag. 377, sn. 193",
+    "vyrez": "vyrezy/ponikla_umrti_michal_tomicek_1848.jpg",
+    "zdroj": "zdroje/ponikla_umrti_michal_tomicek_1848.jpg",
+    "osoby": [
+      152
+    ],
+    "shrnuti": "Dne 7. 11. 1848 ve 20:30 zemřel v Poniklé čp. 117 ve věku 52 let, 8 měsíců a 15 dní měšťan a pekař Michal Tomíček a 10. 11. byl pohřben.",
+    "odkaz": "https://aron.vychodoceskearchivy.cz/apu/95ed2014-6aa5-485d-a32e-54c74de3de84/dao/95ed2014-6aa5-485d-a32e-54c74de3de84/file/8389f01c-ac07-462f-bd80-4ee42d68a67f"
+  },
+  {
+    "klic": "ponikla_umrti_anna_tomickova_1850",
+    "nazev": "Úmrtí Anny Tomíčkové roz. Skalské (1850)",
+    "druh": "Z",
+    "datum": "27. 11. 1850",
+    "obec": "Poniklá čp. 117",
+    "svazek": "95ed2014",
+    "strana": "pag. 390, sn. 200",
+    "vyrez": "vyrezy/ponikla_umrti_anna_tomickova_1850.jpg",
+    "zdroj": "zdroje/ponikla_umrti_anna_tomickova_1850.jpg",
+    "osoby": [
+      153,
+      306,
+      152
+    ],
+    "shrnuti": "Dne 27. 11. 1850 ve 22 hodin zemřela v Poniklé čp. 117 na vodnatelnost ve věku 49 let a 5 měsíců Anna, vdova po měšťanu a pekaři Michalu Tomíčkovi, rozená Jerolíma Skalského, a 30. 11. byla pohřbena.",
+    "odkaz": "https://aron.vychodoceskearchivy.cz/apu/95ed2014-6aa5-485d-a32e-54c74de3de84/dao/95ed2014-6aa5-485d-a32e-54c74de3de84/file/4cc97bb0-25ae-4e75-93a5-780f8ee729ff"
   }
 ]
