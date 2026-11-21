@@ -648,15 +648,11 @@ P = {
 
              note="Doložena v křestních zápisech syna Jana i vnučky Emilie ve Žlebech; v oddacím zápise syna Jana (1888) uvedena jako již zesnulá."),
 
-    86: dict(n="Jan Havel", y="† před 1888", st="doc",
-
-             f=["× Anna Jeřábková", "† před 29. 5. 1888", "syn Martina Havla a Magdaleny Dolanské"],
-
-             zam="mistr krejčovský", bydl="Dolní Krupá čp. 42",
-
-             r=["krupa_krest_antonie_havlova_1857", "krupa_oddani_jan_jarolim_1888", "zleby_krest_emilie_jarolimova_1899"],
-
-             note="Mistr krejčovský v Dolní Krupé čp. 42. Syn domkaře Martina Havla z Dolní Krupé čp. 42 a Magdaleny roz. Dolanské z čp. 22. Doložen v křtu dcery Antonie (1857) i vnučky Emilie (1899); k 1888 již zesnulý."),
+    86: dict(n="Jan Havel", y="21. 5. 1814 – před 1888", st="doc",
+             f=["* 21. 5. 1814 Dolní Krupá čp. 42", "× Anna Jeřábková", "† před 29. 5. 1888", "syn Martina Havla a Magdaleny Dolanské"],
+             zam="mistr krejčovský", bydl="Dolní Krupá čp. 42", puvod="Dolní Krupá čp. 42",
+             r=["krupa_krest_jan_havel_1814", "krupa_krest_antonie_havlova_1857", "krupa_oddani_jan_jarolim_1888", "zleby_krest_emilie_jarolimova_1899"],
+             note="Pokřtěn 21. 5. 1814 v Dolní Krupé čp. 42 (21. 1. 1837 si vyžádal křestní list ke sňatku). Mistr krejčovský v Dolní Krupé čp. 42. Syn krejčího Martina Havla z Dolní Krupé čp. 42 a Magdaleny roz. Dolanské z čp. 22. Doložen v křtu dcery Antonie (1857) i vnučky Emilie (1899); k 1888 již zesnulý."),
 
     87: dict(n="Anna Jeřábková", y="† před 1888", st="doc",
 
