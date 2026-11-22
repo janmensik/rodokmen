@@ -1065,15 +1065,15 @@ P = {
 
               note="Matka krejčího Jana Havla, rodem z Dolní Krupé čp. 22. Doložena v křestní matrice vnučky Antonie."),
 
-    174: dict(n="Ignác Jeřábek", y="† po 1864", st="doc",
+    174: dict(n="Ignác Jeřábek", y="* cca 1798 – † 3. 4. 1865", st="doc",
 
-              f=["× Josefa Hoffmannová", "† po 1864"],
+              f=["* cca 1798", "× Josefa Hoffmannová", "† 3. 4. 1865 Dolní Krupá čp. 42 (67 let, vdovec, sešlost věkem)"],
 
-              zam="učitel", bydl="Čachotín čp. 15, Jiříkov čp. 4 a Dolní Krupá čp. 42",
+              zam="školní učitel", bydl="Čachotín čp. 15, Jiříkov čp. 4 a Dolní Krupá čp. 42",
 
-              r=["krupa_krest_antonie_havlova_1857", "krupa_oddani_jan_jarolim_1888", "zleby_krest_emilie_jarolimova_1899"],
+              r=["krupa_krest_antonie_havlova_1857", "krupa_umrti_ignac_jerabek_1865", "krupa_oddani_jan_jarolim_1888", "zleby_krest_emilie_jarolimova_1899"],
 
-              note="Učitel v Čachotíně čp. 15, k roku 1857 žil v Jiříkově čp. 4, k roku 1864 na odpočinku v Dolní Krupé čp. 42. Otec Anny Jeřábkové. Doložen v křestních matrikách dcery i vnuček."),
+              note="Školní učitel v Čachotíně čp. 15, k roku 1857 žil v Jiříkově čp. 4, později na odpočinku v Dolní Krupé čp. 42 (u zetě Jana Havla). Otec Anny Jeřábkové. Zemřel jako vdovec 3. 4. 1865 v Dolní Krupé čp. 42 ve věku 67 let (* cca 1798) na sešlost věkem a 5. 4. byl pohřben."),
 
     175: dict(n="Josefa Hoffmannová", y="† před 1864", st="doc",
 
