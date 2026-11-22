@@ -1075,15 +1075,15 @@ P = {
 
               note="Školní učitel v Čachotíně čp. 15, k roku 1857 žil v Jiříkově čp. 4, později na odpočinku v Dolní Krupé čp. 42 (u zetě Jana Havla). Otec Anny Jeřábkové. Zemřel jako vdovec 3. 4. 1865 v Dolní Krupé čp. 42 ve věku 67 let (* cca 1798) na sešlost věkem a 5. 4. byl pohřben."),
 
-    175: dict(n="Josefa Hoffmannová", y="† před 1864", st="doc",
+    175: dict(n="Josefa Hoffmannová", y="* 19. 4. 1794 – † před 1864", st="doc",
+              otec=350, matka=351,
+              f=["* 19. 4. 1794 Pohled (Frauenthal) čp. 7", "dcera učitele Josefa Hoffmanna a Moniky Risslové", "× Ignác Jeřábek", "† před 9. 7. 1864"],
 
-              f=["× Ignác Jeřábek", "† před 9. 7. 1864"],
+              bydl="Frauenthal (Pohled) čp. 5 / 7",
 
-              bydl="Frauenthal (Pohled) čp. 5",
+              r=["pohled_krest_josefa_hoffmannova_1794", "krupa_krest_antonie_havlova_1857"],
 
-              r=["krupa_krest_antonie_havlova_1857"],
-
-              note="Manželka učitele Ignáce Jeřábka, rodem z Frauenthalu (Pohledu) čp. 5. Matka Anny Jeřábkové. Doložena v křestní matrice dcery Antonie."),
+              note="Narozena 19. 4. 1794 v Pohledu (Frauenthal) čp. 7 jako manželská dcera učitele Josefa Hoffmanna a Moniky roz. Risslové. Manželka učitele Ignáce Jeřábka a matka Anny Jeřábkové. Zemřela před 9. 7. 1864."),
 
     176: dict(n="Josef Holánek", y="† před 1854", st="doc",
               f=["× Barbora Slámová", "† před 4. 8. 1854"],
@@ -1417,6 +1417,17 @@ P = {
               r=["zleby_krest_jan_jarolim_1863", "zleby_krest_emilie_jarolimova_1899"],
 
               note="Otec Kateřiny Táborské ze Žlebů; doložen v křestních zápisech vnuka Jana a pravnučky Emilie Jarolímových."),
+
+    350: dict(n="Josef Hoffmann", y="před 1770–?", st="doc",
+              f=["školní učitel v Pohledu (Frauenthal) čp. 7", "× Monika Risslová"],
+              zam="školní učitel", bydl="Pohled (Frauenthal) čp. 7",
+              r=["pohled_krest_josefa_hoffmannova_1794"],
+              note="Školní učitel (Schullehrer) v Pohledu (Frauenthal) čp. 7, manžel Moniky roz. Risslové a otec Josefy Hoffmannové provdané Jeřábkové (* 1794)."),
+    351: dict(n="Monika Risslová", y="před 1774–?", st="doc",
+              f=["× Josef Hoffmann"],
+              roz="Risslová", bydl="Pohled (Frauenthal) čp. 7",
+              r=["pohled_krest_josefa_hoffmannova_1794"],
+              note="Manželka učitele Josefa Hoffmanna v Pohledu (Frauenthal) čp. 7 a matka Josefy Hoffmannové provdané Jeřábkové (* 1794)."),
 
     352: dict(n="František Holánek", y="", st="fam",
 
