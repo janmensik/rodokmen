@@ -373,7 +373,7 @@ P = {
                 "× 3. 10. 1869 Praha (kostel sv. Jiljí) Josef Pivnička"],
              roz="Grubnerová", bydl="Praha Nové Město čp. 1356", puvod="Dobříš čp. 68 (okres Příbram)",
              r=["dobris_krest_antonie_grubnerova_1843", "jilji_oddani_josef_pivnicka_1869", "stepan_krest_jan_pivnicka_1872"],
-             note="Manželka mistra krejčího Josefa Pivničky. Narozena 6. 2. 1843 v Dobříši čp. 68, pokřtěna 7. 2. 1843 jako Antonia Apolena. Dcera dobříšského mistra krejčovského Antonína Grubnera a Barbory roz. Floridové."),
+             note="Manželka mistra krejčího Josefa Pivničky. Narozena 6. 2. 1843 v Dobříši čp. 68, pokřtěna 7. 2. 1843 jako Antonia Apolena. Dcera dobříšského mistra krejčovského Antonína Grubnera a Barbory roz. Klaudyové (v pražské matrice r. 1869 zkomoleno na Filoridová)."),
     38: dict(n="Antonín Tomíček", y="1853–před 1908", st="doc",
              f=["* 30. 4. 1853 Kolín", "× 29. 1. 1880 Minice Anna Halíková", "† před dubnem 1908"],
              zam="c. k. železniční úředník a přednosta stanice (Buštěhradská dráha)",
@@ -778,11 +778,11 @@ P = {
               note="Manželka gruntovníka Václava Hromady, narozená roku 1831 v Chvalovicích čp. 21 jako dcera hospodáře Josefa Kováříka a Anny roz. Homolové z Chrástu na Českobrodsku. Dne 12. 4. 1853 se provdala za Václava Hromadu za písemného souhlasu otce Josefa Kováříka, který odešel na výminek. Matka Anny Černé roz. Hromadové (* 1864)."),
 
     124: dict(n="Václav Měšťánek", y="* cca 1830", st="doc",
-              f=["* cca 1830 Dvory", "× 4. 10. 1858 Pečky (farnost Nebovidy) Barbora Kosová"],
+              f=["* cca 1830 Pučery", "× 4. 10. 1858 Pečky (farnost Nebovidy) Barbora Kosová"],
               zam="tovaryš tesařský v Bojišti čp. 10, záložník c. k. 6. pluku polního dělostřelectva, tkalec",
-              bydl="Bojiště čp. 10 (okres Kolín)", puvod="Dvory čp. 2",
+              bydl="Bojiště čp. 10 (okres Kolín)", puvod="Pučery čp. 2",
               r=["bojiste_oddani_vaclav_mestanek_1858", "bojiste_krest_josef_mestanek_1859", "koncice_oddani_josef_mestanek_1883", "koncice_krest_marie_mestankova_1885"],
-              note="Tovaryš tesařský v Bojišti čp. 10 a tkalec. Sloužil u c. k. 6. pluku polního dělostřelectva (Artillerie-Regiment Nr. 6, majitel generálmajor rytíř von Fitz). Narozen kolem roku 1830 ve Dvorech čp. 2 jako manželský syn nádeníka Antonína Měšťánka a Barbory roz. Šafáříkové z Peček. Dne 4. 10. 1858 se v Pečkách po doručení vojenského povolení z Pešti a ohláškách u dělostřelecké jednotky v Uhrách oženil s Barborou Kosovou z Bojiště čp. 10. Otec mistra tesařského Josefa Měšťánka (* 1859)."),
+              note="Tovaryš tesařský v Bojišti čp. 10 a tkalec. Sloužil u c. k. 6. pluku polního dělostřelectva (Artillerie-Regiment Nr. 6, majitel generálmajor rytíř von Fitz). Narozen kolem roku 1830 v Pučerech čp. 2 (v bojišťských zápisech 1858–1859 čteno též jako Dvory čp. 2) jako manželský syn nádeníka Antonína Měšťánka a Barbory roz. Šafáříkové z Peček. Dne 4. 10. 1858 se v Pečkách po doručení vojenského povolení z Pešti a ohláškách u dělostřelecké jednotky v Uhrách oženil s Barborou Kosovou z Bojiště čp. 10. Otec mistra tesařského Josefa Měšťánka (* 1859)."),
 
     125: dict(n="Barbora Měšťánková", y="* 1835", st="doc",
               f=["* 27. 11. 1835 Bojiště čp. 10", "× 4. 10. 1858 Pečky (farnost Nebovidy) Václav Měšťánek"],
@@ -1180,10 +1180,10 @@ P = {
 
     191: dict(n="Antonie Podroužková", y="* cca 1828 – ?", st="doc",
               otec=382, matka=383,
-              f=["* cca 1828", "∞ 16. 1. 1855 Chlum (Jan Podroužek)", "dcera domkaře Josefa Řeháka z Chlumu čp. 120 a Anny roz. Bartošové ze Slouče čp. 2"],
+              f=["* cca 1828", "∞ 16. 1. 1855 Chlum (Jan Podroužek)", "dcera domkaře Josefa Řeháka z Chlumu čp. 120 a Anny roz. Bártové (Bartošové) ze Slouče čp. 2"],
               roz="Řeháková", bydl="Chlum čp. 31 a 120", puvod="Chlum čp. 120",
               r=["chlum_oddani_jan_podrouzek_1855", "chlum_krest_frantiska_podrouzkova_1854"],
-              note="Pra-pra-prababička Jana Menšíka. Narozena kolem poloviny roku 1828 v Chlumu čp. 120, dcera domkaře Josefa Řeháka a Anny roz. Bartošové, dcery mlynáře ze Slouče čp. 2. Dne 16. 1. 1855 se provdala za půlláníka Jana Podroužka z Chlumu čp. 31."),
+              note="Pra-pra-prababička Jana Menšíka. Narozena kolem poloviny roku 1828 v Chlumu čp. 120, dcera domkaře Josefa Řeháka a Anny roz. Bártové (Bartošové), dcery mlynáře ze Slouče čp. 2. Dne 16. 1. 1855 se provdala za půlláníka Jana Podroužka z Chlumu čp. 31."),
     224: dict(n="Václav Krejsek", y="* před 1775 – † 1832", st="doc",
               f=["* před 1775 Blažkov", "× Anna Stehlíková (ze Zvole)", "† 1832 Blažkov čp. 26 (na choleru)",
                  "otec sedláka Jana Krejska (* 1796)", "pradědeček mistra kolářského Otakara Krejska"],
@@ -1278,7 +1278,7 @@ P = {
               note="Dcera Jana Jirkovského, výminkáře z usedlosti čp. 25 ve Vyšehořovicích, a Alžběty roz. Špačkové z Úhonic. Dne 4. 2. 1817 se ve věku 18 let provdala ve Vyšehořovicích za Václava Hromadu st. z čp. 22; matka Václava Hromady ml. z Chvalovic."),
 
     246: dict(n="Josef Kovářík", y="asi 1792–25. 11. 1877", st="doc",
-              f=["* asi 1792", "× 12. 6. 1821 Chrást / Kounice (Anna Homolová)", "+ 25. 11. 1877 Chvalovice čp. 44 (85 let)"],
+              f=["* asi 1792", "× 12. 6. 1821 Chrást / Kounice (Anna Homolová)", "† 25. 11. 1877 Chvalovice čp. 44 (85 let)"],
               zam="výminkář a dříve gruntovník v Chvalovicích čp. 21", bydl="Chvalovice čp. 21 a 44", puvod="Chvalovice",
               r=["chrast_oddani_josef_kovarik_1821", "kovanice_oddani_vaclav_hromada_1853", "chvalovice_krest_anna_hromadova_1864", "chvalovice_umrti_josef_kovarik_1877"],
               note="Hospodář a gruntovník v Chvalovicích čp. 21, který roku 1853 předal grunt mladému zeti Václavu Hromadovi a dceři Anně a odešel na výminek. Dne 12. 6. 1821 se v Chrástu (Manderšejdě) čp. 15 (zapsán věk 19 let) oženil s Annou roz. Homolovou, dcerou rychtáře Josefa Homoly z Chrástu. Dne 12. 4. 1853 vlastnoručně podepsal v matrice souhlas se sňatkem své dcery Anny. Zemřel 25. 11. 1877 ve Chvalovicích čp. 44 ve věku 85 let."),
@@ -1518,20 +1518,20 @@ P = {
               f=["kovář ve vsi Dusy/Duby čp. 4 (panství Sedlec)", "† před 31. 1. 1826"],
               zam="kovář", bydl="Dusy/Duby čp. 4 (panství Sedlec)", puvod="Dusy/Duby čp. 4",
               r=["zizelice_oddani_vaclav_cerny_1826"],
-              note="Přímý předek v 10. generaci (č. 480), kovář ze vsi Dusy (nebo Duby) čp. 4 na panství Sedlec. Otec Václava Černého (* cca 1797–1798). Zemřel před 31. 1. 1826."),
+              note="Přímý předek v 9. generaci (č. 480), kovář ze vsi Dusy (nebo Duby) čp. 4 na panství Sedlec. Otec Václava Černého (* cca 1797–1798). Zemřel před 31. 1. 1826."),
 
     482: dict(n="Jan Šiška", y="", st="doc",
               f=["kovářský tovaryš a mistr kovářský v Žiželicích čp. 1, 103 a 119", "× Barbora Lišková"],
               zam="mistr kovářský v Žiželicích", bydl="Žiželice čp. 1 / 103 / 119", puvod="Žiželice",
               r=["zizelice_krest_anna_siskova_1805", "zizelice_oddani_vaclav_cerny_1826"],
-              note="Přímý předek v 10. generaci (č. 482), kovářský tovaryš (1805 v čp. 1) a později mistr kovářský v Žiželicích čp. 103 a 119. Manžel Barbory roz. Liškové a otec Anny provdané Černé (* 1805)."),
+              note="Přímý předek v 9. generaci (č. 482), kovářský tovaryš (1805 v čp. 1) a později mistr kovářský v Žiželicích čp. 103 a 119. Manžel Barbory roz. Liškové a otec Anny provdané Černé (* 1805)."),
 
     483: dict(n="Barbora Lišková", y="", st="doc",
               otec=966,
               f=["* Žiželice", "× Jan Šiška", "dcera tkadlece Františka Lišky ze Žiželic"],
               roz="Lišková", bydl="Žiželice čp. 1", puvod="Žiželice",
               r=["zizelice_krest_anna_siskova_1805"],
-              note="Přímá předkyně v 10. generaci (č. 483), dcera zemřelého tkadlce Františka Lišky ze Žiželic. Manželka kováře Jana Šišky a matka Anny provdané Černé (* 1805)."),
+              note="Přímá předkyně v 9. generaci (č. 483), dcera zemřelého tkadlce Františka Lišky ze Žiželic. Manželka kováře Jana Šišky a matka Anny provdané Černé (* 1805)."),
 
     488: dict(n="Matěj Hromada", y="9. 3. 1763 – 20. 4. 1843", st="doc",
               f=["* 9. 3. 1763 Vyšehořovice (křest 10. 3.)", "× Magdalena Burianková", "† 20. 4. 1843 Vyšehořovice čp. 22 (udáno 75 let)"], zam="rychtář a gruntovník ve Vyšehořovicích čp. 22",
@@ -2057,7 +2057,7 @@ P = {
 
     383: dict(n="Anna Bártová", y="", st="doc",
               f=["* Slouč čp. 2", "∞ Josef Řehák"],
-              roz="Bártová", bydl="Chlum čp. 120", puvod="Slouč čp. 2",
+              roz="Bártová (Bartošová)", bydl="Chlum čp. 120", puvod="Slouč čp. 2",
               r=["chlum_oddani_jan_podrouzek_1855", "chlum_krest_frantiska_podrouzkova_1854"],
               note="Přímá předkyně v 9. generaci (č. 383). Pocházela ze Slouče čp. 2 (okres poličský). Manželka domkaře Josefa Řeháka v Chlumu čp. 120 a matka Antonie provdané Podroužkové. Doložena v křestním zápisu vnučky Františky roku 1854."),
 
@@ -2125,7 +2125,7 @@ P = {
     752: dict(n="Vojtěch Pospíchal", y="před 1745 – před 1810", st="doc",
               f=["chalupník v Chlumu", "zemřel před 1. 8. 1810", "otec Tomáše Pospíchala st. (* cca 1763/1764)"],
               zam="chalupník v Chlumu", bydl="Chlum", puvod="Chlum",
-              r=["chlum_krest_tomas_pospichal_1810"],
+              r=["chlum_krest_tomas_pospichal_1810", "krucemburk_krest_vojtech_pospichal_1753"],
               note="Přímý předek v 10. generaci (č. 752), chalupník v Chlumu (panství Chrast). Otec domkaře Tomáše Pospíchala st. (č. 376, * cca 1763/1764) a dědeček krejčovského mistra Tomáše Pospíchala ml. (* 1810). V křestním zápisu vnuka Tomáše z 1. 8. 1810 je otec výslovně uveden jako 'Tomáš Pospjchal syn + Wogtěcha Pospjchala chalupnjka z Chlumu', což dokládá, že v srpnu 1810 byl již po smrti. (Pozn.: krucemburský křest Adalberta Pospíchala z 9. 4. 1753 je mladší jmenovec – otec Tomáše * cca 1763 musel být narozen nejpozději kolem roku 1745.)"),
 
     754: dict(n="Martin Pátek", y="před 1756 – ?", st="doc",
@@ -2390,23 +2390,23 @@ P = {
               f=["tkadlec v Žiželicích", "† před srpnem 1805"],
               zam="tkadlec v Žiželicích", bydl="Žiželice", puvod="Žiželice",
               r=["zizelice_krest_anna_siskova_1805"],
-              note="Přímý předek v 11. generaci (č. 966), tkadlec v Žiželicích. Otec Barbory roz. Liškové provdané Šiškové. Zemřel před srpnem 1805."),
+              note="Přímý předek v 10. generaci (č. 966), tkadlec v Žiželicích. Otec Barbory roz. Liškové provdané Šiškové. Zemřel před srpnem 1805."),
     976: dict(n="Václav Hromada", y="", st="doc",
               f=["sedlák ve Vyšehořovicích (podd. ke Kounicům)", "× Anna"],
               zam="sedlák ve Vyšehořovicích", bydl="Vyšehořovice", puvod="Vyšehořovice",
               r=["vysehorovice_krest_matej_hromada_1763"],
-              note="Přímý předek v 11. generaci (č. 976), sedlák ve Vyšehořovicích na panství Kounice. Manžel Anny a otec rychtáře Matěje Hromady (* 9. 3. 1763, č. 488)."),
+              note="Přímý předek v 10. generaci (č. 976), sedlák ve Vyšehořovicích na panství Kounice. Manžel Anny a otec rychtáře Matěje Hromady (* 9. 3. 1763, č. 488)."),
     977: dict(n="Anna Hromadová", y="", st="doc",
               f=["× Václav Hromada"],
               bydl="Vyšehořovice", puvod="Vyšehořovice",
               r=["vysehorovice_krest_matej_hromada_1763"],
-              note="Přímá předkyně v 11. generaci (č. 977), manželka sedláka Václava Hromady z Vyšehořovic a matka rychtáře Matěje Hromady (* 9. 3. 1763, č. 488)."),
+              note="Přímá předkyně v 10. generaci (č. 977), manželka sedláka Václava Hromady z Vyšehořovic a matka rychtáře Matěje Hromady (* 9. 3. 1763, č. 488)."),
 
     1022: dict(n="Jan Černý", y="", st="doc",
                f=["baráčník ze Zbraně čp. 10", "otec Magdaleny Daníčkové roz. Černé (* cca 1787)"],
                zam="baráčník ze Zbraně čp. 10", bydl="Zbraň čp. 10", puvod="Zbraň čp. 10",
                r=["zbran_oddani_jiri_danicek_1809"],
-               note="Přímý předek v 11. generaci (č. 1022), baráčník ze Zbraně čp. 10. Otec Magdaleny Daníčkové roz. Černé (* cca 1787, č. 511)."),
+               note="Přímý předek v 10. generaci (č. 1022), baráčník ze Zbraně čp. 10. Otec Magdaleny Daníčkové roz. Černé (* cca 1787, č. 511)."),
 
     484: dict(n="Josef Michl st.", y="", st="doc",
               f=["baráčník z Lovčic čp. 14, pak obyvatel ve Vlkově", "× Magdalena Ježková"],
@@ -2625,7 +2625,7 @@ ISSUES = [
 
     ("Původ pradědečka Fridricha Hůlka (č. 20)", "Otevřené: v PDF je uveden jako lesní inženýr s fotografií, ale bez data a místa narození; jeho syn Richard (* 1927 Žleby čp. 17) nesl příjmení matky Jarolím."),
 
-    ("Povolání Matěje Šímy (č. 90) ze Starého Ranska čp. 2", "Otevřené: v PDF je uvedeno 'horolezec' – v matrice Starého Ranska ověřit, zda nešlo o čtení slova 'horník' / 'havíř' u železáren."),
+    ("Povolání Matěje Šímy (č. 90) ze Starého Ranska čp. 2", "Vyřešeno z primárních matrik: Matěj Šíma byl havíř a kovolijec ve Starém Ransku čp. 20, 41 a 46 (nikoli 'horolezec' z rodinné tradice); v čp. 2 působil jeho otec, panský dráb Tomáš Šíma (č. 180)."),
 
     ("Původ a narození pradědečka Otakara Jana Krejzka (* 6. 5. 1877 Blažkov čp. 20, č. 28) a prababičky Františky roz. Sýsové (č. 29)", "Narození a rodokmen Otakara Jana Krejzka plně vyřešeny z evangelických a katolických matrik Novoměstska (sv. 16712, sn. 16): narodil se 6. 5. 1877 v Blažkově čp. 20 v rodině evangelického rolníka a pozdějšího starosty Václava Krejska (* cca 1848) a Marie roz. Hamříkové (* 1849), vnuk sedláka Jana Krejska (* 1796) & Anny Procházkové a svobodníka Františka Hamříka & Anny Falské, pravnuk sedláka Václava Krejska st. († 1832 na choleru). Z oddacích zápisů synů MUDr. Emila (1943) a MUDr. Václava (1949) bylo zjištěno rodné příjmení jeho manželky Františky Sýsové, dcery hajného Leopolda Sýse z Borovníka (č. 58), a doloženi všichni šest synů (Ladislav * 1905, Otakar ml. * 1907, MUDr. Emil * 1910, Bedřich * 1912, MUDr. Miroslav * 1914, MUDr. Václav * 1919). Otevřené zůstává přesné datum a místo narození Františky Sýsové (cca 1880–1885, hajný Leopold Sýs sloužil v Borovníku dočasně) a místo jejich sňatku před r. 1905."),
 ]

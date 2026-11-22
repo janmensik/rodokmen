@@ -381,18 +381,6 @@
     "lat": 50.1742,
     "lon": 15.3986
   },
-  "Lužany": {
-    "re": "Lužan",
-    "dotaz": "Lužany, okres Hradec Králové, Česko",
-    "lat": 50.3414,
-    "lon": 15.4686
-  },
-  "Dvory": {
-    "re": "Dvor[yů]|ve Dvorech",
-    "dotaz": "Dvory, okres Nymburk, Česko",
-    "lat": 50.2286,
-    "lon": 14.9964
-  },
   "Svatbín (Svrabov)": {
     "re": "Svrabov|Svatbín",
     "dotaz": "Svatbín, Kostelec nad Černými lesy, Česko",
@@ -459,12 +447,6 @@
     "lat": 50.2319,
     "lon": 14.3015
   },
-  "Podmokly": {
-    "re": "Podmokl",
-    "dotaz": "Podmokly, okres Kutná Hora, Česko",
-    "lat": 49.8825,
-    "lon": 15.4217
-  },
   "Poniklá": {
     "re": "Ponikl",
     "dotaz": "Poniklá, okres Semily, Česko",
@@ -476,5 +458,113 @@
     "dotaz": "Feldkirch, Vorarlberg, Rakousko",
     "lat": 47.2372,
     "lon": 9.5986
+  },
+  "Pučery": {
+    "re": "Pučer",
+    "dotaz": "Pučery, okres Kolín, Česko",
+    "lat": 49.9614,
+    "lon": 15.0836
+  },
+  "Vižina": {
+    "re": "Vižin",
+    "dotaz": "Vižina, okres Beroun, Česko",
+    "lat": 49.8408,
+    "lon": 14.1292
+  },
+  "Skřipel": {
+    "re": "Skřip[el]",
+    "dotaz": "Skřipel, okres Beroun, Česko",
+    "lat": 49.8397,
+    "lon": 14.0881
+  },
+  "Druhlice": {
+    "re": "Druhlic",
+    "dotaz": "Druhlice, okres Příbram, Česko",
+    "lat": 49.7547,
+    "lon": 14.1653
+  },
+  "Dřevčice": {
+    "re": "Dřevčic",
+    "dotaz": "Dřevčice, okres Praha-východ, Česko",
+    "lat": 50.1686,
+    "lon": 14.6231
+  },
+  "Vinoř": {
+    "re": "Vinoř",
+    "dotaz": "Vinoř, Praha, Česko",
+    "lat": 50.1419,
+    "lon": 14.5797
+  },
+  "Nový Brázdim": {
+    "re": "Brázdim",
+    "dotaz": "Brázdim, okres Praha-východ, Česko",
+    "lat": 50.1819,
+    "lon": 14.5881
+  },
+  "Veleň": {
+    "re": "Vele[nň]",
+    "dotaz": "Veleň, okres Praha-východ, Česko",
+    "lat": 50.1753,
+    "lon": 14.5583
+  },
+  "Křivsoudov": {
+    "re": "Křivsoudov",
+    "dotaz": "Křivsoudov, okres Benešov, Česko",
+    "lat": 49.6317,
+    "lon": 15.0914
+  },
+  "Lužec nad Cidlinou": {
+    "re": "Lužec nad Cidlinou|Lužc",
+    "dotaz": "Lužec nad Cidlinou, okres Hradec Králové, Česko",
+    "lat": 50.1794,
+    "lon": 15.3944
+  },
+  "Lovčice": {
+    "re": "Lovčic",
+    "dotaz": "Lovčice, okres Hradec Králové, Česko",
+    "lat": 50.1408,
+    "lon": 15.4008
+  },
+  "Hradišťko": {
+    "re": "Hradišťk",
+    "dotaz": "Hradišťko II, okres Kolín, Česko",
+    "lat": 50.1194,
+    "lon": 15.3586
+  },
+  "Zbraň": {
+    "re": "Zbra[nň]",
+    "dotaz": "Zbraň, Končice, okres Kolín, Česko",
+    "lat": 50.1233,
+    "lon": 15.3669
+  },
+  "Kohoutov": {
+    "re": "Kohoutov",
+    "dotaz": "Kohoutov, Krucemburk, okres Havlíčkův Brod, Česko",
+    "lat": 49.7111,
+    "lon": 15.8622
+  },
+  "Slavětín": {
+    "re": "Slavětín",
+    "dotaz": "Slavětín, okres Havlíčkův Brod, Česko",
+    "lat": 49.7014,
+    "lon": 15.8003
+  },
+  "Svratouch": {
+    "re": "Svratouch",
+    "dotaz": "Svratouch, okres Chrudim, Česko",
+    "lat": 49.7294,
+    "lon": 16.0328
+  },
+  "Markvarec": {
+    "re": "Markvar",
+    "dotaz": "Markvarec, Česká Bělá / Černovice, Česko",
+    "lat": 49.3653,
+    "lon": 14.9508
+  },
+  "Matějovice": {
+    "re": "Matějovic",
+    "dotaz": "Matějovice, okres Jindřichův Hradec / Morava, Česko",
+    "lat": 49.1389,
+    "lon": 15.3014
   }
 }
