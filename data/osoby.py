@@ -1085,11 +1085,11 @@ P = {
 
               note="Narozena 19. 4. 1794 v Pohledu (Frauenthal) čp. 7 jako manželská dcera učitele Josefa Hoffmanna a Moniky roz. Risslové. Manželka učitele Ignáce Jeřábka a matka Anny Jeřábkové. Zemřela před 9. 7. 1864."),
 
-    176: dict(n="Josef Holánek", y="† před 1854", st="doc",
-              f=["× Barbora Slámová", "† před 4. 8. 1854"],
-              zam="mistr kovářský", bydl="Staré Ransko čp. 45 a čp. 53",
-              r=["ransko_krest_frantisek_holanek_1854", "ransko_krest_jan_holanek_1820"],
-              note="Mistr kovářský ve Starém Ransku čp. 45 (roku 1820) a čp. 53. Doložen v křestní matrice syna Jana (* 1820, sign. 8327, sn. 47) i vnuka Františka (* 1854, sign. 711, sn. 188), kde je označen za již zesnulého mistra kovářského. Manželka Barbora roz. Slámová z čp. 33."),
+    176: dict(n="Josef Holánek", y="* cca 1797 – † 6. 6. 1836", st="doc",
+              f=["* cca 1797, rodem z Křižanova na Moravě", "mistr kovářský a zámečnický ve Starém Ransku čp. 45 a 53", "× Barbora Slámová", "† 6. 6. 1836 Staré Ransko čp. 53 (39 let, vodnatelnost)"],
+              zam="mistr kovářský a zámečnický", bydl="Staré Ransko čp. 45 a čp. 53", puvod="Křižanov (Morava)",
+              r=["ransko_krest_jan_holanek_1820", "ransko_umrti_josef_holanek_1836", "ransko_krest_frantisek_holanek_1854"],
+              note="Mistr kovářský a zámečnický ve Starém Ransku čp. 45 (roku 1820) a domkář v čp. 53, rodem z Křižanova na Moravě (* cca 1797). Manželka Barbora roz. Slámová z čp. 33. Zemřel 6. 6. 1836 ve Starém Ransku čp. 53 ve věku 39 let na vodnatelnost a 9. 6. byl pohřben."),
 
     177: dict(n="Barbora Slámová", y="", st="doc",
               f=["× Josef Holánek"],
