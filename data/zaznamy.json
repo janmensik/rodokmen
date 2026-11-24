@@ -2220,5 +2220,38 @@
     ],
     "shrnuti": "Dne 9. 11. 1818 se v Pučerech čp. 2 oženil 25letý svobodný čeledín u koní (Pferdknecht) a zeměbranec Antonín Měšťánek s 27letou Barborou (* cca 1791), vdovou po zemřelém Jakubu Sedláčkovi, výměnkáři z Pučer čp. 2.",
     "odkaz": "https://ebadatelna.soapraha.cz/d/12291/54"
+  },
+  {
+    "klic": "zleby_umrti_josef_taborsky_1846",
+    "nazev": "Úmrtí Josefa Táborského (1846)",
+    "druh": "Z",
+    "datum": "24. 5. 1846",
+    "obec": "Žleby čp. 7",
+    "svazek": "ebad_10141",
+    "strana": "pag. 68, sn. 38",
+    "vyrez": "vyrezy/zleby_umrti_josef_taborsky_1846.jpg",
+    "zdroj": "zdroje/zleby_umrti_josef_taborsky_1846.jpg",
+    "osoby": [
+      342
+    ],
+    "shrnuti": "Dne 24. 5. 1846 zemřel ve Žlebech čp. 7 ve věku 60 let (* cca 1786) měšťan Josef Táborský, evangelík helvetského vyznání, na zatvrdnutí jater (Leberverhärtung). Pohřben 26. 5. 1846 za přítomnosti pastora helvetského vyznání.",
+    "odkaz": "https://ebadatelna.soapraha.cz/d/10141/38"
+  },
+  {
+    "klic": "pohled_oddani_josef_hoffmann_1793",
+    "nazev": "Sňatek Josefa Hoffmanna a Moniky Risslové (1793)",
+    "druh": "O",
+    "datum": "29. 9. 1793",
+    "obec": "Pohled (Frauenthal) čp. 7",
+    "svazek": "aron_c38f19e5",
+    "strana": "pag. 7, sn. 7",
+    "vyrez": "vyrezy/pohled_oddani_josef_hoffmann_1793.jpg",
+    "zdroj": "zdroje/pohled_oddani_josef_hoffmann_1793.jpg",
+    "osoby": [
+      350,
+      351
+    ],
+    "shrnuti": "Dne 29. 9. 1793 se v Pohledu (Frauenthal) čp. 7 oženil 30letý svobodný školní učitel (Schullehrer) Josef Hoffmann (* cca 1763) s 26letou svobodnou Monikou Risslovou (* cca 1767).",
+    "odkaz": "https://aron.vychodoceskearchivy.cz/apu/c38f19e5-1c29-42d6-892e-e0f0f4339edc/dao/c38f19e5-1c29-42d6-892e-e0f0f4339edc/file/9048baaa-76f0-496b-acb7-a947f87e7132"
   }
 ]

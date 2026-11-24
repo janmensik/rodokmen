@@ -1413,24 +1413,22 @@ P = {
               roz="Štěpánková / Růžková", bydl="Holubice čp. 4", puvod="Minice čp. 14 / 23",
               r=["minice_oddani_jan_sara_1786", "minice_umrti_anna_sarova_1843", "minice_krest_marie_prochazkova_1833"],
               note="Předek v 8. generaci MUDr. Ludmily Menšíkové (prapraprababička). Narozena 21. 7. 1766 v Minicích. Dne 27. 2. 1786 se v Minicích čp. 14 provdala jako 19letá dcera sedláka Františka Štěpánka za Jana Šáru z Holubic (v křestní matrice vnučky Marie Procházkové r. 1833 je uvedena jako rozená Růžková / Růžanck z Minic čp. 23). Zemřela jako vdova 19. 10. 1843 v Holubicích čp. 4 ve věku 77 let."),
-    342: dict(n="Josef Táborský", y="", st="doc",
+    342: dict(n="Josef Táborský", y="cca 1786 – 24. 5. 1846", st="doc",
+              f=["měšťan ve Žlebech čp. 7", "evangelík helvetského vyznání", "† 24. 5. 1846 Žleby čp. 7 (60 let)"],
+              bydl="Žleby čp. 7 / čp. 126",
+              r=["zleby_umrti_josef_taborsky_1846", "zleby_krest_jan_jarolim_1863", "zleby_krest_emilie_jarolimova_1899"],
+              note="Měšťan ve Žlebech čp. 7, evangelík helvetského vyznání; zemřel 24. 5. 1846 ve věku 60 let na zatvrdnutí jater. Doložen také v křestních zápisech vnuka Jana a pravnučky Emilie Jarolímových."),
 
-              f=[], bydl="Žleby čp. 7 / čp. 126",
-
-              r=["zleby_krest_jan_jarolim_1863", "zleby_krest_emilie_jarolimova_1899"],
-
-              note="Otec Kateřiny Táborské ze Žlebů; doložen v křestních zápisech vnuka Jana a pravnučky Emilie Jarolímových."),
-
-    350: dict(n="Josef Hoffmann", y="před 1770–?", st="doc",
-              f=["školní učitel v Pohledu (Frauenthal) čp. 7", "× Monika Risslová"],
+    350: dict(n="Josef Hoffmann", y="cca 1763 – ?", st="doc",
+              f=["školní učitel v Pohledu (Frauenthal) čp. 7", "× 29. 9. 1793 Pohled čp. 7 Monika Risslová (30 let)"],
               zam="školní učitel", bydl="Pohled (Frauenthal) čp. 7",
-              r=["pohled_krest_josefa_hoffmannova_1794"],
-              note="Školní učitel (Schullehrer) v Pohledu (Frauenthal) čp. 7, manžel Moniky roz. Risslové a otec Josefy Hoffmannové provdané Jeřábkové (* 1794)."),
-    351: dict(n="Monika Risslová", y="před 1774–?", st="doc",
-              f=["× Josef Hoffmann"],
+              r=["pohled_oddani_josef_hoffmann_1793", "pohled_krest_josefa_hoffmannova_1794"],
+              note="Školní učitel (Schullehrer) v Pohledu (Frauenthal) čp. 7. Dne 29. 9. 1793 se tamtéž ve věku 30 let (* cca 1763) oženil s Monikou roz. Risslovou; otec Josefy Hoffmannové provdané Jeřábkové (* 1794)."),
+    351: dict(n="Monika Risslová", y="cca 1767 – ?", st="doc",
+              f=["× 29. 9. 1793 Pohled čp. 7 Josef Hoffmann (26 let)"],
               roz="Risslová", bydl="Pohled (Frauenthal) čp. 7",
-              r=["pohled_krest_josefa_hoffmannova_1794"],
-              note="Manželka učitele Josefa Hoffmanna v Pohledu (Frauenthal) čp. 7 a matka Josefy Hoffmannové provdané Jeřábkové (* 1794)."),
+              r=["pohled_oddani_josef_hoffmann_1793", "pohled_krest_josefa_hoffmannova_1794"],
+              note="Manželka učitele Josefa Hoffmanna v Pohledu (Frauenthal) čp. 7, za nějž se provdala 29. 9. 1793 ve věku 26 let (* cca 1767). Matka Josefy Hoffmannové provdané Jeřábkové (* 1794)."),
 
     352: dict(n="František Holánek", y="", st="fam",
 
