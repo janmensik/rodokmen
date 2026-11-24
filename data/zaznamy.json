@@ -1280,8 +1280,15 @@
     "snimek": "pag. 27, sn. 19",
     "druh": "O",
     "datum": "27. 2. 1786",
+    "obec": "Minice čp. 14",
     "nazev": "Sňatek Jana Šáry a Anny Štěpánkové-Růžkové (Minice, 1786)",
-    "shrnuti": "Dne 27. 2. 1786 v Minicích oddán Jan (18 let, svobodný, katolík), syn sedláka Matěje Šáry z Holubic, s Annou (19 let, svobodná, katolička), dcerou Františka Štěpánka-Růžky z Minic.",
+    "vyrez": "vyrezy/minice_oddani_jan_sara_1786.jpg",
+    "zdroj": "zdroje/minice_oddani_jan_sara_1786.jpg",
+    "osoby": [
+      318,
+      319
+    ],
+    "shrnuti": "Dne 27. 2. 1786 v Minicích čp. 14 oddán Jan (18 let, svobodný, katolík), syn sedláka Matěje Šáry z Holubic, s Annou (19 let, svobodná, katolička), dcerou Františka Štěpánka-Růžky z Minic.",
     "odkaz": "https://ebadatelna.soapraha.cz/d/8588/19"
   },
   {
@@ -1350,8 +1357,15 @@
     "snimek": "fol. 24, sn. 15",
     "druh": "Z",
     "datum": "24. 3. 1854",
+    "obec": "Dřevčice čp. 29",
     "nazev": "Úmrtí Barbory Zárubové (Dřevčice, 1854)",
-    "shrnuti": "Dne 24. 3. 1854 zemřela v Dřevčicích čp. 29 ve věku 72 let Barbora Zárubová, manželka gruntovnického výměnkáře Jana Záruby, rozená z Vinoře (Winon) čp. 3. Pohřbena 27. 3. 1854.",
+    "vyrez": "vyrezy/drevcice_umrti_barbora_zarubova_1854.jpg",
+    "zdroj": "zdroje/drevcice_umrti_barbora_zarubova_1854.jpg",
+    "osoby": [
+      315,
+      314
+    ],
+    "shrnuti": "Dne 24. 3. 1854 zemřela v Dřevčicích čp. 29 ve věku 72 let Barbora Zárubová, manželka gruntovnického výminkáře Jana Záruby, rozená z Vinoře (Winon) čp. 3. Pohřbena 27. 3. 1854 svým synem P. Václavem Zárubou.",
     "odkaz": "https://ebadatelna.soapraha.cz/d/5352/15"
   },
   {
@@ -1360,7 +1374,15 @@
     "snimek": "fol. 49, sn. 27",
     "druh": "Z",
     "datum": "2. 3. 1864",
+    "obec": "Dřevčice čp. 29",
     "nazev": "Úmrtí Jana Záruby (Dřevčice, 1864)",
+    "vyrez": "vyrezy/drevcice_umrti_jan_zaruba_1864.jpg",
+    "zdroj": "zdroje/drevcice_umrti_jan_zaruba_1864.jpg",
+    "osoby": [
+      314,
+      628,
+      629
+    ],
     "shrnuti": "Dne 2. 3. 1864 zemřel v Dřevčicích čp. 29 ve věku 84 let na slabost věku Jan Záruba, vdovec a výměnkář gruntovnický, manželský syn Václava Záruby gruntovníka a rychtáře z Dřevčic čp. 6 a Anny rozené Švančarové z Dřevčic čp. 20. Pohřben 5. 3. 1864.",
     "odkaz": "https://ebadatelna.soapraha.cz/d/5352/27"
   },
