@@ -2416,5 +2416,122 @@
     ],
     "shrnuti": "Dne 9. 6. 1762 zemřel v Ransku a 11. 6. 1762 byl u kostela sv. Mikuláše v Krucemburku pohřben Tobiáš Dymáček ve věku 82 let (* cca 1680).",
     "odkaz": "https://aron.vychodoceskearchivy.cz/apu/8c975af7-bea8-40d9-af0f-f6f9c0da49dd/dao/8c975af7-bea8-40d9-af0f-f6f9c0da49dd/file/d35f708c-197b-4eaa-81f3-0790a03e4463"
+  },
+  {
+    "klic": "sopoty_oddani_josef_slama_1703",
+    "nazev": "Sňatek Josefa Slámy a Alžběty Dymáčkové (1703)",
+    "druh": "O",
+    "datum": "18. 11. 1703",
+    "obec": "Sopoty",
+    "svazek": "f1534cc2",
+    "strana": "pag. 297, sn. 151",
+    "vyrez": "vyrezy/sopoty_oddani_josef_slama_1703.jpg",
+    "zdroj": "zdroje/sopoty_oddani_josef_slama_1703.jpg",
+    "osoby": [
+      1416,
+      1417
+    ],
+    "shrnuti": "Dne 18. 11. 1703 (v matrice 18 9bris) byl oddán Josef Sláma ze Sopot s Alžbětou, dcerou Jana Dymáčka.",
+    "odkaz": "https://aron.vychodoceskearchivy.cz/apu/f1534cc2-55cf-47b0-b0f5-e8fc4170bbdb/dao/f1534cc2-55cf-47b0-b0f5-e8fc4170bbdb/file/a4f4672a-9b76-4322-938e-5118384d783f"
+  },
+  {
+    "klic": "sopoty_umrti_josef_slama_1732",
+    "nazev": "Úmrtí Josefa Slámy (1732)",
+    "druh": "Z",
+    "datum": "4. 10. 1732",
+    "obec": "Sopoty",
+    "svazek": "f1534cc2",
+    "strana": "pag. 488, sn. 247",
+    "vyrez": "vyrezy/sopoty_umrti_josef_slama_1732.jpg",
+    "zdroj": "zdroje/sopoty_umrti_josef_slama_1732.jpg",
+    "osoby": [
+      1416
+    ],
+    "shrnuti": "Dne 4. 10. 1732 zemřel (byl pohřben) Josef Sláma ze Sopot, zaopatřen svátostmi, ve věku 60 let (* cca 1672).",
+    "odkaz": "https://aron.vychodoceskearchivy.cz/apu/f1534cc2-55cf-47b0-b0f5-e8fc4170bbdb/dao/f1534cc2-55cf-47b0-b0f5-e8fc4170bbdb/file/0a586ccf-11cb-47f9-9b4d-666154ee65cd"
+  },
+  {
+    "klic": "ransko_oddani_tobias_dymacek_1711",
+    "nazev": "Sňatek Tobiáše Dymáčka a Mariany Chlebečkové (1711)",
+    "druh": "O",
+    "datum": "8. 11. 1711",
+    "obec": "Sobiňov",
+    "svazek": "f1534cc2",
+    "strana": "pag. 312, sn. 159",
+    "vyrez": "vyrezy/ransko_oddani_tobias_dymacek_1711.jpg",
+    "zdroj": "zdroje/ransko_oddani_tobias_dymacek_1711.jpg",
+    "osoby": [
+      1420,
+      1421
+    ],
+    "shrnuti": "Dne 8. 11. 1711 byl oddán Tobiáš Dymáček ze Sobiňova s Marianou, dcerou zemřelého Matěje Chlebečka ze Ždírce.",
+    "odkaz": "https://aron.vychodoceskearchivy.cz/apu/f1534cc2-55cf-47b0-b0f5-e8fc4170bbdb/dao/f1534cc2-55cf-47b0-b0f5-e8fc4170bbdb/file/3222b983-22ad-4a11-984e-309d83c99631"
+  },
+  {
+    "klic": "ransko_narozeni_karel_dymacek_1718",
+    "nazev": "Narození Karla Dymáčka (1718)",
+    "druh": "N",
+    "datum": "11. 7. 1718",
+    "obec": "Ransko",
+    "svazek": "f1534cc2",
+    "strana": "pag. 130, sn. 68",
+    "vyrez": "vyrezy/ransko_narozeni_karel_dymacek_1718.jpg",
+    "zdroj": "zdroje/ransko_narozeni_karel_dymacek_1718.jpg",
+    "osoby": [
+      710,
+      1420,
+      1421
+    ],
+    "shrnuti": "Dne 11. 7. 1718 byl pokřtěn Karel, syn Tobiáše Dymáčka a Marie z Ranska.",
+    "odkaz": "https://aron.vychodoceskearchivy.cz/apu/f1534cc2-55cf-47b0-b0f5-e8fc4170bbdb/dao/f1534cc2-55cf-47b0-b0f5-e8fc4170bbdb/file/6d953a01-0abe-40b7-b548-c43ee28ac9aa"
+  },
+  {
+    "klic": "krucemburk_oddani_martin_dobrovolny_1725",
+    "nazev": "Sňatek Martina Dobrovolného a Apoleny Zrzavé (1725)",
+    "druh": "O",
+    "datum": "28. 1. 1725",
+    "obec": "Krucemburk",
+    "svazek": "f1534cc2",
+    "strana": "pag. 355, sn. 180",
+    "vyrez": "vyrezy/krucemburk_oddani_martin_dobrovolny_1725.jpg",
+    "zdroj": "zdroje/krucemburk_oddani_martin_dobrovolny_1725.jpg",
+    "osoby": [
+      1422,
+      1423
+    ],
+    "shrnuti": "Dne 28. 1. 1725 se oženil Martin, syn Jana Dobrovolného z Krucemburku, s Apolenou, dcerou Martina Zrzavého z Krucemburku.",
+    "odkaz": "https://aron.vychodoceskearchivy.cz/apu/f1534cc2-55cf-47b0-b0f5-e8fc4170bbdb/dao/f1534cc2-55cf-47b0-b0f5-e8fc4170bbdb/file/aa6d7304-9572-431c-b31b-2dbf28f02e70"
+  },
+  {
+    "klic": "krucemburk_umrti_apolena_dobrovolna_1763",
+    "nazev": "Úmrtí Apoleny Dobrovolné roz. Zrzavé (1763)",
+    "druh": "Z",
+    "datum": "30. 11. 1763",
+    "obec": "Krucemburk",
+    "svazek": "8c975af7",
+    "strana": "pag. 308, sn. 152",
+    "vyrez": "vyrezy/krucemburk_umrti_apolena_dobrovolna_1763.jpg",
+    "zdroj": "zdroje/krucemburk_umrti_apolena_dobrovolna_1763.jpg",
+    "osoby": [
+      1423
+    ],
+    "shrnuti": "Dne 30. 11. 1763 zemřela v Krucemburku a 1. 12. 1763 byla pohřbena ke kostelu sv. Mikuláše Apolena, manželka Martina Dobrovolného, ve věku 56 let (* cca 1707).",
+    "odkaz": "https://aron.vychodoceskearchivy.cz/apu/8c975af7-bea8-40d9-af0f-f6f9c0da49dd/dao/8c975af7-bea8-40d9-af0f-f6f9c0da49dd/file/c4e4e5ba-5271-48df-ac6f-d039d842b7d2"
+  },
+  {
+    "klic": "krucemburk_umrti_martin_dobrovolny_1773",
+    "nazev": "Úmrtí Martina Dobrovolného (1773)",
+    "druh": "Z",
+    "datum": "5. 1. 1773",
+    "obec": "Krucemburk čp. 102",
+    "svazek": "8c975af7",
+    "strana": "pag. 391, sn. 194",
+    "vyrez": "vyrezy/krucemburk_umrti_martin_dobrovolny_1773.jpg",
+    "zdroj": "zdroje/krucemburk_umrti_martin_dobrovolny_1773.jpg",
+    "osoby": [
+      1422
+    ],
+    "shrnuti": "Dne 5. 1. 1773 byl u farního kostela v Krucemburku pohřben sedlák (rusticus) Martin Dobrovolný z Krucemburku čp. 102 ve věku 70 let (* cca 1703).",
+    "odkaz": "https://aron.vychodoceskearchivy.cz/apu/8c975af7-bea8-40d9-af0f-f6f9c0da49dd/dao/8c975af7-bea8-40d9-af0f-f6f9c0da49dd/file/1eadd8fe-a8ff-40a8-9626-19066287e49d"
   }
 ]

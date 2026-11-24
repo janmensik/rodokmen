@@ -1651,12 +1651,12 @@ P = {
               r=["sopoty_oddani_jan_slama_1744", "sopoty_umrti_rozalie_slamova_1773"],
               note="Dcera † Františka Pokorného z Borové. Dne 2. 2. 1744 se provdala za vdovce Jana Slámu ze Sopot. Pohřbena 8. 4. 1773 v Sopotech ve věku 51 let."),
 
-    710: dict(n="Karel Dymáček", y="cca 1718 – 6. 5. 1772", st="doc",
-              f=["* 11. 7. 1718 Ransko (z rodinného exportu)", "× 17. 9. 1752 Ransko / Krucemburk Anna Dobrovolná (jako vdovec, s dispenzem)", "† 6. 5. 1772 Ransko čp. 9 (54 let)"],
+    710: dict(n="Karel Dymáček", y="11. 7. 1718 – 6. 5. 1772", st="doc",
+              f=["* 11. 7. 1718 Ransko", "× 17. 9. 1752 Ransko / Krucemburk Anna Dobrovolná (jako vdovec, s dispenzem)", "† 6. 5. 1772 Ransko čp. 9 (54 let)"],
               zam="železář (slévač)", bydl="Ransko čp. 9", puvod="Ransko",
               pohreb="Krucemburk, sv. Mikuláš",
-              r=["ransko_oddani_karel_dymacek_1752", "ransko_umrti_karel_dymacek_1772"],
-              note="Železář (ferri cusor) v Ransku čp. 9, otec Alžběty Slámové roz. Dymáčkové (#355). Dne 17. 9. 1752 se jako vdovec (po dispenzu ve 3. stupni švagrovství) oženil s Annou, dcerou Martina Dobrovolného z Krucemburku. Pohřben 6. 5. 1772 v Krucemburku ve věku 54 let."),
+              r=["ransko_narozeni_karel_dymacek_1718", "ransko_oddani_karel_dymacek_1752", "ransko_umrti_karel_dymacek_1772"],
+              note="Železář (ferri cusor) v Ransku čp. 9, syn Tobiáše Dymáčka (#1420) a Mariany (#1421), otec Alžběty Slámové roz. Dymáčkové (#355). Pokřtěn 11. 7. 1718 v Ransku. Dne 17. 9. 1752 se jako vdovec (po dispenzu ve 3. stupni švagrovství) oženil s Annou, dcerou Martina Dobrovolného z Krucemburku. Pohřben 6. 5. 1772 v Krucemburku ve věku 54 let."),
 
     711: dict(n="Anna Dobrovolná", y="1728–1780", st="doc",
               f=["* 1. 7. 1728 (z rodinného exportu)", "dcera Martina Dobrovolného z Krucemburku", "× 17. 9. 1752 Ransko / Krucemburk Karel Dymáček", "† 1780 (z rodinného exportu)"],
@@ -1725,17 +1725,17 @@ P = {
 
              note='Údaj z exportu Geni / MyHeritage (export-Forest.ged).'),
 
-    1416: dict(n='Josef Sláma', y='1672–1732', st='mh',
-
-             f=['* 1672', '× 18. 12. 1703 Alžběta Dymáčková', '† 4. 10. 1732 Sopoty'], r=[],
-
-             note='Údaj z exportu Geni / MyHeritage (export-Forest.ged).'),
+    1416: dict(n="Josef Sláma", y="cca 1672 – 4. 10. 1732", st="doc",
+               f=["* cca 1672 (z věku 60 let při úmrtí)", "× 18. 11. 1703 Sopoty Alžběta Dymáčková (v GEDCOM chybně 18. 12.)", "† 4. 10. 1732 Sopoty (60 let)"],
+               bydl="Sopoty",
+               r=["sopoty_oddani_josef_slama_1703", "sopoty_umrti_josef_slama_1732"],
+               note="Předek v 10. generaci, manžel Alžběty Dymáčkové (#1417) ze Sopot. Dne 18. 11. 1703 (v matrice 18 9bris) se oženil s Alžbětou, dcerou Jana Dymáčka. Zemřel 4. 10. 1732 v Sopotech ve věku 60 let."),
 
     1417: dict(n="Alžběta Dymáčková", y="cca 1688 – 14. 9. 1751", st="doc",
-               f=["* cca 1688 (v rodinném exportu 1683)", "× 18. 12. 1703 Josef Sláma", "† 14. 9. 1751 Sopoty (63 let)"],
+               f=["* cca 1688 (v rodinném exportu 1683)", "× 18. 11. 1703 Sopoty Josef Sláma", "† 14. 9. 1751 Sopoty (63 let)"],
                roz="Dymáčková", bydl="Sopoty",
-               r=["sopoty_umrti_alzbeta_slamova_1751"],
-               note="Manželka Josefa Slámy ze Sopot. Pohřbena 14. 9. 1751 ve věku 63 let."),
+               r=["sopoty_oddani_josef_slama_1703", "sopoty_umrti_alzbeta_slamova_1751"],
+               note="Dcera Jana Dymáčka, manželka Josefa Slámy ze Sopot (#1416). Oddána 18. 11. 1703, pohřbena 14. 9. 1751 ve věku 63 let."),
 
     1418: dict(n='František Pokorný', y='1700–1744', st='mh',
 
@@ -1744,32 +1744,28 @@ P = {
              note='Údaj z exportu Geni / MyHeritage (export-Forest.ged).'),
 
     1420: dict(n="Tobiáš Dymáček", y="cca 1680 – 9. 6. 1762", st="doc",
-               f=["* 13. 6. 1686 Sobiňovská huť (z rodinného exportu)", "× 8. 11. 1711 Mariana Chlebečková", "† 9. 6. 1762 Ransko (pohřeb 11. 6., 82 let)"],
-               bydl="Ransko", pohreb="Krucemburk, sv. Mikuláš",
-               r=["ransko_umrti_tobias_dymacek_1762"],
-               note="Předek v 10. generaci, otec Karla Dymáčka (#710). Zemřel 9. 6. 1762 v Ransku ve věku 82 let a 11. 6. byl pohřben v Krucemburku."),
+               f=["* 13. 6. 1686 Sobiňovská huť (z rodinného exportu)", "× 8. 11. 1711 Sobiňov Mariana Chlebečková", "† 9. 6. 1762 Ransko (pohřeb 11. 6., 82 let)"],
+               bydl="Sobiňov, Ransko", pohreb="Krucemburk, sv. Mikuláš",
+               r=["ransko_oddani_tobias_dymacek_1711", "ransko_umrti_tobias_dymacek_1762"],
+               note="Předek v 10. generaci, otec Karla Dymáčka (#710). Dne 8. 11. 1711 se jako mládenec ze Sobiňova oženil s Marianou, dcerou zemřelého Matěje Chlebečka ze Ždírce. Zemřel 9. 6. 1762 v Ransku ve věku 82 let a 11. 6. byl pohřben v Krucemburku."),
 
-    1421: dict(n='Mariana Chlebečková', y='1694–1748', st='mh',
+    1421: dict(n="Mariana Chlebečková", y="1694–1748", st="doc",
+               f=["* 25. 8. 1694 Sobíňov (z rodinného exportu)", "× 8. 11. 1711 Sobiňov Tobiáš Dymáček", "† 26. 1. 1748 Ransko (z rodinného exportu)"],
+               roz="Chlebečková", bydl="Ždírec, Ransko", pohreb="Krucemburk, sv. Mikuláš",
+               r=["ransko_oddani_tobias_dymacek_1711"],
+               note="Dcera zemřelého Matěje Chlebečka ze Ždírce, manželka Tobiáše Dymáčka (#1420) a matka Karla Dymáčka (#710)."),
 
-             f=['* 25. 8. 1694 Sobíňov', '× 8. 11. 1711 Tobiáš Dymáček', '† 26. 1. 1748 Ransko'],
+    1422: dict(n="Martin Dobrovolný", y="cca 1697 – 5. 1. 1773", st="doc",
+               f=["* 11. 11. 1697 (z rodinného exportu; při úmrtí udáno 70 let)", "× 28. 1. 1725 Krucemburk Apolena Zrzavá", "† 5. 1. 1773 Krucemburk čp. 102 (70 let)"],
+               zam="sedlák", bydl="Krucemburk čp. 102", pohreb="Krucemburk, sv. Mikuláš",
+               r=["krucemburk_oddani_martin_dobrovolny_1725", "krucemburk_umrti_martin_dobrovolny_1773"],
+               note="Sedlák v Krucemburku čp. 102, syn Jana Dobrovolného z Krucemburku, otec Anny Dymáčkové roz. Dobrovolné (#711). Dne 28. 1. 1725 se oženil s Apolenou, dcerou Martina Zrzavého z Krucemburku. Pohřben 5. 1. 1773 v Krucemburku ve věku 70 let."),
 
-             pohreb='Krucemburk, sv. Mikuláš', r=[],
-
-             note='Údaj z exportu Geni / MyHeritage (export-Forest.ged).'),
-
-    1422: dict(n='Martin Dobrovolný', y='1697–1773', st='mh',
-
-             f=['* 11. 11. 1697', '× 28. 1. 1725 Apolena Zrzavá', '† 5. 1. 1773 Krucemburk 102'],
-
-             zam='sedlák', pohreb='Krucemburk, sv. Mikuláš', r=[],
-
-             note='Údaj z exportu Geni / MyHeritage (export-Forest.ged).'),
-
-    1423: dict(n='Apolena Zrzavá', y='1704–1763', st='mh',
-
-             f=['* 11. 3. 1704', '× 28. 1. 1725 Martin Dobrovolný', '† 30. 11. 1763 Krucemburk'], r=[],
-
-             note='Údaj z exportu Geni / MyHeritage (export-Forest.ged).'),
+    1423: dict(n="Apolena Zrzavá", y="cca 1704 – 30. 11. 1763", st="doc",
+               f=["* 11. 3. 1704 (z rodinného exportu; při úmrtí udáno 56 let)", "× 28. 1. 1725 Krucemburk Martin Dobrovolný", "† 30. 11. 1763 Krucemburk (56 let)"],
+               roz="Zrzavá", bydl="Krucemburk", pohreb="Krucemburk, sv. Mikuláš",
+               r=["krucemburk_oddani_martin_dobrovolny_1725", "krucemburk_umrti_apolena_dobrovolna_1763"],
+               note="Dcera Martina Zrzavého z Krucemburku, manželka Martina Dobrovolného (#1422) a matka Anny Dymáčkové (#711). Zemřela 30. 11. 1763 v Krucemburku ve věku 56 let."),
 
     1522: dict(n="Václav Pátek", y="před 1760 – ?", st="doc",
                f=["sedlák v Chlumu", "manžel Magdaleny", "otec Magdaleny provdané Podroužkové"],
