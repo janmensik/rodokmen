@@ -2351,5 +2351,70 @@
     ],
     "shrnuti": "Dne 8. 4. 1773 byla u filiálního kostela v Sopotech pohřbena Rozálie Slámová ze Sopot čp. 12 ve věku 51 let (* cca 1722).",
     "odkaz": "https://aron.vychodoceskearchivy.cz/apu/8c975af7-bea8-40d9-af0f-f6f9c0da49dd/dao/8c975af7-bea8-40d9-af0f-f6f9c0da49dd/file/4877fdfe-f5bf-4c87-b7c8-7cac63cfa25f"
+  },
+  {
+    "klic": "ransko_oddani_karel_dymacek_1752",
+    "nazev": "Sňatek Karla Dymáčka a Anny Dobrovolné (1752)",
+    "druh": "O",
+    "datum": "17. 9. 1752",
+    "obec": "Ransko / Krucemburk",
+    "svazek": "0e9206e4",
+    "strana": "pag. 300, sn. 154",
+    "vyrez": "vyrezy/ransko_oddani_karel_dymacek_1752.jpg",
+    "zdroj": "zdroje/ransko_oddani_karel_dymacek_1752.jpg",
+    "osoby": [
+      710,
+      711
+    ],
+    "shrnuti": "Dne 17. 9. 1752 se po pražském arcibiskupském dispenzu (ve 3. stupni švagrovství) oženil vdovec Karel Dymáček z Ranska s Annou, dcerou Martina Dobrovolného z Krucemburku.",
+    "odkaz": "https://aron.vychodoceskearchivy.cz/apu/0e9206e4-7fbe-4927-a0d2-2704d5fe0cd5/dao/0e9206e4-7fbe-4927-a0d2-2704d5fe0cd5/file/39b8e4a2-f18c-493a-a864-a8d76bb08f4d"
+  },
+  {
+    "klic": "ransko_umrti_karel_dymacek_1772",
+    "nazev": "Úmrtí Karla Dymáčka (1772)",
+    "druh": "Z",
+    "datum": "6. 5. 1772",
+    "obec": "Ransko čp. 9",
+    "svazek": "8c975af7",
+    "strana": "pag. 384, sn. 191",
+    "vyrez": "vyrezy/ransko_umrti_karel_dymacek_1772.jpg",
+    "zdroj": "zdroje/ransko_umrti_karel_dymacek_1772.jpg",
+    "osoby": [
+      710
+    ],
+    "shrnuti": "Dne 6. 5. 1772 byl u farního kostela v Krucemburku pohřben železář (ferri cusor) Karel Dymáček z Ranska čp. 9 ve věku 54 let (* cca 1718).",
+    "odkaz": "https://aron.vychodoceskearchivy.cz/apu/8c975af7-bea8-40d9-af0f-f6f9c0da49dd/dao/8c975af7-bea8-40d9-af0f-f6f9c0da49dd/file/8069e36c-c9a9-454e-8b72-0f3934d67f90"
+  },
+  {
+    "klic": "sopoty_umrti_alzbeta_slamova_1751",
+    "nazev": "Úmrtí Alžběty Slámové roz. Dymáčkové (1751)",
+    "druh": "Z",
+    "datum": "14. 9. 1751",
+    "obec": "Sopoty",
+    "svazek": "0e9206e4",
+    "strana": "pag. 413, sn. 211",
+    "vyrez": "vyrezy/sopoty_umrti_alzbeta_slamova_1751.jpg",
+    "zdroj": "zdroje/sopoty_umrti_alzbeta_slamova_1751.jpg",
+    "osoby": [
+      1417
+    ],
+    "shrnuti": "Dne 14. 9. 1751 byla pohřbena Alžběta Slámová ze Sopot ve věku 63 let (* cca 1688).",
+    "odkaz": "https://aron.vychodoceskearchivy.cz/apu/0e9206e4-7fbe-4927-a0d2-2704d5fe0cd5/dao/0e9206e4-7fbe-4927-a0d2-2704d5fe0cd5/file/b00c255e-1509-4bd3-80b7-0f81adb831a6"
+  },
+  {
+    "klic": "ransko_umrti_tobias_dymacek_1762",
+    "nazev": "Úmrtí Tobiáše Dymáčka (1762)",
+    "druh": "Z",
+    "datum": "9. 6. 1762",
+    "obec": "Ransko",
+    "svazek": "8c975af7",
+    "strana": "pag. 295, sn. 145",
+    "vyrez": "vyrezy/ransko_umrti_tobias_dymacek_1762.jpg",
+    "zdroj": "zdroje/ransko_umrti_tobias_dymacek_1762.jpg",
+    "osoby": [
+      1420
+    ],
+    "shrnuti": "Dne 9. 6. 1762 zemřel v Ransku a 11. 6. 1762 byl u kostela sv. Mikuláše v Krucemburku pohřben Tobiáš Dymáček ve věku 82 let (* cca 1680).",
+    "odkaz": "https://aron.vychodoceskearchivy.cz/apu/8c975af7-bea8-40d9-af0f-f6f9c0da49dd/dao/8c975af7-bea8-40d9-af0f-f6f9c0da49dd/file/d35f708c-197b-4eaa-81f3-0790a03e4463"
   }
 ]

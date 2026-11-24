@@ -1651,19 +1651,18 @@ P = {
               r=["sopoty_oddani_jan_slama_1744", "sopoty_umrti_rozalie_slamova_1773"],
               note="Dcera † Františka Pokorného z Borové. Dne 2. 2. 1744 se provdala za vdovce Jana Slámu ze Sopot. Pohřbena 8. 4. 1773 v Sopotech ve věku 51 let."),
 
-    710: dict(n='Karel Dymáček', y='1718–1772', st='mh',
+    710: dict(n="Karel Dymáček", y="cca 1718 – 6. 5. 1772", st="doc",
+              f=["* 11. 7. 1718 Ransko (z rodinného exportu)", "× 17. 9. 1752 Ransko / Krucemburk Anna Dobrovolná (jako vdovec, s dispenzem)", "† 6. 5. 1772 Ransko čp. 9 (54 let)"],
+              zam="železář (slévač)", bydl="Ransko čp. 9", puvod="Ransko",
+              pohreb="Krucemburk, sv. Mikuláš",
+              r=["ransko_oddani_karel_dymacek_1752", "ransko_umrti_karel_dymacek_1772"],
+              note="Železář (ferri cusor) v Ransku čp. 9, otec Alžběty Slámové roz. Dymáčkové (#355). Dne 17. 9. 1752 se jako vdovec (po dispenzu ve 3. stupni švagrovství) oženil s Annou, dcerou Martina Dobrovolného z Krucemburku. Pohřben 6. 5. 1772 v Krucemburku ve věku 54 let."),
 
-             f=['* 11. 7. 1718 Ransko', '× 17. 9. 1752 Ransko Anna Dobrovolná', '† 6. 5. 1772 Ransko 9'],
-
-             zam='slévač', pohreb='Krucemburk, sv. Mikuláš', r=[],
-
-             note='Údaj z exportu Geni / MyHeritage (export-Forest.ged).'),
-
-    711: dict(n='Anna Dobrovolná', y='1728–1780', st='mh',
-
-             f=['* 1. 7. 1728', '× 17. 9. 1752 Ransko Karel Dymáček', '† 1780'], r=[],
-
-             note='Údaj z exportu Geni / MyHeritage (export-Forest.ged).'),
+    711: dict(n="Anna Dobrovolná", y="1728–1780", st="doc",
+              f=["* 1. 7. 1728 (z rodinného exportu)", "dcera Martina Dobrovolného z Krucemburku", "× 17. 9. 1752 Ransko / Krucemburk Karel Dymáček", "† 1780 (z rodinného exportu)"],
+              roz="Dobrovolná", bydl="Ransko čp. 9", puvod="Krucemburk",
+              r=["ransko_oddani_karel_dymacek_1752"],
+              note="Manželská dcera Martina Dobrovolného z městyse Krucemburk. Dne 17. 9. 1752 se provdala za vdovce Karla Dymáčka z Ranska."),
 
     714: dict(n="Matěj Plesnivý", y="před 1765 – ?", st="doc",
               f=["sedlák v Markvarci čp. 9 (panství Černovice)", "otec Anny Hlaváčkové roz. Plesnivé"],
@@ -1732,11 +1731,11 @@ P = {
 
              note='Údaj z exportu Geni / MyHeritage (export-Forest.ged).'),
 
-    1417: dict(n='Alžběta Dymáčková', y='1683–1751', st='mh',
-
-             f=['* 1683', '× 18. 12. 1703 Josef Sláma', '† 14. 9. 1751 Sopoty'], r=[],
-
-             note='Údaj z exportu Geni / MyHeritage (export-Forest.ged).'),
+    1417: dict(n="Alžběta Dymáčková", y="cca 1688 – 14. 9. 1751", st="doc",
+               f=["* cca 1688 (v rodinném exportu 1683)", "× 18. 12. 1703 Josef Sláma", "† 14. 9. 1751 Sopoty (63 let)"],
+               roz="Dymáčková", bydl="Sopoty",
+               r=["sopoty_umrti_alzbeta_slamova_1751"],
+               note="Manželka Josefa Slámy ze Sopot. Pohřbena 14. 9. 1751 ve věku 63 let."),
 
     1418: dict(n='František Pokorný', y='1700–1744', st='mh',
 
@@ -1744,13 +1743,11 @@ P = {
 
              note='Údaj z exportu Geni / MyHeritage (export-Forest.ged).'),
 
-    1420: dict(n='Tobiáš Dymáček', y='1686–1762', st='mh',
-
-             f=['* 13. 6. 1686 Sobiňovská huť', '× 8. 11. 1711 Mariana Chlebečková', '† 2. 6. 1762 Ransko'],
-
-             pohreb='Krucemburk, sv. Mikuláš', r=[],
-
-             note='Údaj z exportu Geni / MyHeritage (export-Forest.ged).'),
+    1420: dict(n="Tobiáš Dymáček", y="cca 1680 – 9. 6. 1762", st="doc",
+               f=["* 13. 6. 1686 Sobiňovská huť (z rodinného exportu)", "× 8. 11. 1711 Mariana Chlebečková", "† 9. 6. 1762 Ransko (pohřeb 11. 6., 82 let)"],
+               bydl="Ransko", pohreb="Krucemburk, sv. Mikuláš",
+               r=["ransko_umrti_tobias_dymacek_1762"],
+               note="Předek v 10. generaci, otec Karla Dymáčka (#710). Zemřel 9. 6. 1762 v Ransku ve věku 82 let a 11. 6. byl pohřben v Krucemburku."),
 
     1421: dict(n='Mariana Chlebečková', y='1694–1748', st='mh',
 
