@@ -1639,17 +1639,17 @@ P = {
 
              note='Údaj z exportu Geni / MyHeritage (export-Forest.ged).'),
 
-    708: dict(n='Jan Sláma', y='1715–1772', st='mh',
+    708: dict(n="Jan Sláma", y="cca 1716 – 19. 6. 1772", st="doc",
+              f=["* cca 1716 (v rodinném exportu 30. 3. 1715)", "× 2. 2. 1744 Sopoty Rozálie Pokorná (jako vdovec)", "† 19. 6. 1772 Sopoty čp. 12 (56 let)"],
+              bydl="Sopoty čp. 12", puvod="Sopoty",
+              r=["sopoty_oddani_jan_slama_1744", "sopoty_umrti_jan_slama_1772"],
+              note="Domkař ze Sopot čp. 12, otec tesaře Jana Slámy (#354). Dne 2. 2. 1744 se jako vdovec oženil s Rozálií Pokornou z Borové. Pohřben 19. 6. 1772 v Sopotech ve věku 56 let."),
 
-             f=['* 30. 3. 1715', '× 2. 2. 1744 Sopoty Rozálie Pokorná', '† 19. 6. 1772 Sopoty 12'], r=[],
-
-             note='Údaj z exportu Geni / MyHeritage (export-Forest.ged).'),
-
-    709: dict(n='Rozálie Pokorná', y='1722–1773', st='mh',
-
-             f=['* 1722', '× 2. 2. 1744 Sopoty Jan Sláma', '† 8. 4. 1773 Sopoty 12'], r=[],
-
-             note='Údaj z exportu Geni / MyHeritage (export-Forest.ged).'),
+    709: dict(n="Rozálie Pokorná", y="cca 1722 – 8. 4. 1773", st="doc",
+              f=["* cca 1722", "dcera † Františka Pokorného z Borové", "× 2. 2. 1744 Sopoty Jan Sláma", "† 8. 4. 1773 Sopoty čp. 12 (51 let)"],
+              roz="Pokorná", bydl="Sopoty čp. 12", puvod="Borová",
+              r=["sopoty_oddani_jan_slama_1744", "sopoty_umrti_rozalie_slamova_1773"],
+              note="Dcera † Františka Pokorného z Borové. Dne 2. 2. 1744 se provdala za vdovce Jana Slámu ze Sopot. Pohřbena 8. 4. 1773 v Sopotech ve věku 51 let."),
 
     710: dict(n='Karel Dymáček', y='1718–1772', st='mh',
 

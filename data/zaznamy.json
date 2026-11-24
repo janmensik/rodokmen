@@ -2302,5 +2302,54 @@
     ],
     "shrnuti": "Dne 17. 7. 1868 zemřel v Chlumu čp. 120 a 19. 7. 1868 byl pohřben domkář Josef Řeháček (Řehák) ve věku 68 let (* cca 1800) na úbytě.",
     "odkaz": "https://aron.vychodoceskearchivy.cz/apu/b0258e95-fe63-46f1-813a-641f0c007eb2/dao/b0258e95-fe63-46f1-813a-641f0c007eb2/file/26e11eec-6ba1-454b-aa67-ee6e9c079a50"
+  },
+  {
+    "klic": "sopoty_oddani_jan_slama_1744",
+    "nazev": "Sňatek Jana Slámy a Rozálie Pokorné (1744)",
+    "druh": "O",
+    "datum": "2. 2. 1744",
+    "obec": "Sopoty / Krucemburk",
+    "svazek": "0e9206e4",
+    "strana": "pag. 260, sn. 134",
+    "vyrez": "vyrezy/sopoty_oddani_jan_slama_1744.jpg",
+    "zdroj": "zdroje/sopoty_oddani_jan_slama_1744.jpg",
+    "osoby": [
+      708,
+      709
+    ],
+    "shrnuti": "Dne 2. 2. 1744 se oženil vdovec Jan Sláma ze Sopot s Rozálií, dcerou † Františka Pokorného z Borové.",
+    "odkaz": "https://aron.vychodoceskearchivy.cz/apu/0e9206e4-7fbe-4927-a0d2-2704d5fe0cd5/dao/0e9206e4-7fbe-4927-a0d2-2704d5fe0cd5/file/1a6be498-5aec-4d53-b1fb-23cd19f23554"
+  },
+  {
+    "klic": "sopoty_umrti_jan_slama_1772",
+    "nazev": "Úmrtí Jana Slámy (1772)",
+    "druh": "Z",
+    "datum": "19. 6. 1772",
+    "obec": "Sopoty čp. 12",
+    "svazek": "8c975af7",
+    "strana": "pag. 387, sn. 192",
+    "vyrez": "vyrezy/sopoty_umrti_jan_slama_1772.jpg",
+    "zdroj": "zdroje/sopoty_umrti_jan_slama_1772.jpg",
+    "osoby": [
+      708
+    ],
+    "shrnuti": "Dne 19. 6. 1772 byl u filiálního kostela v Sopotech pohřben Jan Sláma ze Sopot čp. 12 ve věku 56 let (* cca 1716).",
+    "odkaz": "https://aron.vychodoceskearchivy.cz/apu/8c975af7-bea8-40d9-af0f-f6f9c0da49dd/dao/8c975af7-bea8-40d9-af0f-f6f9c0da49dd/file/1f596191-e101-4ea0-9484-e265011550db"
+  },
+  {
+    "klic": "sopoty_umrti_rozalie_slamova_1773",
+    "nazev": "Úmrtí Rozálie Slámové roz. Pokorné (1773)",
+    "druh": "Z",
+    "datum": "8. 4. 1773",
+    "obec": "Sopoty čp. 12",
+    "svazek": "8c975af7",
+    "strana": "pag. 392, sn. 195",
+    "vyrez": "vyrezy/sopoty_umrti_rozalie_slamova_1773.jpg",
+    "zdroj": "zdroje/sopoty_umrti_rozalie_slamova_1773.jpg",
+    "osoby": [
+      709
+    ],
+    "shrnuti": "Dne 8. 4. 1773 byla u filiálního kostela v Sopotech pohřbena Rozálie Slámová ze Sopot čp. 12 ve věku 51 let (* cca 1722).",
+    "odkaz": "https://aron.vychodoceskearchivy.cz/apu/8c975af7-bea8-40d9-af0f-f6f9c0da49dd/dao/8c975af7-bea8-40d9-af0f-f6f9c0da49dd/file/4877fdfe-f5bf-4c87-b7c8-7cac63cfa25f"
   }
 ]
