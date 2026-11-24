@@ -1434,11 +1434,17 @@ P = {
 
               f=["× 1. 2. 1791 Křižanov 37 Mariana Žundálková"], bydl="Křižanov", r=[], note="Údaje z rodinného stromu PDF a exportu Geni / MyHeritage."),
 
-    354: dict(n="Jan Sláma", y="", st="doc",
-              f=["× Alžběta Dymáčková"], zam="mistr tesařský", bydl="Staré Ransko čp. 33", r=["ransko_krest_jan_holanek_1820"], note="Mistr tesařský ve Starém Ransku čp. 33. Doložen v křestní matrice vnuka Jana Holánka (* 1820, sign. 8327, sn. 47). Manžel Alžběty rozené Dymáčkové."),
+    354: dict(n="Jan Sláma", y="? – před 1838", st="doc",
+              f=["mistr tesařský a domkař ve Starém Ransku čp. 33", "syn † Jana Slámy, domkaře ze Sopot", "× 3. 2. 1783 Ransko čp. 9 Alžběta Dymáčková", "† před 13. 3. 1838"],
+              zam="mistr tesařský a domkař", bydl="Staré Ransko čp. 33", puvod="Sopoty",
+              r=["ransko_oddani_jan_slama_1783", "ransko_krest_jan_holanek_1820", "ransko_umrti_alzbeta_slamova_1838"],
+              note="Mistr tesařský a domkař ve Starém Ransku čp. 33, syn zemřelého domkaře Jana Slámy ze Sopot. Dne 3. 2. 1783 se v Ransku čp. 9 oženil s Alžbětou roz. Dymáčkovou. Zemřel před 13. 3. 1838."),
 
-    355: dict(n="Alžběta Dymáčková", y="", st="doc",
-              f=["× Jan Sláma"], bydl="Staré Ransko čp. 33", r=["ransko_krest_jan_holanek_1820"], note="Doložena v křestní matrice vnuka Jana Holánka (* 1820, sign. 8327, sn. 47) jako matka Barbory Slámové a manželka tesařského mistra Jana Slámy ze Starého Ranska čp. 33."),
+    355: dict(n="Alžběta Dymáčková", y="cca 1754 – 13. 3. 1838", st="doc",
+              f=["dcera † Karla Dymáčka, železáře z Ranska", "× 3. 2. 1783 Ransko čp. 9 Jan Sláma", "† 13. 3. 1838 Staré Ransko čp. 33 (84 let)"],
+              roz="Dymáčková", bydl="Staré Ransko čp. 33", puvod="Staré Ransko",
+              r=["ransko_oddani_jan_slama_1783", "ransko_umrti_alzbeta_slamova_1838", "ransko_krest_jan_holanek_1820"],
+              note="Dcera zemřelého železáře Karla Dymáčka z Ranska. Dne 3. 2. 1783 se v Ransku čp. 9 provdala za Jana Slámu ze Sopot. Zemřela jako vdova 13. 3. 1838 ve Starém Ransku čp. 33 ve věku 84 let."),
 
     356: dict(n="Matouš Hlaváček", y="† před 1837", st="doc",
               f=["sedlák v Markvarci čp. 8 (panství Černovice)", "∞ Anna Plesnivá", "† před 7. 4. 1837"],

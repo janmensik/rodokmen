@@ -2253,5 +2253,38 @@
     ],
     "shrnuti": "Dne 29. 9. 1793 se v Pohledu (Frauenthal) čp. 7 oženil 30letý svobodný školní učitel (Schullehrer) Josef Hoffmann (* cca 1763) s 26letou svobodnou Monikou Risslovou (* cca 1767).",
     "odkaz": "https://aron.vychodoceskearchivy.cz/apu/c38f19e5-1c29-42d6-892e-e0f0f4339edc/dao/c38f19e5-1c29-42d6-892e-e0f0f4339edc/file/9048baaa-76f0-496b-acb7-a947f87e7132"
+  },
+  {
+    "klic": "ransko_oddani_jan_slama_1783",
+    "nazev": "Sňatek Jana Slámy a Alžběty Dymáčkové (1783)",
+    "druh": "O",
+    "datum": "3. 2. 1783",
+    "obec": "Staré Ransko čp. 9",
+    "svazek": "b8605253",
+    "strana": "fol. 14, sn. 15",
+    "vyrez": "vyrezy/ransko_oddani_jan_slama_1783.jpg",
+    "zdroj": "zdroje/ransko_oddani_jan_slama_1783.jpg",
+    "osoby": [
+      354,
+      355
+    ],
+    "shrnuti": "Dne 3. 2. 1783 se v Ransku čp. 9 oženil Jan Sláma, čeledín a syn zemřelého Jana Slámy, domkaře ze Sopot, s Alžbětou, dcerou zemřelého Karla Dymáčka, železáře z Ranska (oba poddaní polenští).",
+    "odkaz": "https://aron.vychodoceskearchivy.cz/apu/b8605253-e266-4c17-bc33-bbc3777b0704/dao/b8605253-e266-4c17-bc33-bbc3777b0704/file/adc92b9a-73a8-4655-87cd-71b7bc1ba36f"
+  },
+  {
+    "klic": "ransko_umrti_alzbeta_slamova_1838",
+    "nazev": "Úmrtí Alžběty Slámové roz. Dymáčkové (1838)",
+    "druh": "Z",
+    "datum": "13. 3. 1838",
+    "obec": "Staré Ransko čp. 33",
+    "svazek": "89e725fd",
+    "strana": "pag. 213, sn. 110",
+    "vyrez": "vyrezy/ransko_umrti_alzbeta_slamova_1838.jpg",
+    "zdroj": "zdroje/ransko_umrti_alzbeta_slamova_1838.jpg",
+    "osoby": [
+      355
+    ],
+    "shrnuti": "Dne 13. 3. 1838 zemřela ve Starém Ransku čp. 33 a 16. 3. 1838 byla pohřbena v Krucemburku Alžběta, vdova po † Janu Slámovi, domkaři na Ransku čp. 33, rozená Dymáčková z Ranska, ve věku 84 let (* cca 1754).",
+    "odkaz": "https://aron.vychodoceskearchivy.cz/apu/89e725fd-c3ca-4ad0-ad2d-c3a13646dfc0/dao/89e725fd-c3ca-4ad0-ad2d-c3a13646dfc0/file/42b3c099-215e-4dc6-859d-6fe80e33eb57"
   }
 ]
