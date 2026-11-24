@@ -1487,11 +1487,11 @@ P = {
               zam="krejčí v Jindřichově Hradci", bydl="Jindřichův Hradec", puvod="Jindřichův Hradec",
               r=["ransko_oddani_matej_sima_1837", "ransko_krest_jan_sima_1837"],
               note="Předek v 9. generaci (č. 366), krejčí v Jindřichově Hradci. Doložen jako † otec Karoliny Benové roz. Králíčkové v oddacím zápisu vnučky Františky Šímové (31. 1. 1837) i v křestním zápisu pravnuka Jana Křt. Šímy (6. 3. 1837)."),
-    382: dict(n="Josef Řehák", y="před 1815 – ?", st="doc",
-              f=["domkař v Chlumu čp. 120", "∞ Anna Bártová"],
+    382: dict(n="Josef Řehák", y="cca 1800 – 17. 7. 1868", st="doc",
+              f=["domkař v Chlumu čp. 120", "∞ Anna Bártová", "† 17. 7. 1868 Chlum čp. 120 (68 let)"],
               zam="domkař v Chlumu čp. 120", bydl="Chlum čp. 120", puvod="Chlum",
-              r=["chlum_krest_frantiska_podrouzkova_1854", "chlum_krest_aloisie_pospichalova_1875"],
-              note="Předek Jana Menšíka v 9. generaci (č. 382), domkař v Chlumu čp. 120 (panství Rychmburk). Manžel Anny roz. Bártové ze Slouče čp. 2 a otec Antonie Podroužkové roz. Řehákové. V matrikách uváděn též jako Josef Řeháček."),
+              r=["chlum_umrti_josef_rehak_1868", "chlum_krest_frantiska_podrouzkova_1854", "chlum_krest_aloisie_pospichalova_1875"],
+              note="Předek Jana Menšíka v 9. generaci (č. 382), domkař v Chlumu čp. 120 (panství Rychmburk). Manžel Anny roz. Bártové ze Slouče čp. 2 a otec Antonie Podroužkové roz. Řehákové. Zemřel 17. 7. 1868 v Chlumu čp. 120 ve věku 68 let (* cca 1800). V matrikách uváděn též jako Josef Řeháček."),
 
     # 8. generace – doplněno z GEDCOM (353)
 
