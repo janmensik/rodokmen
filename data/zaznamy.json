@@ -2568,5 +2568,70 @@
     ],
     "shrnuti": "Dne 15. 9. 1830 se v Pučerech čp. 2 narodil (16. 9. pokřtěn) Václav, manželský syn Antonína Měšťánka, baráčníka z Pučer, a Barbory, vlastní dcery Matěje Šafáříka, výměnkáře z Pučer, a matky Doroty roz. Mašínové z Pučer.",
     "odkaz": "https://ebadatelna.soapraha.cz/d/12288/233"
+  },
+  {
+    "klic": "zleby_umrti_katerina_jarolimova_1886",
+    "nazev": "Úmrtí Kateřiny Jarolímové roz. Táborské (1886)",
+    "druh": "Z",
+    "datum": "26. 1. 1886",
+    "obec": "Žleby čp. 126",
+    "svazek": "ebad_10141",
+    "strana": "pag. 412, sn. 210",
+    "vyrez": "vyrezy/zleby_umrti_katerina_jarolimova_1886.jpg",
+    "zdroj": "zdroje/zleby_umrti_katerina_jarolimova_1886.jpg",
+    "osoby": [
+      171,
+      170
+    ],
+    "shrnuti": "Dne 26. 1. 1886 zemřela ve Žlebech čp. 126 (29. 1. pohřbena) Kateřina Jarolímová rozená Táborská ze Žleb čp. 11, manželka Josefa Jarolíma, ve věku 73 let (* cca 1813) na sešlost stářím.",
+    "odkaz": "https://ebadatelna.soapraha.cz/d/10141/210"
+  },
+  {
+    "klic": "zleby_umrti_josef_jarolim_1886",
+    "nazev": "Úmrtí Josefa Jarolíma (1886)",
+    "druh": "Z",
+    "datum": "12. 4. 1886",
+    "obec": "Žleby čp. 197",
+    "svazek": "ebad_10141",
+    "strana": "pag. 416, sn. 212",
+    "vyrez": "vyrezy/zleby_umrti_josef_jarolim_1886.jpg",
+    "zdroj": "zdroje/zleby_umrti_josef_jarolim_1886.jpg",
+    "osoby": [
+      170
+    ],
+    "shrnuti": "Dne 12. 4. 1886 zemřel ve Žlebech čp. 197 (14. 4. pohřben) Josef Jarolím, žebrák ve Žlebech čp. 197, ve věku 74 let (* cca 1812) na sešlost věkem.",
+    "odkaz": "https://ebadatelna.soapraha.cz/d/10141/212"
+  },
+  {
+    "klic": "skripel_umrti_frantisek_grubner_1826",
+    "nazev": "Úmrtí Františka Grubnera (1826)",
+    "druh": "Z",
+    "datum": "23. 8. 1826",
+    "obec": "Skřipel čp. 11",
+    "svazek": "ebad_10758",
+    "strana": "pag. 73, sn. 37",
+    "vyrez": "vyrezy/skripel_umrti_frantisek_grubner_1826.jpg",
+    "zdroj": "zdroje/skripel_umrti_frantisek_grubner_1826.jpg",
+    "osoby": [
+      148
+    ],
+    "shrnuti": "Dne 23. 8. 1826 zemřel ve Skřiplu čp. 11 (25. 8. pohřben) František Grubner, šenkýř ze Skřiplu, ve věku 57 let (* cca 1769) na zánět střev.",
+    "odkaz": "https://ebadatelna.soapraha.cz/d/10758/37"
+  },
+  {
+    "klic": "skripel_umrti_anna_grubnerova_1835",
+    "nazev": "Úmrtí Anny Grubnerové (1835)",
+    "druh": "Z",
+    "datum": "1. 10. 1835",
+    "obec": "Skřipel čp. 11",
+    "svazek": "ebad_10758",
+    "strana": "pag. 77, sn. 39",
+    "vyrez": "vyrezy/skripel_umrti_anna_grubnerova_1835.jpg",
+    "zdroj": "zdroje/skripel_umrti_anna_grubnerova_1835.jpg",
+    "osoby": [
+      149
+    ],
+    "shrnuti": "Dne 1. 10. 1835 zemřela ve Skřiplu čp. 11 (3. 10. pohřbena) Anna Grubnerová, šenkýřka ze Skřiplu, na slabost (udán věk 65 let).",
+    "odkaz": "https://ebadatelna.soapraha.cz/d/10758/39"
   }
 ]

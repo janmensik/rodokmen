@@ -958,18 +958,18 @@ P = {
               roz="Žebráčková", puvod="Křivsoudov", bydl="Čechtice čp. 10",
               r=["cechtice_krest_josefa_bohackova_1805", "cechtice_krest_josef_pivnicka_1844"],
               note="Pocházela z Křivsoudova jako dcera Jana Žebráčka (č. 294) a Barbory roz. Jelenkové (č. 295). Manželka čechtického souseda Jakuba Boháčka z čp. 10 a matka Josefy Pivničkové roz. Boháčkové (č. 73)."),
-    148: dict(n="František Grubner", y="kolem 1769–?", st="doc",
+    148: dict(n="František Grubner", y="* cca 1769 – † 23. 8. 1826", st="doc",
               otec=296,
-              f=["* kolem 1769, Vižina", "× 22. 11. 1802 Anna Bergerová (Vižina)", "hospodský/šenkýř ve Vižině čp. 77 (panství Osov)", "syn Tomáše Grubnera"],
-              zam="šenkýř ve Vižině", puvod="Vižina čp. 17 a 77 (panství Osov)", bydl="Vižina čp. 77",
-              r=["osov_oddani_frantisek_grubner_1802", "osov_krest_antonin_grubner_1810", "dobris_oddani_antonin_grubner_barbora_floridova_1837", "dobris_krest_antonie_grubnerova_1843"],
-              note="Šenkýř a hospodský ve Vižině čp. 77 na panství Osov, syn Tomáše Grubnera z Vižiny. Dne 22. 11. 1802 se ve věku 33 let ve Vižině čp. 17 oženil s Annou roz. Bergerovou ze Skřiplu; otec dobříšského mistra krejčovského Antonína Grubnera (č. 74)."),
-    149: dict(n="Anna Grubnerová", y="kolem 1782–?", st="doc",
+              f=["* kolem 1769", "× 22. 11. 1802 Anna Bergerová (Vižina)", "hospodský/šenkýř ve Vižině čp. 77 a ve Skřiplu čp. 11 (panství Osov)", "syn Tomáše Grubnera", "† 23. 8. 1826 Skřipel čp. 11 (57 let, zánět střev)"],
+              zam="šenkýř ve Vižině a ve Skřiplu", puvod="Vižina čp. 17 a 77 (panství Osov)", bydl="Vižina čp. 77 / Skřipel čp. 11",
+              r=["osov_oddani_frantisek_grubner_1802", "osov_krest_antonin_grubner_1810", "skripel_umrti_frantisek_grubner_1826", "dobris_oddani_antonin_grubner_barbora_floridova_1837", "dobris_krest_antonie_grubnerova_1843"],
+              note="Šenkýř a hospodský ve Vižině čp. 77 a později ve Skřiplu čp. 11 na panství Osov, syn Tomáše Grubnera z Vižiny. Dne 22. 11. 1802 se ve věku 33 let ve Vižině čp. 17 oženil s Annou roz. Bergerovou ze Skřiplu; otec dobříšského mistra krejčovského Antonína Grubnera (č. 74). Zemřel 23. 8. 1826 ve Skřiplu čp. 11 ve věku 57 let na zánět střev."),
+    149: dict(n="Anna Grubnerová", y="kolem 1782 – † 1. 10. 1835", st="doc",
               otec=298,
-              f=["* kolem 1782, Skřipel", "× 22. 11. 1802 František Grubner (Vižina)", "dcera šenkýře a rychtáře Jana Bergera"],
-              roz="Bergerová", puvod="Skřipel / Vižina (panství Osov)", bydl="Vižina čp. 77",
-              r=["osov_oddani_frantisek_grubner_1802", "osov_krest_antonin_grubner_1810", "dobris_oddani_antonin_grubner_barbora_floridova_1837", "dobris_krest_antonie_grubnerova_1843"],
-              note="Rozená Bergerová (dcera šenkýře ze Skřiplu a později rychtáře ve Vižině Jana Bergera; v dřívějším přepisu r. 1810 chybně čteno jako Franzmannová). Dne 22. 11. 1802 se ve věku 20 let ve Vižině provdala za Františka Grubnera; matka mistra krejčího Antonína Grubnera (č. 74)."),
+              f=["* kolem 1782, Skřipel", "× 22. 11. 1802 František Grubner (Vižina)", "dcera šenkýře a rychtáře Jana Bergera", "† 1. 10. 1835 Skřipel čp. 11 (udáno 65 let, slabost)"],
+              roz="Bergerová", puvod="Skřipel / Vižina (panství Osov)", bydl="Vižina čp. 77 / Skřipel čp. 11",
+              r=["osov_oddani_frantisek_grubner_1802", "osov_krest_antonin_grubner_1810", "skripel_umrti_anna_grubnerova_1835", "dobris_oddani_antonin_grubner_barbora_floridova_1837", "dobris_krest_antonie_grubnerova_1843"],
+              note="Rozená Bergerová (dcera šenkýře ze Skřiplu a později rychtáře ve Vižině Jana Bergera; v dřívějším přepisu r. 1810 chybně čteno jako Franzmannová). Dne 22. 11. 1802 se ve věku 20 let ve Vižině provdala za Františka Grubnera; matka mistra krejčího Antonína Grubnera (č. 74). Zemřela 1. 10. 1835 jako šenkýřka ve Skřiplu čp. 11 (v matrice úmrtí udán věk 65 let)."),
     150: dict(n="Antonín Klaudy", y="† před 1837", st="doc",
               f=["měšťan a tabáčník v Dobříši čp. 53", "I. × Barbora († 17. 2. 1798 Dobříš čp. 53, 35 let)", "II. × 29. 5. 1798 Druhlice (Eva Patrašková, jako vdovec)", "† před únorem 1837 Dobříš"],
               zam="měšťan a tabáčník v Dobříši", puvod="Dobříš čp. 53", bydl="Dobříš čp. 53",
@@ -1030,25 +1030,25 @@ P = {
               r=["minice_krest_barbora_sarova_1797", "minice_oddani_vaclav_prochazka_1820", "minice_krest_marie_prochazkova_1833", "minice_oddani_josef_halik_1855", "minice_krest_anna_halikova_1857", "holubice_umrti_barbora_prochazkova_1861"],
               note="Praprababička MUDr. Ludmily Menšíkové. Narozena 3. 12. 1797 v Holubicích čp. 4 (pokřtěna 4. 12.) jako manželská dcera sedláka Jana Šáry a Anny roz. Růžankové/Růžkové z Minic čp. 23 (katolického vyznání). Dne 9. 2. 1820 se (v matrice psána s odhadnutým věkem 20 let) v Holubicích provdala za Václava Procházku; matka Marie Procházkové provdané Halíkové. Zemřela 27. 6. 1861 v Holubicích čp. 4 jako výminkářka a vdova po + Václavu Procházkovi (udáno 67 let, skutečný věk 63 let)."),
 
-    170: dict(n="Josef Jarolím", y="", st="doc",
+    170: dict(n="Josef Jarolím", y="* cca 1812 – † 12. 4. 1886", st="doc",
 
-              f=["× Kateřina Táborská"],
+              f=["* cca 1812", "× Kateřina Táborská", "† 12. 4. 1886 Žleby čp. 197 (74 let, sešlost věkem)"],
 
-              zam="obuvník", bydl="Žleby čp. 126",
+              zam="obuvník, později obyvatel a žebrák", bydl="Žleby čp. 126 / čp. 197",
 
-              r=["zleby_krest_jan_jarolim_1863", "zleby_krest_emilie_jarolimova_1899"],
+              r=["zleby_krest_jan_jarolim_1863", "zleby_umrti_katerina_jarolimova_1886", "zleby_umrti_josef_jarolim_1886", "zleby_krest_emilie_jarolimova_1899"],
 
-              note="Otec Barbory Jarolímové, obuvník ve Žlebech čp. 126; doložen v křestních zápisech dcery, vnuka Jana i pravnučky Emilie."),
+              note="Otec Barbory Jarolímové, obuvník a obyvatel ve Žlebech čp. 126; doložen v křestních zápisech dcery, vnuka Jana i pravnučky Emilie. Zemřel jako žebrák 12. 4. 1886 ve Žlebech čp. 197 ve věku 74 let (* cca 1812) na sešlost věkem."),
 
-    171: dict(n="Kateřina Táborská", y="", st="doc",
+    171: dict(n="Kateřina Táborská", y="* cca 1813 – † 26. 1. 1886", st="doc",
 
-              f=["× Josef Jarolím", "dcera Josefa Táborského"],
+              f=["* cca 1813 Žleby čp. 11", "× Josef Jarolím", "dcera Josefa Táborského", "† 26. 1. 1886 Žleby čp. 126 (73 let, sešlost stářím)"],
 
-              bydl="Žleby čp. 7 / čp. 126",
+              bydl="Žleby čp. 11 / čp. 126",
 
-              r=["zleby_krest_jan_jarolim_1863", "zleby_krest_emilie_jarolimova_1899"],
+              r=["zleby_krest_jan_jarolim_1863", "zleby_umrti_katerina_jarolimova_1886", "zleby_krest_emilie_jarolimova_1899"],
 
-              note="Matka Barbory Jarolímové, dcera Josefa Táborského ze Žlebů."),
+              note="Matka Barbory Jarolímové, dcera Josefa Táborského ze Žleb čp. 11. Zemřela 26. 1. 1886 ve Žlebech čp. 126 jako manželka Josefa Jarolíma ve věku 73 let (* cca 1813) na sešlost stářím."),
 
     172: dict(n="Martin Havel", y="cca 1770 – 18. 6. 1847", st="doc",
               f=["* cca 1770", "× Magdalena Dolanská", "† 18. 6. 1847 Dolní Krupá čp. 42 (77 let)"],
