@@ -2149,5 +2149,37 @@
     ],
     "shrnuti": "Dne 9. 6. 1817 se ve Starém Ransku čp. 33 oženil 21letý zámečník Josef Holánek z panství Křižanov s 22letou Rozálií (v křestních zápisech dětí uváděnou jako Barbora), vlastní dcerou tesaře Jana Slámy ze Starého Ranska.",
     "odkaz": "https://aron.vychodoceskearchivy.cz/apu/89e725fd-c3ca-4ad0-ad2d-c3a13646dfc0/dao/89e725fd-c3ca-4ad0-ad2d-c3a13646dfc0/file/f42c33d4-a571-4384-8884-46f12f0adcc2"
+  },
+  {
+    "klic": "ransko_umrti_tomas_sima_1828",
+    "nazev": "Úmrtí Tomáše Šímy (1828)",
+    "druh": "Z",
+    "datum": "3. 5. 1828",
+    "obec": "Staré Ransko čp. 1",
+    "svazek": "89e725fd",
+    "strana": "pag. 199, sn. 103",
+    "vyrez": "vyrezy/ransko_umrti_tomas_sima_1828.jpg",
+    "zdroj": "zdroje/ransko_umrti_tomas_sima_1828.jpg",
+    "osoby": [
+      180
+    ],
+    "shrnuti": "Dne 3. 5. 1828 zemřel ve Starém Ransku čp. 1 a 5. 5. 1828 byl pohřben panský dráb Tomáš Šíma ve věku 54 let (* cca 1774) na souchotiny.",
+    "odkaz": "https://aron.vychodoceskearchivy.cz/apu/89e725fd-c3ca-4ad0-ad2d-c3a13646dfc0/dao/89e725fd-c3ca-4ad0-ad2d-c3a13646dfc0/file/97754e59-3232-4820-83ab-ad8f97575fa2"
+  },
+  {
+    "klic": "vysehorovice_umrti_vaclav_hromada_1838",
+    "nazev": "Úmrtí Václava Hromady st. (1838)",
+    "druh": "Z",
+    "datum": "24. 7. 1838",
+    "obec": "Vyšehořovice čp. 22",
+    "svazek": "ebad_8133",
+    "strana": "fol. 26, sn. 28",
+    "vyrez": "vyrezy/vysehorovice_umrti_vaclav_hromada_1838.jpg",
+    "zdroj": "zdroje/vysehorovice_umrti_vaclav_hromada_1838.jpg",
+    "osoby": [
+      244
+    ],
+    "shrnuti": "Dne 24. 7. 1838 zemřel ve Vyšehořovicích čp. 22 a 26. 7. 1838 byl pohřben gruntovník Václav Hromada ve věku 50 let (skutečný věk 45 let, * 7. 7. 1793) na úbytě (Auszehrung).",
+    "odkaz": "https://ebadatelna.soapraha.cz/d/8133/28"
   }
 ]

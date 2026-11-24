@@ -1110,10 +1110,10 @@ P = {
               r=["ransko_krest_vojtech_hlavacek_1837", "ransko_krest_frantisek_holanek_1854"],
               note="Podle křtu syna Vojtěcha (* 1837, sign. 8327, sn. 57) byla manželskou dcerou Josefa Heislera, podruha a nádeníka v Matějovicích čp. 14 (panství Bystřické, kraj Jihlavský na Moravě), a † Rosalie rozené Jana Haura, sklenáře z Gründelhütten v Horních Rakousích; u vnuka (* 1854) uváděna z Hamrů čp. 9 na hlineckém panství."),
 
-    180: dict(n="Tomáš Šíma", y="† před 1837", st="doc",
-              f=["∞ Marie Anna Halíková", "† před 31. 1. 1837"], zam="panský dráb", bydl="Staré Ransko čp. 1 a čp. 2",
-              r=["ransko_oddani_matej_sima_1837", "ransko_krest_jan_sima_1837", "ransko_krest_julie_simova_1854"],
-              note="Panský dráb ve Starém Ransku čp. 1 (později čp. 2), zemřel před sňatkem syna Matěje dne 31. 1. 1837. Doložen v oddacím zápisu syna Matěje (1837) a křestních zápisech vnuků Jana (1837) a Julie (1854). Manžel Marie Anny rozené Halíkové z Volešné čp. 25."),
+    180: dict(n="Tomáš Šíma", y="* cca 1774 – † 3. 5. 1828", st="doc",
+              f=["* cca 1774", "∞ Marie Anna Halíková", "panský dráb ve Starém Ransku čp. 1", "† 3. 5. 1828, Staré Ransko čp. 1 (54 let, souchotiny)"], zam="panský dráb", bydl="Staré Ransko čp. 1 a čp. 2",
+              r=["ransko_umrti_tomas_sima_1828", "ransko_oddani_matej_sima_1837", "ransko_krest_jan_sima_1837", "ransko_krest_julie_simova_1854"],
+              note="Panský dráb ve Starém Ransku čp. 1 (později uváděno i čp. 2), zemřel 3. 5. 1828 ve věku 54 let (* cca 1774) na souchotiny (Staré Ransko sign. 8327, pag. 199, sn. 103). Doložen též v oddacím zápisu syna Matěje (1837) a křestních zápisech vnuků Jana (1837) a Julie (1854). Manžel Marie Anny rozené Halíkové z Volešné čp. 25."),
 
     181: dict(n="Marie Halíková", y="", st="doc",
               f=["∞ Tomáš Šíma", "dcera Ondřeje Halíka z Volešné čp. 25"], bydl="Olešná (Volešná) čp. 25",
@@ -1266,11 +1266,11 @@ P = {
               r=["luzec_oddani_josef_michl_1835", "vlkov_oddani_frantisek_cerny_1856", "dobsice_krest_jan_cerny_1860"],
               note="Narozena kolem r. 1813, dcera sedláka Václava Fialy z Lužce nad Cidlinou čp. 12 a Magdaleny roz. Dušánkové z Lužce čp. 5 (v pozdějších dobšických a vlkovských zápisech 1856/1860 uváděna jako z Lužan). Dne 17. 5. 1835 se v Lužci nad Cidlinou čp. 12 ve věku 22 let provdala za kováře Josefa Michla z Vlkova čp. 13; matka Kateřiny provdané Černé a babička kováře Jana Černého."),
 
-    244: dict(n="Václav Hromada st.", y="1793–1838", st="doc",
-              f=["* 7. 7. 1793 Vyšehořovice čp. 7", "× 4. 2. 1817 Vyšehořovice Alžběta Jirkovská", "† 8. 1838 Vyšehořovice čp. 22"],
+    244: dict(n="Václav Hromada st.", y="7. 7. 1793 – 24. 7. 1838", st="doc",
+              f=["* 7. 7. 1793 Vyšehořovice čp. 7", "× 4. 2. 1817 Vyšehořovice Alžběta Jirkovská", "† 24. 7. 1838 Vyšehořovice čp. 22 (úbytě)"],
               zam="gruntovník ve Vyšehořovicích čp. 22", bydl="Vyšehořovice čp. 22", puvod="Vyšehořovice čp. 7",
-              r=["vysehorovice_krest_vaclav_hromada_1793", "vysehorovice_oddani_vaclav_hromada_1817", "vysehorovice_krest_vaclav_hromada_1832", "kovanice_oddani_vaclav_hromada_1853", "chvalovice_krest_anna_hromadova_1864"],
-              note="Gruntovník ve Vyšehořovicích čp. 22 na kounickém panství, pokřtěn 7. 7. 1793 ve Vyšehořovicích čp. 7 jako syn sedláka Matěje Hromady a Mařeny (Magdaleny) roz. Buriankové. Dne 4. 2. 1817 se ve Vyšehořovicích (24 let) oženil s Alžbětou Jirkovskou z čp. 25 (18 let). Zemřel v srpnu 1838 (index Zi Tom VIII, fol. 26). Otec gruntovníka Václava Hromady ml. z Chvalovic."),
+              r=["vysehorovice_krest_vaclav_hromada_1793", "vysehorovice_oddani_vaclav_hromada_1817", "vysehorovice_krest_vaclav_hromada_1832", "vysehorovice_umrti_vaclav_hromada_1838", "kovanice_oddani_vaclav_hromada_1853", "chvalovice_krest_anna_hromadova_1864"],
+              note="Gruntovník ve Vyšehořovicích čp. 22 na kounickém panství, pokřtěn 7. 7. 1793 ve Vyšehořovicích čp. 7 jako syn sedláka Matěje Hromady a Mařeny (Magdaleny) roz. Buriankové. Dne 4. 2. 1817 se ve Vyšehořovicích (24 let) oženil s Alžbětou Jirkovskou z čp. 25 (18 let). Zemřel 24. 7. 1838 ve Vyšehořovicích čp. 22 (pohřben 26. 7., udáno 50 let, úbytě; Vyšehořovice 11, fol. 26, sn. 28). Otec gruntovníka Václava Hromady ml. z Chvalovic."),
 
     245: dict(n="Alžběta Hromadová", y="* cca 1799", st="doc",
               f=["* cca 1799", "× 4. 2. 1817 Vyšehořovice Václav Hromada"],
