@@ -778,12 +778,12 @@ P = {
               r=["kovanice_oddani_vaclav_hromada_1853", "chvalovice_krest_anna_hromadova_1864", "podebrady_oddani_jan_cerny_1885"],
               note="Manželka gruntovníka Václava Hromady, narozená roku 1831 v Chvalovicích čp. 21 jako dcera hospodáře Josefa Kováříka a Anny roz. Homolové z Chrástu na Českobrodsku. Dne 12. 4. 1853 se provdala za Václava Hromadu za písemného souhlasu otce Josefa Kováříka, který odešel na výminek. Matka Anny Černé roz. Hromadové (* 1864)."),
 
-    124: dict(n="Václav Měšťánek", y="* cca 1830", st="doc",
-              f=["* cca 1830 Pučery", "× 4. 10. 1858 Pečky (farnost Nebovidy) Barbora Kosová"],
+    124: dict(n="Václav Měšťánek", y="15. 9. 1830 – ?", st="doc",
+              f=["* 15. 9. 1830 Pučery čp. 2 (pokřtěn 16. 9. 1830)", "× 4. 10. 1858 Pečky (farnost Nebovidy) Barbora Kosová"],
               zam="tovaryš tesařský v Bojišti čp. 10, záložník c. k. 6. pluku polního dělostřelectva, tkalec",
               bydl="Bojiště čp. 10 (okres Kolín)", puvod="Pučery čp. 2",
-              r=["bojiste_oddani_vaclav_mestanek_1858", "bojiste_krest_josef_mestanek_1859", "koncice_oddani_josef_mestanek_1883", "koncice_krest_marie_mestankova_1885"],
-              note="Tovaryš tesařský v Bojišti čp. 10 a tkalec. Sloužil u c. k. 6. pluku polního dělostřelectva (Artillerie-Regiment Nr. 6, majitel generálmajor rytíř von Fitz). Narozen kolem roku 1830 v Pučerech čp. 2 (v bojišťských zápisech 1858–1859 čteno též jako Dvory čp. 2) jako manželský syn nádeníka Antonína Měšťánka a Barbory roz. Šafáříkové z Peček. Dne 4. 10. 1858 se v Pečkách po doručení vojenského povolení z Pešti a ohláškách u dělostřelecké jednotky v Uhrách oženil s Barborou Kosovou z Bojiště čp. 10. Otec mistra tesařského Josefa Měšťánka (* 1859)."),
+              r=["pucery_krest_vaclav_mestanek_1830", "bojiste_oddani_vaclav_mestanek_1858", "bojiste_krest_josef_mestanek_1859", "koncice_oddani_josef_mestanek_1883", "koncice_krest_marie_mestankova_1885"],
+              note="Tovaryš tesařský v Bojišti čp. 10 a tkalec. Sloužil u c. k. 6. pluku polního dělostřelectva (Artillerie-Regiment Nr. 6, majitel generálmajor rytíř von Fitz). Narozen 15. 9. 1830 v Pučerech čp. 2 (pokřtěn 16. 9. 1830) jako manželský syn baráčníka/nádeníka Antonína Měšťánka a Barbory roz. Šafáříkové z Pučer (dcery Matěje Šafáříka a Doroty roz. Mašínové). Dne 4. 10. 1858 se v Pečkách po doručení vojenského povolení z Pešti a ohláškách u dělostřelecké jednotky v Uhrách oženil s Barborou Kosovou z Bojiště čp. 10. Otec mistra tesařského Josefa Měšťánka (* 1859)."),
 
     125: dict(n="Barbora Měšťánková", y="* 1835", st="doc",
               f=["* 27. 11. 1835 Bojiště čp. 10", "× 4. 10. 1858 Pečky (farnost Nebovidy) Václav Měšťánek"],
@@ -1299,10 +1299,10 @@ P = {
               note="Kočí (Pferdknecht) a zeměbranec, později domkář, nádeník a obyvatel v Pučerech čp. 2 na Kouřimsku. Dne 9. 11. 1818 se ve věku 25 let (* cca 1793) v Pučerech čp. 2 oženil s Barborou (* cca 1791, roz. Šafáříkovou), vdovou po výměnkáři Jakubu Sedláčkovi z Pučer čp. 2 (Solopysky 14, fol. 13, sn. 54). Zemřel 27. 1. 1844 v Pučerech čp. 2 ve věku 53 let (* cca 1791). Otec tesaře a dělostřeleckého záložníka Václava Měšťánka a dědeček Josefa Měšťánka (* 1859)."),
 
     249: dict(n="Barbora Měšťánková", y="* cca 1791", st="doc",
-              f=["* cca 1791", "× 9. 11. 1818 Pučery čp. 2 (Antonín Měšťánek)", "dříve provdaná za † Jakuba Sedláčka z Pučer čp. 2"],
-              roz="Šafáříková", bydl="Pučery čp. 2", puvod="Pučery / Pečky (okres Kolín)",
-              r=["pucery_oddani_antonin_mestanek_1818", "bojiste_oddani_vaclav_mestanek_1858", "bojiste_krest_josef_mestanek_1859"],
-              note="Pocházela z Pučer (v bojišťském křestním zápisu 1859 uvedena jako rozená Šafáříková z Pučer, v oddacím zápisu 1858 z Pučer/Peček). Poprvé provdaná za Jakuba Sedláčka, výměnkáře z Pučer čp. 2; jako 27letá vdova (* cca 1791) se dne 9. 11. 1818 v Pučerech čp. 2 provdala za Antonína Měšťánka (Solopysky 14, fol. 13, sn. 54). Matka tesaře Václava Měšťánka a babička Josefa Měšťánka (* 1859)."),
+              f=["* cca 1791", "dcera Matěje Šafáříka z Pučer a Doroty roz. Mašínové", "× 9. 11. 1818 Pučery čp. 2 (Antonín Měšťánek)", "dříve provdaná za † Jakuba Sedláčka z Pučer čp. 2"],
+              roz="Šafáříková", bydl="Pučery čp. 2", puvod="Pučery",
+              r=["pucery_oddani_antonin_mestanek_1818", "pucery_krest_vaclav_mestanek_1830", "bojiste_oddani_vaclav_mestanek_1858", "bojiste_krest_josef_mestanek_1859"],
+              note="Dcera výměnkáře Matěje Šafáříka z Pučer a Doroty roz. Mašínové z Pučer (doloženo křtem syna Václava 15. 9. 1830). Poprvé provdaná za Jakuba Sedláčka, výměnkáře z Pučer čp. 2; jako 27letá vdova (* cca 1791) se dne 9. 11. 1818 v Pučerech čp. 2 provdala za Antonína Měšťánka (Solopysky 14, fol. 13, sn. 54). Matka tesaře Václava Měšťánka a babička Josefa Měšťánka (* 1859)."),
 
     250: dict(n="Václav Kos", y="* cca 1811", st="doc",
               f=["* cca 1810–1811 Svrabov čp. 35", "× 13. 1. 1835 Pečky (farnost Nebovidy pro Bojiště čp. 10) Marie Kollářová"],
