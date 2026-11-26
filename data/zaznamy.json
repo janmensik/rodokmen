@@ -2753,5 +2753,39 @@
     ],
     "shrnuti": "Dne 12. 4. 1795 se ve Starém Ransku čp. 16 narodila a 13. 4. byla pokřtěna Filopina (Filipina) Slámová, manželská dcera chalupníka Jana Slámy a Alžběty Dymáčkové (později v zápisech uváděná i jako Rozálie a Barbora).",
     "odkaz": "https://aron.vychodoceskearchivy.cz/apu/89e725fd-c3ca-4ad0-ad2d-c3a13646dfc0/dao/89e725fd-c3ca-4ad0-ad2d-c3a13646dfc0/file/7"
+  },
+  {
+    "klic": "dobris_umrti_antonin_klaudy_1834",
+    "nazev": "Úmrtí Antonína Klaudy / Klaudyho (1834)",
+    "druh": "Z",
+    "datum": "1. 11. 1834",
+    "obec": "Dobříš čp. 53",
+    "svazek": "ebad_5085",
+    "strana": "pag. 130, sn. 68",
+    "vyrez": "vyrezy/dobris_umrti_antonin_klaudy_1834.jpg",
+    "zdroj": "zdroje/dobris_umrti_antonin_klaudy_1834.jpg",
+    "osoby": [
+      150
+    ],
+    "shrnuti": "Dne 1. 11. 1834 zemřel v Dobříši čp. 53 (3. 11. pohřben farářem Matějem Nádherným) Antonín Klauda (Klaudy), zapsán jako tesař, ve věku 76 let (* cca 1758) na záduchu (Brustdampf).",
+    "odkaz": "https://ebadatelna.soapraha.cz/d/5085/68"
+  },
+  {
+    "klic": "dobris_krest_antonin_klaudy_1759",
+    "nazev": "Křest Antonína Klaudy / Klaudyho (1759)",
+    "druh": "N",
+    "datum": "13. 6. 1759",
+    "obec": "Dobříš",
+    "svazek": "ebad_5061",
+    "strana": "fol. 153, sn. 80",
+    "vyrez": "vyrezy/dobris_krest_antonin_klaudy_1759.jpg",
+    "zdroj": "zdroje/dobris_krest_antonin_klaudy_1759.jpg",
+    "osoby": [
+      150,
+      300,
+      301
+    ],
+    "shrnuti": "Dne 13. 6. 1759 se v Dobříši narodil a 14. 6. byl kaplanem Františkem Panthauerem pokřtěn Antonín, manželský syn Karla Klaudy a Mariany, oba poddaní dobříšští.",
+    "odkaz": "https://ebadatelna.soapraha.cz/d/5061/80"
   }
 ]

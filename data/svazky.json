@@ -1480,5 +1480,21 @@
   "svazek": "Solopysky 06, N 1816–1834",
   "popis": "Chotouchov, Hrádek, Jindice, Křečovice, Miletín, Poďousy, Pučery, Solopysky",
   "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/12288"
+ },
+ "ebad_5085": {
+  "archiv": "SOA Praha – Sbírka matrik",
+  "portal": "eBadatelna",
+  "svazek": "Dobříš 27, Z 1816–1839",
+  "popis": "Baba, Brodec, Dobříš, Obora, Rosovice, Stará Huť, Trnová, Voznice",
+  "snimku": 148,
+  "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/5085"
+ },
+ "ebad_5061": {
+  "archiv": "SOA Praha – Sbírka matrik",
+  "portal": "eBadatelna",
+  "svazek": "Dobříš 03, N 1747–1768, O 1747–1768, Oi 1747–1768, Z 1747–1768, Zi 1747–1768",
+  "popis": "Baba, Dobříš, Jablonná, Obora, Rosovice, Stará Huť, Sychrov, Trnová, U Pěti Lip, Voznice",
+  "snimku": 321,
+  "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/5061"
  }
 }
