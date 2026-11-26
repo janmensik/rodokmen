@@ -2787,5 +2787,41 @@
     ],
     "shrnuti": "Dne 13. 6. 1759 se v Dobříši narodil a 14. 6. byl kaplanem Františkem Panthauerem pokřtěn Antonín, manželský syn Karla Klaudy a Mariany, oba poddaní dobříšští.",
     "odkaz": "https://ebadatelna.soapraha.cz/d/5061/80"
+  },
+  {
+    "klic": "drevcice_krest_vaclav_zaruba_1758",
+    "nazev": "Křest Václava Záruby (1758)",
+    "druh": "N",
+    "datum": "1. 1. 1758",
+    "obec": "Dřevčice",
+    "svazek": "ebad_5347",
+    "strana": "pag. 20, sn. 12",
+    "vyrez": "vyrezy/drevcice_krest_vaclav_zaruba_1758.jpg",
+    "zdroj": "zdroje/drevcice_krest_vaclav_zaruba_1758.jpg",
+    "osoby": [
+      628,
+      1256,
+      1257
+    ],
+    "shrnuti": "Dne 1. 1. 1758 se v Dřevčicích narodil a téhož dne byl P. Josefem Čečatkou pokřtěn Václav, manželský syn domkaře Jana Záruby a Ludmily Novákové, císařských poddaných.",
+    "odkaz": "https://ebadatelna.soapraha.cz/d/5347/12"
+  },
+  {
+    "klic": "drevcice_krest_anna_svancarova_1760",
+    "nazev": "Křest Anny Petronilly Švančarové (1760)",
+    "druh": "N",
+    "datum": "17. 4. 1760",
+    "obec": "Dřevčice",
+    "svazek": "ebad_5347",
+    "strana": "pag. 25, sn. 14",
+    "vyrez": "vyrezy/drevcice_krest_anna_svancarova_1760.jpg",
+    "zdroj": "zdroje/drevcice_krest_anna_svancarova_1760.jpg",
+    "osoby": [
+      629,
+      1258,
+      1259
+    ],
+    "shrnuti": "Dne 17. 4. 1760 se v Dřevčicích narodila a 18. 4. byla P. Josefem Čečatkou pokřtěna Anna Petronilla, manželská dcera ovčáka Matěje Švančara a Anny, císařských poddaných.",
+    "odkaz": "https://ebadatelna.soapraha.cz/d/5347/14"
   }
 ]
