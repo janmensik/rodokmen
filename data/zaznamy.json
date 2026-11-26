@@ -2633,5 +2633,38 @@
     ],
     "shrnuti": "Dne 1. 10. 1835 zemřela ve Skřiplu čp. 11 (3. 10. pohřbena) Anna Grubnerová, šenkýřka ze Skřiplu, na slabost (udán věk 65 let).",
     "odkaz": "https://ebadatelna.soapraha.cz/d/10758/39"
+  },
+  {
+    "klic": "chlum_umrti_tomas_pospichal_1880",
+    "nazev": "Úmrtí Tomáše Pospíchala (1880)",
+    "druh": "Z",
+    "datum": "30. 5. 1880",
+    "obec": "Chlum čp. 32",
+    "svazek": "b0258e95",
+    "strana": "str. 44, sn. 26",
+    "vyrez": "vyrezy/chlum_umrti_tomas_pospichal_1880.jpg",
+    "zdroj": "zdroje/chlum_umrti_tomas_pospichal_1880.jpg",
+    "osoby": [
+      188
+    ],
+    "shrnuti": "Dne 30. 5. 1880 zemřel v Chlumu čp. 32 (3. 6. pohřben) krejčí Tomáš Pospíchal ve věku 70 let (* 1810) na ochrnutí plic.",
+    "odkaz": "https://aron.vychodoceskearchivy.cz/apu/b0258e95-fe63-46f1-813a-641f0c007eb2/dao/b0258e95-fe63-46f1-813a-641f0c007eb2/file/26"
+  },
+  {
+    "klic": "chlum_umrti_antonie_podrouzkova_1889",
+    "nazev": "Úmrtí Antonie Podroužkové roz. Řehákové (1889)",
+    "druh": "Z",
+    "datum": "10. 7. 1889",
+    "obec": "Chlum čp. 31",
+    "svazek": "b0258e95",
+    "strana": "str. 56, sn. 32",
+    "vyrez": "vyrezy/chlum_umrti_antonie_podrouzkova_1889.jpg",
+    "zdroj": "zdroje/chlum_umrti_antonie_podrouzkova_1889.jpg",
+    "osoby": [
+      191,
+      190
+    ],
+    "shrnuti": "Dne 10. 7. 1889 zemřela v Chlumu čp. 31 (12. 7. pohřbena) Antonie Podroužková, manželka sedláka Jana Podroužka z Chlumu čp. 31, rozená Řeháčková z Chlumu čp. 100, ve věku 63 let (* cca 1826) na průtrž.",
+    "odkaz": "https://aron.vychodoceskearchivy.cz/apu/b0258e95-fe63-46f1-813a-641f0c007eb2/dao/b0258e95-fe63-46f1-813a-641f0c007eb2/file/32"
   }
 ]
