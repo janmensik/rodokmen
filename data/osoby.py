@@ -654,15 +654,12 @@ P = {
              r=["krupa_krest_jan_havel_1814", "krupa_krest_antonie_havlova_1857", "krupa_umrti_jan_havel_1887", "krupa_oddani_jan_jarolim_1888", "zleby_krest_emilie_jarolimova_1899"],
              note="Pokřtěn 21. 5. 1814 v Dolní Krupé čp. 42 (21. 1. 1837 si vyžádal křestní list ke sňatku). Mistr krejčovský, muzikant a půldomkář v Dolní Krupé čp. 42. Syn krejčího Martina Havla z Dolní Krupé čp. 42 a Magdaleny roz. Dolanské z čp. 22. Zemřel jako vdovec 20. 6. 1887 v Dolní Krupé čp. 42 (v matrice udáno 76 let, skutečný věk 73 let) na sešlost věkem."),
 
-    87: dict(n="Anna Jeřábková", y="† před 1888", st="doc",
-
-             f=["× Jan Havel", "† před 29. 5. 1888", "dcera učitele Ignáce Jeřábka a Josefy Hoffmannové"],
-
-             bydl="Čachotín čp. 15",
-
-             r=["krupa_krest_antonie_havlova_1857", "krupa_oddani_jan_jarolim_1888", "zleby_krest_emilie_jarolimova_1899"],
-
-             note="Dcera učitele Ignáce Jeřábka a Josefy roz. Hoffmannové z Frauenthalu (Pohledu) čp. 5. Doložena v křtu dcery Antonie (1857), oddavkách (1888) i křtu vnučky Emilie (1899)."),
+    87: dict(n="Anna Jeřábková", y="* cca 1821 – † 9. 3. 1886", st="doc",
+             otec=174, matka=175,
+             f=["* cca 1821 Čachotín", "× Jan Havel (cca 1854)", "† 9. 3. 1886 Dolní Krupá čp. 42 (65 let, sešlost věkem)", "dcera učitele Ignáce Jeřábka a Josefy Hoffmannové"],
+             bydl="Dolní Krupá čp. 42, dříve Čachotín čp. 15", puvod="Čachotín",
+             r=["krupa_krest_antonie_havlova_1857", "krupa_umrti_anna_havlova_1886", "krupa_oddani_jan_jarolim_1888", "zleby_krest_emilie_jarolimova_1899"],
+             note="Dcera učitele Ignáce Jeřábka a Josefy roz. Hoffmannové z Frauenthalu (Pohledu) čp. 5. Narodila se kolem roku 1821 v Čachotíně; kolem roku 1854 se provdala za krejčího Jana Havla z Dolní Krupé čp. 42. Zemřela 9. 3. 1886 v Dolní Krupé čp. 42 ve věku 65 let (v manželství 32 let) na sešlost věkem."),
 
     88: dict(n="Jan Holánek", y="* 1820", st="doc",
              f=["* 18. 6. 1820 Staré Ransko čp. 45", "× Johanna Hlaváčková",
