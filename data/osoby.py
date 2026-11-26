@@ -1087,12 +1087,12 @@ P = {
               r=["ransko_oddani_josef_holanek_1817", "ransko_krest_jan_holanek_1820", "ransko_umrti_josef_holanek_1836", "ransko_krest_frantisek_holanek_1854"],
               note="Mistr kovářský a zámečnický ve Starém Ransku čp. 45 (roku 1820) a domkář v čp. 53, rodem z Křižanova na Moravě (* cca 1796/1797). Dne 9. 6. 1817 se ve Starém Ransku čp. 33 oženil s dcerou tesaře Jana Slámy (při sňatku zapsanou jako Rozálie, v křestních zápisech syna Jana i vnuka Františka jako Barbora). Zemřel 6. 6. 1836 ve Starém Ransku čp. 53 ve věku 39 let na vodnatelnost a 9. 6. byl pohřben."),
 
-    177: dict(n="Barbora Slámová", y="* cca 1795 – ?", st="doc",
+    177: dict(n="Barbora (Filipina) Slámová", y="12. 4. 1795 – ?", st="doc",
               otec=354, matka=355,
-              f=["* cca 1795, Staré Ransko čp. 33", "× 9. 6. 1817 Staré Ransko čp. 33 (Josef Holánek; v matrice O zapsána jako Rozálie)"],
-              roz="Slámová", bydl="Staré Ransko čp. 33 a čp. 45", puvod="Staré Ransko čp. 33",
-              r=["ransko_oddani_josef_holanek_1817", "ransko_krest_jan_holanek_1820", "ransko_krest_frantisek_holanek_1854"],
-              note="V rodinném stromu PDF byla dříve mylně uvedena jako Filipina; v křestních matrikách syna Jana (* 1820, sign. 8327, sn. 47) i vnuka Františka (* 1854, sign. 711, sn. 188) je uvedena jako Barbora, dcera tesařského mistra Jana Slámy z čp. 33 a Alžběty rozené Dymáčkové. Při sňatku s Josefem Holánkem dne 9. 6. 1817 (sign. 8327, pag. 119, sn. 63) je nevěsta (22 let, * cca 1795) zapsána jménem Rozálie, dcera Jana Slámy tesaře z Ranska čp. 33."),
+              f=["* 12. 4. 1795 Staré Ransko čp. 16 (pokřtěna 13. 4. 1795 jako Filopina / Filipina)", "× 9. 6. 1817 Staré Ransko čp. 33 (Josef Holánek; v matrice O zapsána jako Rozálie)"],
+              roz="Slámová", bydl="Staré Ransko čp. 16, čp. 33 a čp. 45", puvod="Staré Ransko čp. 16",
+              r=["ransko_krest_barbora_slamova_1795", "ransko_oddani_josef_holanek_1817", "ransko_krest_jan_holanek_1820", "ransko_krest_frantisek_holanek_1854"],
+              note="Křtem ze dne 13. 4. 1795 (* 12. 4. 1795, Staré Ransko čp. 16, sign. 8327, fol. 7, sn. 7) doložena jako Filopina (Filipina), dcera chalupníka Jana Slámy a Alžběty Dymáčkové – rodinná tradice PDF tedy jméno Filipina uchovala správně. V pozdějších zápisech figuruje pod jmény Rozálie (při sňatku 9. 6. 1817 na čp. 33, 22 let, sign. 8327, pag. 119, sn. 63) a Barbora (v křestních matrikách syna Jana * 1820, sign. 8327, sn. 47, i vnuka Františka * 1854, sign. 711, sn. 188)."),
 
     178: dict(n="Vojtěch Hlaváček", y="", st="doc",
               f=["× Barbora Heislerová", "syn † Matouše Hlaváčka z Markvarce čp. 8 a † Anny Plesnivé"],
