@@ -648,11 +648,11 @@ P = {
 
              note="Doložena v křestních zápisech syna Jana i vnučky Emilie ve Žlebech; v oddacím zápise syna Jana (1888) uvedena jako již zesnulá."),
 
-    86: dict(n="Jan Havel", y="21. 5. 1814 – před 1888", st="doc",
-             f=["* 21. 5. 1814 Dolní Krupá čp. 42", "× Anna Jeřábková", "† před 29. 5. 1888", "syn Martina Havla a Magdaleny Dolanské"],
-             zam="mistr krejčovský", bydl="Dolní Krupá čp. 42", puvod="Dolní Krupá čp. 42",
-             r=["krupa_krest_jan_havel_1814", "krupa_krest_antonie_havlova_1857", "krupa_oddani_jan_jarolim_1888", "zleby_krest_emilie_jarolimova_1899"],
-             note="Pokřtěn 21. 5. 1814 v Dolní Krupé čp. 42 (21. 1. 1837 si vyžádal křestní list ke sňatku). Mistr krejčovský v Dolní Krupé čp. 42. Syn krejčího Martina Havla z Dolní Krupé čp. 42 a Magdaleny roz. Dolanské z čp. 22. Doložen v křtu dcery Antonie (1857) i vnučky Emilie (1899); k 1888 již zesnulý."),
+    86: dict(n="Jan Havel", y="21. 5. 1814 – 20. 6. 1887", st="doc",
+             f=["* 21. 5. 1814 Dolní Krupá čp. 42", "× Anna Jeřábková", "† 20. 6. 1887 Dolní Krupá čp. 42 (vdovec, sešlost věkem)", "syn Martina Havla a Magdaleny Dolanské"],
+             zam="mistr krejčovský, muzikant a půldomkář", bydl="Dolní Krupá čp. 42", puvod="Dolní Krupá čp. 42",
+             r=["krupa_krest_jan_havel_1814", "krupa_krest_antonie_havlova_1857", "krupa_umrti_jan_havel_1887", "krupa_oddani_jan_jarolim_1888", "zleby_krest_emilie_jarolimova_1899"],
+             note="Pokřtěn 21. 5. 1814 v Dolní Krupé čp. 42 (21. 1. 1837 si vyžádal křestní list ke sňatku). Mistr krejčovský, muzikant a půldomkář v Dolní Krupé čp. 42. Syn krejčího Martina Havla z Dolní Krupé čp. 42 a Magdaleny roz. Dolanské z čp. 22. Zemřel jako vdovec 20. 6. 1887 v Dolní Krupé čp. 42 (v matrice udáno 76 let, skutečný věk 73 let) na sešlost věkem."),
 
     87: dict(n="Anna Jeřábková", y="† před 1888", st="doc",
 
@@ -1050,21 +1050,19 @@ P = {
 
               note="Matka Barbory Jarolímové, dcera Josefa Táborského ze Žleb čp. 11. Zemřela 26. 1. 1886 ve Žlebech čp. 126 jako manželka Josefa Jarolíma ve věku 73 let (* cca 1813) na sešlost stářím."),
 
-    172: dict(n="Martin Havel", y="cca 1770 – 18. 6. 1847", st="doc",
-              f=["* cca 1770", "× Magdalena Dolanská", "† 18. 6. 1847 Dolní Krupá čp. 42 (77 let)"],
+    172: dict(n="Martin Havel", y="cca 1770–1776 – 18. 6. 1847", st="doc",
+              otec=344,
+              f=["* cca 1770–1776", "∞ 17. 11. 1811 Dolní Krupá čp. 3 (Magdalena Dolanská)", "† 18. 6. 1847 Dolní Krupá čp. 42 (77 let)", "syn † Jiřího Havla z Krupé"],
               zam="krejčí, domkař a výměnkář", bydl="Dolní Krupá čp. 42",
-              r=["krupa_krest_jan_havel_1814", "krupa_umrti_martin_havel_1847", "krupa_krest_antonie_havlova_1857", "krupa_oddani_jan_jarolim_1888"],
-              note="Krejčí, domkař a výměnkář v Dolní Krupé čp. 42, otec mistra krejčovského Jana Havla (* 1814). Zemřel 18. 6. 1847 v Dolní Krupé čp. 42 ve věku 77 let (* cca 1770) na záduší."),
+              r=["krupa_oddani_martin_havel_1811", "krupa_krest_jan_havel_1814", "krupa_umrti_martin_havel_1847", "krupa_krest_antonie_havlova_1857", "krupa_oddani_jan_jarolim_1888"],
+              note="Krejčí, domkař a výměnkář v Dolní Krupé čp. 42, syn † Jiřího Havla z Krupé. Dne 17. 11. 1811 se v Dolní Krupé čp. 3 (udán věk 35 let, * cca 1776) oženil s Magdalenou Dolanskou. Otec mistra krejčovského Jana Havla (* 1814). Zemřel 18. 6. 1847 v Dolní Krupé čp. 42 ve věku 77 let (* cca 1770) na záduší."),
 
-    173: dict(n="Magdalena Dolanská", y="† před 1857", st="doc",
-
-              f=["× Martin Havel", "† před 13. 1. 1857"],
-
-              bydl="Dolní Krupá čp. 22",
-
-              r=["krupa_krest_antonie_havlova_1857", "krupa_oddani_jan_jarolim_1888"],
-
-              note="Matka krejčího Jana Havla, rodem z Dolní Krupé čp. 22. Doložena v křestní matrice vnučky Antonie."),
+    173: dict(n="Magdalena Dolanská", y="cca 1785 – před 1857", st="doc",
+              otec=346,
+              f=["* cca 1785", "∞ 17. 11. 1811 Dolní Krupá čp. 3 (Martin Havel)", "† před 13. 1. 1857", "dcera † Josefa Dolanského"],
+              bydl="Dolní Krupá čp. 22 a 42",
+              r=["krupa_oddani_martin_havel_1811", "krupa_krest_antonie_havlova_1857", "krupa_oddani_jan_jarolim_1888"],
+              note="Dcera † Josefa Dolanského, rodem z Dolní Krupé čp. 22. Dne 17. 11. 1811 se v Dolní Krupé čp. 3 ve věku 26 let (* cca 1785) provdala za krejčovského tovaryše Martina Havla. Matka krejčího Jana Havla; k roku 1857 již zesnulá."),
 
     174: dict(n="Ignác Jeřábek", y="* cca 1798 – † 3. 4. 1865", st="doc",
 
@@ -1144,13 +1142,13 @@ P = {
               r=["hluboka_oddani_jan_henzl_1836", "hluboka_krest_vaclav_henzl_1844", "hluboka_krest_franz_henzl_1872"],
               note="Pra-pra-prababička Jana Menšíka, pocházela z Chlumětína čp. 55. Manželská dcera Františka Nováka, kovářského mistra v Chlumětíně čp. 55, a Josefy roz. Teplé ze Svratoucha (helvetského vyznání). Dne 22. 11. 1836 se ve věku 22 let provdala za půlláníka Jana Henzla z Hluboké čp. 15; matka Václava Henzla."),
 
-    186: dict(n="František Procházka", y="1. 12. 1816 – před 12. 7. 1872", st="doc",
+    186: dict(n="František Procházka", y="1. 12. 1816 – 31. 5. 1899", st="doc",
               otec=372, matka=373,
-              f=["* 1. 12. 1816 Hluboká čp. 26", "sedlák, půlláník a obecník v Hluboké čp. 53 a 7",
-                 "∞ 27. 1. 1846 Hluboká (Františka Křesťanová)", "† před 12. 7. 1872"],
-              zam="půlláník a sedlák v Hluboké čp. 7", bydl="Hluboká čp. 7", puvod="Hluboká čp. 26",
-              r=["hluboka_krest_frantisek_prochazka_1816", "hluboka_oddani_frantisek_prochazka_1846", "hluboka_krest_marie_prochazkova_1846", "hluboka_krest_franz_henzl_1872"],
-              note="Pra-pra-pradědeček Jana Menšíka (č. 186). Narodil se 1. 12. 1816 v Hluboké čp. 26 jako syn Josefa Procházky a Marie roz. Lepeníkové. Dne 27. 1. 1846 se jako devětadvacetiletý obecník z čp. 53 oženil v Hluboké čp. 7 se sedmnáctiletou Františkou Křesťanovou. Později půlláník a sedlák v Hluboké čp. 7; zemřel před červencem 1872."),
+              f=["* 1. 12. 1816 Hluboká čp. 26", "sedlák, půlláník a obecník v Hluboké čp. 53, 7 a 43",
+                 "∞ 27. 1. 1846 Hluboká (Františka Křesťanová)", "† 31. 5. 1899 Hluboká čp. 43 (82 let, sešlost věkem)"],
+              zam="půlláník a sedlák v Hluboké čp. 7", bydl="Hluboká čp. 7 a 43", puvod="Hluboká čp. 26",
+              r=["hluboka_krest_frantisek_prochazka_1816", "hluboka_oddani_frantisek_prochazka_1846", "hluboka_krest_marie_prochazkova_1846", "hluboka_krest_franz_henzl_1872", "hluboka_umrti_frantisek_prochazka_1899"],
+              note="Pra-pra-pradědeček Jana Menšíka (č. 186). Narodil se 1. 12. 1816 v Hluboké čp. 26 jako syn Josefa Procházky a Marie roz. Lepeníkové. Dne 27. 1. 1846 se jako devětadvacetiletý obecník z čp. 53 oženil v Hluboké čp. 7 se sedmnáctiletou Františkou Křesťanovou. Později půlláník a sedlák v Hluboké čp. 7 a výměnkář v čp. 43; zemřel 31. 5. 1899 v Hluboké čp. 43 ve věku 82 let, 6 měsíců a 28 dní na sešlost věkem."),
 
     187: dict(n="Františka Křesťanová", y="8. 8. 1829 – 17. 7. 1901", st="doc",
               otec=374, matka=375,
@@ -1419,6 +1417,18 @@ P = {
               bydl="Žleby čp. 7 / čp. 126",
               r=["zleby_umrti_josef_taborsky_1846", "zleby_krest_jan_jarolim_1863", "zleby_krest_emilie_jarolimova_1899"],
               note="Měšťan ve Žlebech čp. 7, evangelík helvetského vyznání; zemřel 24. 5. 1846 ve věku 60 let na zatvrdnutí jater. Doložen také v křestních zápisech vnuka Jana a pravnučky Emilie Jarolímových."),
+
+    344: dict(n="Jiří Havel", y="† před 17. 11. 1811", st="doc",
+              f=["z Dolní Krupé", "† před 17. 11. 1811", "otec krejčího Martina Havla"],
+              bydl="Dolní Krupá",
+              r=["krupa_oddani_martin_havel_1811"],
+              note="Otec krejčího Martina Havla z Dolní Krupé; v době synova sňatku (17. 11. 1811) již zesnulý."),
+
+    346: dict(n="Josef Dolanský", y="† před 17. 11. 1811", st="doc",
+              f=["z Dolní Krupé", "† před 17. 11. 1811", "otec Magdaleny provdané Havlové"],
+              bydl="Dolní Krupá",
+              r=["krupa_oddani_martin_havel_1811"],
+              note="Otec Magdaleny Dolanské; v době dceřina sňatku s Martinem Havlem (17. 11. 1811) již zesnulý."),
 
     350: dict(n="Josef Hoffmann", y="cca 1763 – ?", st="doc",
               f=["školní učitel v Pohledu (Frauenthal) čp. 7", "× 29. 9. 1793 Pohled čp. 7 Monika Risslová (30 let)"],
