@@ -2105,11 +2105,18 @@ P = {
               r=["kohoutov_krest_anna_rejnova_1795", "chlum_krest_jan_podrouzek_1829", "chlum_oddani_jan_podrouzek_1855", "chlum_krest_frantiska_podrouzkova_1854"],
               note="Přímá předkyně v 9. generaci (č. 381). Narodila se 12. 5. 1795 v Kohoutově čp. 5 a téhož dne byla pokřtěna kaplanem Janem Michlíčkem jako dcera pololáníka Františka Rejného (č. 762) a Kateřiny (č. 763). Manželka půlláníka Jana Podroužka st. z Chlumu čp. 31 a matka půlláníka Jana Podroužka ml. (* 1829). Doložena v křestní matrice Kohoutova 1795, v křestním zápisu syna Jana roku 1829 i vnučky Františky roku 1854."),
 
-    383: dict(n="Anna Bártová", y="", st="doc",
-              f=["* Slouč čp. 2", "∞ Josef Řehák"],
-              roz="Bártová (Bartošová)", bydl="Chlum čp. 120", puvod="Slouč čp. 2",
-              r=["chlum_oddani_jan_podrouzek_1855", "chlum_krest_frantiska_podrouzkova_1854"],
-              note="Přímá předkyně v 9. generaci (č. 383). Pocházela ze Slouče čp. 2 (okres poličský). Manželka domkaře Josefa Řeháka v Chlumu čp. 120 a matka Antonie provdané Podroužkové. Doložena v křestním zápisu vnučky Františky roku 1854."),
+    383: dict(n="Anna Bártová", y="cca 1802 – 26. 11. 1855", st="doc",
+              otec=766,
+              f=["* cca 1802 (Dlouhý mlýn u Studnic / Dlouhá čp. 2)", "∞ Josef Řehák", "† 26. 11. 1855 Chlum čp. 120 (53 let, hlavnička)", "dcera mlynáře Františka Bárty"],
+              roz="Bártová (Bartošová)", bydl="Chlum čp. 120", puvod="Dlouhý mlýn u Studnic / Dlouhá čp. 2",
+              r=["chlum_umrti_anna_rehakova_1855", "chlum_oddani_jan_podrouzek_1855", "chlum_krest_frantiska_podrouzkova_1854"],
+              note="Přímá předkyně v 9. generaci (č. 383), dcera mlynáře Františka Bárty z Dlouhého mlýna u Studnic (v zápisech z let 1854–1855 též z Dlouhé čp. 2 okresu poličského). Manželka domkaře Josefa Řeháka (Řeháčka) v Chlumu čp. 120 a matka Antonie provdané Podroužkové. Zemřela 26. 11. 1855 v Chlumu čp. 120 ve věku 53 let na hlavničku (pohřbena 28. 11. 1855)."),
+
+    766: dict(n="František Bárta", y="před 1784 – před 1855", st="doc",
+              f=["mlynář na Dlouhém mlýně u Studnic (Dlouhá čp. 2)", "otec Anny Bártové provd. Řehákové (* cca 1802)"],
+              zam="mlynář", bydl="Dlouhý mlýn u Studnic / Dlouhá čp. 2", puvod="Dlouhá / Studnice",
+              r=["chlum_umrti_anna_rehakova_1855", "chlum_oddani_jan_podrouzek_1855", "chlum_krest_frantiska_podrouzkova_1854"],
+              note="Přímý předek v 10. generaci (č. 766), mlynář z Dlouhého mlýna u Studnic (v krucemburských matrikách z let 1854–1855 uváděn jako mlynář z Dlouhé čp. 2 okresu poličského). Otec Anny Bártové provdané Řehákové (č. 383) a Kateřiny Bártové († 14. 12. 1855 v Chlumu čp. 120 jako dcera již zemřelého Františka Bárty)."),
 
     756: dict(n="Václav Kasal", y="před 1772 – ?", st="doc",
               f=["domkař a familiant v Krucemburku", "manžel Magdaleny Vytiskové", "otec Jana Kasala (* 1792)"],
