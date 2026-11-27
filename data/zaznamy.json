@@ -2840,5 +2840,60 @@
     ],
     "shrnuti": "Dne 11. 10. 1833 zemřela ve Vyšehořovicích čp. 22 (pohřbena 13. 10. farářem Janem Kinským) Magdalena Hromadová, manželka bývalého gruntovníka a nyní výměnkáře Matěje Hromady z čp. 22, ve věku 75 let (* cca 1758) na souchotiny (Lungensucht).",
     "odkaz": "https://ebadatelna.soapraha.cz/d/8133/21"
+  },
+  {
+    "klic": "pucery_krest_barbora_safarikova_1785",
+    "nazev": "Křest Barbory Šafáříkové (Pučery, 1785)",
+    "druh": "N",
+    "datum": "11. 4. 1785",
+    "obec": "Pučery čp. 19",
+    "svazek": "ebad_12290",
+    "strana": "fol. 1, sn. 109",
+    "vyrez": "vyrezy/pucery_krest_barbora_safarikova_1785.jpg",
+    "zdroj": "zdroje/pucery_krest_barbora_safarikova_1785.jpg",
+    "osoby": [
+      249,
+      498,
+      499,
+      998
+    ],
+    "shrnuti": "Dne 11. 4. 1785 byla v Pučerech čp. 19 pokřtěna Barbora, manželská dcera pololáníka Matěje Šafáříka a Doroty roz. Jana Maška/Mašína z Pučer.",
+    "odkaz": "https://ebadatelna.soapraha.cz/d/12290/109"
+  },
+  {
+    "klic": "pucery_oddani_jakub_sedlacek_1804",
+    "nazev": "První sňatek Barbory Šafáříkové s Jakubem Sedláčkem (Pučery, 1804)",
+    "druh": "O",
+    "datum": "22. 4. 1804",
+    "obec": "Pučery čp. 2",
+    "svazek": "ebad_12291",
+    "strana": "fol. 7, sn. 51",
+    "vyrez": "vyrezy/pucery_oddani_jakub_sedlacek_1804.jpg",
+    "zdroj": "zdroje/pucery_oddani_jakub_sedlacek_1804.jpg",
+    "osoby": [
+      249,
+      498
+    ],
+    "shrnuti": "Dne 22. 4. 1804 se v Pučerech čp. 2 oženil vdovec a sedlák Jakub Sedláček (48 let) s devatenáctiletou Barborou (* 1785), dcerou pololáníka Matěje Šafáříka z Pučer.",
+    "odkaz": "https://ebadatelna.soapraha.cz/d/12291/51"
+  },
+  {
+    "klic": "pucery_oddani_matej_safarik_1769",
+    "nazev": "Sňatek Matěje Šafáříka a Doroty Mašínové (Solopysky / Pučery, 1769)",
+    "druh": "O",
+    "datum": "29. 10. 1769",
+    "obec": "Pučery (fara Solopysky)",
+    "svazek": "ebad_12295",
+    "strana": "pag. 265, sn. 136",
+    "vyrez": "vyrezy/pucery_oddani_matej_safarik_1769.jpg",
+    "zdroj": "zdroje/pucery_oddani_matej_safarik_1769.jpg",
+    "osoby": [
+      498,
+      499,
+      996,
+      998
+    ],
+    "shrnuti": "Dne 29. 10. 1769 se v Solopyskách oženil Matěj Šafářík, syn Josefa Šafáříka z Pučer, s Dorotou, dcerou Jana Mašína z Pučer (oba poddaní panství zásmuckému).",
+    "odkaz": "https://ebadatelna.soapraha.cz/d/12295/136"
   }
 ]

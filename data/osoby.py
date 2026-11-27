@@ -1294,11 +1294,12 @@ P = {
               r=["pucery_oddani_antonin_mestanek_1818", "pucery_umrti_antonin_mestanek_1844", "bojiste_oddani_vaclav_mestanek_1858", "bojiste_krest_josef_mestanek_1859"],
               note="Kočí (Pferdknecht) a zeměbranec, později domkář, nádeník a obyvatel v Pučerech čp. 2 na Kouřimsku. Dne 9. 11. 1818 se ve věku 25 let (* cca 1793) v Pučerech čp. 2 oženil s Barborou (* cca 1791, roz. Šafáříkovou), vdovou po výměnkáři Jakubu Sedláčkovi z Pučer čp. 2 (Solopysky 14, fol. 13, sn. 54). Zemřel 27. 1. 1844 v Pučerech čp. 2 ve věku 53 let (* cca 1791). Otec tesaře a dělostřeleckého záložníka Václava Měšťánka a dědeček Josefa Měšťánka (* 1859)."),
 
-    249: dict(n="Barbora Měšťánková", y="* cca 1791", st="doc",
-              f=["* cca 1791", "dcera Matěje Šafáříka z Pučer a Doroty roz. Mašínové", "× 9. 11. 1818 Pučery čp. 2 (Antonín Měšťánek)", "dříve provdaná za † Jakuba Sedláčka z Pučer čp. 2"],
-              roz="Šafáříková", bydl="Pučery čp. 2", puvod="Pučery",
-              r=["pucery_oddani_antonin_mestanek_1818", "pucery_krest_vaclav_mestanek_1830", "bojiste_oddani_vaclav_mestanek_1858", "bojiste_krest_josef_mestanek_1859"],
-              note="Dcera výměnkáře Matěje Šafáříka z Pučer a Doroty roz. Mašínové z Pučer (doloženo křtem syna Václava 15. 9. 1830). Poprvé provdaná za Jakuba Sedláčka, výměnkáře z Pučer čp. 2; jako 27letá vdova (* cca 1791) se dne 9. 11. 1818 v Pučerech čp. 2 provdala za Antonína Měšťánka (Solopysky 14, fol. 13, sn. 54). Matka tesaře Václava Měšťánka a babička Josefa Měšťánka (* 1859)."),
+    249: dict(n="Barbora Měšťánková", y="* 11. 4. 1785", st="doc",
+              otec=498, matka=499,
+              f=["* 11. 4. 1785 Pučery čp. 19", "dcera pololáníka Matěje Šafáříka z Pučer a Doroty roz. Mašínové", "I. × 22. 4. 1804 Pučery čp. 2 (Jakub Sedláček, 48 let)", "II. × 9. 11. 1818 Pučery čp. 2 (Antonín Měšťánek)"],
+              roz="Šafáříková", bydl="Pučery čp. 19 a čp. 2", puvod="Pučery čp. 19",
+              r=["pucery_krest_barbora_safarikova_1785", "pucery_oddani_jakub_sedlacek_1804", "pucery_oddani_antonin_mestanek_1818", "pucery_krest_vaclav_mestanek_1830", "bojiste_oddani_vaclav_mestanek_1858", "bojiste_krest_josef_mestanek_1859"],
+              note="Narozena 11. 4. 1785 v Pučerech čp. 19 jako dcera pololáníka Matěje Šafáříka a Doroty roz. Jana Mašína. Dne 22. 4. 1804 se ve věku 19 let provdala za vdovce a sedláka Jakuba Sedláčka z Pučer čp. 2 (48 let). Po jeho smrti se 9. 11. 1818 v Pučerech čp. 2 podruhé provdala za Antonína Měšťánka (v zápisu z r. 1818 udán nižší věk 27 let)."),
 
     250: dict(n="Václav Kos", y="* cca 1811", st="doc",
               f=["* cca 1810–1811 Svrabov čp. 35", "× 13. 1. 1835 Pečky (farnost Nebovidy pro Bojiště čp. 10) Marie Kollářová"],
@@ -1584,6 +1585,20 @@ P = {
               r=["vysehorovice_krest_vaclav_hromada_1832"],
               note="Pocházela z Úhonic, manželka Jana Jirkovského, výminkáře ve Vyšehořovicích čp. 25."),
 
+    498: dict(n="Matěj Šafářík", y="před 1750 – po 1785", st="doc",
+              otec=996,
+              f=["× 29. 10. 1769 Solopysky / Pučery (Dorota Mašínová)", "syn Josefa Šafáříka z Pučer"],
+              zam="pololáník v Pučerech čp. 19", puvod="Pučery", bydl="Pučery čp. 19",
+              r=["pucery_oddani_matej_safarik_1769", "pucery_krest_barbora_safarikova_1785", "pucery_oddani_jakub_sedlacek_1804"],
+              note="Pololáník v Pučerech čp. 19 (panství Zásmuky), syn Josefa Šafáříka. Dne 29. 10. 1769 se v Solopyskách oženil s Dorotou Mašínovou z Pučer. Otec Barbory provdané Sedláčkové, podruhé Měšťánkové (* 1785)."),
+
+    499: dict(n="Dorota Šafáříková", y="před 1752 – po 1785", st="doc",
+              otec=998,
+              f=["× 29. 10. 1769 Solopysky / Pučery (Matěj Šafářík)", "dcera Jana Mašína z Pučer"],
+              roz="Mašínová", puvod="Pučery", bydl="Pučery čp. 19",
+              r=["pucery_oddani_matej_safarik_1769", "pucery_krest_barbora_safarikova_1785"],
+              note="Dcera Jana Mašína (Maška) z Pučer, poddaná panství zásmuckému. Dne 29. 10. 1769 se v Solopyskách provdala za Matěje Šafáříka z Pučer."),
+
     500: dict(n="Jan Kos", y="", st="doc",
               f=["× Kateřina Fukalková"],
               zam="tovaryš tesařský a baráčník ve Svrabově čp. 35", puvod="Svrabov (panství Černokostelecké)", bydl="Svrabov čp. 35",
@@ -1619,6 +1634,16 @@ P = {
                puvod="Pečky čp. 52 (panství Pečky)", bydl="Pečky čp. 52",
                r=["bojiste_oddani_vaclav_kos_1835"],
                note="Chalupník v Pečkách (Červené Pečky) čp. 52 na panství Pečky, otec Anny Kollářové roz. Pomyjové."),
+
+    996: dict(n="Josef Šafářík", y="", st="doc",
+              f=["z Pučer"], puvod="Pučery", bydl="Pučery",
+              r=["pucery_oddani_matej_safarik_1769"],
+              note="Obyvatel v Pučerech na panství zásmuckém, otec Matěje Šafáříka (∞ 1769)."),
+
+    998: dict(n="Jan Mašín", y="? – před 1785", st="doc",
+              f=["z Pučer", "† před 11. 4. 1785"], puvod="Pučery", bydl="Pučery",
+              r=["pucery_oddani_matej_safarik_1769", "pucery_krest_barbora_safarikova_1785"],
+              note="Obyvatel v Pučerech (uváděn jako Mašín / Mašek), otec Doroty provdané Šafáříkové (∞ 1769). Při křtu vnučky Barbory v dubnu 1785 již uváděn jako zemřelý."),
 
     704: dict(n='Václav Holánek', y='1726–1787', st='mh',
 
