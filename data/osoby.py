@@ -1585,12 +1585,12 @@ P = {
               r=["vysehorovice_krest_vaclav_hromada_1832"],
               note="Pocházela z Úhonic, manželka Jana Jirkovského, výminkáře ve Vyšehořovicích čp. 25."),
 
-    498: dict(n="Matěj Šafářík", y="před 1750 – po 1785", st="doc",
-              otec=996,
-              f=["× 29. 10. 1769 Solopysky / Pučery (Dorota Mašínová)", "syn Josefa Šafáříka z Pučer"],
+    498: dict(n="Matěj Šafářík", y="~ 20. 2. 1743 – po 1785", st="doc",
+              otec=996, matka=997,
+              f=["~ 20. 2. 1743 Pučery (fara Solopysky)", "× 29. 10. 1769 Solopysky / Pučery (Dorota Mašínová)", "syn Josefa Šafáře a Marie Magdaleny z Pučer"],
               zam="pololáník v Pučerech čp. 19", puvod="Pučery", bydl="Pučery čp. 19",
-              r=["pucery_oddani_matej_safarik_1769", "pucery_krest_barbora_safarikova_1785", "pucery_oddani_jakub_sedlacek_1804"],
-              note="Pololáník v Pučerech čp. 19 (panství Zásmuky), syn Josefa Šafáříka. Dne 29. 10. 1769 se v Solopyskách oženil s Dorotou Mašínovou z Pučer. Otec Barbory provdané Sedláčkové, podruhé Měšťánkové (* 1785)."),
+              r=["pucery_krest_matej_safarik_1743", "pucery_oddani_matej_safarik_1769", "pucery_krest_barbora_safarikova_1785", "pucery_oddani_jakub_sedlacek_1804"],
+              note="Pololáník v Pučerech čp. 19 (panství Zásmuky), syn Josefa Šafáře (Šafáříka) a Marie Magdaleny. Pokřtěn 20. 2. 1743 v Solopyskách. Dne 29. 10. 1769 se v Solopyskách oženil s Dorotou Mašínovou z Pučer. Otec Barbory provdané Sedláčkové, podruhé Měšťánkové (* 1785)."),
 
     499: dict(n="Dorota Šafáříková", y="před 1752 – po 1785", st="doc",
               otec=998,
@@ -1636,9 +1636,14 @@ P = {
                note="Chalupník v Pečkách (Červené Pečky) čp. 52 na panství Pečky, otec Anny Kollářové roz. Pomyjové."),
 
     996: dict(n="Josef Šafářík", y="", st="doc",
-              f=["z Pučer"], puvod="Pučery", bydl="Pučery",
-              r=["pucery_oddani_matej_safarik_1769"],
-              note="Obyvatel v Pučerech na panství zásmuckém, otec Matěje Šafáříka (∞ 1769)."),
+              f=["soused v Pučerech", "× Marie Magdalena"], puvod="Pučery", bydl="Pučery",
+              r=["pucery_krest_matej_safarik_1743", "pucery_oddani_matej_safarik_1769"],
+              note="Soused v Pučerech na panství zásmuckém, manžel Marie Magdaleny, otec Matěje Šafáříka (* 1743)."),
+
+    997: dict(n="Marie Magdalena Šafáříková", y="", st="doc",
+              f=["× Josef Šafářík"], puvod="Pučery", bydl="Pučery",
+              r=["pucery_krest_matej_safarik_1743"],
+              note="Manželka Josefa Šafáře (Šafáříka), souseda v Pučerech, matka Matěje Šafáříka (* 1743)."),
 
     998: dict(n="Jan Mašín", y="? – před 1785", st="doc",
               f=["z Pučer", "† před 11. 4. 1785"], puvod="Pučery", bydl="Pučery",

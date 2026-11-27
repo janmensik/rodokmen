@@ -1520,5 +1520,21 @@
   "popis": "Červený Hrádek, Chotouchov, Jindice, Křečovice, Mančice, Miletín, Poďousy, Pučery, Rašovice, Solopysky",
   "snimku": 253,
   "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/12290"
+ },
+ "ebad_12294": {
+  "archiv": "SOA Praha – Sbírka matrik",
+  "portal": "eBadatelna",
+  "svazek": "Solopysky 02, N 1691–1743, O 1691–1733, Z 1692–1737",
+  "popis": "Bečvárky, Bečváry, Červený Hrádek, Chotouchov, Drahobudice, Hatě, Horní Jelčany, Jindice, Křečovice, Malenovice, Mančice, Miletín, Poďousy, Pučery, Rašovice, Solopysky",
+  "snimku": 450,
+  "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/12294"
+ },
+ "ebad_7350": {
+  "archiv": "SOA Praha – Sbírka matrik",
+  "portal": "eBadatelna",
+  "svazek": "Křivsoudov 03, N 1752–1777, Ni 1718–1784, O 1752–1777, Oi 1718–1777, Z 1752–1777, Zi 1718–1777",
+  "popis": "Alberovice, Děkanovice, Hulice, Javorník, Kačerov, Keblov, Křivsoudov, Lhota Bubeneč, Němčice, Sedlice, Sedmpány, Strojetice",
+  "snimku": 520,
+  "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/7350"
  }
 }

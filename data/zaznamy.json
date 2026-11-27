@@ -2895,5 +2895,23 @@
     ],
     "shrnuti": "Dne 29. 10. 1769 se v Solopyskách oženil Matěj Šafářík, syn Josefa Šafáříka z Pučer, s Dorotou, dcerou Jana Mašína z Pučer (oba poddaní panství zásmuckému).",
     "odkaz": "https://ebadatelna.soapraha.cz/d/12295/136"
+  },
+  {
+    "klic": "pucery_krest_matej_safarik_1743",
+    "nazev": "Křest Matěje Šafáříka (Pučery, 1743)",
+    "druh": "N",
+    "datum": "~ 20. 2. 1743",
+    "obec": "Pučery (fara Solopysky)",
+    "svazek": "ebad_12294",
+    "strana": "pag. 590, sn. 299",
+    "vyrez": "vyrezy/pucery_krest_matej_safarik_1743.jpg",
+    "zdroj": "zdroje/pucery_krest_matej_safarik_1743.jpg",
+    "osoby": [
+      498,
+      996,
+      997
+    ],
+    "shrnuti": "Dne 20. 2. 1743 byl v kostele sv. Bartoloměje v Solopyskách pokřtěn Matěj, syn Josefa Šafáře (Šafáříka), souseda v Pučerech, a matky Marie Magdaleny, poddaných k Zásmukům.",
+    "odkaz": "https://ebadatelna.soapraha.cz/d/12294/299"
   }
 ]
