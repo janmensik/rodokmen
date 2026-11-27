@@ -1566,11 +1566,11 @@ P = {
               r=["vysehorovice_krest_matej_hromada_1763", "vysehorovice_krest_vaclav_hromada_1793", "vysehorovice_oddani_vaclav_hromada_1817", "vysehorovice_krest_vaclav_hromada_1832", "vysehorovice_umrti_matej_hromada_1843"],
               note="Rychtář a gruntovník ve Vyšehořovicích čp. 7 a 22 na kounickém panství. Narozen 9. 3. 1763 ve Vyšehořovicích (pokřtěn 10. 3.) jako syn sedláka Václava Hromady a Anny. Otec gruntovníka Václava Hromady st. (* 1793). Zemřel jako bývalý rychtář a výměnkář 20. 4. 1843 ve Vyšehořovicích čp. 22 (udáno 75 let, skutečný věk 80 let)."),
 
-    489: dict(n="Magdalena Hromadová", y="", st="doc",
-              f=["× Matěj Hromada"],
+    489: dict(n="Magdalena Hromadová", y="cca 1758 – 11. 10. 1833", st="doc",
+              f=["* cca 1758 Chýšť čp. 10", "× Matěj Hromada", "† 11. 10. 1833 Vyšehořovice čp. 22 (75 let, souchotiny)"],
               roz="Burianková", puvod="Chýšť čp. 10", bydl="Vyšehořovice čp. 7 a 22",
-              r=["vysehorovice_krest_vaclav_hromada_1793", "vysehorovice_krest_vaclav_hromada_1832"],
-              note="Dcera Matěje Burianka z Chýště čp. 10 na panství Chlumec nad Cidlinou. Manželka rychtáře a gruntovníka Matěje Hromady z Vyšehořovic čp. 22."),
+              r=["vysehorovice_krest_vaclav_hromada_1793", "vysehorovice_krest_vaclav_hromada_1832", "vysehorovice_umrti_magdalena_hromadova_1833"],
+              note="Dcera Matěje Burianka z Chýště čp. 10 na panství Chlumec nad Cidlinou. Manželka rychtáře a gruntovníka Matěje Hromady z Vyšehořovic čp. 22. Zemřela 11. 10. 1833 ve Vyšehořovicích čp. 22 jako manželka výměnkáře Matěje Hromady ve věku 75 let na souchotiny (pohřbena 13. 10. 1833)."),
 
     490: dict(n="Jan Jirkovský", y="* cca 1759 – † 5. 10. 1839", st="doc",
               f=["* cca 1759", "× Alžběta Špačková", "† 5. 10. 1839 Vyšehořovice čp. 25 (80 let)"],
