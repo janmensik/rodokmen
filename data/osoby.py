@@ -404,23 +404,23 @@ P = {
 
              note="Narození v Dolní Krupé čp. 42 (sign. 2840, sn. 206) i sňatek 29. 5. 1888 (sign. 5946, sn. 102) doloženy ze snímků matrik SOA Zámrsk. Dcera mistra krejčovského Jana Havla a Anny roz. Jeřábkové."),
 
-    44: dict(n="František Holánek", y="1854 – po 1896", st="doc",
+    44: dict(n="František Holánek", y="1854–1935", st="doc",
 
-             f=["* 4. 8. 1854 Staré Ransko čp. 53", "× Julie Šímová", "† po 1896"],
+             f=["* 4. 8. 1854 Staré Ransko čp. 53", "× Julie Šímová", "† 3. 4. 1935 Staré Ransko čp. 13 (80 let)"],
 
-             zam="zámečník",
+             zam="zámečník a strojnický mistr", bydl="Staré Ransko čp. 53, čp. 55 a čp. 13", puvod="Staré Ransko čp. 53",
 
-             r=["ransko_krest_frantisek_holanek_1854"],
+             r=["ransko_krest_frantisek_holanek_1854", "ransko_umrti_julie_holankova_1928", "ransko_umrti_frantisek_holanek_1935"],
 
-             note="Narození ve Starém Ransku čp. 53 doloženo přímo z matriky SOA Zámrsk / ARON (sign. 711, sn. 188, pag. 185). Pokřtěn 4. 8. 1854. Zámečník ve Starém Ransku."),
+             note="Narození ve Starém Ransku čp. 53 doloženo z matriky SOA Zámrsk / ARON (sign. 711, sn. 188, pag. 185, pokřtěn 4. 8. 1854). Strojnický mistr v raneckých železárnách, bytem ve Starém Ransku čp. 55 a na odpočinku v čp. 13. Zemřel náhle jako vdovec 3. 4. 1935 ve Starém Ransku čp. 13 (sign. 8327, sn. 184, pag. 355–356; v úmrtním zápise uvedeno mylné datum narození 4. 10. 1854) a 6. 4. 1935 byl pohřben u sv. Mikuláše v Krucemburku."),
 
-    45: dict(n="Julie Šímová", y="1854 – po 1896", st="doc",
+    45: dict(n="Julie Šímová", y="1854–1928", st="doc",
 
-             f=["* 16. 3. 1854 Staré Ransko čp. 46", "křest 18. 3. 1854 Krucemburk (P. Ferdinand Rimeš)", "∞ František Holánek", "† po 1896"],
-             bydl="Staré Ransko čp. 46, později čp. 55", puvod="Staré Ransko čp. 46",
-             r=["ransko_krest_julie_simova_1854"],
+             f=["* 16. 3. 1854 Staré Ransko čp. 46", "křest 18. 3. 1854 Krucemburk (P. Ferdinand Rimeš)", "∞ František Holánek", "† 7. 2. 1928 Staré Ransko čp. 13 (73 let)"],
+             bydl="Staré Ransko čp. 46, čp. 55 a čp. 13", puvod="Staré Ransko čp. 46",
+             r=["ransko_krest_julie_simova_1854", "ransko_umrti_julie_holankova_1928"],
 
-             note="Narození ve Starém Ransku čp. 46 doloženo přímo z matriky SOA Zámrsk / ARON (sign. 711, sn. 183, fol. 180). Pokřtěna 18. 3. 1854 kaplanem Ferdinandem Rimešem. Dcera kovolijce Matěje Šímy (syna drába Tomáše Šímy z čp. 2 a Marie roz. Halíkové z Volešné čp. 25) a Františky roz. Benové (dcery hamernického mistra Františka Bena z čp. 41 a Karoliny roz. Králíčkové z České Kamenice). Manželka zámečníka Františka Holánka v čp. 55 a maminka Julia Holánka (* 1889)." ),
+             note="Narození ve Starém Ransku čp. 46 doloženo z matriky SOA Zámrsk / ARON (sign. 711, sn. 183, fol. 180, pokřtěna 18. 3. 1854). Dcera havíře a kovolijce Matěje Šímy a Františky roz. Benové. Manželka strojnického mistra Františka Holánka. Zemřela 7. 2. 1928 ve Starém Ransku čp. 13 (sign. 8327, sn. 180, pag. 347–348; v úmrtním zápise uvedeno mylné datum narození 22. 5. 1854) a 9. 2. 1928 byla pohřbena u sv. Mikuláše v Krucemburku." ),
 
     46: dict(n="Franz Henzl", y="1872–1954", st="doc",
              f=["* 12. 7. 1872 Hluboká čp. 15", "křest 13. 7. 1872 Hluboká (P. Augustin Jelínek)",
@@ -661,12 +661,12 @@ P = {
              r=["krupa_krest_antonie_havlova_1857", "krupa_umrti_anna_havlova_1886", "krupa_oddani_jan_jarolim_1888", "zleby_krest_emilie_jarolimova_1899"],
              note="Dcera učitele Ignáce Jeřábka a Josefy roz. Hoffmannové z Frauenthalu (Pohledu) čp. 5. Narodila se kolem roku 1821 v Čachotíně; kolem roku 1854 se provdala za krejčího Jana Havla z Dolní Krupé čp. 42. Zemřela 9. 3. 1886 v Dolní Krupé čp. 42 ve věku 65 let (v manželství 32 let) na sešlost věkem."),
 
-    88: dict(n="Jan Holánek", y="* 1820", st="doc",
+    88: dict(n="Jan Holánek", y="1820–1885", st="doc",
              f=["* 18. 6. 1820 Staré Ransko čp. 45", "× Johanna Hlaváčková",
-                "syn mistra kovářského Josefa Holánka a Barbory Slámové"],
-             zam="domkař", bydl="Staré Ransko čp. 53",
-             r=["ransko_krest_frantisek_holanek_1854", "ransko_krest_jan_holanek_1820"],
-             note="Domkař ve Starém Ransku čp. 53. Narození doloženo v matrice SOA Zámrsk sign. 8327, sn. 47 (* 18. 6. 1820 Staré Ransko čp. 45, syn kovářského mistra Josefa Holánka a Barbory dcery tesařského mistra Jana Slámy z čp. 33 a Alžběty roz. Dymáčkové). Doložen též v křestní matrice syna Františka (* 1854, sign. 711, sn. 188)."),
+                "syn mistra kovářského Josefa Holánka a Barbory Slámové", "† 2. 3. 1885 Staré Ransko čp. 43 (65 let)"],
+             zam="zámečník a domkař", bydl="Staré Ransko čp. 53 a čp. 43",
+             r=["ransko_krest_frantisek_holanek_1854", "ransko_krest_jan_holanek_1820", "ransko_umrti_jan_holanek_1885"],
+             note="Zámečník a domkař ve Starém Ransku čp. 53 a čp. 43. Narození doloženo v matrice SOA Zámrsk sign. 8327, sn. 47 (* 18. 6. 1820 Staré Ransko čp. 45, syn kovářského mistra Josefa Holánka a Barbory dcery tesařského mistra Jana Slámy z čp. 33 a Alžběty roz. Dymáčkové). Zemřel 2. 3. 1885 ve Starém Ransku čp. 43 ve věku 65 let na souchotě (sign. 8327, sn. 160, pag. 312)."),
 
     89: dict(n="Johanna Hlaváčková", y="", st="doc",
              f=["× Jan Holánek", "dcera zámečníka/uhlíře Vojtěcha Hlaváčka a Barbory Heislerové"],
@@ -674,11 +674,11 @@ P = {
              r=["ransko_krest_frantisek_holanek_1854", "ransko_krest_vojtech_hlavacek_1837"],
              note="Doložena v křestní matrice syna Františka (* 1854, sign. 711, sn. 188). Manželská dcera zámečnického mistra a uhlíře Vojtěcha Hlaváčka ze Starého Ranska čp. 49 a Barbory roz. Heislerové (Haislerové)."),
 
-    90: dict(n="Matěj Šíma", y="* cca 1815", st="doc",
-             f=["× 31. 1. 1837 Staré Ransko Františka Benová (22 let)"],
-             zam="havíř a kovolijec", bydl="Staré Ransko čp. 20, čp. 41 a čp. 46",
-             r=["ransko_oddani_matej_sima_1837", "ransko_krest_jan_sima_1837", "ransko_krest_julie_simova_1854"],
-             note="Havíř a kovolijec v raneckých hutích a železárnách (v rodinné tradici PDF dříve chybně tradováno jako 'horolezec' – vyvráceno, opraveno a doloženo z originálních matrik SOA Zámrsk sign. 8327 a sign. 711). Dne 31. 1. 1837 se ve svých 22 letech (* cca 1815) oženil na Ransku čp. 20 s Františkou Benovou. Manželský syn panského drába † Tomáše Šímy z Ranska čp. 1 a Marie Anny rozené Halíkové z Volešné čp. 25."),
+    90: dict(n="Matěj Šíma", y="cca 1814 – 21. 4. 1892", st="doc",
+             f=["× 31. 1. 1837 Staré Ransko Františka Benová (22 let)", "† 21. 4. 1892 Staré Ransko čp. 13 (78 let, vdovec)"],
+             zam="havíř a kovolijec", bydl="Staré Ransko čp. 20, čp. 41, čp. 46 a čp. 13",
+             r=["ransko_oddani_matej_sima_1837", "ransko_krest_jan_sima_1837", "ransko_krest_julie_simova_1854", "ransko_umrti_matej_sima_1892"],
+             note="Havíř a kovolijec v raneckých hutích a železárnách (v jeho úmrtním zápise zapsán jako 'bývalý horolezec' – dobový výraz pro rudokopa/havíře, odkud pochází i rodinná tradice). Dne 31. 1. 1837 se ve svých 22 letech (* cca 1815) oženil na Ransku čp. 20 s Františkou Benovou. Manželský syn panského drába † Tomáše Šímy z Ranska čp. 1 a Marie Anny rozené Halíkové z Volešné čp. 25. Zemřel jako vdovec 21. 4. 1892 ve Starém Ransku čp. 13 ve věku 78 let na sešlost věkem (sign. 8327, sn. 164, pag. 319)."),
 
     91: dict(n="Františka Benová", y="* cca 1811", st="doc",
              f=["× 31. 1. 1837 Staré Ransko Matěj Šíma (26 let)"], bydl="Staré Ransko čp. 41",
