@@ -680,10 +680,10 @@ P = {
              r=["ransko_oddani_matej_sima_1837", "ransko_krest_jan_sima_1837", "ransko_krest_julie_simova_1854", "ransko_umrti_matej_sima_1892"],
              note="Havíř a kovolijec v raneckých hutích a železárnách (v jeho úmrtním zápise zapsán jako 'bývalý horolezec' – dobový výraz pro rudokopa/havíře, odkud pochází i rodinná tradice). Dne 31. 1. 1837 se ve svých 22 letech (* cca 1815) oženil na Ransku čp. 20 s Františkou Benovou. Manželský syn panského drába † Tomáše Šímy z Ranska čp. 1 a Marie Anny rozené Halíkové z Volešné čp. 25. Zemřel jako vdovec 21. 4. 1892 ve Starém Ransku čp. 13 ve věku 78 let na sešlost věkem (sign. 8327, sn. 164, pag. 319)."),
 
-    91: dict(n="Františka Benová", y="* cca 1811", st="doc",
-             f=["× 31. 1. 1837 Staré Ransko Matěj Šíma (26 let)"], bydl="Staré Ransko čp. 41",
-             r=["ransko_oddani_matej_sima_1837", "ransko_krest_jan_sima_1837", "ransko_krest_julie_simova_1854"],
-             note="Doložena v oddacím zápisu (31. 1. 1837, 26 let, * cca 1811) i v křestní matrice dětí Jana (* 1837) a Julie (* 1854). Manželská dcera Františka Bena, mistra hamernického ze Starého Ranska čp. 41, a Karoliny rozené Králíčkové z Jindřichova Hradce."),
+    91: dict(n="Františka Benová", y="cca 1810 – 14. 5. 1875", st="doc",
+             f=["× 31. 1. 1837 Staré Ransko Matěj Šíma (26 let)", "† 14. 5. 1875 Staré Ransko čp. 55 (65 let)"], bydl="Staré Ransko čp. 41 a čp. 55",
+             r=["ransko_oddani_matej_sima_1837", "ransko_krest_jan_sima_1837", "ransko_krest_julie_simova_1854", "ransko_umrti_frantiska_simova_1875"],
+             note="Doložena v oddacím zápisu (31. 1. 1837, 26 let, * cca 1811), v křestní matrice dětí Jana (* 1837) a Julie (* 1854) i v úmrtní matrice Starého Ranska (14. 5. 1875 čp. 55, 65 let, na vodnatelnost, sign. 8327, sn. 156, pag. 303). Manželská dcera Františka Bena, mistra hamernického ze Starého Ranska čp. 41, a Karoliny rozené Králíčkové z Jindřichova Hradce."),
 
     92: dict(n="Václav Henzl", y="6. 8. 1844 – před 3. 5. 1907", st="doc",
              f=["* 6. 8. 1844 Hluboká čp. 15 (pokřtěn 7. 8. 1844)", "∞ Marie Procházková", "† před 3. 5. 1907 (manželka zemřela jako vdova)"],
